@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>repo.roscidus.com</title>
+  </head>
+  <body>
+    <h1>repo.roscidus.com: java</h1>
+    <p>
+      To get the traditional Java commands:
+    </p>
+
+    <pre>
+      $ 0alias java http://repo.roscidus.com/java/openjdk-6-jre
+      $ 0alias javac http://repo.roscidus.com/java/openjdk-6-jdk
+    </pre>
+
+    <p>
+      The other tools are available by passing the tool name as a third argument, e.g.
+    </p>
+
+    <pre>
+      $ 0alias javadoc http://repo.roscidus.com/java/openjdk-6-jdk javadoc
+    </pre>
+
+    <p>
+      When making packages that depend on Java, either add the JRE's bin directory to $PATH,
+      or use this pattern:
+    </p>
+
+    <pre>
+      "${MYPROG_JRE_BIN}java" ...
+    </pre>
+
+    <p>
+      If Zero Install selects a native version of Java (part of your distribution) then
+      MYPROG_JRE_BIN will expand to the empty string and the command will simply invoke "java".
+      Otherwise, it will run java from the selected Zero Install implementation.
+    </p>
+
+    <h2>Available feeds</h2>
+
+    <ul>
+      <li><a href='openjdk-6-jre'>OpenJDK JRE (Runtime)</a></li>
+      <li><a href='openjdk-6-jdk'>OpenJDK JDK (Developer Kit)</a></li>
+      <li><a href='swt'>SWT</a> (the Standard Widget Toolkit)</li>
+    </ul>
+  </body>
+</html>
