@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://repo.roscidus.com/java/swt" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>swt</name>
+  <summary>the Standard Widget Toolkit</summary>
+  <description>
+SWT is an open source widget toolkit for Java designed to provide efficient,
+portable access to the user-interface facilities of the operating systems on
+which it is implemented.</description>
+  <homepage>http://www.eclipse.org/swt/</homepage>
+  <category>Development</category>
+  <group license="Eclipse Public License and LGPL">
+    <implementation arch="Linux-x86_64" id="sha1new=ef03ea4907d195beeb4e20d9427e565f3879b8ff" released="2009-12-31" version="3.5.1">
+    <archive extract="swt" href="http://repo.roscidus.com/java/swt/swt-3.5.1-gtk-linux-x86_64.tar.bz2" size="1439711" type="application/x-bzip-compressed-tar"/>
+  </implementation>
+    <implementation arch="Linux-i386" id="sha1new=d1ac00014927f17d81b0e21e655fc15202d10dd0" released="2009-12-31" version="3.5.1">
+    <archive extract="swt" href="http://repo.roscidus.com/java/swt/swt-3.5.1-gtk-linux-x86.tar.bz2" size="1341127" type="application/x-bzip-compressed-tar"/>
+  </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQEcBAABCAAGBQJLPO3zAAoJEAcTP5bKdNi643YH/jFzgfiWEwsdL/5quv7sgass7Of7I3Zbcbqo
+hbvtdmh1vWPIUSuzRdCdqddS4bSQOH5tJg78aSumCqm+O4KIeQlJvtf4AbvhQTVYu0MPINCd9DGX
+M1cB02f74iCjuosAzYRpdw/1yZ/tQOs/3DiQEgEenKWWiH6XvK7Twoq6RTq1h4cIMmmdaNfFDKtV
+02mLCOJKc8KVltwpVVsEMBD+fwKh3/booeoVSlpKnv1Im1TGn5fgouuvxaay+Sb2xskGHRL0wh/F
+ny1Kd0iGf9qPxWLw4CwLVGl8Gp/vyq6n4p4HcsQDPN/WOVpicTehvDtgncRmB1nG6GUjJvFg2VBD
+I7A=
+
+-->
