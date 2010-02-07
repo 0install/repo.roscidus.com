@@ -10,7 +10,8 @@ print "(version %s)" % version
 target_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 os.chdir(target_dir)
 
-dest_zip = os.path.join(target_dir, 'hsqldb-bin-%s.zip' % version)
+# zip+extract attribute doesn't work in 0launch < 0.45, so use .tar.bz2
+dest_zip = os.path.join(target_dir, 'hsqldb-bin-%s.tar.bz2' % version)
 
 assert not os.path.exists(dest_zip), "%s already exists" % dest_zip
 
@@ -33,14 +34,14 @@ files = glob('hsqldb/*.html') +	\
 	glob('hsqldb/doc/*.txt') + \
 	['hsqldb/lib/hsqldb.jar']
 
-subprocess.check_call(['zip', '-r', dest_zip] + files)
+subprocess.check_call(['tar', 'cjf', dest_zip] + files)
 
 print "Wrote", dest_zip
 shutil.rmtree(tmp_dir)
 
 os.chdir(target_dir)
 subprocess.check_call(['0launch', 'http://0install.net/2006/interfaces/0publish',
-			'HyperSQL.xml',
+			'feed.xml',
 			'--add-version=' + version,
 			'--set-released=today',
 			'--archive-url=http://repo.roscidus.com/java/hsqldb/' + os.path.basename(dest_zip),

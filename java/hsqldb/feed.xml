@@ -11,17 +11,17 @@ in-memory and disk-based tables and supports embedded and server modes.
 Additionally, it includes tools such as a command line SQL tool and GUI query
 tools.</description>
   <homepage>http://hsqldb.org/</homepage>
-  <implementation id="sha1new=6979a0cc544e2ddd48f2c3e80a6ef53e4e606c09" released="2010-02-07" version="2.0.0-rc8">
-    <manifest-digest sha256="d8f74d59f6ae4317a454152437c29231f139a0d7f24897523b4ac99fa4f4fb6e"/>
-    <archive extract="hsqldb" href="http://repo.roscidus.com/java/hsqldb/hsqldb-bin-2.0.0-rc8.zip" size="1623794"/>
+  <implementation id="sha1new=4ddf5a731e08856bb81b94a19f82448e493b315b" released="2010-02-07" version="2.0.0-rc8">
+    <manifest-digest sha256="0434f6bc5e24bca516805d0b68cd202d0c20d570820684c1f87c5010803871a6"/>
+    <archive extract="hsqldb" href="http://repo.roscidus.com/java/hsqldb/hsqldb-bin-2.0.0-rc8.tar.bz2" size="1626331"/>
   </implementation>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJLbtcZAAoJEAcTP5bKdNi6JKAIAKRFkTAwXhIl8snP4Rta07X4YeoDBdVGW8FL
-MkaBVyVJxGbpZsIVcU8L0AHiEIzXAcGUbxwnu0L9R5KeotTUSntQMFslQZk+4uh7fBXW4qejGPQr
-6kcRKpSyCTQUdYjuSya99exQL+zb8cv8BK1otsgeiKioAJ5B2RhxI2YJfmJriiEwDukd3Uc0UMQA
-BI7oezvdOQoJPpsCJSq+vV6Q7/SKZb2YJNEJvQ8QoYOjcAs/es1UWPdnfmyzDJ5uo00LRBTiObSj
-LDk2ytF6Gmc2noboNot+BOfcMa9TlHUhGkfcHa+bouTqcHgVrXjAFs7Zy/VgWvmxMjMqYvdDKhkX
-9/o=
+iQEcBAABCAAGBQJLbt5yAAoJEAcTP5bKdNi6u9IIAKxBtF08Fld/7trhuuY+rCI5CemLTwV+DG01
+xibEXkRNlsqoI/vn7l/FVn6kYiENii5pfAggzBfi0cZ3I1shj5+f5aii8j/CCfiENAXankJI8Nh8
+MykR7rdWU9rRaqmzxSyjyBaleB/V5VvTRQPlybso24kVLJDo1UC4JuKy8r5D9JKG99WerLjMkSOl
+0qDfGse3Ax6+AfCmixk/qTgXqGaL7dJYEeXgd77va75s3zPuv3bsftnSqq7ISSlLdSkH5CX4wS78
+L+3Cv1h/rQAFlnMjq6mN86KWhguw0d/PIk50FHIaKLIeVWPtzA0Y4wBOH19zD+YxU/AtLV3RDsBy
+Vbg=
 
 -->
