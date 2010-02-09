@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://repo.roscidus.com/e/e-core" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
+  <name>e-core</name>
+  <summary>secure distributed pure-object language</summary>
+  <description>
+E is a scripting language designed for writing secure distributed programs.</description>
+  <homepage>http://erights.org</homepage>
+  <category>Development</category>
+  <needs-terminal/>
+  <implementation id="sha1new=d0ecc18c74a4342bf2a08da8237aee11d9f32b27" license="OSI Approved :: Mozilla Public License (MPL)" main="rune" released="2009-12-30" version="0.9.2-post1">
+    <archive href="http://repo.roscidus.com/e/e-core/E-core-0.9.2-post1.tar.bz2" size="2933851" type="application/x-bzip-compressed-tar"/>
+    <requires interface="http://repo.roscidus.com/java/openjdk-6-jre">
+      <environment insert="bin/" mode="replace" name="RUNE_JRE_BIN"/>
+    </requires>
+  </implementation>
+</interface>
+<!-- Base64 Signature
+iQEcBAABCAAGBQJLccOSAAoJEAcTP5bKdNi6jAMH/1T5nqsjmZhkynUmdJKer8KPJr1TQZtMcYEG
+iyLXs9/wiqiZNDVgL6AZud+Igpozwipd+rQaUpSjzre3wKHMrWJppaH71Q7KILWeegWWm1TgQFRB
+yQs5OeHv7vZil74ZhEiWpH202HAVNVpfBR8TMOIo08L2Y24y3N206MOyBVfbl/lSES4oFpujLD3A
+YE8qLW7Ec3YallDrG11/M6RFBUA34Qw98RNuTEuQB2VES8BK61hewYss/jsE00ifg8IotWPtlQTt
+ma22nHLwNB7g49VMHNX5+PtIMFPXBk/c6S3bEQw1dGxo37lXhcjhCeFUEVjbReGALtk298oMN+/J
+Wuk=
+
+-->
