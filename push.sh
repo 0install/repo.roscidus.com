@@ -1,5 +1,5 @@
 #!/bin/sh
-args="-rlvt --itemize-changes --progress --exclude debs --exclude *.sw* --exclude build index.html e java lib shell.sugarlabs.org:/srv/www-roscidus/repo/"
+args="-rlvt --itemize-changes --omit-dir-times --progress --exclude debs --exclude *.sw* --exclude build index.html e java lib shell.sugarlabs.org:/srv/www-roscidus/repo/"
 
 rsync --dry-run $args
 
