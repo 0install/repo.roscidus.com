@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://0install.net/2008/3rd-party/git.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface uri="http://repo.roscidus.com/git/core" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>git-core</name>
   <summary>fast, scalable, distributed revision control system</summary>
   <description>
@@ -24,7 +24,7 @@ provided as separate git* packages.</description>
     <requires interface="http://0install.net/2008/3rd-party/libcurl3-gnutls.xml">
       <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
     </requires>
-    <requires interface="http://0install.net/2007/3rd-party/libexpat1.xml">
+    <requires interface="http://repo.roscidus.com/lib/expat1">
       <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
     </requires>
     <implementation arch="Linux-i386" id="sha1new=4ec5c577aab003f0f5e3a7728061a5def17176a8" main="usr/bin/git" released="2010-04-04" version="1.5.6.5-3">
@@ -36,7 +36,7 @@ provided as separate git* packages.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAku4YDwACgkQBSn9tx+xORBOfACeKopVatQhZyircW32L7kwE9wtSF8Anj/bZhbE
-Ada7Zz+nfLim+OU6zIu+
+iEYEABECAAYFAku4Y98ACgkQBSn9tx+xORAtGACeJ1iBi0HRK9ivQKbJJElvEaq9R90AnAgKtaD7
+CVA4nN7LIvb1u03/NqWz
 
 -->
