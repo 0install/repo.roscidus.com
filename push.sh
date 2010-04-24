@@ -1,5 +1,5 @@
 #!/bin/sh
-args="-rlvt --itemize-changes --omit-dir-times --progress --exclude debs --exclude *.sw* --exclude build index.html git e devel java lib shell.sugarlabs.org:/srv/www-roscidus/repo/"
+args="-rlvt --itemize-changes --omit-dir-times --progress --exclude debs --exclude *.sw* --exclude build index.html git e devel java keys lib shell.sugarlabs.org:/srv/www-roscidus/repo/"
 
 rsync --dry-run $args
 
