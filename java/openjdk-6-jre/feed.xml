@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://repo.roscidus.com/java/openjdk-6-jre" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>openjdk-6-jre</name>
+  <summary>OpenJDK Java runtime</summary>
+  <description>
+The package was built by the Debian project using the IcedTea build support and
+patches from the IcedTea project and then repackaged for Zero Install.</description>
+
+  <package-implementation main="/usr/bin/java" package="openjdk-6-jre"/>
+
+  <group main="bin/java">
+    <group arch="Linux-i386">
+    <implementation id="sha1new=6cc9f66b968d983904bce5050b2e328c3740462b" released="2009-12-08" version="6.11" version-modifier="-9.1-2">
+        <archive extract="jre" href="http://repo.roscidus.com/java/openjdk-6-jre/openjdk-6-jre-6b11-9.1+lenny2_6b11-9.1+lenny2_1.7R1-2_6b11-9.1+lenny2_1.23.0-3-i386.tar.bz2" size="26538063" type="application/x-bzip-compressed-tar"/>
+      </implementation>
+  </group>
+    <group arch="Linux-x86_64">
+    
+      <implementation id="sha1new=042663897b1fce617d5bc8c98945adc64e4ef2a9" released="2009-12-08" version="6.11-9.1-2">
+    <archive extract="jre" href="http://repo.roscidus.com/java/openjdk-6-jre/openjdk-6-jre-6b11-9.1+lenny2_6b11-9.1+lenny2_1.7R1-2_6b11-9.1+lenny2_1.23.0-3-amd64.tar.bz2" size="25536477" type="application/x-bzip-compressed-tar"/>
+  </implementation>
+    </group>
+  </group>
+
+</interface>
+<!-- Base64 Signature
+iQEcBAABCAAGBQJLOIqwAAoJEAcTP5bKdNi6L2oH/33WRM47amtgj3c7kpj2+sgoFGSTTi/j+AXL
+ynd66DX1HwV1a6VVYgGyt4W3yTo/4VfeYW+S6Z7tCc+RfP4STBbXe0fcMyE2/ozmwr2/BONot+2U
+sxE3CNJp+kNNCCBDgoIpVdihPUfvYfYGI55W4+2SIb7yAME9qjKf10U6WMylUa0rQPwqGCAYptpY
+VPJ0KllMiuCqu37fUGwQJk0ks7Dtk9uLVIOPOxjkKHlSU/29zQqZSTxi2XjcFo2O9P8EhKIQsYyM
+7IOzY/uRRFQmZ8IGvL2OXga9pG7fH6T2V/BMmphCCC2QK4+xxNZMENPHDHBYYkJ5phjdoMRxuKOm
+sBU=
+
+-->
