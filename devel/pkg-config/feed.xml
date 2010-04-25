@@ -15,6 +15,7 @@ and linker flags needed to use them through the pkg-config(1) program.</descript
   <package-implementation distributions="RPM" main="/usr/bin/pkg-config" package="pkg-config"/>
   <package-implementation distributions="Debian" main="/usr/bin/pkg-config" package="pkg-config"/>
   <package-implementation distributions="Gentoo" main="/usr/bin/pkg-config" package="dev-util/pkgconfig"/>
+  <homepage>http://pkg-config.freedesktop.org/</homepage>
 
   <group license="OSI Approved :: GNU General Public License v2" main="usr/bin/pkg-config">
     <group arch="Linux-i386">
@@ -30,11 +31,11 @@ and linker flags needed to use them through the pkg-config(1) program.</descript
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJL0ztJAAoJEAcTP5bKdNi6m5wH/jmtWW4DrlCNNVKdH7Az2X0+tFtq34h01O1k
-c7m4d1oR3AqpeF1tS8ZYGMBfOKvS5PVmwTh8NgnW8R+2LLhfMZiMqtu1PHXvInRg302/54x0998p
-4pOuxevP+tFQfpv6Xbj5EDSmH+oSzHFpx7mTU9TOM3weABLt07yZ+idQejuXgsXrTbhyVm7AbKry
-OAIWO0smqjc06I23BeMohq3+74YAskBMv4nS0h+g6Vy0DIE7rMPOvOYeFJoSth/XfNZGjZn8y6KI
-dzxC0HXhRkJmC/ndNO4gRc3UdmBdYmcbDchR4587yNLdkuqgOEaEGbPB49oQwrw6ZRcNuscJr0zK
-Pf0=
+iQEcBAABCAAGBQJL1IWWAAoJEAcTP5bKdNi6Jc8H/R1zKK2gZ08OLW+vgqtCkE+qhCcqNKnSQ4Ag
++UVyl4aBdkhOcDRhFDn1WzgspRDIViRfLUHOPw0+AtEhhv9+Ydstmn0HGDdlYu95dQ6yCMCmA6qj
+F/6tB/w0K5Fot9jzx3/qvAGOALEigKQJbqhwWbzauYncUkXl11mK4PCThOlF1v7bW6vNjkGjHOeM
+DB9EThyCmipd83zc3+7oGnqwLhx0IhvFjFCgSh2x4gZLAkF643b/dfqkJIVFI29Rw7CDPm4AevrZ
++ll8ah5DCbd3sryD+GQ7vwCL9qyyP20z2U1c+nqkQuGe5dHW+uWGAeTE2+z/efof4FnCGDxBV89t
+RhU=
 
 -->

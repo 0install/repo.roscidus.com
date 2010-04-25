@@ -11,6 +11,7 @@ The upstream sources for this package are available at the location
 ftp://ftp.gnu.org/gnu/make/. The documentation for this package does not meet
 the Debian Free Software Guidelines, and has been removed from this package.</description>
   <category>Development</category>
+  <homepage>http://www.gnu.org/software/make/</homepage>
   <!--
   Disabled for now because older 0compile/0launch don't cope well with package
   implementations in compile selections.
@@ -27,11 +28,11 @@ the Debian Free Software Guidelines, and has been removed from this package.</de
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJL1EV+AAoJEAcTP5bKdNi6U9QH/0zc4e9djYmWLQycZCW8DL9yltERPkowiR4b
-CDV7NkIQr5NhKvYGUJXd6K2wdtNT0LdLfEkXb6wcD/PegA3jUnv3UMQijW4zEeoM53EWpp9uMFi8
-fNg3mGvhmBwCE7Ab+qpG+wbJOeYRo7Wu72xFB3c3aFuAJ7DNYPRdUHo0vCXb3qrNcmI0DcVAULbE
-8K3zeQFpWwQXMUjaUBRNx2vMukkALjdxwx6X6Um67kiQSgm//xMyQgCpx72K3evdPQT8wtM94jYA
-IKYiHbkP7a3XyvQ2jfXtQqPI109dbyApv7zQaM1XyH59s3Qu8iq7voZuzv9FdwvQLx/rYZWEnBeX
-wwo=
+iQEcBAABCAAGBQJL1IVUAAoJEAcTP5bKdNi606wH/2Z6/6U8Ixy0SeT8l+GRa+TiYYzP6Y/dcJzT
+M5Tpm7/Kvg7DPLAPPZJrbKcEBX/HYGCmQDAwzM1egzzV0gzga7n663Sjp78jkM+ou4/OcCPtMW+7
+B3kOnUrEs14j95Vc9AxFxBHuUPRiubjSgxSqk2hSKIU4wgPNA0VLsoYRLDibNEkoUV4WOsZwPgji
+L7YjbkNori3auElYGmTeG09lgR6JlRUeVX/pzq/f5EsXHQobF1LAaN0Byt++LSkuUlpEqN6J6oge
+K3GWWDJ0cd48PpDIt1Hzhx9fN2Cb1KtK4Pu6zqogfONdrpBs8EhlzhowHy6TFvxD6PZ7jh0SCVKO
+WFs=
 
 -->
