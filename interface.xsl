@@ -15,9 +15,9 @@
           <xsl:value-of select="zi:name"/>
         </title>
 	<style type='text/css'>
-	  html { background: #d0d0ff; }
-	  body { background: #d0d0ff; margin: 0; padding: 0; color: black;}
-	  h1 { text-align: center; border-bottom: 2px solid #d0d0ff; padding-bottom: .5em; }
+	  html { background: #b0ffb0; }
+	  body { background: #b0ffb0; margin: 0; padding: 0; color: black;}
+	  h1 { text-align: center; border-bottom: 2px solid #b0ffb0; padding-bottom: .5em; }
 	  div.main { padding: 1em; background: white;
 	  	    -moz-border-radius: 1em 1em 1em 1em; max-width: 60em;
 		    margin-left: auto; margin-right: auto;
@@ -28,8 +28,8 @@
 	  dl.impl { padding: 0.2em 1em 0.2em 1em; margin: 0.5em; border: 1px solid black; background: white;}
 	  pre { background: #ddd; color: black; padding: 0.2cm; }
 	  table { width: 100% }
-	  th { background: #d0d0ff; text-align: left; }
-	  td { background: #e0e0ff; text-align: left; }
+	  th { background: #b0ffb0; text-align: left; }
+	  td { background: #e0ffe0; text-align: left; }
 	</style>
       </head>
       <body>
