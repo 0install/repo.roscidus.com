@@ -11,7 +11,11 @@ The upstream sources for this package are available at the location
 ftp://ftp.gnu.org/gnu/make/. The documentation for this package does not meet
 the Debian Free Software Guidelines, and has been removed from this package.</description>
   <category>Development</category>
-  <package-implementation main="/usr/bin/make" package="make"/>
+  <!--
+  Disabled for now because older 0compile/0launch don't cope well with package
+  implementations in compile selections.
+    <package-implementation main="/usr/bin/make" package="make"/>
+  -->
   <group arch="Linux-i386" main="bin/make">
     <implementation id="sha1new=78fd81f1743ffe1c29f1025d1898b48634a391be" released="2010-04-25" version="3.81-5">
       <archive href="http://repo.roscidus.com/devel/make/make-i386-3.81-5.tar.bz2" size="317167"/>
