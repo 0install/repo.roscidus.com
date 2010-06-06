@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://repo.roscidus.com/security/gnupg" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>gnupg</name>
+  <summary>GNU privacy guard - a free PGP replacement</summary>
+  <description>
+GnuPG is GNU's tool for secure communication and data storage. It can be used to
+encrypt data and to create digital signatures. It includes an advanced key
+management facility and is compliant with the proposed OpenPGP Internet standard
+as described in RFC2440.
+
+GnuPG does not use any patented algorithms so it cannot be compatible with PGP2
+because it uses IDEA (which is patented worldwide).</description>
+  <package-implementation main="/usr/bin/gpg" package="gnupg"/>
+  <group arch="Linux-i386" main="bin/gpg">
+    <implementation id="sha1new=af4d8a604323238a092e4ed3cae9372f9d3302c4" released="2010-06-06" version="1.4.9-3">
+      <archive href="http://repo.roscidus.com/security/gnupg/gnupg-i386-1.4.9-3+lenny1.tar.bz2" size="1571178"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=e868aac11bfab00c3f1c43f9780c757fb86e5819" released="2010-06-06" version="1.4.9-3">
+      <archive href="http://repo.roscidus.com/security/gnupg/gnupg-amd64-1.4.9-3+lenny1.tar.bz2" size="1620186"/>
+    </implementation>
+  </group>
+
+</interface>
+<!-- Base64 Signature
+iQEcBAABCAAGBQJMC37dAAoJEAcTP5bKdNi6fLwH/1EP0gU0o7Q1akGIYMHErQwybiddEOClcjtR
+l5jUm6SA7nuIy0F2PRzBG+ThYtAC5UwdK16UkWwexAWJJwyx8mh2N5teZrpWcwIN55X3VRCnz5a5
+FthKZh1QpVS300037joo0bb1QlrG/krvSzOIe1DJq6oujkiXRLhb+1LtVufdNROrvEj3qAW++/ui
+ONV/ukOUQUk2+X+suuQLPEAcMta/3DyTk+8YhEYFYZhSuNfhvboCmbVKtjCPrWNCQI8CkThbPwwc
+FOoXSd8+yoH/v2UhYq4A08bRTTT82E+8n2X11DT8QWNHEVoAevxB+QAuu68BCxaIdO/Uzr28muUx
+t0Q=
+
+-->
