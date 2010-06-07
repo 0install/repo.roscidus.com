@@ -18,14 +18,17 @@ E is a scripting language designed for writing secure distributed programs.</des
     <implementation id="sha1new=304c4433219b85bc7ebf7bc1d506ff2bc95aadb3" released="2010-03-31" version="0.9.2-post2">
       <archive href="http://repo.roscidus.com/e/e-core/E-core-0.9.2-post2.tar.bz2" size="2946251" type="application/x-bzip-compressed-tar"/>
     </implementation>
+    <implementation id="sha1new=5bf4baf19514dac7964cf93f58a9345b055c8480" released="2010-06-07" version="0.9.2-post3">
+      <archive href="http://repo.roscidus.com/e/e-core/E-core-0.9.2-post3.tar.bz2" size="2953203" type="application/x-bzip-compressed-tar"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJLs5AOAAoJEAcTP5bKdNi6MgcIAJpMLzU76X+NeccwH9NbZMkrzZswEHH+Q9Ix
-38QR6Qlcf9dPMQedLBYKZ6KnF7hBkXGclTv759pgXObw1CNf3jtLeR5M4YJTKYXWmLvDe3kD7NNX
-v82bDAj1XrAPY6L7cJaw8hMadtWUC0CZg4E+C4zyWHyhG48SrpCgpap7R3SKpOwFE7Nf3ocBXeqO
-Uw89bfOYcqHX7tCFO777PpEWwYABbCGI/xnRpYuRst0QF+9rxhIoNdwdlGd2iZ1OQcM7GB0SqJgA
-uZj1u3dX11NzP3ERxbMoAJ5xCrhMIoXiOFRslKYW0+5eVe6O2npBmb2GXkGsulQGl3Z1ydCXoEoX
-PmM=
+iQEcBAABCAAGBQJMDTc6AAoJEAcTP5bKdNi6z3IH/RLIjN19RoYGlEKwu7vXNbCUPPhM29VVAb/R
+9lCBQYPqoFjgilCu8YeipZx28UK0jbAMUdQqBVd0D9ag91ynNOUGxpN8X6jgDxmIDWsK3zFLzlll
+JFPu13SBBHmf2cT7BOUc7igXbGLkrZ7ymIEqE6+wHbl1bLNAkc9vOUYSHZeL4tS9fZpAW5WxIknE
+5LLDgUwfoqgDPq88O+gcUALor8k6GIZ5tSH8vmq2XIgUZIjvkMNObEtj9p+4GnCVV76zo7vHdkq4
+tZjk1brITW9cG8CSGs30qqM9HFWRLWueM8P6lIv3Rud8IG2JpewlpH6avy9Vv7JMxWvMzvGhsSpx
+FEM=
 
 -->
