@@ -13,6 +13,12 @@ the original game as closely as possible while extending it with new features.</
     <requires interface="http://0install.net/2006/3rd-party/Freetype2.xml">
       <environment insert="lib" mode="prepend" name="LD_LIBRARY_PATH"/>
     </requires>
+    <requires interface="http://www.nongnu.org/clanbomber/zeroinstall/libpng12-0.xml">
+      <environment insert="" mode="prepend" name="LD_LIBRARY_PATH"/>
+    </requires>
+    <requires interface="http://www.nongnu.org/clanbomber/zeroinstall/libsdl1.2.xml">
+      <environment insert="lib" mode="prepend" name="LD_LIBRARY_PATH"/>
+    </requires>
     <implementation arch="Linux-i686" id="sha1new=19bf56c253e576baebc52f58e1df4bd74ef8c8d4" released="2010-06-12" version="1.0.1">
       <archive extract="openttd-1.0.1-linux-i686" href="http://repo.roscidus.com/games/openttd/openttd-1.0.1-linux-i686.tar.bz2" size="17248708" type="application/x-bzip-compressed-tar"/>
     </implementation>
@@ -22,11 +28,11 @@ the original game as closely as possible while extending it with new features.</
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJMFKcTAAoJEAcTP5bKdNi6d70H/RVtVgIer3ymZSeXtf8kdJBC/A2djKW7wszW
-eeyIUJ6WBs30vyYFj+v2w/MavCVIILudxDvRIoYvoiYPi+r+5J3BMGBJY1FdDULJ0KdIK3NtW6Ky
-S31vWLZx0qG/TnnLlqwTvMKXIyXKyl3w0r9clmbnEMAP7Fyp/gs4WauRdAU7v7omoIfl0af8yX54
-Vfsp1ViBKouRaZjj0ydSZdKh7uDN2JNpi9YpTMC6Jd+QvkhB8olJtcCMMW9pYJ7U58zB+EdkqBDV
-j2SsXGu++hysKAuZ1Udq0F7sOwJ81CfZblZpHAhGo/DZfGEjxRkaFmmn98m4LV+H3UWaTCq9Y+n0
-F1Q=
+iQEcBAABCAAGBQJMFRaQAAoJEAcTP5bKdNi6JNUH/1kV77FiHB4WC8KrmawfKb9+JkgX9ssB+9+B
+Z/LAVU43sac02n2GYmEOQfIKubK98BG8n8CvugIBAgUJRSiLKip/kJSDfiqd3WI71jH4TPMC25C4
+XN6PWCPBzC10LfGOLpY3pt5szPR41w79+m//4TU9WGsw4P1dgV4Xv4jczP2klOkWMlNXzL0hXGM8
+l9mQGc5wG53A8NwcE8sFAaZZiJcRSvY6/S08vevnEUxM02pDJxvyi1pBjTZVUpcpn8CaRJv2k/Ht
++1hrmXa4bsxpNRsFxlYCfTieomaenTau2fD86Yjip7iglyyNsUdufVJZH0l2/93sPzUqhjwYwFHt
+mX8=
 
 -->
