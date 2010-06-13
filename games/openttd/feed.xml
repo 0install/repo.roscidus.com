@@ -10,6 +10,9 @@ the original game as closely as possible while extending it with new features.</
   <homepage>http://www.openttd.org</homepage>
   <category>Game</category>
   <group doc-dir="docs" license="OSI Approved :: GNU General Public License v2" main="openttd">
+    <requires interface="http://0install.net/2006/3rd-party/Freetype2.xml">
+      <environment insert="lib" mode="prepend" name="LD_LIBRARY_PATH"/>
+    </requires>
     <implementation arch="Linux-i686" id="sha1new=19bf56c253e576baebc52f58e1df4bd74ef8c8d4" released="2010-06-12" version="1.0.1">
       <archive extract="openttd-1.0.1-linux-i686" href="http://repo.roscidus.com/games/openttd/openttd-1.0.1-linux-i686.tar.bz2" size="17248708" type="application/x-bzip-compressed-tar"/>
     </implementation>
@@ -19,11 +22,11 @@ the original game as closely as possible while extending it with new features.</
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJME6ppAAoJEAcTP5bKdNi63h4IAIj6pPZxuNVsAVZmdwhvREEHoDuN7fI3cwbo
-cjA5JJNc4EbpWI65tjN7QiFXmdwi5aDBUWmFSR+IgJM6JXUnwt1tFDmIic0LDITFh4cPlUY7DdMk
-gR483lIi2+YaPtDT0CYFKdb8Yskl+tpK2vw2CkaJz4CA4DsDj9VyCJmErP356P4PSDeU6xbveLYF
-8yl2V6Z1bchAFiPDGFc84wMTrst2A9i39x+jNgh1w2ouwGY3vxx7saLq/EynUzAWXEgTUFYAFYDw
-y9DHZJOU3XzdgES9r/WU+oIifhdfkmYrNL0CQPW7d7PgXIkz+wnyTfkfM5D6UjupP7jYIiuvujOj
-9K4=
+iQEcBAABCAAGBQJMFKcTAAoJEAcTP5bKdNi6d70H/RVtVgIer3ymZSeXtf8kdJBC/A2djKW7wszW
+eeyIUJ6WBs30vyYFj+v2w/MavCVIILudxDvRIoYvoiYPi+r+5J3BMGBJY1FdDULJ0KdIK3NtW6Ky
+S31vWLZx0qG/TnnLlqwTvMKXIyXKyl3w0r9clmbnEMAP7Fyp/gs4WauRdAU7v7omoIfl0af8yX54
+Vfsp1ViBKouRaZjj0ydSZdKh7uDN2JNpi9YpTMC6Jd+QvkhB8olJtcCMMW9pYJ7U58zB+EdkqBDV
+j2SsXGu++hysKAuZ1Udq0F7sOwJ81CfZblZpHAhGo/DZfGEjxRkaFmmn98m4LV+H3UWaTCq9Y+n0
+F1Q=
 
 -->
