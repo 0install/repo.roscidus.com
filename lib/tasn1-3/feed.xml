@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://0install.net/2008/3rd-party/libtasn1-3.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>libtasn1-3</name>
+  <summary>Manage ASN.1 structures (runtime)</summary>
+  <description>Manage ASN1 (Abstract Syntax Notation One) structures.
+The main features of this library are:
+  * on-line ASN1 structure management that doesn't require any C code
+    file generation.
+  * off-line ASN1 structure management with C code file generation
+    containing an array.
+  * DER (Distinguish Encoding Rules) encoding
+  * no limits for INTEGER and ENUMERATED values
+
+This package contains runtime libraries.</description>
+  <package-implementation package="libtasn1-3"/>
+  <group arch="Linux-i386">
+    <implementation id="sha1new=cf5f598f8cb5697cf3c163b056b7ab48878e8b5c" released="2010-06-26" version="1.4-1">
+      <archive href="http://repo.roscidus.com/lib/tasn1-3/libtasn1-3-i386-1.4-1.tar.bz2" size="58156"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=420f1e2373c433312e795a1f3dbd304f8143e4f4" released="2010-06-26" version="1.4-1">
+      <archive href="http://repo.roscidus.com/lib/tasn1-3/libtasn1-3-amd64-1.4-1.tar.bz2" size="60431"/>
+    </implementation>
+  </group>
+
+</interface>
+<!-- Base64 Signature
+iQEcBAABCAAGBQJMJc2EAAoJEAcTP5bKdNi6d8QH/1mEp+Mfbo8rA5LJCmOmi2BojJ/SElJfFNid
+mwDWIupAg/naYGK/HpZ+ZwIfIuoxWdJEPr1deUwPZSMHaduYQOz78YQlLvYd1We7MKlnq0VQnuka
+vGis/cou18gIG0e5YHnMUUZ/8w4EZI2LYmggXA2NKhCw8ar5yTwOb3SRhmgm1cMy5wGXJ8PClVyi
+xz6jW3XnmNKaNelYPp/6MZ9knD3Je6hNMsV6GrOXwOyuHcP7Ewtd5DL4b2DLi5893PLhCqfvL+V/
+wtLmEdhpX99hEGkpvBMnEc/DL5uQVNCIju0KKsb5CsSBzQi8o1AzLL5+OuEh/T6MbmtalbJd4wgB
+GFo=
+
+-->

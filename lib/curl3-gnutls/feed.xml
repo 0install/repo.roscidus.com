@@ -1,0 +1,40 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/curl3-gnutls" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>curl3-gnutls</name>
+  <summary>Multi-protocol file transfer library (GnuTLS)</summary>
+  <description>libcurl is designed to be a solid, usable, reliable and portable
+multi-protocol file transfer library.
+
+SSL support is provided by GnuTLS.
+
+This is the shared version of libcurl.</description>
+  <package-implementation package="libcurl3-gnutls"/>
+  <group arch="Linux-i386">
+    <requires interface="http://repo.roscidus.com/lib/gnutls26">
+      <environment insert="lib" name="LD_LIBRARY_PATH"/>
+    </requires>
+    <requires interface="http://repo.roscidus.com/lib/krb53">
+      <environment insert="lib" name="LD_LIBRARY_PATH"/>
+    </requires>
+    <requires interface="http://0install.net/2007/3rd-party/libldap-2.4-2.xml">
+      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
+    </requires>
+    <implementation id="sha1new=b78d7c3d298b307165e9f5b839ba78d6f893ee31" released="2010-06-26" version="7.18.2-8">
+      <archive href="http://repo.roscidus.com/lib/curl3-gnutls/libcurl3-gnutls-i386-7.18.2-8lenny4.tar.bz2" size="212159"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=7e517b40db4abf858d82af82dc59b939130b89b5" released="2010-06-26" version="7.18.2-8">
+      <archive href="http://repo.roscidus.com/lib/curl3-gnutls/libcurl3-gnutls-amd64-7.18.2-8lenny4.tar.bz2" size="217034"/>
+    </implementation>
+  </group>
+
+</interface>
+<!-- Base64 Signature
+iQEcBAABCAAGBQJMJc5IAAoJEAcTP5bKdNi6nT8H/RmG2u+lXLrr4nLpOfyDwCaz3gc6yHpMM4t1
+abp5ifFd27aBY7UwxQ36Zn/aTVqfBzhk0IFSZ+0hF1Dy2ju79uRCWTsW/hM7uHqRjnt00FK6hoH+
+ldIckbVajXVfNoFhSXcfblhuq6KLPwlFe8GhHUHZS6SQKy7TJJbIctdlOolG/+hGbf5SXclRbnDz
+fXdlmGenS5NlDyztqXhCZz0VanBOFuNIPPY7/6oev+vuUwLtHR3ak29ktN96ZmOtZBRTq2Oh583h
+bzDZd5Rn5yRGn0pRdqjqYtijkdfUIxiHqd+PHXoFo0VassIS5iHpdySpBZiAzN3p7HaTZBFXUx0R
+EPY=
+
+-->

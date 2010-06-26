@@ -21,8 +21,8 @@ provided as separate git* packages.</description>
   <group doc-dir="usr/share/doc" main="usr/bin/git">
   </group>
   <group>
-    <requires interface="http://0install.net/2008/3rd-party/libcurl3-gnutls.xml">
-      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
+    <requires interface="http://repo.roscidus.com/lib/curl3-gnutls">
+      <environment insert="lib" name="LD_LIBRARY_PATH"/>
     </requires>
     <requires interface="http://repo.roscidus.com/lib/expat1">
       <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
@@ -36,7 +36,11 @@ provided as separate git* packages.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAku4Y98ACgkQBSn9tx+xORAtGACeJ1iBi0HRK9ivQKbJJElvEaq9R90AnAgKtaD7
-CVA4nN7LIvb1u03/NqWz
+iQEcBAABCAAGBQJMJc5zAAoJEAcTP5bKdNi66aAIAJIwkjv4LepN+PsDk5r6EMS4O8OC1mfsoL5S
+VNLat/5VGc8HVclRXzKsY7PaWuxLq8tiD9ppL5GNkcqzzFzbMaUewhwul7EXzc4MyJbluv7z5hHE
+cYnVQTFrbMPK+m0PEbmFbZUhGE9iVt0O2IBoe6QvkjLtt6yU9075lHcKa84CUHWuVxZ81Q8r/n49
+3jKSoFqy1o4Ry/koilv6jtx9QhLj4Gc5hZuoZmfPPVVNSN+8oN6eNY++zsZ01gRmA90vRrIbBVfU
+KHBfvRmIz0u9GgPZvnXznVmAopGcSYFxxkDegftcd3KT45DELnMeCXNwe650xl+4trfxGpSqV5/f
+OhI=
 
 -->
