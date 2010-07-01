@@ -10,4 +10,7 @@ RewriteRule ^(.*[^/])$ $1/ [L,R=permanent]
 
 RewriteRule .*/interface.xsl /interface.xsl
 
+RewriteCond %{REQUEST_URI} !^/keys/
+RewriteRule .*/([^/]*).gpg /keys/$1.gpg [L,R=permanent]
+
 AddType text/xml .xml
