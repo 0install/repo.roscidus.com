@@ -16,6 +16,12 @@ which it is implemented.</description>
     <implementation arch="Linux-i386" id="sha1new=d1ac00014927f17d81b0e21e655fc15202d10dd0" released="2009-12-31" version="3.5.1">
     <archive extract="swt" href="http://repo.roscidus.com/java/swt/swt-3.5.1-gtk-linux-x86.tar.bz2" size="1341127" type="application/x-bzip-compressed-tar"/>
   </implementation>
+    <implementation arch="MacOSX-x86_64" id="sha1new=0304451926f7865550effb10b6e0c11dfd3c5043" released="2011-01-11" version="3.6.1">
+      <archive extract="swt" href="http://repo.roscidus.com/java/swt/swt-3.6.1-cocoa-macosx-x86_64.tar.bz2" size="1434191" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="MacOSX-i386" id="sha1new=07b352855c107ed97186794f7eb04aa61f2dd9ca" released="2011-01-11" version="3.6.1">
+      <archive extract="swt" href="http://repo.roscidus.com/java/swt/swt-3.6.1-cocoa-macosx.tar.bz2" size="1523076" type="application/x-bzip-compressed-tar"/>
+    </implementation>
     <implementation arch="Windows-x86_64" id="sha1new=c4a637dbcdb826bc9db8c36b3c97793f2047fb88" released="2011-01-07" version="3.6.1">
       <archive extract="swt" href="http://repo.roscidus.com/java/swt/swt-3.6.1-win32-win32-x86_64.tar.bz2" size="1651871" type="application/x-bzip-compressed-tar"/>
     </implementation>
@@ -31,11 +37,11 @@ which it is implemented.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJNJ3DFAAoJEAcTP5bKdNi68JIH/0GBUEfKoD9WIlu7n7REuIYHqo+lytfgk/hp
-QvzOGBtw12DPdLVqj38AVN7tSrlT98VxRDZzIfayBfDROKDnGYcdncrgwoGSVgTKw2BgWgd1hSn/
-Ka1ll6hlcAaAgfzcCcnpW5Qd8DtvjAC0mIHUHfaznj+/NLYgSjILQlDFLzOnAp6VS1DgAL8zO7P3
-5ptNh74W5lsY0xndBFSd0j4wQ1aonxKgWhQoBHJr2ky/WOo6gtZETxaIi2Ys+C1Z771K6EnyxyL5
-I1fUz3lCmdVeNLXWg39QIis5WhgogXzx1C9CRw/TYlC1Y37t5ICoG1zsC+319/Lgobl4bIW8EiLE
-yuQ=
+iQEcBAABCAAGBQJNLLaXAAoJEAcTP5bKdNi6qqMH/R2f5rWyCqdldycvU2j9+7m7PHbhq6t+8ESt
+6HXInz2ab3yBQpVmkdI74IHB5nSAPcFtbh2CzVgWMKA5dX/PG77I/cSucGW8WnOW3gBG+9niWyxs
+M89cjIzRcleoCDX/wNRprb5DDyMrxPGohwg1/j97yEObPuwua/s16b8u0/w2Q9shGrLJtDoigw+U
++8S7zgAhLvFfVTeKwiUNjtS2cpKVfyj54+ykfekZqT88jVy4Sn5Quafbs636zTYU4XuW8r6ZCSue
+QhevxMCAtpQdt48GLReI8xGoRX1ZnRxfM/N1PW4ppyG8ie02lkSUq+7YoR7AqxTwaoW73znlhmuL
+Y+4=
 
 -->
