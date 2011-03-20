@@ -78,10 +78,11 @@
 	<dt>Available versions</dt>
 	<dd>
 	  <xsl:choose>
-	    <xsl:when test='//zi:implementation'>
-	      <p>The list below is just for information; Zero Install will automatically download one of
+	    <xsl:when test='//zi:implementation|//zi:package-implementation'>
+	      <p>The list below is just for information; Zero Install will automatically select one of
 	      these versions for you.
 	      </p>
+	      <xsl:if test='//zi:implementation'>
 	      <table>
 	       <tr><th>Version</th><th>Released</th><th>Stability</th><th>Platform</th><th>Download</th></tr>
 	       <xsl:for-each select='//zi:implementation'>
@@ -110,6 +111,20 @@
 	        </tr>
 	       </xsl:for-each>
 	      </table>
+	      </xsl:if>
+	      <xsl:if test='//zi:package-implementation'>
+	      <table>
+		<p>Non-Zero Install packages provided distributions can also provide this interface:</p>
+		  <tr><th>Distribution</th><th>Package name</th></tr>
+		  <xsl:for-each select='//zi:package-implementation'>
+		    <tr>
+		      <td><xsl:value-of select='(ancestor-or-self::*[@distributions])[last()]/@distributions'/>
+		      </td>
+		      <td><xsl:value-of select='(ancestor-or-self::*[@package])[last()]/@package'/></td>
+		    </tr>
+		  </xsl:for-each>
+	      </table>
+	      </xsl:if>
 	    </xsl:when>
 	    <xsl:otherwise>
 	      <p>No versions are available for downlad.</p>
