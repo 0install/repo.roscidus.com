@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://repo.roscidus.com/utils/graphviz" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+    <name>graphviz</name>
+    <summary>Open Source Graph Visualization Software</summary>
+    <description>
+Open Source Graph Visualization Software</description>
+    <homepage>http://www.graphviz.org/</homepage>
+    <package-implementation distributions="RPM" main="/usr/bin/dot" package="graphviz"/>
+    <package-implementation distributions="Debian" main="/usr/bin/dot" package="graphviz"/>
+    <package-implementation distributions="Gentoo" main="/usr/bin/dot" package="media-gfx/graphviz"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABCAAGBQJNji1tAAoJEAcTP5bKdNi6onUIAKoOnqgdz7aFsvyxZyqKlVOomV4IN8gN5lT4
+SdhHreo4g2l6LizjfL9uw3S0kOwU4GsmON2TGeCCexvN9y76PrVIzKYiWGMGbQHMioE5a4VCBQwj
+Zkhy/0W0vjvgtffmmSjIbwPfvqFFfzd0VO3U6MQ7moOGCHroH6GwJxdQDg5bUtVA4Wgipadl/tMI
+04vTKrMf4mv+YyNEAChvQDjaB3qkc4+tJULCyLLAZ57BDZU9ByBHgGPN/0dhQnuaabFV0VUvhxwX
+I1EJQEqdqj3FaeK3zg5duLWQVTdy97kOp4MnZ3wyg8pxtwY/bUAFHUKZ/dAQf+BPGr/99TFJDJ9Q
+qMw=
+
+-->
