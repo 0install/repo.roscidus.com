@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://repo.roscidus.com/python/sphinx" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>python-sphinx</name>
+  <summary>tool for producing documentation for Python projects</summary>
+  <description>Sphinx is a tool that makes it easy to create intelligent and
+beautiful documentation. It was originally created for the new Python
+documentation, and it has excellent facilities for the documentation of
+Python projects, but C/C++ is already supported as well, and it is planned
+to add special support for other languages as well.</description>
+  <needs-terminal/>
+
+  <package-implementation distributions="Debian" main="/usr/bin/python-sphinx" package="python-sphinx"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABCAAGBQJNlhdFAAoJEAcTP5bKdNi6xQ4H/iUUseEfRVmpfiDnQjZziQwVoX61fIz4V+Ix
+WIBj5GZILgJZa/lpWU2k712V2n5uSR2Ppl0SrhsVZiwksAJHZaq/C6uALTG3EmbkdBHMX8TDbKTb
+/BvmvW0F936hGd4ysX+ASqYPSxWAQquMr8cUqBrQsSxwxnyU82Uvxz19X66gx1uKEXi19tSUBY/3
+SIZFLEXt/bdbj28jqlakGBikxE+F5gHkeAmxTMbAUXtv/qaDmyrIeDtvty1XR0oVZqR/9Ya4dwrO
+NCZEYKmIbi89hotIRb5UZ09NOxgwwKxGMSYe93VsGf5Zj8Og+kcmngNgNqJeX0RCw9ILQ2IC5M+b
+dD4=
+
+-->
