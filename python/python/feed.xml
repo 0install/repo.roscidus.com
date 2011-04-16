@@ -14,15 +14,19 @@ language for applications that need a programmable interface.</description>
   <needs-terminal/>
 
   <package-implementation distributions="RPM" main="/usr/bin/python" package="python"/>
-  <package-implementation distributions="Debian" main="/usr/bin/python" package="python"/>
   <package-implementation distributions="Gentoo" main="/usr/bin/python" package="dev-lang/python"/>
+
+  <package-implementation distributions="Debian" main="/usr/bin/python" package="python"/>
+  <package-implementation distributions="Debian" main="/usr/bin/python2.5" package="python2.5"/>
+  <package-implementation distributions="Debian" main="/usr/bin/python2.6" package="python2.6"/>
+  <package-implementation distributions="Debian" main="/usr/bin/python2.7" package="python2.7"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJNhfYGAAoJEAcTP5bKdNi6h44H/3xD/nZEc+BSgxMV0qQIuNn29O57iO3PbN8r
-lfAD2ScEf/I/jtImjLrLowFJIDTBruO8YvUHM9EeVqLfIhRJIlUpr+BkZTwcW3n2EzYpuFQG5DYA
-/cbXgfuuHfzrvCmPagf5oJLQRe0np+jkoEzhMBKVWKcqy7eF28uYTwK8V/d2U+1ENK4KdnIMxjyL
-KfDiq3drVdVlUFsMqbQR6eKRgcb3PRi/JOJ4S+sJZUsc6zxKKiUMQqvIKSm4xG/IKpyFI81kwymP
-5YYHw1FibWUgfJzRR9LTCunEZvGsF01qD/DXxAzjKEk+rUFK5uJ4DBSFoGKcZKk1HNOUnOhPjHjO
-kfc=
+iQEcBAABCAAGBQJNqWsbAAoJEAcTP5bKdNi6s9sH/3itIeRSkPmk1tREnQs6eQighp+jtum9uMEg
+TDwwLkp9YX4kPeoCtV/3WzXwUSZjKUTiQBal6+D0iM5N3u5siSsSx/y0DqellIezB4cg+d1PyFIM
+T7L7VjPsWtf6nODr0aMNghhBcMkVmYwbkrLuI0r784spZ0EipqqSznztjVAtV8mOynniK+vWWlQv
+VGwCxKubqvUuGorxGUOLfFW2ndlJi/fGW5Y1bSa1x3WAeR46qdOnxk0omYrj0Wb+RmyMZOpyeyO5
+PEFWJKzi7xPHW7oxjVoQ7AZ+9U5hke2DLunAhNqvXA9HVs55bE80FzXpgAauCwek5tda+qR0nMEy
+cxI=
 
 -->
