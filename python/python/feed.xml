@@ -13,6 +13,8 @@ modules are easily written in C or C++. Python is also usable as an extension
 language for applications that need a programmable interface.</description>
   <needs-terminal/>
 
+  <feed arch="Windows-*" src="http://0install.de/feeds/Python.xml"/>
+
   <package-implementation distributions="RPM" main="/usr/bin/python" package="python"/>
   <package-implementation distributions="Gentoo" main="/usr/bin/python" package="dev-lang/python"/>
 
@@ -23,11 +25,11 @@ language for applications that need a programmable interface.</description>
   <package-implementation distributions="Debian" main="/usr/bin/python3" package="python3"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJNqdSsAAoJEAcTP5bKdNi6IE8H/21vl1buNQj6AwONw1DcPz8+c7HOmH+i0m7n
-QE997OMjyj2WR73XCErEukVSlqYrn4jM3gTWOMd92z5z1Pz7hFTEbdHQ0cSJXDuPwfbgdp51q2nO
-mCXTFVLVYTJxd4+eqMAqSGvg45KH8WHccqUoAyA5LX733RzW71qwva0W3AYf0/7NzoRQmse9AHGn
-yWH+3N9BQzQdp/l5Qaxom/BANzuv8eZeS10QoWgoShfsdhnrD41A9Fy+y7GTqGxZjGXSXQ1thrLK
-JdMlI8Wf2BgbKZbsYUjTpPXT567jm91/JrwtEfchPocWq4KEeElntKsS+npD1y95EmaliKa0HA3K
-Piw=
+iQEcBAABCAAGBQJNsFEHAAoJEAcTP5bKdNi6IEEIAJu0OhPPV0SzjQe/PzT4qAvCCf0hOU80JwS4
+UXSr8cX/OX0B6VnrcFAJD2aq+dchuyugJ3dlyvtvRxH3VM38c4X58UA0/su0vfqeut250TR56V4g
+det/Ntp3eABkQuBbIeqskkwS7HbjYr04H6eUt1I2H7t4/QQRtcDyeA5yyvcR/ytcSYPhpHkw3Sti
+w8nVPQTf/ZvRxG3KEv0ykYwLBACok8UQsXqzaH72E2gRScaSq5xqZ077I8f4gao2QEmmKpuleXdp
+mPiMX6lUhbRWmnP/C1uC7q+Zf52+OV3nOQVjj5wwMbchhu6k2hV6dy5oK9JEz9xUlH2iqFPBL0EM
+230=
 
 -->
