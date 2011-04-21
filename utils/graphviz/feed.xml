@@ -9,13 +9,18 @@ Open Source Graph Visualization Software</description>
     <package-implementation distributions="RPM" main="/usr/bin/dot" package="graphviz"/>
     <package-implementation distributions="Debian" main="/usr/bin/dot" package="graphviz"/>
     <package-implementation distributions="Gentoo" main="/usr/bin/dot" package="media-gfx/graphviz"/>
+  <group arch="Windows-i386" doc-dir="doc" license="Eclipse Public License" main="bin/dot.exe">
+    <implementation id="sha1new=b9ad8643984d120799c43f3d85d58f2653f87955" released="2011-04-21" version="2.27.20110421.0445">
+    <archive extract="release" href="http://repo.roscidus.com/utils/graphviz/graphviz-bin-2.27.20110421.0445.zip" size="49035660" type="application/zip"/>
+  </implementation>
+  </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJNji1tAAoJEAcTP5bKdNi6onUIAKoOnqgdz7aFsvyxZyqKlVOomV4IN8gN5lT4
-SdhHreo4g2l6LizjfL9uw3S0kOwU4GsmON2TGeCCexvN9y76PrVIzKYiWGMGbQHMioE5a4VCBQwj
-Zkhy/0W0vjvgtffmmSjIbwPfvqFFfzd0VO3U6MQ7moOGCHroH6GwJxdQDg5bUtVA4Wgipadl/tMI
-04vTKrMf4mv+YyNEAChvQDjaB3qkc4+tJULCyLLAZ57BDZU9ByBHgGPN/0dhQnuaabFV0VUvhxwX
-I1EJQEqdqj3FaeK3zg5duLWQVTdy97kOp4MnZ3wyg8pxtwY/bUAFHUKZ/dAQf+BPGr/99TFJDJ9Q
-qMw=
+iQEcBAABCAAGBQJNsHHkAAoJEAcTP5bKdNi6+tMH/jZjlSe++ImKkM9ZmTB8utoXPxtQRWQTgWMM
+97d1N0cfHnYOe7po4nzkZQgLLiKjSFcDWIs8hlmu65pH0b/HUuPmCIljAh83iUyd+mu6zLxA/asn
+Uxs2TXJrxjR5aqvXSIfBSqazgCobw1aLtfatL6qr2bMcwFX1QyEeaUlmpxmHV44C1cMQ81+5AQlw
+x30+l1RAGMtdpfF/Mlf4JNCrkXArbDAvp03Q8cARZWLzWwze3hhoyKr89TUOJ9EqePGhckbefC2L
+M6S4NE8XMVkNoRyZajEkQU0qIG2KD71JlNdjafRvswJjbDYtPlp9MAwazSzVkMIP/nNTIQEtzv5V
+iOY=
 
 -->
