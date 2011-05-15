@@ -9,6 +9,7 @@ Deluxe&quot;, a popular game originally written by Chris Sawyer. It attempts to 
 the original game as closely as possible while extending it with new features.</description>
   <homepage>http://www.openttd.org</homepage>
   <category>Game</category>
+  <icon href="http://0install.net/feed_icons/openttd.png" type="image/png"/>
   <group doc-dir="docs" license="OSI Approved :: GNU General Public License v2" main="openttd">
     <requires interface="http://0install.net/2006/3rd-party/Freetype2.xml">
       <environment insert="lib" mode="prepend" name="LD_LIBRARY_PATH"/>
@@ -28,11 +29,11 @@ the original game as closely as possible while extending it with new features.</
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJMFRaQAAoJEAcTP5bKdNi6JNUH/1kV77FiHB4WC8KrmawfKb9+JkgX9ssB+9+B
-Z/LAVU43sac02n2GYmEOQfIKubK98BG8n8CvugIBAgUJRSiLKip/kJSDfiqd3WI71jH4TPMC25C4
-XN6PWCPBzC10LfGOLpY3pt5szPR41w79+m//4TU9WGsw4P1dgV4Xv4jczP2klOkWMlNXzL0hXGM8
-l9mQGc5wG53A8NwcE8sFAaZZiJcRSvY6/S08vevnEUxM02pDJxvyi1pBjTZVUpcpn8CaRJv2k/Ht
-+1hrmXa4bsxpNRsFxlYCfTieomaenTau2fD86Yjip7iglyyNsUdufVJZH0l2/93sPzUqhjwYwFHt
-mX8=
+iQEcBAABCAAGBQJN0BvJAAoJEAcTP5bKdNi6IgkH/RvfejKtOwcOVrGCH2hKz9o+MChbWzWrbJSK
+t/Jl0zVvYAl/2GZsdcmlZd7ClqlkM69wWshyYT0fvuRgTX1j63pESdsWGedarQCWlt4o35t6teaM
+hS8dTMHW+NiS6ZbC73HtMOF7FU5a+2ijxL+iH9dupgJ6pzCjA+rTFieMGWOZ/NKAb+xpdjTPGjVW
+Ik2pc8B7oceauboVW7e5EP7EEAxmccAA+FXbN2/AIPPjNTbZQdS78HeLad6bn4X5FmJlXuMzcC28
+80KthFdQ2b6mwbCfuNY+1WzAUJvX6ghIXQtJlM0eg0t7kTQSkxQYatT7zcjNcTZDgGzl2nqiUTos
+HaU=
 
 -->
