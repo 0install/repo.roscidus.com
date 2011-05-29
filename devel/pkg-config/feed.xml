@@ -22,6 +22,9 @@ and linker flags needed to use them through the pkg-config(1) program.</descript
       <implementation id="sha1new=7619ff7ef124c2dcc423be77d22c4d6deac30cab" main="bin/pkg-config" released="2010-04-24" version="0.22-1">
         <archive href="http://repo.roscidus.com/devel/pkg-config/pkg-config-i386-0.22-1.tar.bz2" size="52359"/>
       </implementation>
+      <implementation id="sha1new=ac17f4bffd491781e31dbef628e0d0bf94d596d3" main="bin/pkg-config" released="2011-05-29" version="0.25-1.1">
+      <archive href="http://repo.roscidus.com/devel/pkg-config/pkg-config-i386-0.25-1.1.tar.bz2" size="57194"/>
+    </implementation>
     </group>
     <group arch="Linux-x86_64">
       <implementation id="sha1new=3f38637717d69aae67a7d0f843b239bb661a908f" main="bin/pkg-config" released="2010-04-24" version="0.22-1">
@@ -31,11 +34,11 @@ and linker flags needed to use them through the pkg-config(1) program.</descript
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJL1IWWAAoJEAcTP5bKdNi6Jc8H/R1zKK2gZ08OLW+vgqtCkE+qhCcqNKnSQ4Ag
-+UVyl4aBdkhOcDRhFDn1WzgspRDIViRfLUHOPw0+AtEhhv9+Ydstmn0HGDdlYu95dQ6yCMCmA6qj
-F/6tB/w0K5Fot9jzx3/qvAGOALEigKQJbqhwWbzauYncUkXl11mK4PCThOlF1v7bW6vNjkGjHOeM
-DB9EThyCmipd83zc3+7oGnqwLhx0IhvFjFCgSh2x4gZLAkF643b/dfqkJIVFI29Rw7CDPm4AevrZ
-+ll8ah5DCbd3sryD+GQ7vwCL9qyyP20z2U1c+nqkQuGe5dHW+uWGAeTE2+z/efof4FnCGDxBV89t
-RhU=
+iQEcBAABCAAGBQJN4pCIAAoJEAcTP5bKdNi64xIH/RjOQoVrO9hhltQfjpvhWaXyhdu3d5gcgi1Z
+IcEgWBa0VOg5Zhx5njnTv948JqfXhQ20slov6T2exrNnLUoOVBcy7IUjXzIX8ywErojVknKtJKtK
+v8qkCy9kc6iqdHP61ZW7MKYA0CZB1yrdx4wwUyGewUoj5DioScK7a/DbtCKZXnzskKfyuaM0Y+aR
+t7j3y7v7DpXLkIEdlBTQuI9lgYjicnfzIrw3Pzy/K8Un5iC5RO+GVKCF2WAoWxBdFudZQG6VCRBx
+IVFoffYi/PU5EZUwm8b2xodjZk3JYw9WyMECMZbTHoJHkI/PJ+bbds0Lfzxo9y5Kgb0embAg/t8G
+MUU=
 
 -->

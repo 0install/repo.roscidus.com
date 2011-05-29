@@ -24,15 +24,18 @@ the Debian Free Software Guidelines, and has been removed from this package.</de
     <implementation arch="Linux-x86_64" id="sha1new=fdc117f803c22a910e10b03caf43bd08efedc475" released="2010-04-25" version="3.81-5">
       <archive href="http://repo.roscidus.com/devel/make/make-amd64-3.81-5.tar.bz2" size="327457"/>
     </implementation>
+    <implementation id="sha1new=62aea41d2b6ecfbb1569f739d607a7f664e73b81" released="2011-05-29" version="3.81-8">
+      <archive href="http://repo.roscidus.com/devel/make/make-i386-3.81-8.tar.bz2" size="320143"/>
+    </implementation>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJL1IVUAAoJEAcTP5bKdNi606wH/2Z6/6U8Ixy0SeT8l+GRa+TiYYzP6Y/dcJzT
-M5Tpm7/Kvg7DPLAPPZJrbKcEBX/HYGCmQDAwzM1egzzV0gzga7n663Sjp78jkM+ou4/OcCPtMW+7
-B3kOnUrEs14j95Vc9AxFxBHuUPRiubjSgxSqk2hSKIU4wgPNA0VLsoYRLDibNEkoUV4WOsZwPgji
-L7YjbkNori3auElYGmTeG09lgR6JlRUeVX/pzq/f5EsXHQobF1LAaN0Byt++LSkuUlpEqN6J6oge
-K3GWWDJ0cd48PpDIt1Hzhx9fN2Cb1KtK4Pu6zqogfONdrpBs8EhlzhowHy6TFvxD6PZ7jh0SCVKO
-WFs=
+iQEcBAABCAAGBQJN4pCHAAoJEAcTP5bKdNi6cuwH/1r+uz8RfeOoo5PY7c/ZZFvd6MSGOSAtCAJt
+mEWTTthezo+QLpzarvavc6xnOUHm5EhLzvKUJ4jujt13e10aF4YivUMoGeJ3PljQiIv4O4hHRdwr
+/dNE2oCqeGD4En9aWpMzWDqQZIxofSLdMVmzF0G2Als6C0OMpddB13YWDRHZn+7nLTuAPWfyOicr
+qaSCeDNcDrKPkghc8/LfrRgu4SgzCOwSfa4NXY57bA1W2YRK8FDDJuJqGm/Jc6coxMxt2QdHsd3X
+YYod+IaI8IACUCpdLHyLCBbgdAdO4/HonWcvpXKxowPLgOsmQsPZwfShLQin376cm7nL8aUaRp8c
+TWA=
 
 -->
