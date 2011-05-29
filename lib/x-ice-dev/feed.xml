@@ -29,10 +29,18 @@ More information about X.Org can be found at: &lt;URL:http://xorg.freedesktop.or
       <archive href="http://repo.roscidus.com/lib/x-ice-dev/libice-dev-amd64-2_1.0.4-1.tar.bz2" size="56596"/>
     </implementation>
   </group>
+  <group>
+    <requires interface="http://repo.roscidus.com/lib/x11proto-core-dev">
+      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
+    </requires>
+    <implementation arch="Linux-i386" id="sha1new=7a3d73292920853f846035e27d1b23e473aeeb2d" released="2011-05-29" version="1.0.6-2">
+      <archive href="http://repo.roscidus.com/lib/x-ice-dev/libice-dev-i386-2_1.0.6-2.tar.bz2" size="56027"/>
+    </implementation>
+  </group>
 
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAkxkT7QACgkQBSn9tx+xORB2GACdFdWkgolx6b+IEhB9taPor5T+UYsAn1Y+W5Jb
-rDBONS4gxsc1qGJOH1PG
+iEYEABECAAYFAk3ikv0ACgkQBSn9tx+xORC15ACfRz10+YB51HjSDA8kcy+Bp/RtnEkAn3B5hfLp
+h2NqR7Ta0E7Bfe9wVS+q
 
 -->
