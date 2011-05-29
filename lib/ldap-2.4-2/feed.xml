@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/libldap-2.4-2" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>libldap-2.4-2</name>
+  <summary>OpenLDAP libraries</summary>
+  <description>These are the run-time libraries for the OpenLDAP (Lightweight Directory
+Access Protocol) servers and clients.</description>
+  <package-implementation package="libldap-2.4-2"/>
+  <group arch="Linux-i386">
+    <requires interface="http://repo.roscidus.com/lib/gnutls26">
+      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
+    </requires>
+    <requires interface="http://0install.net/2007/3rd-party/libsasl2-2.xml">
+      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
+    </requires>
+    <implementation id="sha1new=730a3697669531a75017f775ff5a6ebb88b8cd5e" released="2011-05-29" version="2.4.23-7">
+      <archive href="http://repo.roscidus.com/lib/ldap-2.4-2/libldap-2.4-2-i386-2.4.23-7.tar.bz2" size="192173"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=f26bb500bcf557a2c636ac934212baceeec3c6bd" released="2011-05-29" version="2.4.23-7">
+      <archive href="http://repo.roscidus.com/lib/ldap-2.4-2/libldap-2.4-2-amd64-2.4.23-7.tar.bz2" size="208883"/>
+    </implementation>
+  </group>
+
+</interface>
+<!-- Base64 Signature
+iQEcBAABCAAGBQJN4qMSAAoJEAcTP5bKdNi6cEEIAJAN6M+Pj658MU3eydXHnvOvRJmbPccOsWxt
+NQoBL4vTycFuk6Cxe004X0m5LXDORRt8pnI2ywMXSc8obCYCwG0K/ILjubQMB9Xn5ezxVMxBHVFE
+OvfrmOlwffVjhIp/zuOIo7i/XmhkCEHoNX/lL+cm9FvgwZKjHdGAbtdadUnw06hRWXLmS4j3MYQr
+BaueF8O221vGeiKlTWLCUoq4HnFCYeuQEN3e5Pc0fsB/kjDMnXPgKnK2Rv5PMIWdWDz8aVVatzvy
+12CAncRQfCCbbkqrgzCHs8nZ9bPlr4RFVCs7JSbhaglpEKkONIjmcgxq8Ug2QxV4kk6nDPkXK4N/
+vtE=
+
+-->
