@@ -27,14 +27,28 @@ This is the shared version of libcurl.</description>
       <archive href="http://repo.roscidus.com/lib/curl3-gnutls/libcurl3-gnutls-amd64-7.18.2-8lenny4.tar.bz2" size="217034"/>
     </implementation>
   </group>
+  <group>
+    <requires interface="http://0install.net/2007/3rd-party/libgcrypt11.xml">
+      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
+    </requires>
+    <requires interface="http://repo.roscidus.com/lib/gnutls26">
+      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
+    </requires>
+    <requires interface="http://0install.net/2007/3rd-party/libldap-2.4-2.xml">
+      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
+    </requires>
+    <implementation arch="Linux-i386" id="sha1new=3906d86ed089797c83783f5b50a71c18f3ef7d78" released="2011-05-29" version="7.21.0-1">
+      <archive href="http://repo.roscidus.com/lib/curl3-gnutls/libcurl3-gnutls-i386-7.21.0-1.tar.bz2" size="261280"/>
+    </implementation>
+  </group>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJMJc5IAAoJEAcTP5bKdNi6nT8H/RmG2u+lXLrr4nLpOfyDwCaz3gc6yHpMM4t1
-abp5ifFd27aBY7UwxQ36Zn/aTVqfBzhk0IFSZ+0hF1Dy2ju79uRCWTsW/hM7uHqRjnt00FK6hoH+
-ldIckbVajXVfNoFhSXcfblhuq6KLPwlFe8GhHUHZS6SQKy7TJJbIctdlOolG/+hGbf5SXclRbnDz
-fXdlmGenS5NlDyztqXhCZz0VanBOFuNIPPY7/6oev+vuUwLtHR3ak29ktN96ZmOtZBRTq2Oh583h
-bzDZd5Rn5yRGn0pRdqjqYtijkdfUIxiHqd+PHXoFo0VassIS5iHpdySpBZiAzN3p7HaTZBFXUx0R
-EPY=
+iQEcBAABCAAGBQJN4o+vAAoJEAcTP5bKdNi6rM0H/3ED1uYaa5WHrBh2YuIIV8vZ7mFpT/d+1iTe
+jlL0FVnBspWv/ITyRrqLStYxKYxDi0n4LSqileYR1f9Q35jV9gfu+AJuO1eUAiZmWXHJDY44MWo8
+5KdpCmKVAfIh8Jg7uoNGSINJewXI+GJHUXUKYUTkLH0JFflsk2PoyuVxzCk/LRCDEZiR+jfA/Jiu
++Y1dXwe7/Kqza8rfvSy00PUUFg9keb7K5xokON7nyiarzcJprZW2G5C63TdkNQpJA6NuPGNiYtYT
+7jbqVwT2FBnozX1qzWRvLkIZpGYTMNvkZ0s6YjpJ6IYbkHFi0ht6mFBG+wxsKb/ngRya1RK479O6
+A/M=
 
 -->

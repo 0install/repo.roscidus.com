@@ -32,14 +32,25 @@ This package contains the runtime libraries.</description>
       <archive href="http://repo.roscidus.com/lib/gnutls26/libgnutls26-amd64-2.4.2-6+lenny2.tar.bz2" size="508374"/>
     </implementation>
   </group>
+  <group>
+    <requires interface="http://0install.net/2007/3rd-party/libgcrypt11.xml">
+      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
+    </requires>
+    <requires interface="http://0install.net/2008/3rd-party/libtasn1-3.xml">
+      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
+    </requires>
+    <implementation arch="Linux-i386" id="sha1new=df49a5548f26afab506f75718504467bf55ef213" released="2011-05-29" version="2.8.6-1">
+      <archive href="http://repo.roscidus.com/lib/gnutls26/libgnutls26-i386-2.8.6-1.tar.bz2" size="522728"/>
+    </implementation>
+  </group>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJMJc2DAAoJEAcTP5bKdNi6X3cH/jtkSAJRJVtjpo2kn+QleJrN/8HtcCrmUYM/
-ecquFhqNDxqxalWq8RoLbRTQoqb4Muh0TcQ0s8a9ARUGyeUN/Xx5bNe+nd3FVxTHK2gj/BbLNEj0
-u/J5dazxbsa3NqZ8oWIHrVFaquSS4joBDAjsQYLa9SCmwSiZieU6x6otN69VvA1N/NoHhNTPBkcM
-xHEl3ivJFwS8rfmM1Hq1NnCYvEf9U6Jrd7gFrDSzp1BZ3PwndblMaP21qs9glezUaKe+8sAMVPtb
-iZEH9CMeYziD8Cw9Bow2+nZZy6UdP6u4tY+sMzUUEP5PHLvK/UTjH3286CdT+jF8+lstr6rpFcuK
-CkM=
+iQEcBAABCAAGBQJN4o+wAAoJEAcTP5bKdNi6FMwH/1xWDH3cI05Ra48r1fj9gYX3SIdZEYXldzq7
+tT7nVy+9Tln6TrDiOWYtfTbrqSTezhuYo0f7wdWRaD0ZZI6/Vv4WaIEfmO009rQGpR8cC3+Xu+fA
+sUOmdHlw6odwc/TO9glH5ylfX2moJEwqlUF+AzV1+9trv0X9+lYi+zXzzFPVWmANfTC2TBvTYtP1
+JS9MtMb9AjKuI0NXyyemcwKX3WiUy3H+GKsZGQMe3xCVaiDDyPZjhNOSXvYVdakDrqHXp1D6qCxj
+unbtgotNE5+0+XkCb9BFN7ng8n4qiZyYD0XQtgXwHSwd8tjTn1EOouMGk0MlXDJkeYv+mv2L3kad
+rnQ=
 
 -->
