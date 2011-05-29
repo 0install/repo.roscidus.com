@@ -21,15 +21,18 @@ This package contains runtime libraries.</description>
     <implementation arch="Linux-x86_64" id="sha1new=420f1e2373c433312e795a1f3dbd304f8143e4f4" released="2010-06-26" version="1.4-1">
       <archive href="http://repo.roscidus.com/lib/tasn1-3/libtasn1-3-amd64-1.4-1.tar.bz2" size="60431"/>
     </implementation>
+    <implementation id="sha1new=7e12b9c035a728598a23a418c5e6931b9182c56f" released="2011-05-29" version="2.7-1">
+      <archive href="http://repo.roscidus.com/lib/tasn1-3/libtasn1-3-i386-2.7-1.tar.bz2" size="62504"/>
+    </implementation>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJMJc2EAAoJEAcTP5bKdNi6d8QH/1mEp+Mfbo8rA5LJCmOmi2BojJ/SElJfFNid
-mwDWIupAg/naYGK/HpZ+ZwIfIuoxWdJEPr1deUwPZSMHaduYQOz78YQlLvYd1We7MKlnq0VQnuka
-vGis/cou18gIG0e5YHnMUUZ/8w4EZI2LYmggXA2NKhCw8ar5yTwOb3SRhmgm1cMy5wGXJ8PClVyi
-xz6jW3XnmNKaNelYPp/6MZ9knD3Je6hNMsV6GrOXwOyuHcP7Ewtd5DL4b2DLi5893PLhCqfvL+V/
-wtLmEdhpX99hEGkpvBMnEc/DL5uQVNCIju0KKsb5CsSBzQi8o1AzLL5+OuEh/T6MbmtalbJd4wgB
-GFo=
+iQEcBAABCAAGBQJN4o1+AAoJEAcTP5bKdNi6LPwH/R/qLZM/YY1YJTwl/gIR8Lu+edzaNzksG3bT
+uALOrEM1RXF1Y3QGJszjYaztjGKewa5eB6h3abOuYzz8l9Eidu6CnSytfcVgn6YmwbN8E0R7rike
+THTS2UlZmC2EMQYbIR21AuEN+lyrGVxotK4thd0lM3OEzKknS8nQCkfmgAK0FbYYMTR/ZEXBDGsQ
+SJI4DCS4wCfgv6vWtlTNQcAzxLyU8Uv3vlIP4rlT/g/PkqpT/dJPmK3zPgFlOZykoglEyqOfhrPB
+TuBsQMmwi2C3ROcAvMhNCxta9mRELP+EC2fQWvZpAnNvlJCWFAGauXBH9FAMbEuDvSCy/GhYlXdd
+jj0=
 
 -->

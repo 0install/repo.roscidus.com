@@ -18,15 +18,18 @@ It has a rich set of functions, and the functions have a regular interface.</des
     <implementation arch="Linux-x86_64" id="sha1new=1213339256f457c5b958b3f51f2a846fceac509c" released="2010-06-24" version="4.2.2">
       <archive href="http://repo.roscidus.com/lib/gmp3c2/libgmp3c2-amd64-2_4.2.2+dfsg-3.tar.bz2" size="166595"/>
     </implementation>
+    <implementation id="sha1new=842fea4dcd8f380f17f079b1eca8636c158b21d1" released="2011-05-29" version="4.3.2">
+      <archive href="http://repo.roscidus.com/lib/gmp3c2/libgmp3c2-i386-2_4.3.2+dfsg-1.tar.bz2" size="232877"/>
+    </implementation>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJMIzZzAAoJEAcTP5bKdNi6TyYH/164vtRSwxKIQmVXwI1eY0X9U70XgM6fsP+v
-rItYHpa7J4UKGpAz4wZBdRs6ws9bm01vInLAJv5yXNsdkrsTXmagBfSjaBgQYFf2XFHQ+KtX9eGF
-r6vo7PXNh1n2cUNhiG0vn7vHbUIpSfx/YdBAfZxBsf3AHHNg36s0RnTaRapz77jxY1AwiwDohjyx
-ALq6LA7dqGkpCMerp4MYt571OdhIn+YifpQ6JafUFk2E33NJdoaXA1nCWn50iABVusyJwg6t+ed/
-y3iQgfXES2vpOTBRIOb79kcZAOJJOHXNRSWuUwGrR3S3qd9Hp0eh44Kt8si8tEdaPzaI9A6HW+LY
-DR8=
+iQEcBAABCAAGBQJN4o2JAAoJEAcTP5bKdNi61UoH/1ff/16NyDii8/4XFiOxDwWNbMcCH1ev+6OO
++79RYq5/s5i1v/9wLArfSMS7NIU+anp0PygQ+okEfckMFplnlFOJLwT/iggh3JDcyvpK4Y6W9Q+h
+GvMP+tAFgOFJn0phnDmKItfIRu1MMjGP0zpeAe8e3c7PCOuSSltl77RdWqZHoJLQJChxrNS6FNwt
+HYpPK4UDd9RTt3S9u+PiCmB/dCIXTXJ3l359at3dGyf2pnugyVW85ORMFmcs7YWeYzR5vByUmtjv
+PrCdyOBgi/jcFEMBnvqUGQ7d7m0yXbhekdlZAulTbyxbndsB+g8HypWZRjg7BX0OKLqBlahZDUxA
+MmM=
 
 -->

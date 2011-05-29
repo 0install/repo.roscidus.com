@@ -27,14 +27,17 @@ Kerberos clients.</description>
       <archive href="http://repo.roscidus.com/lib/krb53/libkrb53-amd64-1.6.dfsg.4~beta1-5lenny4.tar.bz2" size="508704"/>
     </implementation>
   </group>
+  <implementation arch="Linux-*" id="sha1new=8510fa7b47a00d8f45a17a02e2736ff4361c144e" released="2011-05-29" version="1.8.3">
+      <archive href="http://repo.roscidus.com/lib/krb53/libkrb53-i386-1.8.3+dfsg-4.tar.bz2" size="1380447"/>
+    </implementation>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJMJc2DAAoJEAcTP5bKdNi6Z80IAIRnN3cIOMH7BkPT75aTk3pAuNsuw9EGkpbB
-Vl0X80aFc3DiOjhKM6mZiqFM1AquJ3CizmvqzB2uQZTRpnFyRLektnoc4AgO3scQm266rRG0oTin
-6Ld/4V8TU+AtXSFX5T4ixjb8+eFIzPpL3uOWYc4XtAkvaVNM7a88kyo/zLCfyEL4cvRMsi81YuKt
-MgBVNouYyEnPLaGLYghDc2qmjwdRzXZTgUmLml/tl703PS3EFWSjFC6PsTOsl0KfQf6Kd9wKTb+a
-xUqqsJXuP9R/OhYLDp1eMZdkbExJYplsd3AkIlduk48J/uDioXFRNC8Z1vS4vW7cjLFRBo+BXc4H
-bso=
+iQEcBAABCAAGBQJN4o2HAAoJEAcTP5bKdNi6RQMH/3vrNK2N/OIANb8MNE5+EnWVO169MT239FS7
+8njFMtkN5pAzPbol7VGxMIQbk/NPeN2hSpQMl2iI3Tq3MWLkLu9yBxO2Nlt37FjytGMBBLTT8moP
+entONEej9S65NWcTLC77aMRiV9Md9o28Hon4sLLfMyxVELJ8DaNUT6pOHwtfgVnIU1etTv8+X/KV
+XpohhyWRHNe6JqJEEvHLZ4gFY2gaezI90CB/DSqYKyA1KgxBAuavdLIQbh7adKuIS7MbN+igQgqz
+yx4FAZHF/jC7qPRoR2lg5GtTncaOb6KSo8bfyvSBGO056WJcI3lrM0cIwfPDMaZcb4UC6atCHLRD
+OYg=
 
 -->
