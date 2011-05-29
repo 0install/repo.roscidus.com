@@ -24,15 +24,18 @@ This package contains runtime libraries.</description>
     <implementation id="sha1new=7e12b9c035a728598a23a418c5e6931b9182c56f" released="2011-05-29" version="2.7-1">
       <archive href="http://repo.roscidus.com/lib/tasn1-3/libtasn1-3-i386-2.7-1.tar.bz2" size="62504"/>
     </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=4602c038987469545054d4eabaab0e0944839062" released="2011-05-29" version="2.7-1">
+      <archive href="http://repo.roscidus.com/lib/tasn1-3/libtasn1-3-amd64-2.7-1.tar.bz2" size="64247"/>
+    </implementation>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJN4o1+AAoJEAcTP5bKdNi6LPwH/R/qLZM/YY1YJTwl/gIR8Lu+edzaNzksG3bT
-uALOrEM1RXF1Y3QGJszjYaztjGKewa5eB6h3abOuYzz8l9Eidu6CnSytfcVgn6YmwbN8E0R7rike
-THTS2UlZmC2EMQYbIR21AuEN+lyrGVxotK4thd0lM3OEzKknS8nQCkfmgAK0FbYYMTR/ZEXBDGsQ
-SJI4DCS4wCfgv6vWtlTNQcAzxLyU8Uv3vlIP4rlT/g/PkqpT/dJPmK3zPgFlOZykoglEyqOfhrPB
-TuBsQMmwi2C3ROcAvMhNCxta9mRELP+EC2fQWvZpAnNvlJCWFAGauXBH9FAMbEuDvSCy/GhYlXdd
-jj0=
+iQEcBAABCAAGBQJN4pPlAAoJEAcTP5bKdNi6HYQH/R1Pyl9EnDihmkhgoO5ryd91nAFszYuU1PpT
+uYJGCQBlz9qFtveYQb18o1Tz82cpKSo0/HsecxXbKZYxUgiJlbZdQ1eq+mAjbYH7R0/jOPm5qejr
+/p7we965Gx2ZJFYM1nWBaC4qqb86wRWdLu/ECtwld5fp3BL+2wyfNtP+37zPdLYlVCTRQzAjuA3e
+EWbVRJRwgJW/ds24FfPsaRteAuoUehNrqfTZM5MEeO7XWnwUWfGH9oe0Xx1gjqVxKBxlu9PcmjEx
+QjwPlE7QDIqVG6GZ385rdv2YFmPk5FY05pj0N91GDEO5ldZEHXa5VxorAZ11o8IU7m9DyAPPu55p
+iwI=
 
 -->

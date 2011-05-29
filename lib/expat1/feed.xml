@@ -17,11 +17,14 @@ parsing XML.</description>
     <implementation id="sha1new=89d2ce4f09a43eeb3fd6d5de69dfac227adbd7be" released="2011-05-29" version="2.0.1-7">
       <archive href="http://repo.roscidus.com/lib/expat1/libexpat1-i386-2.0.1-7.tar.bz2" size="107371"/>
     </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=11b1e69a5e345ebe5e83cb08680a0686172cab9e" released="2011-05-29" version="2.0.1-7">
+      <archive href="http://repo.roscidus.com/lib/expat1/libexpat1-amd64-2.0.1-7.tar.bz2" size="106257"/>
+    </implementation>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk3ikIQACgkQBSn9tx+xORA1JACfYlTW2Wc9teaEES/gXDggZXMb0hwAn32LsvIC
-PNiHff4b5jI1p80gvAS5
+iEYEABECAAYFAk3ilXIACgkQBSn9tx+xORArGQCdHvBQ2qraodXBWe4qpBXN87Vo1wIAoJIEw3Lp
+3nDIS/hBi+H10uPVleqJ
 
 -->

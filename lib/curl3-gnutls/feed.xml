@@ -40,15 +40,18 @@ This is the shared version of libcurl.</description>
     <implementation arch="Linux-i386" id="sha1new=3906d86ed089797c83783f5b50a71c18f3ef7d78" released="2011-05-29" version="7.21.0-1">
       <archive href="http://repo.roscidus.com/lib/curl3-gnutls/libcurl3-gnutls-i386-7.21.0-1.tar.bz2" size="261280"/>
     </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=b688a3dc88fe3b50d3840e9dce2587bd9b59f646" released="2011-05-29" version="7.21.0-1">
+      <archive href="http://repo.roscidus.com/lib/curl3-gnutls/libcurl3-gnutls-amd64-7.21.0-1.tar.bz2" size="268045"/>
+    </implementation>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJN4o+vAAoJEAcTP5bKdNi6rM0H/3ED1uYaa5WHrBh2YuIIV8vZ7mFpT/d+1iTe
-jlL0FVnBspWv/ITyRrqLStYxKYxDi0n4LSqileYR1f9Q35jV9gfu+AJuO1eUAiZmWXHJDY44MWo8
-5KdpCmKVAfIh8Jg7uoNGSINJewXI+GJHUXUKYUTkLH0JFflsk2PoyuVxzCk/LRCDEZiR+jfA/Jiu
-+Y1dXwe7/Kqza8rfvSy00PUUFg9keb7K5xokON7nyiarzcJprZW2G5C63TdkNQpJA6NuPGNiYtYT
-7jbqVwT2FBnozX1qzWRvLkIZpGYTMNvkZ0s6YjpJ6IYbkHFi0ht6mFBG+wxsKb/ngRya1RK479O6
-A/M=
+iQEcBAABCAAGBQJN4pPhAAoJEAcTP5bKdNi635sH/RWTNP1gZNULEwun+UqYbh+RWgnlEvOQv0zf
+XTxAu7+dwAXkj5E27zLzQoukC/bbXn8c+Q0tR3tLprRJ3sHTKlPOnOS3KykIVlsliEMaGLHycCNa
+yT9SCiEmxM6qUZAZdYMran31fs6PwUeDHBDElLjT2aVhPJCKEyT2XtuyZOMRGhD0OkNwP/MHACKb
+KR/GNsrW/CJdy93GUK/Y1jgWk/v8wzbOx27o1sKs0oYAQtj5oTFSz60eJKV5aSZtgtUjF9Y9Bjif
+l/TUmmxQ6/qaCIHXPfu1m+Opw1cao5MF7F66CFQ8YJqOR5uzj9kVvK5b66HQPzXnniQCG7wWuWpp
+Nns=
 
 -->
