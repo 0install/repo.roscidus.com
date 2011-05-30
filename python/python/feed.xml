@@ -14,6 +14,7 @@ language for applications that need a programmable interface.</description>
   <needs-terminal/>
 
   <feed arch="Windows-*" src="http://0install.de/feeds/Python.xml"/>
+  <feed arch="*-src" src="http://afb.users.sourceforge.net/zero-install/interfaces/python.xml"/>
 
   <package-implementation distributions="RPM" main="/usr/bin/python" package="python"/>
   <package-implementation distributions="Gentoo" main="/usr/bin/python" package="dev-lang/python"/>
@@ -27,11 +28,11 @@ language for applications that need a programmable interface.</description>
   <package-implementation distributions="Ports" main="/usr/local/bin/python" package="python"/> 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJN42EYAAoJEAcTP5bKdNi6LXAIAIgQA3VoR4ZF+K08i73hRaTtpjCS2DEVGV5u
-inpaDmpWUkcJqdS8J3tWa8cgqvlNM8IV0li57Rs7UfQrKWScVG91WfoUX1Gq6zOK1vyej3vxt4+V
-mkxtFLB6/7HkFTGIdRmHFHeWgVy7FxH+zJTWvpXgK78h9thcUGnSd3crdv2ZrhPfP+o9KVgbdYdO
-nS/7EZzu7Jdgu4r1lOmwEWKAVucx4iXpZzzlhfbZ6P48liP27H4/8z9+PFKEDHESmpfzGt03KT3Z
-v+scUCZ1p2ANhmi+71bUTOgvYoGDZQ0dfeBXdDzeiSjZzmKsf1vBenrfhlTnYVauk/l5T6YUdKbb
-PJ0=
+iQEcBAABCAAGBQJN42LXAAoJEAcTP5bKdNi6frUH/j4unUkXvXdE2o/wqwAXvD9yyaRXc/oRAO1O
++j9gl7d/dc+Y+0eMpBZ/Gq9CCGsOKgdL235/HHY5NGGOhZDaHhLmAUfju/YhsSnFsJXyTGRZx8Ju
+07urvhp0KYbcR0MlkLFTtKGnsQYwkmyFA3waTHIipVyN2Sg3Aur853nQvjgLpxope6EYg1efNZ3w
+iqacLobtBpf5zwhdzEc0UkThv6RoMm518V/bkqVYXkpfK5o9trozBz3sT0Ugdv3vY3Rj9eGpU762
+rMH1Fq/U21tS+ye2J4fdQ6GOO6xJ5RPKa1vMYkJpT8OmBSv+MFD85GpVAcTc84sqcKOdXhbd07cc
++J4=
 
 -->
