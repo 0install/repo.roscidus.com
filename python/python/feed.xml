@@ -23,13 +23,15 @@ language for applications that need a programmable interface.</description>
   <package-implementation distributions="Debian" main="/usr/bin/python2.6" package="python2.6"/>
   <package-implementation distributions="Debian" main="/usr/bin/python2.7" package="python2.7"/>
   <package-implementation distributions="Debian" main="/usr/bin/python3" package="python3"/>
+
+  <package-implementation distributions="Ports" main="/usr/local/bin/python" package="python"/> 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJNsFEHAAoJEAcTP5bKdNi6IEEIAJu0OhPPV0SzjQe/PzT4qAvCCf0hOU80JwS4
-UXSr8cX/OX0B6VnrcFAJD2aq+dchuyugJ3dlyvtvRxH3VM38c4X58UA0/su0vfqeut250TR56V4g
-det/Ntp3eABkQuBbIeqskkwS7HbjYr04H6eUt1I2H7t4/QQRtcDyeA5yyvcR/ytcSYPhpHkw3Sti
-w8nVPQTf/ZvRxG3KEv0ykYwLBACok8UQsXqzaH72E2gRScaSq5xqZ077I8f4gao2QEmmKpuleXdp
-mPiMX6lUhbRWmnP/C1uC7q+Zf52+OV3nOQVjj5wwMbchhu6k2hV6dy5oK9JEz9xUlH2iqFPBL0EM
-230=
+iQEcBAABCAAGBQJN42EYAAoJEAcTP5bKdNi6LXAIAIgQA3VoR4ZF+K08i73hRaTtpjCS2DEVGV5u
+inpaDmpWUkcJqdS8J3tWa8cgqvlNM8IV0li57Rs7UfQrKWScVG91WfoUX1Gq6zOK1vyej3vxt4+V
+mkxtFLB6/7HkFTGIdRmHFHeWgVy7FxH+zJTWvpXgK78h9thcUGnSd3crdv2ZrhPfP+o9KVgbdYdO
+nS/7EZzu7Jdgu4r1lOmwEWKAVucx4iXpZzzlhfbZ6P48liP27H4/8z9+PFKEDHESmpfzGt03KT3Z
+v+scUCZ1p2ANhmi+71bUTOgvYoGDZQ0dfeBXdDzeiSjZzmKsf1vBenrfhlTnYVauk/l5T6YUdKbb
+PJ0=
 
 -->
