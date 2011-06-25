@@ -19,21 +19,26 @@ because it uses IDEA (which is patented worldwide).</description>
     <implementation arch="Linux-x86_64" id="sha1new=e868aac11bfab00c3f1c43f9780c757fb86e5819" released="2010-06-06" version="1.4.9-3">
       <archive href="http://repo.roscidus.com/security/gnupg/gnupg-amd64-1.4.9-3+lenny1.tar.bz2" size="1620186"/>
     </implementation>
-    <implementation id="sha1new=4a3636d68e9a64fe2b0b20c480a1af2218830b60" released="2011-05-29" version="1.4.10-4">
-      <archive href="http://repo.roscidus.com/security/gnupg/gnupg-i386-1.4.10-4.tar.bz2" size="1711464"/>
-    </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=7b41bfd5e28db2298adee2f5c93d3233b7d94842" released="2011-05-29" version="1.4.10-4">
-      <archive href="http://repo.roscidus.com/security/gnupg/gnupg-amd64-1.4.10-4.tar.bz2" size="1769667"/>
-    </implementation>
+    <group>
+      <requires interface="http://repo.roscidus.com/lib/readline6">
+	<environment insert="lib" name="LD_LIBRARY_PATH"/>
+      </requires>
+      <implementation id="sha1new=4a3636d68e9a64fe2b0b20c480a1af2218830b60" released="2011-05-29" version="1.4.10-4">
+	<archive href="http://repo.roscidus.com/security/gnupg/gnupg-i386-1.4.10-4.tar.bz2" size="1711464"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=7b41bfd5e28db2298adee2f5c93d3233b7d94842" released="2011-05-29" version="1.4.10-4">
+	<archive href="http://repo.roscidus.com/security/gnupg/gnupg-amd64-1.4.10-4.tar.bz2" size="1769667"/>
+      </implementation>
+    </group>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJN4pV5AAoJEAcTP5bKdNi6D2AH/2dplb3NcFJhOEm1eCakekgWXG9V6vkRMQ7J
-H+IKgXIVhw2vb/LLnbINclHYZ6X4MjnaMMflSwBas+ljfgF+ih1ZbslEs68h0p3zoYM0pPnjmBDS
-QPhQu7IXTCPjXRKWxgrMwn/Qv6gIvg+lHQmAgqcOBPUHNOpXXx3UcjIaZJ5uOXIh16ICjBWPxiAw
-L3MW7gYlrc6iTHQdNXKkonBteQW0vGO0ZU3mxtK7bIc7spWV0v6ZQyyOvtOaoTbhudXwoMs8UVcY
-wXuNPk5ipYDlc7IO/bkuI2AWRYIXGxwU1P/PjO6iGt2qz52XcIWaEOluskYBQtDsJATSOvOLQQB/
-Msw=
+iQEcBAABCAAGBQJOBfzQAAoJEAcTP5bKdNi6iS8H/2+d+4NYpmBB7wH1QDKcgZx1KRtHowcCop2Q
+JlWs9oRYgHlic08fZ1Lq9BvJ6KRwVnb3iGP/mEQTwYY0heYRSEF8J4tI0BmF9ApmuXg9KeL80Q2C
+XPhiYbFDkUFTekcadakddtZoUaXicdS+qvGAYoWU9Ky49B5nYqY0n6WE2WcyyJLk2gHk9BztI6sV
+JNlDEKGDBED4G7wgIBQrmsT5WNGRy8id7bJazOPEgBJbLYOQojlZnSTHCZHNawjmAq8CkjX2ncoI
+rJXpvSWHegFwg6mw7kkH7zUcp4rKr/KVLN78FlaFFuMfPEVjNcXieIhqr1VzYCbePe+45lLJL7ta
+wrg=
 
 -->
