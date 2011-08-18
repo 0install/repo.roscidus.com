@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://repo.roscidus.com/java/sablecc" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>SableCC</name>
+  <summary>Java parser generator</summary>
+  <description>
+SableCC is a parser generator which generates fully featured object-oriented
+frameworks for building compilers, interpreters and other text parsers. In
+particular, generated frameworks include intuitive strictly-typed abstract
+syntax trees and tree walkers. SableCC also keeps a clean separation between
+machine-generated code and user-written code which leads to a shorter
+development cycle.</description>
+  <homepage>http://sablecc.org/</homepage>
+  <category>Development</category>
+  <implementation doc-dir="doc" id="sha1new=7842ee47b251f4820a47505e1aaef093d56dad98" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2011-08-18" version="3.2">
+    <archive extract="sablecc-3.2" href="https://downloads.sourceforge.net/project/sablecc/SableCC/3.2/sablecc-3.2.zip" size="539075" type="application/zip"/>
+  </implementation>
+</interface>
+<!-- Base64 Signature
+iQEcBAABCAAGBQJOTLQ8AAoJEAcTP5bKdNi677AH+QEtImzrirkoH/SyIVSRvpP2JxZLAyw2HEjm
+z5C8X/CQ/aY6gdliutIaVx8HRenJYJSBbnys3g5dvoWLqysvdzAknYUIpbvVy33PemsyOzGB93og
+RnBjdNT6r84WURm2wcSRpfvxlcsXo6vqbiWd34bnA+zmYORn/hfRkPCvrIdfhCkf3N9zKtvTZFm/
+GMNcPe5Bl7pHZB2wgKkUHROkUHTjoCtOZY9p00afdnNALsP9hIGJunWJU99zuSw71VXNp+cLVMY2
+HfTgxAd/YcaW+ADJWa1xGbfrwPgAtlVSYUIOVsGjjDJmuKgpXxqkcgWXq3DshWXmao4RXY0xscFG
+clI=
+
+-->
