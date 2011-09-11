@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/glade2" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>libglade2</name>
+  <summary>library to load .glade files at runtime</summary>
+  <description>This library allows to load externally stored user interfaces into
+programs. This allows alteration of the interface without recompilation
+of the program.
+
+The interfaces can also be edited with GLADE.</description>
+  <package-implementation package="libglade2-0"/>
+  <group arch="Linux-i386">
+    <requires interface="http://0install.net/2007/3rd-party/libxml2.xml">
+      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
+    </requires>
+    <implementation id="sha1new=15272eeed2f2399dabe965698e2f0071e8d7de24" released="2011-09-11" version="2.6.4-1">
+      <archive href="http://repo.roscidus.com/lib/glade2/libglade2-0-i386-1_2.6.4-1.tar.bz2" size="88025"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=16cdc92f54b0e322a4931883870f60f2e4f319a1" released="2011-09-11" version="2.6.4-1">
+      <archive href="http://repo.roscidus.com/lib/glade2/libglade2-0-amd64-1_2.6.4-1.tar.bz2" size="90219"/>
+    </implementation>
+  </group>
+
+</interface>
+<!-- Base64 Signature
+iQEcBAABCAAGBQJObQL5AAoJEAcTP5bKdNi6CHkIAJjsaavXbmidphQeVxFAd5arhoiKrJDaZWW/
+bJ5IkFCe4KG+wJXtC2hq9IOdhXKqr8YKadNr3pQPvGSKj5ypGULBczoBthm1fwQ3OD1MAqeZBteI
+TS7jKrWkoLYuX2W5RdMVeq34Mddnlzo5NmbWQ4kuxB1QqNDCjmmvLHO32eZOBTQfWHwkZ2HtQfAk
+ABwxB24sSBTAuSZAbWW2ZzmUG1oF9otVacvhKGEiUK/YvnbYtVPKq/f8UyIlUe/igRwiHSxj8DP0
+km0x4euJQgaK8R6lAKuPcMPKj/htzN93Nqc9gT7b7GQ4w19rQsocxlLOmA+f4R/TK8VkvTE5+/3W
+4Zk=
+
+-->
