@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/xml2" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>libxml2</name>
+  <summary>GNOME XML library</summary>
+  <description>XML is a metalanguage to let you design your own markup language.
+A regular markup language defines a way to describe information in
+a certain class of documents (eg HTML). XML lets you define your
+own customized markup languages for many classes of document. It
+can do this because it's written in SGML, the international standard
+metalanguage for markup languages.
+
+This package provides a library providing an extensive API to handle
+such XML data files.</description>
+  <package-implementation package="libxml2"/>
+  <group arch="Linux-i386">
+    <implementation id="sha1new=f248e00cdda7e14ec148cd7120f575c4650157fe" released="2011-09-17" version="2.7.8">
+      <archive href="http://repo.roscidus.com/lib/xml2/libxml2-i386-2.7.8.dfsg-2+squeeze1.tar.bz2" size="808089"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=0eec0a01c3d12de6f07faf138df1a24634d7326a" released="2011-09-17" version="2.7.8">
+      <archive href="http://repo.roscidus.com/lib/xml2/libxml2-amd64-2.7.8.dfsg-2+squeeze1.tar.bz2" size="861925"/>
+    </implementation>
+  </group>
+
+</interface>
+<!-- Base64 Signature
+iQEcBAABCAAGBQJOdIAfAAoJEAcTP5bKdNi6LtgH/Rs5TMonVwHJr30LfDFxAv3jfyiZWJFCEON0
+W/eeunoSy7djEnZIOxBhIec7JUVpuhR6iXMf1M+xpSuBcYtU+fHnnwIpVyPT5SKeAZm04AY0mliY
+U6jMMWgRyuEeJVXRtdC+lxrSSyPVvT2iwhIkLmbwBG2zspIta406owVLJFI0JmSJJ/DgnZBCqQWx
+5uyVw4dWO4bEgOarbV1oiPB1vmhJekc/bnSyw4Hzif7KFyrl9yPG0XrhQHrkS+WyC9Z/8a+RXSu7
+N08i+TREyqyzgDDFnclr8gm/2RvyQ/d6nT5UWP+x2Eq8nT84XvQAks3iARvBzlSf1RxvhYrNFQOb
+TZ8=
+
+-->
