@@ -47,14 +47,20 @@ provided as separate git* packages.</description>
     <implementation arch="Linux-x86_64" id="sha1new=2aa4e2d7a3a832bdee632bc65e13119b602bdb54" main="usr/bin/git" released="2011-05-29" version="1.7.2.5-1">
       <archive href="http://repo.roscidus.com/git/core/git-amd64-1_1.7.2.5-1.tar.bz2" size="4438520"/>
     </implementation>
+    <implementation arch="Linux-i386" id="sha1new=edfee8eb96ce0096b5ad2279c5d1c79be5d95856" main="usr/bin/git" released="2011-09-17" version="1.7.2.5-2">
+      <archive href="http://repo.roscidus.com/git/core/git-i386-1_1.7.2.5-2.tar.bz2" size="3920349"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=dd3a3e7b45a695cf9997303151a49c8118912904" main="usr/bin/git" released="2011-09-17" version="1.7.2.5-2">
+      <archive href="http://repo.roscidus.com/git/core/git-amd64-1_1.7.2.5-2.tar.bz2" size="4438560"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJN4pVwAAoJEAcTP5bKdNi6IXcH/0k8vE/vwkrgtrquPzqNl9i+4wUtDbSczDrq
-M9QEGsbQ3BEGYzQGjPKyQG6tRRQ5R8eAK4NQa2NpGBzc7Z122mO5LvLBtqpWzk1SdWXDJpZALddm
-DOG6KOv55U2pZcy2Cr5IbwvcoODfdfk8nBJuy1qfhxjl3DX7L1wfwmIWQO59Ix/9+Qdabend+Zue
-RXyj/PUvuEROPYALxUYcaNrPSRfkYjXf84O/jpexMewpBT5nrl+Ue/wfmc63eWY81B83XuoXPVwG
-TgCNI6D2Wuqzf6AgWVQ7Lxnv4u21+YgDmkVlpD5qjroPA9BNcK1p64DT2JL1UUSO6vuhCjOPyUk1
-3FQ=
+iQEcBAABCAAGBQJOdH4PAAoJEAcTP5bKdNi6qGAH/0Dtp+jATejhy3uGlzIkZYY+ZFzKrq/pUIPw
+W1jwAcCyoFhY3ArkozIbGLLmGMmj22RgHmtx75UrR64f0+/D2gHA+Gy6MC9JTTEVWfVk62Y81xgz
+y6pohAWJs79dw42W0hSmKUGG+v4QGg10h8muObmotVLLwpcqQsJGQ9/AT9G25bqiOIXYnxDKtYoc
+WI+5vKzfKPhZFsyWFLLhG1ofSekLBZkvtwykdF5f5UEYk8NwdEm2wM1tJTsf0pWtqcj7NSeyZ0uG
+z5tB0Jf4i/YesJ4A6xt/vwx55g9nBi4QuyFHEWTB6yCWIZwgVHoQbQ6I/TFsPYLP7BdbOqUxDdA3
+IYQ=
 
 -->
