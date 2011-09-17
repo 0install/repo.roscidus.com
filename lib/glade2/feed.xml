@@ -10,7 +10,7 @@ of the program.
 The interfaces can also be edited with GLADE.</description>
   <package-implementation package="libglade2-0"/>
   <group arch="Linux-i386">
-    <requires interface="http://0install.net/2007/3rd-party/libxml2.xml">
+    <requires interface="http://repo.roscidus.com/lib/xml2">
       <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
     </requires>
     <implementation id="sha1new=15272eeed2f2399dabe965698e2f0071e8d7de24" released="2011-09-11" version="2.6.4-1">
@@ -23,11 +23,11 @@ The interfaces can also be edited with GLADE.</description>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJObQL5AAoJEAcTP5bKdNi6CHkIAJjsaavXbmidphQeVxFAd5arhoiKrJDaZWW/
-bJ5IkFCe4KG+wJXtC2hq9IOdhXKqr8YKadNr3pQPvGSKj5ypGULBczoBthm1fwQ3OD1MAqeZBteI
-TS7jKrWkoLYuX2W5RdMVeq34Mddnlzo5NmbWQ4kuxB1QqNDCjmmvLHO32eZOBTQfWHwkZ2HtQfAk
-ABwxB24sSBTAuSZAbWW2ZzmUG1oF9otVacvhKGEiUK/YvnbYtVPKq/f8UyIlUe/igRwiHSxj8DP0
-km0x4euJQgaK8R6lAKuPcMPKj/htzN93Nqc9gT7b7GQ4w19rQsocxlLOmA+f4R/TK8VkvTE5+/3W
-4Zk=
+iQEcBAABCAAGBQJOdILnAAoJEAcTP5bKdNi6UVEH/1f+DnV5HEzquN8eTsKgt6wFoCn2JfzytTwZ
+GgHZuIUMouGpjPgW/NLp4oMLirSNZIhzasAbJ0DMwIqoRdK7k/gGH7o790N/y1UDoocJE6xTFVab
+BafLF4lXBlx83gpnx6EAJxKo022c6RPeTdwBk9rdC2Le4huTtBhY8UcBlu0hevb6ej3n3X3GnFIN
+LQp7m7Itgva7Ls7GVba3AU93gGLWgKM7FK4smt17VwcZ2e8Rg787esQ506AaNq0ysAFGxyNoCL3I
+w1PZ6uxd/dP3r6KgQ5cC31u0UQ6GOHfBIB1ypONALQQGP3nx14G/NH8TC2MJjIv8rW8771DXa536
+9EU=
 
 -->
