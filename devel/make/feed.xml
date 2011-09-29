@@ -12,11 +12,7 @@ ftp://ftp.gnu.org/gnu/make/. The documentation for this package does not meet
 the Debian Free Software Guidelines, and has been removed from this package.</description>
   <category>Development</category>
   <homepage>http://www.gnu.org/software/make/</homepage>
-  <!--
-  Disabled for now because older 0compile/0launch don't cope well with package
-  implementations in compile selections.
-    <package-implementation main="/usr/bin/make" package="make"/>
-  -->
+  <package-implementation main="/usr/bin/make" package="make"/>
   <group arch="Linux-i386" main="bin/make">
     <implementation id="sha1new=78fd81f1743ffe1c29f1025d1898b48634a391be" released="2010-04-25" version="3.81-5">
       <archive href="http://repo.roscidus.com/devel/make/make-i386-3.81-5.tar.bz2" size="317167"/>
@@ -34,11 +30,11 @@ the Debian Free Software Guidelines, and has been removed from this package.</de
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJN4pV0AAoJEAcTP5bKdNi6LLIH+wVVG6F91t7DeyZwTKcnWG53UJLHezWqAtsO
-2Y+LANNUfzLYcsPv35SYJw/KYuI3ILAAIHgonyfA2K07XSWs7SnBLWGN63st2HO5fDmYEKH9XMKS
-Nl8Oo9wEyvUncfbTxKqZikHh6PvIkVN9lSMoBYe1LLRVUzBzioQUNr+nzPZT+buorqn/pcge2sqS
-X9w8gIZdhy9Ic2v6eOw8fCzMvp0p1ioNPZnGmstP1wIx2FdjdD9ubaSoorKnWItELlA0huwMJr4Z
-mvRpr/y/QsIAID0mfSIVKBJuwAjGluzS/cGh7qrVdKa06nc0FN97am1zr7dhgQ/j/sqz7Ztmhoih
-zK4=
+iQEcBAABCAAGBQJOhLZHAAoJEAcTP5bKdNi6FU8H/iFYkAaO2YNcdiWXPMtYb7DWrRCCxzT0ravG
+dYWf+CwXafZyRPCn8mn+5FY8MTUvt53RPFez7aje8rrZiAxE3rsqo97Uv20gOdNgYwRYf3+Mz5uE
+twveG0d1iW1WzataKLAZf7G2nKKzt3vrb8xKvHYVynomQBv4fUadc+TkN7Vpq17GtXAMfRS3ADJ/
+ztSqNg6/Xn0GHB5heENCN5Wx6Rmi7NHpD5IyjjXltI3txMI1zXeYKqbwlVoSwDxUSznMzPF8M3S0
+PeiqnyjT4d8weuppU7Yy9xTtzGY0zCfPn2Fc93mTg2XfQcFidD0V4U+TNHXeMpaPOFT4Ezvf+Pp1
+Cis=
 
 -->
