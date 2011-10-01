@@ -14,8 +14,8 @@ the original game as closely as possible while extending it with new features.</
     <requires interface="http://0install.net/2006/3rd-party/Freetype2.xml">
       <environment insert="lib" mode="prepend" name="LD_LIBRARY_PATH"/>
     </requires>
-    <requires interface="http://www.nongnu.org/clanbomber/zeroinstall/libpng12-0.xml">
-      <environment insert="" mode="prepend" name="LD_LIBRARY_PATH"/>
+    <requires interface="http://repo.roscidus.com/lib/png12-0">
+      <environment insert="lib" mode="prepend" name="LD_LIBRARY_PATH"/>
     </requires>
     <requires interface="http://www.nongnu.org/clanbomber/zeroinstall/libsdl1.2.xml">
       <environment insert="lib" mode="prepend" name="LD_LIBRARY_PATH"/>
@@ -33,11 +33,11 @@ the original game as closely as possible while extending it with new features.</
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJOh24jAAoJEAcTP5bKdNi68c8H+wXpQ0ueDXuoQGMOTpODDc9uKlF+Pk1ImnBU
-g5lNCx/cEkT8stPRAkELJjbmojhmzKnLcF09eYVMqK1E9yrNsmVx5OVyOcBeMiTr0F3hn1fR0ykX
-B1z+WgXze8G5LXUdT6tE8KZC/Ul0quvUITiIiZ0suEPjIEnchSTK8p/weNdWZ/1gl31N9ZqrKyNn
-UXAmooEVphujMwCMB0i1FQZ/9T80aea5oo9qWEfats6ae52lPD17jPVq5ja/1mBF5lMiagOD2SXS
-GQ/Yiu0bQFnDg2oLwOobqTKe/bGi47yToe/QEVPeXXemwVm0YXblaccrjNxALvwd2w3zjBXH4gFC
-QeQ=
+iQEcBAABCAAGBQJOh3dJAAoJEAcTP5bKdNi6OOIIAI8QUTG2EhRNfeBERcnmwmnJX1rSzcRCClSE
+gjmoHvHAXMPjXaFm1tudSEwc/qR+wLwC+pO9OXbkeIK/Ng4oyb7j8oef5ES/qcTFIfiQB7RZlC9s
+nQV8YFZZcjiU5o+XWpU+RUtBoChARn/FmQmLphhoK+c0y3mjoo0EDFQJt9ZJQL1g/i2Dr8OGqFid
+X42F/DRhzSmYoEC4wj9Hv2TvQ1Y09rd62aMqjgo1mJJopfwHmG9aoYJhquP21O5UVocRWphRqhyV
+m2exNMJM1QztQfcDYLeG2dFYAIJoUezc227eWNOMiq08mocRbbGbaqjagZ0lPN6KYRi4hZAUlRlW
+ji8=
 
 -->
