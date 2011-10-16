@@ -11,6 +11,10 @@ was included up to g++-2.95. The first version of libstdc++-v3 appeared
 in g++-3.0.</description>
   <package-implementation package="libstdc++6"/>
   <group arch="Linux-i386">
+    <requires interface="http://repo.roscidus.com/lib/gcc1">
+      <environment insert="lib" mode="prepend" name="LD_LIBRARY_PATH"/>
+    </requires>
+
     <implementation id="sha1new=3ea473cbd976fac4360478603fd301fc387ec21b" released="2011-10-01" version="4.4.5-8">
       <archive href="http://repo.roscidus.com/lib/stdc++6/libstdc++6-i386-4.4.5-8.tar.bz2" size="329917"/>
     </implementation>
@@ -21,11 +25,11 @@ in g++-3.0.</description>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJOh28oAAoJEAcTP5bKdNi6VFUH/0hjKqbEsBiXkCrxOSwy+h5ffdrLPLPVgNaP
-BptUovXaYxPgoNTDRs47+6gvpsBm3uTfAlKn0+jnwVXu59HIYQgt9kcQFwyiUysyyAGBE/BSup1I
-KfSgioNSI+GJcZHroVHcpRunkgxOSC3yNXcaxWmHz8Woq+2UY9jCl97x6MHG7M7kLyJDxvIjPR7e
-s5suVitzVJWRBoH8zulRpLA/keOfQQLVzxQ4EoYEnk1KqLZR4DFUEYlxq6dtg0eoKZkp64/o+UAD
-XSo/QjLN/OzwuEwElBRv9cQ56UQQDu7DFa90NdvKMpnivJiy7aEtj/qUucK5RZj9yq59PK31nv0P
-g4c=
+iQEcBAABCAAGBQJOmq/zAAoJEAcTP5bKdNi6HjkH/1z+CnzjkjKCg1fHIhJq2geQBznF7+CDeB9n
+2JkRY24RDey0hwYLfvlf0PFMUfDQJv/4NyKE9DBUBkVFDHTo1bNCLTnaDRNbMfZevm8t1a8QJ7rX
+E4sSJvQHTOQzzUEzOZlxHBr2BCLuV67rOgl1nBe9zW+ly7Nku1+kTQNevl9ZGhudiMDKMU5YVZw3
+6B6ngDnqk/gyic2z0kuEn6y+HQIkGWfC0WCK88Y8sUMnQXYhvLLR5YK+UiF3cOIKPyb6zsMbq0FD
+VyzhVRg0l/5tcv56+tYZTN0CWYnis+mZdqOx/6z9GDocU5BXh2bcKw7HrNrkCjvDXoN34ZkT7jM4
+pog=
 
 -->
