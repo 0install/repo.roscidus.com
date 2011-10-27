@@ -14,9 +14,12 @@ language for applications that need a programmable interface.</description>
   <needs-terminal/>
 
   <feed arch="Windows-*" src="http://0install.de/feeds/Python.xml"/>
-  <feed arch="*-src" src="http://afb.users.sourceforge.net/zero-install/interfaces/python.xml"/>
+  <feed src="http://repo.roscidus.com/python/python/upstream.xml"/>
 
   <package-implementation distributions="RPM" main="/usr/bin/python" package="python"/>
+  <package-implementation distributions="RPM" main="/usr/bin/python2.5" package="python25"/>
+  <package-implementation distributions="RPM" main="/usr/bin/python2.6" package="python26"/>
+  <package-implementation distributions="RPM" main="/usr/bin/python2.7" package="python27"/>
   <package-implementation distributions="Gentoo" main="/usr/bin/python" package="dev-lang/python"/>
 
   <package-implementation distributions="Debian" main="/usr/bin/python" package="python"/>
@@ -26,13 +29,20 @@ language for applications that need a programmable interface.</description>
   <package-implementation distributions="Debian" main="/usr/bin/python3" package="python3"/>
 
   <package-implementation distributions="Ports" main="/usr/local/bin/python" package="python"/> 
+  <package-implementation distributions="Ports" main="/usr/local/bin/python2.5" package="python25"/>
+  <package-implementation distributions="Ports" main="/usr/local/bin/python2.6" package="python26"/>
+  <package-implementation distributions="Ports" main="/usr/local/bin/python2.7" package="python27"/>
+
+  <package-implementation distributions="MacPorts" main="/opt/local/bin/python2.5" package="python25"/>
+  <package-implementation distributions="MacPorts" main="/opt/local/bin/python2.6" package="python26"/>
+  <package-implementation distributions="MacPorts" main="/opt/local/bin/python2.7" package="python27"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJN42LXAAoJEAcTP5bKdNi6frUH/j4unUkXvXdE2o/wqwAXvD9yyaRXc/oRAO1O
-+j9gl7d/dc+Y+0eMpBZ/Gq9CCGsOKgdL235/HHY5NGGOhZDaHhLmAUfju/YhsSnFsJXyTGRZx8Ju
-07urvhp0KYbcR0MlkLFTtKGnsQYwkmyFA3waTHIipVyN2Sg3Aur853nQvjgLpxope6EYg1efNZ3w
-iqacLobtBpf5zwhdzEc0UkThv6RoMm518V/bkqVYXkpfK5o9trozBz3sT0Ugdv3vY3Rj9eGpU762
-rMH1Fq/U21tS+ye2J4fdQ6GOO6xJ5RPKa1vMYkJpT8OmBSv+MFD85GpVAcTc84sqcKOdXhbd07cc
-+J4=
+iQEcBAABCAAGBQJOqavJAAoJEAcTP5bKdNi6Qh8H/RxY7E2DMqEDGfMg07awuT85YYyMeTnBYLrl
+LqCSJdGVo/4skIxf2yDMneReo+QXKyfvT7zu7z/AN9abzsEiYD7Y6MLfX8JCMMOV7Zs/BUdW8Bdz
+J+PfBwzMGXnOJEFpNuITcDxuLmhxZqoZ5Gn0FADhOXJaOlMX3JRUiWT8xTtMEOS1dnugs2fRcp0H
+EJlHTwTjI1yMsZ51TArdLEq22irURGH73r1N+qKjXzrR2eSSogKNxwn40tqYzGW9pZa7Pu4ctjit
+/p/o7quoyFqVxjSMMOPthGqkIOnVlL/eIn74+6SV8ousHvNG6dcR19pFDB6bLGP4XUjxs6RNnyF7
+vzw=
 
 -->
