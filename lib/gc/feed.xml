@@ -1,0 +1,37 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/gc" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>libgc1c2</name>
+  <summary>conservative garbage collector for C and C++</summary>
+  <description>Boehm's GC is a garbage collecting storage allocator that is
+intended to be used as a plug-in replacement for C's malloc.</description>
+  <package-implementation package="libgc1c2"/>
+  <group>
+    <requires interface="http://repo.roscidus.com/lib/gcc1">
+      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
+    </requires>
+    <requires interface="http://repo.roscidus.com/lib/stdc++6">
+      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
+    </requires>
+    <group arch="Linux-i386">
+      <implementation id="sha1new=a4037bc11ac0ece34b24adea70e7255689f52b19" released="2012-01-02" version="6.8-1.2">
+	<archive href="http://repo.roscidus.com/lib/gc/libgc1c2-i386-1_6.8-1.2.tar.bz2" size="125683"/>
+      </implementation>
+    </group>
+    <group arch="Linux-x86_64">
+      <implementation id="sha1new=4803988e733f5c99bbbb6d2b6ddcb95a149d3f52" released="2012-01-02" version="6.8-1.2">
+	<archive href="http://repo.roscidus.com/lib/gc/libgc1c2-amd64-1_6.8-1.2.tar.bz2" size="128933"/>
+      </implementation>
+    </group>
+  </group>
+
+</interface>
+<!-- Base64 Signature
+iQEcBAABCAAGBQJPAZQfAAoJEAcTP5bKdNi6vbwH/REmkch7pJTOpMfcvpFObTKpUXpI9Nn6Vrck
+1S7m0BvH0MT252i3rPDZyZLqsoRABHS93MxTg1NRr1lD+BmsHBqkfI06HGajBi7u8V5N2ZJXleXr
+41wxc9fFUB7lA7KsFknYejVl2iYBAcK4u1l/WOfvo1qfMRGKzE9+SZAZBRcVl3z4IZ7kGhDM+Fcn
+q/DH8ZF5TfR1hpK/ifora0wUW4UyhAXXSA/alWm77yccitTzmDVpV1yxUBlrnXDbPbeq7Eq6Rp93
+EmCtc8eIr9/Q7sWpkuyHc3NOYi0zjDrJMX10OTHBBnLds8Pyi+cySWrYVTqDm4nJu4HGs+ZPg/a6
+j94=
+
+-->
