@@ -13,6 +13,7 @@ the Debian Free Software Guidelines, and has been removed from this package.</de
   <category>Development</category>
   <homepage>http://www.gnu.org/software/make/</homepage>
   <package-implementation main="/usr/bin/make" package="make"/>
+  <feed src="http://0install.de/feeds/make.xml"/>
   <group arch="Linux-i386" main="bin/make">
     <implementation id="sha1new=78fd81f1743ffe1c29f1025d1898b48634a391be" released="2010-04-25" version="3.81-5">
       <archive href="http://repo.roscidus.com/devel/make/make-i386-3.81-5.tar.bz2" size="317167"/>
@@ -30,11 +31,11 @@ the Debian Free Software Guidelines, and has been removed from this package.</de
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJOhLZHAAoJEAcTP5bKdNi6FU8H/iFYkAaO2YNcdiWXPMtYb7DWrRCCxzT0ravG
-dYWf+CwXafZyRPCn8mn+5FY8MTUvt53RPFez7aje8rrZiAxE3rsqo97Uv20gOdNgYwRYf3+Mz5uE
-twveG0d1iW1WzataKLAZf7G2nKKzt3vrb8xKvHYVynomQBv4fUadc+TkN7Vpq17GtXAMfRS3ADJ/
-ztSqNg6/Xn0GHB5heENCN5Wx6Rmi7NHpD5IyjjXltI3txMI1zXeYKqbwlVoSwDxUSznMzPF8M3S0
-PeiqnyjT4d8weuppU7Yy9xTtzGY0zCfPn2Fc93mTg2XfQcFidD0V4U+TNHXeMpaPOFT4Ezvf+Pp1
-Cis=
+iQEcBAABCAAGBQJPLQuCAAoJEAcTP5bKdNi6mMoIAJYCrFhNqIr8V0zhc0UD1kguvy3L+r8bvork
+Wj5l9C8cxfIdTcJk0l/5xMYBh9KSNBSGt3ul12deRM9a1SNWjBw11zMF1Xb4PEg/qcMiRUYfZ43q
+jLEMWYrbYxGUBgSIjmppUDUu7TRZ4ofkk0d9AnnTfXGTB6KBQFOXJbnHNgSqA3Agw5opuEuGCt0b
+M0n5qcZZXqR7AXc0cvAkjFfVoF5is8I7cblCe3eq/aViA0/kRFZezwAdHC2zTCz57VtHyXq8lQZn
+Ite36tbNtqjN9JSJDqDSzatywSaUwtspzoGWK2eklPNPGSBLdIffgGuFXvB20+jDYEnSiRl0rawI
+poE=
 
 -->
