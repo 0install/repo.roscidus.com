@@ -13,6 +13,7 @@ the Debian Free Software Guidelines, and has been removed from this package.</de
   <category>Development</category>
   <homepage>http://www.gnu.org/software/make/</homepage>
   <package-implementation main="/usr/bin/make" package="make"/>
+  <package-implementation distributions="MacPorts" main="/opt/local/bin/gmake" package="gmake"/>
   <feed src="http://0install.de/feeds/make.xml"/>
   <group arch="Linux-i386" main="bin/make">
     <implementation id="sha1new=78fd81f1743ffe1c29f1025d1898b48634a391be" released="2010-04-25" version="3.81-5">
@@ -31,11 +32,11 @@ the Debian Free Software Guidelines, and has been removed from this package.</de
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJPLQuCAAoJEAcTP5bKdNi6mMoIAJYCrFhNqIr8V0zhc0UD1kguvy3L+r8bvork
-Wj5l9C8cxfIdTcJk0l/5xMYBh9KSNBSGt3ul12deRM9a1SNWjBw11zMF1Xb4PEg/qcMiRUYfZ43q
-jLEMWYrbYxGUBgSIjmppUDUu7TRZ4ofkk0d9AnnTfXGTB6KBQFOXJbnHNgSqA3Agw5opuEuGCt0b
-M0n5qcZZXqR7AXc0cvAkjFfVoF5is8I7cblCe3eq/aViA0/kRFZezwAdHC2zTCz57VtHyXq8lQZn
-Ite36tbNtqjN9JSJDqDSzatywSaUwtspzoGWK2eklPNPGSBLdIffgGuFXvB20+jDYEnSiRl0rawI
-poE=
+iQEcBAABCAAGBQJPLt8cAAoJEAcTP5bKdNi6LbAH/2BCuI5aq/pDj3C8gWbqEuwBULCiyjbbnMKS
+qLuJYt0j6erpODenw+MmAMjVZNqmvG6Ta9b/7f1I1+l53EugGlqGfvxgNE2IOemLu2LF8ysObQRX
+aONGsmmewY7txR+PN0U0xA/9TgP6s5tGYGwL3gbCVXos2OodjWj1x9JvB7OmQ/q3PU/OxGjX7Ma9
+CT7lPTsTMwRpRZ/4ZhGAr77jKe6n2qpzXyhxJsjgwCyFDx+z6TR3Yucr1pOnHcP+CRhoEnvg/THz
+jG+HU6HbddKDSz6Gk+SBaasrTLvSFNBiCFgYLnMV9mKWwl/JR9ayHtQr3FuDVI3jUYKsb8IfeT14
+Ims=
 
 -->
