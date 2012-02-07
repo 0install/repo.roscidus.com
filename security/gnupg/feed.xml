@@ -12,6 +12,7 @@ as described in RFC2440.
 GnuPG does not use any patented algorithms so it cannot be compatible with PGP2
 because it uses IDEA (which is patented worldwide).</description>
   <package-implementation main="/usr/bin/gpg" package="gnupg"/>
+  <feed arch="Windows-*" src="http://0install.de/feeds/GnuPG.xml"/>
   <group arch="Linux-i386" main="bin/gpg">
     <implementation id="sha1new=af4d8a604323238a092e4ed3cae9372f9d3302c4" released="2010-06-06" version="1.4.9-3">
       <archive href="http://repo.roscidus.com/security/gnupg/gnupg-i386-1.4.9-3+lenny1.tar.bz2" size="1571178"/>
@@ -34,11 +35,11 @@ because it uses IDEA (which is patented worldwide).</description>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJOBfzQAAoJEAcTP5bKdNi6iS8H/2+d+4NYpmBB7wH1QDKcgZx1KRtHowcCop2Q
-JlWs9oRYgHlic08fZ1Lq9BvJ6KRwVnb3iGP/mEQTwYY0heYRSEF8J4tI0BmF9ApmuXg9KeL80Q2C
-XPhiYbFDkUFTekcadakddtZoUaXicdS+qvGAYoWU9Ky49B5nYqY0n6WE2WcyyJLk2gHk9BztI6sV
-JNlDEKGDBED4G7wgIBQrmsT5WNGRy8id7bJazOPEgBJbLYOQojlZnSTHCZHNawjmAq8CkjX2ncoI
-rJXpvSWHegFwg6mw7kkH7zUcp4rKr/KVLN78FlaFFuMfPEVjNcXieIhqr1VzYCbePe+45lLJL7ta
-wrg=
+iQEcBAABCAAGBQJPMZbbAAoJEAcTP5bKdNi69mcIAIUW0pIofzlaXSSRZRVAlsxc8UhFMro9k12q
+z+VjfJvJ3Lf6BtMOntPLEsE7Omxm9X54ZNQMduxQuSiCfr6XJOHW0iWwb8FQbIDMWGL96BgakzQd
+Ss4cKqcIEhBUYn0a+ZJ4xTAJf3fN76LG9M/VpRFo0DEiwKp9Fwgb+2yWafdM2RD6ChfHVGQLnEID
+XfkPbjmXMbtPuqZ5WvkabBUZhGFxA4cZfEdHxaSrsqGkHXji1TyMCIoY1SBx/0qmS8nNd1jo7Czr
+4Z0+zH5Teg3yAApK2PwLmW716KPoSZcslWaQbGcpYBX7Ymw2mFyU4ol88AJkXorS6H0K6ocRD8XR
+PbU=
 
 -->
