@@ -9,16 +9,28 @@ directly to an SMTP server. The module supports SMTP authentication and can even
 connect to servers using SSL if supported by PHP.</description>
   <homepage>http://drupal.org/project/smtp</homepage>
   <category>Network</category>
-  <implementation id="sha1new=18c29d496bd1acb0ca66d98c02c08c332d8041f7" released="2012-02-19" version="1.0">
-    <archive href="http://ftp.drupal.org/files/projects/smtp-7.x-1.0-beta1.tar.gz" size="37185" type="application/x-compressed-tar"/>
-  </implementation>
+
+  <group license="OSI Approved :: GNU General Public License v2">
+    <environment insert="smtp" name="drupal-modules"/>
+
+    <group>
+      <!-- Drupal 7.x versions -->
+      <requires interface="http://repo.roscidus.com/drupal/core">
+        <version before="8" not-before="7"/>
+      </requires>
+
+      <implementation id="sha1new=18c29d496bd1acb0ca66d98c02c08c332d8041f7" released="2012-02-19" version="1.0">
+	<archive href="http://ftp.drupal.org/files/projects/smtp-7.x-1.0-beta1.tar.gz" size="37185" type="application/x-compressed-tar"/>
+      </implementation>
+    </group>
+  </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJPQVR6AAoJEAcTP5bKdNi6uXEH/2PWKLUT4peaene1Ep7y/Ub6LJ7CQs8vdye2
-T9ofrdKAstH2O3x+DA3AtplLPiE0c6oRp1ZyF8edAPVW/qQYZkLbr6oIMzgqpM9qGKZI9wvijxS2
-fr6HAVydv6FUjcAJ9VR02slU43sx3hRmKOsw7FhcC9i/4p8OHmcoUjZoIIECH/P4k9rcxFMwXOyF
-v8hpZnqtWflQMLHvds5WpboVs31nFGQL7xJD+SbPxfZi+lk5e5RN+rcFpzHqlDAIE57Nmdm0gwGH
-uR1ibzHoKIH63jaRrTO6gklSPeMdOYi14OkXw796nCW0c/N6ZiCZJfnS8pQERwdS6fCusNLwjP4P
-O7c=
+iQEcBAABCAAGBQJPQVh3AAoJEAcTP5bKdNi6nE8IAKCIGabBHIG79NgKNQk70q+W1HftyXtXtQvP
+FmPAX1LxVg2BDWooTqylxnNVAae8ARLqjnflG6aByHd4TOglky8XB2jBB6U9Jo5C61IFqI/sSn/Z
+q2l++EOrH9JhVPVlwngWTJiaunOt67TkspXi4YaprbN+C+xs9zoKG4+FpHrAeAB6z9LqxRUDoZwi
+prdjDFjyzhlokSNqbiEwuTljD+Kn4tWUDX2oQLqkN0NVB4pvc8LYQsJOOfkBNMU0drUQg0TYUPSh
+wTKFk5iOAmTsxxnTdmjzy7Bz6b8Qb6NOKPJDX2NtWknSe2gWzdhipTWBbANXXuJ4TOm2ZkFOUZbu
+6u0=
 
 -->
