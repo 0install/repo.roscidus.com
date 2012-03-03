@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='interface.xsl'?>
-<interface uri="http://0install.net/2008/3rd-party/libtasn1-3.xml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface uri="http://repo.roscidus.com/lib/tasn1-3" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>libtasn1-3</name>
   <summary>Manage ASN.1 structures (runtime)</summary>
   <description>Manage ASN1 (Abstract Syntax Notation One) structures.
@@ -31,11 +31,11 @@ This package contains runtime libraries.</description>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJN4pPlAAoJEAcTP5bKdNi6HYQH/R1Pyl9EnDihmkhgoO5ryd91nAFszYuU1PpT
-uYJGCQBlz9qFtveYQb18o1Tz82cpKSo0/HsecxXbKZYxUgiJlbZdQ1eq+mAjbYH7R0/jOPm5qejr
-/p7we965Gx2ZJFYM1nWBaC4qqb86wRWdLu/ECtwld5fp3BL+2wyfNtP+37zPdLYlVCTRQzAjuA3e
-EWbVRJRwgJW/ds24FfPsaRteAuoUehNrqfTZM5MEeO7XWnwUWfGH9oe0Xx1gjqVxKBxlu9PcmjEx
-QjwPlE7QDIqVG6GZ385rdv2YFmPk5FY05pj0N91GDEO5ldZEHXa5VxorAZ11o8IU7m9DyAPPu55p
-iwI=
+iQEcBAABCAAGBQJPUlajAAoJEAcTP5bKdNi6/ysH/iax2J9ow1jp/bvous3yLPskrZIqcfcV8ftB
+SokySikCeIpo14dAiZ9xzjrXnRFA3gocHjkFFcQ3nGhTbLP4X6oVLMidN6oSfI8HFFzHeR6nedmZ
+g8rzGijwlQVlyseanrDJCDww4ol6y+9Pr+1u4j9IaDhVNmhxDyebYki9zmkO4jKvViwkw0R4kjOc
+n6rh8IBHO4y8zGzNy9HVrLVWWc3SUMbTVA1HAL4vxXQxHn5Gh57UTLOwH37DnpJAwBpxYeEQ8B/o
+TWJs2b7zpdFYanvMf1i939jcumL0T1Iqi2IAVYaoou50vTY/9zJQMqRGLNH+0y47n2FH47/CgWN7
+Ty4=
 
 -->
