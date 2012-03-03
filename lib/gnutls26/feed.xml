@@ -22,7 +22,7 @@ This package contains the runtime libraries.</description>
     <requires interface="http://0install.net/2007/3rd-party/libgpg-error0.xml">
       <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
     </requires>
-    <requires interface="http://0install.net/2008/3rd-party/libtasn1-3.xml">
+    <requires interface="http://repo.roscidus.com/lib/tasn1-3">
       <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
     </requires>
     <implementation id="sha1new=32004067246ee21fc05c2e2946da7d26a1b2bdc9" released="2010-06-26" version="2.4.2-6">
@@ -36,7 +36,7 @@ This package contains the runtime libraries.</description>
     <requires interface="http://0install.net/2007/3rd-party/libgcrypt11.xml">
       <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
     </requires>
-    <requires interface="http://0install.net/2008/3rd-party/libtasn1-3.xml">
+    <requires interface="http://repo.roscidus.com/lib/tasn1-3">
       <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
     </requires>
     <implementation arch="Linux-i386" id="sha1new=df49a5548f26afab506f75718504467bf55ef213" released="2011-05-29" version="2.8.6-1">
@@ -49,11 +49,11 @@ This package contains the runtime libraries.</description>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJN4pPkAAoJEAcTP5bKdNi6hVsH/3QXYodXzGixaypPGtN73YmNHQHB2plujU/6
-HwLC5LgreVXKsTSjPwLX3C5zSZSU5vfZVreh+kWwSXB/Q0oYEXznlsbmiXm4qZkf+LIlAZtOAw2L
-7nAl6pL+gH86ukJfEKDoT0Hh5s9fnH9NgXXefL2wyJhe3yDZT+Nowgv+jTKQBsZUfwy/DlpdppHs
-rjeTZECrn+pHtcjHL+tnSnK9fD98GiOEp1V9RW/smwH04SY7jSjghW2ZxS0p2KRxbmD4/mz8sAFH
-IOMnI661EFKGZ8ct5XTeSwfchHHFebDiyEdAwb3LUHBRhlPgQuJPZyaTqF5z/rp1yJRI75LJPddX
-zN4=
+iQEcBAABCAAGBQJPUlccAAoJEAcTP5bKdNi6xLIH/j0MUa9qwe2YO56iIMVB7qs/5Dxg1k7jIBgv
+FV8rmH6tFTztqsVRXKuncreqBAWkbCc5sI/4AsEA35vocPmYUJ1o/p1ZfgtjTlzXnYrHmMjGaJxn
+gu0ijC/dZ4MbzYNDvI7EaoE7T9dFfWfAYKpzkfjFbfrzr8r9QMdz5q7Y4Z/vVAaSAHVCNruiNSpC
+Ko6/T/GZ05PCRTzRmOe/qFMkOPIJD1zrrC13iSeMM0nWtFEk1fQwjXUOibH5ZSfUUR3rzhZM3qsb
+Cj5Dx1t9nwe2uz0gYFbO50y7BzFnmQ8RzHGnKyMgPXOhoKoomUI/lK1vBYKLlXiNgHK9lreGDenf
+XuQ=
 
 -->
