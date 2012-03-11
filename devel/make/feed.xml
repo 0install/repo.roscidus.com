@@ -11,6 +11,7 @@ The upstream sources for this package are available at the location
 ftp://ftp.gnu.org/gnu/make/. The documentation for this package does not meet
 the Debian Free Software Guidelines, and has been removed from this package.</description>
   <category>Development</category>
+  <needs-terminal/>
   <homepage>http://www.gnu.org/software/make/</homepage>
   <package-implementation main="/usr/bin/make" package="make"/>
   <package-implementation distributions="MacPorts" main="/opt/local/bin/gmake" package="gmake"/>
@@ -32,11 +33,11 @@ the Debian Free Software Guidelines, and has been removed from this package.</de
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJPLt8cAAoJEAcTP5bKdNi6LbAH/2BCuI5aq/pDj3C8gWbqEuwBULCiyjbbnMKS
-qLuJYt0j6erpODenw+MmAMjVZNqmvG6Ta9b/7f1I1+l53EugGlqGfvxgNE2IOemLu2LF8ysObQRX
-aONGsmmewY7txR+PN0U0xA/9TgP6s5tGYGwL3gbCVXos2OodjWj1x9JvB7OmQ/q3PU/OxGjX7Ma9
-CT7lPTsTMwRpRZ/4ZhGAr77jKe6n2qpzXyhxJsjgwCyFDx+z6TR3Yucr1pOnHcP+CRhoEnvg/THz
-jG+HU6HbddKDSz6Gk+SBaasrTLvSFNBiCFgYLnMV9mKWwl/JR9ayHtQr3FuDVI3jUYKsb8IfeT14
-Ims=
+iQEcBAABCAAGBQJPXM+jAAoJEAcTP5bKdNi6irEIAJ+g9eQefjnYr5M8w97xYWDnloevu4jcDh5r
+3md4GF6OBjuU7yFyjgD8R9ijQWkcdaHy9yEfRrGNNLu/1bmD/njhXjDgVcLrhkgX7OL+K/YfCMYf
+rGCnrDc/fW1MDbduo3eQKi0mn42zYk92LYu+fQvBj+n/vQaue1gSen19KK0BfA6rt0CmH4o2zP56
+zC/EwqyaRrZZ5zEHGqKscKdUd21+YFo/nSqseq0WIDFRL8xx7pE+nYroKfZbekebFjn3qjwh18AM
+asmnsxYARj1Yl/QgfxtKKN/ZKPxlQwwrD1llQxLO5B2217Zd1BPW2E+yb/BBNoUkI7/A7V+NmE9N
+hRU=
 
 -->
