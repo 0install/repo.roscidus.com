@@ -16,15 +16,26 @@ using libpng.</description>
     <implementation arch="Linux-x86_64" id="sha1new=24a3bed36ab3898dab469b4faa8a7216f2813cce" released="2011-10-01" version="1.2.44-1">
       <archive href="http://repo.roscidus.com/lib/png12-0/libpng12-0-amd64-1.2.44-1+squeeze1.tar.bz2" size="106552"/>
     </implementation>
+    <group>
+      <requires interface="http://repo.roscidus.com/lib/zlib1g">
+      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
+    </requires>
+      <implementation id="sha1new=8390965d5ff42850c411b6902a72b5f7683ae1ae" released="2012-03-27" version="1.2.44-1">
+      <archive href="http://repo.roscidus.com/lib/png12-0/libpng12-0-i386-1.2.44-1+squeeze3.tar.bz2" size="106547"/>
+    </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=99450d9b55c1ffc3d05432f6424d804a055f331d" released="2012-03-27" version="1.2.44-1">
+      <archive href="http://repo.roscidus.com/lib/png12-0/libpng12-0-amd64-1.2.44-1+squeeze3.tar.bz2" size="106559"/>
+    </implementation>
+    </group>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJOh3chAAoJEAcTP5bKdNi6gAoIAJQGXjWx2ayyER+26iBoT6EZvQ9JgAXDs09P
-weUjDWuRKtnm6EaBDN/HL2/8uJE6wS52UXTSM2b87hpl5t0B1bZ/T5RSnqP0QwS+PuURL5fuYp8m
-cRSXoLRathKwMTuQbTLJMJTOuR+WxMHcXfLiOhq3JVNVd1KW7dleqVyjJry32jC/e3G0GBklEiFf
-YyzZLi5Pb5JhHtb/bk9av7rYuElL0D2e0kZCw4GMOVWuMD0LSED/yMyC/sGZcjPaPFu7/vDdqn5K
-n6tMRx9GbBB5OsqUUdXB/nLffdYLlCYN/lCgxvzhl3Avnmk1LOx3x1MBSEv7hm8IlbwCGq90vaNl
-A6s=
+iQEcBAABCAAGBQJPcZPCAAoJEAcTP5bKdNi6DasH/17DIAFk75oMEKN7A/+GGiK8lS/7+mGBNFv4
+bKMAvNA0xpQzGPy0G8iUubZ0F6F5fa+N5AybTNMRx8sYzl0Ag9MAkiy5kWp5SRd/VjWA2/yH2l0a
+DC+LZJWdYwZ+qUved4oLgkMvlSPFp54Ve2hT/6kr8VrHy1KQa1hGl0c7itpfACKJFmoyESeP7J3R
+1mb+3RqHIDhFnVay8kUUqRXJs5F6t2qofIH3nPigT2nSZwImeyqUkYo0OOtFi6OeFiqjDO5KwxCi
+FtqUzHdePXktfK7aUD9lnc0w7947pqYc2MpRmgzFxYKvgDkx2CID4lu1xQ87riKfnjyOfsujHzQH
+mXo=
 
 -->

@@ -61,14 +61,34 @@ This is the shared version of libcurl.</description>
       <archive href="http://repo.roscidus.com/lib/curl3-gnutls/libcurl3-gnutls-amd64-7.21.0-2.tar.bz2" size="268171"/>
     </implementation>
   </group>
+  <group>
+    <requires interface="http://0install.net/2007/3rd-party/libgcrypt11.xml">
+      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
+    </requires>
+    <requires interface="http://repo.roscidus.com/lib/gnutls26">
+      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
+    </requires>
+    <requires interface="http://0install.net/2007/3rd-party/libldap-2.4-2.xml">
+      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
+    </requires>
+    <requires interface="http://repo.roscidus.com/lib/zlib1g">
+      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
+    </requires>
+    <implementation arch="Linux-i386" id="sha1new=b46795b486a7d4c886da888b98f2d54109afd3be" released="2012-03-27" version="7.21.0-2.1">
+      <archive href="http://repo.roscidus.com/lib/curl3-gnutls/libcurl3-gnutls-i386-7.21.0-2.1+squeeze1.tar.bz2" size="261845"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=7e6cecf16eee7c1ed049bf72c0c3a2dd5fac5f28" released="2012-03-27" version="7.21.0-2.1">
+      <archive href="http://repo.roscidus.com/lib/curl3-gnutls/libcurl3-gnutls-amd64-7.21.0-2.1+squeeze1.tar.bz2" size="268482"/>
+    </implementation>
+  </group>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJPUlgBAAoJEAcTP5bKdNi6DVgH/R9aUXf28Vy7u8PLQLwOGDvY/RkaGjVtxg8V
-Q9zpMqw/RGAVjnYs0Ou6MTumyx/lZTjIuDt9F9JBELasjgQb0Cm6F2tK2SXBWSK9+PS22lYI0xgs
-Q9OBoh0KAdmmpH9+UkZArXBI7QOWDGo0lrTM7isTd2qkGeysX9zDd5lwqfElDq9igSY4QSW1JFRV
-potcUi20789n4lELr9YEq3CqWEsHhP4QAfWVfjyI97vHX0ESZrzGwfAQVHibyyu9sZecVYBY4Lis
-04pB17T5pWPbLDnFa8y7YzI7+f5S4sUmreKDlS2CtR+mghRotpA4T8Z/a2D2L8aDAp60jqBl5Wck
-uYs=
+iQEcBAABCAAGBQJPcZO6AAoJEAcTP5bKdNi6nagIAJjRrAhMCbq5s6nhAiBggDUp9nKcnr5jSHVG
+PxzPp0vSzFlhh3QmpzWZde1IzFscbfvGhgUklGo3nDnSKMDs5iw5C7+cyohQIE41eBHXt1GVK48x
+/7p+0W24DvcPUNDVLWTyd00uIKndQXotcoOPM9uMm8np3q5h1rPXk4OAJFtN1G9n/phV2kaVK+qY
+sNo3xJBVkX01QoIC64NSCiFOef9qoj7Grr/iSIIzuANA6/bzdjo6IvYYs4XJTZ4qtAE5AEg8DyEb
+dV/0AZuStWcQ85qg+ECEaB7BEioQCIlH+IoJ0aQx7G52f+pBbAXWqBO3mBii96q9jZA/JUfwhyjV
+rH8=
 
 -->

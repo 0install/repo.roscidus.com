@@ -45,15 +45,26 @@ This package contains the runtime libraries.</description>
     <implementation arch="Linux-x86_64" id="sha1new=956f537b29f9d72de320ad86e468686df1e1a0ee" released="2011-05-29" version="2.8.6-1">
       <archive href="http://repo.roscidus.com/lib/gnutls26/libgnutls26-amd64-2.8.6-1.tar.bz2" size="569966"/>
     </implementation>
+    <group>
+      <requires interface="http://repo.roscidus.com/lib/zlib1g">
+      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
+    </requires>
+      <implementation arch="Linux-i386" id="sha1new=1a2e7e981c336d9b1e5eebc23c24d66d9da157e6" released="2012-03-27" version="2.8.6-1">
+      <archive href="http://repo.roscidus.com/lib/gnutls26/libgnutls26-i386-2.8.6-1+squeeze2.tar.bz2" size="522997"/>
+    </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=14733b1cffcf5393f178b8fd13fe0d17aa468630" released="2012-03-27" version="2.8.6-1">
+      <archive href="http://repo.roscidus.com/lib/gnutls26/libgnutls26-amd64-2.8.6-1+squeeze2.tar.bz2" size="569973"/>
+    </implementation>
+    </group>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJPUlccAAoJEAcTP5bKdNi6xLIH/j0MUa9qwe2YO56iIMVB7qs/5Dxg1k7jIBgv
-FV8rmH6tFTztqsVRXKuncreqBAWkbCc5sI/4AsEA35vocPmYUJ1o/p1ZfgtjTlzXnYrHmMjGaJxn
-gu0ijC/dZ4MbzYNDvI7EaoE7T9dFfWfAYKpzkfjFbfrzr8r9QMdz5q7Y4Z/vVAaSAHVCNruiNSpC
-Ko6/T/GZ05PCRTzRmOe/qFMkOPIJD1zrrC13iSeMM0nWtFEk1fQwjXUOibH5ZSfUUR3rzhZM3qsb
-Cj5Dx1t9nwe2uz0gYFbO50y7BzFnmQ8RzHGnKyMgPXOhoKoomUI/lK1vBYKLlXiNgHK9lreGDenf
-XuQ=
+iQEcBAABCAAGBQJPcZO7AAoJEAcTP5bKdNi6lCIH/0EO4W0HnYITDA6SqW+N1LhEYtFF+AmE9ULN
+8/7F1YpMuwa9rLPt1NXX1BxNGjIBS6LZeN1K8KNxk5fD95gApfK3VPJar4UnBtBKIKQWoqPpiXH1
+bOPIiq9063cJcDCbBWrrewqbooZQG5T4EM5o8b0Vxy21Y9TrJp9e8ZtYpdbuQL8exjlgrr2IwW0k
+3KQj3ZACYLVkoLUCCwQv6tjeMbcCxfBrCstYbewewK4OrFOADQ05Q8M3xQcW1ueUIbl6oa435oKt
+OkkjxG4iD/1Mno5Ut+x5W9PIAEhduErKuj6BNN8c95geEFN52laPueFM/MwZC6LbA/74vrHyJ0e3
+9JY=
 
 -->

@@ -20,15 +20,26 @@ such XML data files.</description>
     <implementation arch="Linux-x86_64" id="sha1new=0eec0a01c3d12de6f07faf138df1a24634d7326a" released="2011-09-17" version="2.7.8">
       <archive href="http://repo.roscidus.com/lib/xml2/libxml2-amd64-2.7.8.dfsg-2+squeeze1.tar.bz2" size="861925"/>
     </implementation>
+    <group>
+      <requires interface="http://repo.roscidus.com/lib/zlib1g">
+      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
+    </requires>
+      <implementation id="sha1new=a7e5d754ed506f4e567fabeae05884d073a69433" released="2012-03-27" version="2.7.8">
+      <archive href="http://repo.roscidus.com/lib/xml2/libxml2-i386-2.7.8.dfsg-2+squeeze3.tar.bz2" size="809575"/>
+    </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=9e9d62c9b0aec9ad55de90c0df16e08a8d29f373" released="2012-03-27" version="2.7.8">
+      <archive href="http://repo.roscidus.com/lib/xml2/libxml2-amd64-2.7.8.dfsg-2+squeeze3.tar.bz2" size="862772"/>
+    </implementation>
+    </group>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJOdIAfAAoJEAcTP5bKdNi6LtgH/Rs5TMonVwHJr30LfDFxAv3jfyiZWJFCEON0
-W/eeunoSy7djEnZIOxBhIec7JUVpuhR6iXMf1M+xpSuBcYtU+fHnnwIpVyPT5SKeAZm04AY0mliY
-U6jMMWgRyuEeJVXRtdC+lxrSSyPVvT2iwhIkLmbwBG2zspIta406owVLJFI0JmSJJ/DgnZBCqQWx
-5uyVw4dWO4bEgOarbV1oiPB1vmhJekc/bnSyw4Hzif7KFyrl9yPG0XrhQHrkS+WyC9Z/8a+RXSu7
-N08i+TREyqyzgDDFnclr8gm/2RvyQ/d6nT5UWP+x2Eq8nT84XvQAks3iARvBzlSf1RxvhYrNFQOb
-TZ8=
+iQEcBAABCAAGBQJPcZO+AAoJEAcTP5bKdNi6Z8wH/2gqP7iN6Oa9Kq3dXA+Kc1RYJybvkctJqZfk
+x9wYpl7+QxBfXHWpPIk+R49POldeh0HnxFTDMoZCzxDe8a9JGyJcJzNqKrMGJhpiDuyMUa2JCRip
+ZeH8ZRPEiFsnu8yy9U/Oaf6vlvikbt6GXuHB+pWkQTFycFECXRE4x2pLW/EsAzLBfSw7O7FXeUuI
+XTWfE5w3U3N7Sx6pAgZi7x9ai4klOUApTLCjeDsl/SELt27Vr667osZeu7B1gut5+I+gNwybv1fh
+yixsEkyyoTE7j2fUd5f5Sjn8ZCQ+YrYVN/FeBy10Fn9Gk0v7dE6zJbqFb8AX4icjwsOh60kEfCn2
+0/c=
 
 -->
