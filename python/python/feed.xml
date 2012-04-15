@@ -16,6 +16,8 @@ language for applications that need a programmable interface.</description>
   <feed arch="Windows-*" src="http://0install.de/feeds/Python.xml"/>
   <feed src="http://repo.roscidus.com/python/python/upstream.xml"/>
 
+  <package-implementation distributions="Cygwin" main="/usr/bin/python" package="python"/>
+
   <package-implementation distributions="RPM" main="/usr/bin/python" package="python"/>
   <package-implementation distributions="RPM" main="/usr/bin/python2.5" package="python25"/>
   <package-implementation distributions="RPM" main="/usr/bin/python2.6" package="python26"/>
@@ -38,11 +40,11 @@ language for applications that need a programmable interface.</description>
   <package-implementation distributions="MacPorts" main="/opt/local/bin/python2.7" package="python27"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJOqavJAAoJEAcTP5bKdNi6Qh8H/RxY7E2DMqEDGfMg07awuT85YYyMeTnBYLrl
-LqCSJdGVo/4skIxf2yDMneReo+QXKyfvT7zu7z/AN9abzsEiYD7Y6MLfX8JCMMOV7Zs/BUdW8Bdz
-J+PfBwzMGXnOJEFpNuITcDxuLmhxZqoZ5Gn0FADhOXJaOlMX3JRUiWT8xTtMEOS1dnugs2fRcp0H
-EJlHTwTjI1yMsZ51TArdLEq22irURGH73r1N+qKjXzrR2eSSogKNxwn40tqYzGW9pZa7Pu4ctjit
-/p/o7quoyFqVxjSMMOPthGqkIOnVlL/eIn74+6SV8ousHvNG6dcR19pFDB6bLGP4XUjxs6RNnyF7
-vzw=
+iQEcBAABCAAGBQJPiroeAAoJEAcTP5bKdNi6qjIH/0QdE0KDdUuVu76MM4t/TnI+7BjgdaYrcjfT
+sbF+T43mWFLBozUJIyK6NDABp4ReJ53ETLVjbsrb/DGbfAaHluUYXcAJLIfotjuocrA9qXeHgObK
+Cinwdte2jynDM7bxbDOSo361M4GZtUOPPNq7Irx7peoEUR+7K/U9FB9AYI+f6ne62Y85H6rQpAce
+hAREZDPr2hDo142VwwyIepXuZnCYGUf1XWLNTASXAS5k+u5j7qtusWwyeCrnAj5NAK4E89HVg8tH
+RTzuadnGrZ3iDj82CRyF3UrURGAGYIJnBv5z7mCZAP/rJDdaoeZKJ6exsNpAlV1RLxRHz9Ar8S5Q
+tus=
 
 -->
