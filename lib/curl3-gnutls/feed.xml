@@ -68,7 +68,7 @@ This is the shared version of libcurl.</description>
     <requires interface="http://repo.roscidus.com/lib/gnutls26">
       <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
     </requires>
-    <requires interface="http://0install.net/2007/3rd-party/libldap-2.4-2.xml">
+    <requires interface="http://repo.roscidus.com/lib/ldap-2.4-2">
       <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
     </requires>
     <requires interface="http://repo.roscidus.com/lib/zlib1g">
@@ -84,11 +84,11 @@ This is the shared version of libcurl.</description>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJPcZO6AAoJEAcTP5bKdNi6nagIAJjRrAhMCbq5s6nhAiBggDUp9nKcnr5jSHVG
-PxzPp0vSzFlhh3QmpzWZde1IzFscbfvGhgUklGo3nDnSKMDs5iw5C7+cyohQIE41eBHXt1GVK48x
-/7p+0W24DvcPUNDVLWTyd00uIKndQXotcoOPM9uMm8np3q5h1rPXk4OAJFtN1G9n/phV2kaVK+qY
-sNo3xJBVkX01QoIC64NSCiFOef9qoj7Grr/iSIIzuANA6/bzdjo6IvYYs4XJTZ4qtAE5AEg8DyEb
-dV/0AZuStWcQ85qg+ECEaB7BEioQCIlH+IoJ0aQx7G52f+pBbAXWqBO3mBii96q9jZA/JUfwhyjV
-rH8=
+iQEcBAABCAAGBQJPvoYZAAoJEAcTP5bKdNi6P5UH/RC2xOQOsZnN62gZDKopM1h83cvbh6W/cvJQ
+OOzkhxMNoEopBkdD4evhkzU1h4q+8uPb71aI9bhh96U0MMYy5Jreq90fnXobUt49SiBjWoQZl5yA
+92mGiGRqqyCoUmUBfekljKKEWPsRd9QvceqNPZNYwRBfupTAIweVDTq8RDHgmoTsLDmg8U9dNpJr
+fIRibYrkp18ngWSccIpCWP1Yxla/wxIROGdgLBM6otQqg9JefbtSenIBFHw5n8bXnKihr5jnD3SF
+Gzeeo9MrJHS7FxlWJ9CqCZkTYoLhFr7Cm3Op+C6FZCnb6/o47UtOgTvwzEKLBI+y1fPYvc/qt/D6
+YgU=
 
 -->
