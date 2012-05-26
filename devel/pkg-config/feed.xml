@@ -18,6 +18,9 @@ and linker flags needed to use them through the pkg-config(1) program.</descript
   <homepage>http://pkg-config.freedesktop.org/</homepage>
 
   <group license="OSI Approved :: GNU General Public License v2" main="usr/bin/pkg-config">
+    <requires interface="http://repo.roscidus.com/lib/popt">
+      <environment insert="lib" name="LD_LIBRARY_PATH"/>
+    </requires>
     <group arch="Linux-i386">
       <implementation id="sha1new=7619ff7ef124c2dcc423be77d22c4d6deac30cab" main="bin/pkg-config" released="2010-04-24" version="0.22-1">
         <archive href="http://repo.roscidus.com/devel/pkg-config/pkg-config-i386-0.22-1.tar.bz2" size="52359"/>
@@ -37,11 +40,11 @@ and linker flags needed to use them through the pkg-config(1) program.</descript
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJN4pV1AAoJEAcTP5bKdNi611gH/0AKrrPNKoKJD27jInoMLV9utdYe5yNTzNxE
-kTxYBpZsLCeRRvBeOMwTvtxUweL00MNDQY1GSXFOe+7ZsgsvAAsXvi3sYSjRXEXQBOG1zWyVHngk
-n0cS74KlRbm2pNiYRcIYFUT2a31NmaA6ktOUywYe1XTsj4fuOzV7WLkHAH3JFeWm2M3ADLX74mSe
-uBEE3dWr7LuTiSILj86Khns8OaqUBQiz8itWXKl0yyH7m3KIqeOyG6jHcWrUsQgchojo7zKNrJoM
-GpndLL8+YchmPvaWC5J0H6fAFAHcghQ8DfOAmYACQ10Rb15j8tTCKL+1odFFM9W06UzwvOUdJjSf
-1aI=
+iQEcBAABCAAGBQJPwOz8AAoJEAcTP5bKdNi6dsIH/AsgviQYlz6UhSsKUpkbQ0zgSeAm7YMS6djH
+zZI5UsTVoTG10QhO9HL2lbdfyxF3Eu7afrwH88sSNoRNqlDTPb3lYiIusqBRoNzs6z818mMpgNII
+tM4DdrCNcWk+Vt+71lDq+n0CfFXCgrBNB+Vtt/ptfFsYKIuVup7tGD/Yi9c6ZkMVgc/ja4/GOvGn
+mdbJvgpgVA/TblbcSvnalNtnJw5KFqx8iPMJl93xQDi4Y6YbXG5sDAeGJ7Cx/mM/Ir/EtlWpJ+Rd
+YOETA9qnZe8bjjMa1YsRrJkk7QmkReRjM0i4XlJ6zy4spgopspVZl/bZfwZnZQ1H+cSf3O8OL9uZ
+nuA=
 
 -->
