@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/popt" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>libpopt0</name>
+  <summary>lib for parsing cmdline parameters</summary>
+  <description>Popt was heavily influenced by the getopt() and getopt_long() functions,
+but it allows more powerful argument expansion. It can parse arbitrary
+argv[] style arrays and automatically set variables based on command
+line arguments. It also allows command line arguments to be aliased via
+configuration files and includes utility functions for parsing arbitrary
+strings into argv[] arrays using shell-like rules.
+
+This package contains the runtime library and locale data.</description>
+  <package-implementation package="libpopt0"/>
+  <group arch="Linux-i386">
+    <implementation id="sha1new=965fe3ac6224817ddee4d4e4933e390cc8e18c1e" released="2012-05-26" version="1.16-1">
+      <archive href="http://repo.roscidus.com/lib/popt/libpopt0-i386-1.16-1.tar.bz2" size="28857"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=53267b39f05be9efdb461db9e581e9fe8869a59b" released="2012-05-26" version="1.16-1">
+      <archive href="http://repo.roscidus.com/lib/popt/libpopt0-amd64-1.16-1.tar.bz2" size="28838"/>
+    </implementation>
+  </group>
+
+</interface>
+<!-- Base64 Signature
+iQEcBAABCAAGBQJPwOuEAAoJEAcTP5bKdNi6vvkIAKuwLpeMKRtTJIZgLzRkIHZJmw63kvD47aIb
+JbFXVjpqBk8A1bqajq4Ic4ysG2EhOZRP3ZbznsfqxUzHJ6XD9Ty5bjLStS041pr9IFromTAVpTka
+pD4CwevsEzjWe3idufuY/KiyDakZV8L8Ia9JfsraJ0bJLlvJ4haOj+fYsR+E2QWiopnlQcKbVyOU
+sTwofEMbhIySg7V5Qd0drvfNBqXlUrMuAv+bcdNRuSfiljxZV2qvo+2fN2yo+qqoCof1Hb9Jl7eb
+d473LHSVNr81rj4+0a5vr/6ujcgBEGGxZVhE8JShHJCIX9vuxDVUiHEd+egwnjGunP6qe6LJk+ap
+61M=
+
+-->
