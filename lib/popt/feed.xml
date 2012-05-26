@@ -12,22 +12,20 @@ strings into argv[] arrays using shell-like rules.
 
 This package contains the runtime library and locale data.</description>
   <package-implementation package="libpopt0"/>
-  <group arch="Linux-i386">
-    <implementation id="sha1new=965fe3ac6224817ddee4d4e4933e390cc8e18c1e" released="2012-05-26" version="1.16-1">
-      <archive href="http://repo.roscidus.com/lib/popt/libpopt0-i386-1.16-1.tar.bz2" size="28857"/>
+  <implementation arch="Linux-i386" id="sha1new=362577ba8014c27fa70d458512af35b56cdf5ea6" released="2012-05-26" version="1.16-1">
+      <archive href="http://repo.roscidus.com/lib/popt/libpopt0-i386-1.16-1.tar.bz2" size="51588"/>
     </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=53267b39f05be9efdb461db9e581e9fe8869a59b" released="2012-05-26" version="1.16-1">
-      <archive href="http://repo.roscidus.com/lib/popt/libpopt0-amd64-1.16-1.tar.bz2" size="28838"/>
+  <implementation arch="Linux-x86_64" id="sha1new=856e07e63b6130b96ab39bf8dfc3ac5e3d18db96" released="2012-05-26" version="1.16-1">
+      <archive href="http://repo.roscidus.com/lib/popt/libpopt0-amd64-1.16-1.tar.bz2" size="53008"/>
     </implementation>
-  </group>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJPwOuEAAoJEAcTP5bKdNi6vvkIAKuwLpeMKRtTJIZgLzRkIHZJmw63kvD47aIb
-JbFXVjpqBk8A1bqajq4Ic4ysG2EhOZRP3ZbznsfqxUzHJ6XD9Ty5bjLStS041pr9IFromTAVpTka
-pD4CwevsEzjWe3idufuY/KiyDakZV8L8Ia9JfsraJ0bJLlvJ4haOj+fYsR+E2QWiopnlQcKbVyOU
-sTwofEMbhIySg7V5Qd0drvfNBqXlUrMuAv+bcdNRuSfiljxZV2qvo+2fN2yo+qqoCof1Hb9Jl7eb
-d473LHSVNr81rj4+0a5vr/6ujcgBEGGxZVhE8JShHJCIX9vuxDVUiHEd+egwnjGunP6qe6LJk+ap
-61M=
+iQEcBAABCAAGBQJPwOygAAoJEAcTP5bKdNi6hs0H/jrD2aSM04K29wE9/SIdcs1opATso31LgtQH
+iZRNJYn6NqDsZkL8/X5sriQwlfDBl6axARKemXSKMuvy6bMVtPFi1JE9xcvb7mFI8BO4HXMO8rbo
+rFNhfQSDRzDuSk/MJ01bOufI+PMT4H1b4kqsn4EA8XEKNMTNmQMc+2wWOQB2AHuTmXV9YuhN3xtS
+Ug8bZPd63mBN4tgX2yvUMOpvyDt7lMhBYxMCBr9mP6NSmy/eUN9qUF5gOfm8xmoyopK0dYNPDS+B
+j00b7I2DpW0Q0msMrzNF7yJAjx8v7JE0TxRT81TwknAC+kw/JKIZGDOwMD9ZLGHciGSSfNSCNmNu
+Kic=
 
 -->
