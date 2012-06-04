@@ -22,6 +22,7 @@ language for applications that need a programmable interface.</description>
   <package-implementation distributions="RPM" main="/usr/bin/python2.5" package="python25"/>
   <package-implementation distributions="RPM" main="/usr/bin/python2.6" package="python26"/>
   <package-implementation distributions="RPM" main="/usr/bin/python2.7" package="python27"/>
+  <package-implementation distributions="RPM" main="/usr/bin/python3" package="python3"/>
   <package-implementation distributions="Gentoo" main="/usr/bin/python" package="dev-lang/python"/>
 
   <package-implementation distributions="Debian" main="/usr/bin/python" package="python"/>
@@ -40,11 +41,11 @@ language for applications that need a programmable interface.</description>
   <package-implementation distributions="MacPorts" main="/opt/local/bin/python2.7" package="python27"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJPiroeAAoJEAcTP5bKdNi6qjIH/0QdE0KDdUuVu76MM4t/TnI+7BjgdaYrcjfT
-sbF+T43mWFLBozUJIyK6NDABp4ReJ53ETLVjbsrb/DGbfAaHluUYXcAJLIfotjuocrA9qXeHgObK
-Cinwdte2jynDM7bxbDOSo361M4GZtUOPPNq7Irx7peoEUR+7K/U9FB9AYI+f6ne62Y85H6rQpAce
-hAREZDPr2hDo142VwwyIepXuZnCYGUf1XWLNTASXAS5k+u5j7qtusWwyeCrnAj5NAK4E89HVg8tH
-RTzuadnGrZ3iDj82CRyF3UrURGAGYIJnBv5z7mCZAP/rJDdaoeZKJ6exsNpAlV1RLxRHz9Ar8S5Q
-tus=
+iQEcBAABCAAGBQJPzKsbAAoJEAcTP5bKdNi61DkH/04sFjnms7SvFSGs3PuPQVpDmWmJ9dmEDKns
+HcOOrC/nADUAElCVJD/peL9ChQWr4DHenyKNS/WLSVSL813AapIqTsDMw4FGa76SvWNp8TzMhrzU
+06HW8JXAoZEOKbP5t8AtwaGQH7j8QWaIzZQqqzkyc2TeNfX55K9KXfiD8wJOk9sPZwgQVDzTvQJW
+SaHlhzjv33bGFZTSxCxI3cpJcOnniLmG8NtYczR55HJmBaKXzf1hgxdjGqkIoG+8OFvU496Lc1NF
+jimanGgXXnq/ymb9mqJTFQg0X3k3dSMnBoYhqShWeCK8KEFH/fvnxM5vKIh0EQ9lagtstX8ccR2z
+/t8=
 
 -->
