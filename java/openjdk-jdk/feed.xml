@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://repo.roscidus.com/java/openjdk-jdk" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>openjdk-jdk</name>
+  <summary>OpenJDK Development Kit (JDK)</summary>
+  <description>
+OpenJDK is a development environment for building applications, applets, and
+components using the Java programming language.
+
+The packages are built using the IcedTea build support and patches from the
+IcedTea project.</description>
+  <category>Development</category>
+
+  <feed src="http://repo.roscidus.com/java/openjdk-6-jdk"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABCAAGBQJP3Dm+AAoJEAcTP5bKdNi6zj0IAJriLOD7UvLo4umVG6U43qMZ9yqNiT/rwhEz
+YJlqjjKi/mrZT19CnBCJMGg32hh0e99q2Ro11xbTo7BS0z1cmbIunrfOn4eACqaOVajx7F+rIdBv
+TmrZoXGiaweuZ/pQmQTOjjEtvfn0Ar5kbe4+wzdqGINr+DW6Z6iq8qbM4OWxhnHGjlLBdMYX010p
+93dlDtU67H1dIuX4T1p20BxdQSd38cMs18VRr27+ug6N555h2Utq4BuLKo/g3PGXaKqWG9ZFvqxw
+6NMZYjpzKUqGPVI8KEnxN0zRkUmXKB0XoCvGHKG5YUm5p7isbBmASU0/tAV5KfYoEROCcMc6JLX3
+mlg=
+
+-->

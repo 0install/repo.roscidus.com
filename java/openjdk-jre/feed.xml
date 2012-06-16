@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://repo.roscidus.com/java/openjdk-jre" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>openjdk-jre</name>
+  <summary>OpenJDK Java runtime</summary>
+  <description>
+    The package was built by the Debian project using the IcedTea build support and
+    patches from the IcedTea project and then repackaged for Zero Install.</description>
+
+  <feed src="http://repo.roscidus.com/java/openjdk-6-jre"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABCAAGBQJP3Dn+AAoJEAcTP5bKdNi6W/0IAJmIFHVwCewcSPu+mdePfveItir8wNDNsIYL
+DqzVkSvhp7eg5uk97L790zlgyN+rw9YOAFkJsm4D5VmF1oi6ut+szjc+mXoHxlJagaioheR6FHrV
+U3Z8dlWc1AmvCpmdf/aGSfYn2dHJLCU9h5pd/Fdne+CbYyHpCo64w/C9zHHQWA7DqlQ0n/4LjNRm
+u8EQq5GoUIdZA5pDYphH8ZfeOMho+hcbqWJNwH4cDeyXVrr9xLDH1DpJcQlrZ+kaGnrQxGjS1Dit
+wB79E0JhLcuTsuS83oWC1V9I0x1LQqt/u5OGC0bjx64ieHJcGbP4crBruYFU21tZg8jx9POIH7FE
+DZg=
+
+-->
