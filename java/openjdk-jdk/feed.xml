@@ -11,14 +11,16 @@ The packages are built using the IcedTea build support and patches from the
 IcedTea project.</description>
   <category>Development</category>
 
+  <package-implementation distributions="Windows" package="openjdk-7-jdk"/>
+
   <feed src="http://repo.roscidus.com/java/openjdk-6-jdk"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJP3Dm+AAoJEAcTP5bKdNi6zj0IAJriLOD7UvLo4umVG6U43qMZ9yqNiT/rwhEz
-YJlqjjKi/mrZT19CnBCJMGg32hh0e99q2Ro11xbTo7BS0z1cmbIunrfOn4eACqaOVajx7F+rIdBv
-TmrZoXGiaweuZ/pQmQTOjjEtvfn0Ar5kbe4+wzdqGINr+DW6Z6iq8qbM4OWxhnHGjlLBdMYX010p
-93dlDtU67H1dIuX4T1p20BxdQSd38cMs18VRr27+ug6N555h2Utq4BuLKo/g3PGXaKqWG9ZFvqxw
-6NMZYjpzKUqGPVI8KEnxN0zRkUmXKB0XoCvGHKG5YUm5p7isbBmASU0/tAV5KfYoEROCcMc6JLX3
-mlg=
+iQEcBAABCAAGBQJP3D/NAAoJEAcTP5bKdNi6CN4H/jFCeMf6tKqggxJ4DzQLU8kmVuMaIjzU7j6L
+0FnCqXboiMuOaX4HUf6HBisLEjgo3sCq+zPVNtV1Wxs+45HQQwbRZ//ftuTNP1whN+TFoKidxYS2
+3t9isLDcHv/S+MEzrVKDykHbo6Gxu6LK9Vguxl/qCjW3sP+HqzT/1Mfb3JkYSL2WC9ij9v3ItnaY
+gWMDT/GkiMCsON8U40QOU/NUeH0qLxcc+W6JlO4xzTGWZuqGt5PJMtoXIMNQlGZ7fPACrPtGZv08
+e+MGWfSXGQ4ksOr9Tq/NiWhJXPA68NDj8dERwTAvlYk1FcREM9UfUPhikeXM8EADKWvO2A/PMrWM
+Xq4=
 
 -->

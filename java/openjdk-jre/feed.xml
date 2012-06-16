@@ -8,13 +8,15 @@
     patches from the IcedTea project and then repackaged for Zero Install.</description>
 
   <feed src="http://repo.roscidus.com/java/openjdk-6-jre"/>
+
+  <package-implementation distributions="Windows" package="openjdk-7-jre"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJP3Dn+AAoJEAcTP5bKdNi6W/0IAJmIFHVwCewcSPu+mdePfveItir8wNDNsIYL
-DqzVkSvhp7eg5uk97L790zlgyN+rw9YOAFkJsm4D5VmF1oi6ut+szjc+mXoHxlJagaioheR6FHrV
-U3Z8dlWc1AmvCpmdf/aGSfYn2dHJLCU9h5pd/Fdne+CbYyHpCo64w/C9zHHQWA7DqlQ0n/4LjNRm
-u8EQq5GoUIdZA5pDYphH8ZfeOMho+hcbqWJNwH4cDeyXVrr9xLDH1DpJcQlrZ+kaGnrQxGjS1Dit
-wB79E0JhLcuTsuS83oWC1V9I0x1LQqt/u5OGC0bjx64ieHJcGbP4crBruYFU21tZg8jx9POIH7FE
-DZg=
+iQEcBAABCAAGBQJP3D/mAAoJEAcTP5bKdNi6dOoH/0fXvVgJWUN6rpd9lLl2Bm2lNVLmpnSA/wBs
+raL2bxEMEdzSxmtSWLx0AoaYl5Ofz3q0YAlEglQ14XFZS8e5kXI8kn7VXcmhBbBQO8oPqjJeFyUD
+KtGPZ7V/YL0W0Pgjdcn21/BSodoO81MXhdsAcqmO83ABC6KzZ67iC2gpitD0DczecP9WL7X95peV
+PsRXH2PywcVyDGcRij+m7j+QgN9rW2BXBm4m9jcrLGPSqeOXYkRiKXDZJbpB3HFda2koDmkDf8b7
+rrCFVm2ksp6IX3tf28psi7ZteGbSdR7FiKnXvMgZrSt70AvM+CoOrJPQ/yUWf6izlXSiM/uVv7be
+uaQ=
 
 -->
