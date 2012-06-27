@@ -17,6 +17,9 @@ Additional functionality, e.g. a graphical user interface and revision tree
 visualizer, tools for interoperating with other VCS's, or a web interface, is
 provided as separate git* packages.</description>
   <category>Development</category>
+
+  <feed arch="Windows-*" src="http://0install.de/feeds/msysgit.xml"/>
+
   <package-implementation main="/usr/bin/git" package="git-core"/>
   <group doc-dir="usr/share/doc" main="usr/bin/git">
   </group>
@@ -67,11 +70,11 @@ provided as separate git* packages.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJPcZPPAAoJEAcTP5bKdNi6qaQH/3QsuR7P9aimCnviJBTX+XspZPEDe/bweTTY
-EhEfsLWDSk3ouBDV/l9/LtNo5zwq6RafAMs1BUVwxKo1seU2ain32nyqsikTRH7acwuykK7WJcvy
-RrQYDGNWQWtRQSEvlbuNjwzHyXWC/4c3oN56oxDSBKgkvVMkpXrPrAOv/sKKrYqamB2Hbq8VVsgj
-xf3ZG2bIkD1EtgiBtxYxWwM1CQej+Pn875PVEBzSw+scr+XxuX2CsgAt6bvffq2U1aKkJLNmhQru
-BARUTW/6QbJT8Lt6sukFhQIJjBAcJUtbmdXqeyG7m3gDLdpoKVfGJTW+eLY9NsoaPGfh7553pw55
-Zwo=
+iQEcBAABCAAGBQJP6154AAoJEAcTP5bKdNi6q00H/RQZGZe60douLmBt1ilL7nUkNFa3USzT40Qb
+HSk+peoC/fuPToOJaUdrXIdi8JymEetiyJTFbjHMC6GD9saxccGF50X7pRzdp5ZDH7O9Y7NeGDAL
+b4ue6GdV5Uhg5xa7pxJ7psWCnqBzBMwYLlNoUfA5zqBDf08AaClY3IiFIi6LNs6tFp+eNcb1znsU
+yyHs7BkWzo2CSGGt78LHTNcMHk8TMTLKMbV6/ZiPYyms7uoJ1vN+5ex4ANj1ZoCFtVpMBjBkGsF/
+3q718IgjAN5nkJy7Kqu3SzqwBStZrhmteIAzPAv2Q1rIdIsduHvbauzO/ZQaGK5F6Df+H7Q1NXRI
+SKY=
 
 -->
