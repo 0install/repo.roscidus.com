@@ -1,0 +1,39 @@
+diff -urN /var/cache/0install.net/implementations/sha1new=b961681c9a567191405f5ed2a8753fb6d9c0cf67/gladeui/glade-app.c src/gladeui/glade-app.c
+--- /var/cache/0install.net/implementations/sha1new=b961681c9a567191405f5ed2a8753fb6d9c0cf67/gladeui/glade-app.c	2012-03-26 21:02:20.000000000 +0100
++++ src/gladeui/glade-app.c	2012-07-08 12:08:42.020731815 +0100
+@@ -373,16 +373,17 @@
+ static void
+ build_package_paths (void)
+ {
+-#if defined (G_OS_WIN32) || (defined (MAC_INTEGRATION) && defined (MAC_BUNDLE))
+ 	gchar *prefix;
+-
++#if defined (G_OS_WIN32) || (defined (MAC_INTEGRATION) && defined (MAC_BUNDLE))
+ # ifdef G_OS_WIN32
+ 	prefix = g_win32_get_package_installation_directory_of_module (NULL);
+ 
+ # else // defined (MAC_INTEGRATION) && defined (MAC_BUNDLE)
+ 	prefix = quartz_application_get_bundle_path ();
+ # endif
+-
++#else
++	prefix = g_strdup(g_getenv("GLADE_HOME"));
++#endif
+ 	pixmaps_dir  = g_build_filename (prefix, "share", PACKAGE, "pixmaps", NULL);
+ 	catalogs_dir = g_build_filename (prefix, "share", PACKAGE, "catalogs", NULL);
+ 	modules_dir  = g_build_filename (prefix, "lib", PACKAGE, "modules", NULL);
+@@ -390,14 +391,6 @@
+ 	bin_dir      = g_build_filename (prefix, "bin", NULL);
+ 
+ 	g_free (prefix);
+-#else
+-	catalogs_dir = g_strdup (GLADE_CATALOGSDIR);
+-	modules_dir  = g_strdup (GLADE_MODULESDIR);
+-	plugins_dir  = g_strdup (GLADE_PLUGINSDIR);
+-	pixmaps_dir  = g_strdup (GLADE_PIXMAPSDIR);
+-	locale_dir   = g_strdup (GLADE_LOCALEDIR);
+-	bin_dir      = g_strdup (GLADE_BINDIR);
+-#endif
+ }
+ 
+ /* initialization function for libgladeui (not GladeApp) */
