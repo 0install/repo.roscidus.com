@@ -90,7 +90,7 @@ E is a scripting language designed for writing secure distributed programs.</des
 	<environment insert="bin/" mode="replace" name="JAVA_JDK_BIN"/>
       </requires>
     </command>
-    <implementation arch="*-src" id="sha1new=c481fecc0ca97b41ed4e827e23808ddedee7d7d9" released="2011-10-26" version="0.9.3-4-1">
+    <implementation arch="*-src" id="sha1new=c481fecc0ca97b41ed4e827e23808ddedee7d7d9" released="2011-10-26" stability="stable" version="0.9.3-4-1">
       <manifest-digest sha256="373e56f54ca77a3491400c2e8be1ab02c761eb3fd76c17383178936abac737a4"/>
       <archive extract="e-core-0.9.3-4-1" href="http://repo.roscidus.com/e/e-core/e-core-0.9.3-4-1.tar.bz2" size="15531961"/>
     </implementation>
@@ -109,18 +109,18 @@ E is a scripting language designed for writing secure distributed programs.</des
     <requires interface="http://repo.roscidus.com/java/openjdk-6-jre">
       <environment insert="bin/" mode="replace" name="RUNE_JRE_BIN"/>
     </requires>
-    <implementation id="sha1new=2079b36d1baa7892b57afa8623d7e540cdc0fbde" main="rune" released="2011-10-26" version="0.9.3-4-1">
+    <implementation id="sha1new=2079b36d1baa7892b57afa8623d7e540cdc0fbde" main="rune" released="2011-10-26" stability="stable" version="0.9.3-4-1">
       <manifest-digest sha256="c207743b915f17baadda01d0f7afc5318ff27f326448805c7bcf375f9f5de93e"/>
       <archive extract="e-core-bin-0.9.3-4-1" href="http://repo.roscidus.com/e/e-core/e-core-bin-0.9.3-4-1.tar.bz2" size="3298954"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJOqE/IAAoJEAcTP5bKdNi6i0YIAKR0oxek3xhlWz8hA5Wl79ePeYcvkppRmUZn
-tbW41B8DhjSOFJdXJPKbmbBTEiVucmu0PKOwfbRXt7hXuZvPITUE2E8ltBHFjJjcTbczuRuqDPbt
-haT7NSAJ226nCb2/U4jBy3QDGwY4WICIfWR1kIQjRHFResbSq6VAy7qnMBB5XWSLb45vXAzFy93Q
-ymxA8Hqmmvx7APZwWtt09QdcUyOKHhKl4bVWpxUIhJEAtGx1FnjR/xEIet4z2Vc92Nc89kf2HZUY
-ByDpFISMERgsX2ZQv4fHoojAWz5WQJd8lEoaKBwXTNAiU0MzEGiyf1EQEt05flgOp8tFTj9kKSF6
-QBw=
+iQEcBAABCAAGBQJQEOFpAAoJEAcTP5bKdNi6yGoH/RrCvof/aoqf+rOFqNxfSfVIVXv/Wrld032J
+Vkm7+miTkMbnnZ0b4mGw650JGS2KTjf83I01pJgodM13slyZsWS6kA4hcvLlm5tu/kJUj/g52vZN
+Ia0RwxH0ZJxeWU2RO22qSxChC89AP2YkfmDgTeYW0sL7TPKFYSZvVuo34aY2gy/MBzB0whs7GjEi
+cEUadXTAWxkSkz4CZ8rwLw99Ko9zRjHO7p6qDEy/8yZeSLWByV3MKY1u5l+5uKb2Wh41ksR76y9W
+5iyO4BusRebZa2EcFPg1pp52GvrsNHVwT8YF3GUeLsAqpgpFSjLeb08pbVX1M/GJ/vXNQEcb3mOS
+/Ds=
 
 -->
