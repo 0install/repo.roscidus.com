@@ -12,8 +12,8 @@ IcedTea project.</description>
   <category>Development</category>
 
   <package-implementation main="/usr/bin/javac" package="openjdk-6-jdk"/>
-  <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1_6_0_openjdk-devel"/>
-  <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1.6.0_openjdk-devel"/>
+  <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1_6_0-openjdk-devel"/>
+  <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1.6.0-openjdk-devel"/>
 
   <group main="bin/javac">
     <command name="run">
@@ -52,11 +52,11 @@ IcedTea project.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEbBAABCAAGBQJQJ65EAAoJEAcTP5bKdNi6uV0H+NWrZ4FmU3ye2JI1oesETI1p4kcAofWdF1ji
-L5z/l93ZJG0YxckHjKxAZC84KO0i5TqSWGzoQLb2JccXcKcVBh4rZjI2KL57JCzlHd+jbp609fBV
-mAvZOTSNEFnfq10JFLuQZl60sRTDrN55T5gbfYiYZj8tVNTemep9KbrzjReItb54FyGcT3B2ugHe
-LZQmMGnO0LAINxbA04AxOGEfuq7lUhupp9RsmI3rMdU1DvLzelkmwxGT8KUREN7KQXS4sDkYwatg
-3SQ/tvBbFWhLrg3lSaduGuwbZfGTopJ32tydFJgrAdeH6VRk+kBnVQqs75AWCEAqLeL9vbWLYfdk
-GQ==
+iQEcBAABCAAGBQJQJ7C1AAoJEAcTP5bKdNi6TaUH/Ag0TlVQK/I9iDUZOk0VQj6Oq7EjYxu/Pegl
+2hOjY/2C4DaaYeryrFn5BMhj7lGeElZ0XdI9SKwFHayAEjnfuQLRBCpukCV/RW6lQJUqcgYpKBMs
+aUCVeP9EM3grPfn5iyfCLe8uYj8ECfd4ATy682GM2h5lM7k9EydpKQPv+8cK/gjZXfoU4dhPSykH
+2F+f8Ug3UxzK5a0my3gv0bovp9b6NTvcJkzVlcqJd/aOlHEoQVN8WJcMWulabDr2JpkJQPXtunGZ
+fqpnn7NbnijYsEiRM374Rhj8Pcb9FzGi9W/pQq22u7pn7hq/ORs1vEDkuzRYTkXYt/LwV5oFHvpZ
+Ito=
 
 -->
