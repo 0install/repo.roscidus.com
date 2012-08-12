@@ -11,16 +11,19 @@ The packages are built using the IcedTea build support and patches from the
 IcedTea project.</description>
   <category>Development</category>
 
+  <package-implementation distributions="Debian" main="/usr/bin/javac" package="openjdk-7-jdk"/>
+  <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1_7_0-openjdk-devel"/>
+  <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1.7.0-openjdk-devel"/>
   <package-implementation distributions="Windows" package="openjdk-7-jdk"/>
 
   <feed src="http://repo.roscidus.com/java/openjdk-6-jdk"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJP3D/NAAoJEAcTP5bKdNi6CN4H/jFCeMf6tKqggxJ4DzQLU8kmVuMaIjzU7j6L
-0FnCqXboiMuOaX4HUf6HBisLEjgo3sCq+zPVNtV1Wxs+45HQQwbRZ//ftuTNP1whN+TFoKidxYS2
-3t9isLDcHv/S+MEzrVKDykHbo6Gxu6LK9Vguxl/qCjW3sP+HqzT/1Mfb3JkYSL2WC9ij9v3ItnaY
-gWMDT/GkiMCsON8U40QOU/NUeH0qLxcc+W6JlO4xzTGWZuqGt5PJMtoXIMNQlGZ7fPACrPtGZv08
-e+MGWfSXGQ4ksOr9Tq/NiWhJXPA68NDj8dERwTAvlYk1FcREM9UfUPhikeXM8EADKWvO2A/PMrWM
-Xq4=
+iQEcBAABCAAGBQJQJ84vAAoJEAcTP5bKdNi64jsH/1rxACS6hj/HjGby3mqUZAE2QzAYf5o/0qja
+YwZIrHYn4VLWRwQQ3h3Emg8uZOOmOanSttEHIwYw5cPlRFIzq5XtVKrkgqRRzcTH1FG563SpwgVU
+bRXJSs9g2FFVWhz+/XLfyw3KG1AhFh/Q836UMbKE72qBZP938ZK2PNImuiCvuhsttzl8Yq0mpdbM
+lNYuyGBrMUg7GmYNq4JZwGqcXytgRkvHO7nb76KJh5WX1OjuPW7YSJYqpT0Hj5B8l9f3Bc6/s4f6
+/JDvHLmXGAJFbEcd9udZE+QPQRLO4eCjnfITOq0ErC/WnLLKXA9+PIUAdtE33/a8LtleE5OuoJVZ
+1rk=
 
 -->

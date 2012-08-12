@@ -9,14 +9,19 @@
 
   <feed src="http://repo.roscidus.com/java/openjdk-6-jre"/>
 
+  <!-- Note: 0install >= 1.11 will fill in the correct main value automatically. -->
+  <package-implementation distributions="Debian" main="/usr/bin/java" package="openjdk-7-jre"/>
+  <package-implementation distributions="RPM" main="/usr/bin/java" package="java-1_7_0-openjdk"/>
+  <package-implementation distributions="RPM" main="/usr/bin/java" package="java-1.7.0-openjdk"/>
+
   <package-implementation distributions="Windows" package="openjdk-7-jre"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJP3D/mAAoJEAcTP5bKdNi6dOoH/0fXvVgJWUN6rpd9lLl2Bm2lNVLmpnSA/wBs
-raL2bxEMEdzSxmtSWLx0AoaYl5Ofz3q0YAlEglQ14XFZS8e5kXI8kn7VXcmhBbBQO8oPqjJeFyUD
-KtGPZ7V/YL0W0Pgjdcn21/BSodoO81MXhdsAcqmO83ABC6KzZ67iC2gpitD0DczecP9WL7X95peV
-PsRXH2PywcVyDGcRij+m7j+QgN9rW2BXBm4m9jcrLGPSqeOXYkRiKXDZJbpB3HFda2koDmkDf8b7
-rrCFVm2ksp6IX3tf28psi7ZteGbSdR7FiKnXvMgZrSt70AvM+CoOrJPQ/yUWf6izlXSiM/uVv7be
-uaQ=
+iQEcBAABCAAGBQJQJ837AAoJEAcTP5bKdNi6+iEH/Rc+HmuSFJ+EVLEektGZBDPBWMjdBecG1Unu
+IABWtHbfbvFja3GEY4/sEXYbqkG56orwPTDeumiUUPo78r2rM7lTPjDfts1L933Mww+ZktxXplFc
+abHtobFUWnhQNAYtRx3sXS+vnrrqjDKtwXHkutGGc7qhfF22Q7eQEcmC7IuvCZILBEl0gXKq8Ju8
+aUc/WSx/YxCCzRGzLWjIcjbKmitPLoZ00mKx48lD19skFCCl2ZNzuntEpH8c5XXNg1SGvJUP+Fiw
+4fy43dwUDNG7vIgCjpSbdqvROWK3Z5sEwfDhU6ptag9J1hm5Hs18Lwd5ZQopsnCYHxSNBzEqOlKN
+UzQ=
 
 -->
