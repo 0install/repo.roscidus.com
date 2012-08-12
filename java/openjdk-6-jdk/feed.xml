@@ -10,7 +10,10 @@ components using the Java programming language.
 The packages are built using the IcedTea build support and patches from the
 IcedTea project.</description>
   <category>Development</category>
+
   <package-implementation main="/usr/bin/javac" package="openjdk-6-jdk"/>
+  <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1_6_0_openjdk-devel"/>
+  <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1.6.0_openjdk-devel"/>
 
   <group main="bin/javac">
     <command name="run">
@@ -49,11 +52,11 @@ IcedTea project.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJPaiDGAAoJEAcTP5bKdNi6SNMH/1TLOdAWDNehMggJy3A/JksyOB7XrVlzfNKI
-L7LGNtf38Sg16TNxZG3uSKvcKFvFFvgUd9/wrbIJ+FFK5vTEsUvJYbkl2oNwBCRXqTm2tBlj22Ue
-soo9TIUBOxX0gW5gHluGASLGjDoQwwXUyk9ivdze0ZC3nfce29F1jgBepJ3nVJWwz2IDoKTkFMKl
-fTVrFXqQuuxknuIa0o/0dfYvdang3XLxblM7dly9eSrr4sEboZwb+m2QE53E5Mff77SMc3075qDt
-jXjvRSylbqXHKOitsCMatdfigZwd3wbSSorO6DkVpeVPFvOy9mngql0gF9gCF8v8P3A2APChnjcP
-K6o=
+iQEbBAABCAAGBQJQJ65EAAoJEAcTP5bKdNi6uV0H+NWrZ4FmU3ye2JI1oesETI1p4kcAofWdF1ji
+L5z/l93ZJG0YxckHjKxAZC84KO0i5TqSWGzoQLb2JccXcKcVBh4rZjI2KL57JCzlHd+jbp609fBV
+mAvZOTSNEFnfq10JFLuQZl60sRTDrN55T5gbfYiYZj8tVNTemep9KbrzjReItb54FyGcT3B2ugHe
+LZQmMGnO0LAINxbA04AxOGEfuq7lUhupp9RsmI3rMdU1DvLzelkmwxGT8KUREN7KQXS4sDkYwatg
+3SQ/tvBbFWhLrg3lSaduGuwbZfGTopJ32tydFJgrAdeH6VRk+kBnVQqs75AWCEAqLeL9vbWLYfdk
+GQ==
 
 -->

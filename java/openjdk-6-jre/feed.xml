@@ -8,6 +8,8 @@
     patches from the IcedTea project and then repackaged for Zero Install.</description>
 
   <package-implementation main="/usr/bin/java" package="openjdk-6-jre"/>
+  <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1_6_0_openjdk"/>
+  <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1.6.0_openjdk"/>
 
   <group main="bin/java">
     <group arch="Linux-i386">
@@ -31,11 +33,11 @@
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJN4pzHAAoJEAcTP5bKdNi6Bq0H/iIb6cQHNB9hTqTc+JsfWfEmL8HmkBO+JCQ2
-OiOGH0/AHz//ocMm+3NUFKvnRqgd/1iDMuL54m+hL+vetooKVsT1x+BN27Q2fhfmbOeSv+a2f95b
-doYTj35/S9FjgG7hU4TI2+OGbvfj8YGU1qmGjnrKIsjxhvDwIIV6mBz1qmcOwr9z3ePhgtAQKMJD
-CEtnwZhQaEQS01nZWgHRrGZyOo3ZrzZBu7PFVy2oq0UMS3uxwTzlHh5Oq/ebVPrp58RHX4E/Oc+R
-+UPx2YRX1wYcCJve88dkD3KpJ6KIJB31K6R8fPeAxFKjPpa5j6raGIVgx4e+fyjpL8GcetyrVjvj
-OXs=
+iQEcBAABCAAGBQJQJ65sAAoJEAcTP5bKdNi6kokIAKjO8oxK63BNVxOsfysktQveTqxs0lX1pDC2
+hw1lQq/OVMAeqhmFb8Ot00Bk+zLdB/3qhrKFZZjDT7LU9G/7b3NARbIGQr3oFktrKIiI31EX/qik
+AfnIpvMzht7mKNYvc4VYL1B2Lvmd8nWoIaPtr12R0ZiBAI/FGxt0/M+XUUwaa6Vu41Cp4njKcxPy
+UxgCRQ5N4dGBUIks3ikBtoSUPRLiE6yt07y+w/KEBw/BPnimcLKAD7qumniwOV1176etCEkkQMc5
+cHo3p+JTWjgsVCga3duYGv6ElUUs11e6HRv+FBwD9Aa/IACDGxol8MyF0e1AuYZCAYhLvSYsn3GO
+09U=
 
 -->
