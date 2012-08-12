@@ -10,15 +10,16 @@ Python projects, but C/C++ is already supported as well, and it is planned
 to add special support for other languages as well.</description>
   <needs-terminal/>
 
-  <package-implementation distributions="Debian RPM" main="/usr/bin/sphinx-build" package="python-sphinx"/>
+  <package-implementation distributions="Debian" main="/usr/bin/sphinx-build" package="python-sphinx"/>
+  <package-implementation distributions="RPM" main="/usr/bin/sphinx-build" package="python-sphinx"/>
   <package-implementation distributions="RPM" main="/usr/bin/sphinx-build" package="python-Sphinx"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJQJ97HAAoJEAcTP5bKdNi6BnAH/jDnOTgVAgZ/DDEFqrjoXzTgf+xhYQuu0v8w
-9RNM9DVuL/+iTs6Q//DaWl/PBopTf00ForVLsRStRumfMujsn6ec7D6wSwunngB6eUv290I0/h3/
-C+toaHL5EA1qvy33bfomN56+4KgamQVSTA+a73ScnaVLulMDdCVAkR7/YtuRcD+aCsVT5xYw0ITz
-gtqTKOn30hRDHDIzLteb/hl+hTRkaJvUGZdbYZWvGuuG0DJgfiUOl9lzX9B9vhFw76zPAlVKUCr7
-E//AmxQfH9MlwHXKuy3vsh9ljZXGc4fQgM7ZQC//hs30OCH2oOowqzETRsBHFi5UUsvvbbv2tOxw
-VsU=
+iQEcBAABCAAGBQJQJ+FsAAoJEAcTP5bKdNi6WdUH/0wJoQ3op7iAaonD+fMRPY3kQgK3YdGJDMUL
+9Yd4s/py1macH5gM3LBTgo0a557A77AAFS57Q9L9oR/NWOvLUV9a03Itv7FeaV6BJP/Yvc4hsUln
+LrlIW3gQkklQN+hyVQp6JOQP6B6G8SFT9uy0L3u2xXfZ6JMZti8XOxZt7A74hSQ573sn8LBPfgeS
+M1U1og2hWi2VW6pSvcCuUZ1iFIf69d7E97nkvozYpRx5UeKs1q455npSMywHAHZuAijuQdZad+mD
+C4uihHLQtwsYsRurfs8fva55x63g7yrqG9AzJhoJ6+XLXgvEsZbwukiJ3Rt96/o4rtT8zDCWjr3+
+H5Q=
 
 -->
