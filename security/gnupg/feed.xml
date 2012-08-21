@@ -11,7 +11,7 @@ as described in RFC2440.
 
 GnuPG does not use any patented algorithms so it cannot be compatible with PGP2
 because it uses IDEA (which is patented worldwide).</description>
-  <package-implementation distributions="Arch Slack Debian RPM Gentoo" main="/usr/bin/gpg" package="gnupg"/>
+  <package-implementation distributions="Arch Slack Debian RPM Gentoo Cygwin" main="/usr/bin/gpg" package="gnupg"/>
   <package-implementation distributions="MacPorts" main="/opt/local/bin/gpg" package="gnupg"/>
   <feed arch="Windows-*" src="http://0install.de/feeds/GnuPG.xml"/>
   <group arch="Linux-i386" main="bin/gpg">
@@ -36,11 +36,11 @@ because it uses IDEA (which is patented worldwide).</description>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJP7rdrAAoJEAcTP5bKdNi6bQ8H/0TuL+2rlqcJlonISA3kADhQupdMLjNYMxjG
-PB755sSSps/wUZzwVMKJQTSVAXBGt3GGEy/HpjyI84EQZyHC8BjMESMBourOPbXcQK3nzqnKDYEh
-aKRXruTYPoHdz2LCOhA4EtctOHjb6eES3x+NccuIGXgQ2Qqjqvm8GvYP/qJ4tLcOU8cJgtLscnFc
-eooX+M05v8fWS+qWRAdtD4/PVYCqZBQ4lZrDsTgxk5a4ZvUQ1Mkb4f7ztqI2wao1Dq3yYZZhxheN
-v4AH1JlVDuuaOaLvVJqFLlvUO/32gM9wVQaeXPBkeFVZknJX5OVWNTj1OA5GqgdU2AwWlwBgCeZN
-jew=
+iQEcBAABCAAGBQJQMyrrAAoJEAcTP5bKdNi6v0sH/0OnjypYDdBCSEKxP1QNS6xrduU98MH0hArJ
+JA1hwhvxYagKGXSnd8DkdnIh4XaNCuNRRkZF8C15oyMVO3DKZm17XgnPnhsob0tEP1axpyBONF5m
+5KSYGECTW2WKS6rWLuBdAvN0F25XP/17WKq+FpAnTkbj7Shagc0StI9leWRLnR0hS65r1fc4u+9a
+Vj3pXAc9GCiEuI881w5B6f45D3jkoq8kBLaRwEmSTet10SNblPixPkGSMgNoCprzb+B6Jg0Xft5r
+BADKHpoBRzdkRWuj9Yogng1GL8+c/rSV08UloH+sw5A2UgEA9AKAxfI198wayfmrEI1B1BgZmGDq
+a4A=
 
 -->
