@@ -14,16 +14,16 @@ IcedTea project.</description>
   <package-implementation distributions="Debian" main="/usr/bin/javac" package="openjdk-7-jdk"/>
   <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1_7_0-openjdk-devel"/>
   <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1.7.0-openjdk-devel"/>
-  <package-implementation distributions="Windows" package="openjdk-7-jdk"/>
+  <package-implementation distributions="Windows Darwin" package="openjdk-7-jdk"/>
 
   <feed src="http://repo.roscidus.com/java/openjdk-6-jdk"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJQJ84vAAoJEAcTP5bKdNi64jsH/1rxACS6hj/HjGby3mqUZAE2QzAYf5o/0qja
-YwZIrHYn4VLWRwQQ3h3Emg8uZOOmOanSttEHIwYw5cPlRFIzq5XtVKrkgqRRzcTH1FG563SpwgVU
-bRXJSs9g2FFVWhz+/XLfyw3KG1AhFh/Q836UMbKE72qBZP938ZK2PNImuiCvuhsttzl8Yq0mpdbM
-lNYuyGBrMUg7GmYNq4JZwGqcXytgRkvHO7nb76KJh5WX1OjuPW7YSJYqpT0Hj5B8l9f3Bc6/s4f6
-/JDvHLmXGAJFbEcd9udZE+QPQRLO4eCjnfITOq0ErC/WnLLKXA9+PIUAdtE33/a8LtleE5OuoJVZ
-1rk=
+iQEcBAABCAAGBQJQNRCcAAoJEAcTP5bKdNi6AEQH/i92k4sbFfCiNTEe3nnhOOu/rDxA9FTNF5s0
++oSJaRM264xOKKd99pT4Omz4UCuUjazbGSrfB7GSDlW90rNFCoFC2e1e5Tx06PttejOqS3jDaIWA
+/WCMJnwsXmRjph6m3fyndD7BKpDh2WIpvB7IWD/mNAbTLRWRdhg08Y41HwPbADjWF3UW+1nKBLEQ
+zePq2EO899Gn7L+l/q+fFuuHyBV3M/IRMOwq6ppAZxzceWV+AEfbVkrRNztNh5yX1d341qoU2PpJ
+rum/W1Oq2Nyr6rQ6pD0tj8YKNLfIZ3gDimMGUgyFBhUXCex3tbuzb4ufpTlpFHSNOm9GQeGxYWZM
+AE8=
 
 -->
