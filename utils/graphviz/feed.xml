@@ -9,6 +9,9 @@ Open Source Graph Visualization Software</description>
     <package-implementation distributions="RPM" main="/usr/bin/dot" package="graphviz"/>
     <package-implementation distributions="Debian" main="/usr/bin/dot" package="graphviz"/>
     <package-implementation distributions="Gentoo" main="/usr/bin/dot" package="media-gfx/graphviz"/>
+    <package-implementation distributions="MacPorts" main="/opt/local/bin/dot" package="graphviz"/>
+    <package-implementation distributions="Ports" main="/usr/local/bin/dot" package="graphviz"/>
+
   <group arch="Windows-i386" doc-dir="doc" license="Eclipse Public License" main="bin/dot.exe">
     <implementation id="sha1new=b9ad8643984d120799c43f3d85d58f2653f87955" released="2011-04-21" version="2.27.20110421.0445">
     <archive extract="release" href="http://repo.roscidus.com/utils/graphviz/graphviz-bin-2.27.20110421.0445.zip" size="49035660" type="application/zip"/>
@@ -16,11 +19,11 @@ Open Source Graph Visualization Software</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJNsHHkAAoJEAcTP5bKdNi6+tMH/jZjlSe++ImKkM9ZmTB8utoXPxtQRWQTgWMM
-97d1N0cfHnYOe7po4nzkZQgLLiKjSFcDWIs8hlmu65pH0b/HUuPmCIljAh83iUyd+mu6zLxA/asn
-Uxs2TXJrxjR5aqvXSIfBSqazgCobw1aLtfatL6qr2bMcwFX1QyEeaUlmpxmHV44C1cMQ81+5AQlw
-x30+l1RAGMtdpfF/Mlf4JNCrkXArbDAvp03Q8cARZWLzWwze3hhoyKr89TUOJ9EqePGhckbefC2L
-M6S4NE8XMVkNoRyZajEkQU0qIG2KD71JlNdjafRvswJjbDYtPlp9MAwazSzVkMIP/nNTIQEtzv5V
-iOY=
+iQEcBAABCAAGBQJQO8SyAAoJEAcTP5bKdNi6T04IAKw8MoEF6GVWnNEXsiggmp0Nwy2OFoqH9OVA
+AY0tDGQ1gsFklOV4CgAxPcm3G4twkBThjlntffKXLhVmhOLikJu4hT9corA8jAx6yBTok10NL/sJ
+WC7GI1idHzNcRSvrdGyCNXEBLeWbYuxvsfBk3+HlIfC9MSa94DtJcEmNml/Ev1ZpFhllaC7YezOv
+KnTs5aqBFBueMkdVU7deMvmeelSc54Q9LCsbHWPnCDWtRTXoNWfa0hwmSFNyCJqua494TPAyIiHs
+PqMgfTLnGmTDa8K6jsgc1UTXSx2Bztb+OUyDRJAkZxrSq/fgcXBn2u+yFcADrSRgJ/xj2fsflUBD
+YyI=
 
 -->
