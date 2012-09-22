@@ -32,7 +32,7 @@ language for applications that need a programmable interface.</description>
   <package-implementation distributions="Debian" main="/usr/bin/python3" package="python3"/>
 
   <package-implementation distributions="Arch" main="/usr/bin/python2" package="python2"/>
-  <package-implementation distributions="Arch" main="/usr/bin/python3" package="python3"/>
+  <package-implementation distributions="Arch" main="/usr/bin/python3" package="python"/>
 
   <package-implementation distributions="Ports" main="/usr/local/bin/python" package="python"/> 
   <package-implementation distributions="Ports" main="/usr/local/bin/python2.5" package="python25"/>
@@ -44,11 +44,11 @@ language for applications that need a programmable interface.</description>
   <package-implementation distributions="MacPorts" main="/opt/local/bin/python2.7" package="python27"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJQXXhoAAoJEAcTP5bKdNi66ugH/1C97Zx/8rTGyW8g1wj7jMPxi10KPEsIHc0Z
-FLjE+yMY3DBjuQIJ+XvMaSecvSBrIHe6jSLvgofL8qUyONSRhazAKWPMRwWZPdjScNphDf/A4SYP
-XE5TSA+c7nFApH1NZLsehE60/wBEjHQNYHJkHfgca0qhwerqWW3EtNR+7bAkX+swZZ8STy1V+MsK
-l8ZISK4/W/RzKeaiZ7kjnILO+2aWikPtgitBNkVCes8ABt8npEWS1PF9G5/DGJ79S6BipP8hhnmU
-chcALPKO3YCO7GKmiH9FwFv4OCWLseyvoyG2dU3mfUpNf9PMVlkSzwz+erckxMs8xBSu1+dmKBPM
-Aqk=
+iQEcBAABCAAGBQJQXXqkAAoJEAcTP5bKdNi6UHkH/j/gKQFZ9WCyuulFmTEoJOiB6wkRkxFCfwSZ
+dqC/VXt9oE9+Yzd/DE1oZEtY2+aPVBN+IlnQLRDiepbLJHEmE/ylTASBRdFi6Jk99t5P6DQhhYCj
+tZpi4EpzHbSmDoydJ6A+pcRBriv1Qz/mlujhHCz3OtKh8WDMnG0/U+Z25eK63PuvyqhiwJe4H4lN
+Vhja3xFB9ksrGRlG+7l0RDYYjD2vOZPFL6dw+axVNbnaWgntlVWbdmxgPJDIZsIMRjQeKHlbBcFv
+s/TES5JQXS36i0XfSEivO1x+cC/0yDLfWnIPUCutsItjhg4Sr59ldkdeOVTFvcO5mKL6QUka6gli
+Ujk=
 
 -->
