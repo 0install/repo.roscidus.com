@@ -15,6 +15,8 @@ IcedTea project.</description>
   <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1_6_0-openjdk-devel"/>
   <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1.6.0-openjdk-devel"/>
 
+  <replaced-by interface="http://repo.roscidus.com/java/openjdk-jdk"/>
+
   <group main="bin/javac">
     <command name="run">
       <runner interface="http://repo.roscidus.com/java/openjdk-6-jre"/>
@@ -52,11 +54,11 @@ IcedTea project.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJQJ7C1AAoJEAcTP5bKdNi6TaUH/Ag0TlVQK/I9iDUZOk0VQj6Oq7EjYxu/Pegl
-2hOjY/2C4DaaYeryrFn5BMhj7lGeElZ0XdI9SKwFHayAEjnfuQLRBCpukCV/RW6lQJUqcgYpKBMs
-aUCVeP9EM3grPfn5iyfCLe8uYj8ECfd4ATy682GM2h5lM7k9EydpKQPv+8cK/gjZXfoU4dhPSykH
-2F+f8Ug3UxzK5a0my3gv0bovp9b6NTvcJkzVlcqJd/aOlHEoQVN8WJcMWulabDr2JpkJQPXtunGZ
-fqpnn7NbnijYsEiRM374Rhj8Pcb9FzGi9W/pQq22u7pn7hq/ORs1vEDkuzRYTkXYt/LwV5oFHvpZ
-Ito=
+iQEcBAABCAAGBQJQdm40AAoJEAcTP5bKdNi6RqgIAIaCihg1sRocOLcb7fQ1WrPeHsFHDKNVQTvp
+ym+vjSkxf/u8fzR3UJmni6uMhOUfM2s6mW4NDqeV2iWHRrMC2mUKUq/lHsbnCu1mQRGCBsqPJEvc
+TeyutBFbtjq4E1521RDeNtuhgjQzbvOZLNQF2YvyHMkn7zWVs9ca/T0ZEkqEcahC6DX/1UT+8AX/
+ol0V7IDxbzvJT9a0pAlNMsql4Na/2klhQb5Wyn2bZa9SIRjT7Ry1cFyAwaPdePqCGTHiw8nAhfW8
+KOJX0Oj+D7ZrSjA1E4Wc+gBxkocy8semEnBKDqfxDXuUQDlBChyoFGKJ7YCFaK3XNjceZ0OksuFV
+6VY=
 
 -->
