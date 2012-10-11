@@ -30,7 +30,7 @@ IcedTea project.</description>
     <environment insert="lib/dt.jar" name="JDK_CLASSPATH"/>
 
     <group>
-      <requires interface="http://repo.roscidus.com/java/openjdk-6-jre">
+      <requires interface="http://repo.roscidus.com/java/openjdk-jre">
 	<environment insert="bin/" mode="replace" name="OPENJDK_JRE_BIN"/>
       </requires>
       <environment insert="lib" mode="replace" name="OPENJDK_LIBS"/>
@@ -43,7 +43,7 @@ IcedTea project.</description>
     </group>
 
     <group>
-      <requires interface="http://repo.roscidus.com/java/openjdk-6-jre">
+      <requires interface="http://repo.roscidus.com/java/openjdk-jre">
 	<environment insert="bin/java" mode="replace" name="OPENJDK_JRE_JAVA"/>
       </requires>
       <implementation id="sha1new=f2da5d5538d0e3b9d9c0843cb9362e900fd33566" released="2009-12-27" version="6.11-9.1">
@@ -54,11 +54,11 @@ IcedTea project.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJQdm40AAoJEAcTP5bKdNi6RqgIAIaCihg1sRocOLcb7fQ1WrPeHsFHDKNVQTvp
-ym+vjSkxf/u8fzR3UJmni6uMhOUfM2s6mW4NDqeV2iWHRrMC2mUKUq/lHsbnCu1mQRGCBsqPJEvc
-TeyutBFbtjq4E1521RDeNtuhgjQzbvOZLNQF2YvyHMkn7zWVs9ca/T0ZEkqEcahC6DX/1UT+8AX/
-ol0V7IDxbzvJT9a0pAlNMsql4Na/2klhQb5Wyn2bZa9SIRjT7Ry1cFyAwaPdePqCGTHiw8nAhfW8
-KOJX0Oj+D7ZrSjA1E4Wc+gBxkocy8semEnBKDqfxDXuUQDlBChyoFGKJ7YCFaK3XNjceZ0OksuFV
-6VY=
+iQEcBAABCAAGBQJQdnE/AAoJEAcTP5bKdNi6IX4H/jf3l0DsZ32ClUhO84XV+PVEHjMXMIwWv8ym
+5S67UE1NO9PMcNWQsT1TmmtQP1qfjCSjWKJ45ssU/GWK4svqlHIAH2yg/51XNUZ48jkCaMlWfXJj
+kQhk2JEuFFN7NwowKHyXITnEfQ8gKdNEqxMOBMLJmcTrK3AeDGOW2TOFXceCVUKVXXPvm73sBB0r
+6q1jBE+Yj/Fuli+K1kP/HCHGoDbpfwfJWXDsGKNNIMLDcwE0VA/bZZtMpXH7ckFBEjK1tlwWPQi0
+q8LOOluF9QJL98tiGYyC9RmV5/s2N37FjlwYqdkbQDro3Q5/gSfAn4WAdtoEUgrx5Gxw/z5WEF/q
+Qh0=
 
 -->
