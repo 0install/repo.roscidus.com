@@ -9,6 +9,8 @@
 
   <feed src="http://repo.roscidus.com/java/openjdk-6-jre"/>
 
+  <feed arch="Windows-*" src="http://0install.de/feeds/Oracle_JRE.xml"/>
+
   <!-- Note: 0install >= 1.11 will fill in the correct main value automatically. -->
   <package-implementation distributions="Debian" main="/usr/bin/java" package="openjdk-7-jre"/>
   <package-implementation distributions="RPM" main="/usr/bin/java" package="java-1_7_0-openjdk"/>
@@ -17,11 +19,11 @@
   <package-implementation distributions="Windows Darwin" package="openjdk-7-jre"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJQNRBnAAoJEAcTP5bKdNi6nVwIAKEIcyGWyiLfzTrjhSpxQaO0wVK/vlns09VP
-wDKFzYVzaXO81csRTCNIZFKF/e9RYUgk5cFJ8OOsabPD6PVeq6ePfns4rHQrdhvFZ41EFDPBLmRx
-jcvKU5EEl5gYMDZZjIx/5/mX8l00xAexx5ftLo7bQZwFDFrpdbghIQgY2kPJD6NimoP7TTGHRQg+
-qgtLkchqLW/zhBDkugbtfdt0kHqyqR5vkpryOm03206SjNh9ba/JTvHOEQZXaYM6V+cfeUR+vYad
-CK8ft1BZhlNSp0uz6GnXYV+ukma7eGeicCUQ/hGDun8l4zDJWN0IyPKDz4lNx2Z9px8uxJa/xYM0
-Tmc=
+iQEcBAABCAAGBQJQt6zwAAoJEAcTP5bKdNi6VzYH/1y/rreWgtq9GdV8nGU24iQYqnTBfChvg0U8
+cMxwrEpFCRBRuYeQGnxuIj21tpOtUMYcHCuaR6nvwc0pFtcx+s15m8lvBgxI7Ta2ouphPRWi8mC3
+kPN0Lg7RDAuXmjc9QER4hSShYF1XdUm+W5S0+jzKWj6PmYKDT+tbLhdu7XErZItnGBSGhXs1fnXE
+nODJ5irhbYkvlnaJqC46DyQFvgIA3EKNeJZML25Wc5hOoz6VOthxtiXwEtiMKEDSOXrvNHq0NrHx
+owu3lI1AfI6desRh5p+n+x+eKfp/VZmJE4XGuvtgE/j9U4su59B+vsMKeSzpl9QZje23nGNLL10Z
+iAI=
 
 -->
