@@ -19,6 +19,8 @@ because it uses IDEA (which is patented worldwide).</description>
   <package-implementation distributions="Darwin" main="/usr/local/bin/gpg2" package="gnupg2"/>
 
   <feed arch="Windows-*" src="http://0install.de/feeds/GnuPG.xml"/>
+  <feed arch="Darwin-*" src="http://afb.users.sourceforge.net/zero-install/interfaces/GnuPG.xml"/>
+
   <group arch="Linux-i386" main="bin/gpg">
     <implementation id="sha1new=af4d8a604323238a092e4ed3cae9372f9d3302c4" released="2010-06-06" version="1.4.9-3">
       <archive href="http://repo.roscidus.com/security/gnupg/gnupg-i386-1.4.9-3+lenny1.tar.bz2" size="1571178"/>
@@ -41,11 +43,11 @@ because it uses IDEA (which is patented worldwide).</description>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJQ1dF8AAoJEAcTP5bKdNi6Jm4H/iraMII+Eruc9zk7LjrlfuoJ1Ckx9SJNqW/C
-LRXu69o8iTIVtdzK3or5LP1fpjgtczzpQMGQugP7E3+k18EXxwmgPcM/MQEZepl29coadGxVoHVg
-iqHrMiooH+jnfYiJj4hT58Sg+cevfsvxXdYlNRartDajlWJoMFk+AfqpOfTTxo4EyEHFeYqaWWfD
-GmObfNl5LEK8zg1tTVEuSGvxgPrSRf0jHV03+nc4K81I+yJi4Cjb1JBs/bKhQoqzFMwFDIBFmarL
-5RJqvY4r/JkRvP6koGlhIoKCWVJBJDSpzTMOpA33ZJY0Cr9XN8f81aGfJILBAZM7xHVDELL7cNRN
-OC0=
+iQEcBAABCAAGBQJQ1dMKAAoJEAcTP5bKdNi6ewMH/RdP/rnYaDkxqB2MR0zlt/p9kQNAershM5QC
+0rof+iQnLZa1yZAtA97sL7/0BlKfcvmx2M6Uv/6EPiI95aRYKKtHV2Rl0uGmOLfxtlg2gSPRzyK6
+4oKMEUPWE0O7PpmldkvAxlR9Ifk9deAIHp7GD2iLQh3MO1UcvJJDXUs14tfTMedY/qvP4yZISPka
+MXuY34ITjCeYSZ6OJBD2lzNHMuor8lCQ9v/ssAtG7YXINKlgcu7S9LoLhc/g9TJ263m/KQCHtxDe
+ttF9bwcQdNO0GiLNqnZtpUe1IkXapmaefK6/8xNZtHz6UF2n9b1ulU/EblDgrDzAmhbM3Kx3YU0T
+NCU=
 
 -->
