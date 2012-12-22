@@ -15,6 +15,9 @@ because it uses IDEA (which is patented worldwide).</description>
   <package-implementation distributions="Arch Slack Debian RPM Gentoo Cygwin" main="/usr/bin/gpg" package="gnupg"/>
   <package-implementation distributions="MacPorts" main="/opt/local/bin/gpg" package="gnupg"/>
 
+  <package-implementation distributions="Darwin" main="/usr/local/bin/gpg" package="gnupg"/>
+  <package-implementation distributions="Darwin" main="/usr/local/bin/gpg2" package="gnupg2"/>
+
   <feed arch="Windows-*" src="http://0install.de/feeds/GnuPG.xml"/>
   <group arch="Linux-i386" main="bin/gpg">
     <implementation id="sha1new=af4d8a604323238a092e4ed3cae9372f9d3302c4" released="2010-06-06" version="1.4.9-3">
@@ -38,11 +41,11 @@ because it uses IDEA (which is patented worldwide).</description>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJQcW8tAAoJEAcTP5bKdNi6078IAJQIwfKbap7tVfS4t6nhvxhxVyt9+aXCcwHe
-NWozgxQA3nHEz6dcAPK/dW7vs3HzNkULQn03XLOUok/xFFmQF5eP3P49EZGDSOJSqh9Je9O0uAqf
-uXi+eOOQOoHJ6yAie9yeX1eIBxWYiRrHSPej81sIgVnXZzBMpWt2LUImJ2SCQ9nhkIr7I4IgaSJZ
-3eFirZ+606tOQ5tlKPt6be4A+WrMAitnI2mOwr5tnjbA3CzoG9l/DiFNapbBtdEeBEo18ciHy2Yf
-r+bwAfdhRNSBJNlnqpAlj9jVMYHu/1W138cICp74dAB4OFZFumJ6SMMVsXb+Ln44DL7+NvWgoDCi
-vxo=
+iQEcBAABCAAGBQJQ1dF8AAoJEAcTP5bKdNi6Jm4H/iraMII+Eruc9zk7LjrlfuoJ1Ckx9SJNqW/C
+LRXu69o8iTIVtdzK3or5LP1fpjgtczzpQMGQugP7E3+k18EXxwmgPcM/MQEZepl29coadGxVoHVg
+iqHrMiooH+jnfYiJj4hT58Sg+cevfsvxXdYlNRartDajlWJoMFk+AfqpOfTTxo4EyEHFeYqaWWfD
+GmObfNl5LEK8zg1tTVEuSGvxgPrSRf0jHV03+nc4K81I+yJi4Cjb1JBs/bKhQoqzFMwFDIBFmarL
+5RJqvY4r/JkRvP6koGlhIoKCWVJBJDSpzTMOpA33ZJY0Cr9XN8f81aGfJILBAZM7xHVDELL7cNRN
+OC0=
 
 -->
