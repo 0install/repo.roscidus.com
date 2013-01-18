@@ -3,23 +3,27 @@
 <interface uri="http://repo.roscidus.com/python/sphinx" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>python-sphinx</name>
   <summary>tool for producing documentation for Python projects</summary>
-  <description>Sphinx is a tool that makes it easy to create intelligent and
-beautiful documentation. It was originally created for the new Python
-documentation, and it has excellent facilities for the documentation of
-Python projects, but C/C++ is already supported as well, and it is planned
-to add special support for other languages as well.</description>
+  <description>
+Sphinx is a tool that makes it easy to create intelligent and beautiful
+documentation. It was originally created for the new Python documentation, and
+it has excellent facilities for the documentation of Python projects, but C/C++
+is already supported as well, and it is planned to add special support for other
+languages as well.</description>
   <needs-terminal/>
 
   <package-implementation distributions="Debian" main="/usr/bin/sphinx-build" package="python-sphinx"/>
   <package-implementation distributions="RPM" main="/usr/bin/sphinx-build" package="python-sphinx"/>
   <package-implementation distributions="RPM" main="/usr/bin/sphinx-build" package="python-Sphinx"/>
+  <implementation doc-dir="doc" id="sha1new=7dd5e02109d6906134d10ea06f8d892269a1e83f" license="OSI Approved :: BSD License (revised)" main="sphinx-build.py" released="2013-01-18" version="1.1.3">
+    <archive extract="Sphinx-1.1.3" href="http://repo.roscidus.com/python/sphinx/Sphinx-1.1.3.tar.gz" size="2632059" type="application/x-compressed-tar"/>
+  </implementation>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJQJ+FsAAoJEAcTP5bKdNi6WdUH/0wJoQ3op7iAaonD+fMRPY3kQgK3YdGJDMUL
-9Yd4s/py1macH5gM3LBTgo0a557A77AAFS57Q9L9oR/NWOvLUV9a03Itv7FeaV6BJP/Yvc4hsUln
-LrlIW3gQkklQN+hyVQp6JOQP6B6G8SFT9uy0L3u2xXfZ6JMZti8XOxZt7A74hSQ573sn8LBPfgeS
-M1U1og2hWi2VW6pSvcCuUZ1iFIf69d7E97nkvozYpRx5UeKs1q455npSMywHAHZuAijuQdZad+mD
-C4uihHLQtwsYsRurfs8fva55x63g7yrqG9AzJhoJ6+XLXgvEsZbwukiJ3Rt96/o4rtT8zDCWjr3+
-H5Q=
+iQEcBAABCAAGBQJQ+SvEAAoJEAcTP5bKdNi6x58H/07BXMHubxYem/DP43TXm4PpiUZubgCWyZob
+0FESSmGoT9QbaZMePg3IRXh5GhT0zsyZ2J8Rf2F9LOaxtaGksN/fPvsb4iT3CkYVMbGm6tmCXkj+
+4ZOSditle3Vu1ZgGzt37A0WFDvBCQyQwoHYLpmZTA8KPiNj4diR9FyEpFiPDvtdYpHuLQLiURLl+
+0Ok9s25gYgLPyBSPMspV9Rw1kAf2Gu67QtSg46MQs/NwnljaJpEoTxGWrU6NsGjl16Wq+RwTLoAQ
+IFmH7qxCP9KYVQqBvSIt7CjyKHHCMceQ9bo7kGwc0JNpr/O3i0TCcmXGQEKJI/AMRzk054EPrd+a
+8Zk=
 
 -->
