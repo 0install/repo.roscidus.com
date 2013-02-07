@@ -30,7 +30,7 @@ which it is implemented.</description>
     </implementation>
 
     <group>
-      <environment name="_JAVA_OPTIONS" separator=" " value="-XstartOnFirstThread"/>
+      <environment name="ZEROINSTALL_EXTRA_JAVA_OPTIONS" separator=" " value="-XstartOnFirstThread"/>
       <implementation arch="MacOSX-x86_64" id="sha1new=0304451926f7865550effb10b6e0c11dfd3c5043" released="2011-01-11" version="3.6.1">
 	<archive extract="swt" href="http://repo.roscidus.com/java/swt/swt-3.6.1-cocoa-macosx-x86_64.tar.bz2" size="1434191" type="application/x-bzip-compressed-tar"/>
       </implementation>
@@ -41,11 +41,11 @@ which it is implemented.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJQMyZkAAoJEAcTP5bKdNi6/BEH/3mwgaSngFwJYYWUHKSRZdKFarPxtaMW9lXD
-mQK3sqU6glMycW0NsWG3yPIyo/Q/0Q3U+Pls6J4NoxF/DcsDnl1R4Ou7PSwmWM01dJIBY0YfuUTm
-RgHorbSZzYxW6SBSVnKSIruBeWa0VOSnhhf/5M7/nR0UJzEm8fJzscZhkdVgqc3cKR1PuGlmLhqB
-X9k2ZuOPCFh7IU75UHOGirWs/bxoAgOxhJIlQp6UMNHpIobjHP1xmGdDFamAby+zryA62nb7XKWh
-+r0/CG9K7afgwUps00stE0lfE2bvKhF0YZKvJGKu7142/vgiMzV5bKNA+WS3TKkUsajXtlCm3OyT
-G6Q=
+iQEcBAABCAAGBQJRE3+DAAoJEAcTP5bKdNi6U2IIAI5VJ6AWNY3Mmwv9msRm+Bf4YkImpcwhjlg6
+vGJIQ1PTKrxmqItyxU9iccx86dzseG2h1epjhd7tioRDmMzDfOskwq5uVoFbgpWF/4yz78L2XRqx
+IKBm0O5S4uVGlef12VFnghLR0CHWfZ67aCyJpgtZEoe2UBvybgqFCO2f/sIF8oPc0NOJATPkTIi5
+5PX2GGaW4EBtR13ukah6+0nDoKZKAGIz83IaW/554FJvSF4N3AmzeMnIxA7+5GM/WMw0X/y3dlJ6
+L1XIQ0J8KlVrjHtyvtavqNBQCUaYMe2MsC2h0a0QKQlYZb7HdPamczKolbu9a+dqkaVBsxxzFRzi
+4oY=
 
 -->
