@@ -10,9 +10,9 @@ the core library used to build GTK+ and GNOME.
   </description>
 
   <group>
-    <requires interface="http://repo.roscidus.com/python/python">
+    <restricts interface="http://repo.roscidus.com/python/python">
       <version before="4" not-before="3"/>
-    </requires>
+    </restricts>
 
     <!-- On Debian, python3-gobject is virtual and replaced by python3-gi -->
     <package-implementation distributions="Debian" package="python3-gi"/>
@@ -21,21 +21,22 @@ the core library used to build GTK+ and GNOME.
   </group>
 
   <group>
-    <requires interface="http://repo.roscidus.com/python/python">
+    <restricts interface="http://repo.roscidus.com/python/python">
       <version before="3" not-before="2"/>
-    </requires>
+    </restricts>
 
     <package-implementation distributions="Debian" package="python-gobject-2"/>
     <package-implementation package="pygobject2"/>
+    <package-implementation package="python-gobject2"/>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJRFPrqAAoJEAcTP5bKdNi6qHkH/3s5IwKva2cGxBMprADxudHfiCVfN/Rh613g
-XANBrhuKZ3BZiFxKeK2Ob5yBvMsZaG3SqqFbmUFibyLciTZ4JgwuItSfg8Gr8KEQZ4yw+aaGmuYe
-iisxzbscCIqk9sCEKEd7d9FvXdkc3vttG492+jJlRayd/A//Mz60HMshm9zoF0q5GEoxVR4LEaO4
-IaTocgjfO6rNgoCzal2jT+4lnrgTHttivjhMhi8Ea3iGcWC30P06EPSQOsqpnquEJGmfwDc1D1rP
-BLpNxY8nggcD1UB7dszDOeS/F+MtYaDLTmsl7Q9wG5n41GTBw/EKf5ZSuhV8tQXScqOoilm55sMb
-VRk=
+iQEcBAABCAAGBQJRFPyzAAoJEAcTP5bKdNi6iVYH/2IsPpkffAN60N2OYtiR7edRjoqt7QFlSOJ6
+ZyFVWWjIO2ZQGeTPcgtwEs0BUj/9w2fR8WTvXmnrELqc3pWd/JJYqiYAqLEmuDJoOQTDQF9N+Zoi
+PqN0wS7wvjtuRKUz231h4M7Siyzn1tZ/D1c+7pnde+XUJeDCW8rOBAjJ4M1f73gTvQ2xRnBlGeD2
+yXjIxFtXeECqMSH6FN4qPQWw1cPgd0wkI+fWNhyODj5rKME6E/w4E1XMZVdg7OV74v1gKWuQ7Sjg
+OymDtLFmpIsm3OyihITz26x3Px7O3uOIG5xy8v5iFQCOF9bAmvQKYnVpBe7cqGblaum+kNJBGQK+
+Mac=
 
 -->
