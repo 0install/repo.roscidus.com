@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://repo.roscidus.com/python/python-gobject" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>python-gobject</name>
+  <summary>Python bindings for the GObject library</summary>
+  <description>
+GObject is an abstraction layer that allows programming with an object
+paradigm that is compatible with many languages. It is a part of Glib,
+the core library used to build GTK+ and GNOME.
+  </description>
+
+  <group>
+    <requires interface="http://repo.roscidus.com/python/python">
+      <version before="4" not-before="3"/>
+    </requires>
+
+    <!-- On Debian, python3-gobject is virtual and replaced by python3-gi -->
+    <package-implementation distributions="Debian" package="python3-gi"/>
+
+    <package-implementation package="python3-gobject"/>
+  </group>
+
+  <group>
+    <requires interface="http://repo.roscidus.com/python/python">
+      <version before="3" not-before="2"/>
+    </requires>
+
+    <package-implementation distributions="Debian" package="python-gobject-2"/>
+    <package-implementation package="pygobject2"/>
+  </group>
+
+</interface>
+<!-- Base64 Signature
+iQEcBAABCAAGBQJRFPrqAAoJEAcTP5bKdNi6qHkH/3s5IwKva2cGxBMprADxudHfiCVfN/Rh613g
+XANBrhuKZ3BZiFxKeK2Ob5yBvMsZaG3SqqFbmUFibyLciTZ4JgwuItSfg8Gr8KEQZ4yw+aaGmuYe
+iisxzbscCIqk9sCEKEd7d9FvXdkc3vttG492+jJlRayd/A//Mz60HMshm9zoF0q5GEoxVR4LEaO4
+IaTocgjfO6rNgoCzal2jT+4lnrgTHttivjhMhi8Ea3iGcWC30P06EPSQOsqpnquEJGmfwDc1D1rP
+BLpNxY8nggcD1UB7dszDOeS/F+MtYaDLTmsl7Q9wG5n41GTBw/EKf5ZSuhV8tQXScqOoilm55sMb
+VRk=
+
+-->
