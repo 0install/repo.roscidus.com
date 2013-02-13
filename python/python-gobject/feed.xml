@@ -18,6 +18,10 @@ the core library used to build GTK+ and GNOME.
     <package-implementation distributions="Debian" package="python3-gi"/>
 
     <package-implementation package="python3-gobject"/>
+
+    <package-implementation distributions="Arch" package="python-gobject">
+      <version not-before="3"/>
+    </package-implementation>
   </group>
 
   <group>
@@ -32,11 +36,11 @@ the core library used to build GTK+ and GNOME.
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJRFPyzAAoJEAcTP5bKdNi6iVYH/2IsPpkffAN60N2OYtiR7edRjoqt7QFlSOJ6
-ZyFVWWjIO2ZQGeTPcgtwEs0BUj/9w2fR8WTvXmnrELqc3pWd/JJYqiYAqLEmuDJoOQTDQF9N+Zoi
-PqN0wS7wvjtuRKUz231h4M7Siyzn1tZ/D1c+7pnde+XUJeDCW8rOBAjJ4M1f73gTvQ2xRnBlGeD2
-yXjIxFtXeECqMSH6FN4qPQWw1cPgd0wkI+fWNhyODj5rKME6E/w4E1XMZVdg7OV74v1gKWuQ7Sjg
-OymDtLFmpIsm3OyihITz26x3Px7O3uOIG5xy8v5iFQCOF9bAmvQKYnVpBe7cqGblaum+kNJBGQK+
-Mac=
+iQEcBAABCAAGBQJRG8b5AAoJEAcTP5bKdNi6K+QH/0tUlUPpiQ/TgnAmnV4Uc6VmNbBPB2B4xayA
+D5GNmEcqUQHrBuK8Vv3RrQjHIn0Y2JoQnbtClKSJc0J44OB7mfj2bn/6AxlBqnefX+Eba26mZdty
+STUX6hFrOIuA+/H/EiCGPpQxu0IJHQ1oXeEa91QMilcliC3rrpKflTxLSgwdCuUrVoMNXZ7pGOjM
+8t1UuvKqdLIvMwrFa2GObxGpzpxsHxEWDsJtka8dh2d6ePfdkMAuJFdAlRvVdURSJGMVIRoq1lgD
+v8zQ5n/ofOIZS2cR8Urwf6SEOdSRQJhjAKr9T71E4uRmbsoQD0TZ/D182lFlmtmgZmADoLJJuakc
+234=
 
 -->
