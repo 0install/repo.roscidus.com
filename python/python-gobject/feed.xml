@@ -32,15 +32,16 @@ the core library used to build GTK+ and GNOME.
     <package-implementation distributions="Debian" package="python-gobject-2"/>
     <package-implementation package="pygobject2"/>
     <package-implementation package="python-gobject2"/>
+    <package-implementation distributions="Arch" package="python2-gobject2"/>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJRG8b5AAoJEAcTP5bKdNi6K+QH/0tUlUPpiQ/TgnAmnV4Uc6VmNbBPB2B4xayA
-D5GNmEcqUQHrBuK8Vv3RrQjHIn0Y2JoQnbtClKSJc0J44OB7mfj2bn/6AxlBqnefX+Eba26mZdty
-STUX6hFrOIuA+/H/EiCGPpQxu0IJHQ1oXeEa91QMilcliC3rrpKflTxLSgwdCuUrVoMNXZ7pGOjM
-8t1UuvKqdLIvMwrFa2GObxGpzpxsHxEWDsJtka8dh2d6ePfdkMAuJFdAlRvVdURSJGMVIRoq1lgD
-v8zQ5n/ofOIZS2cR8Urwf6SEOdSRQJhjAKr9T71E4uRmbsoQD0TZ/D182lFlmtmgZmADoLJJuakc
-234=
+iQEcBAABCAAGBQJRHmNtAAoJEAcTP5bKdNi6td8H/if4MKAhEZn0skYFsz0mI6Ys4sNckgaWdSAb
+p/S10bT+Et2A02IFFMaRtSzfSMqIoawvfOs+//b26C+llM/xjOBz9xs291k/MCmigjHAz5K3h66p
+lNP1qDDH417aKHNUXuJCCLwb5jKMmugIUDqoJX4k0X2Kc9bBGgiM7voOi8CGGbuNvUZX6ds1Q7cZ
+UwzM4Fti9TjAQmjtnBaF5vFN8P20kcTz3DPc015aYbyQ1sG/w8RUTz3hNWGZjBImSNiR3ELnhfUx
+dxiRj4px+4Xsac+EFjuHtczxmbxyfZfC63/utd4qqbod9elG89zFXVCPDgmEcssfUn60W8SmuyJZ
+9h8=
 
 -->
