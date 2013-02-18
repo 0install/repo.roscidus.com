@@ -14,21 +14,27 @@ languages as well.</description>
   <package-implementation distributions="Debian" main="/usr/bin/sphinx-build" package="python-sphinx"/>
   <package-implementation distributions="RPM" main="/usr/bin/sphinx-build" package="python-sphinx"/>
   <package-implementation distributions="RPM" main="/usr/bin/sphinx-build" package="python-Sphinx"/>
-  <implementation doc-dir="doc" id="sha1new=7dd5e02109d6906134d10ea06f8d892269a1e83f" license="OSI Approved :: BSD License (revised)" main="sphinx-build.py" released="2013-01-18" version="1.1.3">
+
+  <group main="sphinx-build.py">
     <command name="run" path="sphinx-build.py">
       <runner interface="http://repo.roscidus.com/python/python">
 	<version before="3"/>
       </runner>
     </command>
-    <archive extract="Sphinx-1.1.3" href="http://repo.roscidus.com/python/sphinx/Sphinx-1.1.3.tar.gz" size="2632059" type="application/x-compressed-tar"/>
-  </implementation>
+    <requires interface="http://repo.roscidus.com/python/docutils"/>
+    <requires interface="http://repo.roscidus.com/python/jinja"/>
+
+    <implementation doc-dir="doc" id="sha1new=7dd5e02109d6906134d10ea06f8d892269a1e83f" license="OSI Approved :: BSD License (revised)" released="2013-01-18" version="1.1.3">
+      <archive extract="Sphinx-1.1.3" href="http://repo.roscidus.com/python/sphinx/Sphinx-1.1.3.tar.gz" size="2632059" type="application/x-compressed-tar"/>
+    </implementation>
+  </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJRIeGCAAoJEAcTP5bKdNi6TbIH/3LS4bDPt1B2MS5etztMBAWqvbtAcApKCfLQ
-wzviwH3V9jhrKQxvjDgUPC33jyr0PXpbIDRabHamoLmUoXLgIdRB1LZytvn8V/UgU561Dd8QarCj
-ybyqHncC5VoitWmiEZ2WSmMj9EeV2jt8MbojgF6sQPnWvDgubivMVp5rbQobxDE/qqUPBl183Syq
-kMht+QB+3r+klGZ0YuqU0XoI8vV0eML3zgvR1qKXFBNi5u+xLNLcP5ZVDcwY7skPVgJmt69+Juoq
-mU74oACZFKI+jl3phx0LiIQbheHPGsG1Q8annxAEckTFTL0jwGu/O1saGwvETZqUNXiTZDEOEcQ3
-nBI=
+iQEcBAABCAAGBQJRIetuAAoJEAcTP5bKdNi68rYIAKP3ZhN9aOp2EKqhanW2WHuPbHoGs0DzGFON
+epF3alp3eY6/3cv9jc3PVHsASDtjb4pIqQtptmYphtA5negsIV82z5h2oeeTDpct6u2nwomYlHI2
+K6nuyKkd+aTN1Dcwz/daSNJwJ+t2kb1NrkNNorSK+B/sbCUIjyxJmETF4FtwQnnADcJUa+/IOrP4
+4f2Q2v0i/r8g2/4+YoqxVwsBd9OYNcrh/h1Y0tB5EhNNOyEh91eYnn8mQGJSokcVXosZAy4+2Cdu
+ObGSHH620cW6K2UN/oJC/FVkKlJ+hFEGoJ+6QN1Zd57Pv3ZPDm2ZCrr7yq+hJ4KgcXWm7mr46gJg
+81A=
 
 -->

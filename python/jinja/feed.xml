@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<interface uri="http://repo.roscidus.com/python/jinja" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>python-jinja</name>
+  <summary>template engine written in pure Python</summary>
+  <description>
+Jinja2 is a template engine written in pure Python. It provides a Django
+inspired non-XML syntax but supports inline expressions and an optional
+sandboxed environment.</description>
+  <homepage>http://jinja.pocoo.org/</homepage>
+  <category>Development</category>
+  <group license="OSI Approved :: BSD License (revised)">
+    <implementation id="sha1new=8cdded4da5af78ef4cff9dc0b7c1b3d7050b79e6" released="2013-02-18" version="2.6">
+    <archive extract="Jinja2-2.6" href="http://pypi.python.org/packages/source/J/Jinja2/Jinja2-2.6.tar.gz" size="389741" type="application/x-compressed-tar"/>
+  </implementation>
+    <environment insert="." name="PYTHONPATH"/>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQEcBAABCAAGBQJRIetZAAoJEAcTP5bKdNi6GqoH/2OnFW/JMjlynwo8HU8NfCvj9gNhgw0wvgAq
+2NFEcBeIkB293Eh2xC414lLtsleAG4oS8nLtyGTJcm/XvH/PKmYOJ+sL+oC9GI8mW+G3Ch/QnI2v
+bZIHiR0Ozs+vxnAeX9VMwPQI7DN5uQzl7BUu2jzf3zTQwRvR6S2EVCBF9auld4gQ7U3hgfmzjbtj
+Sj2uFGChBNlJRNk2vw//lEW5InnAIlhIoeQqZbCg7Rvb9uISU1T0lgxlATeaS8CxHkyyqA1CZQXu
+alx204EQDwc3rnjMOPBE4NtMn2vO26li6lNQ4BrtAX3FQTuga4z/m8gs6mVGUmaRHx+5aXuuRDwu
+KfI=
+
+-->
