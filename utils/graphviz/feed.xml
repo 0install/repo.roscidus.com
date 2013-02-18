@@ -6,8 +6,7 @@
     <description>
 Open Source Graph Visualization Software</description>
     <homepage>http://www.graphviz.org/</homepage>
-    <package-implementation distributions="RPM" main="/usr/bin/dot" package="graphviz"/>
-    <package-implementation distributions="Debian" main="/usr/bin/dot" package="graphviz"/>
+    <package-implementation distributions="RPM Debian Arch" main="/usr/bin/dot" package="graphviz"/>
     <package-implementation distributions="Gentoo" main="/usr/bin/dot" package="media-gfx/graphviz"/>
     <package-implementation distributions="MacPorts" main="/opt/local/bin/dot" package="graphviz"/>
     <package-implementation distributions="Ports" main="/usr/local/bin/dot" package="graphviz"/>
@@ -19,11 +18,11 @@ Open Source Graph Visualization Software</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJQO8SyAAoJEAcTP5bKdNi6T04IAKw8MoEF6GVWnNEXsiggmp0Nwy2OFoqH9OVA
-AY0tDGQ1gsFklOV4CgAxPcm3G4twkBThjlntffKXLhVmhOLikJu4hT9corA8jAx6yBTok10NL/sJ
-WC7GI1idHzNcRSvrdGyCNXEBLeWbYuxvsfBk3+HlIfC9MSa94DtJcEmNml/Ev1ZpFhllaC7YezOv
-KnTs5aqBFBueMkdVU7deMvmeelSc54Q9LCsbHWPnCDWtRTXoNWfa0hwmSFNyCJqua494TPAyIiHs
-PqMgfTLnGmTDa8K6jsgc1UTXSx2Bztb+OUyDRJAkZxrSq/fgcXBn2u+yFcADrSRgJ/xj2fsflUBD
-YyI=
+iQEcBAABCAAGBQJRIeJUAAoJEAcTP5bKdNi6Y70H/2T8RqoJTO+734rShOE3talr81Q0j5BktbY1
+np0lxDHU2yNaPMH4gPwbDgQO9F3v82TMactN1exhNxdrJCbua/2jcs++mhp6Q659jMcctaTZED1G
+COBq1qnxTzl/jNVFNiojMA0ee/MkbOh44WX4BiuRkChkdiy3dpfhZ24GjBTOWaeE/IOnaO9/GPki
+PV3IMCdMbhXbTIDOx8eQZakgV87/set4TVrKw2F4FtK7aLGmcIiwj9Jd1lcOYUTth0Qufd5ihr2D
+mIq57G5bOiwewhpaZvTof1s9FfYHgnVxt7ontA9qfQez0K4iGdIkd+/Q1MIwStl9qxhxPVWbKucm
+LMw=
 
 -->
