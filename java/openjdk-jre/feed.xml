@@ -15,15 +15,16 @@
   <package-implementation distributions="Debian" main="/usr/bin/java" package="openjdk-7-jre"/>
   <package-implementation distributions="RPM" main="/usr/bin/java" package="java-1_7_0-openjdk"/>
   <package-implementation distributions="RPM" main="/usr/bin/java" package="java-1.7.0-openjdk"/>
+  <package-implementation distributions="Arch" main="/usr/bin/java" package="jre7-openjdk"/>
 
   <package-implementation distributions="Windows Darwin" package="openjdk-7-jre"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJQt6zwAAoJEAcTP5bKdNi6VzYH/1y/rreWgtq9GdV8nGU24iQYqnTBfChvg0U8
-cMxwrEpFCRBRuYeQGnxuIj21tpOtUMYcHCuaR6nvwc0pFtcx+s15m8lvBgxI7Ta2ouphPRWi8mC3
-kPN0Lg7RDAuXmjc9QER4hSShYF1XdUm+W5S0+jzKWj6PmYKDT+tbLhdu7XErZItnGBSGhXs1fnXE
-nODJ5irhbYkvlnaJqC46DyQFvgIA3EKNeJZML25Wc5hOoz6VOthxtiXwEtiMKEDSOXrvNHq0NrHx
-owu3lI1AfI6desRh5p+n+x+eKfp/VZmJE4XGuvtgE/j9U4su59B+vsMKeSzpl9QZje23nGNLL10Z
-iAI=
+iQEcBAABCAAGBQJRId7LAAoJEAcTP5bKdNi615wIAIPKct+kYLdro/39qSBmrgYrmUExYxsggF+G
+F/NGi7xF0JW6QfWZOPMPAwcVBbv2VVozotDGE41jHIsc8s3UVZrKAxVXf38rH23HB5mYzd4+iuKB
+if+L36CdcWXzrM4p9miePmbGnoyT3sMcxWBw6IgDSUc29moR0nS8RFvGOIVYrjZFhm59uCYrzyLA
+ugOBCrvUvC/7NVK1JgNyA3ZCsYBI2USaYGoeBAm1/U1TG/MZ2Tpalvy7EFhir6NAxe4961Sw/6IO
+lkdEzaPZQwZOjE/1DqArmo/xoSYdH8o+DB1EA340O/nekJlYfrBo9b25xIWJwz3L2HiAHLYZJPLu
+UvE=
 
 -->
