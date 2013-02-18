@@ -15,15 +15,20 @@ languages as well.</description>
   <package-implementation distributions="RPM" main="/usr/bin/sphinx-build" package="python-sphinx"/>
   <package-implementation distributions="RPM" main="/usr/bin/sphinx-build" package="python-Sphinx"/>
   <implementation doc-dir="doc" id="sha1new=7dd5e02109d6906134d10ea06f8d892269a1e83f" license="OSI Approved :: BSD License (revised)" main="sphinx-build.py" released="2013-01-18" version="1.1.3">
+    <command name="run" path="sphinx-build.py">
+      <runner interface="http://repo.roscidus.com/python/python">
+	<version before="3"/>
+      </runner>
+    </command>
     <archive extract="Sphinx-1.1.3" href="http://repo.roscidus.com/python/sphinx/Sphinx-1.1.3.tar.gz" size="2632059" type="application/x-compressed-tar"/>
   </implementation>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJQ+SvEAAoJEAcTP5bKdNi6x58H/07BXMHubxYem/DP43TXm4PpiUZubgCWyZob
-0FESSmGoT9QbaZMePg3IRXh5GhT0zsyZ2J8Rf2F9LOaxtaGksN/fPvsb4iT3CkYVMbGm6tmCXkj+
-4ZOSditle3Vu1ZgGzt37A0WFDvBCQyQwoHYLpmZTA8KPiNj4diR9FyEpFiPDvtdYpHuLQLiURLl+
-0Ok9s25gYgLPyBSPMspV9Rw1kAf2Gu67QtSg46MQs/NwnljaJpEoTxGWrU6NsGjl16Wq+RwTLoAQ
-IFmH7qxCP9KYVQqBvSIt7CjyKHHCMceQ9bo7kGwc0JNpr/O3i0TCcmXGQEKJI/AMRzk054EPrd+a
-8Zk=
+iQEcBAABCAAGBQJRIeGCAAoJEAcTP5bKdNi6TbIH/3LS4bDPt1B2MS5etztMBAWqvbtAcApKCfLQ
+wzviwH3V9jhrKQxvjDgUPC33jyr0PXpbIDRabHamoLmUoXLgIdRB1LZytvn8V/UgU561Dd8QarCj
+ybyqHncC5VoitWmiEZ2WSmMj9EeV2jt8MbojgF6sQPnWvDgubivMVp5rbQobxDE/qqUPBl183Syq
+kMht+QB+3r+klGZ0YuqU0XoI8vV0eML3zgvR1qKXFBNi5u+xLNLcP5ZVDcwY7skPVgJmt69+Juoq
+mU74oACZFKI+jl3phx0LiIQbheHPGsG1Q8annxAEckTFTL0jwGu/O1saGwvETZqUNXiTZDEOEcQ3
+nBI=
 
 -->
