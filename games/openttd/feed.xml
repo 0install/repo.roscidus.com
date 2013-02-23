@@ -24,20 +24,20 @@ the original game as closely as possible while extending it with new features.</
       <environment insert="lib" mode="prepend" name="LD_LIBRARY_PATH"/>
     </requires>
     
-    <implementation arch="Linux-i686" id="sha1new=19bf56c253e576baebc52f58e1df4bd74ef8c8d4" released="2010-06-12" version="1.0.1">
+    <implementation arch="Linux-i686" id="sha1new=19bf56c253e576baebc52f58e1df4bd74ef8c8d4" released="2010-06-12" stability="stable" version="1.0.1">
       <archive extract="openttd-1.0.1-linux-i686" href="http://repo.roscidus.com/games/openttd/openttd-1.0.1-linux-i686.tar.bz2" size="17248708" type="application/x-bzip-compressed-tar"/>
     </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=4611e563d76a7277784fd814a80fee0993803cac" released="2010-06-12" version="1.0.1">
+    <implementation arch="Linux-x86_64" id="sha1new=4611e563d76a7277784fd814a80fee0993803cac" released="2010-06-12" stability="stable" version="1.0.1">
       <archive extract="openttd-1.0.1-linux-amd64" href="http://repo.roscidus.com/games/openttd/openttd-1.0.1-linux-amd64.tar.bz2" size="17443765" type="application/x-bzip-compressed-tar"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJOh3dJAAoJEAcTP5bKdNi6OOIIAI8QUTG2EhRNfeBERcnmwmnJX1rSzcRCClSE
-gjmoHvHAXMPjXaFm1tudSEwc/qR+wLwC+pO9OXbkeIK/Ng4oyb7j8oef5ES/qcTFIfiQB7RZlC9s
-nQV8YFZZcjiU5o+XWpU+RUtBoChARn/FmQmLphhoK+c0y3mjoo0EDFQJt9ZJQL1g/i2Dr8OGqFid
-X42F/DRhzSmYoEC4wj9Hv2TvQ1Y09rd62aMqjgo1mJJopfwHmG9aoYJhquP21O5UVocRWphRqhyV
-m2exNMJM1QztQfcDYLeG2dFYAIJoUezc227eWNOMiq08mocRbbGbaqjagZ0lPN6KYRi4hZAUlRlW
-ji8=
+iQEcBAABCAAGBQJRKJ5GAAoJEAcTP5bKdNi6dHoIAIIA9tXVKlku/2SuBMGo84+C30LVkHCXYkOj
+C+mSJOwL5XYmfc5J8xsb79ZEFFJ9ZOq7MVdNDa6GQ5RBOHKWeJySA85Lhi8yg6v+YspckAUJ4BR+
+lnL0SOSTF+PCzpKM5Ca+GxfjRIdktFJKpURDBkMW7cMtx1jrltSqjfo3fPFrcHphcmNex2X9aYa2
+bkAXe+pdLkxoe6rWMpSdjFrOMFqI8KkKwXGywKtymneCYpo8kuxfrINo31ffS2S5fOZJbYqMjidI
+GyiHdhRBFypmyp6cd3j1T14yXnMZcPJkVZKF3IeEeTwuv0z1Ck6Ht/Q9g8QPa/IIY7Bo6C36DjMH
+Avg=
 
 -->
