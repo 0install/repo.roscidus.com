@@ -11,33 +11,48 @@ the original game as closely as possible while extending it with new features.</
   <category>Game</category>
   <icon href="http://0install.net/feed_icons/openttd.png" type="image/png"/>
   <group doc-dir="docs" license="OSI Approved :: GNU General Public License v2" main="openttd">
-    <requires interface="http://0install.net/2006/3rd-party/Freetype2.xml">
-      <environment insert="lib" mode="prepend" name="LD_LIBRARY_PATH"/>
-    </requires>
-    <requires interface="http://repo.roscidus.com/lib/png12-0">
-      <environment insert="lib" mode="prepend" name="LD_LIBRARY_PATH"/>
-    </requires>
-    <requires interface="http://www.nongnu.org/clanbomber/zeroinstall/libsdl1.2.xml">
-      <environment insert="lib" mode="prepend" name="LD_LIBRARY_PATH"/>
-    </requires>
-    <requires interface="http://repo.roscidus.com/lib/stdc++6">
-      <environment insert="lib" mode="prepend" name="LD_LIBRARY_PATH"/>
-    </requires>
-    
-    <implementation arch="Linux-i686" id="sha1new=19bf56c253e576baebc52f58e1df4bd74ef8c8d4" released="2010-06-12" stability="stable" version="1.0.1">
-      <archive extract="openttd-1.0.1-linux-i686" href="http://repo.roscidus.com/games/openttd/openttd-1.0.1-linux-i686.tar.bz2" size="17248708" type="application/x-bzip-compressed-tar"/>
-    </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=4611e563d76a7277784fd814a80fee0993803cac" released="2010-06-12" stability="stable" version="1.0.1">
-      <archive extract="openttd-1.0.1-linux-amd64" href="http://repo.roscidus.com/games/openttd/openttd-1.0.1-linux-amd64.tar.bz2" size="17443765" type="application/x-bzip-compressed-tar"/>
-    </implementation>
+    <group>	<!-- Linux -->
+      <requires importance="recommended" interface="http://0install.net/2006/3rd-party/Freetype2.xml">
+	<environment insert="lib" mode="prepend" name="LD_LIBRARY_PATH"/>
+      </requires>
+      <requires importance="recommended" interface="http://repo.roscidus.com/lib/png12-0">
+	<environment insert="lib" mode="prepend" name="LD_LIBRARY_PATH"/>
+      </requires>
+      <requires importance="recommended" interface="http://www.nongnu.org/clanbomber/zeroinstall/libsdl1.2.xml">
+	<environment insert="lib" mode="prepend" name="LD_LIBRARY_PATH"/>
+      </requires>
+      <requires importance="recommended" interface="http://repo.roscidus.com/lib/stdc++6">
+	<environment insert="lib" mode="prepend" name="LD_LIBRARY_PATH"/>
+      </requires>
+      
+      <implementation arch="Linux-i686" id="sha1new=19bf56c253e576baebc52f58e1df4bd74ef8c8d4" released="2010-06-12" stability="stable" version="1.0.1">
+	<archive extract="openttd-1.0.1-linux-i686" href="http://repo.roscidus.com/games/openttd/openttd-1.0.1-linux-i686.tar.bz2" size="17248708" type="application/x-bzip-compressed-tar"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=4611e563d76a7277784fd814a80fee0993803cac" released="2010-06-12" stability="stable" version="1.0.1">
+	<archive extract="openttd-1.0.1-linux-amd64" href="http://repo.roscidus.com/games/openttd/openttd-1.0.1-linux-amd64.tar.bz2" size="17443765" type="application/x-bzip-compressed-tar"/>
+      </implementation>
+
+      <implementation arch="Linux-i686" id="sha1new=fc4f4ca517d9c743a9c48f103f9d9c3d0ae93479" released="2013-02-23" version="1.2.3">
+	<archive extract="openttd-1.2.3-linux-generic-i686" href="http://repo.roscidus.com/games/openttd/openttd-1.2.3-linux-generic-i686.tar.bz2" size="23705300" type="application/x-bzip-compressed-tar"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=060e25f6b624ed6d6ec20288638d6e7489850f2a" released="2013-02-23" version="1.2.3">
+	<archive extract="openttd-1.2.3-linux-generic-amd64" href="http://repo.roscidus.com/games/openttd/openttd-1.2.3-linux-generic-amd64.tar.bz2" size="23946059" type="application/x-bzip-compressed-tar"/>
+      </implementation>
+    </group>
+
+    <group arch="MacOSX-*" main="OpenTTD.app/Contents/MacOS/openttd">
+      <implementation id="sha1new=3feff4b90b3ad5eac399937625bed34a83677f58" released="2013-02-23" version="1.2.3">
+	<archive extract="openttd-1.2.3-macosx-universal" href="http://repo.roscidus.com/games/openttd/openttd-1.2.3-macosx-universal.tar.bz2" size="23014669" type="application/x-bzip-compressed-tar"/>
+      </implementation>
+    </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJRKJ5GAAoJEAcTP5bKdNi6dHoIAIIA9tXVKlku/2SuBMGo84+C30LVkHCXYkOj
-C+mSJOwL5XYmfc5J8xsb79ZEFFJ9ZOq7MVdNDa6GQ5RBOHKWeJySA85Lhi8yg6v+YspckAUJ4BR+
-lnL0SOSTF+PCzpKM5Ca+GxfjRIdktFJKpURDBkMW7cMtx1jrltSqjfo3fPFrcHphcmNex2X9aYa2
-bkAXe+pdLkxoe6rWMpSdjFrOMFqI8KkKwXGywKtymneCYpo8kuxfrINo31ffS2S5fOZJbYqMjidI
-GyiHdhRBFypmyp6cd3j1T14yXnMZcPJkVZKF3IeEeTwuv0z1Ck6Ht/Q9g8QPa/IIY7Bo6C36DjMH
-Avg=
+iQEcBAABCAAGBQJRKKopAAoJEAcTP5bKdNi6z1QIAIUDTFBWgN3zpA0G1hRS8jUoDs5EgjmbVtbE
+t1FsVJZ0YGqz61m+IPbJUOLzgqv8eZ5HssDLdtuEI3c/NE2sM9gRo2OUzOKhCAPl/Il9n0I58BEv
+hYjCMQD8OWQtAzi4hzer2iywXAkK5Ynu+UCZLVqtpZrsUZgo+MXHdD+uIrAExDag9s5BvVy0mroE
+NYmuyKROZ5bEpGU3L1apFKirS5/ZlLcArbwT8VnJOoTmOIb+wImI6lw5o7hhN8QPBdgqBBNDfm2R
+0SZ7C09Sb07Sh/o1zWB3PkL8QUZGCPFAkhprt9n1jSYBbZV8Gds0q1xEX70XptbxgBko8hMJ/n+F
+CFY=
 
 -->

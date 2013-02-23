@@ -1,29 +1,38 @@
-#!/bin/sh -e
+#!/bin/bash
+
+set -eux
 
 fetch=false
-version=1.0.1
+version=1.2.3
 
 if [ $fetch = true ]; then
   cd source
-  wget http://binaries.openttd.org/extra/opengfx/0.2.4/opengfx-0.2.4-all.zip
+  wget http://binaries.openttd.org/extra/opengfx/0.4.4/opengfx-0.4.4-all.zip
   wget http://binaries.openttd.org/extra/opensfx/0.2.3/opensfx-0.2.3-all.zip
-  wget http://binaries.openttd.org/extra/openmsx/0.2.1/openmsx-0.2.1-all.zip
+  wget http://ftp.snt.utwente.nl/pub/games/openttd/binaries/extra/openmsx/0.3.1/openmsx-0.3.1-all.zip
 
   for arch in amd64 i686; do
-    wget http://binaries.openttd.org/releases/$version/openttd-$version-linux-generic-$arch.tar.bz2
+    wget http://ftp.snt.utwente.nl/pub/games/openttd/binaries/releases/$version/openttd-$version-linux-generic-$arch.tar.xz
   done
+  wget http://ftp.snt.utwente.nl/pub/games/openttd/binaries/releases/$version/openttd-$version-macosx-universal.zip
   cd ..
 fi
 
-for arch in amd64 i686; do
-  dir=openttd-$version-linux-$arch
+for arch in linux-generic-amd64 linux-generic-i686 macosx-universal; do
+  dir=openttd-$version-$arch
   rm -rf $dir
   mkdir $dir && cd $dir
 
-  tar xf ../source/openttd-$version-linux-generic-$arch.tar.bz2 --strip-components=1
-  unzip -d data/ ../source/opengfx-0.2.4-all.zip
+  archive=../source/openttd-$version-$arch.tar.xz
+  if [ -f "$archive" ]; then
+    tar xf $archive --strip-components=1
+  else
+    archive=../source/openttd-$version-$arch.zip
+    unzip $archive
+  fi
+  unzip -d data/ ../source/opengfx-0.4.4-all.zip
   unzip -d data/ ../source/opensfx-0.2.3-all.zip
-  unzip -d data/ ../source/openmsx-0.2.1-all.zip
+  unzip -d data/ ../source/openmsx-0.3.1-all.zip
 
   cd ..
 
