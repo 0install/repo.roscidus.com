@@ -10,6 +10,7 @@ libstdc++-v3 is a complete rewrite from the previous libstdc++-v2, which
 was included up to g++-2.95. The first version of libstdc++-v3 appeared
 in g++-3.0.</description>
   <package-implementation package="libstdc++6"/>
+  <package-implementation distributions="Arch" package="gcc-libs"/>
   <group arch="Linux-i386">
     <requires interface="http://repo.roscidus.com/lib/gcc1">
       <environment insert="lib" mode="prepend" name="LD_LIBRARY_PATH"/>
@@ -25,11 +26,11 @@ in g++-3.0.</description>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJOmq/zAAoJEAcTP5bKdNi6HjkH/1z+CnzjkjKCg1fHIhJq2geQBznF7+CDeB9n
-2JkRY24RDey0hwYLfvlf0PFMUfDQJv/4NyKE9DBUBkVFDHTo1bNCLTnaDRNbMfZevm8t1a8QJ7rX
-E4sSJvQHTOQzzUEzOZlxHBr2BCLuV67rOgl1nBe9zW+ly7Nku1+kTQNevl9ZGhudiMDKMU5YVZw3
-6B6ngDnqk/gyic2z0kuEn6y+HQIkGWfC0WCK88Y8sUMnQXYhvLLR5YK+UiF3cOIKPyb6zsMbq0FD
-VyzhVRg0l/5tcv56+tYZTN0CWYnis+mZdqOx/6z9GDocU5BXh2bcKw7HrNrkCjvDXoN34ZkT7jM4
-pog=
+iQEcBAABCAAGBQJRKKglAAoJEAcTP5bKdNi68AQH/30C5VmD8+pbKgp2I+IU7TCPovTM5CwaU/lG
+rllL34WLBt/aRENX9ch0vQM8RvsKGURH+8RenOxL/ll/3AC1TMQS0Y27noVck8HeAr7wy7AzhK2a
+KzcJnBVOJfvqm1HQsi+ZVlr/KdVMOOgLT8Kp4v9jn9vLRLgeWn+BFKTdmzkPa55okOZCpNq/LGaI
+IFKsJT3h/7At+UH+NzQ471XpluSeXG1e5Gf96O2a9Hl+qpeD1bxrq544FpZXl4kTWicyXgcv4yJY
+9IM6/cg0+d+Hc3zVFM+ImTl/wkeWx/QXZ6l9ztKp/RCbNp/vOgBqKo9ezYw1z71/FSVcaFFx4jV8
+heQ=
 
 -->

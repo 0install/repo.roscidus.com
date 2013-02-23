@@ -9,6 +9,7 @@ PNG (Portable Network Graphics) format files.
 This package contains the runtime library files needed to run software
 using libpng.</description>
   <package-implementation package="libpng12-0"/>
+  <package-implementation package="libpng12"/>
   <group arch="Linux-i386">
     <implementation id="sha1new=c33007f8f0185af570fe3c37f391b5832c8cb2de" released="2011-10-01" version="1.2.44-1">
       <archive href="http://repo.roscidus.com/lib/png12-0/libpng12-0-i386-1.2.44-1+squeeze1.tar.bz2" size="106531"/>
@@ -31,11 +32,11 @@ using libpng.</description>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJPcZPCAAoJEAcTP5bKdNi6DasH/17DIAFk75oMEKN7A/+GGiK8lS/7+mGBNFv4
-bKMAvNA0xpQzGPy0G8iUubZ0F6F5fa+N5AybTNMRx8sYzl0Ag9MAkiy5kWp5SRd/VjWA2/yH2l0a
-DC+LZJWdYwZ+qUved4oLgkMvlSPFp54Ve2hT/6kr8VrHy1KQa1hGl0c7itpfACKJFmoyESeP7J3R
-1mb+3RqHIDhFnVay8kUUqRXJs5F6t2qofIH3nPigT2nSZwImeyqUkYo0OOtFi6OeFiqjDO5KwxCi
-FtqUzHdePXktfK7aUD9lnc0w7947pqYc2MpRmgzFxYKvgDkx2CID4lu1xQ87riKfnjyOfsujHzQH
-mXo=
+iQEcBAABCAAGBQJRKKlKAAoJEAcTP5bKdNi6Jx0H/0oldA4Cufyxs9IWYAQ9W5nHL8y33PUq9IqA
+HxqVjHmyCEwewFIM3ldCLM0PTH/MHGUTyLvlA5zOisgSaPSETZX9p9oMXNs1ww/+4k4D6mWDFty8
+fdbZ8zo5aD3FsobArQ348Q5UptsAFoxFkl4kdlGxhYnBwEGZ7C0JXHhlgIu1CMDTUXbDuPIGm2ue
+390u3zqDqK7hEncnxszU80sls19WpCsiFs+eOnVPjEgJjScqenJ3AFAB1VFygidaaYsIRYwfcMiE
+6SPgxcf8n6GRYFzU6FCVEx2ZpFfCwtt0p8boRqrcRzT9NpRX/R8GFhq9O+649dwQhc/Vjj8rEebU
+0ek=
 
 -->

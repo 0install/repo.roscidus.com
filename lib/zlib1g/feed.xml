@@ -6,6 +6,7 @@
   <description>zlib is a library implementing the deflate compression method found
 in gzip and PKZIP. This package includes the shared library.</description>
   <package-implementation package="zlib1g"/>
+  <package-implementation package="zlib"/>
   <group arch="Linux-i386">
     <implementation id="sha1new=6a4df6afbe70ed62b3ba3cc813b20424e500af89" released="2011-10-16" version="1.2.3.4">
       <archive href="http://repo.roscidus.com/lib/zlib1g/zlib1g-i386-1_1.2.3.4.dfsg-3.tar.bz2" size="78330"/>
@@ -17,11 +18,11 @@ in gzip and PKZIP. This package includes the shared library.</description>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJOmq97AAoJEAcTP5bKdNi6HrsH/2vADAM97nW3Uf8CMVs+ViVUkxp5PQDvOj+y
-p1km0uC9s4hKsVI+lpg1+n9PJ8tnDeGViOIY+YUo7DxmyIy68bGQrRnbahgpBhg6zgUuM12nEYYU
-9iKdn53HLyse9Ibp1CUk2EroHo5tBaOP7/3EdwaM1ZHkAcJrIwqZc3M+psWei92s9LPBBe6zccte
-gbwBsj8WvQV3ngUS4t3DjCpdYJsU3z4wHllucFAGXUbuTF1XIjqXrKnaHiuMQRd8bK1Orxz7Po7L
-qap2tD0dwVxDv5u+7/5DUrFY4ywTegtbXUHfOf5UOmlFdkurIEWc6/VpCLj2Yu5M/GpCLS07Kweh
-HXI=
+iQEcBAABCAAGBQJRKKkOAAoJEAcTP5bKdNi6KZcIAI+I7XZSXMLDNndmBJ6+Ihn3RlRDW9fV0Ndv
+F4+o6HSBHW1P6GyaLTxT1whiXpYt9S9uxx1dHjVg5PBmCEY3mRIcbmAC4ORxzP+3rXnMC0k87crA
+oW+1XdFhA1+XvgP3AFbC3KqEp3VzzwaZnJeNKh+lYKqcM/DGPUGwyM1fpHf59AkXIERpWJ1LPj2g
+X9HkqUSHzmvX9bmiKaXr/kH6Rgpus36X28+EGpJ3qvreb0YjN+eb45NgZIduYgF62kIVCe0vhfJu
+RsEVw5zRg3fqQsDk6WMYNJFoYBvyW3iv4kGCnD/1bKFCzXjR8iycAhA6Xkj2Q4XRAhvIGqvwSOZl
+FjM=
 
 -->
