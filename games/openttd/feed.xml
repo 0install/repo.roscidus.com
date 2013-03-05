@@ -32,27 +32,27 @@ the original game as closely as possible while extending it with new features.</
 	<archive extract="openttd-1.0.1-linux-amd64" href="http://repo.roscidus.com/games/openttd/openttd-1.0.1-linux-amd64.tar.bz2" size="17443765" type="application/x-bzip-compressed-tar"/>
       </implementation>
 
-      <implementation arch="Linux-i686" id="sha1new=fc4f4ca517d9c743a9c48f103f9d9c3d0ae93479" released="2013-02-23" version="1.2.3">
+      <implementation arch="Linux-i686" id="sha1new=fc4f4ca517d9c743a9c48f103f9d9c3d0ae93479" released="2013-02-23" stability="stable" version="1.2.3">
 	<archive extract="openttd-1.2.3-linux-generic-i686" href="http://repo.roscidus.com/games/openttd/openttd-1.2.3-linux-generic-i686.tar.bz2" size="23705300" type="application/x-bzip-compressed-tar"/>
       </implementation>
-      <implementation arch="Linux-x86_64" id="sha1new=060e25f6b624ed6d6ec20288638d6e7489850f2a" released="2013-02-23" version="1.2.3">
+      <implementation arch="Linux-x86_64" id="sha1new=060e25f6b624ed6d6ec20288638d6e7489850f2a" released="2013-02-23" stability="stable" version="1.2.3">
 	<archive extract="openttd-1.2.3-linux-generic-amd64" href="http://repo.roscidus.com/games/openttd/openttd-1.2.3-linux-generic-amd64.tar.bz2" size="23946059" type="application/x-bzip-compressed-tar"/>
       </implementation>
     </group>
 
     <group arch="MacOSX-*" main="OpenTTD.app/Contents/MacOS/openttd">
-      <implementation id="sha1new=3feff4b90b3ad5eac399937625bed34a83677f58" released="2013-02-23" version="1.2.3">
+      <implementation id="sha1new=3feff4b90b3ad5eac399937625bed34a83677f58" released="2013-02-23" stability="stable" version="1.2.3">
 	<archive extract="openttd-1.2.3-macosx-universal" href="http://repo.roscidus.com/games/openttd/openttd-1.2.3-macosx-universal.tar.bz2" size="23014669" type="application/x-bzip-compressed-tar"/>
       </implementation>
     </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJRKKopAAoJEAcTP5bKdNi6z1QIAIUDTFBWgN3zpA0G1hRS8jUoDs5EgjmbVtbE
-t1FsVJZ0YGqz61m+IPbJUOLzgqv8eZ5HssDLdtuEI3c/NE2sM9gRo2OUzOKhCAPl/Il9n0I58BEv
-hYjCMQD8OWQtAzi4hzer2iywXAkK5Ynu+UCZLVqtpZrsUZgo+MXHdD+uIrAExDag9s5BvVy0mroE
-NYmuyKROZ5bEpGU3L1apFKirS5/ZlLcArbwT8VnJOoTmOIb+wImI6lw5o7hhN8QPBdgqBBNDfm2R
-0SZ7C09Sb07Sh/o1zWB3PkL8QUZGCPFAkhprt9n1jSYBbZV8Gds0q1xEX70XptbxgBko8hMJ/n+F
-CFY=
+iQEcBAABCAAGBQJRNjIRAAoJEAcTP5bKdNi6QUEIAJiJkAeu6iflBOk31075tDq/2tcvidzC54kz
+u4xiajTcHm+QVkSJnAfhKAEn2kIydxwTHhtwa6EYF2LUNeQgLQucC6kgnur4WsTPZ3pfUAh3lHQn
+3k2n8FexwJnb+d+onNqQd8wiSpzaMTHIjpiMBpYAsIShIbk5A3iIcQAN0eT8okWPKlzhau3f4osp
+BvrJwtezvrGBgapPrsm//kl2kK1ONbEB/1BAU1vdqgmRBWttY4N7K17P1U2RqkV281eNJhDHpjCU
+RaUwj/yVIG7jNfynghNgVaE9Gka0nveJDF0aalhxi7ddIO+K8O8mS24Ask3akVtlZoVVBqBIIEDJ
+B1M=
 
 -->
