@@ -12,8 +12,7 @@ and linker flags needed to use them through the pkg-config(1) program.</descript
   <category>Development</category>
 
   <package-implementation distributions="RPM" main="/usr/bin/pkg-config" package="pkgconfig"/>
-  <package-implementation distributions="RPM" main="/usr/bin/pkg-config" package="pkg-config"/>
-  <package-implementation distributions="Debian" main="/usr/bin/pkg-config" package="pkg-config"/>
+  <package-implementation distributions="Debian RPM" main="/usr/bin/pkg-config" package="pkg-config"/>
   <package-implementation distributions="Gentoo" main="/usr/bin/pkg-config" package="dev-util/pkgconfig"/>
   <homepage>http://pkg-config.freedesktop.org/</homepage>
 
@@ -40,11 +39,11 @@ and linker flags needed to use them through the pkg-config(1) program.</descript
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJPwOz8AAoJEAcTP5bKdNi6dsIH/AsgviQYlz6UhSsKUpkbQ0zgSeAm7YMS6djH
-zZI5UsTVoTG10QhO9HL2lbdfyxF3Eu7afrwH88sSNoRNqlDTPb3lYiIusqBRoNzs6z818mMpgNII
-tM4DdrCNcWk+Vt+71lDq+n0CfFXCgrBNB+Vtt/ptfFsYKIuVup7tGD/Yi9c6ZkMVgc/ja4/GOvGn
-mdbJvgpgVA/TblbcSvnalNtnJw5KFqx8iPMJl93xQDi4Y6YbXG5sDAeGJ7Cx/mM/Ir/EtlWpJ+Rd
-YOETA9qnZe8bjjMa1YsRrJkk7QmkReRjM0i4XlJ6zy4spgopspVZl/bZfwZnZQ1H+cSf3O8OL9uZ
-nuA=
+iQEcBAABCAAGBQJROG2RAAoJEAcTP5bKdNi60jwH/2GxpZPRgiZko5OKAMiUnThSs84Cf1YZ8Nnu
+JVgyH/av/xXpSLxwaJoBEmCb4wbJmXzj+zkKKA1+PfVBQsL8l8n4WXIV4+EL2GmiPt92oCcjtlcl
+v1fonoP23nnVXkSYq2uDafGYV5Jy3/cVF4wqtj2CJC9/0Q2KxyNbLdC88NISJel1fbOTU5Gx8Q0r
+fM0pu5aavBD6opimntS5BjFVHTmqKOWwyhoJOFTCOvB9CU9BfBI+24ut1fjV+VFbdrRUuPMwVOlQ
+n1spO9XQFwSXEblrbhyutcfbUJNcsbwoBPmAKcOwJLd0VVrk6rBc+9Ssc0ySxdPlfdSCoBspljei
+dsQ=
 
 -->
