@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/ocaml/ocaml-runtime" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>OCaml runtime</name>
+  <summary>ML language implementation with a class-based object system</summary>
+  <description>OCaml is a general purpose industrial-strength programming language with an emphasis on expressiveness and safety. Developed for more than 20 years at Inria it benefits from one of the most advanced type systems and supports functional, imperative and object-oriented styles of programming.
+
+    This is the runtime package. It contains the bytecode interpreter (ocamlrun) and the toplevel (ocaml), which allows dynamic linking. It also includes the standard library, plus the Dynlink, Bigarray, Str and Unix extra libraries. Note: only changes to the last version component are binary compatible (e.g. 4.00.1 and 4.00.2 are compatible with each other, but not with 4.01.0).</description>
+  <group arch="Windows-i386">
+    <implementation id="sha1new=a99d962a1749d75c59b9cd92edc7de43337d34ec" released="2013-07-13" version="4.0.1">
+      <environment insert="" mode="replace" name="OCAML_HOME"/>
+      <environment insert="lib" mode="replace" name="OCAMLLIB"/>
+      <environment insert="lib/stublibs" name="CAML_LD_LIBRARY_PATH"/>
+
+      <command name="run" path="bin/ocamlrun">
+        <arg>${OCAML_HOME}/bin/ocaml</arg>
+      </command>
+
+      <manifest-digest sha256new="2M3IRTVAOS4XQTLTJJRWYDNDKEWAQFPBDR35KWKMUIR7ZQ2YNSOQ"/>
+      <archive extract="ocaml-runtime-windows-i386-4.0.1" href="http://repo.roscidus.com/archives/OCaml-runtime/ocaml-runtime-windows-i386-4.0.1.tar.bz2" size="4207899"/>
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQEcBAABCAAGBQJR4UdlAAoJECLqERp+QkKkRFMH/Ah6iPYY2Ij5KWVrn1wJOzI9Qr9acL03l/kk
+3ZDN/ZyxGjxKKdM+9rg7vyS1NxgsCMO2JtxeRbTz+2Pe5gnpieY2xHRilIKuX0ywA0cacde3cW1g
+XX+TTiuUZ65dA/BsiHGC3KnbozeuBKWlohmKfoVH8ra9DgS2ipr6d7J0fatK3gMyOZ9gn32z7cjx
+62yW/6z2ZQwDscPMM9+VnK95W6ZIrAuZ85G1DG2EkK0dDzCDt343laJygMa3l4/eWqQ3th/e95EU
+hKATIedqCivwI5qRy25hAWu8OtrRtj/iM7XzXc0hDsBb+kN/zYVlRyJRRALGN5PeujMD3ooGF3/I
+qhg=
+
+-->
