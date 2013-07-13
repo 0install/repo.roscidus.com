@@ -6,18 +6,23 @@
   <description>OCaml is a general purpose industrial-strength programming language with an emphasis on expressiveness and safety. Developed for more than 20 years at Inria it benefits from one of the most advanced type systems and supports functional, imperative and object-oriented styles of programming.
 
     This is the runtime package. It contains the bytecode interpreter (ocamlrun) and the toplevel (ocaml), which allows dynamic linking. It also includes the standard library, plus the Dynlink, Bigarray, Str and Unix extra libraries. Note: only changes to the last version component are binary compatible (e.g. 4.00.1 and 4.00.2 are compatible with each other, but not with 4.01.0).</description>
-  <group arch="Windows-i386">
-    <implementation id="sha1new=a99d962a1749d75c59b9cd92edc7de43337d34ec" released="2013-07-13" version="4.0.1">
-      <environment insert="" mode="replace" name="OCAML_HOME"/>
-      <environment insert="lib" mode="replace" name="OCAMLLIB"/>
-      <environment insert="lib/stublibs" name="CAML_LD_LIBRARY_PATH"/>
+  <group>
+    <environment insert="" mode="replace" name="OCAML_HOME"/>
+    <environment insert="lib" mode="replace" name="OCAMLLIB"/>
+    <environment insert="lib/stublibs" name="CAML_LD_LIBRARY_PATH"/>
 
-      <command name="run" path="bin/ocamlrun">
-        <arg>${OCAML_HOME}/bin/ocaml</arg>
-      </command>
+    <command name="run" path="bin/ocamlrun">
+      <arg>${OCAML_HOME}/bin/ocaml</arg>
+    </command>
 
+    <implementation arch="Windows-i386" id="sha1new=a99d962a1749d75c59b9cd92edc7de43337d34ec" released="2013-07-13" version="4.0.1">
       <manifest-digest sha256new="2M3IRTVAOS4XQTLTJJRWYDNDKEWAQFPBDR35KWKMUIR7ZQ2YNSOQ"/>
       <archive extract="ocaml-runtime-windows-i386-4.0.1" href="http://repo.roscidus.com/archives/OCaml-runtime/ocaml-runtime-windows-i386-4.0.1.tar.bz2" size="4207899"/>
+    </implementation>
+
+    <implementation arch="Linux-i486" id="sha1new=12905f3f5e3f8878e262c771c16267636f43c625" released="2013-07-13" version="4.0.1">
+      <manifest-digest sha256new="GUYTA2LOHVQEMF5B3MLLA6BFWM4ZIPLNVUWHDE6CSPTIV5P677GA"/>
+      <archive extract="ocaml-runtime-linux-i486-4.0.1" href="http://repo.roscidus.com/archives/OCaml-runtime/ocaml-runtime-linux-i486-4.0.1.tar.bz2" size="2170892"/>
     </implementation>
   </group>
 
@@ -27,12 +32,12 @@
     </requires>
     <command name="compile" shell-command="&quot;$SRCDIR/zi_build.sh&quot;">
       <compile:implementation>
-	<environment insert="" mode="replace" name="OCAML_HOME"/>
-	<environment insert="lib" mode="replace" name="OCAMLLIB"/>
-	<environment insert="lib/stublibs" name="CAML_LD_LIBRARY_PATH"/>
-	<command name="run" path="bin/ocamlrun">
-	  <arg>${OCAML_HOME}/bin/ocaml</arg>
-	</command>
+        <environment insert="" mode="replace" name="OCAML_HOME"/>
+        <environment insert="lib" mode="replace" name="OCAMLLIB"/>
+        <environment insert="lib/stublibs" name="CAML_LD_LIBRARY_PATH"/>
+        <command name="run" path="bin/ocamlrun">
+          <arg>${OCAML_HOME}/bin/ocaml</arg>
+        </command>
       </compile:implementation>
     </command>
     <implementation compile:dup-src="true" id="sha1new=b32d1b07744b831446a761bc3519c5eec01c6357" released="2013-07-13" version="4.0.1">
@@ -42,11 +47,11 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJR4VNBAAoJECLqERp+QkKk9DIH/11eBlDvYv6co+UdB3M5ZN9oYQMHuS61u2Lw
-nhNLFmWG6MN6S8SE55ZCf48GCekOI20JfGsfboqGblbm8j/gRWJeKoww/0UA6vbxttCMJz5+A1Io
-sRShf4Py9Z3qPIKLY0yyR/JxvIMrhiHq5642Y/F9pWBt4AXwQJm8q0QjBDMkKsLaZrKsAsMJKu7m
-7Dr1zyDdbhW1YdaCewDrMp4PrEu6qMAXOyLMmUn18Jk2s8XM83J+IL4JSBqXO73Gk/gIpdYTqlT5
-7qiXvylSrdzkyW8DeWnAbaRxOlEQwzKXoJJyoYlffQvzVzvMvVGof5JoN4O4hXlVnwK8KvlefR7S
-2AA=
+iQEcBAABCAAGBQJR4VqQAAoJECLqERp+QkKkt+kH/RJ0FCFNaVWFKFkRDZiF87VBdgBfODlgaiAE
+0wcwPIT99rW31q3P086EmMmFQd2eMQeQdg+X5HuEwR+8ocOu+D5U5Hd3a0k1M36/KMfJEwlE/vmm
+PWtPTGsJdrfplAw/gyZ4Sgn1MkZxfU6QZTkv9JHuoFuwWZ5vaxob7pQHbRKS//HoBqeQ59RP4jSy
+wVpUQ35S+1TeyPDISpGAlL8eLCKQcPw4T9rEXjEifaxgi9VLm79/6h1xyXqQWlQmCtOcEzOT9b0P
+E0z7FUd7sxiZdqSQjms5AzB447QkrU5IRcMTGYWXYWHxGXflTrB0dGVi0CSL9WFlIUlXPLnQX303
+Nmc=
 
 -->
