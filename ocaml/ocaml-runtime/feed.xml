@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
-<interface uri="http://repo.roscidus.com/ocaml/ocaml-runtime" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+<interface uri="http://repo.roscidus.com/ocaml/ocaml-runtime" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
   <name>OCaml runtime</name>
   <summary>ML language implementation with a class-based object system</summary>
   <description>OCaml is a general purpose industrial-strength programming language with an emphasis on expressiveness and safety. Developed for more than 20 years at Inria it benefits from one of the most advanced type systems and supports functional, imperative and object-oriented styles of programming.
@@ -20,13 +20,33 @@
       <archive extract="ocaml-runtime-windows-i386-4.0.1" href="http://repo.roscidus.com/archives/OCaml-runtime/ocaml-runtime-windows-i386-4.0.1.tar.bz2" size="4207899"/>
     </implementation>
   </group>
+
+  <group arch="*-src">
+    <requires interface="http://repo.roscidus.com/devel/make" os="POSIX">
+      <executable-in-path name="make"/>
+    </requires>
+    <command name="compile" shell-command="&quot;$SRCDIR/zi_build.sh&quot;">
+      <compile:implementation>
+	<environment insert="" mode="replace" name="OCAML_HOME"/>
+	<environment insert="lib" mode="replace" name="OCAMLLIB"/>
+	<environment insert="lib/stublibs" name="CAML_LD_LIBRARY_PATH"/>
+	<command name="run" path="bin/ocamlrun">
+	  <arg>${OCAML_HOME}/bin/ocaml</arg>
+	</command>
+      </compile:implementation>
+    </command>
+    <implementation compile:dup-src="true" id="sha1new=b32d1b07744b831446a761bc3519c5eec01c6357" released="2013-07-13" version="4.0.1">
+      <manifest-digest sha256new="ZFC5XK2XODZWGVSZHNOMK7D6LHCBPFFCKRYPHQLPELMZBSWTJGKA"/>
+      <archive extract="ocaml-runtime-4.0.1" href="http://repo.roscidus.com/archives/OCaml-runtime/ocaml-runtime-4.0.1.tar.bz2" size="2749775"/>
+    </implementation>
+  </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJR4UdlAAoJECLqERp+QkKkRFMH/Ah6iPYY2Ij5KWVrn1wJOzI9Qr9acL03l/kk
-3ZDN/ZyxGjxKKdM+9rg7vyS1NxgsCMO2JtxeRbTz+2Pe5gnpieY2xHRilIKuX0ywA0cacde3cW1g
-XX+TTiuUZ65dA/BsiHGC3KnbozeuBKWlohmKfoVH8ra9DgS2ipr6d7J0fatK3gMyOZ9gn32z7cjx
-62yW/6z2ZQwDscPMM9+VnK95W6ZIrAuZ85G1DG2EkK0dDzCDt343laJygMa3l4/eWqQ3th/e95EU
-hKATIedqCivwI5qRy25hAWu8OtrRtj/iM7XzXc0hDsBb+kN/zYVlRyJRRALGN5PeujMD3ooGF3/I
-qhg=
+iQEcBAABCAAGBQJR4VNBAAoJECLqERp+QkKk9DIH/11eBlDvYv6co+UdB3M5ZN9oYQMHuS61u2Lw
+nhNLFmWG6MN6S8SE55ZCf48GCekOI20JfGsfboqGblbm8j/gRWJeKoww/0UA6vbxttCMJz5+A1Io
+sRShf4Py9Z3qPIKLY0yyR/JxvIMrhiHq5642Y/F9pWBt4AXwQJm8q0QjBDMkKsLaZrKsAsMJKu7m
+7Dr1zyDdbhW1YdaCewDrMp4PrEu6qMAXOyLMmUn18Jk2s8XM83J+IL4JSBqXO73Gk/gIpdYTqlT5
+7qiXvylSrdzkyW8DeWnAbaRxOlEQwzKXoJJyoYlffQvzVzvMvVGof5JoN4O4hXlVnwK8KvlefR7S
+2AA=
 
 -->
