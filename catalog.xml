@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='resources/catalog.xsl'?>
+<c:catalog xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:c="http://0install.de/schema/injector/catalog"><interface uri="http://repo.roscidus.com/python/python/upstream.xml"><name>Python</name><summary>The Python Programming Language</summary><description>
+Python is a programming language that lets you work more quickly and integrate
+your systems more effectively. You can learn to use Python and see almost
+immediate gains in productivity and lower maintenance costs.</description><homepage>http://www.python.org/</homepage><category>Development</category></interface><interface uri="http://repo.roscidus.com/python/sphinx"><name>python-sphinx</name><summary>tool for producing documentation for Python projects</summary><description>
+Sphinx is a tool that makes it easy to create intelligent and beautiful
+documentation. It was originally created for the new Python documentation, and
+it has excellent facilities for the documentation of Python projects, but C/C++
+is already supported as well, and it is planned to add special support for other
+languages as well.</description></interface><interface uri="http://repo.roscidus.com/python/whoosh"><name>python-whoosh</name><summary>fast, pure-Python full text indexing, search, and spell checking library</summary><homepage>http://bitbucket.org/mchaput/whoosh</homepage><description>
+    Whoosh is a fast, featureful full-text indexing and searching library
+    implemented in pure Python. Programmers can use it to easily add search
+    functionality to their applications and websites. Every part of how Whoosh
+    works can be extended or replaced to meet your needs exactly.
+
+    Some of Whoosh's features include:
+
+    * Pythonic API.
+    * Pure-Python. No compilation or binary packages needed, no mysterious crashes.
+    * Fielded indexing and search.
+    * Fast indexing and retrieval -- faster than any other pure-Python, scoring,
+    full-text search solution I know of.
+    * Pluggable scoring algorithm (including BM25F), text analysis, storage,
+    posting format, etc.
+    * Powerful query language.
+    * Pure Python spell-checker (as far as I know, the only one). 
+
+    Whoosh might be useful in the following circumstances:
+
+    * Anywhere a pure-Python solution is desirable to avoid having to build/compile
+    native libraries (or force users to build/compile them).
+    * As a research platform (at least for programmers that find Python easier to
+    read and work with than Java ;)
+    * When an easy-to-use Pythonic interface is more important to you than raw
+    speed. 
+
+    Whoosh was created and is maintained by Matt Chaput. It was originally created
+    for use in the online help system of Side Effects Software's 3D animation
+    software Houdini. Side Effects Software Inc. graciously agreed to open-source
+    the code.
+
+    This software is licensed under the terms of the simplified BSD (A.K.A. &quot;two
+    clause&quot; or &quot;FreeBSD&quot;) license. See LICENSE.txt for information.
+  </description></interface><interface uri="http://repo.roscidus.com/python/python-gobject"><name>python-gobject</name><summary>Python bindings for the GObject library</summary><description>
+GObject is an abstraction layer that allows programming with an object
+paradigm that is compatible with many languages. It is a part of Glib,
+the core library used to build GTK+ and GNOME.
+  </description></interface><interface uri="http://repo.roscidus.com/python/docutils"><name>python-docutils</name><summary>processes plaintext into HTML, XML, LaTeX, etc</summary><description>
+Docutils is an open-source text processing system for processing plaintext
+documentation into useful formats, such as HTML, LaTeX, man-pages, open-document
+or XML. It includes reStructuredText, the easy to read, easy to use, what-you-
+see-is-what-you-get plaintext markup language.</description></interface><interface uri="http://repo.roscidus.com/python/python"><name>python</name><summary>interactive high-level object-oriented language</summary><description>
+Python is an interpreted, interactive, object-oriented programming language. It
+combines remarkable power with very clear syntax, and isn't difficult to learn.
+It has modules, classes, exceptions, very high level data types, and dynamic
+typing. There are interfaces to many system calls and libraries, as well as to
+various windowing systems (Tk, Mac, MFC, GTK+, Qt, wxWindows). New built-in
+modules are easily written in C or C++. Python is also usable as an extension
+language for applications that need a programmable interface.</description></interface><interface uri="http://repo.roscidus.com/drupal/core"><name>Drupal</name><summary>content management platform</summary><description>
+Drupal is an open source content management platform powering millions of
+websites and applications. It’s built, used, and supported by an active and
+diverse community of people around the world.</description><homepage>http://drupal.org</homepage><category>Network</category></interface><interface uri="http://repo.roscidus.com/drupal/smtp"><name>Drupal-SMTP</name><summary>SMTP Authentication Support</summary><description>
+This module allows Drupal to bypass the PHP mail() function and send email
+directly to an SMTP server. The module supports SMTP authentication and can even
+connect to servers using SSL if supported by PHP.</description><homepage>http://drupal.org/project/smtp</homepage><category>Network</category></interface><interface uri="http://repo.roscidus.com/java/sablecc"><name>SableCC</name><summary>Java parser generator</summary><description>
+SableCC is a parser generator which generates fully featured object-oriented
+frameworks for building compilers, interpreters and other text parsers. In
+particular, generated frameworks include intuitive strictly-typed abstract
+syntax trees and tree walkers. SableCC also keeps a clean separation between
+machine-generated code and user-written code which leads to a shorter
+development cycle.</description><homepage>http://sablecc.org/</homepage><category>Development</category></interface><interface uri="http://repo.roscidus.com/java/openjdk-jdk"><name>openjdk-jdk</name><summary>OpenJDK Development Kit (JDK)</summary><description>
+OpenJDK is a development environment for building applications, applets, and
+components using the Java programming language.
+
+The packages are built using the IcedTea build support and patches from the
+IcedTea project.</description><category>Development</category></interface><interface uri="http://repo.roscidus.com/java/iris"><name>IRIS Reasoner</name><summary>an extensible reasoning engine for expressive rule-based languages</summary><description>
+IRIS is an open-source Datalog reasoner that can evaluate safe or unsafe datalog
+extended with function symbols, XML schema data types, built-in predicates and
+(locally) stratified or well-founded negation as failure.</description><homepage>http://www.iris-reasoner.org/</homepage></interface><interface uri="http://repo.roscidus.com/java/openjdk-jre"><name>openjdk-jre</name><summary>OpenJDK Java runtime</summary><description>
+    The package was built by the Debian project using the IcedTea build support and
+    patches from the IcedTea project and then repackaged for Zero Install.</description></interface><interface uri="http://repo.roscidus.com/java/openjdk-6-jre"><name>openjdk-6-jre</name><summary>OpenJDK Java runtime</summary><description>
+    The package was built by the Debian project using the IcedTea build support and
+    patches from the IcedTea project and then repackaged for Zero Install.</description></interface><interface uri="http://repo.roscidus.com/java/swt"><name>swt</name><summary>the Standard Widget Toolkit</summary><description>
+SWT is an open source widget toolkit for Java designed to provide efficient,
+portable access to the user-interface facilities of the operating systems on
+which it is implemented.
+
+On OS X, an extra argument needs to be passed to Java. To support OS X, please use:
+
+&lt;runner interface=&quot;http://repo.roscidus.com/java/openjdk-jre&quot;&gt;
+  &lt;for-each item-from=&quot;ZEROINSTALL_EXTRA_JAVA_OPTIONS&quot; separator=&quot; &quot;&gt;
+    &lt;arg&gt;${item}&lt;/arg&gt;
+  &lt;/for-each&gt;
+&lt;/runner&gt;
+</description><homepage>http://www.eclipse.org/swt/</homepage><category>Development</category></interface><interface uri="http://repo.roscidus.com/java/hsqldb"><name>HyperSQL</name><summary>100% Java Database </summary><description>
+HSQLDB (HyperSQL DataBase) is an SQL relational database engine written in Java.
+It has a JDBC driver and supports nearly full ANSI-92 SQL (BNF tree format) plus
+many SQL:2008 enhancements. It offers a small, fast database engine which offers
+in-memory and disk-based tables and supports embedded and server modes.
+Additionally, it includes tools such as a command line SQL tool and GUI query
+tools.</description><homepage>http://hsqldb.org/</homepage></interface><interface uri="http://repo.roscidus.com/java/openjdk-6-jdk"><name>openjdk-6-jdk</name><summary>OpenJDK Development Kit (JDK)</summary><description>
+OpenJDK is a development environment for building applications, applets, and
+components using the Java programming language.
+
+The packages are built using the IcedTea build support and patches from the
+IcedTea project.</description><category>Development</category></interface><interface uri="http://repo.roscidus.com/utils/bash"><name>bash</name><summary>the GNU Bourne Again shell</summary><description>
+Bash is the shell, or command language interpreter, for the GNU operating
+system. The name is an acronym for the ‘Bourne-Again SHell’, a pun on
+Stephen Bourne, the author of the direct ancestor of the current Unix shell sh,
+which appeared in the Seventh Edition Bell Labs Research version of Unix.
+
+Bash is largely compatible with sh and incorporates useful features from the
+Korn shell ksh and the C shell csh. It is intended to be a conformant
+implementation of the IEEE POSIX Shell and Tools portion of the IEEE POSIX
+specification (IEEE Standard 1003.1). It offers functional improvements over sh
+for both interactive and programming use.
+
+Since bash is included on most Unix systems, this feed is mainly useful for
+Windows systems, where it provides a binary of win-bash (http://win-
+bash.sourceforge.net/).</description><homepage>http://www.gnu.org/software/bash/</homepage><category>Utility</category></interface><interface uri="http://repo.roscidus.com/utils/graphviz"><name>graphviz</name><summary>Open Source Graph Visualization Software</summary><description>
+Open Source Graph Visualization Software</description><homepage>http://www.graphviz.org/</homepage></interface><interface uri="http://repo.roscidus.com/games/openttd"><name>OpenTTD</name><summary>Open Source clone of Transport Tycoon Deluxe</summary><description>
+OpenTTD is an open source clone of the Microprose game &quot;Transport Tycoon
+Deluxe&quot;, a popular game originally written by Chris Sawyer. It attempts to mimic
+the original game as closely as possible while extending it with new features.</description><homepage>http://www.openttd.org</homepage><category>Game</category><icon href="http://0install.net/feed_icons/openttd.png" type="image/png"/></interface><interface uri="http://repo.roscidus.com/security/gnupg"><name>gnupg</name><summary>GNU privacy guard - a free PGP replacement</summary><description>
+GnuPG is GNU's tool for secure communication and data storage. It can be used to
+encrypt data and to create digital signatures. It includes an advanced key
+management facility and is compliant with the proposed OpenPGP Internet standard
+as described in RFC2440.
+
+GnuPG does not use any patented algorithms so it cannot be compatible with PGP2
+because it uses IDEA (which is patented worldwide).</description></interface><interface uri="http://repo.roscidus.com/lib/x-sm-dev"><name>libsm-dev</name><summary>X11 Session Management library (development headers)</summary><description>
+This package provides the main interface to the X11 Session Management library,
+which allows for applications to both manage sessions, and make use of session
+managers to save and restore their state for later use.
+
+This package contains the development headers for the library found in libsm6.
+Non-developers likely have little use for this package.
+
+More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
+&lt;URL:http://xorg.freedesktop.org&gt;
+&lt;URL:http://lists.freedesktop.org/mailman/listinfo/xorg&gt;
+
+This module can be found at git://anongit.freedesktop.org/git/xorg/lib/libSM</description></interface><interface uri="http://repo.roscidus.com/lib/glade2"><name>libglade2</name><summary>library to load .glade files at runtime</summary><description>This library allows to load externally stored user interfaces into
+programs. This allows alteration of the interface without recompilation
+of the program.
+
+The interfaces can also be edited with GLADE.</description></interface><interface uri="http://repo.roscidus.com/lib/x-ice-dev"><name>libice-dev</name><summary>X11 Inter-Client Exchange library (development headers)</summary><description>
+This package provides the main interface to the X11 Inter-Client Exchange
+library, which allows for communication of data between X clients.
+
+This package contains the development headers for the library found in libice6.
+Non-developers likely have little use for this package.
+
+More information about X.Org can be found at: &lt;URL:http://xorg.freedesktop.org&gt;
+&lt;URL:http://lists.freedesktop.org/mailman/listinfo/xorg&gt;</description></interface><interface uri="http://repo.roscidus.com/lib/expat1"><name>libexpat1</name><summary>XML parsing C library - runtime library</summary><description>
+This package contains the runtime, shared library of expat, the C library for
+parsing XML.</description></interface><interface uri="http://repo.roscidus.com/lib/mpfr1ldbl"><name>libmpfr1ldbl</name><summary>multiple precision floating-point computation</summary><description>
+MPFR provides a library for multiple-precision floating-point computation with
+correct rounding. The computation is both efficient and has a well-defined
+semantics. It copies the good ideas from the ANSI/IEEE-754 standard for double-
+precision floating-point arithmetic (53-bit mantissa).</description><homepage>http://www.mpfr.org/</homepage></interface><interface uri="http://repo.roscidus.com/lib/gmp3c2"><name>libgmp3c2</name><summary>multiprecision arithmetic library</summary><description>
+GNU MP is a programmer's library for arbitrary precision arithmetic (ie, a
+bignum package). It can operate on signed integer, rational, and floating point
+numeric types.
+
+It has a rich set of functions, and the functions have a regular interface.</description><homepage>http://gmplib.org/</homepage></interface><interface uri="http://repo.roscidus.com/lib/stdc++6"><name>libstdc++6</name><summary>The GNU Standard C++ Library v3</summary><description>This package contains an additional runtime library for C++ programs
+built with the GNU compiler.
+
+libstdc++-v3 is a complete rewrite from the previous libstdc++-v2, which
+was included up to g++-2.95. The first version of libstdc++-v3 appeared
+in g++-3.0.</description></interface><interface uri="http://repo.roscidus.com/lib/x11proto-core-dev"><name>x11proto-core-dev</name><summary>X11 core wire protocol and auxiliary headers</summary><description>
+This package provides development headers describing the wire protocol for the
+core X11 protocol, and also provides a number of utility headers, used to
+abstract OS-specific functions.
+
+This package deprecates 'x-dev', a package from the monolithic builds of XFree86
+and X.Org.
+
+More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
+&lt;URL:http://xorg.freedesktop.org&gt;
+&lt;URL:http://lists.freedesktop.org/mailman/listinfo/xorg&gt;
+
+This package is built from the X.org xproto proto module.</description></interface><interface uri="http://repo.roscidus.com/lib/gtkmm"><name>libgtkmm</name><summary>C++ wrappers for GTK+ (shared libraries)</summary><description>Gtkmm is a C++ interface for the popular GUI library GTK+.
+Gtkmm provides a convenient interface for C++ programmers to create
+graphical user interfaces with GTK+'s flexible OO framework. Highlights
+include type safe callbacks, widgets extensible using inheritance and
+over 180 classes that can be freely combined to quickly create complex
+user interfaces.
+
+This package contains shared libraries.</description></interface><interface uri="http://repo.roscidus.com/lib/tasn1-3"><name>libtasn1-3</name><summary>Manage ASN.1 structures (runtime)</summary><description>Manage ASN1 (Abstract Syntax Notation One) structures.
+The main features of this library are:
+  * on-line ASN1 structure management that doesn't require any C code
+    file generation.
+  * off-line ASN1 structure management with C code file generation
+    containing an array.
+  * DER (Distinguish Encoding Rules) encoding
+  * no limits for INTEGER and ENUMERATED values
+
+This package contains runtime libraries.</description></interface><interface uri="http://repo.roscidus.com/lib/curl3-gnutls"><name>curl3-gnutls</name><summary>Multi-protocol file transfer library (GnuTLS)</summary><description>libcurl is designed to be a solid, usable, reliable and portable
+multi-protocol file transfer library.
+
+SSL support is provided by GnuTLS.
+
+This is the shared version of libcurl.</description></interface><interface uri="http://repo.roscidus.com/lib/zlib1g"><name>zlib1g</name><summary>compression library - runtime</summary><description>zlib is a library implementing the deflate compression method found
+in gzip and PKZIP. This package includes the shared library.</description></interface><interface uri="http://repo.roscidus.com/lib/cairo-dev"><name>libcairo2-dev</name><summary>Development files for the Cairo 2D graphics library</summary><description>Cairo is a multi-platform library providing anti-aliased
+vector-based rendering for multiple target backends.
+
+This package contains the development libraries, header files needed by
+programs that want to compile with Cairo.</description></interface><interface uri="http://repo.roscidus.com/lib/ldap-2.4-2"><name>libldap-2.4-2</name><summary>OpenLDAP libraries</summary><description>These are the run-time libraries for the OpenLDAP (Lightweight Directory
+Access Protocol) servers and clients.</description></interface><interface uri="http://repo.roscidus.com/lib/gc"><name>libgc1c2</name><summary>conservative garbage collector for C and C++</summary><description>Boehm's GC is a garbage collecting storage allocator that is
+intended to be used as a plug-in replacement for C's malloc.</description></interface><interface uri="http://repo.roscidus.com/lib/xml2"><name>libxml2</name><summary>GNOME XML library</summary><description>XML is a metalanguage to let you design your own markup language.
+A regular markup language defines a way to describe information in
+a certain class of documents (eg HTML). XML lets you define your
+own customized markup languages for many classes of document. It
+can do this because it's written in SGML, the international standard
+metalanguage for markup languages.
+
+This package provides a library providing an extensive API to handle
+such XML data files.</description></interface><interface uri="http://repo.roscidus.com/lib/gnutls26"><name>libgnutls26</name><summary>the GNU TLS library - runtime library</summary><description>gnutls is a portable library which implements the Transport Layer
+Security (TLS) 1.0 and Secure Sockets Layer (SSL) 3.0 protocols.
+
+Currently gnutls implements:
+ - the TLS 1.0 and SSL 3.0 protocols, without any US-export
+   controlled algorithms
+ - X509 Public Key Infrastructure (with several limitations).
+ - SRP for TLS authentication.
+ - TLS Extension mechanism
+
+This package contains the runtime libraries.</description></interface><interface uri="http://repo.roscidus.com/lib/gcc1"><name>libgcc1</name><summary>GCC support library</summary><description>Shared version of the support library, a library of internal subroutines
+that GCC uses to overcome shortcomings of particular machines, or
+special needs for some languages.</description></interface><interface uri="http://repo.roscidus.com/lib/readline6"><name>libreadline6</name><summary>GNU readline and history libraries, run-time libraries</summary><description>The GNU readline library aids in the consistency of user interface
+across discrete programs that need to provide a command line
+interface.
+
+The GNU history library provides a consistent user interface for
+recalling lines of previously typed input.</description></interface><interface uri="http://repo.roscidus.com/lib/png12-0"><name>libpng12-0</name><summary>PNG library - runtime</summary><description>libpng is a library implementing an interface for reading and writing
+PNG (Portable Network Graphics) format files.
+
+This package contains the runtime library files needed to run software
+using libpng.</description></interface><interface uri="http://repo.roscidus.com/lib/krb53"><name>libkrb53</name><summary>MIT Kerberos runtime libraries</summary><description>Kerberos is a system for authenticating users and services on a network.
+Kerberos is a trusted third-party service. That means that there is a
+third party (the Kerberos server) that is trusted by all the entities on
+the network (users and services, usually called &quot;principals&quot;).
+
+This is the MIT reference implementation of Kerberos V5.
+
+This package contains the runtime libraries used by applications and
+Kerberos clients.</description></interface><interface uri="http://repo.roscidus.com/lib/popt"><name>libpopt0</name><summary>lib for parsing cmdline parameters</summary><description>Popt was heavily influenced by the getopt() and getopt_long() functions,
+but it allows more powerful argument expansion. It can parse arbitrary
+argv[] style arrays and automatically set variables based on command
+line arguments. It also allows command line arguments to be aliased via
+configuration files and includes utility functions for parsing arbitrary
+strings into argv[] arrays using shell-like rules.
+
+This package contains the runtime library and locale data.</description></interface><interface uri="http://repo.roscidus.com/devel/pkg-config"><name>pkg-config</name><summary>manage compile and link flags for libraries</summary><description>
+pkg-config is a system for managing library compile and link flags that works
+with automake and autoconf.
+
+Increasingly libraries ship with &quot;.pc&quot; files that allow querying of the compiler
+and linker flags needed to use them through the pkg-config(1) program.</description><category>Development</category><homepage>http://pkg-config.freedesktop.org/</homepage></interface><interface uri="http://repo.roscidus.com/devel/glade"><name>Glade</name><summary>a User Interface Designer</summary><description>
+Glade is a RAD tool to enable quick &amp; easy development of user interfaces for
+the GTK+ toolkit and the GNOME desktop environment.
+
+The user interfaces designed in Glade are saved as XML, and by using the
+GtkBuilder GTK+ object these can be loaded by applications dynamically as
+needed.
+
+By using GtkBuilder, Glade XML files can be used in numerous programming
+languages including C, C++, C#, Vala, Java, Perl, Python,and others.</description><homepage>http://glade.gnome.org/</homepage><category>Development</category><icon href="http://glade.gnome.org/images/glade.png" type="image/png"/></interface><interface uri="http://repo.roscidus.com/devel/make"><name>make</name><summary>The GNU version of the &quot;make&quot; utility.</summary><description>
+GNU Make is a program that determines which pieces of a large program need to be
+recompiled and issues the commands to recompile them, when necessary.
+
+The upstream sources for this package are available at the location
+ftp://ftp.gnu.org/gnu/make/. The documentation for this package does not meet
+the Debian Free Software Guidelines, and has been removed from this package.</description><category>Development</category><homepage>http://www.gnu.org/software/make/</homepage></interface><interface uri="http://repo.roscidus.com/e/e-core"><name>e-core</name><summary>secure distributed pure-object language</summary><description>
+E is a scripting language designed for writing secure distributed programs.</description><homepage>http://erights.org</homepage><category>Development</category></interface><interface uri="http://repo.roscidus.com/e/e-swt"><name>e-swt</name><summary>graphical interface support for E</summary><description>
+E is a scripting language designed for writing secure distributed programs. This
+package adds support for using it with the SWT widget set.</description><homepage>http://erights.org</homepage><category>Development</category></interface><interface uri="http://repo.roscidus.com/git/core"><name>git-core</name><summary>fast, scalable, distributed revision control system</summary><description>
+Git is popular version control system designed to handle very large projects
+with speed and efficiency; it is used mainly for various open source projects,
+most notably the Linux kernel.
+
+Git falls in the category of distributed source code management tools. Every Git
+working directory is a full-fledged repository with full revision tracking
+capabilities, not dependent on network access or a central server.
+
+This package provides the git main components with minimal dependencies.
+Additional functionality, e.g. a graphical user interface and revision tree
+visualizer, tools for interoperating with other VCS's, or a web interface, is
+provided as separate git* packages.</description><category>Development</category></interface></c:catalog>
