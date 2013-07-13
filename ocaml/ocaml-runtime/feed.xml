@@ -24,6 +24,11 @@
       <manifest-digest sha256new="GUYTA2LOHVQEMF5B3MLLA6BFWM4ZIPLNVUWHDE6CSPTIV5P677GA"/>
       <archive extract="ocaml-runtime-linux-i486-4.0.1" href="http://repo.roscidus.com/archives/OCaml-runtime/ocaml-runtime-linux-i486-4.0.1.tar.bz2" size="2170892"/>
     </implementation>
+
+    <implementation arch="Linux-x86_64" id="sha1new=f954d6a6a995f5753523060d91f1d157a3292e15" released="2013-07-13" version="4.0.1">
+      <manifest-digest sha256new="O54BXOLDB6DA35QJA54YB3HQBIREQDG32NV4FEDL4YGMR5MLC73A"/>
+      <archive extract="ocaml-runtime-linux-x86_64-4.0.1" href="http://repo.roscidus.com/archives/OCaml-runtime/ocaml-runtime-linux-x86_64-4.0.1.tar.bz2" size="2219541"/>
+    </implementation>
   </group>
 
   <group arch="*-src">
@@ -47,11 +52,11 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJR4VqQAAoJECLqERp+QkKkt+kH/RJ0FCFNaVWFKFkRDZiF87VBdgBfODlgaiAE
-0wcwPIT99rW31q3P086EmMmFQd2eMQeQdg+X5HuEwR+8ocOu+D5U5Hd3a0k1M36/KMfJEwlE/vmm
-PWtPTGsJdrfplAw/gyZ4Sgn1MkZxfU6QZTkv9JHuoFuwWZ5vaxob7pQHbRKS//HoBqeQ59RP4jSy
-wVpUQ35S+1TeyPDISpGAlL8eLCKQcPw4T9rEXjEifaxgi9VLm79/6h1xyXqQWlQmCtOcEzOT9b0P
-E0z7FUd7sxiZdqSQjms5AzB447QkrU5IRcMTGYWXYWHxGXflTrB0dGVi0CSL9WFlIUlXPLnQX303
-Nmc=
+iQEcBAABCAAGBQJR4Vz2AAoJECLqERp+QkKkwZMIAOq/XAx2F9YSquEjcZLYr+GmaW2HFOJDeaZd
+Xjt7u4hhbaqRnMCfRyeQFiORwkqSiNSQcZ6b7vcs9uoaU0N2e+bDKD3jpdlUap8K5eHoc2BI1Ces
+6b3ZQQOV+LrhvGXTEVyj+6p6j9w/PmiQSYUQt85pVvrQwKwtpjLs4B7Yv1kPWZJKS0gVdlbEmUrR
+yVmpN1ngT+uieqXOOKWX9/R10vkW2GfOLgyH6dR7LXFGZaw8iRns80t7SrxyQELNi4utxhgLScr8
+TKLPlcI3Dc1HepwkpGAY+vLX78B/EoVsCegMCRcab82KY7srIec5Gy/PDeyouD6URMaajbBSrZC9
+cgA=
 
 -->
