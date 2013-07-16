@@ -7,13 +7,9 @@
 
     This is the runtime package. It contains the bytecode interpreter (ocamlrun) and the toplevel (ocaml), which allows dynamic linking. It also includes the standard library, plus the Dynlink, Bigarray, Str and Unix extra libraries. Note: only changes to the last version component are binary compatible (e.g. 4.00.1 and 4.00.2 are compatible with each other, but not with 4.01.0).</description>
   <group>
-    <environment insert="" mode="replace" name="OCAML_HOME"/>
-    <environment insert="lib" mode="replace" name="OCAMLLIB"/>
     <environment insert="lib/stublibs" name="CAML_LD_LIBRARY_PATH"/>
 
-    <command name="run" path="bin/ocamlrun">
-      <arg>${OCAML_HOME}/bin/ocaml</arg>
-    </command>
+    <command name="run" path="bin/ocamlrun"/>
 
     <implementation arch="Windows-i386" id="sha1new=a99d962a1749d75c59b9cd92edc7de43337d34ec" released="2013-07-13" version="4.0.1">
       <manifest-digest sha256new="2M3IRTVAOS4XQTLTJJRWYDNDKEWAQFPBDR35KWKMUIR7ZQ2YNSOQ"/>
@@ -37,12 +33,8 @@
     </requires>
     <command name="compile" shell-command="&quot;$SRCDIR/zi_build.sh&quot;">
       <compile:implementation>
-        <environment insert="" mode="replace" name="OCAML_HOME"/>
-        <environment insert="lib" mode="replace" name="OCAMLLIB"/>
         <environment insert="lib/stublibs" name="CAML_LD_LIBRARY_PATH"/>
-        <command name="run" path="bin/ocamlrun">
-          <arg>${OCAML_HOME}/bin/ocaml</arg>
-        </command>
+	<command name="run" path="bin/ocamlrun"/>
       </compile:implementation>
     </command>
     <implementation compile:dup-src="true" id="sha1new=b32d1b07744b831446a761bc3519c5eec01c6357" released="2013-07-13" version="4.0.1">
@@ -52,11 +44,11 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJR4Vz2AAoJECLqERp+QkKkwZMIAOq/XAx2F9YSquEjcZLYr+GmaW2HFOJDeaZd
-Xjt7u4hhbaqRnMCfRyeQFiORwkqSiNSQcZ6b7vcs9uoaU0N2e+bDKD3jpdlUap8K5eHoc2BI1Ces
-6b3ZQQOV+LrhvGXTEVyj+6p6j9w/PmiQSYUQt85pVvrQwKwtpjLs4B7Yv1kPWZJKS0gVdlbEmUrR
-yVmpN1ngT+uieqXOOKWX9/R10vkW2GfOLgyH6dR7LXFGZaw8iRns80t7SrxyQELNi4utxhgLScr8
-TKLPlcI3Dc1HepwkpGAY+vLX78B/EoVsCegMCRcab82KY7srIec5Gy/PDeyouD6URMaajbBSrZC9
-cgA=
+iQEcBAABCAAGBQJR5YJFAAoJECLqERp+QkKkOv8IAOCtjSd8njFxvIGA8EmpurlAZQjEhRb5TjwG
+8or8ihtf+YJL97dg7n7BTNavPYzqNkOVNAJtgbHyJMTDVcfl4ptD4qc3dZ3DueqDa3Dr6JQEbgag
+1DaO6Qhl0yrXFkFjJNIc26hCtjsuA2NEgBlvHFal9CLZQQ/gGzAjZSU4SyhxZAh9vivu2oQ2ZEG/
+AZR1aS05OwDfHUEwyBbTUUd2j2Ik3YcO/vsVfkl73ghGm4214ZBsKgs2V2F8vPeOqbYKu4nIftS9
+393Rcx+wCq2BpB38bcD3DKkM0c3oXUKJ1nWKCpW1FtOceHoTBbNeOkXUu/Q1myN5thPnm00pzw1+
+L/I=
 
 -->
