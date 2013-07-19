@@ -23,6 +23,11 @@
       <manifest-digest sha256new="CKP57AQST2VERD6OHVNLY7FNHUDLF3EG33DEUMJEVLSWSFZ4IZDA"/>
       <archive extract="ocaml-runtime-linux-x86_64-4.0.1" href="http://repo.roscidus.com/archives/OCaml-runtime/ocaml-runtime-linux-x86_64-4.0.1.tar.bz2" size="2258087"/>
     </implementation>
+
+    <implementation arch="Windows-x86_64" id="sha1new=eafb82036d69adf0985935b5e52a905aea88fe7a" released="2013-07-19" version="4.0.1">
+      <manifest-digest sha256new="ILENJBVUI26KGISWGUYDLC3PCSNSE6KKJ4XY2SLDLEGUGHMLTTVA"/>
+      <archive extract="ocaml-runtime-windows-x86_64-4.0.1" href="http://repo.roscidus.com/archives/OCaml-runtime/ocaml-runtime-windows-x86_64-4.0.1.tar.bz2" size="4206694"/>
+    </implementation>
   </group>
 
   <group arch="*-src">
@@ -46,11 +51,11 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJR6St8AAoJECLqERp+QkKkgzUIAMmI7ufxE/1nlvPww1CjpmtIdORJdMTE1m22
-d4TRfV6JnvE3ltm2eDLF3boMsDxhRHWbARbGWkpGGgom6hPLwzL3emb4QuIiGKxRcuGZApJZn5hd
-Zb5u1UupP2LtM6D//0WbilLXBDg4i1JsYZMkXu45GWQAK5rv7rZglbk7t8LI0DkzTZ6LYIFsQ5p3
-EOTLUAtsU0TzS/nhseYg57mZmuzrGMsgxOXSWrW0+fK3xxQtH2jDAtur0JczejCW9w2vpIjZg4ok
-VmMA/NqcHC4Dhp/HYoWi3D1RsiRQkDKERms8RevR8UHiRsmvK+dSnIQEP0C/wyAf1BYfiG29X5cR
-9Zg=
+iQEcBAABCAAGBQJR6S8qAAoJECLqERp+QkKkTEwH/0R/aF4s14bBHUK7I3jNqGX80gkXZgXMrHJT
+jd9Bcdw8tpZoJ88SLnP60JcmsmnLqKPKjcNlxAdQHfgAYSRMt/nj8pYWPDQDjrZFnz0ME6UOo/Fl
+Ip/XceAIulO+b0iOs3kC1pRcyPZ1Fp0cGtWDxQw/L/e1jjkmj82w5Igrj950RkoyMYXqNP5Mt0Ld
+5+lk5kggWxx9zytr7rCwbCzJS1ZUHNYWHMBn7eMHP3l1LZTD7IIpeQOHIGWNAZncUioa/I0IpUcj
+3mfcYcful7shTtKKyByESZiGGPMiwl/2upreIwdKQIr+PwWbW6REe2gHuNEkAYlRnfe+ZWDtzJZs
+kfg=
 
 -->
