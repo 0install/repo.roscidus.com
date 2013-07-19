@@ -7,10 +7,17 @@
 
     This is the runtime package. It contains the bytecode interpreter (ocamlrun) and the toplevel (ocaml), which allows dynamic linking. It also includes the standard library, plus the Dynlink, Bigarray, Str and Unix extra libraries. Note: only changes to the last version component are binary compatible (e.g. 4.00.1 and 4.00.2 are compatible with each other, but not with 4.01.0).</description>
   <group>
+    <environment insert="" mode="replace" name="OCAML_HOME"/>
+    <environment insert="lib" mode="replace" name="OCAMLLIB"/>
     <environment insert="lib/stublibs" name="CAML_LD_LIBRARY_PATH"/>
+    <command name="run" path="bin/ocamlrun">
+      <arg>${OCAML_HOME}/bin/ocaml</arg>
+    </command>
 
-    <command name="run" path="bin/ocamlrun"/>
-
+    <implementation arch="Linux-i486" id="sha1new=69261094f7e487933baa6bae9180dfbbf141c13a" released="2013-07-19" version="4.0.1">
+      <manifest-digest sha256new="7OUBK5LSRUT6N2FMGDAWCNIR2R3W25F63V37QMI5LMWBEUZBPC3Q"/>
+      <archive extract="ocaml-runtime-linux-i486-4.0.1" href="http://repo.roscidus.com/archives/OCaml-runtime/ocaml-runtime-linux-i486-4.0.1.tar.bz2" size="2170074"/>
+    </implementation>
   </group>
 
   <group arch="*-src">
@@ -19,12 +26,12 @@
     </requires>
     <command name="compile" shell-command="&quot;$SRCDIR/zi_build.sh&quot;">
       <compile:implementation>
-	<environment insert="" mode="replace" name="OCAML_HOME"/>
-	<environment insert="lib" mode="replace" name="OCAMLLIB"/>
-	<environment insert="lib/stublibs" name="CAML_LD_LIBRARY_PATH"/>
-	<command name="run" path="bin/ocamlrun">
-	  <arg>${OCAML_HOME}/bin/ocaml</arg>
-	</command>
+        <environment insert="" mode="replace" name="OCAML_HOME"/>
+        <environment insert="lib" mode="replace" name="OCAMLLIB"/>
+        <environment insert="lib/stublibs" name="CAML_LD_LIBRARY_PATH"/>
+        <command name="run" path="bin/ocamlrun">
+          <arg>${OCAML_HOME}/bin/ocaml</arg>
+        </command>
       </compile:implementation>
     </command>
     <implementation compile:dup-src="true" id="sha1new=29cebf65e8e10c6f3c32762f29b4bacc818d00e5" released="2013-07-19" version="4.0.1">
@@ -34,11 +41,11 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJR6R9nAAoJECLqERp+QkKkMvYH/in/PaywxJZYSfGvQxtrlHrhXo1xtefK+nQr
-Ke7YzMjxBMVi8TcOoAILOwiSOZ3Wlxqa9tCXY1CG850PtptnhYMZWNBWNIXtgmFEFHCucK5rwaQj
-PO7JpUYG0f+ULwhLYgMzctoCJWxJp3Ut2ku4hG6ivIG5tMSEu/TS0Fg/OUnN6U2q9bsxh1bvim1j
-ENNjAe71reQl5LkpudnS1HUKQBTv9nr4pO5SkpuDzPn2njGo3AgVjwFyVDm9DggpPyHOXC5JDuo1
-sSiboLEqeC3UnPj90XzVJB/vyvNbkN3JFtgFm5ybr80Bq5e5fYWamwhukbSUjLTx4LlLZMABFGK9
-88M=
+iQEcBAABCAAGBQJR6SVAAAoJECLqERp+QkKkY0UIAJydYq/vg8h/J167Zm2R8XNzt1YQwxnTJa01
+tf1ocirBJYq1UvvMXKoye6+kqN9V4hfibzyk5iIUf6l3v/LHYTEkQbfGpNsc4f5owGGnYrngahjP
+Mr/1BWzAh7jiWdZsK9aOCWReA/W16OkKG0ivpycyVd+UePo+sRdbnbSItULYd66tJ+HZz+twzXEz
+hKjKbNFsStmDAeCP7lXelecVGiFYifD0WLs0lh+kouNtA1gp8js0c9IIeeyaHblbzBAux75X6u7x
+L5nSoWBh30ewLnfo2wldf0MXwkq6hkSJ+IJq6daZB7Ku08Y238GdsZ7oQYDWlYLsBMKcfU/iGaVt
+g+o=
 
 -->
