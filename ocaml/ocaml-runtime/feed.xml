@@ -28,6 +28,10 @@
       <manifest-digest sha256new="ILENJBVUI26KGISWGUYDLC3PCSNSE6KKJ4XY2SLDLEGUGHMLTTVA"/>
       <archive extract="ocaml-runtime-windows-x86_64-4.0.1" href="http://repo.roscidus.com/archives/OCaml-runtime/ocaml-runtime-windows-x86_64-4.0.1.tar.bz2" size="4206694"/>
     </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=3b674cd654a8b4b50c134e42e486bd1fac37d2a9" released="2013-07-21" version="4.0.1">
+      <manifest-digest sha256new="LZP3XAWIZUKGRQ4YG26SJSO52ZSF64GHUYTSRY3CGZLR5G6N4AEA"/>
+      <archive extract="ocaml-runtime-darwin-x86_64-4.0.1" href="http://repo.roscidus.com/archives/OCaml-runtime/ocaml-runtime-darwin-x86_64-4.0.1.tar.bz2" size="2202190"/>
+    </implementation>
   </group>
 
   <group arch="*-src">
@@ -51,11 +55,11 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJR6tv0AAoJECLqERp+QkKkHcQH/0IEWWaY0QJBR+vY0qoUvplJgQQr0xYYFrhb
-P6uR8AdeMQ8IR/f53uey8oFS6fjOZ8NvexPLITOiAuqZ0WdQxQEheqOIJnGUOaO+Ktf6bWtOqwd/
-rUG7EUF4OyJzfDvysU+OsewtEIKyb/+0SjHLaKTBDLDh79ddO7HzFkgdcjxxtdI3dTQzx4uo4E7f
-LF3x6dmKorZtRWAgiZs8cEQvT8hNQV6zHDTVHVcso4DVQhoDO80l/WeP5MWWw2atrZegeihFbVmv
-+qOMODQ6Zz4f/a7+N/TgeTd14QdWGMNJFUd4DOzuANkxaoFOm8Wp27efh4u/WNoV5fl4D0m9j/tf
-kl0=
+iQEcBAABCAAGBQJR65FdAAoJECLqERp+QkKkWtUH/i/XwgiVyYnWij4kreZdBOQMi6N7uVVUx/LY
+2OlkRhILrTKcAvibo1hnBpWYP+3s7v9leb6+0V31Sh1VHcKMd7N9CyCoyZt3lZ9idUgoOrjYTcuc
+LsrSx4gybZgMvRy9i5wRkpe2SQr8emiQ5ly9hNIQy4oXbGg1PK5QFpMeogS21xqQD6mTH8bsfoHr
+aFHNt0Uuh6odwOBwgJipGaMfy63uKHyUTgSaEcIdcZ/Bu3a0ZNp7zsXVAZmnN/88SpfiGUbTrCoF
+Yol8c/i1tYN49VdCZp2wpoBLHZ7BDcO1hX0298JRop1Dq65hBN3qrNucQzcq1fJqRpLFRv37G0sy
+z/c=
 
 -->
