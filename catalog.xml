@@ -291,3 +291,12 @@ This package provides the git main components with minimal dependencies.
 Additional functionality, e.g. a graphical user interface and revision tree
 visualizer, tools for interoperating with other VCS's, or a web interface, is
 provided as separate git* packages.</description><category>Development</category></interface></c:catalog>
+<!-- Base64 Signature
+iQEcBAABCAAGBQJR8jSHAAoJECLqERp+QkKkGqkH/RJuTTlNXqO0JTRxemoXcb/upDNpXJnFu9PX
+FoYgvCRDMthzQEstv8uz15cTGqB7+5rimS4wNq3mmykCOxDWJKcNdbd05SmRWrTCqUJ2dMSDCqfv
+59peMZC/K2SXpiWpg/KVKPBoBhRaiNupiQRtHEe+TYPPzjVqgFd4MnggkvlWdJzvOf8FAxL11t/s
+K5tWM/gq1vb4U36TpzVDPL225yaWRToSiJmwDPgYXA9kqV04B+BmVKIYTxirjjSC80pa2RVPBDNd
+VmyEfKQ2+fDgopdfpFU9jwOZlpXi90Ir+MVnDcMwBqRthSjXPvzJTxfWbtQweppNWbJ06I8QXb/a
+uxg=
+
+-->
