@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/security/gnupg" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>gnupg</name>
   <summary>GNU privacy guard - a free PGP replacement</summary>
@@ -12,6 +12,7 @@ as described in RFC2440.
 GnuPG does not use any patented algorithms so it cannot be compatible with PGP2
 because it uses IDEA (which is patented worldwide).</description>
   <package-implementation distributions="RPM" main="/usr/bin/gpg2" package="gpg2"/>
+  <package-implementation distributions="RPM" main="/usr/bin/gpg2" package="gnupg2"/>
   <package-implementation distributions="Arch Slack Debian RPM Gentoo Cygwin" main="/usr/bin/gpg" package="gnupg"/>
   <package-implementation distributions="MacPorts" main="/opt/local/bin/gpg" package="gnupg"/>
 
@@ -43,11 +44,11 @@ because it uses IDEA (which is patented worldwide).</description>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJQ1dMKAAoJEAcTP5bKdNi6ewMH/RdP/rnYaDkxqB2MR0zlt/p9kQNAershM5QC
-0rof+iQnLZa1yZAtA97sL7/0BlKfcvmx2M6Uv/6EPiI95aRYKKtHV2Rl0uGmOLfxtlg2gSPRzyK6
-4oKMEUPWE0O7PpmldkvAxlR9Ifk9deAIHp7GD2iLQh3MO1UcvJJDXUs14tfTMedY/qvP4yZISPka
-MXuY34ITjCeYSZ6OJBD2lzNHMuor8lCQ9v/ssAtG7YXINKlgcu7S9LoLhc/g9TJ263m/KQCHtxDe
-ttF9bwcQdNO0GiLNqnZtpUe1IkXapmaefK6/8xNZtHz6UF2n9b1ulU/EblDgrDzAmhbM3Kx3YU0T
-NCU=
+iQEcBAABCAAGBQJSAkHJAAoJECLqERp+QkKkRaUIAO+CzpJ1Q4TWCBxAPUUAGefSXVu/V4i9I6A3
+aQJAZMe+WIrAtmOU7IcCKBlNO3r9hKBic29vILxRFf7xn+bwGGxm+4YCZ8O/hNsVOGNW7o3IAfSJ
+dEOG8bviUQ6Rkvm/vG8IFJAqqGkI7OXMCGzEoHDvSTQqN6QwgODZiUnpfu4MgOy290DRTcJX657r
+OyitOhIJnYxVWhP2GjU0J41kxj+JWoRW7El9SBEXqA5BROlwLa6zMcUseZj72eT8LppbYJhJnDVW
+3hMsoxpduxj3DsnlIN4VYILCp4MxnzGJCFiWc5VwqPO90Yy1TbcXSKP5vJT6sae6DG9SEOqfSHYc
+ufI=
 
 -->
