@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/utils/bash" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>bash</name>
   <summary>the GNU Bourne Again shell</summary>
@@ -22,7 +22,8 @@ bash.sourceforge.net/).</description>
   <category>Utility</category>
   <needs-terminal/>
 
-  <package-implementation main="/usr/bin/bash" package="bash"/>
+  <!-- Not /usr/bin/bash : http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7135 -->
+  <package-implementation main="/bin/bash" package="bash"/>
 
   <!-- Warning: we don't give any arch here, even though it's a Windows-x86 binary.
        That's because 0compile depends on it and old versions of 0install don't understand
@@ -41,11 +42,11 @@ bash.sourceforge.net/).</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEbBAABCAAGBQJRMdMtAAoJEAcTP5bKdNi6yJkH91mgM4Px6+idOk3VBmUP4bB9nZuDjKhi69Zo
-50gWcFwjGO9tZQw+Jy5/l13OrtQ7KfzQMHJYoyjAli6HpFy3LML1biZ9kvqgcRstMo3t8YTDUvme
-KWgM7e9RoKNiIFcMjO6TqsC+kqQS1U9UgC362/vLsAgIiI0HWTUIThsPfiS7B5l2Pyd2KwgxvNBg
-Rw1Noh8kGg3KWO5FURwB9ki0fnUOHAe2NIlDE0YDfRAnUkqKskAOhvS+XB69giKPGFXovb78aluQ
-YGVRAlCa5DzzpikZdnOKGf3P+13WpNMG6HLcB8N2yYbLa/HdHCLxJa3TwuIDWUj62DyJdKuf57HL
-nw==
+iQEcBAABCAAGBQJSEjr9AAoJECLqERp+QkKkdE8H/RG/8JxpIBOxjtH4WDyEPa0QowfgNdpwjRWR
+NS3VtrFKD4wZgJa0YMII2NkNl3dYmIDbfmZzxWe2S9Phouqkr1YgTxs5OhjSrLXzXT1KAlUKZSK7
+aeg2j0rs88zS0N7AKetzXZNJDN7NOqQsPm3plqUKg91OiMAN6ZecofajgzCkikSyAXFzFYt+wzq9
+QTYNtwnnjuz9daSKY6ckHTm4n9QfD5yxE17025e32WighLGCIvYu5xPX9TE+VeEpPboejKPsdFIr
+Rb0BxB184iwA/IId+sYgy+XN1fDqSqKOXbjVf1wg692Uz6ibvpfvBZQTF2dcEFaZBMDaV0dFezu7
+hIo=
 
 -->
