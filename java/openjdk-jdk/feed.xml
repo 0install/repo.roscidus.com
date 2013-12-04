@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/java/openjdk-jdk" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>openjdk-jdk</name>
   <summary>OpenJDK Development Kit (JDK)</summary>
@@ -20,7 +20,7 @@ IcedTea project.</description>
   <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1_6_0-openjdk-devel"/>
   <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1.6.0-openjdk-devel"/>
 
-  <group main="bin/javac">
+  <group arch="POSIX-*" main="bin/javac">
     <command name="run">
       <runner interface="http://repo.roscidus.com/java/openjdk-jre"/>
       <arg>-cp</arg><arg>${JDK_CLASSPATH}</arg>
@@ -58,11 +58,11 @@ IcedTea project.</description>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJRKN3VAAoJEAcTP5bKdNi6VbIH/AlXt4BHDKr+UFe6T8Ho3owhfAPv+oz226ad
-MabA7KaSJaoiDaHFE+akSGrHyCMv+UnNQKnztdOBFDkN8TbB9BoHXbp+lzO7YvgWNHHtMco4a2F/
-BkmXt+gu/Y3ILYLMiaXQwggts7ELbw79+gD+T2/tyXCfnmYzmnhhSSbR2wxUvDACgObgeINk/Ujd
-IUxOsKUqJI+wGMgLCfM/H7TcQQ80VfIZWkYXY/6TDP3iqn8k3NVHtpz5Ud6c56Gww2HZvVO7lu6l
-B1f8+dc/I7Wf2zgODeJNluX4wIU3AN9rhdeO7bhJndcU3pwSVaB5oUYzI4aPcZFDLP6md+eWRis+
-gdg=
+iQEcBAABCgAGBQJSnwIcAAoJECLqERp+QkKkDbYH/0+0+PhwTlhv7AjHLliwf09CZr7DFNMAsVdN
+tj3hiSOWiwTdvg8Ol7CAK5HgE3WMIU/LEmjAbbbTR6keWmXhhdHiovcGFC0mPf3gz1YBQemGRve3
+T6cXbudJnlz3eNML5OYeJUP8V3HaGsWrO1LjrYDoVSqyrUhWBBBcpASleY5sr7pS1Nzyc9sQB/11
+4Oa2HPT/sfQhfItRDHH6jdBXE46vyCuWr/tONvhwhMZEhVI7GlPAx4BvWVnc8cdY8gCispzXplp/
+FI1wr5nPIyOkcPsUImNhFe7odVxhkwjEo3XlI6AYgQybh0IE1xgFxhlZoqa7Apu9m3oJ3XGj6wjv
+YxQ=
 
 -->
