@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/java/openjdk-jre" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>openjdk-jre</name>
   <summary>OpenJDK Java runtime</summary>
@@ -18,13 +18,14 @@
   <package-implementation distributions="Arch" main="/usr/bin/java" package="jre7-openjdk"/>
 
   <package-implementation distributions="Windows Darwin" package="openjdk-7-jre"/>
+  <package-implementation distributions="Windows Darwin" package="openjdk-8-jre"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJRId7LAAoJEAcTP5bKdNi615wIAIPKct+kYLdro/39qSBmrgYrmUExYxsggF+G
-F/NGi7xF0JW6QfWZOPMPAwcVBbv2VVozotDGE41jHIsc8s3UVZrKAxVXf38rH23HB5mYzd4+iuKB
-if+L36CdcWXzrM4p9miePmbGnoyT3sMcxWBw6IgDSUc29moR0nS8RFvGOIVYrjZFhm59uCYrzyLA
-ugOBCrvUvC/7NVK1JgNyA3ZCsYBI2USaYGoeBAm1/U1TG/MZ2Tpalvy7EFhir6NAxe4961Sw/6IO
-lkdEzaPZQwZOjE/1DqArmo/xoSYdH8o+DB1EA340O/nekJlYfrBo9b25xIWJwz3L2HiAHLYZJPLu
-UvE=
+iQEcBAABCgAGBQJTcJZdAAoJECLqERp+QkKkVocIAN9PI8hCO0JPA4eRBvd9yPE8hKPjMlwl5M23
+huhARFr/W2FlmPqfi/1NXmjE8iDgtU154iylhPsGMLLLTZiAOFpZhWm0YVoAdwBDdbRtyfUOgzkP
+FtFHL/XaZU/ZB/yYr4u/pFQf3F2o3bbTpsFEuOh3bLSFgj7bw/53IwotpUcOX1zJrIsvl9QMQdfp
++E5OwaDfni6fzsE3qDpo9z7DRQEK/heewakD1v6Engbgj/aenip1vKfsHu5d2vvXSDUtIzejUf4v
+Z96IjRN7uNAeLGrb09gMJk5DABj5AEMVVRBeD2LcvQOqWOMTPz3wJa5+EQmdwGj48QbkgBzZZKFQ
+kAU=
 
 -->

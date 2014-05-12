@@ -15,6 +15,7 @@ IcedTea project.</description>
   <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1_7_0-openjdk-devel"/>
   <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1.7.0-openjdk-devel"/>
   <package-implementation distributions="Windows Darwin" package="openjdk-7-jdk"/>
+  <package-implementation distributions="Windows Darwin" package="openjdk-8-jdk"/>
 
   <package-implementation main="/usr/bin/javac" package="openjdk-6-jdk"/>
   <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1_6_0-openjdk-devel"/>
@@ -58,11 +59,11 @@ IcedTea project.</description>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCgAGBQJSnwIcAAoJECLqERp+QkKkDbYH/0+0+PhwTlhv7AjHLliwf09CZr7DFNMAsVdN
-tj3hiSOWiwTdvg8Ol7CAK5HgE3WMIU/LEmjAbbbTR6keWmXhhdHiovcGFC0mPf3gz1YBQemGRve3
-T6cXbudJnlz3eNML5OYeJUP8V3HaGsWrO1LjrYDoVSqyrUhWBBBcpASleY5sr7pS1Nzyc9sQB/11
-4Oa2HPT/sfQhfItRDHH6jdBXE46vyCuWr/tONvhwhMZEhVI7GlPAx4BvWVnc8cdY8gCispzXplp/
-FI1wr5nPIyOkcPsUImNhFe7odVxhkwjEo3XlI6AYgQybh0IE1xgFxhlZoqa7Apu9m3oJ3XGj6wjv
-YxQ=
+iQEcBAABCgAGBQJTcJZVAAoJECLqERp+QkKkZ5IIAIBZrHh6TCimxsZl6vMYhTzDZLYdEvYzBgeT
+QNmNZIqHFg31eBneWxm4H36WXZyRqNZDtxEauPGkHiIItgcPfKta0j4vC9uVmRKNi8Sd3/RYEoE1
+4h2BglhBcKWUo9sktTnHjx6o2CxT3q1yh7Y5/tG22dTTp1+eHLG8oKQcqdy8gdHoNLIchJtZ75nF
+DxWD73juKJmNHqoGJiW8jRHhn/FtjJGzreYMOZEvepQT+I83C5XnHNCtQIHMJIaLAJKwVl3of1DN
+BGQ/jYE9usQmXxm0jMZ7cunzSZqC/H4Xo1KBlYJAJpGJ6r4eSsDc2/hXxRT4H3NajhD/Y6TgUvF5
+OW4=
 
 -->
