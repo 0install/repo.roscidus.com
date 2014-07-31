@@ -11,6 +11,8 @@ The packages are built using the IcedTea build support and patches from the
 IcedTea project.</description>
   <category>Development</category>
 
+  <feed arch="Windows-*" src="http://0install.de/feeds/Oracle_JDK.xml"/>
+
   <package-implementation distributions="Debian" main="/usr/bin/javac" package="openjdk-7-jdk"/>
   <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1_7_0-openjdk-devel"/>
   <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1.7.0-openjdk-devel"/>
@@ -59,11 +61,11 @@ IcedTea project.</description>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCgAGBQJTcJZVAAoJECLqERp+QkKkZ5IIAIBZrHh6TCimxsZl6vMYhTzDZLYdEvYzBgeT
-QNmNZIqHFg31eBneWxm4H36WXZyRqNZDtxEauPGkHiIItgcPfKta0j4vC9uVmRKNi8Sd3/RYEoE1
-4h2BglhBcKWUo9sktTnHjx6o2CxT3q1yh7Y5/tG22dTTp1+eHLG8oKQcqdy8gdHoNLIchJtZ75nF
-DxWD73juKJmNHqoGJiW8jRHhn/FtjJGzreYMOZEvepQT+I83C5XnHNCtQIHMJIaLAJKwVl3of1DN
-BGQ/jYE9usQmXxm0jMZ7cunzSZqC/H4Xo1KBlYJAJpGJ6r4eSsDc2/hXxRT4H3NajhD/Y6TgUvF5
-OW4=
+iQEcBAABCgAGBQJT2gHZAAoJECLqERp+QkKkBowH/3Zpz16l4CGrVtw7w/FVbHN9WKZ62a4WPwoT
+Uo7mcGTof+VKAP+fB3a/eOJOdn7FzJmTsYGysyohyqDFJhM3upZD4FGw4ivx0d0/8ZjZ28IZlTSc
+O+Fgvda4LbdoNft4kTk/r7VrkP2ejCo1l4WDKXPqdJnsIxnrMyeGOAELMq5uVoxvdsz313zavW7T
+ec0GeragodixAGXPb56iQCoQBLOPPRrUsRfJ6g0VV1AN+1czHKmQzDFlZyvIXrq6S53/SdybMe9y
+BXHjxZfw1LFuaU3Zh2piH/36fdcE6zekmbdhB5BRtZCcNsJ7mJaMqhHHq80MWUVE41zv8Ro3GFRX
+xYM=
 
 -->
