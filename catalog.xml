@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type='text/xsl' href='resources/catalog.xsl'?>
-<c:catalog xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:c="http://0install.de/schema/injector/catalog"><interface uri="http://repo.roscidus.com/utils/graphviz"><name>graphviz</name><summary>Open Source Graph Visualization Software</summary><description>
+<c:catalog xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:c="http://0install.de/schema/injector/catalog"><interface uri="http://repo.roscidus.com/utils/aspcud"><name>aspcud</name><summary>a solver for CUDF instances based on ASP tools</summary><description>
+    aspcud is a solver for CUDF (Common Upgradeability Description Format) instances based on ASP tools developed within the potassco project. It utilizes the preprocessor cudf2lp that rewrites CUDF specifications into ASP facts. These facts together with an ASP program are then passed to grounder gringo and are finally solved by solver clasp.
+  </description><homepage>http://www.cs.uni-potsdam.de/wv/aspcud/</homepage><category>Utility</category></interface><interface uri="http://repo.roscidus.com/utils/graphviz"><name>graphviz</name><summary>Open Source Graph Visualization Software</summary><description>
 Open Source Graph Visualization Software</description><homepage>http://www.graphviz.org/</homepage></interface><interface uri="http://repo.roscidus.com/utils/bash"><name>bash</name><summary>the GNU Bourne Again shell</summary><description>
 Bash is the shell, or command language interpreter, for the GNU operating
 system. The name is an acronym for the ‘Bourne-Again SHell’, a pun on
@@ -292,11 +294,11 @@ Drupal is an open source content management platform powering millions of
 websites and applications. It’s built, used, and supported by an active and
 diverse community of people around the world.</description><homepage>http://drupal.org</homepage><category>Network</category></interface></c:catalog>
 <!-- Base64 Signature
-iQEcBAABCgAGBQJTcJZsAAoJECLqERp+QkKkfWcIALdlJpIT3qDLPGULQawXZI2iuTZjZ66B2S4h
-v4DLBVHHsrQ/zUgEL0qe2dl5fiqhPcXTfPVXa7BhNP4BzRtQZpMzMqL9FrhYdCp3IVqR3rGLM6WR
-FDNX1FQz1veE6WOCKP4GmwXP1/TO56SuRsrvLkX8yYsrWulABiWomThDG63g9rI4zbtQBKU6YR7+
-Rt90CjVIaB1FWuvx5BXf+MMX9biqgr0v1n5K1qJ/Wf/aIqDKVwRpT040XMC+MucSE0JWvWOz3jAs
-6/g0O43CUqGJiyYRLJevt/6hr+xQD6wPyuzWjpS2Cx0pLVB1Vcn5XHwNYWRrtUPAx7O6sBD+lYtN
-Eeo=
+iQEcBAABCgAGBQJT9wanAAoJECLqERp+QkKk8moH/32+NQXU5EENWKkHqmaH8Ctv8EQhyIKEOUEP
+4ty9tNKAFMy4iPwgVjUkxw300wzKacJDH92QBqwiaLSE108+MopeG+8YcmDfjG5nv+WBjw+NgCDQ
+iMfO0eT69xLbvyv/KsKxTojsPVH0WgxO2TplpJdGzx6T2M9y1uKRea2IsakdsnS9OitaakMVl05W
+WeAn8tcWgQNVvcpRB82SnyMkzJiHWpJjQsrNeyY9laZIga9Hbd7lo5d/FCsPCExWTggobxfPU29i
+uY5dCDZLUgoo8N8X6mIpdwGLxkv08Mknw8/QxXJmH9SrEPcAT/OPM3EwEcbvboggk3/6dUYXgOLU
+lTE=
 
 -->

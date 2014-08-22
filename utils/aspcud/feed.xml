@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/utils/aspcud" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>aspcud</name>
+  <summary>a solver for CUDF instances based on ASP tools</summary>
+  <description>
+    aspcud is a solver for CUDF (Common Upgradeability Description Format) instances based on ASP tools developed within the potassco project. It utilizes the preprocessor cudf2lp that rewrites CUDF specifications into ASP facts. These facts together with an ASP program are then passed to grounder gringo and are finally solved by solver clasp.
+  </description>
+  <homepage>http://www.cs.uni-potsdam.de/wv/aspcud/</homepage>
+  <category>Utility</category>
+
+  <package-implementation distributions="RPM Debian Arch" main="/usr/bin/aspcud" package="aspcud"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABCgAGBQJT9wanAAoJECLqERp+QkKkgBQH/i2wIvWT05reZD3o36RUQCqicU1xcA5vLZgf
+CkTNpEAqWiJ5lASLODvHlXGPwbG5njORGZ1QAntQSadHP1HbqGQJCzxTuq3M58ldb0S9Q2kjrgEv
+vx8BcsI0C3h/ZZm07cLpiTnLxxSNpR7tFFw+6YKvhKbDuGCrDhLESaAhGLGNB0gnJB61PJkD6Z3C
+Ad+xoVHxFnrjqAN8Thz54bSMfmkMD9NVMC7nLlg8CQfJKC4px13hafg9Vj2ly4cwPYAjmt6Lljzt
+7LVeC+gKWHM1bWeILaqIiyzvmdaPMK4nsfgjO0VyjGbEdwYXeRWDMLxbDkTsgVC2Teaw4r49ZJ8/
+mKA=
+
+-->
