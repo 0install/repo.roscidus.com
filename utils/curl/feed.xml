@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/utils/curl" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>curl</name>
+  <summary>command line tool for transferring data</summary>
+  <description>
+    curl is a command line tool for transferring data with URL syntax,
+    supporting DICT, FILE, FTP, FTPS, Gopher, HTTP, HTTPS, IMAP, IMAPS,
+    LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMTP, SMTPS, Telnet
+    and TFTP. curl supports SSL certificates, HTTP POST, HTTP PUT, FTP
+    uploading, HTTP form based upload, proxies, cookies, user+password
+    authentication (Basic, Digest, NTLM, Negotiate, kerberos...), file
+    transfer resume, proxy tunneling and a busload of other useful
+    tricks.
+  </description>
+
+  <feed arch="Windows-*" src="http://0install.de/feeds/cURL.xml"/>
+
+  <package-implementation main="/usr/bin/curl" package="curl"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABCgAGBQJT/bAlAAoJECLqERp+QkKk8aYH/Ap2J1FR/GUh+3zoFgpN/zLZjU90i47DrCPd
+GiECMQ3CZ7mtzJrSP5ghIy5ayTlxgf3YPgeLQqw/Qg0wgI6bAxRorpJxJoqq7uIaoGapIbaK7/yq
+y4qKxjCLEqQI9tRtC70RpcW388xGG5VC7+PckradTNHP4CeI5hk0b32HJ9fOfnxgtfJUU9FunNqE
+QPxa0lB9/cPt/kY/7e6vkg5Nk9jvXXCCBZUkQynuvRJ/ZExiAPcMNGmauef4fjubr9UimFY/6dvE
+vRWLePYeeLFfDkLasTp3hyGM4pdBRWXMI67/NWMXiT3Bf2ufHRFjQiEvBOOryn6/sM1veUUrvLqR
+w/Q=
+
+-->
