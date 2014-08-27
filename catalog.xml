@@ -11,7 +11,11 @@
     authentication (Basic, Digest, NTLM, Negotiate, kerberos...), file
     transfer resume, proxy tunneling and a busload of other useful
     tricks.
-  </description></interface><interface uri="http://repo.roscidus.com/utils/clasp"><name>clasp</name><summary>answer set solver</summary><description>
+  </description></interface><interface uri="http://repo.roscidus.com/utils/gringo"><name>gringo</name><summary>grounder for use with clasp</summary><description>
+Current answer set solvers work on variable-free programs. Hence, a grounder is
+needed that, given an input program with first-order variables, computes an
+equivalent ground (variable-free) program. Gringo is such a grounder. Its output
+can be processed further with clasp, claspar, or claspfolio.</description><homepage>http://potassco.sourceforge.net/</homepage><category>Utility</category></interface><interface uri="http://repo.roscidus.com/utils/clasp"><name>clasp</name><summary>answer set solver</summary><description>
 clasp is an answer set solver for (extended) normal and disjunctive logic
 programs. It combines the high-level modeling capacities of answer set
 programming (ASP) with state-of-the-art techniques from the area of Boolean
@@ -314,11 +318,11 @@ Drupal is an open source content management platform powering millions of
 websites and applications. It’s built, used, and supported by an active and
 diverse community of people around the world.</description><homepage>http://drupal.org</homepage><category>Network</category></interface></c:catalog>
 <!-- Base64 Signature
-iQEcBAABCgAGBQJT/cfdAAoJECLqERp+QkKkdAMH/1H8a+syLEHWfCUSrNwX5+o4kQNhV8Rn7CFg
-SdreoyvbIqUJuABLxlJMOFLJ1gTi6js9hLz0cR82l/bnWIR9wT5cyZng0F6b/yj8ir238mFclzLA
-xXUloDppEEHFd0ZZKIIgur+BdEqtXT7FlSE9CzF1tkbSKVcTjJ/UWSiinsv6CY4hH0oCPNqJqyhA
-4uemp7B/pQSiE1+yl6CoHR7Et2ZT47aPf+SJ+UikmWTzx+DhIwTqumniPcAWy19nuAnLpdgxHJvh
-RM/CHp9ChzC7mh+BllIFPzdkvwmUBNTfAKDSIUobuyD9fos/L7ECswWPcmpQ2YxLh8NNFWxDQ3O3
-FUA=
+iQEcBAABCgAGBQJT/cnXAAoJECLqERp+QkKkTQwIANIau383+U8FpYauhlTOMRXvw40D4ZQbrSXi
+1TbCOXWVDYvMRzQJKMt2OfpdH2NXuiGtjG8Xi7GbuVOqjZWYMzzkbSiHq1F++z6uaQGlsEwdezRK
+oo4lHNxkqGfpbDhQobq56PY3pJiaqwcyio/6hVRHPJ0/EN3ZhD/BDVLqO3JM8cR7p2xAhSNw77R7
+PUw64/ehg8A0dAhoKOGEiSVM4n+ihIocLkzzvcOoELAtoMlt8Nf9+dWmaiIw2Vop4Sq0APNfvWMS
+SWAxqBagrQWCthPYHvedBEt8PU3xFOOf9jiYiw9DY1qDDGSaNOWWIrBJ2faE+K2qyAXa1jTxFYjK
+mGs=
 
 -->
