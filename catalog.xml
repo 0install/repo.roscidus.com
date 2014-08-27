@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type='text/xsl' href='resources/catalog.xsl'?>
 <c:catalog xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:c="http://0install.de/schema/injector/catalog"><interface uri="http://repo.roscidus.com/utils/aspcud"><name>aspcud</name><summary>a solver for CUDF instances based on ASP tools</summary><description>
-    aspcud is a solver for CUDF (Common Upgradeability Description Format) instances based on ASP tools developed within the potassco project. It utilizes the preprocessor cudf2lp that rewrites CUDF specifications into ASP facts. These facts together with an ASP program are then passed to grounder gringo and are finally solved by solver clasp.
-  </description><homepage>http://www.cs.uni-potsdam.de/wv/aspcud/</homepage><category>Utility</category></interface><interface uri="http://repo.roscidus.com/utils/curl"><name>curl</name><summary>command line tool for transferring data</summary><description>
+aspcud is a solver for CUDF (Common Upgradeability Description Format) instances
+based on ASP tools developed within the potassco project. It utilizes the
+preprocessor cudf2lp that rewrites CUDF specifications into ASP facts. These
+facts together with an ASP program are then passed to grounder gringo and are
+finally solved by solver clasp.</description><homepage>http://www.cs.uni-potsdam.de/wv/aspcud/</homepage><category>Utility</category></interface><interface uri="http://repo.roscidus.com/utils/curl"><name>curl</name><summary>command line tool for transferring data</summary><description>
     curl is a command line tool for transferring data with URL syntax,
     supporting DICT, FILE, FTP, FTPS, Gopher, HTTP, HTTPS, IMAP, IMAPS,
     LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMTP, SMTPS, Telnet
@@ -11,22 +14,7 @@
     authentication (Basic, Digest, NTLM, Negotiate, kerberos...), file
     transfer resume, proxy tunneling and a busload of other useful
     tricks.
-  </description></interface><interface uri="http://repo.roscidus.com/utils/gringo"><name>gringo</name><summary>grounder for use with clasp</summary><description>
-Current answer set solvers work on variable-free programs. Hence, a grounder is
-needed that, given an input program with first-order variables, computes an
-equivalent ground (variable-free) program. Gringo is such a grounder. Its output
-can be processed further with clasp, claspar, or claspfolio.</description><homepage>http://potassco.sourceforge.net/</homepage><category>Utility</category></interface><interface uri="http://repo.roscidus.com/utils/clasp"><name>clasp</name><summary>answer set solver</summary><description>
-clasp is an answer set solver for (extended) normal and disjunctive logic
-programs. It combines the high-level modeling capacities of answer set
-programming (ASP) with state-of-the-art techniques from the area of Boolean
-constraint solving. The primary clasp algorithm relies on conflict-driven nogood
-learning, a technique that proved very successful for satisfiability checking
-(SAT). Unlike other learning ASP solvers, clasp does not rely on legacy
-software, such as a SAT solver or any other existing ASP solver. Rather, clasp
-has been genuinely developed for answer set solving based on conflict-driven
-nogood learning. clasp can be applied as an ASP solver (on SMODELS format, as
-output by Gringo), as a SAT solver (on a simplified version of DIMACS/CNF
-format), or as a PB solver (on OPB format).</description><homepage>http://potassco.sourceforge.net/</homepage><category>Utility</category></interface><interface uri="http://repo.roscidus.com/utils/graphviz"><name>graphviz</name><summary>Open Source Graph Visualization Software</summary><description>
+  </description></interface><interface uri="http://repo.roscidus.com/utils/graphviz"><name>graphviz</name><summary>Open Source Graph Visualization Software</summary><description>
 Open Source Graph Visualization Software</description><homepage>http://www.graphviz.org/</homepage></interface><interface uri="http://repo.roscidus.com/utils/bash"><name>bash</name><summary>the GNU Bourne Again shell</summary><description>
 Bash is the shell, or command language interpreter, for the GNU operating
 system. The name is an acronym for the ‘Bourne-Again SHell’, a pun on
@@ -318,11 +306,11 @@ Drupal is an open source content management platform powering millions of
 websites and applications. It’s built, used, and supported by an active and
 diverse community of people around the world.</description><homepage>http://drupal.org</homepage><category>Network</category></interface></c:catalog>
 <!-- Base64 Signature
-iQEcBAABCgAGBQJT/cnXAAoJECLqERp+QkKkTQwIANIau383+U8FpYauhlTOMRXvw40D4ZQbrSXi
-1TbCOXWVDYvMRzQJKMt2OfpdH2NXuiGtjG8Xi7GbuVOqjZWYMzzkbSiHq1F++z6uaQGlsEwdezRK
-oo4lHNxkqGfpbDhQobq56PY3pJiaqwcyio/6hVRHPJ0/EN3ZhD/BDVLqO3JM8cR7p2xAhSNw77R7
-PUw64/ehg8A0dAhoKOGEiSVM4n+ihIocLkzzvcOoELAtoMlt8Nf9+dWmaiIw2Vop4Sq0APNfvWMS
-SWAxqBagrQWCthPYHvedBEt8PU3xFOOf9jiYiw9DY1qDDGSaNOWWIrBJ2faE+K2qyAXa1jTxFYjK
-mGs=
+iQEcBAABCgAGBQJT/cw/AAoJECLqERp+QkKkOKYH/3c2JLcGcNttbQvlq9m2LUGIXq0LA943pzyG
+4fNsNQ0cb/21HFX7XIxYHLc8JsJ61+MoNIZMBTfDxS4dawYLu+aF1zfCbKkBJjC3GtYzbe8/xx9N
+5uFoiurJrvE2i95IidcEvuo4qeH+IFKLqXe01yN61+bGutgotOSjC3Hl6IVBalHPCsQOtJY8YlVT
+wfvND7CVxr89HYbgNgIDsd66FZDmocCPLGi3GwmBKARvH1Dqfwp4G/EDdI8LSsJZHbEz7kIaps37
+tJRrL6ja8B7rPdhRWHYkY4zOsphzQXJ14tbid2wpxV4hxlPCi6JePEp4Jz/zyEVInGdGNZh1eKdt
+Ivc=
 
 -->
