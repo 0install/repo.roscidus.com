@@ -20,6 +20,9 @@ finally solved by solver clasp.</description>
       <arg>-s</arg><arg>${ASPCUD_HOME}/clasp</arg>
       <arg>-g</arg><arg>${ASPCUD_HOME}/gringo</arg>
     </command>
+    <implementation arch="MacOSX-*" id="sha1new=26d7c0006817c8717ba63f2be2850a42519d1c77" released="2014-08-27" version="1.9.0">
+      <archive extract="aspcud-1.9.0-macos-10.9" href="http://downloads.sourceforge.net/project/potassco/aspcud/1.9.0/aspcud-1.9.0-macos-10.9.tar.gz" size="2351404" type="application/x-compressed-tar"/>
+    </implementation>
     <implementation arch="Linux-i686" id="sha1new=1fadafaa0c5be52d0169e03b79dbaad1938017ff" released="2014-08-27" version="1.9.0">
       <archive extract="aspcud-1.9.0-x86-linux" href="http://downloads.sourceforge.net/project/potassco/aspcud/1.9.0/aspcud-1.9.0-x86-linux.tar.gz" size="3097241" type="application/x-compressed-tar"/>
     </implementation>
@@ -29,11 +32,11 @@ finally solved by solver clasp.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCgAGBQJT/cw/AAoJECLqERp+QkKkF3AIAL8XybQnW2BCn1zmD7QRBhanCgqPF1deZ4EA
-Fmx3aXpK2DS9RZk0a1k2BUAJbSlr52JRJL/whL11yB7Hl/6B/HHpUcJlk/WrBrAsKciKFsfXuEDo
-qk2nxFOwluxGhKl7rzONG9x957Z1bMyeilGBJNVxWffjiUTiCwcAREoA1UxQaskqEl/ljyvFiiwu
-g4Um9h3Iuuw2DDVzXTOLkskkgITu7Jo52NN01+oxUdYBxGFgMTAWifypvn6WEc4NpMpyIoixuoTz
-QtCyEH3Np+l+DlvpmRbtQ8fPODrGFCAQ6mj4UQ433x8+5JCaM8QFyqu6ahZOQU9oZe8O7J3PmeoU
-45E=
+iQEcBAABCgAGBQJT/dPpAAoJECLqERp+QkKk2DUIANkX/Xu8AOxRwljD5bAmtdbjGoZlZw+Ah9s+
+0JTP8vmDdmbYvdV7vZW2qp9bgUdQ07xMYYSyMNvkPbTbGPz/nE3lZurERAvMtexeiv9f0Y7TKHTE
+347tC6tVMRrKItZx7KyXb+3nAn58nLpkJfBaVMb3JzyDjNmYbXK/c3jNRKMRDCoySnnIFtKdG3UU
+yAuyJo06NFlK8Pz091JTbSNC5bdzONL4XHMzwBYJvcoVnm934PNl4HvfEBF5aKZkW/J6oESUOoM+
++gDuCYOfjQBuwAnhMyMqkxLMfJXzHEERCHbeei6IyGxPizC5p83v0QnNr2+FqI1uyxo9F1Nn3LuG
+3OE=
 
 -->
