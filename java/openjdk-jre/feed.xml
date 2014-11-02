@@ -11,21 +11,32 @@
 
   <feed arch="Windows-*" src="http://0install.de/feeds/Oracle_JRE.xml"/>
 
-  <!-- Note: 0install >= 1.11 will fill in the correct main value automatically. -->
-  <package-implementation distributions="Debian" main="/usr/bin/java" package="openjdk-7-jre"/>
-  <package-implementation distributions="RPM" main="/usr/bin/java" package="java-1_7_0-openjdk"/>
-  <package-implementation distributions="RPM" main="/usr/bin/java" package="java-1.7.0-openjdk"/>
-  <package-implementation distributions="Arch" main="/usr/bin/java" package="jre7-openjdk"/>
+  <group>
+    <!-- There is a seperate GUI version of the Java executable on Windows. On POSIX systems we simply map it back to regular Java. -->
+    <command name="run-gui">
+      <runner interface="http://repo.roscidus.com/java/openjdk-jre"/>
+    </command>
 
-  <package-implementation distributions="Windows Darwin" package="openjdk-7-jre"/>
-  <package-implementation distributions="Windows Darwin" package="openjdk-8-jre"/>
+    <!-- Note: 0install >= 1.11 will fill in the correct main value automatically. -->
+    <package-implementation distributions="Debian" main="/usr/bin/java" package="openjdk-7-jre"/>
+    <package-implementation distributions="RPM" main="/usr/bin/java" package="java-1_7_0-openjdk"/>
+    <package-implementation distributions="RPM" main="/usr/bin/java" package="java-1.7.0-openjdk"/>
+    <package-implementation distributions="Arch" main="/usr/bin/java" package="jre7-openjdk"/>
+    <package-implementation distributions="Arch" main="/usr/bin/java" package="jre8-openjdk"/>
+
+    <package-implementation distributions="Darwin" package="openjdk-7-jre"/>
+    <package-implementation distributions="Darwin" package="openjdk-8-jre"/>
+  </group>
+
+  <package-implementation distributions="Windows" package="openjdk-7-jre"/>
+  <package-implementation distributions="Windows" package="openjdk-8-jre"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCgAGBQJTcJZdAAoJECLqERp+QkKkVocIAN9PI8hCO0JPA4eRBvd9yPE8hKPjMlwl5M23
-huhARFr/W2FlmPqfi/1NXmjE8iDgtU154iylhPsGMLLLTZiAOFpZhWm0YVoAdwBDdbRtyfUOgzkP
-FtFHL/XaZU/ZB/yYr4u/pFQf3F2o3bbTpsFEuOh3bLSFgj7bw/53IwotpUcOX1zJrIsvl9QMQdfp
-+E5OwaDfni6fzsE3qDpo9z7DRQEK/heewakD1v6Engbgj/aenip1vKfsHu5d2vvXSDUtIzejUf4v
-Z96IjRN7uNAeLGrb09gMJk5DABj5AEMVVRBeD2LcvQOqWOMTPz3wJa5+EQmdwGj48QbkgBzZZKFQ
-kAU=
+iQEcBAABCgAGBQJUVhe7AAoJECLqERp+QkKksq0IAOQ/+Zd3gADEr4XIiDTD35g+lUbUHgU2T4G/
+6DgHEqtd/o9kRIDl/9YffcCWXQZxR4mB6PKhV4+AqYqokbHEBI+1S8GRejjmVbExSgOnbjG23imP
+VBCi7nvfE6OZGHUSc/NvCarP4hteS1+235xcV1t1CHcDO5AGUWBS0EDMW8KX9KKwm5VF5NOFN+IN
+uO0hrLTYFhpBQjgj0jwLZexc9VWfS9YBA4xTGE7VOh+sk0AO4xfZCX9aaZpz8iq3mcYpUBTP9Ixb
+KXe5V/st524FLZQmtYzVvS8GTB/+AhtWmXMmJi+LaeJTLtSfLbCxoC/F1yPJAukEWx2nZfXOBFxz
+SX0=
 
 -->
