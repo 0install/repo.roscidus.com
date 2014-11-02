@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/git/core" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>git-core</name>
   <summary>fast, scalable, distributed revision control system</summary>
@@ -21,6 +21,7 @@ provided as separate git* packages.</description>
   <feed arch="Windows-*" src="http://0install.de/feeds/msysgit.xml"/>
 
   <package-implementation main="/usr/bin/git" package="git-core"/>
+  <package-implementation main="/usr/bin/git" package="git"/>
   <group doc-dir="usr/share/doc" main="usr/bin/git">
   </group>
   <group>
@@ -70,11 +71,11 @@ provided as separate git* packages.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJP6154AAoJEAcTP5bKdNi6q00H/RQZGZe60douLmBt1ilL7nUkNFa3USzT40Qb
-HSk+peoC/fuPToOJaUdrXIdi8JymEetiyJTFbjHMC6GD9saxccGF50X7pRzdp5ZDH7O9Y7NeGDAL
-b4ue6GdV5Uhg5xa7pxJ7psWCnqBzBMwYLlNoUfA5zqBDf08AaClY3IiFIi6LNs6tFp+eNcb1znsU
-yyHs7BkWzo2CSGGt78LHTNcMHk8TMTLKMbV6/ZiPYyms7uoJ1vN+5ex4ANj1ZoCFtVpMBjBkGsF/
-3q718IgjAN5nkJy7Kqu3SzqwBStZrhmteIAzPAv2Q1rIdIsduHvbauzO/ZQaGK5F6Df+H7Q1NXRI
-SKY=
+iQEcBAABCgAGBQJUVh+LAAoJECLqERp+QkKkcWcH/jMgzZknQOi1QNFF3y3McaaZXdrJ91dpCab6
+AY2CKIvgMQNiX3ietlGLIpr/dt2V730+KDcC40Tlo9MElXYqMpSioXJTdqHK3E9tfJcGJBatNgH8
+dJ2dHNTXkeWG/LTtdurVErBgDIspp5aMMYxBO9/GlG9sPAibh+1u4fiGSwhXovS0JniNYcXgu1bA
+5PZ/8C8bdB5r5mORQSOHefq/KFIZOo9RM6z/VFq+lIYrSHZN4TSSSJck4O6SufvYTod259EThRAI
+rZvnN/wSvV3BEMQafilcAzbpjBNALKMUKtROAZuImXCy5Q1MR67g60dCw95tEah5kxdJclfiRqqo
+h1E=
 
 -->
