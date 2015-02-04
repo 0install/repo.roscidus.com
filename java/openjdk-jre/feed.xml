@@ -21,6 +21,7 @@
     <package-implementation distributions="Debian" main="/usr/bin/java" package="openjdk-7-jre"/>
     <package-implementation distributions="RPM" main="/usr/bin/java" package="java-1_7_0-openjdk"/>
     <package-implementation distributions="RPM" main="/usr/bin/java" package="java-1.7.0-openjdk"/>
+    <package-implementation distributions="RPM" main="/usr/bin/java" package="java-1.8.0-openjdk"/>
     <package-implementation distributions="Arch" main="/usr/bin/java" package="jre7-openjdk"/>
     <package-implementation distributions="Arch" main="/usr/bin/java" package="jre8-openjdk"/>
 
@@ -32,11 +33,11 @@
   <package-implementation distributions="Windows" package="openjdk-8-jre"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCgAGBQJUVhe7AAoJECLqERp+QkKksq0IAOQ/+Zd3gADEr4XIiDTD35g+lUbUHgU2T4G/
-6DgHEqtd/o9kRIDl/9YffcCWXQZxR4mB6PKhV4+AqYqokbHEBI+1S8GRejjmVbExSgOnbjG23imP
-VBCi7nvfE6OZGHUSc/NvCarP4hteS1+235xcV1t1CHcDO5AGUWBS0EDMW8KX9KKwm5VF5NOFN+IN
-uO0hrLTYFhpBQjgj0jwLZexc9VWfS9YBA4xTGE7VOh+sk0AO4xfZCX9aaZpz8iq3mcYpUBTP9Ixb
-KXe5V/st524FLZQmtYzVvS8GTB/+AhtWmXMmJi+LaeJTLtSfLbCxoC/F1yPJAukEWx2nZfXOBFxz
-SX0=
+iQEcBAABCAAGBQJU0mDUAAoJECLqERp+QkKk1LUH/1G6SjG5vlD+51urGmO9NPwtbzKkj6VV/ElB
+b0FGZHrWrg0KD1CHaVOxXQ/NEGYTrr6uGRFvFs6R3iDf2hYjqOxjRoPyDGyP/0QLNGF8ZOt+qKBx
+soo1I9YlBLESj2p4p06iO9BdFliqkktX7S/T7Fhus3kvp2erC6n6+qFTR3yNDp4bSG3D2PneZ5SU
+elnRYJ6zPXY55WF7LS7W4zb6CcquQJJJJRA9ktgQGnaQ071/P9kJrZMQKwa597XkN2SdOqMcmpnD
+p2y+39Jj6agjr3m086mHkPg0UITRz0mgK0WQRIYzMQqIlcTS7BzMOeJU6um+8cFiV07oirk+8OOt
+1w4=
 
 -->
