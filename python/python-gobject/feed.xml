@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/python/python-gobject" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>python-gobject</name>
   <summary>Python bindings for the GObject library</summary>
@@ -29,6 +29,7 @@ the core library used to build GTK+ and GNOME.
       <version before="3" not-before="2"/>
     </restricts>
 
+    <package-implementation distributions="Debian" package="python-gobject"/>	<!-- Ubuntu 10.04 -->
     <package-implementation distributions="Debian" package="python-gobject-2"/>
     <package-implementation package="pygobject2"/>
     <package-implementation package="python-gobject2"/>
@@ -37,11 +38,11 @@ the core library used to build GTK+ and GNOME.
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJRHmNtAAoJEAcTP5bKdNi6td8H/if4MKAhEZn0skYFsz0mI6Ys4sNckgaWdSAb
-p/S10bT+Et2A02IFFMaRtSzfSMqIoawvfOs+//b26C+llM/xjOBz9xs291k/MCmigjHAz5K3h66p
-lNP1qDDH417aKHNUXuJCCLwb5jKMmugIUDqoJX4k0X2Kc9bBGgiM7voOi8CGGbuNvUZX6ds1Q7cZ
-UwzM4Fti9TjAQmjtnBaF5vFN8P20kcTz3DPc015aYbyQ1sG/w8RUTz3hNWGZjBImSNiR3ELnhfUx
-dxiRj4px+4Xsac+EFjuHtczxmbxyfZfC63/utd4qqbod9elG89zFXVCPDgmEcssfUn60W8SmuyJZ
-9h8=
+iQEcBAABCAAGBQJWEW1sAAoJECLqERp+QkKkwRIH/1DWaMYI7yGeCYFrS+wHmMwG9TRnnFyNdgga
+fQLMqtPySwYOp81/vIlovdt94ACaImmu740oe4zHDisHL94mjec/qJ+uyEqW7d84Vfs/ZLk2kC5/
+zqmk7gHzojQSEmZ/PoaSWUcAuxphVl7NnXMAeF6EbDqH9ASd94B9/90Z+a+hZTQ5+JQIikhcagcH
+r2TdbyKofReS/Xpr2Hkxb9r3KCaBajoRhDgHu6j+/nqkqxrYUh8HW7V6MR8kt9UzzySRJ1IUhWyR
+/mp/y8qCysTUULYDGUhck5nf3wMqrtwnIHuzXM9oERGYvBQiOIq17Onw5SkG9/HLmmyNlSZtMU4Y
+2co=
 
 -->
