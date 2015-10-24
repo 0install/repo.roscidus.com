@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/devel/make" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>make</name>
   <summary>The GNU version of the &quot;make&quot; utility.</summary>
@@ -14,6 +14,7 @@ the Debian Free Software Guidelines, and has been removed from this package.</de
   <needs-terminal/>
   <homepage>http://www.gnu.org/software/make/</homepage>
   <package-implementation main="/usr/bin/make" package="make"/>
+  <package-implementation distributions="FreeBSD" main="/usr/local/bin/gmake" package="gmake"/>
   <package-implementation distributions="MacPorts" main="/opt/local/bin/gmake" package="gmake"/>
   <feed arch="Windows-*" src="http://0install.de/feeds/make.xml"/>
   <group arch="Linux-i386" main="bin/make">
@@ -33,11 +34,11 @@ the Debian Free Software Guidelines, and has been removed from this package.</de
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJP/wdRAAoJEAcTP5bKdNi6OUMH/2hT1LDfYGn9PXmN9gEzXhg/zbJ5j2zOaTT8
-N5Y33B2PwszaE+ghsCzkdkk0ewRtLmisRQ78G+mjYsWDY4kuewoVewGr2FuAUx289AUJSVfENg4w
-zAofD2WwxQS7UqvdBlgKBiIm+6NYonqDhiwjgVOnNUl0k9LKhAq/33DrYM0HYBE7UtYHAFUZEldh
-Vy50LU5UXZfQFg/h9HY6sz3LZc+KHGHS9SEntOjUOnC08elCaUALFmZtIRL31PIfw9Wpz7kVEMWQ
-H+hHde4BA1ksy6U/3g7dd2Pu/U/07Fbr3PSkhKexjVif/uGujZ/G5iW80YUyjrdwmxHpOyR9o4FH
-V+M=
+iQEcBAABCAAGBQJWK7H/AAoJECLqERp+QkKkHZwIALWKbq39Nigxbu25l0Op5pB9MTppTG9HW8AR
+Mp1/TJScXTp18B0TJ125dcTxLgwUGMIiauhm8QQRd76BrOXy7hZfufxwaFZJZHlYnQeUvpn69g9E
+DFZOI1vzCRoWsOh5w9ySsNgFbXKUiTNVIFqkErD6tTYFTBkSRPaQNj1dNP5LJjz7oHLQ/kGQUFoT
+B3ilTitAhqOxFQ+TQfjDC/RIoW1obe1tzDDMR9jvuMfCztzEmGTMgpczh21VJZ147Ehlw7gHo7CM
+3Lb9pfW4iyRrG6/w4oxsS9gYwF7jg8BW4gcpyNex3rfoy4u/gaUclXggKRg1REfSiGOrtxzKZRIi
+3Vo=
 
 -->
