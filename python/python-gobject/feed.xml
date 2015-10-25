@@ -14,6 +14,8 @@ the core library used to build GTK+ and GNOME.
       <version before="4" not-before="3"/>
     </restricts>
 
+    <package-implementation distributions="FreeBSD" package="py34-gobject3"/>
+
     <!-- On Debian, python3-gobject is virtual and replaced by python3-gi -->
     <package-implementation distributions="Debian" package="python3-gi"/>
 
@@ -29,6 +31,7 @@ the core library used to build GTK+ and GNOME.
       <version before="3" not-before="2"/>
     </restricts>
 
+    <package-implementation distributions="FreeBSD" package="py27-gobject"/>
     <package-implementation distributions="Debian" package="python-gobject"/>	<!-- Ubuntu 10.04 -->
     <package-implementation distributions="Debian" package="python-gobject-2"/>
     <package-implementation package="pygobject2"/>
@@ -38,11 +41,11 @@ the core library used to build GTK+ and GNOME.
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJWEW1sAAoJECLqERp+QkKkwRIH/1DWaMYI7yGeCYFrS+wHmMwG9TRnnFyNdgga
-fQLMqtPySwYOp81/vIlovdt94ACaImmu740oe4zHDisHL94mjec/qJ+uyEqW7d84Vfs/ZLk2kC5/
-zqmk7gHzojQSEmZ/PoaSWUcAuxphVl7NnXMAeF6EbDqH9ASd94B9/90Z+a+hZTQ5+JQIikhcagcH
-r2TdbyKofReS/Xpr2Hkxb9r3KCaBajoRhDgHu6j+/nqkqxrYUh8HW7V6MR8kt9UzzySRJ1IUhWyR
-/mp/y8qCysTUULYDGUhck5nf3wMqrtwnIHuzXM9oERGYvBQiOIq17Onw5SkG9/HLmmyNlSZtMU4Y
-2co=
+iQEcBAABCAAGBQJWLRtBAAoJECLqERp+QkKk2F0IAIB4d4PCD73CeclRudNe+qFpqbeVWopVaeKk
+S5AYJBnyBS9/wiaXnXgItUZHcKGe6Mx5LEflvDozPDINNHlC2sM9hpw3YUJpRYPJeAlcwRSfNjxc
+qfxPfAWcFHNwVh13hvUwdQrXoRNRCXqy6/mZ8fZtCAMyB4jUcKPB18wjdmbPWl9GsOiOJoMz1SZ7
+kPcrBQeFE+pv4qm+gVAw93nX+U44JThiI/aBbUiVItMVG0l+p+FATu3bmSrWTqTSXlQ31jFimbvI
+oaDU5oAOjcJ1EDOL515g7ObdQk0mFG5+5TWygHDHRA4vR3/Dnbl9lSgz57xzAfFH8dXMzcAi60hI
+ut4=
 
 -->
