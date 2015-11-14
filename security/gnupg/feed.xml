@@ -13,7 +13,8 @@ GnuPG does not use any patented algorithms so it cannot be compatible with PGP2
 because it uses IDEA (which is patented worldwide).</description>
   <package-implementation distributions="RPM" main="/usr/bin/gpg2" package="gpg2"/>
   <package-implementation distributions="RPM" main="/usr/bin/gpg2" package="gnupg2"/>
-  <package-implementation distributions="Arch Slack Debian RPM Gentoo Cygwin" main="/usr/bin/gpg" package="gnupg"/>
+  <package-implementation distributions="Arch Slack Debian RPM Cygwin" main="/usr/bin/gpg" package="gnupg"/>
+  <package-implementation distributions="Gentoo" main="/usr/bin/gpg" package="app-crypt/gnupg"/>
   <package-implementation distributions="MacPorts" main="/opt/local/bin/gpg" package="gnupg"/>
 
   <package-implementation distributions="Darwin" main="/usr/local/bin/gpg" package="gnupg"/>
@@ -44,11 +45,11 @@ because it uses IDEA (which is patented worldwide).</description>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJSAkHJAAoJECLqERp+QkKkRaUIAO+CzpJ1Q4TWCBxAPUUAGefSXVu/V4i9I6A3
-aQJAZMe+WIrAtmOU7IcCKBlNO3r9hKBic29vILxRFf7xn+bwGGxm+4YCZ8O/hNsVOGNW7o3IAfSJ
-dEOG8bviUQ6Rkvm/vG8IFJAqqGkI7OXMCGzEoHDvSTQqN6QwgODZiUnpfu4MgOy290DRTcJX657r
-OyitOhIJnYxVWhP2GjU0J41kxj+JWoRW7El9SBEXqA5BROlwLa6zMcUseZj72eT8LppbYJhJnDVW
-3hMsoxpduxj3DsnlIN4VYILCp4MxnzGJCFiWc5VwqPO90Yy1TbcXSKP5vJT6sae6DG9SEOqfSHYc
-ufI=
+iQEcBAABCAAGBQJWRxtTAAoJECLqERp+QkKkld0H/iNahd949qjkgWSQRfg1F1Rf1WjSVZNjSWWY
+yiKudPAq6sLA9gb+yitZjdIXHQniA/KqZbdNuLeYZ7R5cnRB00bQ4FxBUYabp/3nmCLmGN0lFhL8
+di1IZz+KNI6ueyXCg4/yaXHeXO69mtQzTYhr7Mm/WI//49U9XLa939syevrtCIPKh7H9cCIBsLyU
+mST158GMURM6yWYHqg7fl2AgBcMUO9DyFbul1sYLEjGpeM8So5T7Lae6s0JWGz8UY5xHcIOfQggj
+wBbbBUkxaKiGM2LqJ28pKf1u7U4+oY+DnctEYiyz+y3fZcyWHq7sfptlF//RYkFWienCK6Qy0qCM
+PkA=
 
 -->
