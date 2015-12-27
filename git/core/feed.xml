@@ -18,7 +18,7 @@ visualizer, tools for interoperating with other VCS's, or a web interface, is
 provided as separate git* packages.</description>
   <category>Development</category>
 
-  <feed arch="Windows-*" src="http://0install.de/feeds/msysgit.xml"/>
+  <feed arch="Windows-*" src="http://0install.de/feeds/Git_for_Windows.xml"/>
 
   <package-implementation main="/usr/bin/git" package="git-core"/>
   <package-implementation main="/usr/bin/git" package="git"/>
@@ -71,11 +71,11 @@ provided as separate git* packages.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCgAGBQJUVh+LAAoJECLqERp+QkKkcWcH/jMgzZknQOi1QNFF3y3McaaZXdrJ91dpCab6
-AY2CKIvgMQNiX3ietlGLIpr/dt2V730+KDcC40Tlo9MElXYqMpSioXJTdqHK3E9tfJcGJBatNgH8
-dJ2dHNTXkeWG/LTtdurVErBgDIspp5aMMYxBO9/GlG9sPAibh+1u4fiGSwhXovS0JniNYcXgu1bA
-5PZ/8C8bdB5r5mORQSOHefq/KFIZOo9RM6z/VFq+lIYrSHZN4TSSSJck4O6SufvYTod259EThRAI
-rZvnN/wSvV3BEMQafilcAzbpjBNALKMUKtROAZuImXCy5Q1MR67g60dCw95tEah5kxdJclfiRqqo
-h1E=
+iQEcBAABCAAGBQJWf9zPAAoJECLqERp+QkKkcqQIANDMJ+abCdf+9xIm8GUL6JQSmeYiZ4tWLa+M
+jtK26Gmgsy2+yBDZE95KyvwEpOf4UeYtXnBNuh1apcGS7HiwDtTUdyUeATJwCdJXmSJuk5mBrWd5
+ZOPJ0v9m6WqNjCt/Nv48JR5/0Mk/1m2a4ixJCAMlur4BB/BsWYGID5cUq+B21zYCm+VTtTGGxerN
+cBMrkoTMqo51iHXdNnT8AYscOFAToQnoMzkMNwdL2SYfA4H0K7fwHXOJvlHzBx1DzquZCI7Vdn65
+/YVmxIzFO8PjeihMmsEOZy6HN678zwXw3N+o3FJZ2DgRaKSkp4LX3ZkZ972NgVt7jxfCFAibezBY
+elQ=
 
 -->
