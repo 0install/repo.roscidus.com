@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/devel/gcc-c" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>gcc-c</name>
+  <summary>gcc C compiler</summary>
+  <description/>
+  <homepage>https://gcc.gnu.org/</homepage>
+  <package-implementation distributions="RPM" package="gcc"/>
+  <package-implementation distributions="Debian" package="gcc"/>
+  <package-implementation distributions="Gentoo" package="sys-devel/gcc"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABCAAGBQJYelPlAAoJECLqERp+QkKkLRYH/jiQPAhiSGi8uANpVorfRekhJs5iJTwl9gkv
+siadlenJWVBh1akM5p0g0FbxpNT84arlwXPR76n0GSVAacpA42e9QrnvADVjtQp09isgNtS82lzl
+nwBUySX2JvKxvythsM1StVIPm2/e1L1HfoCqQTx5ZfTCRc7aUv/dNemoa8ZhfNS2De/sly/VRdMR
+lwcerdgaD+cOk9Eu4x3xq4E4p9dmRFTtKIE2bE50KWFTVqYx5Vi0oG9UfGAnIntP2DDzUeZjIkmJ
+IiMyNKdbJslcLBAbGVsqmeJxqiRhtnYf9g5gPzJv0MVs8zRLbplPPoZYBC1I+r4a0vb5pZ+qTVVx
+Opg=
+
+-->

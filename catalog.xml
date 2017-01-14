@@ -17,7 +17,7 @@ capabilities, not dependent on network access or a central server.
 This package provides the git main components with minimal dependencies.
 Additional functionality, e.g. a graphical user interface and revision tree
 visualizer, tools for interoperating with other VCS's, or a web interface, is
-provided as separate git* packages.</description><category>Development</category></interface><interface uri="http://repo.roscidus.com/devel/glade"><name>Glade</name><summary>a User Interface Designer</summary><description>
+provided as separate git* packages.</description><category>Development</category></interface><interface uri="http://repo.roscidus.com/devel/gcc-c"><name>gcc-c</name><summary>gcc C compiler</summary><description/><homepage>https://gcc.gnu.org/</homepage></interface><interface uri="http://repo.roscidus.com/devel/glade"><name>Glade</name><summary>a User Interface Designer</summary><description>
 Glade is a RAD tool to enable quick &amp; easy development of user interfaces for
 the GTK+ toolkit and the GNOME desktop environment.
 
@@ -37,7 +37,7 @@ pkg-config is a system for managing library compile and link flags that works
 with automake and autoconf.
 
 Increasingly libraries ship with &quot;.pc&quot; files that allow querying of the compiler
-and linker flags needed to use them through the pkg-config(1) program.</description><category>Development</category><homepage>http://pkg-config.freedesktop.org/</homepage></interface><interface uri="http://repo.roscidus.com/utils/curl"><name>curl</name><summary>command line tool for transferring data</summary><description>
+and linker flags needed to use them through the pkg-config(1) program.</description><category>Development</category><homepage>http://pkg-config.freedesktop.org/</homepage></interface><interface uri="http://repo.roscidus.com/devel/gcc-c++"><name>gcc-c++</name><summary>gcc C++ compiler</summary><description/><homepage>https://gcc.gnu.org/</homepage></interface><interface uri="http://repo.roscidus.com/utils/curl"><name>curl</name><summary>command line tool for transferring data</summary><description>
     curl is a command line tool for transferring data with URL syntax,
     supporting DICT, FILE, FTP, FTPS, Gopher, HTTP, HTTPS, IMAP, IMAPS,
     LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMTP, SMTPS, Telnet
@@ -166,7 +166,7 @@ Sphinx is a tool that makes it easy to create intelligent and beautiful
 documentation. It was originally created for the new Python documentation, and
 it has excellent facilities for the documentation of Python projects, but C/C++
 is already supported as well, and it is planned to add special support for other
-languages as well.</description></interface><interface uri="http://repo.roscidus.com/python/docutils"><name>python-docutils</name><summary>processes plaintext into HTML, XML, LaTeX, etc</summary><description>
+languages as well.</description></interface><interface uri="http://repo.roscidus.com/python/dbus-python"><name>dbus-python</name><summary>dbus-python</summary><description/></interface><interface uri="http://repo.roscidus.com/python/docutils"><name>python-docutils</name><summary>processes plaintext into HTML, XML, LaTeX, etc</summary><description>
 Docutils is an open-source text processing system for processing plaintext
 documentation into useful formats, such as HTML, LaTeX, man-pages, open-document
 or XML. It includes reStructuredText, the easy to read, easy to use, what-you-
@@ -306,11 +306,11 @@ that GCC uses to overcome shortcomings of particular machines, or
 special needs for some languages.</description></interface><interface uri="http://repo.roscidus.com/lib/ldap-2.4-2"><name>libldap-2.4-2</name><summary>OpenLDAP libraries</summary><description>These are the run-time libraries for the OpenLDAP (Lightweight Directory
 Access Protocol) servers and clients.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJWEW1zAAoJECLqERp+QkKkMN0H/0Cx6muRZ5YCIUiqfLihp5Uc0V2il4Hbt+j1
-Bf0qKJXVJMfX1cMLTaGAIhCWXvyFezNdpfnzGqzat5ITdHyM/1FkaksTXOuRzMz9tLEmOaIIAT/2
-c6z8gqBuoiyarevPcpcLm4P8FaAJA2Z/kMTpESBrUxtPZ+TMR+5l13FU0puKByR8fFO+ZHCMMcg/
-ef5Si09ff5EYmorQ93ZarnyO9rBdgz3z+N1dEW/jyjl0LPbxCKCFB13BWruvW8Te2zph/HTfdNHt
-5d3whE50fS8ZoJcCVGjv1884B9Wmaok6iUekCTWzHRPBtMW92CqNYCO2leTZ/BaniQRzcHR0RGCx
-XFQ=
+iQEcBAABCAAGBQJYelPxAAoJECLqERp+QkKkBWMH/2POw+zJUGUS/bX2j/3NoM7TMHGXUutYOS1i
+T2e1sn6rb9dxol0o2OIpJ51dXml5RkmYkTYHsf3HkxYyyAwVatI9xAIy5enzHG/qmT7s82a180rq
+TbfPUTBLBRqazuA/1dNYj0eKD1DAkLfXmYHgPtdVVSQBf3o57FFzCayyBJZa/v4GN8/a+v+xsiWw
+t2bnnWCesplBMktZKGk9jl/Q4qMtP9mk5O7OLAyHQvL/FwmuqM5VN8i/bfalKoowH8+7QsVZXm9J
+gZRDZfQa/o0NuEKsTX6g9ci/V0dXaxCcX3uMxDL+bLo+RVaq1Ag4Ttz3DCQonch5v4ZSn+lfES2a
+CEs=
 
 -->
