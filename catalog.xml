@@ -127,7 +127,7 @@ because it uses IDEA (which is patented worldwide).</description></interface><in
 GObject is an abstraction layer that allows programming with an object
 paradigm that is compatible with many languages. It is a part of Glib,
 the core library used to build GTK+ and GNOME.
-  </description><homepage>https://wiki.gnome.org/action/show/Projects/PyGObject</homepage></interface><interface uri="http://repo.roscidus.com/python/python-cairo"><name>python-cairo</name><summary>Python bindings for the cairo graphics library</summary><description>Pycairo is a set of Python bindings for the cairo graphics library.</description><homepage>http://cairographics.org/pycairo/</homepage></interface><interface uri="http://repo.roscidus.com/python/whoosh"><name>python-whoosh</name><summary>fast, pure-Python full text indexing, search, and spell checking library</summary><homepage>http://bitbucket.org/mchaput/whoosh</homepage><description>
+  </description><homepage>https://wiki.gnome.org/action/show/Projects/PyGObject</homepage></interface><interface uri="http://repo.roscidus.com/python/python-cairo"><name>python-cairo</name><summary>Python bindings for the cairo graphics library</summary><description>Pycairo is a set of Python bindings for the cairo graphics library.</description><homepage>http://cairographics.org/pycairo/</homepage></interface><interface uri="http://repo.roscidus.com/python/python-win32"><name>Python for Windows Extensions</name><summary>Python Bindings for the Win32 API</summary><description>The Python for Windows Extensions provide bindings for the Win32 API.</description><homepage>https://sourceforge.net/projects/pywin32/</homepage></interface><interface uri="http://repo.roscidus.com/python/whoosh"><name>python-whoosh</name><summary>fast, pure-Python full text indexing, search, and spell checking library</summary><homepage>http://bitbucket.org/mchaput/whoosh</homepage><description>
     Whoosh is a fast, featureful full-text indexing and searching library
     implemented in pure Python. Programmers can use it to easily add search
     functionality to their applications and websites. Every part of how Whoosh
@@ -161,7 +161,7 @@ the core library used to build GTK+ and GNOME.
 
     This software is licensed under the terms of the simplified BSD (A.K.A. &quot;two
     clause&quot; or &quot;FreeBSD&quot;) license. See LICENSE.txt for information.
-  </description></interface><interface uri="http://repo.roscidus.com/python/sphinx"><name>python-sphinx</name><summary>tool for producing documentation for Python projects</summary><description>
+  </description></interface><interface uri="http://repo.roscidus.com/python/python-gtk"><name>python-gtk</name><summary>Python Bindings for GTK+</summary><description>PyGTK lets you to easily create programs with a graphical user interface using the Python programming language. The underlying GTK+ library provides all kind of visual elements and utilities for it and, if needed, you can develop full featured applications for the GNOME Desktop.</description><homepage>http://www.pygtk.org/</homepage></interface><interface uri="http://repo.roscidus.com/python/sphinx"><name>python-sphinx</name><summary>tool for producing documentation for Python projects</summary><description>
 Sphinx is a tool that makes it easy to create intelligent and beautiful
 documentation. It was originally created for the new Python documentation, and
 it has excellent facilities for the documentation of Python projects, but C/C++
@@ -264,7 +264,7 @@ metalanguage for markup languages.
 
 This package provides a library providing an extensive API to handle
 such XML data files.</description></interface><interface uri="http://repo.roscidus.com/lib/gc"><name>libgc1c2</name><summary>conservative garbage collector for C and C++</summary><description>Boehm's GC is a garbage collecting storage allocator that is
-intended to be used as a plug-in replacement for C's malloc.</description></interface><interface uri="http://repo.roscidus.com/lib/gnutls26"><name>libgnutls26</name><summary>the GNU TLS library - runtime library</summary><description>gnutls is a portable library which implements the Transport Layer
+intended to be used as a plug-in replacement for C's malloc.</description></interface><interface uri="http://repo.roscidus.com/lib/gtk"><name>GTK+ Runtime</name><summary>runtime components of GTK+</summary><description>This package contains the runtime components for GTK+.</description><homepage>http://www.gtk.org/</homepage></interface><interface uri="http://repo.roscidus.com/lib/gnutls26"><name>libgnutls26</name><summary>the GNU TLS library - runtime library</summary><description>gnutls is a portable library which implements the Transport Layer
 Security (TLS) 1.0 and Secure Sockets Layer (SSL) 3.0 protocols.
 
 Currently gnutls implements:
@@ -306,11 +306,11 @@ that GCC uses to overcome shortcomings of particular machines, or
 special needs for some languages.</description></interface><interface uri="http://repo.roscidus.com/lib/ldap-2.4-2"><name>libldap-2.4-2</name><summary>OpenLDAP libraries</summary><description>These are the run-time libraries for the OpenLDAP (Lightweight Directory
 Access Protocol) servers and clients.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYelctAAoJECLqERp+QkKkfsMH/R5i4mSyT0BaqocOfjKdj86J0hcf233qvMcE
-H+S4vtzpzNAtclBWDH236ua+8Ml46WIXmySpHJCdSfhgxzGUdZp20wiyxlpIZRfAlAUl293D0oAK
-Y3IJvBLDaWXee0hqWbxdfL+bd83h0db7t6DMQ1u2Q6phuh182nzG4SF7FdyERKdTWivD6i89jyro
-lBK27085mILitnY84TDvK9W5i4jLnXJynyq0FbMm6akKnWo/bbfFLIAqE+JwkYYZees+OKKLOUyp
-Kh+Vwmm3e9mgsRNCebgHJNMT3sM6x+W1v+ZJAV0u4HLaryjZAuKNwLHJcHKTSDgGmJrzLYrBt9UG
-IfA=
+iQEcBAABCAAGBQJYelt9AAoJECLqERp+QkKk5AAIAOBGSWJ7AO3BB3/V4nmXdV0YSwCrYw0/O7pG
+r1MRMJga4JCkyEgvCo7HkH+6T349duaBFwOl6VWwlkE3vMKOwgVLk/SlnbLgjGfRKPWloTPIlohv
+YTecorThUOIvXOGc9YvWogeJiqvb1kIVkrWgD+4BgD/uON8wv+PHhwPuQnrae0vlcSXTehErDwCz
+jCObDYWu22R3avWPXBtSNFQ7DH0XZdKTI/ukMVgM0btXc8egqCBcqEsma7Lee5/WSVlFgOgtwjr1
+B8dguqoB9hjHsQbKUQLiMjJrX4toe0iXilJCM8Jeow4/vlbj6+eaTOHk9LnFjMNu+mB1d1ohZ2ge
+KFU=
 
 -->
