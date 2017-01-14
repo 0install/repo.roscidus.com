@@ -127,7 +127,7 @@ because it uses IDEA (which is patented worldwide).</description></interface><in
 GObject is an abstraction layer that allows programming with an object
 paradigm that is compatible with many languages. It is a part of Glib,
 the core library used to build GTK+ and GNOME.
-  </description></interface><interface uri="http://repo.roscidus.com/python/whoosh"><name>python-whoosh</name><summary>fast, pure-Python full text indexing, search, and spell checking library</summary><homepage>http://bitbucket.org/mchaput/whoosh</homepage><description>
+  </description><homepage>https://wiki.gnome.org/action/show/Projects/PyGObject</homepage></interface><interface uri="http://repo.roscidus.com/python/python-cairo"><name>python-cairo</name><summary>Python bindings for the cairo graphics library</summary><description>Pycairo is a set of Python bindings for the cairo graphics library.</description><homepage>http://cairographics.org/pycairo/</homepage></interface><interface uri="http://repo.roscidus.com/python/whoosh"><name>python-whoosh</name><summary>fast, pure-Python full text indexing, search, and spell checking library</summary><homepage>http://bitbucket.org/mchaput/whoosh</homepage><description>
     Whoosh is a fast, featureful full-text indexing and searching library
     implemented in pure Python. Programmers can use it to easily add search
     functionality to their applications and websites. Every part of how Whoosh
@@ -306,11 +306,11 @@ that GCC uses to overcome shortcomings of particular machines, or
 special needs for some languages.</description></interface><interface uri="http://repo.roscidus.com/lib/ldap-2.4-2"><name>libldap-2.4-2</name><summary>OpenLDAP libraries</summary><description>These are the run-time libraries for the OpenLDAP (Lightweight Directory
 Access Protocol) servers and clients.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYelPxAAoJECLqERp+QkKkBWMH/2POw+zJUGUS/bX2j/3NoM7TMHGXUutYOS1i
-T2e1sn6rb9dxol0o2OIpJ51dXml5RkmYkTYHsf3HkxYyyAwVatI9xAIy5enzHG/qmT7s82a180rq
-TbfPUTBLBRqazuA/1dNYj0eKD1DAkLfXmYHgPtdVVSQBf3o57FFzCayyBJZa/v4GN8/a+v+xsiWw
-t2bnnWCesplBMktZKGk9jl/Q4qMtP9mk5O7OLAyHQvL/FwmuqM5VN8i/bfalKoowH8+7QsVZXm9J
-gZRDZfQa/o0NuEKsTX6g9ci/V0dXaxCcX3uMxDL+bLo+RVaq1Ag4Ttz3DCQonch5v4ZSn+lfES2a
-CEs=
+iQEcBAABCAAGBQJYelctAAoJECLqERp+QkKkfsMH/R5i4mSyT0BaqocOfjKdj86J0hcf233qvMcE
+H+S4vtzpzNAtclBWDH236ua+8Ml46WIXmySpHJCdSfhgxzGUdZp20wiyxlpIZRfAlAUl293D0oAK
+Y3IJvBLDaWXee0hqWbxdfL+bd83h0db7t6DMQ1u2Q6phuh182nzG4SF7FdyERKdTWivD6i89jyro
+lBK27085mILitnY84TDvK9W5i4jLnXJynyq0FbMm6akKnWo/bbfFLIAqE+JwkYYZees+OKKLOUyp
+Kh+Vwmm3e9mgsRNCebgHJNMT3sM6x+W1v+ZJAV0u4HLaryjZAuKNwLHJcHKTSDgGmJrzLYrBt9UG
+IfA=
 
 -->
