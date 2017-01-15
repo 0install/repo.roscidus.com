@@ -34,7 +34,7 @@
           <version before="3.5" not-before="3.0"/>
         </runner>
       </command>
-      <manifest-digest sha1new="b416113cb680d304332f4ca54e27be5e0024a222"/>
+      <manifest-digest sha1new="b416113cb680d304332f4ca54e27be5e0024a222" sha256="aa9a1b225d07a14d5092ecc2922a2affbd87330aec218702f0c65cefa39b1316" sha256new="VKNBWIS5A6QU2UES5TBJEKRK766YOMYK5QQYOAXQYZOO7I43CMLA"/>
       <archive href="http://repo.roscidus.com/archives/cli-monopath/monopath-emulator.zip" size="10953" type="application/zip"/>
     </implementation>
     <implementation id="netfx-3.5" version="3.5">
@@ -48,7 +48,7 @@
           <version before="4.0" not-before="3.5"/>
         </runner>
       </command>
-      <manifest-digest sha1new="b416113cb680d304332f4ca54e27be5e0024a222"/>
+      <manifest-digest sha1new="b416113cb680d304332f4ca54e27be5e0024a222" sha256="aa9a1b225d07a14d5092ecc2922a2affbd87330aec218702f0c65cefa39b1316" sha256new="VKNBWIS5A6QU2UES5TBJEKRK766YOMYK5QQYOAXQYZOO7I43CMLA"/>
       <archive href="http://repo.roscidus.com/archives/cli-monopath/monopath-emulator.zip" size="10953" type="application/zip"/>
     </implementation>
     <implementation id="netfx-4.0" version="4.0">
@@ -62,7 +62,7 @@
           <version before="4.5" not-before="4.0"/>
         </runner>
       </command>
-      <manifest-digest sha1new="b416113cb680d304332f4ca54e27be5e0024a222"/>
+      <manifest-digest sha1new="b416113cb680d304332f4ca54e27be5e0024a222" sha256="aa9a1b225d07a14d5092ecc2922a2affbd87330aec218702f0c65cefa39b1316" sha256new="VKNBWIS5A6QU2UES5TBJEKRK766YOMYK5QQYOAXQYZOO7I43CMLA"/>
       <archive href="http://repo.roscidus.com/archives/cli-monopath/monopath-emulator.zip" size="10953" type="application/zip"/>
     </implementation>
     <implementation id="netfx-4.5" version="4.5">
@@ -76,7 +76,7 @@
           <version not-before="4.5"/>
         </runner>
       </command>
-      <manifest-digest sha1new="b416113cb680d304332f4ca54e27be5e0024a222"/>
+      <manifest-digest sha1new="b416113cb680d304332f4ca54e27be5e0024a222" sha256="aa9a1b225d07a14d5092ecc2922a2affbd87330aec218702f0c65cefa39b1316" sha256new="VKNBWIS5A6QU2UES5TBJEKRK766YOMYK5QQYOAXQYZOO7I43CMLA"/>
       <archive href="http://repo.roscidus.com/archives/cli-monopath/monopath-emulator.zip" size="10953" type="application/zip"/>
     </implementation>
     <implementation id="netfx-4.5.1" version="4.5.1">
@@ -90,7 +90,7 @@
           <version not-before="4.5.1"/>
         </runner>
       </command>
-      <manifest-digest sha1new="b416113cb680d304332f4ca54e27be5e0024a222"/>
+      <manifest-digest sha1new="b416113cb680d304332f4ca54e27be5e0024a222" sha256="aa9a1b225d07a14d5092ecc2922a2affbd87330aec218702f0c65cefa39b1316" sha256new="VKNBWIS5A6QU2UES5TBJEKRK766YOMYK5QQYOAXQYZOO7I43CMLA"/>
       <archive href="http://repo.roscidus.com/archives/cli-monopath/monopath-emulator.zip" size="10953" type="application/zip"/>
     </implementation>
     <implementation id="netfx-4.5.2" version="4.5.2">
@@ -104,7 +104,7 @@
           <version not-before="4.5.2"/>
         </runner>
       </command>
-      <manifest-digest sha1new="b416113cb680d304332f4ca54e27be5e0024a222"/>
+      <manifest-digest sha1new="b416113cb680d304332f4ca54e27be5e0024a222" sha256="aa9a1b225d07a14d5092ecc2922a2affbd87330aec218702f0c65cefa39b1316" sha256new="VKNBWIS5A6QU2UES5TBJEKRK766YOMYK5QQYOAXQYZOO7I43CMLA"/>
       <archive href="http://repo.roscidus.com/archives/cli-monopath/monopath-emulator.zip" size="10953" type="application/zip"/>
     </implementation>
     <implementation id="netfx-4.6" version="4.6">
@@ -118,7 +118,7 @@
           <version not-before="4.6"/>
         </runner>
       </command>
-      <manifest-digest sha1new="b416113cb680d304332f4ca54e27be5e0024a222"/>
+      <manifest-digest sha1new="b416113cb680d304332f4ca54e27be5e0024a222" sha256="aa9a1b225d07a14d5092ecc2922a2affbd87330aec218702f0c65cefa39b1316" sha256new="VKNBWIS5A6QU2UES5TBJEKRK766YOMYK5QQYOAXQYZOO7I43CMLA"/>
       <archive href="http://repo.roscidus.com/archives/cli-monopath/monopath-emulator.zip" size="10953" type="application/zip"/>
     </implementation>
     <implementation id="netfx-4.6.1" version="4.6.1">
@@ -132,7 +132,7 @@
           <version not-before="4.6.1"/>
         </runner>
       </command>
-      <manifest-digest sha1new="b416113cb680d304332f4ca54e27be5e0024a222"/>
+      <manifest-digest sha1new="b416113cb680d304332f4ca54e27be5e0024a222" sha256="aa9a1b225d07a14d5092ecc2922a2affbd87330aec218702f0c65cefa39b1316" sha256new="VKNBWIS5A6QU2UES5TBJEKRK766YOMYK5QQYOAXQYZOO7I43CMLA"/>
       <archive href="http://repo.roscidus.com/archives/cli-monopath/monopath-emulator.zip" size="10953" type="application/zip"/>
     </implementation>
     <implementation id="netfx-4.6.2" version="4.6.2">
@@ -146,17 +146,17 @@
           <version not-before="4.6.2"/>
         </runner>
       </command>
-      <manifest-digest sha1new="b416113cb680d304332f4ca54e27be5e0024a222"/>
+      <manifest-digest sha1new="b416113cb680d304332f4ca54e27be5e0024a222" sha256="aa9a1b225d07a14d5092ecc2922a2affbd87330aec218702f0c65cefa39b1316" sha256new="VKNBWIS5A6QU2UES5TBJEKRK766YOMYK5QQYOAXQYZOO7I43CMLA"/>
       <archive href="http://repo.roscidus.com/archives/cli-monopath/monopath-emulator.zip" size="10953" type="application/zip"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYe3MyAAoJECLqERp+QkKkZcQH/3R7dNlDMsfnKtQiFkjmdX/UAzXmP1JyRjuF
-VBiIL/OHVK4WpIf31nYCy4Wo5Rm3fM2ax67gEGcIcw3aJRTfmXDHdQSSJOYFoLIc7rPzArc29CI/
-amMs72boQ+O+bGY7LHLVu5m+LNu245Yc/PRKXU51wZ75Y0zjOk9PtOp+6rV//6/xBqyuACp3a/ld
-6Jv8E/j6KlVSs2EdE9juzlKvE4TI6qUIQwCylADLjKEVuoABcFJE/LNnXwsVn7j+D04fxjx6R0bu
-PLkf5+uRyCtd+O2LNHGMqOzmZu+zDsEM81UNUEgr8o9tEeIcdy+XszAwKon3flkB7W7H4bw5EQkl
-1Hk=
+iQEcBAABCAAGBQJYe3QCAAoJECLqERp+QkKkcvoH/RWZYEUZZzsQ4RmadcG3CWpekx8PCiZwSLL1
+fUYukC/DRZ3Y3joLxE7u1aBj6IKQzTzzd5W5rsk8KzPdW75ZF7CKnznKU7yp5n5SNYrSNibxfzi/
+q8QP8K2W8l6LTtx0U1LVr6hRAMXXUegQsxB1Y7SWryS1zXBVG6mRV77QqPD4Cw47NjTP7bLRbaO0
+1f8xDMEEFwVT+PWAmIUhSFUj2I6HgS11BSXP8w/LiWHUQFGo6akVY7dTuGupRrsV6fpZLjoN5JXu
+1X6qoIBjXopWybOC94UDBOLRlHFST8FT9SI/npIT5SvwbcLhcejKJCIdv8qf6jMVplP6c+rGm274
+lHY=
 
 -->
