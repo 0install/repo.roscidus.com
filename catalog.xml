@@ -109,7 +109,8 @@ On OS X, an extra argument needs to be passed to Java. To support OS X, please u
 &lt;/runner&gt;
 </description><homepage>http://www.eclipse.org/swt/</homepage><category>Development</category></interface><interface uri="http://repo.roscidus.com/java/openjdk-6-jre"><name>openjdk-6-jre</name><summary>OpenJDK Java runtime</summary><description>
     The package was built by the Debian project using the IcedTea build support and
-    patches from the IcedTea project and then repackaged for Zero Install.</description></interface><interface uri="http://repo.roscidus.com/java/openjdk-jre"><name>openjdk-jre</name><summary>OpenJDK Java runtime</summary><description>
+    patches from the IcedTea project and then repackaged for Zero Install.</description></interface><interface uri="http://repo.roscidus.com/java/jar-launcher"><name>JAR Launcher</name><summary>launcher that starts the main class while preserving the CLASSPATH</summary><description>A launcher that starts the main class specified in a JAR while preserving the CLASSPATH.
+Workaround for java -classpath ... -jar ... which does not work.</description><homepage>https://github.com/0install/jar-launcher</homepage></interface><interface uri="http://repo.roscidus.com/java/openjdk-jre"><name>openjdk-jre</name><summary>OpenJDK Java runtime</summary><description>
     The package was built by the Debian project using the IcedTea build support and
     patches from the IcedTea project and then repackaged for Zero Install.</description></interface><interface uri="http://repo.roscidus.com/java/openjdk-jdk"><name>openjdk-jdk</name><summary>OpenJDK Development Kit (JDK)</summary><description>
 OpenJDK is a development environment for building applications, applets, and
@@ -306,11 +307,11 @@ that GCC uses to overcome shortcomings of particular machines, or
 special needs for some languages.</description></interface><interface uri="http://repo.roscidus.com/lib/ldap-2.4-2"><name>libldap-2.4-2</name><summary>OpenLDAP libraries</summary><description>These are the run-time libraries for the OpenLDAP (Lightweight Directory
 Access Protocol) servers and clients.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYe3CEAAoJECLqERp+QkKkPgMIAOR1D97pxPJGFnnTPula8P+ZZFnvPnQISWuZ
-8PiYIVuvcFTMTsvXjoUV9ihQY8Cvor838U2cXKZno/NZwovZwPTirocaCedQcruGSknU8j9QowZM
-sx9N+vDanVnkzFiknUTpdQhnCBBqvsifcpYOgbfdTTCpZnMH2hUtEeCkvAn7nGY2JQJQGAXJYvFj
-vTd9s55mShckbrTePQxHZfEkRA3jAcAkXMVllLA0I5kOMqpkB7Qp7D4b8LApW3qf0C9jdvZjW8Rh
-mA4HpiXsKcLRVgpJUlgpMSBJcwp1OEInD1GVyTjaRt3uMekAN6EXNtDP8PE/kLnUidYkPn+Bv8RZ
-+vA=
+iQEcBAABCAAGBQJYe3HUAAoJECLqERp+QkKkbw0IAIKk5SdIUmVjOZiX6/wEkju8l7xHMpUYRruU
+hYs30KUyPKCPdO6IKfZYg9sFqfvYulnBwhiiPjiFNdfRTlkVOtO+zhkmrK7PVXJ+6YjHbnkJ5lGD
+a2G0twDuDwjLTu7TPzCQuIEeI4Vg4z2XKR1wlfh0NJJhOE3XJrurFlvZeEGQtRPUx881PcUrVBUZ
+7M8rjaFFT2KcqexIIxBxgBERaj49qsJulo4+N3BFSLhUjS37dPRJWTXq4vINnYTx7d1SH/o55U7n
+yNR8CbCDyeS5Nj/ZYoHhbpiJlKQCJ5FA8Ej71HZql/ikjDjwR1hAYE+7QINgJkzYD2tzaKo2Rk8a
+Uc0=
 
 -->
