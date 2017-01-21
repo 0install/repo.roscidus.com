@@ -19,6 +19,7 @@
     <requires interface="http://repo.roscidus.com/python/python-cairo"/>
     <requires interface="http://repo.roscidus.com/python/python-gobject"/>
     <environment insert="." name="PYTHONPATH"/>
+    <environment insert="gtk-2.0" name="PYTHONPATH"/>
 
     <implementation id="sha1new=f29642fc00bdfa2a64b443c0a5f94dfb3ed72c99" released="2011-04-10" stability="stable" version="2.24.0">
       <manifest-digest sha1new="f29642fc00bdfa2a64b443c0a5f94dfb3ed72c99" sha256="eb60285c99026373399e3f33c05d013723fcf63208a21ec4b93ddadd358d43e7" sha256new="5NQCQXEZAJRXGOM6H4Z4AXIBG4R7Z5RSBCRB5RFZHXNN2NMNIPTQ"/>
@@ -28,11 +29,11 @@
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYels6AAoJECLqERp+QkKkqFkH/0djCfilXm7JRq/TIOMDtAdJelHnhhMauM7k
-/1+3qfTIOjrZilU8jw9g7S0E3LBgHq4SRqP2DgWUFWVUDsLpz+fOyxAufATDdOu4lIelNAKy1MFT
-cJghQO4pKzDqgV8LI4vsBOjQQ1dH+3WaOhyNo7Cgntviazt0Ui8pjrRS9IWb6r4HxVuJSmUig3Oq
-Ha64ASfLWIxEJFQ4CovJOz/mOPq/1YYhE9cqJtlgURUGCbOXlYONV4K3XSbbFTsnkZSbf34lbNGV
-+lSlQRCZf8uzE+tY7MCs/3JFaRbpa0hotwdq5kKqHXC2bqSVwCKlavUACKxTUQKsgChHf39rzaY5
-T/A=
+iQEcBAABCAAGBQJYg1S7AAoJECLqERp+QkKkWQQH/A0ovphQDyGouSDUijPkZimpdfJzgjQaZ5Kw
+qeDPZlTX5qiAZ3/r4GcaomxL6n8irn+0rIBuUxykVfd7TsNHIgJgqslhp7WgbXzgOY3b6ZeTLtay
+GS5hGg/kdg4H9bgzwCx3Ezx/ndrkW4KuAV6ZFMIfBA/EvinQ5jMVopaTy/T1nNcoqWVQYEPTHlup
+pPtrJhm3lyImKU2aL8SSeE9net/zOw/xWoSLkUSmILYc93Aq7TJ4rd6Sx8OCGOyuBRiVRMaqPyJd
+ylpjFKvJsnyiD/YGZLK5YJquQodquAZmoqk/5LxxCn9TAUjSCUfYs11AxuXt/fOBb8BOeBtFlrEu
+aFg=
 
 -->

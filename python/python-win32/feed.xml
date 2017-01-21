@@ -7,8 +7,11 @@
   <homepage>https://sourceforge.net/projects/pywin32/</homepage>
 
   <group license="Python License">
-    <environment insert="." name="PYTHONPATH"/>
     <environment insert="pywin32_system32" name="PATH"/>
+    <environment insert="." name="PYTHONPATH"/>
+    <environment insert="win32" name="PYTHONPATH"/>
+    <environment insert="win32/lib" name="PYTHONPATH"/>
+    <environment insert="pythonwin" name="PYTHONPATH"/>
 
     <group>
       <restricts interface="http://repo.roscidus.com/python/python">
@@ -55,11 +58,11 @@
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYels6AAoJECLqERp+QkKkAYsIAM1iEZsmKu4mk2g6bYZTkxXZY99Cgbdhwluy
-bzv/WVPG4bb6Gdt7DcWt3vA9ywOOxlsOZqkePfHqzb/JtD0DpIKbXlIk2dCsa9jTOXEBECrtz769
-+coH6tbTk6dWuHS5NyoLM4ojS+rSn8mqhWKQQw4hGydnAxL/Qp04Rxmqm/VrVngwAYD/SSpMwCo4
-Y0EhHXIf0dUrKGOeib2J0Hms7BWfho4RM77M6u22GRA0JAyD+9L8elhZNJ49axkciBIdDLIVjmxa
-3IO0iDfymSKBFj0URFaQuyX1jDHLFCh+kr/sAlNvSY5HNRilrvLJZDZ24pAmP7ZDdk7bO6vg+4UN
-KSo=
+iQEcBAABCAAGBQJYg1S7AAoJECLqERp+QkKk8+8IALMjOZJULVtMXzuRKgCeEhcW2JoieAWkfmF2
+312Ww1wCB2NtnXPImk3SBnNzFJ5mR9jHDIYCylaX99+PS9qQKHdRL3eNiUsmiAqxgLkMPGmUZ3d+
+vFD4vTY72GM68QTzLVWhWxDr/PAk08cHhr+8rPnzoMfePZrcch4GGCa/OKcBE1LyOEhOUkmW9lJp
+N9ubPHqsOdQNP6j8rEt9JkGq4WNdwWQfYJjyTYzkuP3zoimD+LttzMH50EXht6u7xU6okSA3Vm/p
+4yLlpY2GngOxZNCL82TsVUUgX2sLMITCjIi+dXM1wP7esZCw38fcvUr4ONVwijwrAFBh5cFXycnb
+aus=
 
 -->
