@@ -75,7 +75,17 @@ aspcud is a solver for CUDF (Common Upgradeability Description Format) instances
 based on ASP tools developed within the potassco project. It utilizes the
 preprocessor cudf2lp that rewrites CUDF specifications into ASP facts. These
 facts together with an ASP program are then passed to grounder gringo and are
-finally solved by solver clasp.</description><homepage>http://www.cs.uni-potsdam.de/wv/aspcud/</homepage><category>Utility</category></interface><interface uri="http://repo.roscidus.com/drupal/smtp"><name>Drupal-SMTP</name><summary>SMTP Authentication Support</summary><description>
+finally solved by solver clasp.</description><homepage>http://www.cs.uni-potsdam.de/wv/aspcud/</homepage><category>Utility</category></interface><interface uri="http://repo.roscidus.com/utils/ffmpeg"><name>FFmpeg</name><summary>record, convert and stream audio and video</summary><description>A complete, cross-platform solution to record, convert and stream audio and video.</description><category>Utility</category><homepage>http://ffmpeg.org/</homepage><entry-point binary-name="ffmpeg" command="run"/><entry-point binary-name="ffplay" command="ffplay">
+    <needs-terminal/>
+    <name>FFplay</name>
+    <summary>very simple and portable media player</summary>
+    <description>FFplay is a very simple and portable media player using the FFmpeg libraries and the SDL library. It is mostly used as a testbed for the various FFmpeg APIs.</description>
+  </entry-point><entry-point binary-name="ffprobe" command="ffprobe">
+    <needs-terminal/>
+    <name>FFprobe</name>
+    <summary>gathers information from multimedia streams</summary>
+    <description>ffprobe gathers information from multimedia streams and prints it in human- and machine-readable fashion.</description>
+  </entry-point></interface><interface uri="http://repo.roscidus.com/drupal/smtp"><name>Drupal-SMTP</name><summary>SMTP Authentication Support</summary><description>
 This module allows Drupal to bypass the PHP mail() function and send email
 directly to an SMTP server. The module supports SMTP authentication and can even
 connect to servers using SSL if supported by PHP.</description><homepage>http://drupal.org/project/smtp</homepage><category>Network</category></interface><interface uri="http://repo.roscidus.com/drupal/core"><name>Drupal</name><summary>content management platform</summary><description>
@@ -355,11 +365,11 @@ that GCC uses to overcome shortcomings of particular machines, or
 special needs for some languages.</description></interface><interface uri="http://repo.roscidus.com/lib/ldap-2.4-2"><name>libldap-2.4-2</name><summary>OpenLDAP libraries</summary><description>These are the run-time libraries for the OpenLDAP (Lightweight Directory
 Access Protocol) servers and clients.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYhM+FAAoJECLqERp+QkKk7fQH/1VPUZOLQN5uKlFzgZsv5nybR3EipVfS4Kze
-J3yhGH+My9NVbT9rIwkQInFeypP2kujemiZwVCm8nJxP6NDPoXbBq1EKuQ7/c26dgm9UKNjazQOU
-JtP+vDghYoi2lp/By4XH2aUQ/tlqnVknrWGaIblJsAOMHX/kD5XTj7kN7fVMTMBMsaTZu39X2URd
-BmutHwJKEPmZecj7XRK6Bc9/BuwPIep0BQPI7L6/j0NMBfWOqPL7U/64S8d+mHB6bTyAvE1x6Viz
-RoogrH6Bgx/hEpkav2YsmYZ0RM09l/A2DsHNjYxCx4QB3I48NP8PBi312VoTuwyccDnYG/DALtGB
-IRI=
+iQEcBAABCAAGBQJYhM/FAAoJECLqERp+QkKkXVcIAJrjiOypm4ykTHb/KOqT3h+M4Po3RjLXmjR2
+cBt8TixJWFPub61G2UVnAERvrY3pr4Hdm5jApwRUAMhA1UBTo5Ms1UeQArSIpae9XOqnq51kL32n
+sVE2GwUpuWftWBoX3wyMP0TQDY+SXKczPZOSuZ6ne08S5vfMRH/snPBYA0crwT4fL3oLwzEoyWVs
+k8kgOscTLUgrw9QJCXPLC3/YuypFMIbWUWZgsqUlH6AWTopDUDR5QNfdUK2EKOIq+Kc42p8kcIP+
+iWR0ousXT8E9OllKPu29Veh5AGDBa9uN0x4nEtP4Wu7QeLfhHkwc7u8441gqFRz2OZmfjXokraeb
+Lrw=
 
 -->
