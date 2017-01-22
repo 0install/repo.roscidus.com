@@ -17,7 +17,16 @@ capabilities, not dependent on network access or a central server.
 This package provides the git main components with minimal dependencies.
 Additional functionality, e.g. a graphical user interface and revision tree
 visualizer, tools for interoperating with other VCS's, or a web interface, is
-provided as separate git* packages.</description><category>Development</category></interface><interface uri="http://repo.roscidus.com/cli/nant"><name>NAnt</name><summary>free .NET build tool</summary><description>NAnt is a free .NET build tool. In theory it is kind of like make without make's wrinkles. In practice it's a lot like Ant.</description><icon href="http://0install.de/feed-icons/NAnt.png" type="image/png"/><category>Development</category><category>Utility</category><homepage>http://nant.sourceforge.net/</homepage></interface><interface uri="http://repo.roscidus.com/cli/cli-monopath"><name>Common Language Infrastructure with MONO_PATH support</name><summary>an implementation of the Common Language Infrastucture (.NET Framework on Windows, Mono on POSIX) using .NET profiles as version numbers</summary></interface><interface uri="http://repo.roscidus.com/cli/netfx-client"><name>.NET Framework Client Profile</name><summary>a limited version of the .NET Framework from Microsoft</summary></interface><interface uri="http://repo.roscidus.com/cli/cli"><name>Common Language Infrastructure</name><summary>an implementation of the Common Language Infrastucture (.NET Framework on Windows, Mono on POSIX) using .NET profiles as version numbers</summary></interface><interface uri="http://repo.roscidus.com/cli/mono"><name>Mono</name><summary>open-source cross-platform implementation of the Common Language Infrastructure (.NET Framework compatible)</summary><homepage>http://www.mono-project.com/</homepage></interface><interface uri="http://repo.roscidus.com/cli/netfx"><name>.NET Framework</name><summary>the .NET Framework from Microsoft</summary></interface><interface uri="http://repo.roscidus.com/devel/make-dep"><name>make dependencies</name><summary>libraries for make</summary></interface><interface uri="http://repo.roscidus.com/devel/gcc-c"><name>gcc-c</name><summary>gcc C compiler</summary><description/><homepage>https://gcc.gnu.org/</homepage></interface><interface uri="http://repo.roscidus.com/devel/glade"><name>Glade</name><summary>a User Interface Designer</summary><description>
+provided as separate git* packages.</description><category>Development</category></interface><interface uri="http://repo.roscidus.com/javascript/node"><name>Node.js</name><summary>open-source, cross-platform JavaScript runtime environment</summary><description>Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.</description><homepage>http://nodejs.org/</homepage><icon href="http://0install.de/feed-icons/Node.js.png" type="image/png"/><icon href="http://0install.de/feed-icons/Node.js.ico" type="image/vnd.microsoft.icon"/><entry-point binary-name="node" command="run"/><entry-point binary-name="npm" command="npm">
+    <needs-terminal/>
+    <name>Node Package Manager</name>
+    <summary>package manager for JavaScript</summary>
+  </entry-point></interface><interface uri="http://repo.roscidus.com/cli/ironpython"><name>IronPython</name><summary>implementation of Python running under .NET/Mono</summary><description>IronPython is an implementation of the Python programming language running under .NET/Mono and Silverlight/Moonlight. It supports an interactive console with fully dynamic compilation. It's well integrated with the rest of the .NET Framework and makes all .NET libraries easily available to Python programmers, while maintaining compatibility with the Python language. There also is Visual Studio tooling integration.</description><homepage>http://ironpython.net/</homepage><category>Development</category><icon href="http://0install.de/feed-icons/IronPython.png" type="image/png"/><icon href="http://0install.de/feed-icons/IronPython.ico" type="image/vnd.microsoft.icon"/><entry-point binary-name="ipy" command="run">
+    <needs-terminal/>
+    <name>IronPython command-line interpreter</name>
+  </entry-point><entry-point binary-name="ipyw" command="run-gui">
+    <name>IronPython grafical interpreter</name>
+  </entry-point></interface><interface uri="http://repo.roscidus.com/cli/nant"><name>NAnt</name><summary>free .NET build tool</summary><description>NAnt is a free .NET build tool. In theory it is kind of like make without make's wrinkles. In practice it's a lot like Ant.</description><icon href="http://0install.de/feed-icons/NAnt.png" type="image/png"/><category>Development</category><category>Utility</category><homepage>http://nant.sourceforge.net/</homepage></interface><interface uri="http://repo.roscidus.com/cli/cli-monopath"><name>Common Language Infrastructure with MONO_PATH support</name><summary>an implementation of the Common Language Infrastucture (.NET Framework on Windows, Mono on POSIX) using .NET profiles as version numbers</summary></interface><interface uri="http://repo.roscidus.com/cli/netfx-client"><name>.NET Framework Client Profile</name><summary>a limited version of the .NET Framework from Microsoft</summary></interface><interface uri="http://repo.roscidus.com/cli/cli"><name>Common Language Infrastructure</name><summary>an implementation of the Common Language Infrastucture (.NET Framework on Windows, Mono on POSIX) using .NET profiles as version numbers</summary></interface><interface uri="http://repo.roscidus.com/cli/mono"><name>Mono</name><summary>open-source cross-platform implementation of the Common Language Infrastructure (.NET Framework compatible)</summary><homepage>http://www.mono-project.com/</homepage></interface><interface uri="http://repo.roscidus.com/cli/netfx"><name>.NET Framework</name><summary>the .NET Framework from Microsoft</summary></interface><interface uri="http://repo.roscidus.com/devel/make-dep"><name>make dependencies</name><summary>libraries for make</summary></interface><interface uri="http://repo.roscidus.com/devel/gcc-c"><name>gcc-c</name><summary>gcc C compiler</summary><description/><homepage>https://gcc.gnu.org/</homepage></interface><interface uri="http://repo.roscidus.com/devel/glade"><name>Glade</name><summary>a User Interface Designer</summary><description>
 Glade is a RAD tool to enable quick &amp; easy development of user interfaces for
 the GTK+ toolkit and the GNOME desktop environment.
 
@@ -112,12 +121,40 @@ On OS X, an extra argument needs to be passed to Java. To support OS X, please u
     patches from the IcedTea project and then repackaged for Zero Install.</description></interface><interface uri="http://repo.roscidus.com/java/maven"><name>Apache Maven</name><summary>A software project management and comprehension tool</summary><homepage>http://maven.apache.org/</homepage><category>Development</category><entry-point binary-name="mvn" command="run"/></interface><interface uri="http://repo.roscidus.com/java/jar-launcher"><name>JAR Launcher</name><summary>launcher that starts the main class while preserving the CLASSPATH</summary><description>A launcher that starts the main class specified in a JAR while preserving the CLASSPATH.
 Workaround for java -classpath ... -jar ... which does not work.</description><homepage>https://github.com/0install/jar-launcher</homepage></interface><interface uri="http://repo.roscidus.com/java/openjdk-jre"><name>openjdk-jre</name><summary>OpenJDK Java runtime</summary><description>
     The package was built by the Debian project using the IcedTea build support and
-    patches from the IcedTea project and then repackaged for Zero Install.</description></interface><interface uri="http://repo.roscidus.com/java/ant"><name>Apache Ant</name><summary>A software project management and comprehension tool</summary><homepage>http://ant.apache.org/</homepage><category>Development</category><entry-point binary-name="ant" command="run"/></interface><interface uri="http://repo.roscidus.com/java/openjdk-jdk"><name>openjdk-jdk</name><summary>OpenJDK Development Kit (JDK)</summary><description>
+    patches from the IcedTea project and then repackaged for Zero Install.</description><entry-point binary-name="java" command="run">
+    <needs-terminal/>
+    <name>Java command-line runner</name>
+  </entry-point><entry-point command="run-gui">
+    <name>Java GUI runner</name>
+  </entry-point><entry-point command="javaws">
+    <name>Java Web Start</name>
+  </entry-point><entry-point command="java-rmi">
+    <needs-terminal/>
+    <name>Java Remote Method Invocation</name>
+  </entry-point><entry-point command="javacpl">
+    <name>Java Control Panel</name>
+  </entry-point><entry-point binary-name="policytool" command="policytool">
+    <name>Policy Tool</name>
+  </entry-point><entry-point binary-name="servertool" command="servertool">
+    <needs-terminal/>
+    <name>Java IDL Server Tool</name>
+  </entry-point><entry-point binary-name="keytool" command="keytool">
+    <needs-terminal/>
+    <name>Key and Certificate Management Tool</name>
+  </entry-point><entry-point binary-name="pak200" command="pak200">
+    <needs-terminal/>
+  </entry-point><entry-point binary-name="unpak200" command="unpak200">
+    <needs-terminal/>
+  </entry-point></interface><interface uri="http://repo.roscidus.com/java/ant"><name>Apache Ant</name><summary>A software project management and comprehension tool</summary><homepage>http://ant.apache.org/</homepage><category>Development</category><entry-point binary-name="ant" command="run"/></interface><interface uri="http://repo.roscidus.com/java/openjdk-jdk"><name>openjdk-jdk</name><summary>OpenJDK Development Kit (JDK)</summary><description>
 OpenJDK is a development environment for building applications, applets, and
 components using the Java programming language.
 
 The packages are built using the IcedTea build support and patches from the
-IcedTea project.</description><category>Development</category></interface><interface uri="http://repo.roscidus.com/security/gnupg"><name>gnupg</name><summary>GNU privacy guard - a free PGP replacement</summary><description>
+IcedTea project.</description><category>Development</category><entry-point binary-name="javac" command="run">
+    <name>Java compiler</name>
+  </entry-point><entry-point binary-name="java" command="java">
+    <name>Java application launcher</name>
+  </entry-point></interface><interface uri="http://repo.roscidus.com/security/gnupg"><name>gnupg</name><summary>GNU privacy guard - a free PGP replacement</summary><description>
 GnuPG is GNU's tool for secure communication and data storage. It can be used to
 encrypt data and to create digital signatures. It includes an advanced key
 management facility and is compliant with the proposed OpenPGP Internet standard
@@ -178,7 +215,18 @@ It has modules, classes, exceptions, very high level data types, and dynamic
 typing. There are interfaces to many system calls and libraries, as well as to
 various windowing systems (Tk, Mac, MFC, GTK+, Qt, wxWindows). New built-in
 modules are easily written in C or C++. Python is also usable as an extension
-language for applications that need a programmable interface.</description></interface><interface uri="http://repo.roscidus.com/python/python/upstream.xml"><name>Python</name><summary>The Python Programming Language</summary><description>
+language for applications that need a programmable interface.</description><icon href="http://0install.de/feed-icons/Python.png" type="image/png"/><icon href="http://0install.de/feed-icons/Python.ico" type="image/vnd.microsoft.icon"/><entry-point binary-name="python" command="run">
+    <needs-terminal/>
+    <name>Python command-line interpreter</name>
+  </entry-point><entry-point binary-name="pythonw" command="run-gui">
+    <name>Python GUI interpreter</name>
+  </entry-point><entry-point binary-name="easy_install" command="easy_install">
+    <needs-terminal/>
+    <name>Easy Install</name>
+  </entry-point><entry-point binary-name="pip" command="pip">
+    <needs-terminal/>
+    <name>PIP</name>
+  </entry-point></interface><interface uri="http://repo.roscidus.com/python/python/upstream.xml"><name>Python</name><summary>The Python Programming Language</summary><description>
 Python is a programming language that lets you work more quickly and integrate
 your systems more effectively. You can learn to use Python and see almost
 immediate gains in productivity and lower maintenance costs.</description><homepage>http://www.python.org/</homepage><category>Development</category></interface><interface uri="http://repo.roscidus.com/lib/zlib1g"><name>zlib1g</name><summary>compression library - runtime</summary><description>zlib is a library implementing the deflate compression method found
@@ -307,11 +355,11 @@ that GCC uses to overcome shortcomings of particular machines, or
 special needs for some languages.</description></interface><interface uri="http://repo.roscidus.com/lib/ldap-2.4-2"><name>libldap-2.4-2</name><summary>OpenLDAP libraries</summary><description>These are the run-time libraries for the OpenLDAP (Lightweight Directory
 Access Protocol) servers and clients.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYg1YKAAoJECLqERp+QkKkZGEH/i/329aEpA5OBKTTt4kj4IbAsbn1WFswS/sV
-kLmOktoWbKK4INKiEpkmJiq5vtn8BC52llvd3Di5xBny78tzv7781y8dpjqN/ZUomobB62pN9FjB
-PxaB8GSu1APvrlSbWpVanPDV+e6+/Ghuwfrk9fsA4nZzzcO04ieU9Wx8dzIsxihO5TJMhTnqbAxb
-FbMJkl23KgWY4mOG9GvOmIdfNta707UjQ5H+mhqK1Sp9DHd0CUuHUwMCl9ae1Et5vlqr1TOguZgp
-+yhRETVbnWvS0Z4QiFVHsf93xGq/3HyzFccegHFafdyem+hCEZ4PZDOsCd6bmRBn/+8ln8OysdUN
-DfQ=
+iQEcBAABCAAGBQJYhM+FAAoJECLqERp+QkKk7fQH/1VPUZOLQN5uKlFzgZsv5nybR3EipVfS4Kze
+J3yhGH+My9NVbT9rIwkQInFeypP2kujemiZwVCm8nJxP6NDPoXbBq1EKuQ7/c26dgm9UKNjazQOU
+JtP+vDghYoi2lp/By4XH2aUQ/tlqnVknrWGaIblJsAOMHX/kD5XTj7kN7fVMTMBMsaTZu39X2URd
+BmutHwJKEPmZecj7XRK6Bc9/BuwPIep0BQPI7L6/j0NMBfWOqPL7U/64S8d+mHB6bTyAvE1x6Viz
+RoogrH6Bgx/hEpkav2YsmYZ0RM09l/A2DsHNjYxCx4QB3I48NP8PBi312VoTuwyccDnYG/DALtGB
+IRI=
 
 -->

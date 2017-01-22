@@ -31,13 +31,63 @@
 
   <package-implementation distributions="Windows" package="openjdk-7-jre"/>
   <package-implementation distributions="Windows" package="openjdk-8-jre"/>
+
+  <entry-point binary-name="java" command="run">
+    <needs-terminal/>
+    <name>Java command-line runner</name>
+  </entry-point>
+  <entry-point command="run-gui">
+    <name>Java GUI runner</name>
+  </entry-point>
+  <entry-point command="javaws">
+    <name>Java Web Start</name>
+  </entry-point>
+  <entry-point command="java-rmi">
+    <needs-terminal/>
+    <name>Java Remote Method Invocation</name>
+  </entry-point>
+  <entry-point command="javacpl">
+    <name>Java Control Panel</name>
+  </entry-point>
+  <entry-point binary-name="policytool" command="policytool">
+    <name>Policy Tool</name>
+  </entry-point>
+  <entry-point binary-name="servertool" command="servertool">
+    <needs-terminal/>
+    <name>Java IDL Server Tool</name>
+  </entry-point>
+  <entry-point binary-name="keytool" command="keytool">
+    <needs-terminal/>
+    <name>Key and Certificate Management Tool</name>
+  </entry-point>
+  <entry-point binary-name="pak200" command="pak200">
+    <needs-terminal/>
+  </entry-point>
+  <entry-point binary-name="unpak200" command="unpak200">
+    <needs-terminal/>
+  </entry-point>
+
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="jarfile">
+      <description>Executable Jar File</description>
+      <verb args="-jar &quot;%1&quot; %*" command="run-gui" name="open"/>
+      <extension value=".jar"/>
+    </file-type>
+    <file-type id="JNLPFile">
+      <description>JNLP File</description>
+      <verb args="&quot;%1&quot;" command="javaws" name="Open">
+        <description>&amp;Launch</description>
+      </verb>
+      <extension mime-type="application/x-java-jnlp-file" value=".jnlp"/>
+    </file-type>
+  </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJU0mDUAAoJECLqERp+QkKk1LUH/1G6SjG5vlD+51urGmO9NPwtbzKkj6VV/ElB
-b0FGZHrWrg0KD1CHaVOxXQ/NEGYTrr6uGRFvFs6R3iDf2hYjqOxjRoPyDGyP/0QLNGF8ZOt+qKBx
-soo1I9YlBLESj2p4p06iO9BdFliqkktX7S/T7Fhus3kvp2erC6n6+qFTR3yNDp4bSG3D2PneZ5SU
-elnRYJ6zPXY55WF7LS7W4zb6CcquQJJJJRA9ktgQGnaQ071/P9kJrZMQKwa597XkN2SdOqMcmpnD
-p2y+39Jj6agjr3m086mHkPg0UITRz0mgK0WQRIYzMQqIlcTS7BzMOeJU6um+8cFiV07oirk+8OOt
-1w4=
+iQEcBAABCAAGBQJYhM7tAAoJECLqERp+QkKkwoIH/jPPEndMkP6nbQvcrMNhu5Q08HSJ9oii7xtG
+wWyVUFjORE7/UBXXCadOTcThSQnpDFpiu2mfyOo0QioCSZFLn+8BPEItoI/K7Gga7mJ2mg/CBq5k
+3dFF24oL1MkidPFPv3+AR1nRVbQSbEBBpeGpP8ycltiE1RWHOwOhTyZeo/ergGbtfLiLUZJmSsLj
+G8ET+5Eq9eYvJ1JetYmVshFEKks+Mty0Zj9qAVKW+OTX3axXOGip8NEw8Bmr1wjX/qkuv1ba6zFF
+DM8xaoH5tthdUThFxR961W6mWSYQxDpycQfaYDUg3vOMN+VM5COETv9u/SkIkxHXUUwBMt1IBADU
+qN8=
 
 -->
