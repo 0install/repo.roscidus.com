@@ -23,7 +23,17 @@
     </pre>
 
     <p>
-      When making packages that depend on Java, either add the JRE's bin directory to $PATH,
+      To get common Java build tools:
+    </p>
+
+    <pre>
+      $ 0alias ant http://repo.roscidus.com/java/ant
+      $ 0alias mvn http://repo.roscidus.com/java/maven
+      $ 0alias gradle http://repo.roscidus.com/java/gradle
+    </pre>
+
+    <p>
+      When making packages that depend on Java, either add the JRE's bin directory to <code>PATH</code>,
       or use this pattern:
     </p>
 
@@ -33,7 +43,7 @@
 
     <p>
       If Zero Install selects a native version of Java (part of your distribution) then
-      MYPROG_JRE_BIN will expand to the empty string and the command will simply invoke "java".
+      <code>MYPROG_JRE_BIN</code> will expand to the empty string and the command will simply invoke <code>java</code>.
       Otherwise, it will run java from the selected Zero Install implementation.
     </p>
 
@@ -42,6 +52,10 @@
     <ul>
       <li><a href='openjdk-jre'>OpenJDK JRE (Runtime)</a></li>
       <li><a href='openjdk-jdk'>OpenJDK JDK (Developer Kit)</a></li>
+      <li><a href='ant.xml'>Apache Ant</a> (pure Java build tool)</li>
+      <li><a href='maven.xml'>Apache Maven</a> (build manager for Java projects)</li>
+      <li><a href='gradle.xml'>Gradle</a> (modern open source build tool for continuous delivery)</li>
+      <li><a href='scala.xml'>Scala</a> (functional and object-oriented programming language based on the Java Virtual Machine)</li>
       <li><a href='swt'>SWT</a> (the Standard Widget Toolkit)</li>
       <li><a href='hsqldb'>HyperSQL</a> (100% Java Database)</li>
       <li><a href='iris'>IRIS Reasoner</a> (Datalog reasoner)</li>

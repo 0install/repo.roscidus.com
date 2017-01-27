@@ -5,12 +5,32 @@
   </head>
   <body>
     <h1>repo.roscidus.com: Python</h1>
+    <p>Python is an interpreted, interactive, object-oriented programming language.</p>
+
+    <p>To add <code>python</code> to your <code>PATH</code>:</p>
+    <pre>
+      $ 0alias python http://repo.roscidus.com/python/python
+    </pre>
+
+    <p>To specify Python as the runner in a feed:</p>
+    <pre>
+      &lt;command name="run" path="myapp.py"&gt;
+        &lt;runner interface="http://repo.roscidus.com/python/python"/&gt;
+      &lt;/command&gt;
+    </pre>
 
     <h2>Available feeds</h2>
 
     <ul>
       <li><a href='python'>Python intepreter</a> (C version)</li>
       <li><a href='sphinx'>Python-sphinx</a> (documentation generator)</li>
+      <li><a href='dbus-python'>dbus-python</a></li>
+      <li><a href='docutils'>python-docutils</a> (processes plaintext into HTML, XML, LaTeX, etc)</li>
+      <li><a href='python-cairo'>python-cairo</a> (Python bindings for the cairo graphics library)</li>
+      <li><a href='python-gobject'>python-gobject</a> (Python bindings for the GObject library)</li>
+      <li><a href='python-gtk'>python-gtk</a> (Python Bindings for GTK+)</li>
+      <li><a href='python-win32'>python-win32</a> (Python Bindings for the Win32 API)</li>
+      <li><a href='whoosh'>python-whoosh</a> (fast, pure-Python full text indexing, search, and spell checking library)</li></ul>
     </ul>
   </body>
 </html>
