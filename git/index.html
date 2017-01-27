@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>repo.roscidus.com: Git</title>
+  </head>
+  <body>
+    <h1>repo.roscidus.com: Git</h1>
+    <p>Git is a fast, scalable, distributed revision control system.</p>
+
+    <p>To add <code>git</code> to your <code>PATH</code>:</p>
+    <pre>
+      $ 0alias git http://repo.roscidus.com/git/core
+    </pre>
+
+    <p>To integrate Git and related tools in your Windows desktop environment:</p>
+    <pre>
+      $ 0install integrate http://repo.roscidus.com/git/windows
+    </pre>
+
+    <p>To specify a dependency on Git in your own feed:</p>
+    <pre>
+      &lt;requires interface="http://repo.roscidus.com/git/core"&gt;
+        &lt;executable-in-path name="git"/&gt;
+      &lt;/requires&gt;
+    </pre>
+
+    <h2>Available feeds</h2>
+
+    <ul>
+      <li><a href='core'>Git Core</a> (the main <code>git</code> command on any platform)</li>
+      <li><a href='windows'>Git for Windows</a> (<code>git</code> and related tools like <code>bash</code> on Windows)</li>
+    </ul>
+  </body>
+</html>

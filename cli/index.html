@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>repo.roscidus.com: Common Language Infrastructure</title>
+  </head>
+  <body>
+    <h1>repo.roscidus.com: Common Language Infrastructure</h1>
+    <p>
+      The Common Language Infrastructure (CLI) is an ISO standard for language- and platform-independent software development.<br>
+      The two most prominent implementations are Microsoft's .NET Framework and the opne-source project Mono.
+    </p>
+
+    <p>To accept any CLI as the runner in a feed:</p>
+    <pre>
+      &lt;command name="run" path="myapp.exe"&gt;
+        &lt;runner interface="http://repo.roscidus.com/cli/cli"/&gt;
+      &lt;/command&gt;
+    </pre>
+
+    <p>To accept any CLI as the runner in a feed but require (possibly emulated) <code>MONO_PATH</code> support for dependency injection:</p>
+    <pre>
+      &lt;command name="run" path="myapp.exe"&gt;
+        &lt;runner interface="http://repo.roscidus.com/cli/cli-monopath"/&gt;
+      &lt;/command&gt;
+      &lt;requires interface="http://mylib/">
+        &lt;environment name="MONO_PATH" insert="."/&gt;
+      &lt;/requires&gt;
+    </pre>
+
+    <p>To accept only Microsoft's full .NET Framework as the runner in a feed:</p>
+    <pre>
+      &lt;command name="run" path="myapp.exe"&gt;
+        &lt;runner interface="http://repo.roscidus.com/cli/netfx"/&gt;
+      &lt;/command&gt;
+    </pre>
+
+    <p>To accept both the Client Profile and the full version of Microsoft's .NET Framework as the runner in a feed:</p>
+    <pre>
+      &lt;command name="run" path="myapp.exe"&gt;
+        &lt;runner interface="http://repo.roscidus.com/cli/netfx-client"/&gt;
+      &lt;/command&gt;
+    </pre>
+
+    <p>To accept only Mono as the runner in a feed:</p>
+    <pre>
+      &lt;command name="run" path="myapp.exe"&gt;
+        &lt;runner interface="http://repo.roscidus.com/cli/mono"/&gt;
+      &lt;/command&gt;
+    </pre>
+
+    <p>To specify IronPython (Python implementation running on the CLI) as the runner in a feed:</p>
+    <pre>
+      &lt;command name="run" path="myapp.py"&gt;
+        &lt;runner interface="http://repo.roscidus.com/ruby/python"/&gt;
+      &lt;/command&gt;
+    </pre>
+
+    <p>To add <code>nant</code> (free .NET build tool) to your <code>PATH</code>:</p>
+    <pre>
+      $ 0alias nant http://repo.roscidus.com/cli/nant
+    </pre>
+
+    <h2>Available feeds</h2>
+
+    <ul>
+      <li><a href='cli'>Common Language Infrastructure</a></li>
+      <li><a href='cli-monopath'>Common Language Infrastructure with MONO_PATH support</a></li>
+      <li><a href='mono'>Mono</a></li>
+      <li><a href='netfx'>.NET Framework</a></li>
+      <li><a href='netfx-client'>.NET Framework Client Profile</a></li>
+      <li><a href='ironpython'>IronPython</a></li>
+      <li><a href='nant'>NAnt</a></li>
+    </ul>
+  </body>
+</html>

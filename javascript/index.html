@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>repo.roscidus.com: JavaScript</title>
+  </head>
+  <body>
+    <h1>repo.roscidus.com: JavaScript</h1>
+
+    <p>Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.</p>
+
+    <p>To add <code>npm</code> (package manager for JavaScript) to your <code>PATH</code>:</p>
+    <pre>
+      $ 0alias npm http://repo.roscidus.com/javascript/node npm
+    </pre>
+
+    <p>To specify Node.js as the runner in a feed:</p>
+    <pre>
+      &lt;command name="run" path="myapp.js"&gt;
+        &lt;runner interface="http://repo.roscidus.com/javascript/node"/&gt;
+      &lt;/command&gt;
+    </pre>
+
+    <p>NW.js lets you call all Node.js modules directly from DOM and enables a new way of writing applications with all Web technologies.</p>
+
+    <p>To specify NW.js as the runner in a feed:</p>
+    <pre>
+      &lt;command name="run" path="."&gt;
+        &lt;runner interface="http://repo.roscidus.com/javascript/nwjs"/&gt;
+      &lt;/command&gt;
+    </pre>
+
+    <h2>Available feeds</h2>
+
+    <ul>
+      <li><a href='node'>Node.js</a></li>
+      <li><a href='nwjs'>NW.js</a></li>
+    </ul>
+  </body>
+</html>
