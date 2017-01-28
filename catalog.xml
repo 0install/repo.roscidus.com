@@ -17,7 +17,37 @@ capabilities, not dependent on network access or a central server.
 This package provides the git main components with minimal dependencies.
 Additional functionality, e.g. a graphical user interface and revision tree
 visualizer, tools for interoperating with other VCS's, or a web interface, is
-provided as separate git* packages.</description><category>Development</category></interface><interface uri="http://repo.roscidus.com/javascript/node"><name>Node.js</name><summary>open-source, cross-platform JavaScript runtime environment</summary><description>Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.</description><homepage>http://nodejs.org/</homepage><icon href="http://0install.de/feed-icons/Node.js.png" type="image/png"/><icon href="http://0install.de/feed-icons/Node.js.ico" type="image/vnd.microsoft.icon"/><entry-point binary-name="node" command="run"/><entry-point binary-name="npm" command="npm">
+provided as separate git* packages.</description><category>Development</category></interface><interface uri="http://repo.roscidus.com/git/windows"><name>Git for Windows</name><summary>decentralized version control system</summary><description>Git is a powerful version control system aiming to be the fastest decentralized source code management tool on this planet.</description><category>Development</category><homepage>https://git-for-windows.github.io/</homepage><icon href="https://git-for-windows.github.io/img/gwindows_logo.png" type="image/png"/><entry-point binary-name="git" command="run">
+    <needs-terminal/>
+    <name>Git</name>
+    <summary>command-line interface for Git</summary>
+  </entry-point><entry-point binary-name="git-gui" command="run-gui">
+    <name>Git GUI</name>
+    <summary>graphical interface for creating Git commits</summary>
+  </entry-point><entry-point binary-name="gitk" command="gitk">
+    <name>Gitk GUI</name>
+    <summary>graphical interface for editing Git commits</summary>
+  </entry-point><entry-point command="git-bash">
+    <needs-terminal/>
+    <name>Git Bash</name>
+    <summary>MSYS-based bash prompt with all Git commands in PATH</summary>
+  </entry-point><entry-point command="git-cmd">
+    <needs-terminal/>
+    <name>Git CMD</name>
+    <summary>Windows CMD-based command prompt with all Git commands in PATH</summary>
+  </entry-point><entry-point command="ssh">
+    <needs-terminal/>
+    <name>SSH</name>
+    <summary>Secure remote shell</summary>
+  </entry-point><entry-point command="scp">
+    <needs-terminal/>
+    <name>scp</name>
+    <summary>Secure remote file copy</summary>
+  </entry-point><entry-point command="curl">
+    <needs-terminal/>
+    <name>cURL</name>
+    <summary>A comand-line client for HTTP, FTP, etc.</summary>
+  </entry-point></interface><interface uri="http://repo.roscidus.com/javascript/node"><name>Node.js</name><summary>open-source, cross-platform JavaScript runtime environment</summary><description>Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.</description><homepage>http://nodejs.org/</homepage><icon href="http://0install.de/feed-icons/Node.js.png" type="image/png"/><icon href="http://0install.de/feed-icons/Node.js.ico" type="image/vnd.microsoft.icon"/><entry-point binary-name="node" command="run"/><entry-point binary-name="npm" command="npm">
     <needs-terminal/>
     <name>Node Package Manager</name>
     <summary>package manager for JavaScript</summary>
@@ -46,16 +76,16 @@ pkg-config is a system for managing library compile and link flags that works
 with automake and autoconf.
 
 Increasingly libraries ship with &quot;.pc&quot; files that allow querying of the compiler
-and linker flags needed to use them through the pkg-config(1) program.</description><category>Development</category><homepage>http://pkg-config.freedesktop.org/</homepage></interface><interface uri="http://repo.roscidus.com/devel/gcc-c++"><name>gcc-c++</name><summary>gcc C++ compiler</summary><description/><homepage>https://gcc.gnu.org/</homepage></interface><interface uri="http://repo.roscidus.com/utils/curl"><name>curl</name><summary>command line tool for transferring data</summary><description>
-    curl is a command line tool for transferring data with URL syntax,
+and linker flags needed to use them through the pkg-config(1) program.</description><category>Development</category><homepage>http://pkg-config.freedesktop.org/</homepage></interface><interface uri="http://repo.roscidus.com/devel/gcc-c++"><name>gcc-c++</name><summary>gcc C++ compiler</summary><description/><homepage>https://gcc.gnu.org/</homepage></interface><interface uri="http://repo.roscidus.com/utils/curl"><name>cURL</name><summary>command line tool for transferring data</summary><description>
+    cURL is a command line tool for transferring data with URL syntax,
     supporting DICT, FILE, FTP, FTPS, Gopher, HTTP, HTTPS, IMAP, IMAPS,
     LDAP, LDAPS, POP3, POP3S, RTMP, RTSP, SCP, SFTP, SMTP, SMTPS, Telnet
-    and TFTP. curl supports SSL certificates, HTTP POST, HTTP PUT, FTP
+    and TFTP. cURL supports SSL certificates, HTTP POST, HTTP PUT, FTP
     uploading, HTTP form based upload, proxies, cookies, user+password
     authentication (Basic, Digest, NTLM, Negotiate, kerberos...), file
     transfer resume, proxy tunneling and a busload of other useful
     tricks.
-  </description></interface><interface uri="http://repo.roscidus.com/utils/bash"><name>bash</name><summary>the GNU Bourne Again shell</summary><description>
+  </description><category>Network</category><category>Utility</category></interface><interface uri="http://repo.roscidus.com/utils/bash"><name>bash</name><summary>the GNU Bourne Again shell</summary><description>
 Bash is the shell, or command language interpreter, for the GNU operating
 system. The name is an acronym for the ‘Bourne-Again SHell’, a pun on
 Stephen Bourne, the author of the direct ancestor of the current Unix shell sh,
@@ -94,7 +124,7 @@ websites and applications. It’s built, used, and supported by an active and
 diverse community of people around the world.</description><homepage>http://drupal.org</homepage><category>Network</category></interface><interface uri="http://repo.roscidus.com/e/e-swt"><name>e-swt</name><summary>graphical interface support for E</summary><description>
 E is a scripting language designed for writing secure distributed programs. This
 package adds support for using it with the SWT widget set.</description><homepage>http://erights.org</homepage><category>Development</category></interface><interface uri="http://repo.roscidus.com/e/e-core"><name>e-core</name><summary>secure distributed pure-object language</summary><description>
-E is a scripting language designed for writing secure distributed programs.</description><homepage>http://erights.org</homepage><category>Development</category></interface><interface uri="http://repo.roscidus.com/java/gradle"><name>Gradle</name><summary>A software project management and comprehension tool</summary><homepage>http://www.gradle.org/</homepage><category>Development</category><entry-point binary-name="gradle" command="run"/></interface><interface uri="http://repo.roscidus.com/java/hsqldb"><name>HyperSQL</name><summary>100% Java Database </summary><description>
+E is a scripting language designed for writing secure distributed programs.</description><homepage>http://erights.org</homepage><category>Development</category></interface><interface uri="http://repo.roscidus.com/java/gradle"><name>Gradle</name><summary>modern open source build tool for continuous delivery</summary><homepage>http://www.gradle.org/</homepage><category>Development</category><entry-point binary-name="gradle" command="run"/></interface><interface uri="http://repo.roscidus.com/java/hsqldb"><name>HyperSQL</name><summary>100% Java Database </summary><description>
 HSQLDB (HyperSQL DataBase) is an SQL relational database engine written in Java.
 It has a JDBC driver and supports nearly full ANSI-92 SQL (BNF tree format) plus
 many SQL:2008 enhancements. It offers a small, fast database engine which offers
@@ -128,7 +158,7 @@ On OS X, an extra argument needs to be passed to Java. To support OS X, please u
 &lt;/runner&gt;
 </description><homepage>http://www.eclipse.org/swt/</homepage><category>Development</category></interface><interface uri="http://repo.roscidus.com/java/openjdk-6-jre"><name>openjdk-6-jre</name><summary>OpenJDK Java runtime</summary><description>
     The package was built by the Debian project using the IcedTea build support and
-    patches from the IcedTea project and then repackaged for Zero Install.</description></interface><interface uri="http://repo.roscidus.com/java/maven"><name>Apache Maven</name><summary>A software project management and comprehension tool</summary><homepage>http://maven.apache.org/</homepage><category>Development</category><entry-point binary-name="mvn" command="run"/></interface><interface uri="http://repo.roscidus.com/java/jar-launcher"><name>JAR Launcher</name><summary>launcher that starts the main class while preserving the CLASSPATH</summary><description>A launcher that starts the main class specified in a JAR while preserving the CLASSPATH.
+    patches from the IcedTea project and then repackaged for Zero Install.</description></interface><interface uri="http://repo.roscidus.com/java/maven"><name>Apache Maven</name><summary>build manager for Java projects</summary><homepage>http://maven.apache.org/</homepage><category>Development</category><entry-point binary-name="mvn" command="run"/></interface><interface uri="http://repo.roscidus.com/java/jar-launcher"><name>JAR Launcher</name><summary>launcher that starts the main class while preserving the CLASSPATH</summary><description>A launcher that starts the main class specified in a JAR while preserving the CLASSPATH.
 Workaround for java -classpath ... -jar ... which does not work.</description><homepage>https://github.com/0install/jar-launcher</homepage></interface><interface uri="http://repo.roscidus.com/java/openjdk-jre"><name>openjdk-jre</name><summary>OpenJDK Java runtime</summary><description>
     The package was built by the Debian project using the IcedTea build support and
     patches from the IcedTea project and then repackaged for Zero Install.</description><entry-point binary-name="java" command="run">
@@ -155,7 +185,7 @@ Workaround for java -classpath ... -jar ... which does not work.</description><h
     <needs-terminal/>
   </entry-point><entry-point binary-name="unpak200" command="unpak200">
     <needs-terminal/>
-  </entry-point></interface><interface uri="http://repo.roscidus.com/java/ant"><name>Apache Ant</name><summary>A software project management and comprehension tool</summary><homepage>http://ant.apache.org/</homepage><category>Development</category><entry-point binary-name="ant" command="run"/></interface><interface uri="http://repo.roscidus.com/java/openjdk-jdk"><name>openjdk-jdk</name><summary>OpenJDK Development Kit (JDK)</summary><description>
+  </entry-point></interface><interface uri="http://repo.roscidus.com/java/ant"><name>Apache Ant</name><summary>pure Java build tool</summary><homepage>http://ant.apache.org/</homepage><category>Development</category><entry-point binary-name="ant" command="run"/></interface><interface uri="http://repo.roscidus.com/java/openjdk-jdk"><name>openjdk-jdk</name><summary>OpenJDK Development Kit (JDK)</summary><description>
 OpenJDK is a development environment for building applications, applets, and
 components using the Java programming language.
 
@@ -171,7 +201,12 @@ management facility and is compliant with the proposed OpenPGP Internet standard
 as described in RFC2440.
 
 GnuPG does not use any patented algorithms so it cannot be compatible with PGP2
-because it uses IDEA (which is patented worldwide).</description></interface><interface uri="http://repo.roscidus.com/python/python-gobject"><name>python-gobject</name><summary>Python bindings for the GObject library</summary><description>
+because it uses IDEA (which is patented worldwide).</description><homepage>http://www.gnupg.org/</homepage><entry-point binary-name="gpg" command="run"/><entry-point command="gpgv">
+    <name>OpenPGP signature checking tool</name>
+    <summary>stripped down version of gpg which is only able to check signatures</summary>
+  </entry-point><entry-point command="gpgsplit">
+    <summary>splits an OpenPGP message into packets</summary>
+  </entry-point></interface><interface uri="http://repo.roscidus.com/python/python-gobject"><name>python-gobject</name><summary>Python bindings for the GObject library</summary><description>
 GObject is an abstraction layer that allows programming with an object
 paradigm that is compatible with many languages. It is a part of Glib,
 the core library used to build GTK+ and GNOME.
@@ -365,11 +400,11 @@ that GCC uses to overcome shortcomings of particular machines, or
 special needs for some languages.</description></interface><interface uri="http://repo.roscidus.com/lib/ldap-2.4-2"><name>libldap-2.4-2</name><summary>OpenLDAP libraries</summary><description>These are the run-time libraries for the OpenLDAP (Lightweight Directory
 Access Protocol) servers and clients.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYhM/FAAoJECLqERp+QkKkXVcIAJrjiOypm4ykTHb/KOqT3h+M4Po3RjLXmjR2
-cBt8TixJWFPub61G2UVnAERvrY3pr4Hdm5jApwRUAMhA1UBTo5Ms1UeQArSIpae9XOqnq51kL32n
-sVE2GwUpuWftWBoX3wyMP0TQDY+SXKczPZOSuZ6ne08S5vfMRH/snPBYA0crwT4fL3oLwzEoyWVs
-k8kgOscTLUgrw9QJCXPLC3/YuypFMIbWUWZgsqUlH6AWTopDUDR5QNfdUK2EKOIq+Kc42p8kcIP+
-iWR0ousXT8E9OllKPu29Veh5AGDBa9uN0x4nEtP4Wu7QeLfhHkwc7u8441gqFRz2OZmfjXokraeb
-Lrw=
+iQEcBAABCAAGBQJYjOZXAAoJECLqERp+QkKkTP8IAJ1r1lBMJyGSZGOxnifG96nC/MdKNBAWJbur
+sNVG+TMoNwr5A05YKJad4fekNASIjSzejhRqXkQ0qhDCnqluA8anmUcN/N1vqhB5ZdQuEuLyAFgU
+94DeWJmT/KqlzB4hGVPsP9Cv84d9CI1V8O8s3quIN2IACJ9yX/G7wCnDXcIagwkOzefb9/lAUfAR
+shHFEGLBSI6n5pyE4JDXUF8svkTzu+8ACub7RNZNijo3xEeJiI8wZy5b8cJ0+ZQz5HtkLzbtN6om
+PIbeXZm7aEIYRp3ldwTtqSHVJJT99MdjvU26DbYnrAsPo+KQ9BjU/FCJosOXNasIM7o86x5vLIuD
+GA8=
 
 -->

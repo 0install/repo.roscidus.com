@@ -2,7 +2,7 @@
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/java/gradle" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>Gradle</name>
-  <summary>A software project management and comprehension tool</summary>
+  <summary>modern open source build tool for continuous delivery</summary>
   <homepage>http://www.gradle.org/</homepage>
   <category>Development</category>
   <needs-terminal/>
@@ -114,11 +114,11 @@
   <entry-point binary-name="gradle" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYg1YKAAoJECLqERp+QkKkp4oH/2bMYzYp1aa5oZfoelI2FcM6qiRN/bcQOHzJ
-Bm3W1elPns3aSz8MDgYtfPVM3ivR3BHRRqOTAu7cJ3hQS9BWdThVp29jJyu8vtA6/H5ZU8oIihoF
-LiqG5loOv9DHtoWkqmgeQPey0z8e2rWQxUtUNNNFqXAjnvVw5JgYphtT8blFGo/YsLuLIgQONTyP
-7DWi0GB69z1WQjG6owgdtdWar4XLogmdm022P4QSj1sd7XX/FFfSp/CkvGyjobOVY+JDn81QJdI8
-Ox1u5YpwqduqTqCiBt2r7bTqWGAvGdQSQqYFOL5aab6HdHD6phjNhhQFLmTL06yjQ+mF3XzAgfRS
-aRY=
+iQEcBAABCAAGBQJYjOY8AAoJECLqERp+QkKkzgMIAKj+oFNuMpZscxWe4uVDHY9dE46xtF0WTERx
+wPwrYWB1QeRXiW4rCuFHB9JwMWp1wBYjLtYMVHSpB/jdwv9ZvI4SnPFrvEBvOV9gSzG5nMbPOaZ4
+gy6VUEvrhKVmsbbUHKdFrx8XaC6ufIP+WWQ8mrrUZcBX4y1MBOsYuxhzLFuPdVbOomsv97vlOehf
+V8J051ma+v1akJhEC34MqNBF7v2ecN+o/acPaO0an+dAYuhygSunZNdhOknk3/n4Gk+ZNI0RWn2T
+FaRfuOIVUjms0i+XC/Z0SuAT3kVnTufoP5yIUVU6BHqdi8rqBW088NIgF24/P6gaE/VyZZKUewXl
+9t8=
 
 -->

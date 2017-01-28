@@ -2,7 +2,7 @@
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/java/ant" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>Apache Ant</name>
-  <summary>A software project management and comprehension tool</summary>
+  <summary>pure Java build tool</summary>
   <homepage>http://ant.apache.org/</homepage>
   <category>Development</category>
   <needs-terminal/>
@@ -79,11 +79,11 @@
   <entry-point binary-name="ant" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYg1YKAAoJECLqERp+QkKkQTAIALSaaM8BmzXDQSkoIMnbWOFfRy1I0Qq8fjEV
-JhyxFTsvw+phnj4EVhNcxEosCDhyYZIj7v+0I0LftwGJLrMRpvPj+TkHzTtN6Us0EGdf5XoH8reB
-w+mj0ULvKMtcOr0GoZozmwwPIlD8em60IBrsZJymtDoJP5c91DES6yVIj6wib2EpdjxyFfYjadwy
-pEzqfhDz1kY4EVeJiQdZQhUDkOTZB7VcET4f7JZsoT45vZz4Uc41tWF2ZjB43ebpIfTWvmtjtx4w
-1kRiONoNT1VOTHFAr+yAg8T5RwEEwLyfymSIvrxt3TisuHQUs2KlJidF29rwk687RsRgbEay7xzI
-c0U=
+iQEcBAABCAAGBQJYjOY8AAoJECLqERp+QkKk9bUH/iEieoeZzmjIVVJ9okOew6mB0EyIbwLPU/SZ
+HVbnJMuy14ziWEeWqbMz1BW5xyKCuc9HytsamMtoHmJjCHRTKRv7rrlgIsPuHOGPn9hbtOXC/V0z
+2eg6fOogp+BAPtrn9aCHGw+uBiBZGbbo/EJecBIJ1QFNogf+ASRoM9M5qfj+Qh4YG8frTINTkQV9
+2Ve3/8WIBsGdO5wRCLuolj465qSxJbfb5TxRnuMmPX+SxIjj9HwrZd72vdTX4bqcN8aJK2yz5Sxp
+Fm0WIMk/oFRGn1DsGWAwBuTHfrSVNlrCS1eXrpoT9QUtNnDZFSxOY41k4CD7OowUrrW/Zun32yWm
+ToE=
 
 -->

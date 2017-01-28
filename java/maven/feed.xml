@@ -2,7 +2,7 @@
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/java/maven" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>Apache Maven</name>
-  <summary>A software project management and comprehension tool</summary>
+  <summary>build manager for Java projects</summary>
   <homepage>http://maven.apache.org/</homepage>
   <category>Development</category>
   <needs-terminal/>
@@ -58,11 +58,11 @@
   <entry-point binary-name="mvn" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYg1YKAAoJECLqERp+QkKkQFIH/310qSUACis7rzU2I7eYD0DXiGm5DQGll9gs
-lmAw9qIBBRwzfP3ZW6zbejS2oDbljyrv58HuUEmySQyPDwPgEUWFS8pJGw02d+IeFOc3a50tk2QH
-l7gtQIJNe3cqje+pO33f3AMDK1QhgeimLe0v5FkuP785TrqI+frkNJTFHrnbrLrgoDbq64sYHvZU
-Rb5aYG5XKtQfsvH+j7/JyB6TzWsS1pXzeZvhGjGLTwZR5mf50EWmRxmsyt3/8DDX6L30XdNKlU/n
-qd8BQjvfyeMN5qKIFlcfLzlnpJh1h/uh2il722HkYwP8L1/Yc2LihXrkjwzdbrabPOqtbUxIspkd
-wMg=
+iQEcBAABCAAGBQJYjOY8AAoJECLqERp+QkKkfvEH/28HVYBCmEsOhbmLiiPqtBl8hmqQNSGwbdma
+YjZXpBLw2oT2MXr52aqK4skrOt8kAAS9KKQaIpqZVn6V3d07TrZYMjGCpal9JtZVxhJaYH9zpX46
+Qk/p6RwEZxWOcoM8JXxfrEqb28P28CGuOqDT1RibFQ97ksRsjQ+8IvfQc1TzPremBHpveNtbz/R1
+V2vQ1yORvMf4uX4XymL1SUNktHhfgSBXGbZS8KiXcR+Cmz9yh27LyAxl6n/gCImjpQ6KzLqy7eV8
+zIHVkE9Jwt3cID7U7+/BYXCxb2sZ9NsIrW7ElqAcR2RqnvhGCn9GZshs4NiBg/Y3kXqUCoL2p47u
+mWA=
 
 -->

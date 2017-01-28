@@ -17,8 +17,9 @@ Additional functionality, e.g. a graphical user interface and revision tree
 visualizer, tools for interoperating with other VCS's, or a web interface, is
 provided as separate git* packages.</description>
   <category>Development</category>
+  <needs-terminal/>
 
-  <feed arch="Windows-*" src="http://0install.de/feeds/Git_for_Windows.xml"/>
+  <feed arch="Windows-*" src="http://repo.roscidus.com/git/windows"/>
 
   <package-implementation main="/usr/bin/git" package="git-core"/>
   <package-implementation main="/usr/bin/git" package="git"/>
@@ -71,11 +72,11 @@ provided as separate git* packages.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJWf9zPAAoJECLqERp+QkKkcqQIANDMJ+abCdf+9xIm8GUL6JQSmeYiZ4tWLa+M
-jtK26Gmgsy2+yBDZE95KyvwEpOf4UeYtXnBNuh1apcGS7HiwDtTUdyUeATJwCdJXmSJuk5mBrWd5
-ZOPJ0v9m6WqNjCt/Nv48JR5/0Mk/1m2a4ixJCAMlur4BB/BsWYGID5cUq+B21zYCm+VTtTGGxerN
-cBMrkoTMqo51iHXdNnT8AYscOFAToQnoMzkMNwdL2SYfA4H0K7fwHXOJvlHzBx1DzquZCI7Vdn65
-/YVmxIzFO8PjeihMmsEOZy6HN678zwXw3N+o3FJZ2DgRaKSkp4LX3ZkZ972NgVt7jxfCFAibezBY
-elQ=
+iQEcBAABCAAGBQJYjOZXAAoJECLqERp+QkKkqUAIAKOG6lDPrzjzopMeVl8bhC4srMXlEQlQgbuS
+ihmntzZDr2oK2IMklsx0XTdwfTITe8Krl+V6JrKhPcNfq/Xxz1ZOBl6CoYkJK2KntCrSeNOEu3uS
+U/EJiQrU3bsfbY1FHsb9rCvBQC//f5tQbvOO36mzTfHDD20PdUqNM2q/I2i5flMKpA8noiiuHgPm
+GMkNDZpDXhLA1/IqbrstA2DW9Vr8YoEmA/4gK9UtUJeRolG3zJDC+UQOgkSrrF8ZjT27C3OJCtkN
+N+aCtGAcDIFsWb6W7eWb0Xlx1Z+ot0+wCYaNn6wnxluin2w77rscYSxmaDP4Rc6tQW1HV0peR6Lr
+zuI=
 
 -->

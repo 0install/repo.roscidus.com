@@ -11,6 +11,9 @@ as described in RFC2440.
 
 GnuPG does not use any patented algorithms so it cannot be compatible with PGP2
 because it uses IDEA (which is patented worldwide).</description>
+  <homepage>http://www.gnupg.org/</homepage>
+  <needs-terminal/>
+
   <package-implementation distributions="RPM" main="/usr/bin/gpg2" package="gpg2"/>
   <package-implementation distributions="RPM" main="/usr/bin/gpg2" package="gnupg2"/>
   <package-implementation distributions="Arch Slack Debian RPM Cygwin" main="/usr/bin/gpg" package="gnupg"/>
@@ -20,7 +23,6 @@ because it uses IDEA (which is patented worldwide).</description>
   <package-implementation distributions="Darwin" main="/usr/local/bin/gpg" package="gnupg"/>
   <package-implementation distributions="Darwin" main="/usr/local/bin/gpg2" package="gnupg2"/>
 
-  <feed arch="Windows-*" src="http://0install.de/feeds/GnuPG.xml"/>
   <feed arch="Darwin-*" src="http://afb.users.sourceforge.net/zero-install/interfaces/GnuPG.xml"/>
 
   <group arch="Linux-i386" main="bin/gpg">
@@ -43,13 +45,31 @@ because it uses IDEA (which is patented worldwide).</description>
     </group>
   </group>
 
+  <group arch="Windows-*" license="GPL v3 (GNU General Public License)">
+    <command name="run" path="gpg.exe"/>
+    <command name="gpgv" path="gpgv.exe"/>
+    <command name="gpgsplit" path="gpgsplit.exe"/>
+    <implementation id="sha1new=13f58c4e0c8cefb86b993e13f1b3111a082467b2" stability="stable" version="1.4.11">
+      <manifest-digest sha1new="13f58c4e0c8cefb86b993e13f1b3111a082467b2" sha256="8432d5b002edba0d26a75c3bb2e5183801eca4cd766a0958d9117f68ed5953ff" sha256new="QQZNLMAC5W5A2JVHLQ53FZIYHAA6ZJGNOZVASWGZCF7WR3KZKP7Q"/>
+      <archive href="http://repo.roscidus.com/archives/gnupg/gnupg-w32-1.4.11.zip" size="2114852" type="application/zip"/>
+    </implementation>
+  </group>
+
+  <entry-point binary-name="gpg" command="run"/>
+  <entry-point command="gpgv">
+    <name>OpenPGP signature checking tool</name>
+    <summary>stripped down version of gpg which is only able to check signatures</summary>
+  </entry-point>
+  <entry-point command="gpgsplit">
+    <summary>splits an OpenPGP message into packets</summary>
+  </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJWRxtTAAoJECLqERp+QkKkld0H/iNahd949qjkgWSQRfg1F1Rf1WjSVZNjSWWY
-yiKudPAq6sLA9gb+yitZjdIXHQniA/KqZbdNuLeYZ7R5cnRB00bQ4FxBUYabp/3nmCLmGN0lFhL8
-di1IZz+KNI6ueyXCg4/yaXHeXO69mtQzTYhr7Mm/WI//49U9XLa939syevrtCIPKh7H9cCIBsLyU
-mST158GMURM6yWYHqg7fl2AgBcMUO9DyFbul1sYLEjGpeM8So5T7Lae6s0JWGz8UY5xHcIOfQggj
-wBbbBUkxaKiGM2LqJ28pKf1u7U4+oY+DnctEYiyz+y3fZcyWHq7sfptlF//RYkFWienCK6Qy0qCM
-PkA=
+iQEcBAABCAAGBQJYjOZXAAoJECLqERp+QkKksBoH+wYHtiK4Z8NChKwCDQMILXJDF5BdKQmlJtBd
+Nsdxzqz4EUTT9d/uXMtNzBfP5AKfxCu6YVCmdNdFDrAvbeDXYIFPIe/0KyQhRs9R51ycmXtAXgzT
+b6xVUfN03c7l4y4sCzaxsk8CePbcU9NgEZzPwRVLhVKkH4i6qcOGc7U79gBpTnXWZPnZh4yreABy
+Fak+hPP+RxsKAoYSeMPAHR4XZ5D9wxPLGdJI+vbny9yBk4SeYiq2IWyYD/c1ekPXl00JQqqlr2kG
+GQM5Ppv4K6x4SADSq/06xG4KXLWTzn1uszcsVjHZHSx5MsNwQHpZ/3uW4dfHNwGPVttM4mrAuXZj
+mfA=
 
 -->
