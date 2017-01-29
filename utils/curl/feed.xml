@@ -29,13 +29,15 @@
       <archive extract="src" href="https://dl.uxnr.de/build/curl/curl_winssl_msys2_mingw32_stc/curl-7.52.1/curl-7.52.1.zip" size="580106" type="application/zip"/>
     </implementation>
   </group>
+
+  <entry-point binary-name="curl" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYjOZXAAoJECLqERp+QkKkC2gIAJmVXhkrdFnH7ROgMVc9/+HRltSFbe7bBBii
-7MKKxXa+GfXe1IoSAIJKCE/HHGWnNvozJ/gVptfClWLnvKPTAsL3vdwrh5T5fN1CdTMZ1TGA/SlJ
-JygSFW3mjlR6sEOkE9TrKgDoMdNarZ0oKS1ceY6TnUSWsNcNnrdf+KsGms59wms2prTcXP/0wDUR
-CJ787mt0kttb9BC0YHqBNpueJbhTnx8Bl9/B7VLoYbPumKNjtrd4/IgRAAkda3Ve3zueEQpMwSSx
-r8swRQFIf8Nhrws6sJqdtw3ZM8P+Fj92h0ls9jykTpiyUERKxoO1G8hw3U3mhp0fuN4DI+8NP3ys
-pUw=
+iQEcBAABCAAGBQJYjeTPAAoJECLqERp+QkKk1EcH/iQs+3NXl6F3KeyiEIb0kVcmr2z/Xvhzi/iF
+/h3OKYb0XbqLH7H2cZz278j5Lx2Zho+eyhYgHUZRZulwfxJMs8tWdXujg6xJPcRSUgm93jx83RgW
+0gbpoSit36OROCFM5h7gPEL7VVu/uLHcjEJ7rl2RHIkxEt1rm5ayg5MIm/v0OVRkHms2aByJy1TQ
+6lOKRXz8x25C23uMcFtRZXaDGmo5wT2sk9B9ndbRxV1laYj9XnwaaWQJz0QZv4LRIn5rFd8uaUsm
+5DM5T0sUAALv6g1CHdOnR9up+Jd/8B4U3UH5XW+UTlUukbCio1HEDpC6KCz6KtLLN/Bi49sy6sd3
+Kys=
 
 -->

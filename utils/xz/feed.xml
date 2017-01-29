@@ -120,29 +120,35 @@
 
   <entry-point binary-name="xz" command="run">
     <name>compress .xz file</name>
+    <needs-terminal/>
   </entry-point>
   <entry-point command="unxz">
     <name>decompress .xz file</name>
+    <needs-terminal/>
   </entry-point>
   <entry-point command="xzcat">
     <name>decompress .xz file to stdout</name>
+    <needs-terminal/>
   </entry-point>
   <entry-point command="lzma">
     <name>compress .lzma file</name>
+    <needs-terminal/>
   </entry-point>
   <entry-point command="unlzma">
     <name>decompress .lzma file</name>
+    <needs-terminal/>
   </entry-point>
   <entry-point command="lzcat">
     <name>decompress .lzma file to stdout</name>
+    <needs-terminal/>
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYjOh6AAoJECLqERp+QkKk/SQIANOG/MfEdCd0etdZTIs1+XPWYvELT6cGPbJx
-OnvAV/diyEedGLzK2r9m9Rw/QkQ1bz1fI1vJ8zcdEsn8oMideV+q/B0KDnKgQVoAXKQvffBapy+l
-hpOQ+ovCemMdC8Vp8+S4xfgS9kWC3VjM22O5ehuyGBtGJxDEHDZPlzktEWrpSSUFI0anAPV7A4ow
-zjLDEiCmwINjn7uEVZIIKldAG7rccQrPM21HB4vLiXz74ANNxUI+PA1WSbWxko/RmcADY1YieqQT
-75blOR8IbQcS/lTGlOaXYM9GghU+HZ7oy/8Z/7NxI7lD4JZa0k9gGHE8OC9IR0LLsPnLzTRMnWLY
-3+w=
+iQEcBAABCAAGBQJYjeTPAAoJECLqERp+QkKk5OoH/ie6Sn2Ml56Kte5fppdImBV01TLf4WDVVp+T
+FeCq7GFN9pHs+JwZjrmuXJfZkus2AnBpfcV6bhMIB9HyF/ENzXbNU7QFp1NsHG0r6zs34w42Fauv
+kxTQ3JymjvYtRQRjdr5ZIxVDztF5AaPrxkqafUCRfjyRFQ/+2y+VbuSsTX9EHj1I6T3/MfVpeOTZ
+hsDV4pfw8UW0/AK212SZOBPlcDaOCessJqsDkEy3pmvXRszB76dFlaHwZ8qPL9r41XRBRQR3t9l+
+vqO+hY44ZGtnuMlO70ryCDEPFdl1m75C8Jm/Vo7shW14M7WWNwCXj2LK9M+IMyKI3c0mJ4mieafS
+7GU=
 
 -->

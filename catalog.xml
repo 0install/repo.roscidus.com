@@ -56,7 +56,7 @@ provided as separate git* packages.</description><category>Development</category
     <name>IronPython command-line interpreter</name>
   </entry-point><entry-point binary-name="ipyw" command="run-gui">
     <name>IronPython grafical interpreter</name>
-  </entry-point></interface><interface uri="http://repo.roscidus.com/cli/nant"><name>NAnt</name><summary>free .NET build tool</summary><description>NAnt is a free .NET build tool. In theory it is kind of like make without make's wrinkles. In practice it's a lot like Ant.</description><icon href="http://0install.de/feed-icons/NAnt.png" type="image/png"/><category>Development</category><category>Utility</category><homepage>http://nant.sourceforge.net/</homepage></interface><interface uri="http://repo.roscidus.com/cli/cli-monopath"><name>Common Language Infrastructure with MONO_PATH support</name><summary>an implementation of the Common Language Infrastucture (.NET Framework on Windows, Mono on POSIX) using .NET profiles as version numbers</summary></interface><interface uri="http://repo.roscidus.com/cli/netfx-client"><name>.NET Framework Client Profile</name><summary>a limited version of the .NET Framework from Microsoft</summary></interface><interface uri="http://repo.roscidus.com/cli/cli"><name>Common Language Infrastructure</name><summary>an implementation of the Common Language Infrastucture (.NET Framework on Windows, Mono on POSIX) using .NET profiles as version numbers</summary></interface><interface uri="http://repo.roscidus.com/cli/mono"><name>Mono</name><summary>open-source cross-platform implementation of the Common Language Infrastructure (.NET Framework compatible)</summary><homepage>http://www.mono-project.com/</homepage></interface><interface uri="http://repo.roscidus.com/cli/netfx"><name>.NET Framework</name><summary>the .NET Framework from Microsoft</summary></interface><interface uri="http://repo.roscidus.com/devel/make-dep"><name>make dependencies</name><summary>libraries for make</summary></interface><interface uri="http://repo.roscidus.com/devel/gcc-c"><name>gcc-c</name><summary>gcc C compiler</summary><description/><homepage>https://gcc.gnu.org/</homepage></interface><interface uri="http://repo.roscidus.com/devel/glade"><name>Glade</name><summary>a User Interface Designer</summary><description>
+  </entry-point></interface><interface uri="http://repo.roscidus.com/cli/nant"><name>NAnt</name><summary>free .NET build tool</summary><description>NAnt is a free .NET build tool. In theory it is kind of like make without make's wrinkles. In practice it's a lot like Ant.</description><icon href="http://0install.de/feed-icons/NAnt.png" type="image/png"/><category>Development</category><category>Utility</category><homepage>http://nant.sourceforge.net/</homepage></interface><interface uri="http://repo.roscidus.com/cli/cli-monopath"><name>Common Language Infrastructure with MONO_PATH support</name><summary>an implementation of the Common Language Infrastucture (.NET Framework on Windows, Mono on POSIX) using .NET profiles as version numbers</summary></interface><interface uri="http://repo.roscidus.com/cli/netfx-client"><name>.NET Framework Client Profile</name><summary>a limited version of the .NET Framework from Microsoft</summary></interface><interface uri="http://repo.roscidus.com/cli/cli"><name>Common Language Infrastructure</name><summary>an implementation of the Common Language Infrastucture (.NET Framework on Windows, Mono on POSIX) using .NET profiles as version numbers</summary></interface><interface uri="http://repo.roscidus.com/cli/mono"><name>Mono</name><summary>open-source cross-platform implementation of the Common Language Infrastructure (.NET Framework compatible)</summary><homepage>http://www.mono-project.com/</homepage><entry-point binary-name="mono" command="run"/></interface><interface uri="http://repo.roscidus.com/cli/netfx"><name>.NET Framework</name><summary>the .NET Framework from Microsoft</summary></interface><interface uri="http://repo.roscidus.com/devel/make-dep"><name>make dependencies</name><summary>libraries for make</summary></interface><interface uri="http://repo.roscidus.com/devel/gcc-c"><name>gcc-c</name><summary>gcc C compiler</summary><description/><homepage>https://gcc.gnu.org/</homepage></interface><interface uri="http://repo.roscidus.com/devel/glade"><name>Glade</name><summary>a User Interface Designer</summary><description>
 Glade is a RAD tool to enable quick &amp; easy development of user interfaces for
 the GTK+ toolkit and the GNOME desktop environment.
 
@@ -102,7 +102,7 @@ and linker flags needed to use them through the pkg-config(1) program.</descript
     authentication (Basic, Digest, NTLM, Negotiate, kerberos...), file
     transfer resume, proxy tunneling and a busload of other useful
     tricks.
-  </description><category>Network</category><category>Utility</category></interface><interface uri="http://repo.roscidus.com/utils/bash"><name>bash</name><summary>the GNU Bourne Again shell</summary><description>
+  </description><category>Network</category><category>Utility</category><entry-point binary-name="curl" command="run"/></interface><interface uri="http://repo.roscidus.com/utils/bash"><name>bash</name><summary>the GNU Bourne Again shell</summary><description>
 Bash is the shell, or command language interpreter, for the GNU operating
 system. The name is an acronym for the ‘Bourne-Again SHell’, a pun on
 Stephen Bourne, the author of the direct ancestor of the current Unix shell sh,
@@ -140,16 +140,22 @@ finally solved by solver clasp.</description><homepage>http://www.cs.uni-potsdam
     <description>ffprobe gathers information from multimedia streams and prints it in human- and machine-readable fashion.</description>
   </entry-point></interface><interface uri="http://repo.roscidus.com/utils/xz"><name>XZ Utils</name><summary>xz data compression tool for .xz and .lzma files</summary><description>XZ Utils is free general-purpose data compression software with high compression ratio. XZ Utils are the successor to LZMA Utils.</description><homepage>http://tukaani.org/xz/</homepage><category>Utility</category><entry-point binary-name="xz" command="run">
     <name>compress .xz file</name>
+    <needs-terminal/>
   </entry-point><entry-point command="unxz">
     <name>decompress .xz file</name>
+    <needs-terminal/>
   </entry-point><entry-point command="xzcat">
     <name>decompress .xz file to stdout</name>
+    <needs-terminal/>
   </entry-point><entry-point command="lzma">
     <name>compress .lzma file</name>
+    <needs-terminal/>
   </entry-point><entry-point command="unlzma">
     <name>decompress .lzma file</name>
+    <needs-terminal/>
   </entry-point><entry-point command="lzcat">
     <name>decompress .lzma file to stdout</name>
+    <needs-terminal/>
   </entry-point></interface><interface uri="http://repo.roscidus.com/drupal/smtp"><name>Drupal-SMTP</name><summary>SMTP Authentication Support</summary><description>
 This module allows Drupal to bypass the PHP mail() function and send email
 directly to an SMTP server. The module supports SMTP authentication and can even
@@ -171,12 +177,16 @@ components using the Java programming language.
 
 The packages are built using the IcedTea build support and patches from the
 IcedTea project.</description><category>Development</category></interface><interface uri="http://repo.roscidus.com/java/scala"><name>Scala</name><summary>functional and object-oriented programming language</summary><description>Scala is a functional and object-oriented programming language based on the Java Virtual Machine.</description><homepage>http://www.scala-lang.org/</homepage><category>Development</category><icon href="http://0install.de/feed-icons/Scala.png" type="image/png"/><icon href="http://0install.de/feed-icons/Scala.ico" type="image/vnd.microsoft.icon"/><entry-point binary-name="scala" command="run">
+    <needs-terminal/>
     <name>Scala interpreter</name>
   </entry-point><entry-point command="scalac">
+    <needs-terminal/>
     <name>Scala compiler</name>
   </entry-point><entry-point command="scaladoc">
+    <needs-terminal/>
     <name>Scala documentation builder</name>
   </entry-point><entry-point command="scalap">
+    <needs-terminal/>
     <name>Scala class file decoder</name>
   </entry-point></interface><interface uri="http://repo.roscidus.com/java/sablecc"><name>SableCC</name><summary>Java parser generator</summary><description>
 SableCC is a parser generator which generates fully featured object-oriented
@@ -238,7 +248,7 @@ IcedTea project.</description><category>Development</category><entry-point binar
   </entry-point><entry-point binary-name="java" command="java">
     <name>Java application launcher</name>
   </entry-point></interface><interface uri="http://repo.roscidus.com/security/keepass-pro"><name>KeePass Professional Edition</name><summary>free open source password manager</summary><description>KeePass is a free open source password manager, which helps you to manage your passwords in a secure way. You can put all your passwords in one database, which is locked with one master key or a key file. So you only have to remember one single master password or select the key file to unlock the whole database. The databases are encrypted using the best and most secure encryption algorithms currently known (AES and Twofish).
-Professional runs on Microsoft .NET 2.0 and Mono 2.6 or newer.</description><homepage>http://keepass.info/</homepage><category>Utility</category><icon href="http://0install.de/feed-icons/KeePass.png" type="image/png"/><icon href="http://0install.de/feed-icons/KeePass.ico" type="image/vnd.microsoft.icon"/></interface><interface uri="http://repo.roscidus.com/security/gnupg"><name>gnupg</name><summary>GNU privacy guard - a free PGP replacement</summary><description>
+Professional runs on Microsoft .NET 2.0 and Mono 2.6 or newer.</description><homepage>http://keepass.info/</homepage><category>Utility</category><icon href="http://0install.de/feed-icons/KeePass.png" type="image/png"/><icon href="http://0install.de/feed-icons/KeePass.ico" type="image/vnd.microsoft.icon"/></interface><interface uri="http://repo.roscidus.com/security/gnupg"><name>GnuPG</name><summary>GNU privacy guard - a free PGP replacement</summary><description>
 GnuPG is GNU's tool for secure communication and data storage. It can be used to
 encrypt data and to create digital signatures. It includes an advanced key
 management facility and is compliant with the proposed OpenPGP Internet standard
@@ -246,9 +256,12 @@ as described in RFC2440.
 
 GnuPG does not use any patented algorithms so it cannot be compatible with PGP2
 because it uses IDEA (which is patented worldwide).</description><homepage>http://www.gnupg.org/</homepage><entry-point binary-name="gpg" command="run"/><entry-point command="gpgv">
+    <needs-terminal/>
     <name>OpenPGP signature checking tool</name>
     <summary>stripped down version of gpg which is only able to check signatures</summary>
   </entry-point><entry-point command="gpgsplit">
+    <needs-terminal/>
+    <name>OpenPGP Split</name>
     <summary>splits an OpenPGP message into packets</summary>
   </entry-point></interface><interface uri="http://repo.roscidus.com/security/keepass-classic"><name>KeePass Classic Edition</name><summary>free open source password manager</summary><description>KeePass is a free open source password manager, which helps you to manage your passwords in a secure way. You can put all your passwords in one database, which is locked with one master key or a key file. So you only have to remember one single master password or select the key file to unlock the whole database. The databases are encrypted using the best and most secure encryption algorithms currently known (AES and Twofish).
 Classic runs on all Windows systems without any prerequisites.</description><homepage>http://keepass.info/</homepage><category>Utility</category><icon href="http://0install.de/feed-icons/KeePass.png" type="image/png"/><icon href="http://0install.de/feed-icons/KeePass.ico" type="image/vnd.microsoft.icon"/></interface><interface uri="http://repo.roscidus.com/python/python-gobject"><name>python-gobject</name><summary>Python bindings for the GObject library</summary><description>
@@ -478,11 +491,11 @@ Access Protocol) servers and clients.</description></interface><interface uri="h
     <summary>view the Ruby documentation off-line</summary>
   </entry-point></interface></c:catalog>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYjOh6AAoJECLqERp+QkKk/awH/R9EUaF4RWGNS97wQWMYTM6U00MQIRavV5cQ
-smmGNRQNp9j5ar6noBELMaxrBHPlQere1YKimd7p1BNE2j3M817SpEGt3cqJQv/1ok1GKJCJGhq4
-ikGdDDHUKWRUEO5gzOcVKNBHxXX1uABIrhRIhD2ATdubdGwSiBsp5Pt7BvYMoZQMUqobra7kBTMj
-YxL6ImyOnkSydNDN7ng0gxA/dEqyYa13j+LXZE/Dd8kQLPI/m59rXgyaigY/KfzT/jVVWJupXqy7
-t3EionQK7GDsf1c/WAfzakydU+BQiH2fUwdJBuOQL2QsIQuC38xrJ5MiGYopU4mH/XBsZID4r/bd
-31A=
+iQEcBAABCAAGBQJYjeTQAAoJECLqERp+QkKkE/QIAN5K5ESFbVoHGSkGFyylXoKcBvRe8oTQ0mFZ
+/JA8YNCWwPOcSV2aY8i3dzM2xC8E742euBnFT82wJhtJNquodH9DjcwE6f2GCx0S+wHSXjApRW4+
+7pRKveVA3VDdLyv40VbtWtQW6s+rBOw/sixcCvp5cc1L0jlnun2EXP5Lz2+rnfvvxQC/WpcbPRLM
+fI2jRt349EyWvyrL2rBHmqrbZpbFvVz468xeX+q8FTM77oC/IkikEOyQVNlTTxckNJROMUrig4oy
+j5ZVnwoHqIcocJho/4yWS2AWr2LNmA3Gc37MrMetUIdFLEQ8QSLjw0PxppMCTzfMZmfwP9UK4ono
+mqk=
 
 -->

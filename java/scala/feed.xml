@@ -141,15 +141,19 @@
   </group>
 
   <entry-point binary-name="scala" command="run">
+    <needs-terminal/>
     <name>Scala interpreter</name>
   </entry-point>
   <entry-point command="scalac">
+    <needs-terminal/>
     <name>Scala compiler</name>
   </entry-point>
   <entry-point command="scaladoc">
+    <needs-terminal/>
     <name>Scala documentation builder</name>
   </entry-point>
   <entry-point command="scalap">
+    <needs-terminal/>
     <name>Scala class file decoder</name>
   </entry-point>
 
@@ -162,11 +166,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYjOh6AAoJECLqERp+QkKkw/UIAIXkCWpF+fc+NSQFwcoJHqV1dX+BBDryHRNe
-96sOyus8qYqz2XYBl6l7Q1MknwKaxvVEPsN16JnXfGCTPglKhT1aGhEV3jnM+cvpn+9whbbtlCpH
-vrcPLjRgz5EEC1kMFu+UXsuam/2g+M98hfBeyiTV5rDOXwYvpSYYgU+FLFZVbocGEgVomCc0SKwx
-sl/wB2CJSJ1SI28Fm7Gmj2Hwn7fZ5oZ9928hmM9UFCTuzv4/lukyOZs2XW6xxmxUHcn2cqiFPN9b
-tFQSQJScp82uhp4tdxnEbcEVCxZaOHoQqUefRn4V8j1Bd0aHAUPmEHz5AwqvVtNKIS4tbzc060l2
-23s=
+iQEcBAABCAAGBQJYjeTPAAoJECLqERp+QkKklxAH/1LVUH+sZqLOx+PR/lLOf1UddWmLkkSp3MFN
+IV2Ygvt5ioxK6/X/PK3Nb7ooQ2V8p10MZmMS0vSTu47xWtLlONLjTBx4+j5MnpIBiY/0gYf9mw2n
+Uk4Y7cbGEMXNODIsKALZxPHkgUcMnrVh2N9GmffkNWhk1MwmvZxGLfn54RuGlF8CqbpzFpWDbJ98
+/8pT9BM9rKPQ7fmQDIiAaw4Z4B2SXuZh+fhcgsorNcUrljudvT//UdUzCJMoP1yRjR3CBr/k6DnM
+LVkZyUTaT5VEMV0qQzKrw5PlfVFzYWizy3LSMhQLB4kqFDvZhNpnThqR4Bvrpd2/1IGq+XpjpSGg
+cX4=
 
 -->

@@ -25,13 +25,15 @@
       <archive href="http://repo.roscidus.com/archives/Mono/mono-2.10.9-win32.tar.lzma" size="83591462" type="application/x-lzma-compressed-tar"/>
     </implementation>
   </group>
+
+  <entry-point binary-name="mono" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYe3CDAAoJECLqERp+QkKk8qUIAOEaKFMyipnY+GVBMvR1NdRAVOlusc2qhLPL
-DD1rPQdT/LSrG+q2KNHKWGpohdRa3st9gW/Zc2MBRWbOYJVpTMxL72rvxVmyEYP9dZHK8LjwJK8U
-uDiUSrQlzU3sNAjffHbzrCzpEgf8HyD0UoN0puEbHlGYcwcBq3kZlUTFEEyX0eWpmpbm16ZQt2DV
-1/fMiaAeHaSXQlhIpWw6ciN8fuT1Q8plxXXVlAXb1gxYbNkfI2rEkF8Zvtt1qqKbC80Z5WXRBDRa
-XFP+zg0gkmzIYsUnHdpu5jL1yPD7ijMKvWQ/ygKT+9bAbzjxTYUs5UJL4SRwuf5zTS/V7rpG5e3H
-KyU=
+iQEcBAABCAAGBQJYjeTMAAoJECLqERp+QkKky/0IAIilZejcv7vltesWPRngHa6GiRFxPfcOBtm7
+y3S6JEaZBXDd52XYQopnunGab+nDgwqhatnUmsLieYxMnucucgYTL/JMqGD42znk+maE1sATDRAI
+XVv/5z9hCtU3RaWC6wi/e2/sLVynQN/Pif3OQfu7u1+YThjv72YIVAGuK+bjtLCPlMF/JrO4rPUO
+X8IdcsDR9OjV7ADVy967E0lvsNmck9cV4ip4XPNTsTF7Lia3CpO6dGXVXTsSE+JHkbN8ILrxNw45
+GoNjMFqtK+wd51q/x7SXCbK+xDVm0YwPVhwxCsfdaML/i7aAhq0R+TEPup3fukRc6TI2/+iCI2L3
+//A=
 
 -->
