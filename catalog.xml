@@ -47,7 +47,7 @@ provided as separate git* packages.</description><category>Development</category
     <needs-terminal/>
     <name>cURL</name>
     <summary>A comand-line client for HTTP, FTP, etc.</summary>
-  </entry-point></interface><interface uri="http://repo.roscidus.com/javascript/node"><name>Node.js</name><summary>open-source, cross-platform JavaScript runtime environment</summary><description>Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.</description><homepage>http://nodejs.org/</homepage><icon href="http://0install.de/feed-icons/Node.js.png" type="image/png"/><icon href="http://0install.de/feed-icons/Node.js.ico" type="image/vnd.microsoft.icon"/><entry-point binary-name="node" command="run"/><entry-point binary-name="npm" command="npm">
+  </entry-point></interface><interface uri="http://repo.roscidus.com/javascript/nwjs-sdk"><name>NW.js SDK</name><summary>NW.js with DevTools for debugging</summary><description>This is the full NW.js plus additional DevTools for debugging.</description><homepage>https://nwjs.io/</homepage><icon href="https://nwjs.io/img/logo.png" type="image/png"/></interface><interface uri="http://repo.roscidus.com/javascript/nwjs"><name>NW.js</name><summary>write desktop applications with all Web technologies</summary><description>NW.js (previously known as node-webkit) lets you call all Node.js modules directly from DOM and enables a new way of writing applications with all Web technologies.</description><homepage>https://nwjs.io/</homepage><icon href="https://nwjs.io/img/logo.png" type="image/png"/></interface><interface uri="http://repo.roscidus.com/javascript/node"><name>Node.js</name><summary>open-source, cross-platform JavaScript runtime environment</summary><description>Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.</description><homepage>http://nodejs.org/</homepage><icon href="http://0install.de/feed-icons/Node.js.png" type="image/png"/><icon href="http://0install.de/feed-icons/Node.js.ico" type="image/vnd.microsoft.icon"/><entry-point binary-name="node" command="run"/><entry-point binary-name="npm" command="npm">
     <needs-terminal/>
     <name>Node Package Manager</name>
     <summary>package manager for JavaScript</summary>
@@ -491,11 +491,11 @@ Access Protocol) servers and clients.</description></interface><interface uri="h
     <summary>view the Ruby documentation off-line</summary>
   </entry-point></interface></c:catalog>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYjeTQAAoJECLqERp+QkKkE/QIAN5K5ESFbVoHGSkGFyylXoKcBvRe8oTQ0mFZ
-/JA8YNCWwPOcSV2aY8i3dzM2xC8E742euBnFT82wJhtJNquodH9DjcwE6f2GCx0S+wHSXjApRW4+
-7pRKveVA3VDdLyv40VbtWtQW6s+rBOw/sixcCvp5cc1L0jlnun2EXP5Lz2+rnfvvxQC/WpcbPRLM
-fI2jRt349EyWvyrL2rBHmqrbZpbFvVz468xeX+q8FTM77oC/IkikEOyQVNlTTxckNJROMUrig4oy
-j5ZVnwoHqIcocJho/4yWS2AWr2LNmA3Gc37MrMetUIdFLEQ8QSLjw0PxppMCTzfMZmfwP9UK4ono
-mqk=
+iQEcBAABCAAGBQJYvp0RAAoJECLqERp+QkKkcWMH/jtvEqIUjMeNFYrGtBfeMbuwz3mgdxaXJVPo
+3fSN7KWAgmtTORejbMbnNToDdPCML94VhI3vCwbfDxaX0lJ41waF8/y35LO4Sh+rlaAPhFOMdWhQ
+RscP718JChIJU7vmUrEjO7L+396fj8GrUhMZ0uE2W31frGXeg7DV+MWu0jUs9m59EuA6roEyabCi
+LlFecceYfDBwK4IIBim4arWxkOTMeE6eVrIOpy08tfn4ecF5McQu3XzFAHBhQlkFOCReOwAAZ0lN
+ZQRhXlLoZUJ6P7dJHXdClMwgRvRTd6oGYBoinee3XQf8kxjr9dFBpztQxZFWeiWqlNQP6WqSqmIw
+/RI=
 
 -->
