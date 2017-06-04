@@ -19,6 +19,7 @@
 
     <!-- Note: 0install >= 1.11 will fill in the correct main value automatically. -->
     <package-implementation distributions="Debian" main="/usr/bin/java" package="openjdk-7-jre"/>
+    <package-implementation distributions="Debian" main="/usr/bin/java" package="openjdk-8-jre"/>
     <package-implementation distributions="RPM" main="/usr/bin/java" package="java-1_7_0-openjdk"/>
     <package-implementation distributions="RPM" main="/usr/bin/java" package="java-1.7.0-openjdk"/>
     <package-implementation distributions="RPM" main="/usr/bin/java" package="java-1.8.0-openjdk"/>
@@ -83,11 +84,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYhM7tAAoJECLqERp+QkKkwoIH/jPPEndMkP6nbQvcrMNhu5Q08HSJ9oii7xtG
-wWyVUFjORE7/UBXXCadOTcThSQnpDFpiu2mfyOo0QioCSZFLn+8BPEItoI/K7Gga7mJ2mg/CBq5k
-3dFF24oL1MkidPFPv3+AR1nRVbQSbEBBpeGpP8ycltiE1RWHOwOhTyZeo/ergGbtfLiLUZJmSsLj
-G8ET+5Eq9eYvJ1JetYmVshFEKks+Mty0Zj9qAVKW+OTX3axXOGip8NEw8Bmr1wjX/qkuv1ba6zFF
-DM8xaoH5tthdUThFxR961W6mWSYQxDpycQfaYDUg3vOMN+VM5COETv9u/SkIkxHXUUwBMt1IBADU
-qN8=
+iQEcBAABCAAGBQJZNEjrAAoJECLqERp+QkKkdtEIAJDBAOobbOlsMng4EuMKzWphJq3xxZt32sop
+Z4HEG4/NnFEWB7ZaU7vCOpqnvvx3ugm3vO0+2rqeeI3F80AmKRKkeSj/+fwlvR7YIK2AtodiTYB/
+T766+boPqLw1jUKYbrG7zKuC2Q/HOdA2G4rKfBfXnn/il81ph7FeXVweFNVHHZjZGgt0ry0Eh1i9
+parX4wlY3F0UO+S9WmvQuFKanUBEECWLmvfpxJ7RoDLS5qopygn2ZQTTa02F6pQRT1Spv3YbsGYN
+reYXNT9XQRjZJ9Umlno5av7OjZX8SsQHBujfESNCOQl430wrvxw0bkNeV0aiXCpVp/nFyM65mo4Y
+q9Q=
 
 -->
