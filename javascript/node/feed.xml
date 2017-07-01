@@ -150,6 +150,258 @@
       <manifest-digest sha1new="838afce5d422608238ef33cb327d0c78b0879649" sha256="7673a7e9103b47a5b9b50d6dc18451f2960fbbe46ed42e0bcadfa19f180810c4" sha256new="OZZ2P2IQHND2LONVBVW4DBCR6KLA7O7EN3KC4C6K36QZ6GAICDCA"/>
       <archive extract="node-v7.4.0-darwin-x64" href="https://nodejs.org/dist/v7.4.0/node-v7.4.0-darwin-x64.tar.gz" size="13416624" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=efca266d39d5313635f923b467f65c46c8298745" released="2017-06-29" stability="testing" version="8.1.3">
+      <manifest-digest sha1new="efca266d39d5313635f923b467f65c46c8298745" sha256="b74d4b4bdf9ff055fa19ac058dde318cb1aef162c11cecc766af27ac0cfbf867" sha256new="W5GUWS67T7YFL6QZVQCY3XRRRSY254LCYEOOZR3GV4T2YDH37BTQ"/>
+      <archive extract="node-v8.1.3-linux-x64" href="https://nodejs.org/dist/v8.1.3/node-v8.1.3-linux-x64.tar.xz" size="11318124" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=273dbdb58a3ad2cc623721fd866ca95d49a497df" released="2017-06-29" stability="testing" version="8.1.3">
+      <manifest-digest sha1new="273dbdb58a3ad2cc623721fd866ca95d49a497df" sha256="95f541165eb23826239d32c89a8942adb425b6e057d0ab095126a7f100bc6541" sha256new="SX2UCFS6WI4CMI45GLEJVCKCVW2CLNXAK7IKWCKRE2T7CAF4MVAQ"/>
+      <archive extract="node-v8.1.3-linux-x86" href="https://nodejs.org/dist/v8.1.3/node-v8.1.3-linux-x86.tar.xz" size="10885796" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=b462fda875545a17b73259572aab7536517cc4dd" released="2017-06-29" stability="testing" version="8.1.3">
+      <manifest-digest sha1new="b462fda875545a17b73259572aab7536517cc4dd" sha256="53200b828bc40a0dc605655d6e7acfccc35f4d172e9093ce1af2a42a513ac439" sha256new="KMQAXAULYQFA3RQFMVOW46WPZTBV6TIXF2IJHTQ26KSCUUJ2YQ4Q"/>
+      <archive extract="node-v8.1.3-darwin-x64" href="https://nodejs.org/dist/v8.1.3/node-v8.1.3-darwin-x64.tar.gz" size="14959343" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=d699a7d72a9ee0e98aea5f35a385c10ce9d1d2a3" released="2017-05-02" stability="stable" version="6.10.3">
+      <manifest-digest sha1new="d699a7d72a9ee0e98aea5f35a385c10ce9d1d2a3" sha256="1d298b124b6c7c12560aea66ce5e3dacd7badfdcc294c1c23af5801baee6874e" sha256new="DUUYWESLNR6BEVQK5JTM4XR5VTL3VX64YKKMDQR26WABXLXGQ5HA"/>
+      <archive extract="node-v6.10.3-linux-x64" href="https://nodejs.org/dist/v6.10.3/node-v6.10.3-linux-x64.tar.xz" size="9366220" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=06e4f7df01ea11dacec2ff8b189a34d6b648775c" released="2017-05-02" stability="stable" version="6.10.3">
+      <manifest-digest sha1new="06e4f7df01ea11dacec2ff8b189a34d6b648775c" sha256="8410b7fb9e2c7e9259ab260279656c6d5f1ad337e569ee71115b7ad961662b67" sha256new="QQILP646FR7JEWNLEYBHSZLMNVPRVUZX4VU644IRLN5NSYLGFNTQ"/>
+      <archive extract="node-v6.10.3-linux-x86" href="https://nodejs.org/dist/v6.10.3/node-v6.10.3-linux-x86.tar.xz" size="8961708" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=65356875741d611dc1a411bfa3caac2c4390e1c6" released="2017-05-02" stability="stable" version="6.10.3">
+      <manifest-digest sha1new="65356875741d611dc1a411bfa3caac2c4390e1c6" sha256="d91129ead82126dcf2bfa8fd152e0f75426f6b4ded36da85991e3123e3864b39" sha256new="3EIST2WYEETNZ4V7VD6RKLQPOVBG622N5U3NVBMZDYYSHY4GJM4Q"/>
+      <archive extract="node-v6.10.3-darwin-x64" href="https://nodejs.org/dist/v6.10.3/node-v6.10.3-darwin-x64.tar.gz" size="12083739" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=179110fb2cb926fe82613fb3f43955b185c7f9aa" released="2017-03-08" stability="testing" version="7.7.2">
+      <manifest-digest sha1new="179110fb2cb926fe82613fb3f43955b185c7f9aa" sha256="90be8701df4d13e6f54d353b3d1ce76c4f71efbd8706e1a913982bfbd56825f1" sha256new="SC7IOAO7JUJ6N5KNGU5T2HHHNRHXD355Q4DODKITTAV7XVLIEXYQ"/>
+      <archive extract="node-v7.7.2-linux-x64" href="https://nodejs.org/dist/v7.7.2/node-v7.7.2-linux-x64.tar.xz" size="10357964" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=c52c7ed7d28526f79ce2fc9da0515fd9127ef8f7" released="2017-03-08" stability="testing" version="7.7.2">
+      <manifest-digest sha1new="c52c7ed7d28526f79ce2fc9da0515fd9127ef8f7" sha256="81b47e54f388e43e6d2b892b202a26e58457dc3b2c4f450af4bf44af69927ee9" sha256new="QG2H4VHTRDSD43JLREVSAKRG4WCFPXB3FRHUKCXUX5CK62MSP3UQ"/>
+      <archive extract="node-v7.7.2-linux-x86" href="https://nodejs.org/dist/v7.7.2/node-v7.7.2-linux-x86.tar.xz" size="9934104" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=d1fb383524bd98f1803c61bb7ebee92fc3757c4e" released="2017-03-08" stability="testing" version="7.7.2">
+      <manifest-digest sha1new="d1fb383524bd98f1803c61bb7ebee92fc3757c4e" sha256="d1540990d7f27997c55680801365845561e7f4f9a35d19b65e743f13637a71dc" sha256new="2FKATEGX6J4ZPRKWQCABGZMEKVQ6P5HZUNORTNS6OQ7RGY32OHOA"/>
+      <archive extract="node-v7.7.2-darwin-x64" href="https://nodejs.org/dist/v7.7.2/node-v7.7.2-darwin-x64.tar.gz" size="13437893" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=4d50226faad53bc5a7eadc7c1d7aaf93cb911062" released="2017-06-08" stability="testing" version="8.1.0">
+      <manifest-digest sha1new="4d50226faad53bc5a7eadc7c1d7aaf93cb911062" sha256="f9e9847dfe1acfbdc5b534b8f817ca7e2174886b27b037e4d550f76b4247de14" sha256new="7HUYI7P6DLH33RNVGS4PQF6KPYQXJCDLE6YDPZGVKD3WWQSH3YKA"/>
+      <archive extract="node-v8.1.0-linux-x64" href="https://nodejs.org/dist/v8.1.0/node-v8.1.0-linux-x64.tar.xz" size="11314584" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=54b9e37f68437bdee25add5fa794ae34bed8b5be" released="2017-06-08" stability="testing" version="8.1.0">
+      <manifest-digest sha1new="54b9e37f68437bdee25add5fa794ae34bed8b5be" sha256="a04b0ec76d88faa3f0839411bb4dfe3d05f35e6c13e7a94be45c4b596046eb0e" sha256new="UBFQ5R3NRD5KH4EDSQI3WTP6HUC7GXTMCPT2SS7ELRFVSYCG5MHA"/>
+      <archive extract="node-v8.1.0-linux-x86" href="https://nodejs.org/dist/v8.1.0/node-v8.1.0-linux-x86.tar.xz" size="10882480" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=2b0e9f303c6c793d6609a663665346dc435c35dc" released="2017-06-08" stability="testing" version="8.1.0">
+      <manifest-digest sha1new="2b0e9f303c6c793d6609a663665346dc435c35dc" sha256="d5607adda98f4e4611ced97deb9a6ee097c656695d79192e87546aa770665e04" sha256new="2VQHVXNJR5HEMEOO3F66XGTO4CL4MVTJLV4RSLUHKRVKO4DGLYCA"/>
+      <archive extract="node-v8.1.0-darwin-x64" href="https://nodejs.org/dist/v8.1.0/node-v8.1.0-darwin-x64.tar.gz" size="14957110" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=7adb973d688b0cec710126d01fc154501ee100a3" released="2017-01-31" stability="stable" version="6.9.5">
+      <manifest-digest sha1new="7adb973d688b0cec710126d01fc154501ee100a3" sha256="bcde59182260ffbece88057fd7a72e0324094594054a862143ec6ff430587f4d" sha256new="XTPFSGBCMD735TUIAV75PJZOAMSASRMUAVFIMIKD5RX7IMCYP5GQ"/>
+      <archive extract="node-v6.9.5-linux-x64" href="https://nodejs.org/dist/v6.9.5/node-v6.9.5-linux-x64.tar.xz" size="9345888" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=8e5ce94cd9fc2ccfc05d6ebf7e9cf923804ceb99" released="2017-01-31" stability="stable" version="6.9.5">
+      <manifest-digest sha1new="8e5ce94cd9fc2ccfc05d6ebf7e9cf923804ceb99" sha256="69d3eab1ed78d9cc88242be61d5b8d24678ef67497d6c2952335e85b1e5b41a3" sha256new="NHJ6VMPNPDM4ZCBEFPTB2W4NERTY55TUS7LMFFJDGXUFWHS3IGRQ"/>
+      <archive extract="node-v6.9.5-linux-x86" href="https://nodejs.org/dist/v6.9.5/node-v6.9.5-linux-x86.tar.xz" size="8935148" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=7169bdc51590f5ab4c810f79ff47da79c7f2b702" released="2017-01-31" stability="stable" version="6.9.5">
+      <manifest-digest sha1new="7169bdc51590f5ab4c810f79ff47da79c7f2b702" sha256="036c84907d6496db6ab2a496635e622b1e01417fb5b05cb41a1f2ecb7cd41bda" sha256new="ANWIJED5MSLNW2VSUSLGGXTCFMPACQL7WWYFZNA2D4XMW7GUDPNA"/>
+      <archive extract="node-v6.9.5-darwin-x64" href="https://nodejs.org/dist/v6.9.5/node-v6.9.5-darwin-x64.tar.gz" size="12042280" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=6c0f5378ce78c73e07ed9b825c9e03aba7a6dba1" released="2017-06-06" stability="stable" version="6.11.0">
+      <manifest-digest sha1new="6c0f5378ce78c73e07ed9b825c9e03aba7a6dba1" sha256="2166140d8ad5484db458dddf83406e1b3cf42d42f9dd2b90c30713f1e652ec29" sha256new="EFTBIDMK2VEE3NCY3XPYGQDODM6PILKC7HOSXEGDA4J7DZSS5QUQ"/>
+      <archive extract="node-v6.11.0-linux-x64" href="https://nodejs.org/dist/v6.11.0/node-v6.11.0-linux-x64.tar.xz" size="9367676" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=5c7c50680e1e059bc2f87cb188fd1166a53591a1" released="2017-06-06" stability="stable" version="6.11.0">
+      <manifest-digest sha1new="5c7c50680e1e059bc2f87cb188fd1166a53591a1" sha256="591e5bb5a26ba4a65f417ca9ca3fc1607d0fc54d07fe106c1371b1e3e48858b1" sha256new="LEPFXNNCNOSKMX2BPSU4UP6BMB6Q7RKNA77BA3ATOGY6HZEILCYQ"/>
+      <archive extract="node-v6.11.0-linux-x86" href="https://nodejs.org/dist/v6.11.0/node-v6.11.0-linux-x86.tar.xz" size="8963284" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=e6d1cddc62da6a13cb6ebb39a157289554a9fe95" released="2017-06-06" stability="stable" version="6.11.0">
+      <manifest-digest sha1new="e6d1cddc62da6a13cb6ebb39a157289554a9fe95" sha256="4da4e9904aa5dba7b18ac827bbeb584c0b6ecc58604ebd69c16d30709cfdb23d" sha256new="JWSOTECKUXN2PMMKZAT3X22YJQFW5TCYMBHL22OBNUYHBHH5WI6Q"/>
+      <archive extract="node-v6.11.0-darwin-x64" href="https://nodejs.org/dist/v6.11.0/node-v6.11.0-darwin-x64.tar.gz" size="12086979" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=200503fc2314ca1999d1e1f59c2e803f2839c258" released="2017-03-29" stability="testing" version="7.8.0">
+      <manifest-digest sha1new="200503fc2314ca1999d1e1f59c2e803f2839c258" sha256="477b6fe470bbaf1294097e69324d876c7328bdbb72fc907d3a35b2bc8664ba6c" sha256new="I55W7ZDQXOXRFFAJPZUTETMHNRZSRPN3OL6JA7J2GWZLZBTEXJWA"/>
+      <archive extract="node-v7.8.0-linux-x64" href="https://nodejs.org/dist/v7.8.0/node-v7.8.0-linux-x64.tar.xz" size="10363488" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=3a0c9b91140c24f11b7acc2015cad961680171b3" released="2017-03-29" stability="testing" version="7.8.0">
+      <manifest-digest sha1new="3a0c9b91140c24f11b7acc2015cad961680171b3" sha256="38b1d90a3822c55aebd80321070f43b9c620afb10948b7afbd88390419079d2c" sha256new="HCY5SCRYELCVV26YAMQQOD2DXHDCBL5RBFELPL55RA4QIGIHTUWA"/>
+      <archive extract="node-v7.8.0-linux-x86" href="https://nodejs.org/dist/v7.8.0/node-v7.8.0-linux-x86.tar.xz" size="9941892" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=ec807d4a4810b4c71e71c38ed87ea7a832ca8492" released="2017-03-29" stability="testing" version="7.8.0">
+      <manifest-digest sha1new="ec807d4a4810b4c71e71c38ed87ea7a832ca8492" sha256="3477e663efeefe808c6b1b53cc96cb8021657144fe877b8a7c0d834b6a9e5fed" sha256new="GR36MY7P537IBDDLDNJ4ZFWLQAQWK4KE72DXXCT4BWBUW2U6L7WQ"/>
+      <archive extract="node-v7.8.0-darwin-x64" href="https://nodejs.org/dist/v7.8.0/node-v7.8.0-darwin-x64.tar.gz" size="13358634" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=a9b65931e26fd351b77225e71574e656adbce19b" released="2017-04-04" stability="stable" version="6.10.2">
+      <manifest-digest sha1new="a9b65931e26fd351b77225e71574e656adbce19b" sha256="d56168c28ea6f8c12e3ee5fffaad6dab778c9b5ad03c1e73de599563dbbd35a2" sha256new="2VQWRQUOU34MCLR64X77VLLNVN3YZG222A6B4466LGKWHW55GWRA"/>
+      <archive extract="node-v6.10.2-linux-x64" href="https://nodejs.org/dist/v6.10.2/node-v6.10.2-linux-x64.tar.xz" size="9366128" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=108d159b9ea835afa07dd52292f2912a7b2ffb18" released="2017-04-04" stability="stable" version="6.10.2">
+      <manifest-digest sha1new="108d159b9ea835afa07dd52292f2912a7b2ffb18" sha256="b60880e9678c7c7af390fd8baf18a4de1af7064a6f888f65f4cef977153eb54e" sha256new="WYEIB2LHRR6HV44Q7WF26GFE3YNPOBSKN6EI6ZPUZ34XOFJ6WVHA"/>
+      <archive extract="node-v6.10.2-linux-x86" href="https://nodejs.org/dist/v6.10.2/node-v6.10.2-linux-x86.tar.xz" size="8957688" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=2ee9f1a3f7273edd8ffd674bdfe1987e1ba2ce10" released="2017-04-04" stability="stable" version="6.10.2">
+      <manifest-digest sha1new="2ee9f1a3f7273edd8ffd674bdfe1987e1ba2ce10" sha256="0d4c10331cf89c78412e39cd89aebb2327e31aa20546705eba857853f3c42892" sha256new="BVGBAMY47COHQQJOHHGYTLV3EMT6GGVCAVDHAXV2QV4FH46EFCJA"/>
+      <archive extract="node-v6.10.2-darwin-x64" href="https://nodejs.org/dist/v6.10.2/node-v6.10.2-darwin-x64.tar.gz" size="12081513" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=91b0fe2ad2d2d379d55c24f2aa5629de36203c93" released="2017-03-21" stability="testing" version="7.7.4">
+      <manifest-digest sha1new="91b0fe2ad2d2d379d55c24f2aa5629de36203c93" sha256="cbb0df222f2720173c04e72a0d252df06706863698095cb55641136b2bbc250b" sha256new="ZOYN6IRPE4QBOPAE44VA2JJN6BTQNBRWTAEVZNKWIEJWWK54EUFQ"/>
+      <archive extract="node-v7.7.4-linux-x64" href="https://nodejs.org/dist/v7.7.4/node-v7.7.4-linux-x64.tar.xz" size="10355944" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=d41c2334a42b25efe7ba5ab0de0ba2a36dbff16a" released="2017-03-21" stability="testing" version="7.7.4">
+      <manifest-digest sha1new="d41c2334a42b25efe7ba5ab0de0ba2a36dbff16a" sha256="53cd47189e04bd3c7a22cdb3a260c48421925c29a8ca93513add09eee12740b4" sha256new="KPGUOGE6AS6TY6RCZWZ2EYGEQQQZEXBJVDFJGUJ23UE65YJHIC2A"/>
+      <archive extract="node-v7.7.4-linux-x86" href="https://nodejs.org/dist/v7.7.4/node-v7.7.4-linux-x86.tar.xz" size="9937148" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=6846b829ba37f0d249d3372d4900693bb1a7a1c8" released="2017-03-21" stability="testing" version="7.7.4">
+      <manifest-digest sha1new="6846b829ba37f0d249d3372d4900693bb1a7a1c8" sha256="76d274eeac0e1b6db03b31abe557aeeeea10a1419c5d24c0c52fcc33b66dc475" sha256new="O3JHJ3VMBYNW3MB3GGV6KV5O53VBBIKBTROSJQGFF7GDHNTNYR2Q"/>
+      <archive extract="node-v7.7.4-darwin-x64" href="https://nodejs.org/dist/v7.7.4/node-v7.7.4-darwin-x64.tar.gz" size="13439193" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=8fa61833d3bdf1e6d371970012f444a43ddcb400" released="2017-02-21" stability="stable" version="6.10.0">
+      <manifest-digest sha1new="8fa61833d3bdf1e6d371970012f444a43ddcb400" sha256="b668c2a08db318df65737ba15a1340c1c5d84e34557865dc428456ca46d913a6" sha256new="WZUMFIENWMMN6ZLTPOQVUE2AYHC5QTRUKV4GLXCCQRLMURWZCOTA"/>
+      <archive extract="node-v6.10.0-linux-x64" href="https://nodejs.org/dist/v6.10.0/node-v6.10.0-linux-x64.tar.xz" size="9376372" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=7266238573ddfbb9239114aeb8f5f67c6a98fee0" released="2017-02-21" stability="stable" version="6.10.0">
+      <manifest-digest sha1new="7266238573ddfbb9239114aeb8f5f67c6a98fee0" sha256="5ffcbadba13eb564fb8667e55521052d8d5720e1181ba37cd25e2e84b9b94e14" sha256new="L76LVW5BH22WJ64GM7SVKIIFFWGVOIHBDAN2G7GSLYXIJONZJYKA"/>
+      <archive extract="node-v6.10.0-linux-x86" href="https://nodejs.org/dist/v6.10.0/node-v6.10.0-linux-x86.tar.xz" size="8974588" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=9b461e321c7721a13e55f9b2228315edb942c711" released="2017-02-21" stability="stable" version="6.10.0">
+      <manifest-digest sha1new="9b461e321c7721a13e55f9b2228315edb942c711" sha256="9d355616b84c1a4492a486123c5b8a9c0b9f3dd4ecfd1185eeb8c03a3d67a45e" sha256new="TU2VMFVYJQNEJEVEQYJDYW4KTQFZ6POU5T6RDBPOXDADUPLHURPA"/>
+      <archive extract="node-v6.10.0-darwin-x64" href="https://nodejs.org/dist/v6.10.0/node-v6.10.0-darwin-x64.tar.gz" size="12107399" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=8f5cdf664f43c35d85a20f23be3f88018faf8160" released="2017-03-14" stability="testing" version="7.7.3">
+      <manifest-digest sha1new="8f5cdf664f43c35d85a20f23be3f88018faf8160" sha256="5202d7d4b7455d3ee20ae1809bbc07d6a29893dcf13cb6718dc11ea5aae632a3" sha256new="KIBNPVFXIVOT5YQK4GAJXPAH22RJRE646E6LM4MNYEPKLKXGGKRQ"/>
+      <archive extract="node-v7.7.3-linux-x64" href="https://nodejs.org/dist/v7.7.3/node-v7.7.3-linux-x64.tar.xz" size="10353632" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=abd3726b717849f953dc11a8757bcd922350ed2a" released="2017-03-14" stability="testing" version="7.7.3">
+      <manifest-digest sha1new="abd3726b717849f953dc11a8757bcd922350ed2a" sha256="c21898b98cd9bb261683186c9a1fb25f0eb12cf3c69bdda0f2efb14a686bd920" sha256new="YIMJROMM3G5SMFUDDBWJUH5SL4HLCLHTY2N53IHS56YUU2DL3EQA"/>
+      <archive extract="node-v7.7.3-linux-x86" href="https://nodejs.org/dist/v7.7.3/node-v7.7.3-linux-x86.tar.xz" size="9934796" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=5f2167c437eda4d83f9b99dc8385b6c2224ec07f" released="2017-03-14" stability="testing" version="7.7.3">
+      <manifest-digest sha1new="5f2167c437eda4d83f9b99dc8385b6c2224ec07f" sha256="14ce343e28cfa50f54420b391b3fa232bc1d439d133b99de1ee1be4db2869ba9" sha256new="CTHDIPRIZ6SQ6VCCBM4RWP5CGK6B2Q45CM5ZTXQ64G7E3MUGTOUQ"/>
+      <archive extract="node-v7.7.3-darwin-x64" href="https://nodejs.org/dist/v7.7.3/node-v7.7.3-darwin-x64.tar.gz" size="13436821" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=f5af18ba20724aef255adefc8d2720e0058d1001" released="2017-05-30" stability="testing" version="8.0.0">
+      <manifest-digest sha1new="f5af18ba20724aef255adefc8d2720e0058d1001" sha256="051d9c92b0f04567a72edee4ab51c4221840c92e7f3578b91a439cc692f6185d" sha256new="AUOZZEVQ6BCWPJZO33SKWUOEEIMEBSJOP42XROI2IOOMNEXWDBOQ"/>
+      <archive extract="node-v8.0.0-linux-x64" href="https://nodejs.org/dist/v8.0.0/node-v8.0.0-linux-x64.tar.xz" size="11302412" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=92355a99693e9a74a9633ec9f18926788cddd9f9" released="2017-05-30" stability="testing" version="8.0.0">
+      <manifest-digest sha1new="92355a99693e9a74a9633ec9f18926788cddd9f9" sha256="e9a2360dde03d797bdd76563430453c953f42e9f47dd3edf370539e6dbeedb1d" sha256new="5GRDMDO6APLZPPOXMVRUGBCTZFJ7ILU7I7OT5XZXAU46NW7O3MOQ"/>
+      <archive extract="node-v8.0.0-linux-x86" href="https://nodejs.org/dist/v8.0.0/node-v8.0.0-linux-x86.tar.xz" size="10875868" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=e840acef88e44fdf3a6d0f23a0eee557d253edcd" released="2017-05-30" stability="testing" version="8.0.0">
+      <manifest-digest sha1new="e840acef88e44fdf3a6d0f23a0eee557d253edcd" sha256="21fd143ce3db7c1415a99e078658e6a04b2ac3a9175860671bb26d21227d96f5" sha256new="EH6RIPHD3N6BIFNJTYDYMWHGUBFSVQ5JC5MGAZY3WJWSCIT5S32Q"/>
+      <archive extract="node-v8.0.0-darwin-x64" href="https://nodejs.org/dist/v8.0.0/node-v8.0.0-darwin-x64.tar.gz" size="14944452" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=51a0508701a9ee027a860ffa3e8fd98244b966f5" released="2017-03-02" stability="testing" version="7.7.1">
+      <manifest-digest sha1new="51a0508701a9ee027a860ffa3e8fd98244b966f5" sha256="5eff0ee6c402d32e0e011df0f9df850724441036b3b4c189cc2c8fce4acc9624" sha256new="L37Q5ZWEALJS4DQBDXYPTX4FA4SEIEBWWO2MDCOMFSH44SWMSYSA"/>
+      <archive extract="node-v7.7.1-linux-x64" href="https://nodejs.org/dist/v7.7.1/node-v7.7.1-linux-x64.tar.xz" size="10357840" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=6d88b3859df52c963fcf91b1b5ae581f767519ea" released="2017-03-02" stability="testing" version="7.7.1">
+      <manifest-digest sha1new="6d88b3859df52c963fcf91b1b5ae581f767519ea" sha256="c21b8d2fa9ae6d2cd6a2a1d8fa7d3c97e0005ab71ef0adac3cef8a0a5475af0c" sha256new="YINY2L5JVZWSZVVCUHMPU7J4S7QAAWVXD3YK3LB456FAUVDVV4GA"/>
+      <archive extract="node-v7.7.1-linux-x86" href="https://nodejs.org/dist/v7.7.1/node-v7.7.1-linux-x86.tar.xz" size="9931248" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=828e0c0d321c8511d72b633d80e61dcf7171990f" released="2017-03-02" stability="testing" version="7.7.1">
+      <manifest-digest sha1new="828e0c0d321c8511d72b633d80e61dcf7171990f" sha256="5251fb2d1eeb714183314d776909cedb48f53561b1c07c9af17c34adaca1db1a" sha256new="KJI7WLI65NYUDAZRJV3WSCOO3NEPKNLBWHAHZGXRPQ2K3LFB3MNA"/>
+      <archive extract="node-v7.7.1-darwin-x64" href="https://nodejs.org/dist/v7.7.1/node-v7.7.1-darwin-x64.tar.gz" size="13435876" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=4900ba6b5de37d1a6985b743a0318f8c9270c68e" released="2017-06-13" stability="testing" version="8.1.1">
+      <manifest-digest sha1new="4900ba6b5de37d1a6985b743a0318f8c9270c68e" sha256="6a9f2dde0fe7d6b7869e2d87ec9640d5782d4f12748410fbec5b8da154b66e6a" sha256new="NKPS3XQP47LLPBU6FWD6ZFSA2V4C2TYSOSCBB67MLOG2CVFWNZVA"/>
+      <archive extract="node-v8.1.1-linux-x64" href="https://nodejs.org/dist/v8.1.1/node-v8.1.1-linux-x64.tar.xz" size="11314312" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=87692b3fd8ca0abc757637bfc38f86a08de71898" released="2017-06-13" stability="testing" version="8.1.1">
+      <manifest-digest sha1new="87692b3fd8ca0abc757637bfc38f86a08de71898" sha256="640b501adc8005b2403d440e5ea488291a125edfc449a9e537d054fce063edb2" sha256new="MQFVAGW4QAC3EQB5IQHF5JEIFENBEXW7YRE2TZJX2BKPZYDD5WZA"/>
+      <archive extract="node-v8.1.1-linux-x86" href="https://nodejs.org/dist/v8.1.1/node-v8.1.1-linux-x86.tar.xz" size="10883704" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=b122f5f88bd0e761f03897d1ac5ee2b076550d1d" released="2017-06-13" stability="testing" version="8.1.1">
+      <manifest-digest sha1new="b122f5f88bd0e761f03897d1ac5ee2b076550d1d" sha256="a2c1093183c840744a3a154426c0a0a12522ef4b38b3277b719b831fbc28d2dd" sha256new="ULAQSMMDZBAHISR2CVCCNQFAUESSF32LHCZSO63RTOBR7PBI2LOQ"/>
+      <archive extract="node-v8.1.1-darwin-x64" href="https://nodejs.org/dist/v8.1.1/node-v8.1.1-darwin-x64.tar.gz" size="14958812" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=db0326294b37e46e20762d473626fb3a819dcacc" released="2017-06-15" stability="testing" version="8.1.2">
+      <manifest-digest sha1new="db0326294b37e46e20762d473626fb3a819dcacc" sha256="1e540e0acf6080d57d530e34ca983d43846c37c217b72f8e6309b4b8960fc751" sha256new="DZKA4CWPMCANK7KTBY2MVGB5IOCGYN6CC63S7DTDBG2LRFQPY5IQ"/>
+      <archive extract="node-v8.1.2-linux-x64" href="https://nodejs.org/dist/v8.1.2/node-v8.1.2-linux-x64.tar.xz" size="11314172" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=15e2f480a70a92310c45874ab880b3ed6def1516" released="2017-06-15" stability="testing" version="8.1.2">
+      <manifest-digest sha1new="15e2f480a70a92310c45874ab880b3ed6def1516" sha256="7f9a0e2c036614a20841ec98fac0425b93dbced0f0ee076f55c41fe06912f503" sha256new="P6NA4LADMYKKECCB5SMPVQCCLOJ5XTWQ6DXAO32VYQP6A2IS6UBQ"/>
+      <archive extract="node-v8.1.2-linux-x86" href="https://nodejs.org/dist/v8.1.2/node-v8.1.2-linux-x86.tar.xz" size="10882988" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=fa34ad6b790c4d7d8377f1777a0ebe2891a8a41e" released="2017-06-15" stability="testing" version="8.1.2">
+      <manifest-digest sha1new="fa34ad6b790c4d7d8377f1777a0ebe2891a8a41e" sha256="e1bdfffeb922b143fbe91731ff7ffe4ef2a129daeddbf3517178d8646c3c74c6" sha256new="4G6777VZEKYUH67JC4Y76776J3ZKCKO25XN7GULRPDMGI3B4OTDA"/>
+      <archive extract="node-v8.1.2-darwin-x64" href="https://nodejs.org/dist/v8.1.2/node-v8.1.2-darwin-x64.tar.gz" size="14958441" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=6da0a5a7daed16acfffd9fe1cea3ba4efbcf200d" released="2017-02-28" stability="testing" version="7.7.0">
+      <manifest-digest sha1new="6da0a5a7daed16acfffd9fe1cea3ba4efbcf200d" sha256="fdeea60e85935cfabcfa1a383ea6c53e3e18bf53b1cc47f82f31801485699dbc" sha256new="7XXKMDUFSNOPVPH2DI4D5JWFHY7BRP2TWHGEP6BPGGABJBLJTW6A"/>
+      <archive extract="node-v7.7.0-linux-x64" href="https://nodejs.org/dist/v7.7.0/node-v7.7.0-linux-x64.tar.xz" size="10353680" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=d03ea5aeb636b348c3c179b12f1b51b9618dfad0" released="2017-02-28" stability="testing" version="7.7.0">
+      <manifest-digest sha1new="d03ea5aeb636b348c3c179b12f1b51b9618dfad0" sha256="d555bb0dbd2e884816628298d18118e2c1f0fd350f475118adcb8313ea55d257" sha256new="2VK3WDN5F2EEQFTCQKMNDAIY4LA7B7JVB5DVCGFNZOBRH2SV2JLQ"/>
+      <archive extract="node-v7.7.0-linux-x86" href="https://nodejs.org/dist/v7.7.0/node-v7.7.0-linux-x86.tar.xz" size="9931952" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=e6c8b9fc8ef7b2463d83e38807869ce08d3e4d43" released="2017-02-28" stability="testing" version="7.7.0">
+      <manifest-digest sha1new="e6c8b9fc8ef7b2463d83e38807869ce08d3e4d43" sha256="7f2691fbd31e967186e8a5bb1961d2635d98de0a9d6705486573686ff1a64253" sha256new="P4TJD66TD2LHDBXIUW5RSYOSMNOZRXQKTVTQKSDFONUG74NGIJJQ"/>
+      <archive extract="node-v7.7.0-darwin-x64" href="https://nodejs.org/dist/v7.7.0/node-v7.7.0-darwin-x64.tar.gz" size="13435829" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=99e4c11be660d0d4d9f5780a3b8cb0780d4096b1" released="2017-04-11" stability="testing" version="7.9.0">
+      <manifest-digest sha1new="99e4c11be660d0d4d9f5780a3b8cb0780d4096b1" sha256="70a95844bcd7b3ad710f64019e41b5d125d34ff6bfe6b45592eefcf06b4398bc" sha256new="OCUVQRF426Z224IPMQAZ4QNV2ES5GT7WX7TLIVMS536PA22DTC6A"/>
+      <archive extract="node-v7.9.0-linux-x64" href="https://nodejs.org/dist/v7.9.0/node-v7.9.0-linux-x64.tar.xz" size="10366128" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=c89502767879ad9ce3b95d1f3362566965121cdc" released="2017-04-11" stability="testing" version="7.9.0">
+      <manifest-digest sha1new="c89502767879ad9ce3b95d1f3362566965121cdc" sha256="28dc127f8b3c293efb1a5884b85aad584198cc51f7fb80ef43155a1977dc759e" sha256new="FDOBE74LHQUT56Y2LCCLQWVNLBAZRTCR675YB32DCVNBS564OWPA"/>
+      <archive extract="node-v7.9.0-linux-x86" href="https://nodejs.org/dist/v7.9.0/node-v7.9.0-linux-x86.tar.xz" size="9944472" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=67e8290cc39aed7177f920564d5ac298d759abf9" released="2017-04-11" stability="testing" version="7.9.0">
+      <manifest-digest sha1new="67e8290cc39aed7177f920564d5ac298d759abf9" sha256="cba469a83dd3a474a8aa40b61be0710fb930cf97858e35999c9d328c883a81a9" sha256new="ZOSGTKB52OSHJKFKIC3BXYDRB64TBT4XQWHDLGM4TUZIZCB2QGUQ"/>
+      <archive extract="node-v7.9.0-darwin-x64" href="https://nodejs.org/dist/v7.9.0/node-v7.9.0-darwin-x64.tar.gz" size="13360286" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=787ac7fa14c54fc00e8eb77697e849e7223c752a" released="2017-02-21" stability="testing" version="7.6.0">
+      <manifest-digest sha1new="787ac7fa14c54fc00e8eb77697e849e7223c752a" sha256="0e7b20ee17eff742a76768e5f3f3b948e08f99fe07f3eacaf7dc0f0f119f9774" sha256new="BZ5SB3QX573UFJ3HNDS7H45ZJDQI7GP6A7Z6VSXX3QHQ6EM7S52A"/>
+      <archive extract="node-v7.6.0-linux-x64" href="https://nodejs.org/dist/v7.6.0/node-v7.6.0-linux-x64.tar.xz" size="10341324" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=5240dfa82655db86bee28ccb9c4d67a4bb7ccf6f" released="2017-02-21" stability="testing" version="7.6.0">
+      <manifest-digest sha1new="5240dfa82655db86bee28ccb9c4d67a4bb7ccf6f" sha256="938988752bd270af86be0bc00ee6145fe1c0b593b141650593c6a3c520fc6cbd" sha256new="SOEYQ5JL2JYK7BV6BPAA5ZQUL7Q4BNMTWFAWKBMTY2R4KIH4NS6Q"/>
+      <archive extract="node-v7.6.0-linux-x86" href="https://nodejs.org/dist/v7.6.0/node-v7.6.0-linux-x86.tar.xz" size="9921312" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=d309b249441dfd6cd3cec7d2420b05db09c4fad6" released="2017-02-21" stability="testing" version="7.6.0">
+      <manifest-digest sha1new="d309b249441dfd6cd3cec7d2420b05db09c4fad6" sha256="7fc785de346630ace320d4208403bf11686946486b36b768e335db136d8a3eef" sha256new="P7DYLXRUMYYKZYZA2QQIIA57CFUGSRSINM3LO2HDGXNRG3MKH3XQ"/>
+      <archive extract="node-v7.6.0-darwin-x64" href="https://nodejs.org/dist/v7.6.0/node-v7.6.0-darwin-x64.tar.gz" size="13436185" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=e7f2479daf0a24ad489cc8ad69c6818bdc1e6393" released="2017-01-31" stability="testing" version="7.5.0">
+      <manifest-digest sha1new="e7f2479daf0a24ad489cc8ad69c6818bdc1e6393" sha256="f0603daf9cdbe3ca04349e0276f2e0bc8ce54c66b638c0d4c9ff82a0f83a9852" sha256new="6BQD3L443PR4UBBUTYBHN4XAXSGOKTDGWY4MBVGJ76BKB6B2TBJA"/>
+      <archive extract="node-v7.5.0-linux-x64" href="https://nodejs.org/dist/v7.5.0/node-v7.5.0-linux-x64.tar.xz" size="10244076" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=9e8fdb32c894778a639f47fa03bcb00c5f4fb728" released="2017-01-31" stability="testing" version="7.5.0">
+      <manifest-digest sha1new="9e8fdb32c894778a639f47fa03bcb00c5f4fb728" sha256="6f8047a3c79a49af29552f53459f71dd88005cad240d06d0de0252a7c16c250f" sha256new="N6AEPI6HTJE26KKVF5JULH3R3WEAAXFNEQGQNUG6AJJKPQLMEUHQ"/>
+      <archive extract="node-v7.5.0-linux-x86" href="https://nodejs.org/dist/v7.5.0/node-v7.5.0-linux-x86.tar.xz" size="9833216" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=181e1dd9b2ed7ee90ec94788ae44da44cca56014" released="2017-01-31" stability="testing" version="7.5.0">
+      <manifest-digest sha1new="181e1dd9b2ed7ee90ec94788ae44da44cca56014" sha256="cb0ec20644f20fc7fb800d7422824f190341ce87ec9e5c93fd4dd6ba832b3aed" sha256new="ZMHMEBSE6IH4P64ABV2CFASPDEBUDTUH5SPFZE75JXLLVAZLHLWQ"/>
+      <archive extract="node-v7.5.0-darwin-x64" href="https://nodejs.org/dist/v7.5.0/node-v7.5.0-darwin-x64.tar.gz" size="13237188" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=ac19c8f432a6a6060452632985e0ebf8bfffe224" released="2017-05-02" stability="testing" version="7.10.0">
+      <manifest-digest sha1new="ac19c8f432a6a6060452632985e0ebf8bfffe224" sha256="fef3c851e74aa0ee4425df3af3739460073d681da840b402b8d0bdab2d068797" sha256new="73Z4QUPHJKQO4RBF345PG44UMADT22A5VBALIAVY2C62WLIGQ6LQ"/>
+      <archive extract="node-v7.10.0-linux-x64" href="https://nodejs.org/dist/v7.10.0/node-v7.10.0-linux-x64.tar.xz" size="10378956" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=58d2ce8bcf2240ed39aaf94c2dfd9ec142761df7" released="2017-05-02" stability="testing" version="7.10.0">
+      <manifest-digest sha1new="58d2ce8bcf2240ed39aaf94c2dfd9ec142761df7" sha256="b0e588d1e88649223beb4b95c3fff24b3cb9be264693f745df42c4b5f8e2a53a" sha256new="WDSYRUPIQZESEO7LJOK4H77SJM6LTPRGI2J7ORO7ILCLL6HCUU5A"/>
+      <archive extract="node-v7.10.0-linux-x86" href="https://nodejs.org/dist/v7.10.0/node-v7.10.0-linux-x86.tar.xz" size="9957148" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=d9a9db06087e1bd8407afa346396f30e35768b8c" released="2017-05-02" stability="testing" version="7.10.0">
+      <manifest-digest sha1new="d9a9db06087e1bd8407afa346396f30e35768b8c" sha256="3f0574497428ad0306ee1a0de8c28132104d7d46528fdd45cf259e0083ce64e0" sha256new="H4CXISLUFCWQGBXODIG6RQUBGIIE27KGKKH52ROPEWPABA6OMTQA"/>
+      <archive extract="node-v7.10.0-darwin-x64" href="https://nodejs.org/dist/v7.10.0/node-v7.10.0-darwin-x64.tar.gz" size="13371951" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=cc9dd14f1177500a808d47f696ff4dd69de20a2d" released="2017-03-21" stability="stable" version="6.10.1">
+      <manifest-digest sha1new="cc9dd14f1177500a808d47f696ff4dd69de20a2d" sha256="d5fe5b8a0248ce3ae3fd588ee3ee1a015e871f784ddfb187a006fe8c6a60f47d" sha256new="2X7FXCQCJDHDVY75LCHOH3Q2AFPIOH3YJXP3DB5AA37IY2TA6R6Q"/>
+      <archive extract="node-v6.10.1-linux-x64" href="https://nodejs.org/dist/v6.10.1/node-v6.10.1-linux-x64.tar.xz" size="9361912" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=7eec1ec454b3eea7bd5b5c742eef326553d38b57" released="2017-03-21" stability="stable" version="6.10.1">
+      <manifest-digest sha1new="7eec1ec454b3eea7bd5b5c742eef326553d38b57" sha256="c012bc289eceae115b7f24f89f8ebd9f956e4d7e6ac3cb39d0fbc043032a5a17" sha256new="YAJLYKE6Z2XBCW37ET4J7DV5T6KW4TL6NLB4WOOQ7PAEGAZKLILQ"/>
+      <archive extract="node-v6.10.1-linux-x86" href="https://nodejs.org/dist/v6.10.1/node-v6.10.1-linux-x86.tar.xz" size="8956748" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=f92b4960b2018748dd113104f15a82eca93f0f0f" released="2017-03-21" stability="stable" version="6.10.1">
+      <manifest-digest sha1new="f92b4960b2018748dd113104f15a82eca93f0f0f" sha256="e5cb5656e27d6b5aea906c009bc27ffc7d96f92e89d3134f29c53414ff2fc491" sha256new="4XFVMVXCPVVVV2UQNQAJXQT77R6ZN6JORHJRGTZJYU2BJ7ZPYSIQ"/>
+      <archive extract="node-v6.10.1-darwin-x64" href="https://nodejs.org/dist/v6.10.1/node-v6.10.1-darwin-x64.tar.gz" size="12078223" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 
   <group license="MIT License">
@@ -246,6 +498,174 @@
       <manifest-digest sha1new="77fde0e300291639e7efc9f35e9cf67182185fc9" sha256="6327a370968d2a3e4dac1b3bea287a7a394343d042e88bd2cd514ba2f16977c2" sha256new="MMT2G4EWRUVD4TNMDM56UKD2PI4UGQ6QILUIXUWNKFF2F4LJO7BA"/>
       <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v7.4.0/node-v7.4.0-x86.msi" size="12623872" type="application/x-msi"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=e89e0f65d6dced8dbeed62afb31ea650e30073c0" released="2017-06-29" stability="testing" version="8.1.3">
+      <manifest-digest sha1new="e89e0f65d6dced8dbeed62afb31ea650e30073c0" sha256="9d825060fe84012cc4b3cbfab7159b32ed0b4202940d221150283ab0a50c15c2" sha256new="TWBFAYH6QQASZRFTZP5LOFM3GLWQWQQCSQGSEEKQFA5LBJIMCXBA"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v8.1.3/node-v8.1.3-x64.msi" size="15769600" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=852a8ed2c45d1fd243e9a1bfb44662db9c86dcb3" released="2017-06-29" stability="testing" version="8.1.3">
+      <manifest-digest sha1new="852a8ed2c45d1fd243e9a1bfb44662db9c86dcb3" sha256="599b293b3ccfa0c1a28c1f5fb17ee088ae8a560b708a74dca7da774943dcd04d" sha256new="LGNSSOZ4Z6QMDIUMD5P3C7XARCXIUVQLOCFHJXFH3J3USQ642BGQ"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v8.1.3/node-v8.1.3-x86.msi" size="14118912" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=aa32a7ed0365d0556f8e0ae386c9b19f424e6552" released="2017-05-02" stability="stable" version="6.10.3">
+      <manifest-digest sha1new="aa32a7ed0365d0556f8e0ae386c9b19f424e6552" sha256="ac4803b31a09a186d3f4fea2f28ad30b89f363e17fd6692f6d3fb979cd3c7e31" sha256new="VREAHMY2BGQYNU7U72RPFCWTBOE7GY7BP7LGSL3NH64XTTJ4PYYQ"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v6.10.3/node-v6.10.3-x64.msi" size="12754944" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=d55f7f75b64496f7e2e8d8a3e5591ab26b5188d9" released="2017-05-02" stability="stable" version="6.10.3">
+      <manifest-digest sha1new="d55f7f75b64496f7e2e8d8a3e5591ab26b5188d9" sha256="42b3be8db52998058a3bf488c73d8f92959366c7b777e41a657cc144e69c66a3" sha256new="IKZ35DNVFGMALCR36SEMOPMPSKKZGZWHW536IGTFPTAUJZU4M2RQ"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v6.10.3/node-v6.10.3-x86.msi" size="11456512" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=f52b96782af1bcfd39b10eade73de560b9a7cd0a" released="2017-03-08" stability="testing" version="7.7.2">
+      <manifest-digest sha1new="f52b96782af1bcfd39b10eade73de560b9a7cd0a" sha256="8c6fcc122376749d882e795ffb03f3c550521deb0b436e2e52fdd05c19d56431" sha256new="RRX4YERDOZ2J3CBOPFP7WA7TYVIFEHPLBNBW4LSS7XIFYGOVMQYQ"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v7.7.2/node-v7.7.2-x64.msi" size="13705216" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=141218140ec45fcdc8af68aa019ec3395347ccf1" released="2017-03-08" stability="testing" version="7.7.2">
+      <manifest-digest sha1new="141218140ec45fcdc8af68aa019ec3395347ccf1" sha256="b452c80f1e28a8f29ce18b9324ed149a9bc232c1d1073d24826e1be75a9b3d0a" sha256new="WRJMQDY6FCUPFHHBROJSJ3IUTKN4EMWB2EDT2JECNYN6OWU3HUFA"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v7.7.2/node-v7.7.2-x86.msi" size="12173312" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=7517aabf65d77f9121f7c05a97f4acde3436b945" released="2017-06-08" stability="testing" version="8.1.0">
+      <manifest-digest sha1new="7517aabf65d77f9121f7c05a97f4acde3436b945" sha256="0e404a3db48a76df518d0e76a996d3793cae06260457b67377e1292cb7b146fb" sha256new="BZAEUPNURJ3N6UMNBZ3KTFWTPE6K4BRGARL3M43X4EUSZN5RI35Q"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v8.1.0/node-v8.1.0-x64.msi" size="15769600" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=79e8b4d62164de4e930c10c8bcc404464ed252c5" released="2017-06-08" stability="testing" version="8.1.0">
+      <manifest-digest sha1new="79e8b4d62164de4e930c10c8bcc404464ed252c5" sha256="ec76f13c6e58b08d8cb7835702df06604cfa91731051ad98758690f2f3eb16cf" sha256new="5R3PCPDOLCYI3DFXQNLQFXYGMBGPVELTCBI23GDVQ2IPF47LC3HQ"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v8.1.0/node-v8.1.0-x86.msi" size="14114816" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=6d443315097289c0782e79ec21c48b1c1523577f" released="2017-01-31" stability="stable" version="6.9.5">
+      <manifest-digest sha1new="6d443315097289c0782e79ec21c48b1c1523577f" sha256="c0f2c6be15106e8e58d485e7deb1b3f98ca3acd78df1dd89c206d3043c0d322c" sha256new="YDZMNPQVCBXI4WGUQXT55MNT7GGKHLGXRXY53COCA3JQIPANGIWA"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v6.9.5/node-v6.9.5-x64.msi" size="12791808" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=4b5c84878c2fcc8da088c87dc2efa5640cffc89f" released="2017-01-31" stability="stable" version="6.9.5">
+      <manifest-digest sha1new="4b5c84878c2fcc8da088c87dc2efa5640cffc89f" sha256="5c4aecad75ca5d5b45ef5bf351993410a83feb7c7b3508031e5db6d2aedbb318" sha256new="LRFOZLLVZJOVWRPPLPZVDGJUCCUD7234PM2QQAY6LW3NFLW3WMMA"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v6.9.5/node-v6.9.5-x86.msi" size="11485184" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=17f59b346ee7f5e64d08046a41a097a86c74b477" released="2017-06-06" stability="stable" version="6.11.0">
+      <manifest-digest sha1new="17f59b346ee7f5e64d08046a41a097a86c74b477" sha256="d1e553dcd398ae913d8715e2964366c98ad472e773a1aabdf2ba14e424191b51" sha256new="2HSVHXGTTCXJCPMHCXRJMQ3GZGFNI4XHOOQ2VPPSXIKOIJAZDNIQ"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v6.11.0/node-v6.11.0-x64.msi" size="12763136" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=3c02ed51a910551ba9921e0609ce2ac82edd3d65" released="2017-06-06" stability="stable" version="6.11.0">
+      <manifest-digest sha1new="3c02ed51a910551ba9921e0609ce2ac82edd3d65" sha256="2c8962a2de798709c53b07ea3314e5a734a02f1849dc76056b8d4b7260e3433c" sha256new="FSEWFIW6PGDQTRJ3A7VDGFHFU42KALYYJHOHMBLLRVFXEYHDIM6A"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v6.11.0/node-v6.11.0-x86.msi" size="11460608" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=2b527054ba88af04a647286c9023860e1596d807" released="2017-03-29" stability="testing" version="7.8.0">
+      <manifest-digest sha1new="2b527054ba88af04a647286c9023860e1596d807" sha256="60db1b208f0bb09eb7149e9bbf05372ae2d53c09635b81875373fbfe03eded7c" sha256new="MDNRWIEPBOYJ5NYUT2N36BJXFLRNKPAJMNNYDB2TOP574A7N5V6A"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v7.8.0/node-v7.8.0-x64.msi" size="13688832" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=a82f72533a112e440b3dfbb14f27f518befac38d" released="2017-03-29" stability="testing" version="7.8.0">
+      <manifest-digest sha1new="a82f72533a112e440b3dfbb14f27f518befac38d" sha256="87138e9155e9bdcf1fb7a2d35048993c1a04a8dafbddd31e75056f18088c6a11" sha256new="Q4JY5EKV5G646H5XULJVASEZHQNAJKG27PO5GHTVAVXRQCEMNIIQ"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v7.8.0/node-v7.8.0-x86.msi" size="12161024" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=6041947b195fbcdaaf0b8a93f2d4dff16d72b92e" released="2017-04-04" stability="stable" version="6.10.2">
+      <manifest-digest sha1new="6041947b195fbcdaaf0b8a93f2d4dff16d72b92e" sha256="100d2622fdee7209bc388d0caf82af3487914d2c538827fa36cd5b457645d8ec" sha256new="CAGSMIX55ZZATPBYRUGK7AVPGSDZCTJMKOECP6RWZVNUK5SF3DWA"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v6.10.2/node-v6.10.2-x64.msi" size="12750848" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=915c467985ed8a6272992d97bff62356b1ab8b3d" released="2017-04-04" stability="stable" version="6.10.2">
+      <manifest-digest sha1new="915c467985ed8a6272992d97bff62356b1ab8b3d" sha256="937473dce849454c0b4c8f896b99bb78c1eac0ad8ee467d5be1957e5f888c1fe" sha256new="SN2HHXHIJFCUYC2MR6EWXGN3PDA6VQFNR3SGPVN6DFL6L6EIYH7A"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v6.10.2/node-v6.10.2-x86.msi" size="11456512" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=e4c4a3a6cdc40cf78d0c7fb0450a4cc68aa4bd6e" released="2017-03-21" stability="testing" version="7.7.4">
+      <manifest-digest sha1new="e4c4a3a6cdc40cf78d0c7fb0450a4cc68aa4bd6e" sha256="ebffb6b22aa89eb95c98f8d8c8ef5306abceb63d5a2c4cac3e5360e40d7bdafe" sha256new="5P73NMRKVCPLSXEY7DMMR32TA2V45NR5LIWEZLB6KNQOIDL33L7A"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v7.7.4/node-v7.7.4-x64.msi" size="13705216" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=5e72971a215a7a33c82eafb7d959df8289eab078" released="2017-03-21" stability="testing" version="7.7.4">
+      <manifest-digest sha1new="5e72971a215a7a33c82eafb7d959df8289eab078" sha256="3c727ac8f194b7d27e8fb52a00ac4c68be7a819c89b5bc4d326d9841c317c66e" sha256new="HRZHVSHRSS35E7UPWUVABLCMNC7HVAM4RG23YTJSNWMEDQYXYZXA"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v7.7.4/node-v7.7.4-x86.msi" size="12173312" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=ff1e231ed9df8b6169fd68cdc6909af121c0df92" released="2017-02-21" stability="stable" version="6.10.0">
+      <manifest-digest sha1new="ff1e231ed9df8b6169fd68cdc6909af121c0df92" sha256="4d854e51d290398094bf06ac063ba3e924c87d173d6877def810aa63cfbd7a0b" sha256new="JWCU4UOSSA4YBFF7A2WAMO5D5ESMQ7IXHVUHPXXYCCVGHT55PIFQ"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v6.10.0/node-v6.10.0-x64.msi" size="12861440" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=79f3a7ece6d7cf0bd34f3a57c19eac081667b74f" released="2017-02-21" stability="stable" version="6.10.0">
+      <manifest-digest sha1new="79f3a7ece6d7cf0bd34f3a57c19eac081667b74f" sha256="c596b57659b32a1066e40080a5c816b895e19d7bcd164e6d658edee5298c388c" sha256new="YWLLK5SZWMVBAZXEACAKLSAWXCK6DHL3ZULE43LFR3POKKMMHCGA"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v6.10.0/node-v6.10.0-x86.msi" size="11550720" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=0ba747fda05e24d962b27158aed7055b0cf7cf6b" released="2017-03-14" stability="testing" version="7.7.3">
+      <manifest-digest sha1new="0ba747fda05e24d962b27158aed7055b0cf7cf6b" sha256="e39c0bd868204f9ffe317a79fc0bf74f08a1ee43edf27530bde0c6e9f9d89ef8" sha256new="4OOAXWDIEBHZ77RRPJ47YC7XJ4EKD3SD5XZHKMF54DDOT6OYT34A"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v7.7.3/node-v7.7.3-x64.msi" size="13705216" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=8c930532421f1be34c6580e32bb9fa1819e6b71e" released="2017-03-14" stability="testing" version="7.7.3">
+      <manifest-digest sha1new="8c930532421f1be34c6580e32bb9fa1819e6b71e" sha256="601e91b89cdd7230cf80a0a839335d6507120f27adc3ed7f9db6aeefbb46686f" sha256new="MAPJDOE43VZDBT4AUCUDSM25MUDREDZHVXB62745W2XO7O2GNBXQ"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v7.7.3/node-v7.7.3-x86.msi" size="12173312" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=c8ca5798c9a632de1fe0ccfacd2cbac3a2d0c230" released="2017-05-30" stability="testing" version="8.0.0">
+      <manifest-digest sha1new="c8ca5798c9a632de1fe0ccfacd2cbac3a2d0c230" sha256="c1e07360a096483d87efdc35c7b1e098a72a8dde0fa05c311a97b4a0147b19cf" sha256new="YHQHGYFASZED3B7P3Q24PMPATCTSVDO6B6QFYMI2S62KAFD3DHHQ"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v8.0.0/node-v8.0.0-x64.msi" size="15753216" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=8c8732db54e30de5072009c2f9f6468a8a57e7fb" released="2017-05-30" stability="testing" version="8.0.0">
+      <manifest-digest sha1new="8c8732db54e30de5072009c2f9f6468a8a57e7fb" sha256="eecbbf072daa4996ea7bce1298de39de5b2039b97a72dcdbcdf8375a762b47d4" sha256new="53F36BZNVJEZN2T3ZYJJRXRZ3ZNSAONZPJZNZW6N7A3VU5RLI7KA"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v8.0.0/node-v8.0.0-x86.msi" size="14106624" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=b979778acac98bfbfbadaa60d3c3771f62968ab6" released="2017-03-02" stability="testing" version="7.7.1">
+      <manifest-digest sha1new="b979778acac98bfbfbadaa60d3c3771f62968ab6" sha256="7807b9bf1078e31fa8f2048fc6129057ea8e870d52d5159453268b3f9f47c681" sha256new="PAD3TPYQPDRR7KHSASH4MEUQK7VI5BYNKLKRLFCTE2FT7H2HY2AQ"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v7.7.1/node-v7.7.1-x64.msi" size="13701120" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=01ba1378dcc8bffcb50fac92e4c7279477f3358c" released="2017-03-02" stability="testing" version="7.7.1">
+      <manifest-digest sha1new="01ba1378dcc8bffcb50fac92e4c7279477f3358c" sha256="0b4401a14952284c9ac2385d6e8698930bfae09e90b4ed783284502f212fe2fb" sha256new="BNCADIKJKIUEZGWCHBOW5BUYSMF7VYE6SC2O26BSQRIC6IJP4L5Q"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v7.7.1/node-v7.7.1-x86.msi" size="12173312" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=fa93c1d3907db76d0c8ebbfcd654a3bf8a2d90a6" released="2017-06-13" stability="testing" version="8.1.1">
+      <manifest-digest sha1new="fa93c1d3907db76d0c8ebbfcd654a3bf8a2d90a6" sha256="ab2044344657f413dd02b6a609147b6ace08d9f19374a004df6432579cf82a53" sha256new="VMQEINCGK72BHXICW2TASFD3NLHARWPRSN2KABG7MQZFPHHYFJJQ"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v8.1.1/node-v8.1.1-x64.msi" size="15769600" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=f2b66e3d6a031705d1dc81de6ca9bf7a043f6dbf" released="2017-06-13" stability="testing" version="8.1.1">
+      <manifest-digest sha1new="f2b66e3d6a031705d1dc81de6ca9bf7a043f6dbf" sha256="f1ad70afc67513f72fe0510f0b86963aee29e471d31c987091f9a27423aea942" sha256new="6GWXBL6GOUJ7OL7AKEHQXBUWHLXCTZDR2MOJQ4ER7GRHII5OVFBA"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v8.1.1/node-v8.1.1-x86.msi" size="14114816" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=bb017f485fe280b900fc348ff0dc693806b6310f" released="2017-06-15" stability="testing" version="8.1.2">
+      <manifest-digest sha1new="bb017f485fe280b900fc348ff0dc693806b6310f" sha256="b3a774d89087c7c571cf9ba61cc72b30cb0d49f4ca51c1d4bde3273f6ba42fdf" sha256new="WOTXJWEQQ7D4K4OPTOTBZRZLGDFQ2SPUZJI4DVF54MTT625EF7PQ"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v8.1.2/node-v8.1.2-x64.msi" size="15769600" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=8a81c5ab19bb2574e860882d608b53b96f191a92" released="2017-06-15" stability="testing" version="8.1.2">
+      <manifest-digest sha1new="8a81c5ab19bb2574e860882d608b53b96f191a92" sha256="b4e3c495e10405934bc002e3819748b0afe8b5b8796ce8c87d7e399218453c9b" sha256new="WTR4JFPBAQCZGS6AALRYDF2IWCX6RNNYPFWORSD5PY4ZEGCFHSNQ"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v8.1.2/node-v8.1.2-x86.msi" size="14114816" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=ad5f5efb151983e236c55515bfd1de1bc46d8ee3" released="2017-02-28" stability="testing" version="7.7.0">
+      <manifest-digest sha1new="ad5f5efb151983e236c55515bfd1de1bc46d8ee3" sha256="df4f84500b8d24943e8fdbd61c4310d694e69cd9398711d9d23476c69fdf65d8" sha256new="35HYIUALRUSJIPUP3PLBYQYQ22KONHGZHGDRDWOSGR3MNH67MXMA"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v7.7.0/node-v7.7.0-x64.msi" size="13701120" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=c46aef0cd54a78ccb07eb551e569ee20842561c8" released="2017-02-28" stability="testing" version="7.7.0">
+      <manifest-digest sha1new="c46aef0cd54a78ccb07eb551e569ee20842561c8" sha256="46c64b295972dce1e3b1cc774f0755096c58a13af98e33953542987909036b42" sha256new="I3DEWKKZOLOODY5RZR3U6B2VBFWFRIJ27GHDHFJVIKMHSCIDNNBA"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v7.7.0/node-v7.7.0-x86.msi" size="12177408" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=27666bbc0f106f09e9c528e1ada7a8c62a366af3" released="2017-04-11" stability="testing" version="7.9.0">
+      <manifest-digest sha1new="27666bbc0f106f09e9c528e1ada7a8c62a366af3" sha256="ab776481c89f6d2b6f90bc453c79ed56bba36568a682024725395e1c8f1459f7" sha256new="VN3WJAOIT5WSW34QXRCTY6PNK252GZLIU2BAERZFHFPBZDYULH3Q"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v7.9.0/node-v7.9.0-x64.msi" size="13688832" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=43acb8ecf614f0eda60772860cbbb6b9c9b099dd" released="2017-04-11" stability="testing" version="7.9.0">
+      <manifest-digest sha1new="43acb8ecf614f0eda60772860cbbb6b9c9b099dd" sha256="47adb2c2c6cb7604c13b1cb78b45f3dcd5cea2b57141aaeeebc0fd58d1a6cbbe" sha256new="I6W3FQWGZN3AJQJ3DS3YWRPT3TK45IVVOFA2V3XLYD6VRUNGZO7A"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v7.9.0/node-v7.9.0-x86.msi" size="12161024" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=baac7e23b45f6a35a6b2c70643209e566b14c399" released="2017-02-21" stability="testing" version="7.6.0">
+      <manifest-digest sha1new="baac7e23b45f6a35a6b2c70643209e566b14c399" sha256="70e1f89cb74f2104a21c76bb62e1099979782d07c11da5fdfa993b6a284f62fc" sha256new="ODQ7RHFXJ4QQJIQ4O25WFYIJTF4XQLIHYEO2L7P2TE5WUKCPML6A"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v7.6.0/node-v7.6.0-x64.msi" size="13688832" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=c62027f7b339133d81cbe970fc94d73dea128f3d" released="2017-02-21" stability="testing" version="7.6.0">
+      <manifest-digest sha1new="c62027f7b339133d81cbe970fc94d73dea128f3d" sha256="b82010b20a5cfe68869acc225c9bfd078403cf0ab1a4cca13b4742119342fd9b" sha256new="XAQBBMQKLT7GRBU2ZQRFZG75A6CAHTYKWGSMZIJ3I5BBDE2C7WNQ"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v7.6.0/node-v7.6.0-x86.msi" size="12165120" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=584516bd9f7ae4082f59b197dbd204ec72c48faf" released="2017-01-31" stability="testing" version="7.5.0">
+      <manifest-digest sha1new="584516bd9f7ae4082f59b197dbd204ec72c48faf" sha256="dbcba6da03484826b59a43c9f202a5b1ea2ffb0737bec3f16e52d801e4015ce4" sha256new="3PF2NWQDJBECNNM2IPE7EAVFWHVC76YHG67MH4LOKLMADZABLTSA"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v7.5.0/node-v7.5.0-x64.msi" size="13639680" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=72b5eea34ca3bf593b04aa06b1ebb244b613fed4" released="2017-01-31" stability="testing" version="7.5.0">
+      <manifest-digest sha1new="72b5eea34ca3bf593b04aa06b1ebb244b613fed4" sha256="e23447f96860c9c7f04de5d5fb5ce2ef188d442338c31e7be757feef112f755a" sha256new="4I2EP6LIMDE4P4CN4XK7WXHC54MI2RBDHDBR467HK77O6EJPOVNA"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v7.5.0/node-v7.5.0-x86.msi" size="12132352" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=6412f2697a992530b822ed1cbcb44f89370349a4" released="2017-05-02" stability="testing" version="7.10.0">
+      <manifest-digest sha1new="6412f2697a992530b822ed1cbcb44f89370349a4" sha256="6aba0583884938388fccf7c60c2542fa5d1e360a081a9f9bb8c5e192afdf5bac" sha256new="NK5ALA4IJE4DRD6M67DAYJKC7JOR4NQKBANJ7G5YYXQZFL67LOWA"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v7.10.0/node-v7.10.0-x64.msi" size="13713408" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=8fb52a8c4b6f0e2df27e821627fefbb270762d85" released="2017-05-02" stability="testing" version="7.10.0">
+      <manifest-digest sha1new="8fb52a8c4b6f0e2df27e821627fefbb270762d85" sha256="61a3bb4b2ad47770d4e01e94a81efab304f64f8e224ae3f21116de6a1662c8ed" sha256new="MGR3WSZK2R3XBVHAD2KKQHX2WMCPMT4OEJFOH4QRC3PGUFTCZDWQ"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v7.10.0/node-v7.10.0-x86.msi" size="12181504" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=e4a900adf01db1f9cd1718c9144ca58e1a5d94b6" released="2017-03-21" stability="stable" version="6.10.1">
+      <manifest-digest sha1new="e4a900adf01db1f9cd1718c9144ca58e1a5d94b6" sha256="0c089842d6f87e40fa3b1603fc5c0babcb243047e95948b7ecb8da088dea58f7" sha256new="BQEJQQWW7B7EB6R3CYB7YXALVPFSIMCH5FMURN7MXDNARDPKLD3Q"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v6.10.1/node-v6.10.1-x64.msi" size="12750848" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=ddf0a822188ee9cd3813040df1fd6fa7145efa97" released="2017-03-21" stability="stable" version="6.10.1">
+      <manifest-digest sha1new="ddf0a822188ee9cd3813040df1fd6fa7145efa97" sha256="c8fec59b42a253ec791c3b16b321724a1bb73be2eec748b488bc6e8168baf7e8" sha256new="ZD7MLG2CUJJ6Y6I4HMLLGILSJIN3OO7C53DURNEIXRXIC2F267UA"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v6.10.1/node-v6.10.1-x86.msi" size="11452416" type="application/x-msi"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="node" command="run"/>
@@ -256,11 +676,11 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYhM7kAAoJECLqERp+QkKk1hcIAJuSfDDq+IqzMhXBkfa3XKodVeYaXuGOxEdm
-AeyPCSiA5Gyw5jP6+xqmpZQKyCIbsMyHihT3FOL/o0rn8Ig26kSMoT4MPv4JIMF1kAdOMjuCpyU0
-Zx/aHgDaMRLi9ThuCsPJ6xd7pA3R/4YXDaJlzL27YTN/k9YjymaWlTHwzOvZ9FPCjPfgPBck/DW0
-H/Uzmese+EmxWBZYUW9RIFPI0ZsYPJVAPNNV58tdlhRTBYuuFwvm01gvEN1qnZV1xRAwwROEt3p4
-pk6sJTzjNjyhR5yveHBKPxJVygLSF5SDdy2vWq1dc9ETVkrQ7O6f1tYBXBQDRyIa67btegxg7DBG
-7Po=
+iQEcBAABCAAGBQJZV4zDAAoJECLqERp+QkKkMLcH/19i27BbLzd4hUfZ3ZJ6pctf6SWu4j6JHiLJ
+0M7CaCfN6ulb5LJeeaYEHn/16KL+mVyyWrZ6GGA8ZNCZ/booNdTskcT6gL+kH4pHiR3qWahjkZCP
+FG0wX3LbRiyZJDSvVJW1xIKa2LqeulUpmQQOIKXPV9hKg9M/60HqnbJS6oR4kKLoir3DUbfmu93m
+Nix8PD4Vog7RJth4GxGX6ICnsdfkTD9st/QPDhKjfRfnIlBO2URh2E29GqWY8f1mFYWFG/mV5KwB
+1KdqLhe+rjI/JTLuNqBIEm46tyaI4hxvnxI/HuW+vu1bUjkFVwCag69+HB+VBjP9gP25cHyscWsR
+u90=
 
 -->
