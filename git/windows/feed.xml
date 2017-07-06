@@ -16,8 +16,6 @@
     <requires interface="http://0install.de/feeds/PuTTY.xml">
       <environment insert="plink.exe" mode="replace" name="GIT_SSH"/>
     </requires>
-    <environment insert="cmd" name="PATH"/>
-    <environment insert="usr/bin" name="PATH"/>
     <command name="run" path="cmd/git.exe"/>
     <command name="run-gui" path="cmd/git-gui.exe"/>
     <command name="gitk" path="cmd/gitk.exe"/>
@@ -304,11 +302,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJZV4lgAAoJECLqERp+QkKkFVsIALN/sm8f8DYjM2Er17XI7cqNmvk2uOaRnmaL
-WWt1vD4FrLbS0cWRXx8Fc4oZM5zyaFNCStNDh/Q+DPqV8kn3WqkWTLK7QMNRPsRSdOkkvFGiQwZl
-/4VOr6R4VTiNoAA/CaljAZl+L/GSsxZmJP8t1pzlUfO6pPawQyuXRi4aRngmrdg1rx6VYYdxFK0+
-GCE+cVE1hUdjcnPtSohJhtFD+fg4Y2kSQ64DyXml+FNhQNQQ7Tp3vTqGowbrotaNT8cyI2ZIqjAP
-I6glu5WL+LFaQKr0f5PYEGVlSay31lE+ubNuLz+cBEoYHqAiEBkjTotNAvkAVcC7cZbrCk7uWuuq
-Bx0=
+iQEcBAABCAAGBQJZXpg9AAoJECLqERp+QkKkrFsH+gOjZq+Y148jvVup+txEdMRZHOXBCJ7rSdlV
+aVmmS/ITAVhFhPh6JALRprzU/B0MbT1/EeQ0AfPjexGUI5BqPH4ROFJ31idYqVvljpd34hIuSi1l
+qqIrKlopZnzk5nyW+DlE/8dkmWJccl5ZdpcnBlM3LcRo8O7QRlDyEELrssXFCoW0cF+e+s8ke1mh
+7NW+D1NHrr2dBtTUcgPM1ae1gVpMbB5MSzD89cycY1Qj732dfwhGZLSDFDg/zEKMHKDqP04W0C3O
+c3vwQb3emf4TBPg9jWLNYo6dXicpGZQO88KNZt0Eg5Ekfznl7yOPepCH4TTfSelTx1SITrnbFfch
+KFc=
 
 -->
