@@ -15,7 +15,7 @@ because it uses IDEA (which is patented worldwide).</description>
   <needs-terminal/>
 
   <package-implementation distributions="RPM" main="/usr/bin/gpg2" package="gpg2"/>
-  <package-implementation distributions="RPM" main="/usr/bin/gpg2" package="gnupg2"/>
+  <package-implementation distributions="RPM Debian" main="/usr/bin/gpg2" package="gnupg2"/>
   <package-implementation distributions="Arch Slack Debian RPM Cygwin" main="/usr/bin/gpg" package="gnupg"/>
   <package-implementation distributions="Gentoo" main="/usr/bin/gpg" package="app-crypt/gnupg"/>
   <package-implementation distributions="MacPorts" main="/opt/local/bin/gpg" package="gnupg"/>
@@ -68,11 +68,11 @@ because it uses IDEA (which is patented worldwide).</description>
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYjeTQAAoJECLqERp+QkKkQcsIAI7x0MTK8duDU4ut0qE/RTi9TKG/n/VgkALs
-+l2rJX6zC4FpWLGEe2P8REIkItzdQLeWusLE79198MjSa9VSyggIvXqwWa4zwpo+gEK8P4k2olGs
-PiZ1v4SClhUbQ1eWUT0isBoc0jGhC0/sK3sfhXcc6DpQcDmMLpiKmdhf1zQIqmUUwrAC4IHARIdp
-OKa98EmFBFQABjZqL/DHFGIt2cWLRciOY0vmax21abt0hpqB3otiQlIRObor+DGqHWGEJqm2SOsh
-C5PjmVUfIwAD9qGZtLz1VmbQw0lYM3jPrwnlk1gw9Ia2r6scbihE+zf/HOm0u1rtPVKcKKBdyZl1
-qec=
+iQEcBAABCAAGBQJZdGyjAAoJECLqERp+QkKkzmEIAMiyv1cPHKhGHwPA9nwvAogWEhkAJxzF02WD
+qi4lOo5mS8cDXgM0vKCImANSxbCyLu9dBo+5wkw+0wnpeQglo01ZO///NEW2mm8k8mW9qg89X7Ab
+wXhF9tbtIgufAY/yydM9nY0KdG4DqevOROEqKSBiQhd8NX3tzg0lQL6hOp2xzWK+43f6FW36+Y8d
+TivZ8aW2NYitAaasVrzzRYJaL3c4odRhEyqF1V2VGQTGCVguCzt8ZGeBFY2/7S+qquveu7thwWdG
+ssPbhZOOF7ziVq3oLHDLMbG3hCGEHjgI9w9YLKJUSo2yh7n1LYOD5FMorduObm6DqTcbKNwWOiQH
+RlI=
 
 -->
