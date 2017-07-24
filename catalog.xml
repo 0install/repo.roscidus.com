@@ -43,10 +43,6 @@ provided as separate git* packages.</description><category>Development</category
     <needs-terminal/>
     <name>scp</name>
     <summary>Secure remote file copy</summary>
-  </entry-point><entry-point command="curl">
-    <needs-terminal/>
-    <name>cURL</name>
-    <summary>A comand-line client for HTTP, FTP, etc.</summary>
   </entry-point></interface><interface uri="http://repo.roscidus.com/javascript/nwjs-sdk"><name>NW.js SDK</name><summary>NW.js with DevTools for debugging</summary><description>This is the full NW.js plus additional DevTools for debugging.</description><homepage>https://nwjs.io/</homepage><icon href="https://nwjs.io/img/logo.png" type="image/png"/></interface><interface uri="http://repo.roscidus.com/javascript/nwjs"><name>NW.js</name><summary>write desktop applications with all Web technologies</summary><description>NW.js (previously known as node-webkit) lets you call all Node.js modules directly from DOM and enables a new way of writing applications with all Web technologies.</description><homepage>https://nwjs.io/</homepage><icon href="https://nwjs.io/img/logo.png" type="image/png"/></interface><interface uri="http://repo.roscidus.com/javascript/node"><name>Node.js</name><summary>open-source, cross-platform JavaScript runtime environment</summary><description>Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.</description><homepage>http://nodejs.org/</homepage><icon href="http://0install.de/feed-icons/Node.js.png" type="image/png"/><icon href="http://0install.de/feed-icons/Node.js.ico" type="image/vnd.microsoft.icon"/><entry-point binary-name="node" command="run"/><entry-point binary-name="npm" command="npm">
     <needs-terminal/>
     <name>Node Package Manager</name>
@@ -491,11 +487,11 @@ Access Protocol) servers and clients.</description></interface><interface uri="h
     <summary>view the Ruby documentation off-line</summary>
   </entry-point></interface></c:catalog>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJZdjyFAAoJECLqERp+QkKkEKMH/1kErU2cvfIb73UbivmvbxoP7ztek+i+a6WS
-4M3MmuDAVFPkg2N880V4r4tJY8Ts+yeo7N5wgP4IYLEGwcIlhVx5LmCGHW359zn7SabJ0V+z7Oui
-CO4nj/p7KB29oRvK3OdYEunSKo/iFl4s9kYvbwtV2HK3jwppONijdPGh2HVtxUAAjh+Fl0lwTX3t
-Qa53zc3SpcNlbRLCQWsrk2pIfiln8/BOTRfPF+BXzdBcyE+eWWKZEMZ2G6qREZcy+yu3FzDzu6u/
-EoOWFdrRU6m0R96VnefgnAr4db7qESlGCuYMqlmipi+8evQFw6ntnSLCq4jnn0iEZ4EWuS6oErCS
-wSc=
+iQEcBAABCAAGBQJZdjz4AAoJECLqERp+QkKkNqcH/R8zarlMFd8CCndTlyLc/1qobsZRvxXbAgWc
+v7cEY29SZ3CIi6V56ioMVLoh3z2e0Aa2pMyRfPrwgTMF/8h/+tNEYs1T8cfrJNhGoZ+yBp8LPKYK
+zhnMtugAw3yFJUW0r+Z3TG0H1I07TpMAwFtr8RlTTYDkfFSWsDJCgqbG0Qtg5nG6WJ0TkwlvSO/1
+4c4NysJu1jSGlVRigBAXXlSOFimZ9Xr+G/FjCiPbRJB/zuzcBUtJCKzbFL5if+mCEMSmyzFZ+/Ol
+IHhuFYCizyxLv6GVlvuG/n4CR263k60vkt6YemIvw/G3NczkRYbppI9m2zitN1cXjOH9UP30dEb8
+gr0=
 
 -->
