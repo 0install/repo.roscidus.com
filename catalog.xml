@@ -456,7 +456,7 @@ The GNU history library provides a consistent user interface for
 recalling lines of previously typed input.</description></interface><interface uri="http://repo.roscidus.com/lib/gcc1"><name>libgcc1</name><summary>GCC support library</summary><description>Shared version of the support library, a library of internal subroutines
 that GCC uses to overcome shortcomings of particular machines, or
 special needs for some languages.</description></interface><interface uri="http://repo.roscidus.com/lib/ldap-2.4-2"><name>libldap-2.4-2</name><summary>OpenLDAP libraries</summary><description>These are the run-time libraries for the OpenLDAP (Lightweight Directory
-Access Protocol) servers and clients.</description></interface><interface uri="http://repo.roscidus.com/ruby/ruby"><name>Ruby</name><summary>dynamic, open source programming language</summary><description>A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.</description><homepage>http://www.ruby-lang.org/</homepage><icon href="http://0install.de/feed-icons/Ruby.ico" type="image/vnd.microsoft.icon"/><icon href="http://0install.de/feed-icons/Ruby.png" type="image/png"/><entry-point binary-name="ruby" command="run">
+Access Protocol) servers and clients.</description></interface><interface uri="http://repo.roscidus.com/docker/machine"><name>Docker Machine</name><summary>machine management for a container-centric world</summary><description>Docker Machine is a tool that lets you install Docker Engine on virtual hosts, and manage the hosts with docker-machine commands. You can use Machine to create Docker hosts on your local Mac or Windows box, on your company network, in your data center, or on cloud providers like Azure, AWS, or Digital Ocean.</description><homepage>https://docs.docker.com/machine/</homepage><icon href="https://docs.docker.com/machine/img/logo.png" type="image/png"/><entry-point binary-name="docker-machine" command="run"/></interface><interface uri="http://repo.roscidus.com/docker/compose"><name>Docker Compose</name><summary>define and run multi-container applications with Docker</summary><description>Compose is a tool for defining and running multi-container Docker applications.</description><homepage>https://docs.docker.com/compose/</homepage><icon href="https://raw.githubusercontent.com/docker/compose/1.14.0/logo.png" type="image/png"/><entry-point binary-name="docker-compose" command="run"/></interface><interface uri="http://repo.roscidus.com/docker/client"><name>Docker Client</name><summary>Docker command-line client</summary><description>Docker is a software technology providing containers. This feed allows you to run Docker's command-line client.</description><homepage>https://www.docker.com/</homepage><entry-point binary-name="docker" command="run"/></interface><interface uri="http://repo.roscidus.com/ruby/ruby"><name>Ruby</name><summary>dynamic, open source programming language</summary><description>A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.</description><homepage>http://www.ruby-lang.org/</homepage><icon href="http://0install.de/feed-icons/Ruby.ico" type="image/vnd.microsoft.icon"/><icon href="http://0install.de/feed-icons/Ruby.png" type="image/png"/><entry-point binary-name="ruby" command="run">
     <needs-terminal/>
     <name>Ruby command-line runner</name>
     <icon href="http://0install.de/feed-icons/Ruby-CLI.ico" type="image/vnd.microsoft.icon"/>
@@ -491,11 +491,11 @@ Access Protocol) servers and clients.</description></interface><interface uri="h
     <summary>view the Ruby documentation off-line</summary>
   </entry-point></interface></c:catalog>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYvp0RAAoJECLqERp+QkKkcWMH/jtvEqIUjMeNFYrGtBfeMbuwz3mgdxaXJVPo
-3fSN7KWAgmtTORejbMbnNToDdPCML94VhI3vCwbfDxaX0lJ41waF8/y35LO4Sh+rlaAPhFOMdWhQ
-RscP718JChIJU7vmUrEjO7L+396fj8GrUhMZ0uE2W31frGXeg7DV+MWu0jUs9m59EuA6roEyabCi
-LlFecceYfDBwK4IIBim4arWxkOTMeE6eVrIOpy08tfn4ecF5McQu3XzFAHBhQlkFOCReOwAAZ0lN
-ZQRhXlLoZUJ6P7dJHXdClMwgRvRTd6oGYBoinee3XQf8kxjr9dFBpztQxZFWeiWqlNQP6WqSqmIw
-/RI=
+iQEcBAABCAAGBQJZdjyFAAoJECLqERp+QkKkEKMH/1kErU2cvfIb73UbivmvbxoP7ztek+i+a6WS
+4M3MmuDAVFPkg2N880V4r4tJY8Ts+yeo7N5wgP4IYLEGwcIlhVx5LmCGHW359zn7SabJ0V+z7Oui
+CO4nj/p7KB29oRvK3OdYEunSKo/iFl4s9kYvbwtV2HK3jwppONijdPGh2HVtxUAAjh+Fl0lwTX3t
+Qa53zc3SpcNlbRLCQWsrk2pIfiln8/BOTRfPF+BXzdBcyE+eWWKZEMZ2G6qREZcy+yu3FzDzu6u/
+EoOWFdrRU6m0R96VnefgnAr4db7qESlGCuYMqlmipi+8evQFw6ntnSLCq4jnn0iEZ4EWuS6oErCS
+wSc=
 
 -->
