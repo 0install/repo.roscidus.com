@@ -44,7 +44,6 @@ connect to servers using SSL if supported by PHP.</description><homepage>http://
     <name>Gitk GUI</name>
     <summary>graphical interface for editing Git commits</summary>
   </entry-point><entry-point command="git-bash">
-    <needs-terminal/>
     <name>Git Bash</name>
     <summary>MSYS-based bash prompt with all Git commands in PATH</summary>
   </entry-point><entry-point command="git-cmd">
@@ -487,11 +486,11 @@ More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
 This package is built from the X.org xproto proto module.</description></interface><interface uri="http://repo.roscidus.com/lib/zlib1g"><name>zlib1g</name><summary>compression library - runtime</summary><description>zlib is a library implementing the deflate compression method found
 in gzip and PKZIP. This package includes the shared library.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJZhyZ5AAoJECLqERp+QkKk6REH/3Q5BFJR2mCkZAEosPrbvNmL66jehgMYG7Ok
-AOMgg3UNG6f6fPHUkIjHOmA6Lig5cXG5ieIzE5EphVrez4dpCGD3fTu5DXceLMiixfFNWvqSZLvk
-TIGbyAfiTBmrEGrbyzWzUNXyxf9VMXoCsf8JQSyY8YmJ2zodSb6uvueyHQn4+pSJ9xMS0TCtrKjt
-vgrKK+81kmQ3/35SS5ll+vnY8qCZXb4keGa9XMITIQT0iAfZkMnnsJATxuIUF9c76lgWwkZqaqbu
-iZKkkoM1xt5eottBFQ61ym7uJudikmqIUS/8GMBDVjnqC+a3/mKLvWK21eguyUyH80WcoYv/jk3a
-BMA=
+iQEcBAABCAAGBQJZoUglAAoJECLqERp+QkKkv2MIAPBPuAz3zUmwyEspFgG7IQyNKKj4sLN9hqp6
+zFu/zyc/5TGLLneTk0M0kBGPbKgdyaMmVYv64DTKd3qFdNRMg/vhyWOkVTjG+W+iy5RgTKss2r8Y
+DWDZRNzGYxJs4wGINSIt1nndVdu2Y8p8Yzv3z56Pfu5B9lNCDSY4WciL+2C3aJbDu5+D6a8wgq4l
+1eob1Y6ozW/RpMkxHrB+o4Sloz6Cmf652zkwpTKA5zRaaIv6iShNbTydlPEHnTLx7wyAz9fs35wW
+IItsxsc/NYVt3tLKTSL6s0P5VCcaG2eCrsbFmuGFT1MA2kf8MZOVuKaVhsqOR5XUe2GAOfKkc4Hl
+SAI=
 
 -->
