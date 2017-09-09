@@ -1,162 +1,18 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/cli/cli" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
-  <name>Common Language Infrastructure</name>
-  <summary>an implementation of the Common Language Infrastucture (.NET Framework on Windows, Mono on POSIX) using .NET profiles as version numbers</summary>
+  <name>Common Language Runtime</name>
+  <summary>an implementation of the Common Language Runtime (.NET Framework on Windows, Mono on POSIX) using .NET profiles as version numbers</summary>
 
-  <!-- The .NET Framework is an implementation of the Common Language Infrastructure. -->
-  <feed arch="Windows-*" src="http://repo.roscidus.com/cli/netfx"/>
-
-  <!-- Empty implementations used to map .NET Framework version numbers to roughly equivalent Mono version numbers. -->
-  <group arch="POSIX-*" license="MIT License">
-    <implementation id="netfx-2.0-mono" version="2.0">
-      <command name="run">
-        <runner command="run" interface="http://repo.roscidus.com/cli/mono">
-          <version before="2.0" not-before="1.2"/>
-        </runner>
-      </command>
-      <command name="run-gui">
-        <runner command="run-gui" interface="http://repo.roscidus.com/cli/mono">
-          <version before="2.0" not-before="1.2"/>
-        </runner>
-      </command>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709" sha256="e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" sha256new="4OYMIQUY7QOBJGX36TEJS35ZEQT24QPEMSNZGTFESWMRW6CSXBKQ"/>
-      <recipe/>
-    </implementation>
-    <implementation id="netfx-3.0-mono" version="3.0">
-      <command name="run">
-        <runner command="run" interface="http://repo.roscidus.com/cli/mono">
-          <version before="2.8" not-before="2.0"/>
-        </runner>
-      </command>
-      <command name="run-gui">
-        <runner command="run-gui" interface="http://repo.roscidus.com/cli/mono">
-          <version before="2.8" not-before="2.0"/>
-        </runner>
-      </command>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709" sha256="e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" sha256new="4OYMIQUY7QOBJGX36TEJS35ZEQT24QPEMSNZGTFESWMRW6CSXBKQ"/>
-      <recipe/>
-    </implementation>
-    <implementation id="netfx-3.5-mono" version="3.5">
-      <command name="run">
-        <runner command="run" interface="http://repo.roscidus.com/cli/mono">
-          <version before="2.8" not-before="2.0"/>
-        </runner>
-      </command>
-      <command name="run-gui">
-        <runner command="run-gui" interface="http://repo.roscidus.com/cli/mono">
-          <version before="2.8" not-before="2.0"/>
-        </runner>
-      </command>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709" sha256="e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" sha256new="4OYMIQUY7QOBJGX36TEJS35ZEQT24QPEMSNZGTFESWMRW6CSXBKQ"/>
-      <recipe/>
-    </implementation>
-    <implementation id="netfx-4.0-mono" version="4.0">
-      <command name="run">
-        <runner command="run" interface="http://repo.roscidus.com/cli/mono">
-          <version before="3.0" not-before="2.8"/>
-        </runner>
-      </command>
-      <command name="run-gui">
-        <runner command="run-gui" interface="http://repo.roscidus.com/cli/mono">
-          <version before="3.0" not-before="2.8"/>
-        </runner>
-      </command>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709" sha256="e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" sha256new="4OYMIQUY7QOBJGX36TEJS35ZEQT24QPEMSNZGTFESWMRW6CSXBKQ"/>
-      <recipe/>
-    </implementation>
-    <implementation id="netfx-4.5-mono" version="4.5">
-      <command name="run">
-        <runner command="run" interface="http://repo.roscidus.com/cli/mono">
-          <version not-before="3.0"/>
-        </runner>
-      </command>
-      <command name="run-gui">
-        <runner command="run-gui" interface="http://repo.roscidus.com/cli/mono">
-          <version not-before="3.0"/>
-        </runner>
-      </command>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709" sha256="e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" sha256new="4OYMIQUY7QOBJGX36TEJS35ZEQT24QPEMSNZGTFESWMRW6CSXBKQ"/>
-      <recipe/>
-    </implementation>
-    <implementation id="netfx-4.5.1-mono" version="4.5.1">
-      <command name="run">
-        <runner command="run" interface="http://repo.roscidus.com/cli/mono">
-          <version not-before="3.4"/>
-        </runner>
-      </command>
-      <command name="run-gui">
-        <runner command="run-gui" interface="http://repo.roscidus.com/cli/mono">
-          <version not-before="3.4"/>
-        </runner>
-      </command>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709" sha256="e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" sha256new="4OYMIQUY7QOBJGX36TEJS35ZEQT24QPEMSNZGTFESWMRW6CSXBKQ"/>
-      <recipe/>
-    </implementation>
-    <implementation id="netfx-4.5.2-mono" version="4.5.2">
-      <command name="run">
-        <runner command="run" interface="http://repo.roscidus.com/cli/mono">
-          <version not-before="3.6"/>
-        </runner>
-      </command>
-      <command name="run-gui">
-        <runner command="run-gui" interface="http://repo.roscidus.com/cli/mono">
-          <version not-before="3.6"/>
-        </runner>
-      </command>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709" sha256="e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" sha256new="4OYMIQUY7QOBJGX36TEJS35ZEQT24QPEMSNZGTFESWMRW6CSXBKQ"/>
-      <recipe/>
-    </implementation>
-    <implementation id="netfx-4.6-mono" version="4.6">
-      <command name="run">
-        <runner command="run" interface="http://repo.roscidus.com/cli/mono">
-          <version not-before="4.0"/>
-        </runner>
-      </command>
-      <command name="run-gui">
-        <runner command="run-gui" interface="http://repo.roscidus.com/cli/mono">
-          <version not-before="4.0"/>
-        </runner>
-      </command>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709" sha256="e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" sha256new="4OYMIQUY7QOBJGX36TEJS35ZEQT24QPEMSNZGTFESWMRW6CSXBKQ"/>
-      <recipe/>
-    </implementation>
-    <implementation id="netfx-4.6.1-mono" version="4.6.1">
-      <command name="run">
-        <runner command="run" interface="http://repo.roscidus.com/cli/mono">
-          <version not-before="4.2"/>
-        </runner>
-      </command>
-      <command name="run-gui">
-        <runner command="run-gui" interface="http://repo.roscidus.com/cli/mono">
-          <version not-before="4.2"/>
-        </runner>
-      </command>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709" sha256="e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" sha256new="4OYMIQUY7QOBJGX36TEJS35ZEQT24QPEMSNZGTFESWMRW6CSXBKQ"/>
-      <recipe/>
-    </implementation>
-    <implementation id="netfx-4.6.2-mono" version="4.6.2">
-      <command name="run">
-        <runner command="run" interface="http://repo.roscidus.com/cli/mono">
-          <version not-before="4.4"/>
-        </runner>
-      </command>
-      <command name="run-gui">
-        <runner command="run-gui" interface="http://repo.roscidus.com/cli/mono">
-          <version not-before="4.4"/>
-        </runner>
-      </command>
-      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709" sha256="e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" sha256new="4OYMIQUY7QOBJGX36TEJS35ZEQT24QPEMSNZGTFESWMRW6CSXBKQ"/>
-      <recipe/>
-    </implementation>
-  </group>
+  <feed src="http://repo.roscidus.com/dotnet/clr"/>
+  <replaced-by interface="http://repo.roscidus.com/dotnet/clr"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYe3CDAAoJECLqERp+QkKkLGMIAJUMmDo4fLMOJIaGkrO3U+WUFpujXIOzJt1d
-Sr22oWzxpclUOVcTeagoFzBFCGeay3lYCKMZBaTxFaqpoYCtZ++f3+ZoLyWcNkWWML25qHwEcwP5
-OvvyNeCN/6SkAdoC3paN+0cdvM8Rlt7TGG021v4j+TorzyW8BPJrTwtXBBJhSNDYKG7dleZYMcww
-VMVFG0METdYau6u9PVhC7//tFTLIHGfzCGKdR7VvS0+J82DR3jF972ulLXGlOKV7fEDLN2cSSffq
-KONVGNEmqn+B2U/op9Efb89tVo64OrkIMCWrwSWabx4461X3GpIWEfkdhNXd6E0UsrZWXVOr5FoP
-YcQ=
+iQEcBAABCAAGBQJZtCMkAAoJECLqERp+QkKkhfcIAIojXw1mcmEBpmLBLtpX0sus1BHxbmuQCDyr
+4p2ftPQZORDp+yGb8Zv7hFG0xQkH6ckhGx/nvca7yvVKfU/190uxmxrKns9Wg3r/81jms7/Tgcq0
+vz1g2M2pEpSsBZQ9wlx0x9EY9UylcsDRE6B6mnoPIQt0uKs9x1JliajLYViDfUEyEcM6Ix4q6eUh
+bc3ZUBPz5u5t3zAGzqgO57S3FoNGwjuRkwHYkTNwLYzDeljsQy6EsZX7trGqOhQx+J0qziFKSivx
+Bw6BVoBrZ9/o6bIGHxK6I/JLUmPwT6XlKQLQEIvdD+HxWs4o0K3gXv5CvZq7nRFXvTfJpKzY11YU
+rIY=
 
 -->

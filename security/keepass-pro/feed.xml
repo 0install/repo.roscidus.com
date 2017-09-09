@@ -13,7 +13,7 @@ Professional runs on Microsoft .NET 2.0 and Mono 2.6 or newer.</description>
 
   <group license="GPL v2 (GNU General Public License)">
     <command name="run" path="KeePass.exe">
-      <runner command="run-gui" interface="http://repo.roscidus.com/cli/cli"/>
+      <runner command="run-gui" interface="http://repo.roscidus.com/dotnet/clr"/>
     </command>
     <implementation id="sha1new=a3e3637e986d8602e3a98626ec9693c65da7049c" released="2009-07-05" stability="stable" version="2.08">
       <manifest-digest sha256new="MTSSDIS5YFO4WTH3KW5LKCINWBYOVUPBVSZ2WKYNV2VWK3W5ALJA"/>
@@ -142,11 +142,11 @@ Professional runs on Microsoft .NET 2.0 and Mono 2.6 or newer.</description>
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYjeTQAAoJECLqERp+QkKkRewIAIjMlBZkclaxPVTSZProbDgPLOo7jzLawTmD
-uKqA1oamNgPgNI7kBL1wm374G5k3Mio/PssNcd8tn3Ks5HTwlM/CFzAhFwGSERSN8Ghe1r9oKSp1
-QNhECpCRz6O9cwhVsZDZGiFPonlbLSYewrMXlzDHiEfsetl1HCeP6oX8FcO+6h4Ig+Ewl2u96acG
-2HsQ7pdy4Xs4HmbO7vHD8eSX9YarYMNL8KOjTpw8mqMV+ZV+KXgX71rEBbvFtIf4iyAx5FRCiM7k
-77DCiqX1N+A7kAA6VxaaYtC3NZEAxJB+IVRaSHv8SKQHnfzbZ70vE9RBQZIhvqPjRZiL5kV13CV7
-SxE=
+iQEcBAABCAAGBQJZtCMkAAoJECLqERp+QkKkL+sIAMiuPVq1Ld0BxPS2nbH7Wr/jnAFEZKPi5yXh
+ChHxNF7PuypPtz//8BllrarHvg1e1j9hMrowODEmsHc0C74QiOHl4FoeaokIkiYnarVRLc6bSP1O
+Dg9WiitFlq5uWppxuQYopqqdqyGp4ftnIDmn1+CSVk+/dYxuhF8WTFgP6Hx2lRzXiEe5UxpA558A
+xKpIPrTMzCAwxNU8H5rjv7g68Erb4Pp65rES1ifFIH1/o5v+/W862XpjiH0hxC53Ty09TumYsweY
+gH/Sj2pu130jQQYltAp1k0WOUwC3D12r8aWrKJXgf75RbDcaEOXqdxNiWHcMyjTlYnCNtgzWw5y8
+ybw=
 
 -->

@@ -4,36 +4,16 @@
   <name>Mono</name>
   <summary>open-source cross-platform implementation of the Common Language Infrastructure (.NET Framework compatible)</summary>
   <homepage>http://www.mono-project.com/</homepage>
-  <feed-for interface="http://repo.roscidus.com/cli/cli"/>
-  <feed-for interface="http://repo.roscidus.com/cli/cli-monopath"/>
 
-  <group main="/usr/bin/mono">
-    <!-- There is a separate GUI version of the Mono executable on Windows. On POSIX systems we simply map it back to regular Mono. -->
-    <command name="run-gui">
-      <runner interface="http://repo.roscidus.com/cli/mono"/>
-    </command>
-    <package-implementation distributions="Debian" package="mono-complete"/>
-    <package-implementation distributions="RPM" package="mono-winforms"/>
-    <package-implementation distributions="Arch" package="mono"/>
-  </group>
-
-  <group arch="Windows-*" license="MIT License">
-    <command name="run" path="bin/mono.exe"/>
-    <command name="run-gui" path="bin/monow.exe"/>
-    <implementation id="sha1new=5786d36753bb1f76e4d4f25b2980749ce3671aab" version="2.10.9">
-      <manifest-digest sha1new="5786d36753bb1f76e4d4f25b2980749ce3671aab" sha256="c5766eb07b242dc548e4af84671f07ad5e114f73b07317a0e96237ee553f761d" sha256new="YV3G5MD3EQW4KSHEV6CGOHYHVVPBCT3TWBZRPIHJMI364VJ7OYOQ"/>
-      <archive href="http://repo.roscidus.com/archives/Mono/mono-2.10.9-win32.tar.lzma" size="83591462" type="application/x-lzma-compressed-tar"/>
-    </implementation>
-  </group>
-
-  <entry-point binary-name="mono" command="run"/>
+  <feed src="http://repo.roscidus.com/dotnet/mono"/>
+  <replaced-by interface="http://repo.roscidus.com/dotnet/mono"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYjeTMAAoJECLqERp+QkKky/0IAIilZejcv7vltesWPRngHa6GiRFxPfcOBtm7
-y3S6JEaZBXDd52XYQopnunGab+nDgwqhatnUmsLieYxMnucucgYTL/JMqGD42znk+maE1sATDRAI
-XVv/5z9hCtU3RaWC6wi/e2/sLVynQN/Pif3OQfu7u1+YThjv72YIVAGuK+bjtLCPlMF/JrO4rPUO
-X8IdcsDR9OjV7ADVy967E0lvsNmck9cV4ip4XPNTsTF7Lia3CpO6dGXVXTsSE+JHkbN8ILrxNw45
-GoNjMFqtK+wd51q/x7SXCbK+xDVm0YwPVhwxCsfdaML/i7aAhq0R+TEPup3fukRc6TI2/+iCI2L3
-//A=
+iQEcBAABCAAGBQJZtCMkAAoJECLqERp+QkKkxiYH/jqoSEUiEgUvVqc4p+0P7ELKqertjVNDMQBk
+Cpi+CDtJ78+IaS5Em/JNC5p4IodkA0AefpfFCiYPVZOoVneKVTm59pVwQt8ENm3c5YDHE6kb2dYA
+PODRnUxAdfLjyVpzIzPSXNVRtxrF3N/yME6oIdli7yFR4BzMa2f4/tj9tGel+Iu6aVvtfxNrdYau
+CuFjMF0CoNdJ2y3A512U+El0tV1wAtnqQ9nIqR798csFdhELKVtcTGtSG7Ybr5KH6wOU5bfeijUu
+nwPmohK5/X1T7WAJiMB41JF73v5QE0V/puq20suJ3puCPGgOo1uX17E//oaH3+GV7Mak+hV0XG+4
+xC8=
 
 -->

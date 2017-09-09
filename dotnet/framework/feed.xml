@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/dotnet/framework" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>.NET Framework</name>
+  <summary>the .NET Framework from Microsoft</summary>
+
+  <package-implementation distributions="Windows" package="netfx">
+    <!-- There is a seperate GUI version of the Mono executable on Windows. For .NET we treat "run" and "run-gui" exactly the same. -->
+    <command name="run-gui" path=""/>
+  </package-implementation>
+</interface>
+<!-- Base64 Signature
+iQEcBAABCAAGBQJZtCMlAAoJECLqERp+QkKkDiYIAN9i1Ee65mF2AXOXMtNIbCjQnLtWmWyFZUhO
+2F+4xUyxzh7oXpDgBm7CXyAYVlg1RKc6oc7ZlIKkuAwe9SFQbg3kVNJunIZOPYORlhZ+c71g86B1
+Nxb+ETn95tpUnsRVQVErmU1d85tpRzcKKYVn6BQp70CnKDLaO4lpgOMRI491WcnbSvmjamjAVKz5
+/LvlqBOGb2YN7r6Dw+lMfjJ/sUiI5RQm0fptYQly+5go4VxHat4larSK3LYIVi587lHBAtMhOKkc
+rBAUXOrwnewCq9xMiqdHp9L5LFl/KClsy+5UcRWQKzm9F6quN2ZXOBCPWypH84eXQNKlPP9AuB6e
+FUQ=
+
+-->

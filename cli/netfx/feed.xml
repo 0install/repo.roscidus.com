@@ -4,17 +4,15 @@
   <name>.NET Framework</name>
   <summary>the .NET Framework from Microsoft</summary>
 
-  <package-implementation distributions="Windows" package="netfx">
-    <!-- There is a seperate GUI version of the Mono executable on Windows. For .NET we treat "run" and "run-gui" exactly the same. -->
-    <command name="run-gui" path=""/>
-  </package-implementation>
+  <feed src="http://repo.roscidus.com/dotnet/framework"/>
+  <replaced-by interface="http://repo.roscidus.com/dotnet/framework"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYe3CEAAoJECLqERp+QkKk1J0H/2p7jS4lP1FasivD/yvaX0Yog2/DYvLHM+fv
-v1WB1iiH6g8mvhPIAkF0wQRubOB/BreoVzqkILdQqVLbPaqVBzWpVbtJs984LlCdubmkt9APnhcb
-pvmUoi1miBTUSJcGDvLjdnB+JLFL5UYAaFGpCt/GbYJ/sJbNjhLHI2RhcoiCH+iv9rXt5i5Vemph
-g6fSAHmGr/Z2tfFGl7OVTgTo8h2ELKJf0ZrJuIvbL1cytFWRWxMWBh/3VZhz5uIRIwHv9sUrIQgN
-TWrUS6Q8VpTNtZFcXo6Sk0LhVlF2xFTYlXrxmquHYUWRienLXOe7yj8wbNxTAeBK6FTMSyveIcaI
-ByY=
+iQEcBAABCAAGBQJZtCMkAAoJECLqERp+QkKk/QcIAMEw408tQrgP40086vyyqq7NOxqut6gxtBdk
+m7mY8BZiHKI4esEyg3lpzoM265dLdFvKqwcvx+hkVl8/bqxRYNfo6VXve/KWCDvayKoSdRMH9QzR
+HzSV4Gaeiw4EHoFdSv8ga6+uDxVg/Q6HuC1u7r+HDsav982LQufE2KiukPlSnlUjBRyF1wDaCFXJ
+9MBU2gFhMKsNgQ+S9hnQJXZ27SreiQA7/fr3OjuQDeVgA5lsDVpi6u76A610juDP5+dmhTj31eVo
+yGUxlU5gxniH754X+5PLsZ683ghO0wKWH2JfHUrH9PHuElf1ha8txnhpVcG+yy3Zju3tFdHDJ2KS
+yQk=
 
 -->

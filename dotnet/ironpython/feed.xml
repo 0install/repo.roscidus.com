@@ -1,0 +1,75 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/dotnet/ironpython" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>IronPython</name>
+  <summary>implementation of Python running under .NET/Mono</summary>
+  <description>IronPython is an implementation of the Python programming language running under .NET/Mono and Silverlight/Moonlight. It supports an interactive console with fully dynamic compilation. It's well integrated with the rest of the .NET Framework and makes all .NET libraries easily available to Python programmers, while maintaining compatibility with the Python language. There also is Visual Studio tooling integration.</description>
+  <homepage>http://ironpython.net/</homepage>
+  <category>Development</category>
+  <needs-terminal/>
+
+  <icon href="http://0install.de/feed-icons/IronPython.png" type="image/png"/>
+  <icon href="http://0install.de/feed-icons/IronPython.ico" type="image/vnd.microsoft.icon"/>
+
+  <package-implementation main="/usr/bin/ipy" package="ironpython"/>
+
+  <group arch="*-x86_64" license="The Apache License v2">
+    <command name="run" path="ipy64.exe">
+      <runner command="run" interface="http://repo.roscidus.com/dotnet/clr">
+        <version not-before="3.5"/>
+      </runner>
+    </command>
+    <command name="run-gui" path="ipyw64.exe">
+      <runner command="run-gui" interface="http://repo.roscidus.com/dotnet/clr">
+        <version not-before="3.5"/>
+      </runner>
+    </command>
+    <implementation id="v2.7.7-x64" released="2016-12-08" version="2.7.7">
+      <manifest-digest sha1new="2ee1a91a64cd38b9e936b468c8cd1adb60581286" sha256="254e2431327ee2f99bd58f1f765d3812b12805a0a946312b5e4d200fc0b039fa" sha256new="EVHCIMJSP3RPTG6VR4PXMXJYCKYSQBNAVFDDCK26JUQA7QFQHH5A"/>
+      <archive extract="IronPython-2.7.7" href="https://github.com/IronLanguages/main/releases/download/ipy-2.7.7/IronPython-2.7.7-win.zip" size="21150214" type="application/zip"/>
+    </implementation>
+  </group>
+
+  <group arch="*-i486" license="The Apache License v2">
+    <command name="run" path="ipy.exe">
+      <runner command="run" interface="http://repo.roscidus.com/dotnet/clr">
+        <version not-before="3.5"/>
+      </runner>
+    </command>
+    <command name="run-gui" path="ipyw.exe">
+      <runner command="run-gui" interface="http://repo.roscidus.com/dotnet/clr">
+        <version not-before="3.5"/>
+      </runner>
+    </command>
+    <implementation id="v2.7.7-x86" released="2016-12-08" version="2.7.7">
+      <manifest-digest sha1new="2ee1a91a64cd38b9e936b468c8cd1adb60581286" sha256="254e2431327ee2f99bd58f1f765d3812b12805a0a946312b5e4d200fc0b039fa" sha256new="EVHCIMJSP3RPTG6VR4PXMXJYCKYSQBNAVFDDCK26JUQA7QFQHH5A"/>
+      <archive extract="IronPython-2.7.7" href="https://github.com/IronLanguages/main/releases/download/ipy-2.7.7/IronPython-2.7.7-win.zip" size="21150214" type="application/zip"/>
+    </implementation>
+  </group>
+
+  <entry-point binary-name="ipy" command="run">
+    <needs-terminal/>
+    <name>IronPython command-line interpreter</name>
+  </entry-point>
+  <entry-point binary-name="ipyw" command="run-gui">
+    <name>IronPython grafical interpreter</name>
+  </entry-point>
+
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="IronPython.File">
+      <description>Python source code file</description>
+      <icon href="http://0install.de/feed-icons/IronPython_doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <verb args="&quot;%1&quot;" name="open"/>
+      <extension value=".py"/>
+    </file-type>
+  </capabilities>
+</interface>
+<!-- Base64 Signature
+iQEcBAABCAAGBQJZtCMlAAoJECLqERp+QkKkBvMIAMIZDo2jSrfnU0XOj87UPfwn0GYuUhpxzbKg
+PgcBc5gM72LynxsIK9XLcqa6HzZmnA1E13/fKl0fNW3pn1UUXhg4gYk96r0rqmzWtNlbsIWMtMEZ
+rQYZHRti+NbJcOAgLg132/Jnyo69fx/5Ig0sHDR39ADclmD7KZrMuYnymnK1RobBYR6E/0bMXSQG
+M05qWVcdbA8Pz7e5ZoQs3catsl21C1Q872SXq5fiIjdwIXSBgifDQfW9EiDbrIQQWZ4j8GX8qzoL
+YFwP5O6UKg4hGu3zQIoroVW54lL1/eQ9dYBrXgrfuLmEPMiv/S6vdSsU8KZTHLaj2QellHnDWhr3
+1ZI=
+
+-->
