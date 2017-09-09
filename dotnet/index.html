@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- saved from url=(0029)http://repo.roscidus.com/dotnet/ -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>repo.roscidus.com: .NET</title>
+  </head>
+  <body>
+    <h1>repo.roscidus.com: .NET</h1>
+
+    <h2>.NET Core</h2>
+
+    <h3>Available feeds</h3>
+    <ul>
+      <li><a href="http://repo.roscidus.com/dotnet/core">.NET Core Runtime</a></li>
+      <li><a href="http://repo.roscidus.com/dotnet/core-sdk">.NET Core SDK</a></li>
+    </ul>
+
+    <h3>Samples</h3>
+
+    <p>To use .NET Core as the runner in a feed:</p>
+    <pre>      &lt;command name="run" path="myapp.dll"&gt;
+        &lt;runner interface="http://repo.roscidus.com/dotnet/core"/&gt;
+      &lt;/command&gt;
+    </pre>
+
+    <p>To add <code>dotnet</code> (.NET Core SDK) to your <code>PATH</code>:</p>
+    <pre>      $ 0alias dotnet http://repo.roscidus.com/dotnet/core-sdk
+    </pre>
+
+
+    <h2>Classic .NET</h2>
+
+    <h3>Available feeds</h3>
+    <ul>
+      <li><a href="http://repo.roscidus.com/dotnet/clr">Common Language Runtime</a></li>
+      <li><a href="http://repo.roscidus.com/dotnet/clr-monopath">Common Language Runtime with MONO_PATH support</a></li>
+      <li><a href="http://repo.roscidus.com/dotnet/mono">Mono</a></li>
+      <li><a href="http://repo.roscidus.com/dotnet/framework">.NET Framework</a></li>
+      <li><a href="http://repo.roscidus.com/dotnet/framework-client-profile">.NET Framework Client Profile</a></li>
+      <li><a href="http://repo.roscidus.com/dotnet/ironpython">IronPython</a></li>
+      <li><a href="http://repo.roscidus.com/dotnet/nant">NAnt</a></li>
+    </ul>
+
+    <h3>Samples</h3>
+
+    <p>To use a Common Lanaguage Runtime (Microsoft's .NET Framework or Mono) as the runner in a feed:</p>
+    <pre>      &lt;command name="run" path="myapp.exe"&gt;
+        &lt;runner interface="http://repo.roscidus.com/dotnet/clr"/&gt;
+      &lt;/command&gt;
+    </pre>
+
+    <p>To use either Microsoft's .NET Framework with emulated <code>MONO_PATH</code> support or Mono as the runner in a feed:</p>
+    <pre>      &lt;command name="run" path="myapp.exe"&gt;
+        &lt;runner interface="http://repo.roscidus.com/dotnet/clr-monopath"/&gt;
+      &lt;/command&gt;
+      &lt;requires interface="http://mylib/"&gt;
+        &lt;environment name="MONO_PATH" insert="."/&gt;
+      &lt;/requires&gt;
+    </pre>
+
+    <p>To use the full version of Microsoft's .NET Framework as the runner in a feed:</p>
+    <pre>      &lt;command name="run" path="myapp.exe"&gt;
+        &lt;runner interface="http://repo.roscidus.com/dotnet/framework"/&gt;
+      &lt;/command&gt;
+    </pre>
+
+    <p>To use either the Client Profile or the full version of Microsoft's .NET Framework as the runner in a feed:</p>
+    <pre>      &lt;command name="run" path="myapp.exe"&gt;
+        &lt;runner interface="http://repo.roscidus.com/dotnet/framework-client-profile"/&gt;
+      &lt;/command&gt;
+    </pre>
+
+    <p>To use Mono as the runner in a feed:</p>
+    <pre>      &lt;command name="run" path="myapp.exe"&gt;
+        &lt;runner interface="http://repo.roscidus.com/dotnet/mono"/&gt;
+      &lt;/command&gt;
+    </pre>
+
+    <p>To use IronPython (Python implementation running on the CLR) as the runner in a feed:</p>
+    <pre>      &lt;command name="run" path="myapp.py"&gt;
+        &lt;runner interface="http://repo.roscidus.com/ruby/python"/&gt;
+      &lt;/command&gt;
+    </pre>
+
+    <p>To add <code>nant</code> (free .NET build tool) to your <code>PATH</code>:</p>
+    <pre>      $ 0alias nant http://repo.roscidus.com/dotnet/nant
+    </pre>
+
+</body></html>
