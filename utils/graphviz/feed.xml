@@ -1,28 +1,91 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/utils/graphviz" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
-    <name>graphviz</name>
-    <summary>Open Source Graph Visualization Software</summary>
-    <description>
-Open Source Graph Visualization Software</description>
-    <homepage>http://www.graphviz.org/</homepage>
-    <package-implementation distributions="RPM Debian Arch" main="/usr/bin/dot" package="graphviz"/>
-    <package-implementation distributions="Gentoo" main="/usr/bin/dot" package="media-gfx/graphviz"/>
-    <package-implementation distributions="MacPorts" main="/opt/local/bin/dot" package="graphviz"/>
-    <package-implementation distributions="Ports" main="/usr/local/bin/dot" package="graphviz"/>
+  <name>graphviz</name>
+  <summary>Open Source Graph Visualization Software</summary>
+  <description>Open Source Graph Visualization Software</description>
+  <homepage>http://www.graphviz.org/</homepage>
+  <needs-terminal/>
 
-  <group arch="Windows-i386" doc-dir="doc" license="Eclipse Public License" main="bin/dot.exe">
-    <implementation id="sha1new=b9ad8643984d120799c43f3d85d58f2653f87955" released="2011-04-21" version="2.27.20110421.0445">
-    <archive extract="release" href="http://repo.roscidus.com/utils/graphviz/graphviz-bin-2.27.20110421.0445.zip" size="49035660" type="application/zip"/>
-  </implementation>
+  <group>
+    <command name="run" path="/usr/bin/dot"/>
+    <command name="neato" path="/usr/bin/neato"/>
+    <command name="twopi" path="/usr/bin/twopi"/>
+    <command name="circo" path="/usr/bin/circo"/>
+    <command name="fdp" path="/usr/bin/fdp"/>
+    <command name="sfdp" path="/usr/bin/sfdp"/>
+
+    <package-implementation distributions="RPM Debian Arch" package="graphviz"/>
+    <package-implementation distributions="Gentoo" package="media-gfx/graphviz"/>
   </group>
+
+  <package-implementation distributions="MacPorts" package="graphviz">
+    <command name="run" path="/opt/local/bin/dot"/>
+    <command name="neato" path="/opt/local/bin/neato"/>
+    <command name="twopi" path="/opt/local/bin/twopi"/>
+    <command name="circo" path="/opt/local/bin/circo"/>
+    <command name="fdp" path="/opt/local/bin/fdp"/>
+    <command name="sfdp" path="/opt/local/bin/sfdp"/>
+  </package-implementation>
+
+  <package-implementation distributions="Ports" package="graphviz">
+    <command name="run" path="/usr/local/bin/dot"/>
+    <command name="neato" path="/usr/local/bin/neato"/>
+    <command name="twopi" path="/usr/local/bin/twopi"/>
+    <command name="circo" path="/usr/local/bin/circo"/>
+    <command name="fdp" path="/usr/local/bin/fdp"/>
+    <command name="sfdp" path="/usr/local/bin/sfdp"/>
+  </package-implementation>
+
+  <group arch="Windows-i486" doc-dir="doc" license="Eclipse Public License">
+    <command name="run" path="bin/dot.exe"/>
+    <command name="neato" path="bin/neato.exe"/>
+    <command name="twopi" path="bin/twopi.exe"/>
+    <command name="circo" path="bin/circo.exe"/>
+    <command name="fdp" path="bin/fdp.exe"/>
+    <command name="sfdp" path="bin/sfdp.exe"/>
+
+    <implementation id="sha1new=b9ad8643984d120799c43f3d85d58f2653f87955" released="2011-04-21" stability="stable" version="2.27.20110421.0445">
+      <archive extract="release" href="http://repo.roscidus.com/utils/graphviz/graphviz-bin-2.27.20110421.0445.zip" size="49035660" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=23991c6e6cf53d7b401c61aff71575ff326e3bca" released="2014-04-13" stability="stable" version="2.38">
+      <manifest-digest sha256new="BFQPX4FKOIBNJRC34KOWGMANFIT3WNZ5N6DXUVDOUEJZMRFYLVYQ"/>
+      <archive extract="release" href="http://www.graphviz.org/pub/graphviz/stable/windows/graphviz-2.38.zip" size="51904518" type="application/zip"/>
+    </implementation>
+  </group>
+
+  <entry-point binary-name="dot" command="run">
+    <name>dot</name>
+    <needs-terminal/>
+    <summary>draws directed graphs</summary>
+  </entry-point>
+  <entry-point binary-name="neato" command="neato">
+    <needs-terminal/>
+    <summary>draws undirected graphs using 'spring' models</summary>
+  </entry-point>
+  <entry-point binary-name="twopi" command="twopi">
+    <needs-terminal/>
+    <summary>draws graphs using a radial layout</summary>
+  </entry-point>
+  <entry-point binary-name="circo" command="circo">
+    <needs-terminal/>
+    <summary>draws graphs using a circular layout</summary>
+  </entry-point>
+  <entry-point binary-name="fdp" command="fdp">
+    <needs-terminal/>
+    <summary>draws undirected graphs using a 'spring' model</summary>
+  </entry-point>
+  <entry-point binary-name="sfdp" command="sfdp">
+    <needs-terminal/>
+    <summary>draws undirected graphs using a 'spring' model and a multi-scale approach</summary>
+  </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJRIeJUAAoJEAcTP5bKdNi6Y70H/2T8RqoJTO+734rShOE3talr81Q0j5BktbY1
-np0lxDHU2yNaPMH4gPwbDgQO9F3v82TMactN1exhNxdrJCbua/2jcs++mhp6Q659jMcctaTZED1G
-COBq1qnxTzl/jNVFNiojMA0ee/MkbOh44WX4BiuRkChkdiy3dpfhZ24GjBTOWaeE/IOnaO9/GPki
-PV3IMCdMbhXbTIDOx8eQZakgV87/set4TVrKw2F4FtK7aLGmcIiwj9Jd1lcOYUTth0Qufd5ihr2D
-mIq57G5bOiwewhpaZvTof1s9FfYHgnVxt7ontA9qfQez0K4iGdIkd+/Q1MIwStl9qxhxPVWbKucm
-LMw=
+iQEcBAABCAAGBQJZtCOaAAoJECLqERp+QkKkx78H/2mKLXLYyaN6i0n1UnHbyXDO4QucCBeXbulu
+saF57N3rcAYNTZCF22g0+H8omdGgDCqOytPHnAjGGvrfdBogBj1HWes/A5PuBM6U+q/jwsKc0BRU
+EKWkHOA7sdEZ9wNqIHuvd7NLaGqAEEOzU4ZGo7gqPh0uZ8YVB6zAIwZHOzQbei+iq9q+1qSVmkeT
+aav9M1F8KPaDhKvW1VvBok1gqOs0VE1Jblv4ZU3cV2GehoFWwGE0ZtzVbvDulUQT85n6f2xc76w8
+QMYce45X1xe0ipX/eG3N+pgyd1k2PQgXWI14e0pxhy5nvrboKOZ3WPQB1ThCr6O0j+ztTvMpCT/T
+iCM=
 
 -->

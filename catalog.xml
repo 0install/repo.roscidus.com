@@ -234,8 +234,26 @@ provided as separate git* packages.</description><category>Development</category
   </entry-point><entry-point binary-name="wgnuplot" command="run-gui">
     <name>Gnuplot graphical interface</name>
     <name xml:lang="de">Gnuplot grafische Oberfläche</name>
-  </entry-point></interface><interface uri="http://repo.roscidus.com/utils/graphviz"><name>graphviz</name><summary>Open Source Graph Visualization Software</summary><description>
-Open Source Graph Visualization Software</description><homepage>http://www.graphviz.org/</homepage></interface><interface uri="http://repo.roscidus.com/lib/cairo-dev"><name>libcairo2-dev</name><summary>Development files for the Cairo 2D graphics library</summary><description>Cairo is a multi-platform library providing anti-aliased
+  </entry-point></interface><interface uri="http://repo.roscidus.com/utils/graphviz"><name>graphviz</name><summary>Open Source Graph Visualization Software</summary><description>Open Source Graph Visualization Software</description><homepage>http://www.graphviz.org/</homepage><entry-point binary-name="dot" command="run">
+    <name>dot</name>
+    <needs-terminal/>
+    <summary>draws directed graphs</summary>
+  </entry-point><entry-point binary-name="neato" command="neato">
+    <needs-terminal/>
+    <summary>draws undirected graphs using 'spring' models</summary>
+  </entry-point><entry-point binary-name="twopi" command="twopi">
+    <needs-terminal/>
+    <summary>draws graphs using a radial layout</summary>
+  </entry-point><entry-point binary-name="circo" command="circo">
+    <needs-terminal/>
+    <summary>draws graphs using a circular layout</summary>
+  </entry-point><entry-point binary-name="fdp" command="fdp">
+    <needs-terminal/>
+    <summary>draws undirected graphs using a 'spring' model</summary>
+  </entry-point><entry-point binary-name="sfdp" command="sfdp">
+    <needs-terminal/>
+    <summary>draws undirected graphs using a 'spring' model and a multi-scale approach</summary>
+  </entry-point></interface><interface uri="http://repo.roscidus.com/lib/cairo-dev"><name>libcairo2-dev</name><summary>Development files for the Cairo 2D graphics library</summary><description>Cairo is a multi-platform library providing anti-aliased
 vector-based rendering for multiple target backends.
 
 This package contains the development libraries, header files needed by
@@ -486,11 +504,11 @@ More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
 This package is built from the X.org xproto proto module.</description></interface><interface uri="http://repo.roscidus.com/lib/zlib1g"><name>zlib1g</name><summary>compression library - runtime</summary><description>zlib is a library implementing the deflate compression method found
 in gzip and PKZIP. This package includes the shared library.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJZtCMmAAoJECLqERp+QkKk7qgIANvV/1UBj5AVNu92nTNtcQHHKQuMFNRfO7ce
-tNyEhCPsdmw7Hl70kEAFP96t7SSsTMxhJVFPWrycFYcU/hmZijVCMLVdD1n50+yuLjbDQqd9PImS
-ljlYeEf17HbRquaVdCfH7G52lsFD1iKmRUjG8q+4HXq5NPxXJu3+8Vhbm624Y+8jVtc3dDBd1p9p
-cO0CjCQ7IQvxZueaKtW3EhK+6ct6tBsbfij8NaVpUZ+yr843gRH69V9jQrAr2rjIPsBNyDPZn3D3
-CTMF5TB99zCpznDMXzAPkIJsDojlimT/70fHaA+tZq3Qk+wbbc4X8pj/a2d02BWdbdJmoanrOp82
-6Ns=
+iQEcBAABCAAGBQJZtCOaAAoJECLqERp+QkKksbgH/0o2EjeCxpFbixRwjGj6YzQpjnaOvNpFo+9x
+MTPCv39xK5e0Qu84TZQjGMVyRbG8m0DiW4nv3pgmiCDV1F188Lwix7mzQLPqtnztVHKeWe45o8Qs
+7M4GPqAJ+uXq4EKxUlCrUTTJCKAYlswl5DZfCuPXdJ/iwKwS050ej6bpFgLASYCa0wCaXWMIar6Y
+MhUnpdBXYtC8AMfmMeFhAKvnbguxkmfeJ2ExH/7HNd13dVdxYw/bl/756oAN+fupRjLFFe3roAqb
+1haL7D/Dnfcpg1XSO7mUmW0RU6LIHyAChvc6TCm0OGyQOjySwWtky899pyG+1QOWGexsU4o7nCEn
+/+s=
 
 -->
