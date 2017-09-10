@@ -7,9 +7,9 @@
   <needs-terminal/>
 
   <group license="MIT License">
-    <implementation arch="Windows-x86_64" id="sha1new=522b80fb208e3e29cd6cfadfa894ed358892ea13" main="dotnet.exe" stability="stable" version="1.0.5">
-      <manifest-digest sha1new="522b80fb208e3e29cd6cfadfa894ed358892ea13" sha256="5b3557b18f9ed0794ff93b2fcb43b41279305218ecb0974ba1e6c0df83bc551c" sha256new="LM2VPMMPT3IHST7ZHMX4WQ5UCJ4TAUQY5SYJOS5B43AN7A54KUOA"/>
-      <archive href="https://download.microsoft.com/download/2/4/A/24A06858-E8AC-469B-8AE6-D0CEC9BA982A/dotnet-win-x86.1.0.5.zip" size="29110122" type="application/zip"/>
+    <implementation arch="Windows-x86_64" id="sha1new=3b6b553323faed5bc5d5ab48f3d06336ec97961e" main="dotnet.exe" stability="stable" version="1.0.5">
+      <manifest-digest sha1new="3b6b553323faed5bc5d5ab48f3d06336ec97961e" sha256="03c34d5f91d708e4d55ac8c02e627d08e9260f0e0c840defec566c9793aa1417" sha256new="APBU2X4R24EOJVK2ZDAC4YT5BDUSMDYOBSCA337MKZWJPE5KCQLQ"/>
+      <archive href="https://download.microsoft.com/download/2/4/A/24A06858-E8AC-469B-8AE6-D0CEC9BA982A/dotnet-win-x64.1.0.5.zip" size="31736294" type="application/zip"/>
     </implementation>
     <implementation arch="Windows-i486" id="sha1new=522b80fb208e3e29cd6cfadfa894ed358892ea13" main="dotnet.exe" stability="stable" version="1.0.5">
       <manifest-digest sha1new="522b80fb208e3e29cd6cfadfa894ed358892ea13" sha256="5b3557b18f9ed0794ff93b2fcb43b41279305218ecb0974ba1e6c0df83bc551c" sha256new="LM2VPMMPT3IHST7ZHMX4WQ5UCJ4TAUQY5SYJOS5B43AN7A54KUOA"/>
@@ -40,11 +40,11 @@
   <entry-point binary-name="dotnet" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJZtCMmAAoJECLqERp+QkKkqpgIANW40+zgN4ImuEE1Adt5/TfnU1rwRvrIn2wh
-z0X1yLloG49vUfvDLVKn9TYrH3CysALWcT7WZaLYQ26HWgcKm+pIMdyEkhXzZcO7Sq3hz9HXVANz
-EBl5cpUB4gxMfbbIaW6zlsneyyMeo0vaneJIW0iM9Hie2JNGWbJspChk2lCqxlMzQNhyP44XfPqF
-c78p3ePov3MononEGOUpFzaL6k7fqCUuao8V7SejMidKUgWqfyGU5r0Rl5A51O7vZqITyltdUgFp
-Cl8NEYmJK/HBPSVgQoDx/h2zNdEo8L7zB/21i5nwhCMDJzH+bbSFOgyA/Hvt3fDzDZtxJhzO9pcG
-h9w=
+iQEcBAABCAAGBQJZtRSGAAoJECLqERp+QkKkX4AIAJHAwBnJTqmEmLzRZqKfHSb8OHBkxCw4x1HI
+bYdtn5zSVMHJO+ri2CJT5e1Q+KyxvjoRna/R7xuecOyC/XjVyJKRaLwfoJNEZsNji8nq8c6fRwTw
+F5MjWRGlkWMkTsS9nhqO8sP308NwjB3XEB3oONr+3H6L1Nfu6CG6374LjC2zJvUqZnUIXNR1xTRH
+5rI17g9rSix6lZURLWt+KLnU2ZjGjaO8lf88oCHM/gAiYEuU346MBx1KWeHc853ssT98DQahbVMp
+iVOdYGadBhZ46ue1Ay/E+xEb1IlOpT5SIrB3zxqL4HwVEjwNvAbmLraicng3nQWVEld6k2bD7nNB
+rlE=
 
 -->
