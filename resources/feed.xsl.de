@@ -16,12 +16,12 @@ http://creativecommons.org/licenses/by-sa/2.5/
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 				<meta http-equiv="Content-Language" content="de"/>
 				<title><xsl:value-of select="zi:name"/></title>
-				<link rel="stylesheet" type="text/css" href='@REPOSITORY_BASE_URL@/resources/feed.css'/>
+				<link rel="stylesheet" type="text/css" href='http://repo.roscidus.com//resources/feed.css'/>
 			</head>
 			<body>
 				<div class="site">
 					<div class="title">
-						<a href="@REPOSITORY_BASE_URL@">@REPOSITORY_BASE_URL@</a>
+						<a href="http://repo.roscidus.com/">http://repo.roscidus.com/</a>
 					</div>
 					<div class="main">
 						<div class="content">
