@@ -17,6 +17,8 @@
   <package-implementation package="libgtk-3.0"/>
 
   <group arch="Windows-i486" license="GPL v2 (GNU General Public License)">
+    <environment insert="bin" name="PATH"/>
+
     <implementation id="sha1new=699b232b35649fd9474e84113cddaae3fcf52418" released="2013-02-13" stability="stable" version="2.16.6.1">
       <manifest-digest sha256new="QNDXOYCW6PLKOIL2ETJK63ODY7JIDC4PDXQLKFZPONTNGRCOIRXA"/>
       <archive extract="Gtk" href="https://downloads.sourceforge.net/project/pidgin/GTK%2B%20for%20Windows/2.16.6.1/gtk-runtime-2.16.6.1.zip" size="12110421" type="application/zip"/>
@@ -37,11 +39,11 @@
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJZz8B/AAoJECLqERp+QkKk7dYH/RsQRi2k2VOlXA73w3hbmEC2GWY6h9cSLWxE
-CR+VDHAM11DN0phlAR5Bu8wCa4QhxC+vJhNAIABQ3LHgM84+07ms0dU/6goBts5j34L2z4TsSk1a
-618PChuh0KGiAa8mnNKF8VBI+xSvDOAVk8Hh8WAlup495n88vPf4GkL1nl9oCMjnhHyuM+7AI56B
-0N/PGggaNE59sXiY7GnWnfnRM9dv2JM8805JmbiJu+4hfwju1F9s7QjXLTjO6nx0/iu5G7uPIbmA
-z83irY9bbcdq8ec5YpZDLtNg0dnPOJjnxHL009aY7vybqiSUkSSXQtcYK+BL2N6Ln50Fd+85DEcu
-Org=
+iQEcBAABCAAGBQJZ0N8TAAoJECLqERp+QkKkvBMIAKVkNqkjxS2B15eX0kaTm6GcnCJJo66duBiD
+UNWbBXMVhZ6C5gMkZ1lu4u7R/xkzF+n4mbIRIHM5xECxifoARZPhCxZmtI/VHP4PlM1n7pvuRzNQ
+7KEgD62gB+5faLyrEAH1dA23H3SyS3e8slY0cWeOARwFVk+3cdOjbe/weprIRfVgQMU4Ji8Ox+iZ
++EB818KVGtKubmXCs4L+O04g58tS4KoPdobJwi4sFiop1zZd4gZYmgTecqGMZxgJSsa+kxQhnZLB
++jTyr0t3abeugqVgeiDV51KXegAVvAvOI7ZSivwYdeJ1u9aseK7TybCujVt01LvqGnZyMjOxQ9tB
+5Rg=
 
 -->
