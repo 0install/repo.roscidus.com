@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/cli/nant" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
-  <name>NAnt</name>
+  <name>NAnt (legacy feed)</name>
   <summary>free .NET build tool</summary>
   <description>NAnt is a free .NET build tool. In theory it is kind of like make without make's wrinkles. In practice it's a lot like Ant.</description>
   <icon href="http://0install.de/feed-icons/NAnt.png" type="image/png"/>
@@ -11,14 +11,13 @@
   <needs-terminal/>
 
   <feed src="http://repo.roscidus.com/dotnet/nant"/>
-  <replaced-by interface="http://repo.roscidus.com/dotnet/nant"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJZtCMjAAoJECLqERp+QkKk4mIH/A/GgQ70S/Ux8rxIT4fG5zYTN3LrGEiQRO1q
-dG7wQEE6P4DUV+SAwC8/sBxORW8Fkl4PZwhgYVq2xXA+llbJU6zUqXt6ujtKNFBJFzvk8g1ZWKNt
-bkQOHFifbcykeG1FUEftMufGVESsln3j59S4OJg1Ou9n04GoPlqTVD2zeZzpSKqKb5z5LI5NaHPB
-dv5oPztWEbFP0ujmvFhKcfcoUTNE2Zs0+APnA+xFazGvL4ZtgiIdnOjRozmMKtuevdkhtsfN27g1
-7YZ69hOsgbzhYLNDi9lm7as3ER9eauDDfI0X3CcbNzp3UCbjhBwTLnFgA4i3dJ2eJt2hzhFDzK99
-TfI=
+iQEcBAABCAAGBQJZ2J/IAAoJECLqERp+QkKkxX0H/jUOzIhTpM/jn0GhPkofRx1d8bwizsd3hXxg
+4oajrXTwWI5FYgH2yYI35QVYCOOK0iqQWQU+QREtPSQtLJvblF1V7kuj1V5BFW3u3qHbY+LthPU9
+En79akzeY9lbBQhX2GscTrqKsvYwO+FcWvERodzXgVdDvRY0hcpNvMsSTs1G3yO2+vKLJnnWP5h7
+DMedbojiTBTghTJyYJaGlcRwyL+3bH8V1wBumM00JcD/4h/HXWZaHhw7z3+zMZRTJK5LgDYqx6W5
+RyXHNLE7pbhXyOrvSsB9MONGUvxme/ODruyfQDg/WhbdctnbHMIHFG1rHi+PZq/2tOvgYZk9Paqp
+AMk=
 
 -->

@@ -1,19 +1,18 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/cli/mono" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
-  <name>Mono</name>
+  <name>Mono (legacy feed)</name>
   <summary>open-source cross-platform implementation of the Common Language Infrastructure (.NET Framework compatible)</summary>
   <homepage>http://www.mono-project.com/</homepage>
 
   <feed src="http://repo.roscidus.com/dotnet/mono"/>
-  <replaced-by interface="http://repo.roscidus.com/dotnet/mono"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJZtCMkAAoJECLqERp+QkKkxiYH/jqoSEUiEgUvVqc4p+0P7ELKqertjVNDMQBk
-Cpi+CDtJ78+IaS5Em/JNC5p4IodkA0AefpfFCiYPVZOoVneKVTm59pVwQt8ENm3c5YDHE6kb2dYA
-PODRnUxAdfLjyVpzIzPSXNVRtxrF3N/yME6oIdli7yFR4BzMa2f4/tj9tGel+Iu6aVvtfxNrdYau
-CuFjMF0CoNdJ2y3A512U+El0tV1wAtnqQ9nIqR798csFdhELKVtcTGtSG7Ybr5KH6wOU5bfeijUu
-nwPmohK5/X1T7WAJiMB41JF73v5QE0V/puq20suJ3puCPGgOo1uX17E//oaH3+GV7Mak+hV0XG+4
-xC8=
+iQEcBAABCAAGBQJZ2J/JAAoJECLqERp+QkKkwZ4H/iwUkCIgn4IdNU0uphoW4EHJKod84cDB4MVo
+MlpTE54SZ9MYmYkoV3aLIb9U02INqW25GkWQqirTmk/bU6G1pJh1vuH8hUtxHFrcsKmFiq6qnIIS
+S1tgedZenUzooz7imJLwU6iSxU9FjsQ9iXvOV8KxXQ2ReKEEVU60vh/c9pgbvLehzaHrVbHYmgi+
+snjvPln0y/Kvi9bQM7tc7Ax9ryW6TvYqnrgVqN7CxfBgCjH8usyxTabzRJDfuVMmz6OJu6O/L5Iz
+BOaqsZzZmP8/DXADcrFEr7mvm6eqjRNR4A/bY39NUboMfo9qeGOJ+OhEu9s/No9RTmwCJrJJU0j+
+C50=
 
 -->

@@ -1,18 +1,17 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/cli/netfx-client" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
-  <name>.NET Framework Client Profile</name>
+  <name>.NET Framework Client Profile (legacy feed)</name>
   <summary>a limited version of the .NET Framework from Microsoft</summary>
 
   <feed src="http://repo.roscidus.com/dotnet/framework-client-profile"/>
-  <replaced-by interface="http://repo.roscidus.com/dotnet/framework-client-profile"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJZtCMkAAoJECLqERp+QkKkvKoIAJgoUEiJMh772lzHonvs+gHJ6+RULkdyKSR/
-xBkY5KFG7V17FE5iwRDn/8EPblWR/47Kr4XEgSlpAqC6Q14TQL3+2NEngguON+4j9HZaCtFrUIIb
-Z6RP4w8lGXVsoWPci/1r8RZ1+uktf2Zbfv88ce72LORLI5K+yhkoTZtgJzaOke33fmKsZLW/RpJS
-bOTchZ+VfACgfXNhPUNODyZaDgC8AKN/Y+sFP9i5fBeXtPCxLSXWuMRpdGgZqmCWpptzRHUUdCgu
-hhxKz6Ip19k81MUrOVcA71VkM7EHGSBknPTXz0roaQA5sswAlSjgr9Gqzc2yaWeNGWmyxfI3RJ2u
-9Ao=
+iQEcBAABCAAGBQJZ2J/JAAoJECLqERp+QkKk6gwH/RQfVXi5lsoYz31AgZg450Lb2Kv/d2H+7e/5
+sOQheO3Ma2CsFmzP+g8Sa+fZiavEqLvDrjsB5yed7L4GOgWYqZtzmU7rVP8WdpQr/E7VKJ+Y5teZ
++GLCwzdXcSX/7m6jEzDJfGGSoCzKf9pLP6XnJc5C6IMdxWiVzv+0OV49roDtxxS0vMdtJyuvJwWW
+vkQDxkGRvGddFcQyPOY1Vx6gBeY3pwrBzhU6RDFI7VvIkPP9Wdp/ezOn0DxFt79S9bqmVAHw9k0P
+1F7n8V6wKLp9kpPrL0+khcIvzuot5A0fHK46CC4RLHeo2QiLlFwApFPCAhSP9PuSQCHELHgRz7O+
+xpc=
 
 -->

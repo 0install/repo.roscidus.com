@@ -1,18 +1,17 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/cli/cli" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
-  <name>Common Language Runtime</name>
+  <name>Common Language Runtime (legacy feed)</name>
   <summary>an implementation of the Common Language Runtime (.NET Framework on Windows, Mono on POSIX) using .NET profiles as version numbers</summary>
 
   <feed src="http://repo.roscidus.com/dotnet/clr"/>
-  <replaced-by interface="http://repo.roscidus.com/dotnet/clr"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJZtCMkAAoJECLqERp+QkKkhfcIAIojXw1mcmEBpmLBLtpX0sus1BHxbmuQCDyr
-4p2ftPQZORDp+yGb8Zv7hFG0xQkH6ckhGx/nvca7yvVKfU/190uxmxrKns9Wg3r/81jms7/Tgcq0
-vz1g2M2pEpSsBZQ9wlx0x9EY9UylcsDRE6B6mnoPIQt0uKs9x1JliajLYViDfUEyEcM6Ix4q6eUh
-bc3ZUBPz5u5t3zAGzqgO57S3FoNGwjuRkwHYkTNwLYzDeljsQy6EsZX7trGqOhQx+J0qziFKSivx
-Bw6BVoBrZ9/o6bIGHxK6I/JLUmPwT6XlKQLQEIvdD+HxWs4o0K3gXv5CvZq7nRFXvTfJpKzY11YU
-rIY=
+iQEcBAABCAAGBQJZ2J/JAAoJECLqERp+QkKkF7UIAJJrnU/siCnTuqm/D0Jnjh3qybMHwrswx6fH
+c0eQx1Z/gwj0haG3dcjdQdj7FCtWHzgnIWRW01HAcBTde7TYNgxJevX0PT0vXooxVBC2rDntuQ7y
+XB1gmwgy0uxxGygSwdXKFiZ+y9UnaAqRmaSAL5RAmZDD/Z+lkENw2x1X11edfRf0cMtYqrMyGzWR
+CoesuZYi/qMb2aZWebv8sijnWtHikdC/NCg2Yr85etqozJYAHc4ENmbhYy2T7kq8pRcY10rYT2b/
+htU2HI1eHT3qFEIrOm9OFFZj9XXPS1jdJ0j8rLiKhZ6W25G/+xkOX3nssx/j6D2UqONn6VfGpLcq
+V1g=
 
 -->

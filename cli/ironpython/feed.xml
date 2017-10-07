@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/cli/ironpython" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
-  <name>IronPython</name>
+  <name>IronPython (legacy feed)</name>
   <summary>implementation of Python running under .NET/Mono</summary>
   <description>IronPython is an implementation of the Python programming language running under .NET/Mono and Silverlight/Moonlight. It supports an interactive console with fully dynamic compilation. It's well integrated with the rest of the .NET Framework and makes all .NET libraries easily available to Python programmers, while maintaining compatibility with the Python language. There also is Visual Studio tooling integration.</description>
   <homepage>http://ironpython.net/</homepage>
@@ -12,7 +12,6 @@
   <icon href="http://0install.de/feed-icons/IronPython.ico" type="image/vnd.microsoft.icon"/>
 
   <feed src="http://repo.roscidus.com/dotnet/ironpython"/>
-  <replaced-by interface="http://repo.roscidus.com/dotnet/ironpython"/>
 
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <file-type id="IronPython.File">
@@ -24,11 +23,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJZtCMeAAoJECLqERp+QkKkpW0H/ibdb1wlpHw+QFC58noh7Fchs8iTTbH+fHZM
-ZIJCqOdaF6d+wJQ8US7vxa/fiVXZzcDRS/LTvG7yMZJVEveJDgV671Qi1Yy7wmoi+SSdBdKVVDgH
-jX60lUlSr4NRLEIY4wzs1AnH5TBVzsilVtkGRzP2pjtM4x+qCAqCuQkpblhSTX6+sN6GVDIeFdEA
-DVPQ+u4jtmyOc4+WDh7JUeCQanqN4Ul8A8EZAdLhq3CYl2hwuBJXiAw4cGzgr+632PDmSNVroNUe
-BO9rhBIpdv2ttIodRJ3Y3lpUt3HferP9FepTo49zuoudaRjm42QCfwmG0IWxCnluWC7BySn9sE/6
-QmQ=
+iQEcBAABCAAGBQJZ2J/EAAoJECLqERp+QkKkL60H/03YwQfRxeuv8sKQM6Zo34GcV9vSWQPyfzWt
+Er0UfSEiuUr/sdK78xTgDUgd6wrY5DxF4+PWO7LQvzZv8rqCs9UHv8+tOSNBdh6dBuJ0pEafOZ+9
+QsVj52xxGar4Cz073dpWsT45k0CzwYkpZPvYJlweCbr+kp/E6Bg38Ap03AXJj55q/V3vgcj7Gftb
+K14MnYuzOhHKgvNIDg11fuD3gi89TQGclUxhXiVtQH7ZjaF57cRhHlsVKBEGq9mNzm8lvMafj6Zv
+xBAUep0lN4w8LSrgcBBZ4mSQGFIt+TZg+05XIpW7ss9xwfSpWArCGKaVBuPvOVVj/YkZ0fNryG2B
+bG4=
 
 -->

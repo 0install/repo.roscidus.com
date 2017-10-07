@@ -1,18 +1,17 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/cli/cli-monopath" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
-  <name>Common Language Runtime with MONO_PATH support</name>
+  <name>Common Language Runtime with MONO_PATH support (legacy feed)</name>
   <summary>an implementation of the Common Language Runtime (.NET Framework on Windows, Mono on POSIX) using .NET profiles as version numbers</summary>
 
   <feed src="http://repo.roscidus.com/dotnet/clr-monopath"/>
-  <replaced-by interface="http://repo.roscidus.com/dotnet/clr-monopath"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJZtCMkAAoJECLqERp+QkKkBvUIAN+PSw+GpnM1bOdw0QFOTXBoDNjiohr40EwM
-Cpf71zg8e8uC9dTwaZ+AzP7l+u6K9cMXE+VSkR0RdLYaVdJDFHbMPfawf+CgZOHNkyb1XR4FwWjS
-x9mjdmeqOvmconWbHN2IyJxQsnzjqyFz5DmDcefNxw3pd9P+IE7ki6GTn+NnLKGxbfiTSarZUXnI
-9Cxm5L/StPTUlnAYwGYCWdI8B6r893Yh2HPY1QsMIJ4YG59VRsQvRBFMW94t5TBQAgdK1D8iigJd
-Ao6KhdbVNCtKlPDMso4wELUIRq0/FDCw9VAhuJj9Tl3WFnk1UDooLraBVCicsH7MnEx88eZR+dVI
-Btc=
+iQEcBAABCAAGBQJZ2J/JAAoJECLqERp+QkKkdNQIAPENKlyyB4CEPyEJRuCcyl84uFFa2E5nxEJJ
+xntB2wjLQGXAaKcC7wd3wilZ1xicKeuaEQmeAIpKCd9do4fc+nzvLO5pabNIMLeV69pKIrVUk+Hh
+eJciou0gAxSxTD9xL41GLDuPBglA7kIK09uKIHh41Qda9968/7WIlBmzMLH9/GlnyRVAtsfk7Nlj
+Y2eW3rUon01YNJqAW4V7NuGopL+8IcoZ1/3UKN4X2tul+JeRuhF33QDZlke6faYEtDiVr/bADkGu
+KL53uYD7YaALwBr0FKFdyuWnsI5st2R2Y9RARSf/uMFwdPjPgOVZROYTx2Uf8BN4QjIFnSjCmjE3
+vFk=
 
 -->
