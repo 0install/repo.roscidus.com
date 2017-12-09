@@ -105,7 +105,7 @@ Professional runs on Microsoft .NET 2.0 and Mono 2.6 or newer.</description><hom
     <summary>package manager for JavaScript</summary>
   </entry-point></interface><interface uri="http://repo.roscidus.com/ocaml/ocaml-runtime"><name>OCaml runtime</name><summary>ML language implementation with a class-based object system</summary><description>OCaml is a general purpose industrial-strength programming language with an emphasis on expressiveness and safety. Developed for more than 20 years at Inria it benefits from one of the most advanced type systems and supports functional, imperative and object-oriented styles of programming.
 
-    This is the runtime package. It contains the bytecode interpreter (ocamlrun) and the toplevel (ocaml), which allows dynamic linking. It also includes the standard library, plus the Dynlink, Bigarray, Str and Unix extra libraries. Note: only changes to the last version component are binary compatible (e.g. 4.00.1 and 4.00.2 are compatible with each other, but not with 4.01.0).</description></interface><interface uri="http://repo.roscidus.com/games/openttd"><name>OpenTTD</name><summary>Open Source clone of Transport Tycoon Deluxe</summary><description>
+    This is the runtime package. It contains the bytecode interpreter (ocamlrun) and the toplevel (ocaml), which allows dynamic linking. It also includes the standard library, plus the Dynlink, Bigarray, Str and Unix extra libraries. Note: only changes to the last version component are binary compatible (e.g. 4.00.1 and 4.00.2 are compatible with each other, but not with 4.01.0).</description></interface><interface uri="http://repo.roscidus.com/security/openssl"><name>OpenSSL</name><summary>command-line toolkit for TLS and SSL protocols</summary><description>OpenSSL is a robust, commercial-grade, and full-featured toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols.</description><homepage>https://www.openssl.org/</homepage><category>Utility</category><entry-point binary-name="openssl" command="run"/></interface><interface uri="http://repo.roscidus.com/games/openttd"><name>OpenTTD</name><summary>Open Source clone of Transport Tycoon Deluxe</summary><description>
 OpenTTD is an open source clone of the Microprose game &quot;Transport Tycoon
 Deluxe&quot;, a popular game originally written by Chris Sawyer. It attempts to mimic
 the original game as closely as possible while extending it with new features.</description><homepage>http://www.openttd.org</homepage><category>Game</category><icon href="http://0install.net/feed_icons/openttd.png" type="image/png"/></interface><interface uri="http://repo.roscidus.com/python/python/upstream.xml"><name>Python</name><summary>The Python Programming Language</summary><description>
@@ -497,11 +497,11 @@ More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
 This package is built from the X.org xproto proto module.</description></interface><interface uri="http://repo.roscidus.com/lib/zlib1g"><name>zlib1g</name><summary>compression library - runtime</summary><description>zlib is a library implementing the deflate compression method found
 in gzip and PKZIP. This package includes the shared library.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJZ2J/JAAoJECLqERp+QkKk0GUIAJ/FJEoTzfpioq909wNA5eyQUZhS7rtcppSM
-ESuE3tHipV4Jqtk6A/rRWlN8lGhCScQXG5AJACMGglFXwOIfkcZss//+AvBo+wFwMeF907MKmhUz
-cHbJue5HbKTWIsGlw4cxbcSIWYcUOxe5bltJJRV3iJ63tcg8L7ryDfoNocLlVL69xQdBvd2lpBwS
-87SkOh3cqk0nLku7DVBG5l7c03GBptC5mNgH5NQfrdSbNGmoM2vZae82FGH72kLJw08JSxJXG4T7
-gd0tBePvggoNs5nSC2qguxcGVk20Arya3B6ygPumrO9fX3XuKOvmDy6fJYuk0UUUGYIWZcSZ+APv
-rEs=
+iQEcBAABCAAGBQJaK8VcAAoJECLqERp+QkKkObQIAKYUUZDKT/mYgDbXzrvyNVSA1dnymTKd+WNa
+X74H5qaLnnyGYrLzfb1X+G8E7H+ppyYLkzfW9e0hlxoh2c6rKKSXnzumeoIA8tWZw1v5ngfxzt7Y
+attItCb3HZZZrD5rE7t3cP0RQ8CyTIhj3zADofxUwu0duSP0kw+JtM9EYBJb9eI58neBSNak//OJ
+zZgF3gnwfOWXlAccAX38b/dMCsLnUhKz5o5FuRqTVVOM7g0QCbmLoZ5TafVeJSwFZApLL3Jd6Tme
+FGH1pxyo9oG54tgjJ+rBvZCloYDTmQuib8f+N05lJ48CJSag6xz1MHbPGMy25b2y//PQ4uPPP0Y3
+y80=
 
 -->
