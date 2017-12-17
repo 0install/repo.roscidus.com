@@ -131,6 +131,14 @@ Professional runs on Microsoft .NET 2.0 and Mono 2.6 or newer.</description>
       <manifest-digest sha256new="RWTXUKX22RRMEF3DD43YY2A2YIQFR6R3LHORW62EUDUFP72564JA"/>
       <archive href="http://downloads.sourceforge.net/keepass/KeePass-2.35.zip" size="2960799" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=8121b00fa13d13e3faf324798963e8f0ea8d8b78" released="2017-06-09" stability="stable" version="2.36">
+      <manifest-digest sha256new="NKWRMCZDB6CIUBGTZCA7WCCK6MAMZEVWQCV46OGAOSEBTMZNCNSA"/>
+      <archive href="https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.36/KeePass-2.36.zip/download" size="3101437" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=5c7ceefb70f855d73736e1e9a599169781bad63a" released="2017-10-12" stability="stable" version="2.37">
+      <manifest-digest sha256new="WUO4374FHPRIF53JZVM2SVRYD5YYXZI3XEA7EW3PKRBEY6CEOOLQ"/>
+      <archive href="https://sourceforge.net/projects/keepass/files/KeePass%202.x/2.37/KeePass-2.37.zip/download" size="3113589" type="application/zip"/>
+    </implementation>
   </group>
 
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
@@ -142,11 +150,11 @@ Professional runs on Microsoft .NET 2.0 and Mono 2.6 or newer.</description>
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJZtCMkAAoJECLqERp+QkKkL+sIAMiuPVq1Ld0BxPS2nbH7Wr/jnAFEZKPi5yXh
-ChHxNF7PuypPtz//8BllrarHvg1e1j9hMrowODEmsHc0C74QiOHl4FoeaokIkiYnarVRLc6bSP1O
-Dg9WiitFlq5uWppxuQYopqqdqyGp4ftnIDmn1+CSVk+/dYxuhF8WTFgP6Hx2lRzXiEe5UxpA558A
-xKpIPrTMzCAwxNU8H5rjv7g68Erb4Pp65rES1ifFIH1/o5v+/W862XpjiH0hxC53Ty09TumYsweY
-gH/Sj2pu130jQQYltAp1k0WOUwC3D12r8aWrKJXgf75RbDcaEOXqdxNiWHcMyjTlYnCNtgzWw5y8
-ybw=
+iQEcBAABCAAGBQJaNlRoAAoJECLqERp+QkKka/4H+gOd8inMd88nupV1dTMj/MiqF1NANswFepKb
+e4fPfhgalr7fdeRoEWLpZ2o/HLyHEkWf1Iqk5CxuUGB+QVParVqdz4yXMx1r0q6bD7NkFX1nWpag
+F/yuUixQBgxA8AnAoH4dzr0TwllhDyqC2oWiq8O8PeWHNUkC4pEpEOUzKp90Ff7/DZXHAqlD6451
+AjKEIasNfVd78kYMQHyt5IJPOAjM28+lO2hUuoB3BahiNY22dxvnzb1I+atttmeFA6l5YgES4sga
+Uh7p76kZz/WuEMc4mzGlYDFDABrCYYuwn5RebOLntUYGyN0iLbiHFHSVxrbZ2yjL19NROlqdk/pR
+3eg=
 
 -->
