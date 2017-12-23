@@ -14,6 +14,7 @@ IcedTea project.</description>
   <feed arch="Windows-*" src="http://0install.de/feeds/Oracle_JDK.xml"/>
   <package-implementation distributions="Windows" package="openjdk-7-jdk"/>
   <package-implementation distributions="Windows" package="openjdk-8-jdk"/>
+  <package-implementation distributions="Windows" package="openjdk-9-jdk"/>
 
   <group>
     <!-- Windows versions of the JDK bundle their own copy of the JRE. On POSIX systems we refer back the regular JRE. -->
@@ -27,8 +28,11 @@ IcedTea project.</description>
     <package-implementation distributions="Debian" main="/usr/bin/javac" package="openjdk-7-jdk"/>
     <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1_7_0-openjdk-devel"/>
     <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1.7.0-openjdk-devel"/>
+    <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1.8.0-openjdk-devel"/>
+    <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1.9.0-openjdk-devel"/>
     <package-implementation distributions="Darwin" package="openjdk-7-jdk"/>
     <package-implementation distributions="Darwin" package="openjdk-8-jdk"/>
+    <package-implementation distributions="Darwin" package="openjdk-9-jdk"/>
 
     <package-implementation main="/usr/bin/javac" package="openjdk-6-jdk"/>
     <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1_6_0-openjdk-devel"/>
@@ -79,11 +83,11 @@ IcedTea project.</description>
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYhM7uAAoJECLqERp+QkKkOhAIAMSEcxAPfoi519QCH2dQfjjmBun4ryyV0sr6
-tIb3jLqRfibo++CGk6qmkoGbT3X1GujQOlnljW9Gigy7wf/gZSyW+V4L4B7vmbh2JHCeVpYjRF/t
-j7y9De3EJMhM/MhOur/o1dCcDIbx9k5FNo4RGq9Sm7eW4xxOXHkyPecX0xHUZJ0xeOTNLE2lYzpR
-mAk/AsZtV4ASeYDCoLeMgyJ+swuCwNBob48YndYibv3iMhlAh7YKScisTuDtcUno+/LdyFkxFAQj
-8ABkkDLpiAl71VVDRljAnouSc3BjXt1W3pV9ZkHOg8vrLg+DNh50HIkocz93Hu+8Zjw7EKMC2ZGC
-xks=
+iQEcBAABCAAGBQJaPkOvAAoJECLqERp+QkKk+VAIAOaquKsZqmEum9SV80QuezPz39XSQbvpjMoP
+TCfkUoqgzJKf7/AwG1uX2Is3y6PikZSrWK2jVms0L58nuUEK6ikxBU/28/kOxMbNETY0xFOoG/Mi
+PPpj9orLPaF8xIdGwgEz3hyTUf6Awrdha1gZJcWwyEViyBMEOCK+gKa7Dexy50lBXsUwyf6beAID
+hyrVCripfVGO3Ktn0heCJQTaT02j29DevwmRp+eD1zgr6nWIOvs1I8TUSWKxJZ3HCz+AQZAwLham
+Ij4QztwTvcTxmw+9vGM8Az1ne9PSvkPtzk7BRgnxUM7PoJXSfsiIISV8lgZsUCY2FxP5hxO1MJ+6
+YyI=
 
 -->

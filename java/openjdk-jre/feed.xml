@@ -20,18 +20,23 @@
     <!-- Note: 0install >= 1.11 will fill in the correct main value automatically. -->
     <package-implementation distributions="Debian" main="/usr/bin/java" package="openjdk-7-jre"/>
     <package-implementation distributions="Debian" main="/usr/bin/java" package="openjdk-8-jre"/>
+    <package-implementation distributions="Debian" main="/usr/bin/java" package="openjdk-9-jre"/>
     <package-implementation distributions="RPM" main="/usr/bin/java" package="java-1_7_0-openjdk"/>
     <package-implementation distributions="RPM" main="/usr/bin/java" package="java-1.7.0-openjdk"/>
     <package-implementation distributions="RPM" main="/usr/bin/java" package="java-1.8.0-openjdk"/>
+    <package-implementation distributions="RPM" main="/usr/bin/java" package="java-1.9.0-openjdk"/>
     <package-implementation distributions="Arch" main="/usr/bin/java" package="jre7-openjdk"/>
     <package-implementation distributions="Arch" main="/usr/bin/java" package="jre8-openjdk"/>
+    <package-implementation distributions="Arch" main="/usr/bin/java" package="jre9-openjdk"/>
 
     <package-implementation distributions="Darwin" package="openjdk-7-jre"/>
     <package-implementation distributions="Darwin" package="openjdk-8-jre"/>
+    <package-implementation distributions="Darwin" package="openjdk-9-jre"/>
   </group>
 
   <package-implementation distributions="Windows" package="openjdk-7-jre"/>
   <package-implementation distributions="Windows" package="openjdk-8-jre"/>
+  <package-implementation distributions="Windows" package="openjdk-9-jre"/>
 
   <entry-point binary-name="java" command="run">
     <needs-terminal/>
@@ -84,11 +89,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJZNEjrAAoJECLqERp+QkKkdtEIAJDBAOobbOlsMng4EuMKzWphJq3xxZt32sop
-Z4HEG4/NnFEWB7ZaU7vCOpqnvvx3ugm3vO0+2rqeeI3F80AmKRKkeSj/+fwlvR7YIK2AtodiTYB/
-T766+boPqLw1jUKYbrG7zKuC2Q/HOdA2G4rKfBfXnn/il81ph7FeXVweFNVHHZjZGgt0ry0Eh1i9
-parX4wlY3F0UO+S9WmvQuFKanUBEECWLmvfpxJ7RoDLS5qopygn2ZQTTa02F6pQRT1Spv3YbsGYN
-reYXNT9XQRjZJ9Umlno5av7OjZX8SsQHBujfESNCOQl430wrvxw0bkNeV0aiXCpVp/nFyM65mo4Y
-q9Q=
+iQEcBAABCAAGBQJaPkOrAAoJECLqERp+QkKk0SEH/iBWmZ8mSsiczMwRNiGmIyVAvk8twnDvIq4D
+m1iCBeccEjIzx1qnGH9qfJTlBGNbxv+A5Fu48nziwgPb8lApPAxbnwVe7mE79OLAjiY/3wpp8vEv
+qIEcxnagICE9Y8eERO/uxQeb0fvU3DhMKsaUtSzHmJ3+2Xn80LqmfWc5z9XES5ikI/Z6Ys0dHxQ5
+Jrnvq84dXPXkph0nH2i6Oeayf3kYKck0vpuuBo1lWOVevlKe8pvWhBWEvL/hDCR6CzqpNteMUg6E
+UxyHpfnZpDspd7WxWLlzcyKWrXmRlM0ZA7vXZG/PaOIOlFVQnYUfFQfR3r5hvbQdanoLzOYS/V/v
+Jxw=
 
 -->
