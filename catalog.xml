@@ -23,7 +23,7 @@ websites and applications. It’s built, used, and supported by an active and
 diverse community of people around the world.</description><homepage>http://drupal.org</homepage><category>Network</category></interface><interface uri="http://repo.roscidus.com/drupal/smtp"><name>Drupal-SMTP</name><summary>SMTP Authentication Support</summary><description>
 This module allows Drupal to bypass the PHP mail() function and send email
 directly to an SMTP server. The module supports SMTP authentication and can even
-connect to servers using SSL if supported by PHP.</description><homepage>http://drupal.org/project/smtp</homepage><category>Network</category></interface><interface uri="http://repo.roscidus.com/utils/ffmpeg"><name>FFmpeg</name><summary>record, convert and stream audio and video</summary><description>A complete, cross-platform solution to record, convert and stream audio and video.</description><category>Utility</category><homepage>http://ffmpeg.org/</homepage><entry-point binary-name="ffmpeg" command="run"/><entry-point binary-name="ffplay" command="ffplay">
+connect to servers using SSL if supported by PHP.</description><homepage>http://drupal.org/project/smtp</homepage><category>Network</category></interface><interface uri="http://repo.roscidus.com/javascript/electron"><name>Electron</name><summary>framework for creating native applications with web technologies</summary><description>Electron is a framework for creating native applications with web technologies like JavaScript, HTML, and CSS.</description><homepage>https://electronjs.org/</homepage><entry-point binary-name="electron" command="run"/></interface><interface uri="http://repo.roscidus.com/utils/ffmpeg"><name>FFmpeg</name><summary>record, convert and stream audio and video</summary><description>A complete, cross-platform solution to record, convert and stream audio and video.</description><category>Utility</category><homepage>http://ffmpeg.org/</homepage><entry-point binary-name="ffmpeg" command="run"/><entry-point binary-name="ffplay" command="ffplay">
     <needs-terminal/>
     <name>FFplay</name>
     <summary>very simple and portable media player</summary>
@@ -497,11 +497,11 @@ More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
 This package is built from the X.org xproto proto module.</description></interface><interface uri="http://repo.roscidus.com/lib/zlib1g"><name>zlib1g</name><summary>compression library - runtime</summary><description>zlib is a library implementing the deflate compression method found
 in gzip and PKZIP. This package includes the shared library.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJaK8VcAAoJECLqERp+QkKkObQIAKYUUZDKT/mYgDbXzrvyNVSA1dnymTKd+WNa
-X74H5qaLnnyGYrLzfb1X+G8E7H+ppyYLkzfW9e0hlxoh2c6rKKSXnzumeoIA8tWZw1v5ngfxzt7Y
-attItCb3HZZZrD5rE7t3cP0RQ8CyTIhj3zADofxUwu0duSP0kw+JtM9EYBJb9eI58neBSNak//OJ
-zZgF3gnwfOWXlAccAX38b/dMCsLnUhKz5o5FuRqTVVOM7g0QCbmLoZ5TafVeJSwFZApLL3Jd6Tme
-FGH1pxyo9oG54tgjJ+rBvZCloYDTmQuib8f+N05lJ48CJSag6xz1MHbPGMy25b2y//PQ4uPPP0Y3
-y80=
+iQEcBAABCAAGBQJaPkPRAAoJECLqERp+QkKkGZcH+waY8jD+Jhq93IJSiu8txSmQmtl8nlB2/fy4
+uZL0pLDHr6V022RcsAvysbpobfbtT/1jQDPaaSZrjYrBIU3XrTvcke1s0TqQMpF2MLbLhAQvxU06
+Kqgb/FhC8gzzeN8+ln6P1OK3mEyMMI53m1NdJ/N5dmzCOZIwoVVLLSkIjeN8rcG30/w8n/DvVDxQ
+2nkkrK1Jm+h8lOaJW6fbMKmElfbDg7KBVA44TgtVMWCLQhzrYuh9ESeIsO6eeLcGr+5Gqnoq2gIG
+VfYDsXmoXMPmYmZ5mz63lH26yfCbyUkOIfRhsZEsghZqdDptg3hUSHa97RLKi2iiDd3x5TlBq+l1
+lv4=
 
 -->
