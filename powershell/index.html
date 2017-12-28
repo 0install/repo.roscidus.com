@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head><title>repo.roscidus.com: PowerShell</title></head>
+  <body>
+    <h1>repo.roscidus.com: PowerShell</h1>
+
+    <h2>Available feeds</h2>
+    <ul>
+      <li><a href="http://repo.roscidus.com/powershell/powershell">PowerShell (Windows or Core)</a></li>
+      <li><a href="http://repo.roscidus.com/powershell/core">PowerShell Core</a></li>
+      <li><a href="http://repo.roscidus.com/powershell/windows">Windows PowerShell</a></li>
+    </ul>
+
+    <h2>Samples</h2>
+
+    <p>To use PowerShell as the runner in a feed:</p>
+    <pre>      &lt;command name="run" path="myscript.ps1"&gt;
+        &lt;runner interface="http://repo.roscidus.com/powershell/powershell"&gt;
+          &lt;arg&gt;-ExecutionPolicy&lt;/arg&gt;
+          &lt;arg&gt;Bypass&lt;/arg&gt;
+        &lt;/runner&gt;
+      &lt;/command&gt;
+    </pre>
+
+    <p>To add <code>pwsh</code> (PowerShell Core) to your <code>PATH</code>:</p>
+    <pre>      $ 0alias pwsh http://repo.roscidus.com/powershell/core</pre>
+  </body>
+</html>
