@@ -108,7 +108,7 @@ Professional runs on Microsoft .NET 2.0 and Mono 2.6 or newer.</description><hom
     This is the runtime package. It contains the bytecode interpreter (ocamlrun) and the toplevel (ocaml), which allows dynamic linking. It also includes the standard library, plus the Dynlink, Bigarray, Str and Unix extra libraries. Note: only changes to the last version component are binary compatible (e.g. 4.00.1 and 4.00.2 are compatible with each other, but not with 4.01.0).</description></interface><interface uri="http://repo.roscidus.com/security/openssl"><name>OpenSSL</name><summary>command-line toolkit for TLS and SSL protocols</summary><description>OpenSSL is a robust, commercial-grade, and full-featured toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols.</description><homepage>https://www.openssl.org/</homepage><category>Utility</category><entry-point binary-name="openssl" command="run"/></interface><interface uri="http://repo.roscidus.com/games/openttd"><name>OpenTTD</name><summary>Open Source clone of Transport Tycoon Deluxe</summary><description>
 OpenTTD is an open source clone of the Microprose game &quot;Transport Tycoon
 Deluxe&quot;, a popular game originally written by Chris Sawyer. It attempts to mimic
-the original game as closely as possible while extending it with new features.</description><homepage>http://www.openttd.org</homepage><category>Game</category><icon href="http://0install.net/feed_icons/openttd.png" type="image/png"/></interface><interface uri="http://repo.roscidus.com/python/python/upstream.xml"><name>Python</name><summary>The Python Programming Language</summary><description>
+the original game as closely as possible while extending it with new features.</description><homepage>http://www.openttd.org</homepage><category>Game</category><icon href="http://0install.net/feed_icons/openttd.png" type="image/png"/></interface><interface uri="http://repo.roscidus.com/powershell/powershell"><name>PowerShell</name><summary>virtual feed combining Windows PowerShell and PowerShell Core</summary><homepage>https://microsoft.com/powershell</homepage></interface><interface uri="http://repo.roscidus.com/powershell/core"><name>PowerShell Core</name><summary>cross-platform version of PowerShell</summary><homepage>https://github.com/PowerShell/PowerShell</homepage><entry-point binary-name="pwsh" command="run"/></interface><interface uri="http://repo.roscidus.com/python/python/upstream.xml"><name>Python</name><summary>The Python Programming Language</summary><description>
 Python is a programming language that lets you work more quickly and integrate
 your systems more effectively. You can learn to use Python and see almost
 immediate gains in productivity and lower maintenance costs.</description><homepage>http://www.python.org/</homepage><category>Development</category></interface><interface uri="http://repo.roscidus.com/python/python-win32"><name>Python for Windows Extensions</name><summary>Python Bindings for the Win32 API</summary><description>The Python for Windows Extensions provide bindings for the Win32 API.</description><homepage>https://sourceforge.net/projects/pywin32/</homepage></interface><interface uri="http://repo.roscidus.com/ruby/ruby"><name>Ruby</name><summary>dynamic, open source programming language</summary><description>A dynamic, open source programming language with a focus on simplicity and productivity. It has an elegant syntax that is natural to read and easy to write.</description><homepage>http://www.ruby-lang.org/</homepage><icon href="http://0install.de/feed-icons/Ruby.ico" type="image/vnd.microsoft.icon"/><icon href="http://0install.de/feed-icons/Ruby.png" type="image/png"/><entry-point binary-name="ruby" command="run">
@@ -162,7 +162,7 @@ development cycle.</description><homepage>http://sablecc.org/</homepage><categor
   </entry-point><entry-point command="scalap">
     <needs-terminal/>
     <name>Scala class file decoder</name>
-  </entry-point></interface><interface uri="http://repo.roscidus.com/utils/xz"><name>XZ Utils</name><summary>xz data compression tool for .xz and .lzma files</summary><description>XZ Utils is free general-purpose data compression software with high compression ratio. XZ Utils are the successor to LZMA Utils.</description><homepage>http://tukaani.org/xz/</homepage><category>Utility</category><entry-point binary-name="xz" command="run">
+  </entry-point></interface><interface uri="http://repo.roscidus.com/powershell/windows"><name>Windows PowerShell</name><summary>PowerShell bundled with Windows</summary><homepage>https://microsoft.com/powershell</homepage></interface><interface uri="http://repo.roscidus.com/utils/xz"><name>XZ Utils</name><summary>xz data compression tool for .xz and .lzma files</summary><description>XZ Utils is free general-purpose data compression software with high compression ratio. XZ Utils are the successor to LZMA Utils.</description><homepage>http://tukaani.org/xz/</homepage><category>Utility</category><entry-point binary-name="xz" command="run">
     <name>compress .xz file</name>
     <needs-terminal/>
   </entry-point><entry-point command="unxz">
@@ -351,7 +351,7 @@ The main features of this library are:
   * DER (Distinguish Encoding Rules) encoding
   * no limits for INTEGER and ENUMERATED values
 
-This package contains runtime libraries.</description></interface><interface uri="http://repo.roscidus.com/lib/xml2"><name>libxml2</name><summary>GNOME XML library</summary><description>XML is a metalanguage to let you design your own markup language.
+This package contains runtime libraries.</description></interface><interface uri="http://repo.roscidus.com/lib/unwind8"><name>libunwind8</name><summary>library to determine the call-chain of a program</summary></interface><interface uri="http://repo.roscidus.com/lib/xml2"><name>libxml2</name><summary>GNOME XML library</summary><description>XML is a metalanguage to let you design your own markup language.
 A regular markup language defines a way to describe information in
 a certain class of documents (eg HTML). XML lets you define your
 own customized markup languages for many classes of document. It
@@ -497,11 +497,11 @@ More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
 This package is built from the X.org xproto proto module.</description></interface><interface uri="http://repo.roscidus.com/lib/zlib1g"><name>zlib1g</name><summary>compression library - runtime</summary><description>zlib is a library implementing the deflate compression method found
 in gzip and PKZIP. This package includes the shared library.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJaPkPRAAoJECLqERp+QkKkGZcH+waY8jD+Jhq93IJSiu8txSmQmtl8nlB2/fy4
-uZL0pLDHr6V022RcsAvysbpobfbtT/1jQDPaaSZrjYrBIU3XrTvcke1s0TqQMpF2MLbLhAQvxU06
-Kqgb/FhC8gzzeN8+ln6P1OK3mEyMMI53m1NdJ/N5dmzCOZIwoVVLLSkIjeN8rcG30/w8n/DvVDxQ
-2nkkrK1Jm+h8lOaJW6fbMKmElfbDg7KBVA44TgtVMWCLQhzrYuh9ESeIsO6eeLcGr+5Gqnoq2gIG
-VfYDsXmoXMPmYmZ5mz63lH26yfCbyUkOIfRhsZEsghZqdDptg3hUSHa97RLKi2iiDd3x5TlBq+l1
-lv4=
+iQEcBAABCAAGBQJaRVC7AAoJECLqERp+QkKkjsgH/jgtm3rI6Z/lxV1uy0MoTCUQQKYrD4QCRD+W
+UCXtAf9rw/ekGCKKv+iq2q7q7BeQ2gHepJL8FckWnxOXypL3qg6lKDtW+Ql2NAzyNdCiSjzAjZTt
+dMhqxzP6sSGEivxmi4NVtSnvuPGbKOVj86X1it2u3sRCjevpDu5xjCusktXt6S1ymCL2AJMbBXPE
+u7M1lOS83WQ/R81+bN9Zk7n61sS2lv56isL+MSaL6FmaoUBKCRkpkTD5bFAxs3qWgJd8+z9hvbsl
+KHcs6cfFOQKMUXzUzCWTNoDjY98qwDzIIygjZn4gP/l6XLdR/q0ZYVtKTKV3/+U2LGhUo03Eur4f
+79w=
 
 -->
