@@ -238,6 +238,14 @@
       <manifest-digest sha256new="S3HWYHIB4FHRLW5VUH4SNWO7RZGUPSPA6BHCNA3CPLQPYEN2ZKGQ"/>
       <archive extract="scala-2.12.4" href="http://www.scala-lang.org/files/archive/scala-2.12.4.tgz" size="19741785" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation id="sha1new=78d4cb8b471b40e23e68a6a5a3e11f3828c6bf1c" released="2017-11-03" stability="stable" version="2.10.7">
+      <manifest-digest sha256new="AMY5XBYA6OJEULN3V2ONM54WWJIDBR5I7CDCF4V65PRFT6KVGCFQ"/>
+      <archive extract="scala-2.10.7" href="http://www.scala-lang.org/files/archive/scala-2.10.7.tgz" size="29993772" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation id="sha1new=3be5fa3706b3c35b44664142319d928b64f7c49f" released="2017-11-10" stability="stable" version="2.11.12">
+      <manifest-digest sha256new="UUHA4DLKXNAJLDHIXF3LPPVRW7GL2WCL634WYFRY6QPM3TAORPQQ"/>
+      <archive extract="scala-2.11.12" href="http://www.scala-lang.org/files/archive/scala-2.11.12.tgz" size="29114457" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="scala" command="run">
@@ -266,11 +274,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJZ/upWAAoJECLqERp+QkKk6y0IAKLmvTpSNTbJ3Z5f+VWzzh6s5gRnO4+/6AMN
-tu1VQpN9h84PyeeuQH252yeL3LlCcJyoVEUHKB6Qq16P9gBJJwtpMQb9FuRgbgmNgZ2c7o4BHK6p
-lCe0Ntfb2FF5PdyneyKbQGbG66vUFTfDD0diHKEMdfJRGurI7WSh19nusvb3IvvYcP3YiDcOwYPu
-SDJHKz/STJ5WmfO+vbMdSdBBDQbMNWLfLy9sj/ekqigyBwLaYa2xhgGvsTkYqKjm0Ax7l7ZE3rbq
-SS+KlZUHk7hSDjoRLyD6bx6gj5X+6JptU0oNUSvATATcvrYluNAnesS5gwVXzI4TcD+h5rRh2VW2
-GLk=
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlpqOkMACgkQIuoRGn5CQqRq/Qf+PSu/
+O7PYy8qjsST8EtFko9A6sROfK9gN73/uyTSM/Jgc5Jsi4LR3ytuf5PxNatvmFnRkmYduHRDG7q/T
+wkawjBP6f0/Y7C2EQ1jRRUt/zqk/PwoxpSOrGasC+49vB1vVMdK4Zw3uNCz76DbgRi616F8FSduY
+lsO5pCdip+HeUKtTgrBivDJjEiedkGze1aEAd2Yem+J0H64qBo8kvCE2snkIchIOWPzCPvKSL40Y
+fEffDMQPb9jlS72mzYHQiPewvjSwMzWoq+o3rbAy8AtOOWywPkbpCp/tARdDo70VkzcPRgO9FgAG
+dHI7c+DU20qAPBNby0cP+pTmB+kUKljT0A==
 
 -->
