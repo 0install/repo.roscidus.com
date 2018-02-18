@@ -698,15 +698,27 @@
       <manifest-digest sha256new="6T5KH5GOWCNY4KKAH7IYCBRCGBRNZYJSXOGO7QJCIBXNGFWD5OJA"/>
       <archive extract="gradle-4.5-rc-1" href="https://services.gradle.org/distributions/gradle-4.5-rc-1-bin.zip" size="72426648" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=fc5c0796aaca4c41aae04b8108c7f3b19f53ce4f" released="2018-01-22" stability="testing" version="4.5-rc-2">
+      <manifest-digest sha256new="FKC3JAFPMDMNH7VPAMGXUOXV6KD3YDJA3BUVGXGURUKRO52FJBQQ"/>
+      <archive extract="gradle-4.5-rc-2" href="https://services.gradle.org/distributions/gradle-4.5-rc-2-bin.zip" size="72425271" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=071875528f59ee27a933c4abfe00c02df7fefd26" released="2018-02-05" stability="stable" version="4.5.1">
+      <manifest-digest sha256new="2EWDNEPRM34K6IFKNL5RLP2VOUXPBEY42QOTT4XGNSTN65RV5ERA"/>
+      <archive extract="gradle-4.5.1" href="https://services.gradle.org/distributions/gradle-4.5.1-bin.zip" size="72424144" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=884be9feaa42b145be1e3758f3c3e49e915643a3" released="2018-01-24" stability="stable" version="4.5">
+      <manifest-digest sha256new="PJC6EQK3HKGSHMDG6IFNWIRWQPU2KZIQSEAFYTELQ56DMJQ7VKWA"/>
+      <archive extract="gradle-4.5" href="https://services.gradle.org/distributions/gradle-4.5-bin.zip" size="72424229" type="application/zip"/>
+    </implementation>
   </group>
   <entry-point binary-name="gradle" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlpqOkIACgkQIuoRGn5CQqTYJgf/bCg4
-b29oDZjYnEDLOIYgiqfFV+t3fbQJFUIKx4IfYB5aLFPHlhQkrGFmrGLmhCSSO7HQfQgP1Ys6CUOR
-NaIHBghBwWL0Pab037+e3Y1r6R862mgjP9bEM3b+JGFipsvz/pE8KF36B3p5va3gtEKIFqW/yY2+
-5q6Nk4iyxpP98BDqutBeyUc8NeaXL8XxnIywAAy/a8dRSygcpFQNgHO7MVwgopkRl7PNRN0qn/XQ
-UyKB8Duy+rtfRSSSGS1jgdIvJuXlvjAsWTq0piz+qKhTrLjaQW0jVgDWVpkpVH9kSPRXHlkIEhkF
-5p23YoeFzCm8HCZ05FmEChcbYqa2bv848w==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlqJuYAACgkQIuoRGn5CQqSqlQgArS68
+NPfgvf0ZaXEZMq8DsPxfLL0nUwF1N76L5NVoP66kiBcUPUwRE57BEjIiJ+rXU+lnt1PGR5VOFXdf
+nB800TnEX+m9lDtSLwpbNZ7qvk9utlz8KDf0W1zRJgw14Z+qVNicfzeIkaY7SkK88TVanfpa0TsW
+PRgJuIPLI8xgTmW1bkEClSUhc51XdOtK4RRIbBiE4QF/Z5ZD6C2tGmuc+0BaSLYy8+Gs2+cKYwI/
+yuQL0VMP16H9SxBDdvj+HJiopPbpDhy4hcPezAAS4BYX9iHtfR4HAUDDYJNyKnusOKTs5zyr2g0Z
+RMTn7f+yq/2qn2Vb+CPxW5xc8gjyGZ6SnA==
 
 -->
