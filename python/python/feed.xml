@@ -28,6 +28,7 @@ language for applications that need a programmable interface.</description>
     <package-implementation distributions="Cygwin" main="/usr/bin/python" package="python"/>
 
     <package-implementation distributions="RPM" main="/usr/bin/python" package="python"/>
+    <package-implementation distributions="RPM" main="/usr/bin/python" package="python2"/>
     <package-implementation distributions="RPM" main="/usr/bin/python2.5" package="python25"/>
     <package-implementation distributions="RPM" main="/usr/bin/python2.6" package="python26"/>
     <package-implementation distributions="RPM" main="/usr/bin/python2.7" package="python27"/>
@@ -89,11 +90,11 @@ language for applications that need a programmable interface.</description>
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYhM7uAAoJECLqERp+QkKkzAMIAKsb+9DuUluf6woKuxO+keuc/oCizBWmDpv2
-jKEhHrl9m6qKvFtffXXqkEk3v9oKXELlPc4ak+5l4g2ZNkx1t9QPj2MR8mfN0Cb8WPHkcKt/bOgd
-np3HYyhOB7kMPVU7ve5Jjnyz9XWcp3egUYGN7SZHOiknbv4M3gXlal1Sy3FglIGEtRUJ2t9BS2Tk
-1czvhEA5It5C3lRR7dwiP3dOMnDSfP9Sx1Jk5k/UYsBGbrDa5AIYb6GHTgyR0C3ZjT4c91j040lr
-RPgjkIi+G3w7fW7LG+1sKF1Gx+wt6nAQSjKfzrQswONgvsg97gyvQr5JLZmt1Fop3WdiEKpwWzO4
-wrU=
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlqauFsACgkQIuoRGn5CQqRbqwf9E20d
+QvSpKyoT1jAkpP43CHyI3onh8DOlU8wd/S5CqKEqLVvy76XqUSjQPzco0ng8F5+2syOZvlChB7jR
+YoAsVoxRnRpsWL1kVGdG53QmCuOxyoxRibx/vvotXMkO/ihhGNjNSF7p95NwXdH9cmlJPG7ukW6B
+B8If+BaOctG08ZcwOAHTCcbdwQdSPIIcCLAoN2wTJFcNbyU7Ii6aA4y8cgih1DXMsF9guj53TrBf
+bAUdzO0y7SxUxdh4y9MZZRlYhutWnrMp/KOqGfBb7xitUueptkSMXOxhg0PVJ81E72ohBH0neJCP
+8nQlSE8JzZtv+qVj7PZkJq3NvLFkso6W4g==
 
 -->
