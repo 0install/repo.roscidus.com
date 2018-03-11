@@ -253,7 +253,7 @@ provided as separate git* packages.</description><category>Development</category
   </entry-point><entry-point binary-name="sfdp" command="sfdp">
     <needs-terminal/>
     <summary>draws undirected graphs using a 'spring' model and a multi-scale approach</summary>
-  </entry-point></interface><interface uri="http://repo.roscidus.com/lib/cairo-dev"><name>libcairo2-dev</name><summary>Development files for the Cairo 2D graphics library</summary><description>Cairo is a multi-platform library providing anti-aliased
+  </entry-point></interface><interface uri="http://repo.roscidus.com/kubernetes/kubectl"><name>kubectl</name><summary>controls the Kubernetes cluster manager</summary><description>Command-line client that controls the Kubernetes cluster manager.</description><homepage>https://kubernetes.io/</homepage><entry-point binary-name="kubectl" command="run"/></interface><interface uri="http://repo.roscidus.com/lib/cairo-dev"><name>libcairo2-dev</name><summary>Development files for the Cairo 2D graphics library</summary><description>Cairo is a multi-platform library providing anti-aliased
 vector-based rendering for multiple target backends.
 
 This package contains the development libraries, header files needed by
@@ -497,11 +497,11 @@ More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
 This package is built from the X.org xproto proto module.</description></interface><interface uri="http://repo.roscidus.com/lib/zlib1g"><name>zlib1g</name><summary>compression library - runtime</summary><description>zlib is a library implementing the deflate compression method found
 in gzip and PKZIP. This package includes the shared library.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJaRVC7AAoJECLqERp+QkKkjsgH/jgtm3rI6Z/lxV1uy0MoTCUQQKYrD4QCRD+W
-UCXtAf9rw/ekGCKKv+iq2q7q7BeQ2gHepJL8FckWnxOXypL3qg6lKDtW+Ql2NAzyNdCiSjzAjZTt
-dMhqxzP6sSGEivxmi4NVtSnvuPGbKOVj86X1it2u3sRCjevpDu5xjCusktXt6S1ymCL2AJMbBXPE
-u7M1lOS83WQ/R81+bN9Zk7n61sS2lv56isL+MSaL6FmaoUBKCRkpkTD5bFAxs3qWgJd8+z9hvbsl
-KHcs6cfFOQKMUXzUzCWTNoDjY98qwDzIIygjZn4gP/l6XLdR/q0ZYVtKTKV3/+U2LGhUo03Eur4f
-79w=
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlqlERoACgkQIuoRGn5CQqScgwgAgZA3
+JyioxSaoyz/KZiqF/gieWqnOXmSXW6PpiImB/2o2wAiGE2Our8HscBY3E2dL1O4QGPdzJBUTFBab
+25J1g80RAvF6JT2iLiIIcOwPjY8s3faxTpV9CvyOp/eKAv5KUaKfSw+m2O+X5tFlO8S+7zXYlo/+
+D1eRL+EF+yD8EmVu8Vf1UzmSNe5G4uXd38fjFKU4Udia9/xvfHZD1UvHKpRrNUaKYTM8PY9Uowqs
+BfYXRDEBYwLh6SP2MyQd2FeM0wqfTWlQdMoCPYE4iCX8JV2h9sNB+bV/yabHGsY9utY5i+hmvUu5
+R79S2+iMmNIMGvHU06gXAmqFYiqugwR/YA==
 
 -->
