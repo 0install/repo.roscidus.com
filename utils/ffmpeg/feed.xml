@@ -49,6 +49,46 @@
       <manifest-digest sha1new="648ad352567ce0d948d8511e08601ce8cd5fb961" sha256="f7c8893555feca5f6ae66db99923347b737265e7fa1ecb16bdb00218576c4fc2" sha256new="67EISNKV73FF62XGNW4ZSIZUPNZXEZPH7IPMWFV5WABBQV3MJ7BA"/>
       <archive extract="ffmpeg-3.3.2-win32-static" href="https://ffmpeg.zeranoe.com/builds/win32/static/ffmpeg-3.3.2-win32-static.zip" size="43380378" type="application/zip"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=a64f6bd02261eba1697a154687276a809bbc66e3" released="2017-08-07" stability="stable" version="3.3.3">
+      <manifest-digest sha256new="KUPJXUFFMO4WAGRHXHEPK32WANW52IPBV2HCKNZHLD7NC5ZHMCEA"/>
+      <archive extract="ffmpeg-3.3.3-win64-static" href="https://ffmpeg.zeranoe.com/builds/win64/static/ffmpeg-3.3.3-win64-static.zip" size="48231202" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=2c4501914f9ba64e11c5b8ac2d8dd46d779d802c" released="2017-08-07" stability="stable" version="3.3.3">
+      <manifest-digest sha256new="J7HKFW5KJQA4E6STS5QKYCOAAVGOBUTSYWD7VHJHIBW5T4337XQQ"/>
+      <archive extract="ffmpeg-3.3.3-win32-static" href="https://ffmpeg.zeranoe.com/builds/win32/static/ffmpeg-3.3.3-win32-static.zip" size="43590056" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=105e1b0718fe9999c987d0ce1cd718840503ca84" released="2017-10-15" stability="stable" version="3.3.4">
+      <manifest-digest sha256new="5PFDX3ZPHJI4D4WMHKJJOC77VSWGILM5JH5YEPGVRW5W5SKZ7W4A"/>
+      <archive extract="ffmpeg-3.3.4-win64-static" href="https://ffmpeg.zeranoe.com/builds/win64/static/ffmpeg-3.3.4-win64-static.zip" size="44420081" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=eae7e29a3795e352de45e5066b4aea6c8df9298f" released="2017-10-15" stability="stable" version="3.3.4">
+      <manifest-digest sha256new="HYUM3AKRKPUBMDJDG5ESDQU6NZ5XBGV2TSOLJM7KVEB7T2LCHKXA"/>
+      <archive extract="ffmpeg-3.3.4-win32-static" href="https://ffmpeg.zeranoe.com/builds/win32/static/ffmpeg-3.3.4-win32-static.zip" size="41497391" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=4c9fe5ec5d08ef36b0583d64e1cabada1cec43e4" released="2017-12-13" stability="stable" version="3.4.1">
+      <manifest-digest sha256new="FBC24Q3C3M3TJSPE6KDLA2BJXQ4YUWNSY2YPL2G65W62R7GLUX4A"/>
+      <archive extract="ffmpeg-3.4.1-win64-static" href="https://ffmpeg.zeranoe.com/builds/win64/static/ffmpeg-3.4.1-win64-static.zip" size="45955089" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=51d2256e4bf3907db4c42654d21b7c65223c2d1a" released="2017-12-13" stability="stable" version="3.4.1">
+      <manifest-digest sha256new="CEH4PLWCIC3JWULXVJAXLSNQ4ATEOEKB7F63YYCN7VH3CO5BVBZA"/>
+      <archive extract="ffmpeg-3.4.1-win32-static" href="https://ffmpeg.zeranoe.com/builds/win32/static/ffmpeg-3.4.1-win32-static.zip" size="42834682" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=8d9516ec9cf128504df6904102ecdae237780712" released="2018-02-25" stability="stable" version="3.4.2">
+      <manifest-digest sha256new="B4R6R5XEEB3WMCCO4B2SC6WI3HY34RXCBHMEYMTAQJXKWYR44MWQ"/>
+      <archive extract="ffmpeg-3.4.2-win64-static" href="https://ffmpeg.zeranoe.com/builds/win64/static/ffmpeg-3.4.2-win64-static.zip" size="52505234" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=c86ae69ce6028621a5c412555dddda1f6f8c3bd0" released="2018-02-25" stability="stable" version="3.4.2">
+      <manifest-digest sha256new="JHVROURGCSZMNS3F65ZBRI2PN2C5X4H6QBRVUDKV6OO2BOKORCEA"/>
+      <archive extract="ffmpeg-3.4.2-win32-static" href="https://ffmpeg.zeranoe.com/builds/win32/static/ffmpeg-3.4.2-win32-static.zip" size="45708063" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=c4382e519be6b67805878c2c29da0f33924fe4e3" released="2017-10-16" stability="stable" version="3.4">
+      <manifest-digest sha256new="2DAOZGQQUOIPDT4BCIONB6VDOIFJ5W2U2HPG5ARF74C6S5OXSGGQ"/>
+      <archive extract="ffmpeg-3.4-win64-static" href="https://ffmpeg.zeranoe.com/builds/win64/static/ffmpeg-3.4-win64-static.zip" size="45858775" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=244cf2f124dec53e8b05733c58e1231ae369a23a" released="2017-10-16" stability="stable" version="3.4">
+      <manifest-digest sha256new="IUXVZ6F6NM4Z4ZX7GSIKIWWH7T2CPBNXW5M66RHQ27YK3VMQNDOA"/>
+      <archive extract="ffmpeg-3.4-win32-static" href="https://ffmpeg.zeranoe.com/builds/win32/static/ffmpeg-3.4-win32-static.zip" size="42756392" type="application/zip"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="ffmpeg" command="run"/>
@@ -66,11 +106,11 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJZXpMTAAoJECLqERp+QkKkb7QH/jfalViDVNFpzARGJwIykHrzmFGsk+cBB89z
-LDMUpXaPHIDjc+t12Tguyf1d1Dl7WgNcLN8bVf6NlQxAmavKuxfU7NLrZgQwPxxGY48w+0hiCPKI
-AeRXLHb1WD5hoA7kqx/6DXBQonqHgHudtXx3pxixsJoZyvKwzRonbtNcXBaLWN0gUhAsoY68Wam0
-1qHkVtu7/Drf3X58rf9DkDqtMTAknsWpRYV7B+MrZo7XNmzscbQSkNdn0bVKiwUdQiLS8sgwnYuA
-xicOihEa+Mmq6qZrLVqJRixTvBJ5T3BokaeFvn44ByuV6rtiEZ960Ji1uFKG4aMT+1nJnVSgHhVY
-H1s=
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlq2PwsACgkQIuoRGn5CQqTN1ggAgzvK
+1Tu7JC3jduozz6h0G3nv2wJZhfIUiy0OS3eMMWDpVzaSUyByVqfB6M4UEG2aC981cvbNUq5jEYiB
+wYPoDvPbzyF6y8MZ0PMzTShyyiIEDRVtwdkjg0c/W9QBvPHuHX+BFidaNdMqIuNlTCWHNZGS9LMx
+3zDwN70kg1h97ZM6P6bAo3J81xxzL1h0KuAWOvicrCzLLFn/9AZvngIpmoulWQbphHZvbJ7YXReI
+oxsvvOMEn9MgPV0ywxuyysqZBvhFOSOoN7m51rdhUBBqtUpeO1O0zhphkllwuhFiicUA2hthdH+F
+42FU61+IQJuqTdoLH8ABlppmt7P/a4Dmww==
 
 -->

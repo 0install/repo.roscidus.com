@@ -19,6 +19,14 @@
   <group arch="Windows-i486" license="GPL v2 (GNU General Public License)">
     <environment insert="bin" name="PATH"/>
 
+    <implementation id="sha1new=61b698e61eb9bf23696728b205e78890d6af0e7e" released="2010-05-14" stability="stable" version="2.14.7.0">
+      <manifest-digest sha256new="BT5NB2L5NG44KHXJ54WW5GWRBPPX3BIYZ3N4C2NSYCZNCOQAUXRA"/>
+      <archive extract="Gtk" href="http://sourceforge.net/projects/pidgin/files/GTK%2B%20for%20Windows/2.14.7.0/gtk-runtime-2.14.7.0.zip" size="12501641" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=6441750f2b6e64c6f01b9ec337f3aae96ea8a5d2" released="2010-05-13" stability="stable" version="2.16.6.0">
+      <manifest-digest sha256new="LP5IOUOPL3NI7B4PONV7DKAAMDOJIGUPJ56QEXUFBXLOMRU5YUYQ"/>
+      <archive extract="Gtk" href="http://sourceforge.net/projects/pidgin/files/GTK%2B%20for%20Windows/2.16.6.0/gtk-runtime-2.16.6.0.zip" size="10765785" type="application/zip"/>
+    </implementation>
     <implementation id="sha1new=699b232b35649fd9474e84113cddaae3fcf52418" released="2013-02-13" stability="stable" version="2.16.6.1">
       <manifest-digest sha256new="QNDXOYCW6PLKOIL2ETJK63ODY7JIDC4PDXQLKFZPONTNGRCOIRXA"/>
       <archive extract="Gtk" href="https://downloads.sourceforge.net/project/pidgin/GTK%2B%20for%20Windows/2.16.6.1/gtk-runtime-2.16.6.1.zip" size="12110421" type="application/zip"/>
@@ -39,11 +47,11 @@
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJZ0N8TAAoJECLqERp+QkKkvBMIAKVkNqkjxS2B15eX0kaTm6GcnCJJo66duBiD
-UNWbBXMVhZ6C5gMkZ1lu4u7R/xkzF+n4mbIRIHM5xECxifoARZPhCxZmtI/VHP4PlM1n7pvuRzNQ
-7KEgD62gB+5faLyrEAH1dA23H3SyS3e8slY0cWeOARwFVk+3cdOjbe/weprIRfVgQMU4Ji8Ox+iZ
-+EB818KVGtKubmXCs4L+O04g58tS4KoPdobJwi4sFiop1zZd4gZYmgTecqGMZxgJSsa+kxQhnZLB
-+jTyr0t3abeugqVgeiDV51KXegAVvAvOI7ZSivwYdeJ1u9aseK7TybCujVt01LvqGnZyMjOxQ9tB
-5Rg=
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlq2PwwACgkQIuoRGn5CQqSfoggA5/BY
+zr0JSRGAdRmfQxs4rZvyPZ48pdx/EAuLGv2BR7dlNhRJ7GfSd/CTfEuCjZiJQTmsgAxk2segquWI
+NXYB3igp48C6LdNG/0azKZO76yLpTFyUHaZxcbDJAhb2lJRd8A/O6VM3QqDV7kcn7TI4WUC7bMFA
+h4dCBO4nE++7E0mfN7yPxxtxnrKJzJOqO9Zg8f26waX0/f9h8YYOf9HWapDXecefNMUAP6Ff+m05
+w3vL0We60LzcV12spRO13YKR8iB0huhUl6e8NhHquGYw6j5HIE7j5JX2OsQO2e9uClJKQkbJO2XA
+vBe03vDBUlbD4EqNqVPSHpzGHIz3pHXwvQ==
 
 -->
