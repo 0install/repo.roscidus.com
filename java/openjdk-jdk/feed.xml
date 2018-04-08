@@ -15,6 +15,7 @@ IcedTea project.</description>
   <package-implementation distributions="Windows" package="openjdk-7-jdk"/>
   <package-implementation distributions="Windows" package="openjdk-8-jdk"/>
   <package-implementation distributions="Windows" package="openjdk-9-jdk"/>
+  <package-implementation distributions="Windows" package="openjdk-10-jdk"/>
 
   <group>
     <!-- Windows versions of the JDK bundle their own copy of the JRE. On POSIX systems we refer back the regular JRE. -->
@@ -83,11 +84,11 @@ IcedTea project.</description>
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJaPkOvAAoJECLqERp+QkKk+VAIAOaquKsZqmEum9SV80QuezPz39XSQbvpjMoP
-TCfkUoqgzJKf7/AwG1uX2Is3y6PikZSrWK2jVms0L58nuUEK6ikxBU/28/kOxMbNETY0xFOoG/Mi
-PPpj9orLPaF8xIdGwgEz3hyTUf6Awrdha1gZJcWwyEViyBMEOCK+gKa7Dexy50lBXsUwyf6beAID
-hyrVCripfVGO3Ktn0heCJQTaT02j29DevwmRp+eD1zgr6nWIOvs1I8TUSWKxJZ3HCz+AQZAwLham
-Ij4QztwTvcTxmw+9vGM8Az1ne9PSvkPtzk7BRgnxUM7PoJXSfsiIISV8lgZsUCY2FxP5hxO1MJ+6
-YyI=
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlrJ96AACgkQIuoRGn5CQqTliggAjjYo
+bie8pzwCytNEQMyzLLZZQRwCfdHEhywDzgyKg39pri6kGXFfsyVExsm5TTx+J2Dkrfo71ZSuyj48
+meuPItXOSQ7sdyEmiIrW5Ut6m90+YsMNy6peALQ1sZVxMXfh5AimaIQbI3G9WBA2p+hrR0aOoS+t
+zvyrjBe+os+tDfcr+StLFA6/OPtEfFw5XhxSZ/mBLPslM05HHIzhvXKNTFjnwDr4m1iii2mtdFl9
+NZpaS8FmGpZp1T5Amcsdd4bs346GK+RNAyMTa0pG0LANw7jqoowT9xYYOzE42nwBtXX1fevnPRDk
+JbczbJln7aC7B1RpY3fNkS5GzlsB6nowYg==
 
 -->

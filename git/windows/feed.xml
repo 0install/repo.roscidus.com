@@ -12,6 +12,8 @@
 
   <feed-for interface="http://repo.roscidus.com/git/core"/>
 
+  <package-implementation distributions="Windows" package="git"/>
+
   <group license="GPL v2 (GNU General Public License)">
     <requires interface="http://0install.de/feeds/PuTTY.xml">
       <environment insert="plink.exe" mode="replace" name="GIT_SSH"/>
@@ -337,11 +339,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlq2PwEACgkQIuoRGn5CQqRqdAf/VDCC
-aVBLbN/jgxahx29bHbd6UycM6gqgoYjN/fIE4Ds9wFazkM+QrDEtceYjxpqg8x9EpYGEo0Mpk0oL
-LFi0aW5WMAcSKsYNiOEIg2Rfd1PhYNgQxoBluCBpmXMCI1G6JrRF7ZFTWKOhZm3vhkbEYX3VH+wc
-lYkly8v9bnJcslOhw5aDcpmNfRa6BqEf+Kxxpb3sH1wN4eItBHmnXbc1VlGEBZtnUwQwrDkBQi1J
-qDTCx0sRoIkYYp5fiLGA4bs+fojAAogKJ2p7u+JeblOkfjO+OZ15p6VCmSmYohz6xASqIga+MPas
-wMeYHnoRgO7znJ7n07V8tsHPpMpn46OS5Q==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlrJ95AACgkQIuoRGn5CQqSyJAgAhKLv
+FU7DgjHAiVxV2asuWaiSplb90tuuBDHp6ulTbKYXISo3JHf4JsL5wu+t1CURH6lpk2ASWUIRCeeC
+acuGQ7oxg8O0tRp6CCtp8M4djnF4vphl0FDIN84Np1en+02bZ59YfCAQNKk8PQ4tJJGZOcmDmMxq
+YvYR5GHz/rk8DH/GKXvbQUsOvsr1aRXYjV1HbTQfb0NP2oKXw06CPFxGOF1n1caeyY/ZHDmcfx3p
+4Q9ysPt6o3cqkjgeBX4a1jmVWdhC8QesQxdifVTA4JM1/S3o1fenqncBvTRPWeaQ/v+GeE55eEXZ
+us1c3BC0Ro/S+KYOcbTc3z2VXn1EmGBvHg==
 
 -->
