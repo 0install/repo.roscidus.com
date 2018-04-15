@@ -444,16 +444,24 @@
       <manifest-digest sha256new="ED4AGYBWOVZM2K77ZGYG6KELKREQUIWQJRB3MPSMUKPE4WTH7QKA"/>
       <archive href="https://indy.fulgan.com/SSL/openssl-1.0.2n-i386-win32.zip" size="1039076" type="application/zip"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=0177b519b47620a33dce5aa2e0c1e54c8cfd29c3" released="2018-04-11" version="1.0.2-15">
+      <manifest-digest sha256new="3AE5BSC37FEY7R6NCCRRWNNNNZXDK5SNNPKCDJH6DN4WSGSLIMDQ"/>
+      <archive href="https://indy.fulgan.com/SSL/openssl-1.0.2o-x64_86-win64.zip" size="1349108" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=e4102d239a5b31de68e4348ee578d589d13c1f8b" released="2018-04-11" version="1.0.2-15">
+      <manifest-digest sha256new="ORBAIE3FCVAUS4OVKD6JTPJN4J7PZVMH5ALHEGQ3FWXTHXEVZ7GQ"/>
+      <archive href="https://indy.fulgan.com/SSL/openssl-1.0.2o-i386-win32.zip" size="1038855" type="application/zip"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="openssl" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlpqOkMACgkQIuoRGn5CQqSOZwgAxgt6
-PqRdVjFX6bKH72taLtHUCwxAcLwz6xZdr9dqt4Uf2pEX0PddzEelPvNa+tyP7F1198PhLTJPv9UM
-cLd89N8ctUQkWVL8mkQg11MbRNtZF2ixIj+Hgqcd7tshRq9X/lcnbYneJM4zeDnMlEq8FSKRb2ly
-ce4xD5VKNQwAQNEDj9agZhXaVpO4qtJi5Dmto1Cw3VOEEWauwI+/OmTCJomdZ1wA0P+Cxtvg5q0W
-KBiuwGl+mDZOngdmIMQWrlwjCz29oa+TTgMqQPh5rgznjCsJIdX3CHlq2XFrzEBOZFrm5mr+lJJc
-+IbimkJhqf4JkldJbi6bUk68eM0lbYIIeA==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlrTH2AACgkQIuoRGn5CQqSjSAf5Ac5u
+uKFVoV6Gezh/eLinAYSDdJV4MoX2rp5A5cPOaA9MJXoOvbKOPXEVmEHlwHbu/wCWFCMzOyeHEw7+
+uwQQLQdBmWKhob/B4O54c5P3LX4owSyPO7kqKuq8tGmfVx2ch8Sk04gzfq6OFjjRRNCDiVtu4z2k
+gbvOeOggpWMaYaAjbrewoVfyZUjYapXkfOi53bDN1p7ibxyMW9b8qrdZwh2J9Sw/QOnSjS9pDTUS
+mnG9I1MwM3dnoFRS9lkTewiN3HXAf/grZ5fye6nVd7LbtsaKEIMj1mPVNYEG3KDhaVa+O18C+jE2
+ChtJr0qRRMXyBaEWTGG2GG4y898KgeO59g==
 
 -->

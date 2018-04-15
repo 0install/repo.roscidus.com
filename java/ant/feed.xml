@@ -123,15 +123,23 @@
       <manifest-digest sha256new="XJM7XXYXROVRTVTO24XC73WHF57IMFH7O7ZMIUVPIUIDDLACG4TA"/>
       <archive extract="apache-ant-1.9.10" href="http://archive.apache.org/dist/ant/binaries/apache-ant-1.9.10-bin.tar.gz" size="5816094" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation id="sha1new=32df4791ba077c19b9340328c1efbe1ac3312e86" released="2018-03-27" stability="stable" version="1.10.3">
+      <manifest-digest sha256new="HXSTUCNCBTRX5OOTQPYZ5JPV242P7JDNF4GRF2B5VX6KZN4HKT7A"/>
+      <archive extract="apache-ant-1.10.3" href="http://archive.apache.org/dist/ant/binaries/apache-ant-1.10.3-bin.tar.gz" size="6078641" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation id="sha1new=56d5bfcbd2ab1fc2ddfbb9618c98db5ac6f705d9" released="2018-03-27" stability="stable" version="1.9.11">
+      <manifest-digest sha256new="4EQZDMDL2P2NU6EMFOO3NFHKCB5KV3MBFA6JGGZMRA6ZS546FW5Q"/>
+      <archive extract="apache-ant-1.9.11" href="http://archive.apache.org/dist/ant/binaries/apache-ant-1.9.11-bin.tar.gz" size="5818302" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
   <entry-point binary-name="ant" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlqJuYEACgkQIuoRGn5CQqQI7wf/TOkR
-0p6u35fuwkqlAj0PAK6YfXF4yk9Ecb7djKLDuaGY6+eQY/zMWj1i4CQpECLvD2qj3diuWX6f4rP9
-tzKoRebUMY8ccfELO56Y4eUjj/WARBV61+Olat/ceJg3fIS0G4aCgHLp0iExqYznmmf6jrifvWbw
-6E4RsX0JUSqvYLOynb2UlGod4XwDesBCEtcV5X1nQYa6urEEGfaN+EqoaPMPjw1QUOiJIvOqvOZb
-3Udy+FlUle8t5SXWE7SeoySrVH+MmgolBcoQ1IGZdR9Ybezol+gvBFBC7ztoKPJz6Vc6tXRluMQS
-PNyI/s5gSo/w+OSqgvDbLMYIDgG6JLRvQg==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlrTH2AACgkQIuoRGn5CQqRrmQgA0MuZ
+9VE8eSein8XKF0E54fly8qsOFZHTJhkW0roY+9A9F00o2SJCckD6oV/satl2Mbnw8NjbwM0FR2TU
+awzkTM6OB/NzKLaHE7BNAtOfdWtKa6OXbelb0FCY1+wxPc3m8K8Mqgrg/XmqsTIXYSVEHqRiiXK+
+Fj+AkOXbSB9M+RfNAABQbe56Mp0cAT6/2TCNPqnpjTGgXq9qF8PxJ1BkfSxw1u2VWwe4EjqIXpNh
+aES/ePpNRAz2/xn+iYYh7srbMOUtk45SP4bUL4E3C5K/xzJTUsuyIdWZERrQBaemKMCv+ElakSvW
+/E6n+JkK16VfqmBLjoy+pkhrBk9fYyJP+w==
 
 -->

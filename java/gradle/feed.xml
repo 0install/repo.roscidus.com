@@ -722,15 +722,23 @@
       <manifest-digest sha256new="CJRE3C6WR5P47HT2KNTWWFLHTCUC7ZSDXUNT5UOM3ZSASIP33LZA"/>
       <archive extract="gradle-4.6" href="https://services.gradle.org/distributions/gradle-4.6-bin.zip" size="74176889" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=f2a24e1ba7eaa89fb2fe9abcc9cfbbbfaa4ac723" released="2018-04-03" stability="testing" version="4.7-rc-1">
+      <manifest-digest sha256new="XW5POEWHLVRF7UXHE4QJOZP7AQSHIDHBWOSDAU7DECMTUAS7QNBQ"/>
+      <archive extract="gradle-4.7-rc-1" href="https://services.gradle.org/distributions/gradle-4.7-rc-1-bin.zip" size="75322312" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=58aa98db9d2a5fee52a53a5bba8010b640ccffaa" released="2018-04-13" stability="testing" version="4.7-rc-2">
+      <manifest-digest sha256new="ANFZPC7TQNLLIPDVVTAMCC447IDGC2DDJ4FYXBDOLSV47GGT3WCA"/>
+      <archive extract="gradle-4.7-rc-2" href="https://services.gradle.org/distributions/gradle-4.7-rc-2-bin.zip" size="75323683" type="application/zip"/>
+    </implementation>
   </group>
   <entry-point binary-name="gradle" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlq2PwsACgkQIuoRGn5CQqSdzggA2DbO
-n627SnvIkTYS4NqFn9PMAisjcrOEVXDV5/K1zKvM4BIMFeR4hXGsiIgVeGQhqdWhAOmOk23rczu7
-jFwg3OZ3jyq35sbBKVwRYSMvqn/yCmd3dzSbdUwLfvqU9mYkEAYqQvXalEmmZ8g518/fOv0X7EPV
-LCFbPcMAzXWBAEhYlNS2F40vMWcjbVztrLXKkq4C53hid3sGUUaRy0CWe1h+yv8vQYfxKMmHez8+
-itkw0Jzi3fikgLp5bu8SOba6QQe0pTpDbwqJdd+Re+oFx9xEqraFib9zqHjd9+cbJ5IMTtaAy8yi
-MbYWiIzdIOEoXgmfyR1qSMuryY6r0KhYww==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlrTH2AACgkQIuoRGn5CQqRoNAgAzCap
+qC38mUSzq6R5fGpZ1qdqWeApW78qbXjoGflwoSVx8WWZZ0nLMfqt1b+1B9qC/XaPPfkO0lmGw/4H
+LaVICfumixagddge2BPhCuBSFs3bEiJK1LYczBk1MQefhrwg30sBisbZk6v1TfPCjoLNwg+SXNtl
+QpWYh0ZtOX/pTIONJX5TmAMO91jVHV76fwQKXU0OMQ8wK/laT/xIGvHgyH0DrpHOVLeGxa6l8M74
+xluYgXFc5orG7ieGcwQMBEORBmb4uN5WgS9+5iODBR5I2g6KkSU1y0ZzdyjNdx7+p9l/GTaB5Jvx
++anJtTXLntfO7ztXvFWzsqM6GS8zmd/H9w==
 
 -->

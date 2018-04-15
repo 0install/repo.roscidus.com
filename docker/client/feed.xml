@@ -280,16 +280,24 @@
       <manifest-digest sha1new="c7c99dae75f26dcaf07373d5d0d19bd3860b5f52" sha256="e054c0b7d01693d96059f85b5557dc49fde9c7da4a47fff505cdb32ad73e903e" sha256new="4BKMBN6QC2J5SYCZ7BNVKV64JH66TR62JJD775IFZWZSVVZ6SA7A"/>
       <archive extract="docker" href="https://download.docker.com/mac/static/edge/x86_64/docker-17.10.0-ce.tgz" size="5993959" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=d5d6f8d3b66cea378d306913ef8ef54901801bac" main="docker.exe" released="2018-03-21" stability="stable" version="18.3.0">
+      <manifest-digest sha256new="KAEBFKSJL7NC23CXSTC26JJDW36AM672Y33TLIH2HRDW4DMHJLCA"/>
+      <archive extract="docker" href="http://repo.roscidus.com/archives/client/docker-18.03.0-ce-win-x86_64.zip" size="10289892" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=c07b4a2071c96e854179c6732235f28dcdf5999d" main="docker" released="2018-03-21" stability="stable" version="18.3.0">
+      <manifest-digest sha256new="33M2WQX5NIYAD3XLLWVPPWZZ2QSLNWU4KHJXGGMCEXRYAQN7Z5UQ"/>
+      <archive extract="docker" href="http://repo.roscidus.com/archives/client/docker-18.03.0-ce-linux-x86_64.tar.gz" size="10402216" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="docker" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJZ/upWAAoJECLqERp+QkKklvUIAPEUdvO0FEEgBsBmczL6GJoRckt8OSINF1qf
-aKRJQIVjYN9hoAJyS7Zd9xToGsk3BEU3GhdYHhLXlcx24dDljuJqoVDTZoSHSNm2yc1yszzoLR5p
-X3xmLhTy4cITCKSuGYmke5HfEYY9kJySPInvuueIIaoc3pDKUpvkFke7T9MXjzyVhYQq1SXy0q7V
-JmgQt5QwqeFCcDErOhBkR9W29psEj+Oh6PAy6RSbGnR9f3aYaW307gSYEeZ/wRYgm93P13AEins0
-noXw9IrAZeXoAiTW7ZkRnoYSV0U63mpeydE05cHilwDdS4klo7KwNWpahFEK8ojQjXuu8rWzWtIy
-low=
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlrTH2IACgkQIuoRGn5CQqRtvggA4CqU
+b4N1dcBzQ4IiRxg9k6u8ov2qBxHtw8JYCIor0I4ocUU1nHn4iE2YkeNbkyKbuiAh+Vgs0k9EiYFp
+2Oct2RkhXJHGqsEVsZvWWlmat33b82omNlE560nAv8+pBCixZfX+f9GMuhwosz4ia41nzcsaihFs
+0X92uU2FLV7h+l/edLIpcYayJbcp3By1jy4hFDqH92OpEvARH0SH2jw5PswG5BUxWPTkCGwFl069
+9KOfH/d8nAebCVGBlddJ3+bG/odQemWnLYMtV0l6+nXUh+DdbKmwpCG2jQMsLH9zOR6olNR3Fs5I
++trgUN4wNq9F5msje3rx0fPHg7jd1pfYvw==
 
 -->
