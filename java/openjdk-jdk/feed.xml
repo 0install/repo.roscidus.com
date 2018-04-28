@@ -27,6 +27,8 @@ IcedTea project.</description>
     </command>
 
     <package-implementation distributions="Debian" main="/usr/bin/javac" package="openjdk-7-jdk"/>
+    <package-implementation distributions="Debian" main="/usr/bin/javac" package="openjdk-8-jdk"/>
+    <package-implementation distributions="Debian" main="/usr/bin/javac" package="openjdk-9-jdk"/>
     <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1_7_0-openjdk-devel"/>
     <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1.7.0-openjdk-devel"/>
     <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1.8.0-openjdk-devel"/>
@@ -84,11 +86,11 @@ IcedTea project.</description>
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlrJ96AACgkQIuoRGn5CQqTliggAjjYo
-bie8pzwCytNEQMyzLLZZQRwCfdHEhywDzgyKg39pri6kGXFfsyVExsm5TTx+J2Dkrfo71ZSuyj48
-meuPItXOSQ7sdyEmiIrW5Ut6m90+YsMNy6peALQ1sZVxMXfh5AimaIQbI3G9WBA2p+hrR0aOoS+t
-zvyrjBe+os+tDfcr+StLFA6/OPtEfFw5XhxSZ/mBLPslM05HHIzhvXKNTFjnwDr4m1iii2mtdFl9
-NZpaS8FmGpZp1T5Amcsdd4bs346GK+RNAyMTa0pG0LANw7jqoowT9xYYOzE42nwBtXX1fevnPRDk
-JbczbJln7aC7B1RpY3fNkS5GzlsB6nowYg==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlrkpHQACgkQIuoRGn5CQqSCZQgA1qJv
+lQS97FQneNHloFEV1V15vbCNYAMufGNpVAO4lTu0wyfrFpy2YZVOO3WngLeGRLK7N+W+0d4h10c6
+INrMBL1rItwE6AtrDxO6udkXRYmocWbGlXFO4ZxpaHhhbIydje5nFJrSRWlxxRNPtlzrl40eZb3Y
+DkCYfrIn69b1Orb9Kg2hn3u4qz4HBu8Z70VenxtJ8YJHOv4kjotmwdBFLUCKMvC3R1s+4tc9xgiW
+S5kT3VQhXcUAajHG0zrDq+nKOJKMwsIuKqOG7T3nWeK5cuCvtaR6OR3LlMnCRGGwXfzRoXqB9m0p
+bcKqcuIqz4Swn9h3EXo2mkp98AScVNEcKg==
 
 -->

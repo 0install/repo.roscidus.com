@@ -6,13 +6,13 @@
   <homepage>http://maven.apache.org/</homepage>
   <category>Development</category>
   <needs-terminal/>
+
   <group license="The Apache Software License, Version 2.0">
-    <environment insert="" mode="replace" name="M2_HOME"/>
-    <environment insert="boot/*" mode="replace" name="CLASSWORLDS_JAR"/>
-    <environment mode="replace" name="CLASSWORLDS_LAUNCHER" value="org.codehaus.plexus.classworlds.launcher.Launcher"/>
     <requires interface="http://repo.roscidus.com/java/openjdk-jdk">
       <environment insert="" mode="replace" name="JAVA_HOME"/>
     </requires>
+    <environment insert="" mode="replace" name="M2_HOME"/>
+    <environment insert="boot/*" name="CLASSPATH"/>
     <command name="run">
       <runner command="java" interface="http://repo.roscidus.com/java/openjdk-jdk">
         <for-each item-from="MAVEN_OPTS" separator=" ">
@@ -21,9 +21,7 @@
         <arg>-Dclassworlds.conf=$M2_HOME/bin/m2.conf</arg>
         <arg>-Dmaven.home=$M2_HOME</arg>
         <arg>-Dmaven.multiModuleProjectDirectory=$MAVEN_PROJECTBASEDIR</arg>
-        <arg>-classpath</arg>
-        <arg>$CLASSWORLDS_JAR</arg>
-        <arg>$CLASSWORLDS_LAUNCHER</arg>
+        <arg>org.codehaus.plexus.classworlds.launcher.Launcher</arg>
       </runner>
     </command>
     <implementation id="sha1new=e788278471bb86db90710c9273998606aa5c4fe5" released="2013-02-23" stability="stable" version="3.0.5">
@@ -98,11 +96,11 @@
   <entry-point binary-name="mvn" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlq2PwsACgkQIuoRGn5CQqSndQgAuKxE
-9Xb60co77nckUZDQ2kMqPxD3k/XBwQa0AK1ZfLNsgOEumd4dz4IlOpZV+ksaG/MW9vArJoKEwRRK
-CuhzKErxhEWFP1T4weCu2uyMZRYcUxsmjj5Gqh9rMn0Yj6Z12+mFs8KN8blAoLnKZMBxV70E+anC
-3+ZYovD0UqLGdndvFm3d7XjeTWxzmYkbbirqp6IHBLhrWFwhr0HWH+FCMuO4/tD8phbue5M4a2Lw
-2L8JJ7HakR5WTIEhYS+mIT09uavXTf7+p7ExX6XdztNkBkyzzNw6yZn4XjKlJAWMUahapBiBpXXF
-++6czMYmfjaraHic29kqpkpFMsKj8B9pRg==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlrkpHMACgkQIuoRGn5CQqRf7Af/T0kc
+k2MFdmUg5FCSQscAxIJUlVKg6TwDeuuNwGuA3fXJWb3AjYpW5dLJkylB9IwK620YlPgzYiuthpUN
+/83Z/SqVvrQQPGmYN7lLAdqsIh24udjeDtxZ8ebp8WKWL2JkcuLVXm7KIXmn4dVe8KlpuMxo4Nb1
+YNLDDZij3B9/Ke3eEeep0B2ws4XXnRXTW/tejuiMMIBA9yywhQDaxXKkG/4BDr/hPy+NRtiLTaIQ
+TdauRYv6bJnX0oKhUp1C5AiTawq+9boST5FQVUItWW+zOTZv6yieFUZ/TjMtIszdno96jzbZgkG9
+Pt9v/cMeGv4FuB0CsqURfgcFUcG4FSKWZQ==
 
 -->

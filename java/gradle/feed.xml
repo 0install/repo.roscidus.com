@@ -6,15 +6,17 @@
   <homepage>http://www.gradle.org/</homepage>
   <category>Development</category>
   <needs-terminal/>
+
   <group license="The Apache Software License, Version 2.0">
-    <environment insert="" mode="replace" name="APP_BASE_NAME"/>
+    <requires interface="http://repo.roscidus.com/java/openjdk-jdk">
+      <environment insert="" mode="replace" name="JAVA_HOME"/>
+    </requires>
+    <environment insert="lib/*" name="CLASSPATH"/>
     <command name="run">
       <runner command="java" interface="http://repo.roscidus.com/java/openjdk-jdk">
         <for-each item-from="GRADLE_OPTS" separator=" ">
           <arg>$item</arg>
         </for-each>
-        <arg>-Dorg.gradle.appname=$APP_BASE_NAME</arg>
-        <arg>-classpath</arg>
         <arg>org.gradle.launcher.GradleMain</arg>
       </runner>
     </command>
@@ -478,6 +480,20 @@
       <manifest-digest sha1new="ad6fe525c68eef7b90137257aa4834b5151774b2" sha256="558be5d4ba11d8dc53470bf02272f55030e87f7c0d76a4b014ee1c51cd9a4a30" sha256new="KWF6LVF2CHMNYU2HBPYCE4XVKAYOQ734BV3KJMAU5YOFDTM2JIYA"/>
       <archive extract="gradle-2.14.1" href="https://services.gradle.org/distributions/gradle-2.14.1-bin.zip" size="45038784" type="application/zip"/>
     </implementation>
+  </group>
+  <group license="The Apache Software License, Version 2.0">
+    <requires interface="http://repo.roscidus.com/java/openjdk-jdk" version="7..">
+      <environment insert="" mode="replace" name="JAVA_HOME"/>
+    </requires>
+    <environment insert="lib/*" name="CLASSPATH"/>
+    <command name="run">
+      <runner command="java" interface="http://repo.roscidus.com/java/openjdk-jdk">
+        <for-each item-from="GRADLE_OPTS" separator=" ">
+          <arg>$item</arg>
+        </for-each>
+        <arg>org.gradle.launcher.GradleMain</arg>
+      </runner>
+    </command>
     <implementation id="sha1new=d3c694a7227761d9cfd077cec31f876ec7dad375" released="2016-06-08" stability="developer" version="3.0-pre-1">
       <manifest-digest sha1new="d3c694a7227761d9cfd077cec31f876ec7dad375" sha256="4b1986236f08380acb35c380e0e6fd2bdcca8c3b66fece30b7403620fb1bb539" sha256new="JMMYMI3PBA4AVSZVYOAOBZX5FPOMVDB3M37M4MFXIA3CB6Y3WU4Q"/>
       <archive extract="gradle-3.0-milestone-1" href="https://services.gradle.org/distributions/gradle-3.0-milestone-1-bin.zip" size="63139051" type="application/zip"/>
@@ -738,11 +754,11 @@
   <entry-point binary-name="gradle" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlrcY8kACgkQIuoRGn5CQqTeBAgAonMM
-Om4YXjl5xuXUgD37Nzp1czFw/MyakAdOtGPDWqQOBUo/FxHQubZx/OxhNP7/ftjtOqn+HI6t9zS9
-/cA1DwZWHGBKVb+PR7cVACubvM+bdQFMsfHTiOu2CxZr7cc4q38r3ZYFRsjX9Pw3hUYkRjffXr0b
-NQdBssFJuq8pJoCq7bUSFgFSxdLjWNRlNqGKqiLwOO8o1oSPA/ecS4R65m+mFTtIKpB5I7NBUdo7
-bL3wqp3BjcKpNLnHaFc85ab3BaZLfUh5ZtzoZ2L3NAcB9kc6pn+c+b0VWK497OHbuL4USo7FLy2T
-GcS++Qv1gM+MBSVKSQ4JKi1QFhKmCqVmAA==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlrkpGsACgkQIuoRGn5CQqRM+AgA5Wmp
+JW4LD+EngjlupClVQavubHf4rxutF+oMRTZo+W0lr3iYkQ8384A2q5HhHXTzuR/W7jPshvHiJY+T
+7OM2Pg0BJSmTpWqtrRTSSw8lZYTNpmTxxqErD0Au8PzsIg0mWDZYlHo8TI18Xl2tIwHNAK+9g/8F
+9JrOr4Oso5kZL2aCx7AnVUbFY5Sx1ooP8tELSqHl/w6QKiJgwfrzfH02zSy7ruwAi+erdL5pWZ1K
+FoPiT/XCBf6giIOOAJHnZxVebIkj3aeS7Z/+Lqx6IgfIioTMHWiGzJ4iYBGQMPTj/C6nUaLU9PKC
+a45WefoIaKADYpRqzQ7AoK2+vAI9q1kjGA==
 
 -->
