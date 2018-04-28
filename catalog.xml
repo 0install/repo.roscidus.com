@@ -261,7 +261,7 @@ provided as separate git* packages.</description><category>Development</category
   </entry-point><entry-point binary-name="sfdp" command="sfdp">
     <needs-terminal/>
     <summary>draws undirected graphs using a 'spring' model and a multi-scale approach</summary>
-  </entry-point></interface><interface uri="http://repo.roscidus.com/kubernetes/kubectl"><name>kubectl</name><summary>controls the Kubernetes cluster manager</summary><description>Command-line client that controls the Kubernetes cluster manager.</description><homepage>https://kubernetes.io/</homepage><entry-point binary-name="kubectl" command="run"/></interface><interface uri="http://repo.roscidus.com/lib/cairo-dev"><name>libcairo2-dev</name><summary>Development files for the Cairo 2D graphics library</summary><description>Cairo is a multi-platform library providing anti-aliased
+  </entry-point></interface><interface uri="http://repo.roscidus.com/kubernetes/helmfile"><name>helmfile</name><summary>deploy Kubernetes Helm Charts</summary><description>helmfile is a declarative spec for deploying Kubernetes Helm Charts.</description><homepage>https://github.com/roboll/helmfile</homepage><entry-point binary-name="helmfile" command="run"/></interface><interface uri="http://repo.roscidus.com/kubernetes/kubectl"><name>kubectl</name><summary>controls the Kubernetes cluster manager</summary><description>Command-line client that controls the Kubernetes cluster manager.</description><homepage>https://kubernetes.io/</homepage><entry-point binary-name="kubectl" command="run"/></interface><interface uri="http://repo.roscidus.com/lib/cairo-dev"><name>libcairo2-dev</name><summary>Development files for the Cairo 2D graphics library</summary><description>Cairo is a multi-platform library providing anti-aliased
 vector-based rendering for multiple target backends.
 
 This package contains the development libraries, header files needed by
@@ -505,11 +505,11 @@ More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
 This package is built from the X.org xproto proto module.</description></interface><interface uri="http://repo.roscidus.com/lib/zlib1g"><name>zlib1g</name><summary>compression library - runtime</summary><description>zlib is a library implementing the deflate compression method found
 in gzip and PKZIP. This package includes the shared library.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlrkpkMACgkQIuoRGn5CQqSQBAgAsRR2
-Q/KyIszsEib2UXRxQUFPL5lvl3k6EEEaaIuQtLLpQG1IlKBQCbkc+fpcVpjtwvKrGLfooBxIvYx3
-x2A8R3aTlGGLp+gtVHnxNMrtzlPki/QLOWvYowXuv4GAUgdb0m6WL0Wu1ShoxPFPpijOJqBJaZTv
-DqQODsDXYHwRxqhXhyy87HZlHcO0pW/djo53vd8307+40frgDaKzliyAHVgXnUKI8nTENL4ba8l9
-1xFT3D/7rmI1UmbqrJqa2qqrMG8HepfJ4MBpBezY0JVVXtxf7gmMCe7JIiwitTIrHxa9/M444/8E
-/vl5mDPvuTQ8EeaNx1O82en1TxrvRrJyfA==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlrkp7wACgkQIuoRGn5CQqQo3wf/apyV
+oh25jPTmLN7nkhM0O0hkdjInDCi2zI0/lvN0DkZGJxqV+zIE8ngO9Qe2yIbx9+4mKNJUUV35c7n1
+kMHVfVZGC1KHdzY2Rhl+7TYih7YahnbHmf59PjSkPY2B4ZcNsWk218IjdTxanE79gTmLYg4ZWw+j
+G07PP3KGPg0iQ3XiQhmhuJEF44PS8yRpaty2sIibtKZ+W5XdVCNU7VDnoSI3QJo2bKX00gqfExLU
+SpcSMoO2RQO44/HjwK1rERapwkfYh5qZO4HjvuqomPMZvx0tcENh/3BcE9W6LjeuGXvOOZj8KGzf
+cdUXdSKcq5jXkonkles9xwgyDxDcFlsbBA==
 
 -->
