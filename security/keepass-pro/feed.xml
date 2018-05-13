@@ -143,6 +143,10 @@ Professional runs on Microsoft .NET 2.0 and Mono 2.6 or newer.</description>
       <manifest-digest sha256new="XKEWNOFNQNH4JEBGFESYNK3S3WIP6ZZDWBC7RZLELZNIWELRURUA"/>
       <archive href="http://downloads.sourceforge.net/keepass/KeePass-2.38.zip" size="3123132" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=49d31b6e0ee67a2a89a719481d2e299fcf2c6d3f" released="2018-05-06" stability="stable" version="2.39">
+      <manifest-digest sha256new="BHWDF2PURW5SUV3XMHAGCQJ4B53FQSBSE6MNRNP4GQSRNBXXM53A"/>
+      <archive href="http://downloads.sourceforge.net/keepass/KeePass-2.39.zip" size="3138365" type="application/zip"/>
+    </implementation>
   </group>
 
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
@@ -154,11 +158,11 @@ Professional runs on Microsoft .NET 2.0 and Mono 2.6 or newer.</description>
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlpqOkMACgkQIuoRGn5CQqTczQf/UTZW
-pwZS7ylrXTL7CsCTcuFhFqpUCzBL0PHcg/vvcXiA8CmgqHFEvzN5Ceh9W+ziuLstUKW5TpSuuWau
-IfJN5BBVlQj3e70zkJAC/5XXfZcrz6VbdrGbgMPkkMzbI1oTc8RwMtY99wJpkiYbQCozXTenPSsL
-ZYHaVhozJ60v3O4+NwdqEQI+mG69wt6R89uxmDwz31pY/FokH1q5mX4py+rupItKEVnZ7wCy7WL+
-k1MNAsT3Z4JkTBYBw4OD4PJeG0ddnzBeKiZ+NwhjzSUfENi/VfiViOMjudRIjlB4pQWVSi3UKfzE
-+T9SP71awzQ+VAoyl6i3BiplVcuXVH6r7g==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlr4DI4ACgkQIuoRGn5CQqTBZQf9H5ey
+aBdJVqreQ0nmR/JJ0UrAl1ms6SY1zYPAI46ARK2PcxKwyvotJ5fJ3b3B2CCsir+hhcXi6evTV2E9
+XmO4lAGF3XEBmYNrAh85Vm9MIKcanOq61Vgv0Y75aOiBBXKPUvjYg3CEOnUD4dGQaBc8fUVwH4TB
+vfspqh/AsCS3eKIeYtr0BDnU3zAWYW7udZfV2XKPvRpbSZNfoHesFHshLs29sdfhAiYzDS+CAfwq
+UVy225VEufc/B8lnKtqRqkKA5F/9q8cZ+Hf6fkk4hQBB0aWCgNqTQuC42Rjt/0NnNFDYrokQrMcI
+mzeLtUK+cdr1ON6I+erf0FXrGpY2zjnsyw==
 
 -->

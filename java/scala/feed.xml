@@ -254,6 +254,10 @@
       <manifest-digest sha256new="MXZ7UFDYUIC4XA3EG3SD7OTPXUQ2RZ2J36V5UPMT5TJQ35LTFASQ"/>
       <archive extract="scala-2.12.5" href="http://www.scala-lang.org/files/archive/scala-2.12.5.tgz" size="20303983" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation id="sha1new=73c5de540fbf8ba37be4e491ca9040adb9726a14" released="2018-04-27" stability="stable" version="2.12.6">
+      <manifest-digest sha256new="RP4LZ3AW576KNQGHGII5I42HO4PZCWHMOPM56UMCFFWEP5ZAJH2A"/>
+      <archive extract="scala-2.12.6" href="http://www.scala-lang.org/files/archive/scala-2.12.6.tgz" size="20327260" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="scala" command="run">
@@ -282,11 +286,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlq2PwsACgkQIuoRGn5CQqShDwf7BMoh
-ZmM+s9cLASMvQVeOXeJzn7yxCHV2R9po62HhEArTD2K/hE0quxcjYH9ajF/kV3G60o52QMfvuNtq
-zIzk4jCUgpxyma0GtKRaSdjjcxQssFXI18DHGXvjBlJZ+p0RcdbFx4+n7aQ8hrEBFCojV+9p3Ux5
-AvztSWSKvWtjPD53ZdikECccv7CBgMjehgdzvIKNtX+fl/Ih/J8Ci28715WllLRkVfL2eQ78vp5U
-n1g/8pcGUhRMzbp/Y+KaSB0Qqoc/h+8rxLPvGMkNcwiJv6sk/+/TOTtJN4yOt4ApaUyXTtFW+o1+
-n79pzPggCNIplJO4sX5rez7V4hHClrKrjQ==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlr4DI4ACgkQIuoRGn5CQqT6OQgAu6/M
+HnsXWpAjqRGorpgFzcFB7OsIQHI9ESD7kRAs7ZbCqVyPBs9RJT0jpnbAiMVLbdawj4VcikJJ3l+p
+TLwV59De9RlJgsh5iG5xRSR38rrJ5blAmor9nnVMBzb480tmm7dVfnPtqzkyAIKk2gonAlIU+HUp
+B3v6MrDer2Uxz9QSgrQ8713xco2JQBgYYqa3UUqizT9NsyhnJ8WkAhtu7db1XwJhuxCWgSxmEm6F
+M49Ziy+udGM57A0yjJTWqArbQPnb9rAPCn4zJwXvmEQA8+EkCnhDtG1Z9xsW6rmM6ob+g/yulifI
+Dt1T4tGEASaq77FuT+u9ft+CLttCbZ5/aw==
 
 -->
