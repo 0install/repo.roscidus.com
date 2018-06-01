@@ -750,15 +750,23 @@
       <manifest-digest sha256new="EZHCIWGW2INHEDWZC7PVB2HQ4B4F7KVT2OKU2MAER7GVVAV4JTKQ"/>
       <archive extract="gradle-4.7" href="https://services.gradle.org/distributions/gradle-4.7-bin.zip" size="75323957" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=871e4b2227b64076db6d7665a6e4172552626a0e" released="2018-05-15" stability="testing" version="4.8-rc-1">
+      <manifest-digest sha256new="KQHQB4AT2D7UKA76ZOVVARRQOV7R7XJTUPUUMOBWNTLNP424U34Q"/>
+      <archive extract="gradle-4.8-rc-1" href="https://services.gradle.org/distributions/gradle-4.8-rc-1-bin.zip" size="75870663" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=1aa6730a364828d33eb29b65cdfc6ad4290debd5" released="2018-05-24" stability="testing" version="4.8-rc-2">
+      <manifest-digest sha256new="DOFIN5W7JWEMRGIZEME3SUMGG4PHW2RZJAQSSWBOXMF45QNUBQXQ"/>
+      <archive extract="gradle-4.8-rc-2" href="https://services.gradle.org/distributions/gradle-4.8-rc-2-bin.zip" size="75888431" type="application/zip"/>
+    </implementation>
   </group>
   <entry-point binary-name="gradle" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlrkpGsACgkQIuoRGn5CQqRM+AgA5Wmp
-JW4LD+EngjlupClVQavubHf4rxutF+oMRTZo+W0lr3iYkQ8384A2q5HhHXTzuR/W7jPshvHiJY+T
-7OM2Pg0BJSmTpWqtrRTSSw8lZYTNpmTxxqErD0Au8PzsIg0mWDZYlHo8TI18Xl2tIwHNAK+9g/8F
-9JrOr4Oso5kZL2aCx7AnVUbFY5Sx1ooP8tELSqHl/w6QKiJgwfrzfH02zSy7ruwAi+erdL5pWZ1K
-FoPiT/XCBf6giIOOAJHnZxVebIkj3aeS7Z/+Lqx6IgfIioTMHWiGzJ4iYBGQMPTj/C6nUaLU9PKC
-a45WefoIaKADYpRqzQ7AoK2+vAI9q1kjGA==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlsRO7wACgkQIuoRGn5CQqR+6wgAiP0/
+94cIbVpsmaiEulqDoVCGQqKVE9dJZbHciTr9cpHM5oyujSIBJ/vBksHULXV4E0ekkyc8jAI/28Y+
+L977uDYQLH0H6bCtyBl+b/F+T2i7/R/aOsH/yi5EqvvZRMbjL/6iTUPwH0Z33ZS885ytW+9bt2Uv
+EPgr7XrWJrrA93SgMPWszppj5587MczZOvOLdOP1MnwU7RA68xCLaZ1VrvridXYuECpYIRur69bF
+5m3HzQ8rWcZa2ABpjip813TDrVAkggB6zGErRwL5jbsUTDg5GPubwgi6fDIGqL2/TD15Qh9nCw4T
+dBZas6HvhvIiaOFZ/2A+3a6Y5f1emARZZA==
 
 -->
