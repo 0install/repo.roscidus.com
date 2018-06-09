@@ -422,9 +422,11 @@ various windowing systems (Tk, Mac, MFC, GTK+, Qt, wxWindows). New built-in
 modules are easily written in C or C++. Python is also usable as an extension
 language for applications that need a programmable interface.</description><icon href="http://0install.de/feed-icons/Python.png" type="image/png"/><icon href="http://0install.de/feed-icons/Python.ico" type="image/vnd.microsoft.icon"/><entry-point binary-name="python" command="run">
     <needs-terminal/>
-    <name>Python command-line interpreter</name>
+    <name xml:lang="en">Python command-line interpreter</name>
+    <name xml:lang="de">Python Befehlszeileninterpreter</name>
   </entry-point><entry-point binary-name="pythonw" command="run-gui">
-    <name>Python GUI interpreter</name>
+    <name xml:lang="en">Python GUI interpreter</name>
+    <name xml:lang="de">Python Grafischer Interpreter</name>
   </entry-point><entry-point binary-name="easy_install" command="easy_install">
     <needs-terminal/>
     <name>Easy Install</name>
@@ -505,11 +507,11 @@ More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
 This package is built from the X.org xproto proto module.</description></interface><interface uri="http://repo.roscidus.com/lib/zlib1g"><name>zlib1g</name><summary>compression library - runtime</summary><description>zlib is a library implementing the deflate compression method found
 in gzip and PKZIP. This package includes the shared library.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlrkp7wACgkQIuoRGn5CQqQo3wf/apyV
-oh25jPTmLN7nkhM0O0hkdjInDCi2zI0/lvN0DkZGJxqV+zIE8ngO9Qe2yIbx9+4mKNJUUV35c7n1
-kMHVfVZGC1KHdzY2Rhl+7TYih7YahnbHmf59PjSkPY2B4ZcNsWk218IjdTxanE79gTmLYg4ZWw+j
-G07PP3KGPg0iQ3XiQhmhuJEF44PS8yRpaty2sIibtKZ+W5XdVCNU7VDnoSI3QJo2bKX00gqfExLU
-SpcSMoO2RQO44/HjwK1rERapwkfYh5qZO4HjvuqomPMZvx0tcENh/3BcE9W6LjeuGXvOOZj8KGzf
-cdUXdSKcq5jXkonkles9xwgyDxDcFlsbBA==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlsbz/UACgkQIuoRGn5CQqREygf8Dv+o
+D+W0s1j/hZ/BzZuFMK7rs5XRrug9VGHcrObadMVqKvxnRZmLIQAH6xp8dDKjj5dwFlrmsEqqK20z
+9xcHODHuTlYNsaeKXis4cz2rSIAo6FuptR/AJ0bHLxM28sh6E25ANfdmdWeKfB/5KudR1BMIh/23
+doNQ+scGCsc2FXNbRLtT/V3Gxwc1IyTxvSAjPdzSoZFKjgygIy2fbjcL3DbjBbkqMnR/JLk+FylD
+UNO36s5EaUc4rw6ESQ8PtpqijCnB7j9+IPLru3aIIL88+KscKQyufIQFQGm/xuIfN5YIGrj8b9ED
+Oh+Pf5C7nGEt9WIr6KgItwg5mCQ/1+BrvA==
 
 -->
