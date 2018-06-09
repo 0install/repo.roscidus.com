@@ -311,16 +311,36 @@
       <manifest-digest sha256new="FI2ZG7APYABSJ3QTC4ZF54BMQZVHIFHAZFIVKK4CKXAQA23I6MUQ"/>
       <file dest="helmfile" executable="true" href="https://github.com/roboll/helmfile/releases/download/v0.18.0/helmfile_darwin_amd64" size="7212032"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=b662253ecb0f187d0c03be600faabb99b224ec82" main="helmfile.exe" released="2018-06-05" stability="stable" version="0.19.0">
+      <manifest-digest sha256new="OISYJCWZL2IQU7JGYAWVSETZPGO3RSTQ55JT5ADKZ2PETC3VKNXQ"/>
+      <file dest="helmfile.exe" href="https://github.com/roboll/helmfile/releases/download/v0.19.0/helmfile_windows_amd64.exe" size="7335936"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=ba52bd7dc5b8633ac78be077775d28b56483d004" main="helmfile.exe" released="2018-06-05" stability="stable" version="0.19.0">
+      <manifest-digest sha256new="FHOQB6RZWJOGIZ34SLQNVOS3LXKWA5HSYAFGBOQ3DJQ6O2OIFN3A"/>
+      <file dest="helmfile.exe" href="https://github.com/roboll/helmfile/releases/download/v0.19.0/helmfile_windows_386.exe" size="6340096"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=7ff7152d15d7598de0853e2ffdd5330d6d7a1c71" main="helmfile" released="2018-06-05" stability="stable" version="0.19.0">
+      <manifest-digest sha256new="CQIWQN3KLGSPBXJB7VFCS7OYL53E54DTR6MW44O5QHPY2XBAWI4A"/>
+      <file dest="helmfile" executable="true" href="https://github.com/roboll/helmfile/releases/download/v0.19.0/helmfile_linux_amd64" size="7238836"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=4a37445da9ced98a231ed2354a2e21ec34ddf997" main="helmfile" released="2018-06-05" stability="stable" version="0.19.0">
+      <manifest-digest sha256new="FIMSX56DNVHHJFJAFDSSRW2ZTGGOCBJ4WXAAUI6PEUQU6M633L2Q"/>
+      <file dest="helmfile" executable="true" href="https://github.com/roboll/helmfile/releases/download/v0.19.0/helmfile_linux_386" size="6239472"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=4c006febf78ade50e9e3946934bbd89eca3055af" main="helmfile" released="2018-06-05" stability="stable" version="0.19.0">
+      <manifest-digest sha256new="KMX7LOKHM53I4VTUPB6BDSHHGQI2Q7PLLHGHRXHD5JXX5YNJKEBA"/>
+      <file dest="helmfile" executable="true" href="https://github.com/roboll/helmfile/releases/download/v0.19.0/helmfile_darwin_amd64" size="7212032"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="helmfile" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlsRO7wACgkQIuoRGn5CQqRmIQgA1lx6
-LknuFvhOYtpHYE/ejwazGkaLUqnU/5w8aEt8ywQhySX7ezaaU3IADnwzFUiO57W8JfvG3sOG6Kmm
-Wdq1vSO01i4ISpcGFpgF1dUqt6L3GJdZY69rAH0GSvHwcxmkG165Ey0YVw1vY04kyhCFXHRAiMUj
-XSms/4SQqZVRLSEx5e+o2yoIgWGJ6SP5ZGX7yvY9gUZ21pnQMYGwyvheI3Rhju50EPOPIz1l+Gty
-HmjLjISzHrrvgVZ0vG5TkSZ1YJwHVRm7qQC4xiTs2AOiRA/fv9Rx9gTUXjBd8lKR+/dRc/CyOgcW
-yumnevK9nvKF9X1JjmIskSkx6jQza5ABkQ==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlsbzoUACgkQIuoRGn5CQqQj9gf/a891
+9/bGKG2ZXcuCZ0BMO46LeoJWc4PZWi9CAnOdyg0n4yAfLWLk1JCSRP/cZG0yc/cZuZi8nMWjnLTP
+0KN86kB4DToNDfzgqPsdKLGb3mI4mYonmRDZt/t4+JpdcE0GyHq6uM6T/kKfC7LhFhT1JJPyjxl/
+MTEb/oT+t7OUwbSbMAF/M2vHbyd2qK/MPKxPQMbobN6vHHU7kfrptm7a4dbbtmUqH+OkXEY8r+eg
+IFQAOlJmshTRhOJ1l30Xp+vKbmJhBG1gpYuct0onrHw/qrA9VLILN1s7PlPvtUJHx43Br8yEE+Oc
+jRcphj/rdn5lL/dKA2ke8FyCJUSlMX61Sg==
 
 -->
