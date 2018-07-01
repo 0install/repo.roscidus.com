@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/unwind" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>libunwind</name>
+  <summary>library to determine the call-chain of a program</summary>
+  <package-implementation distributions="RPM Arch" package="libunwind"/>
+  <package-implementation distributions="Debian" package="libunwind8"/>
+</interface>
+<!-- Base64 Signature
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAls4sekACgkQIuoRGn5CQqRTUwgAqTFn
+MyV4zsOqsUlRyquiNvnaVQOW8xFq1AFD9mZRwFZszIUqVkONbq43wdjRFkvlG4T8I+7IvGmbMBPF
+78j18v7JgbOZO3ypqGDal7OqIniUpWhA1odMjLu5LLbQVmNYTdc2MWEfaQyZqK7tydy4pCHr+Eci
+I5hsDU+jUQh+GA/zEtUV0VuZ9C0JRrXYzsginZVkaVgrYWLvSUugcveMf3Jdz1Yfu46ibMG2260I
+UI8YWdNgX3ueAjI7noiM7bPerKHDDz3r3nAt8TRCKu3T0Zf+qPxJSrVWd3IMvolkATswCbmVNEm4
+lu0iC1tbj4MLbOtyqmTOLMyrNE+sVzjENA==
+
+-->

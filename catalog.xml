@@ -265,7 +265,7 @@ provided as separate git* packages.</description><category>Development</category
 vector-based rendering for multiple target backends.
 
 This package contains the development libraries, header files needed by
-programs that want to compile with Cairo.</description></interface><interface uri="http://repo.roscidus.com/lib/expat1"><name>libexpat1</name><summary>XML parsing C library - runtime library</summary><description>
+programs that want to compile with Cairo.</description></interface><interface uri="http://repo.roscidus.com/lib/curl"><name>libcurl</name><summary>libcurl is designed to be a solid, usable, reliable and portable multi-protocol file transfer library.</summary></interface><interface uri="http://repo.roscidus.com/lib/expat1"><name>libexpat1</name><summary>XML parsing C library - runtime library</summary><description>
 This package contains the runtime, shared library of expat, the C library for
 parsing XML.</description></interface><interface uri="http://repo.roscidus.com/lib/gc"><name>libgc1c2</name><summary>conservative garbage collector for C and C++</summary><description>Boehm's GC is a garbage collecting storage allocator that is
 intended to be used as a plug-in replacement for C's malloc.</description></interface><interface uri="http://repo.roscidus.com/lib/gcc1"><name>libgcc1</name><summary>GCC support library</summary><description>Shared version of the support library, a library of internal subroutines
@@ -359,7 +359,7 @@ The main features of this library are:
   * DER (Distinguish Encoding Rules) encoding
   * no limits for INTEGER and ENUMERATED values
 
-This package contains runtime libraries.</description></interface><interface uri="http://repo.roscidus.com/lib/unwind8"><name>libunwind8</name><summary>library to determine the call-chain of a program</summary></interface><interface uri="http://repo.roscidus.com/lib/xml2"><name>libxml2</name><summary>GNOME XML library</summary><description>XML is a metalanguage to let you design your own markup language.
+This package contains runtime libraries.</description></interface><interface uri="http://repo.roscidus.com/lib/unwind"><name>libunwind</name><summary>library to determine the call-chain of a program</summary></interface><interface uri="http://repo.roscidus.com/lib/xml2"><name>libxml2</name><summary>GNOME XML library</summary><description>XML is a metalanguage to let you design your own markup language.
 A regular markup language defines a way to describe information in
 a certain class of documents (eg HTML). XML lets you define your
 own customized markup languages for many classes of document. It
@@ -507,11 +507,11 @@ More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
 This package is built from the X.org xproto proto module.</description></interface><interface uri="http://repo.roscidus.com/lib/zlib1g"><name>zlib1g</name><summary>compression library - runtime</summary><description>zlib is a library implementing the deflate compression method found
 in gzip and PKZIP. This package includes the shared library.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlsmPRsACgkQIuoRGn5CQqQxzQf/W9Xe
-DOPvD8oYDAjZI3lgB3bjTyOjHfcovlaHrv/ZlxGmUFAK4UzcOaE1wcBMtpW9aW9WnMHlDvDkmgyl
-09mxzAuv+43j1VEH3/jjXN7gOrAbR3uBw47Ui97DwDYIMK00HqGO+kKP/Aic/Nj2vEjmZPOKKl9M
-7YI1lX7KhA9Tf78aumIgAeF+K6rkMX6XlRxjCoMLi6l4n/DuqkVvR4VPl2G8zBqZa1xwRr9yzl8H
-Q7GFiLGV0girOuDsLDQFvsP20o4mWl+o3iGhSCN+PINX2UCJhi3HdEX/vQ3siAcGJdwMrXnsC8i1
-BDI5Gdy4DSXZDfJ1UGsUx5SvYSUjHLErQg==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAls4seoACgkQIuoRGn5CQqQ9Iwf/YqLt
+st9Rpa9U4/dLsaqi7d5SLlTd9y1j66Qhggw4+qcPK0SxPrHhGSUFLXqP9XzHHialh5MhKQNfYLkj
+toUJIQ4SynJWbwx4M4mMRqhpIpXHIFtDkUBWCGyPSr5+d6FzhkG1FCClXwUReGdd3WbxO+KmFC9s
+hMv6YwB19mOQA0v6rfLXWtyGskKaS9itNE0tTPlHK+GYCc4+3wI6ssolwPcU3RFGOCE8pXFngr/I
+yY+UkR/7bknWOPYMFd93DKlUPLp+EB9AvnVSPxgA0nRrd0QCtdU/F2GfdjxCeoUTmolgXsTgX2hU
+6s4LyvYBHUbFD8M+XRd7gw493hmQNWYj1w==
 
 -->

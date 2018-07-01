@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/curl" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>libcurl</name>
+  <summary>libcurl is designed to be a solid, usable, reliable and portable multi-protocol file transfer library.</summary>
+  <package-implementation distributions="RPM" package="libcurl"/>
+  <package-implementation distributions="Debian" package="libcurl3"/>
+  <package-implementation distributions="Arch" package="libcurl-compat"/>
+</interface>
+<!-- Base64 Signature
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAls4sekACgkQIuoRGn5CQqTp5wf/Z/dx
+GJSgPkdBqhtu7T4zEwd3Oy3iX8ZMdSjCTExwsNXLb37y1mpHq7vCIOjU+rQQ1S6DiUsgIuKZLJwv
+RNPeTZGTmWyrgiJPp3axOe0Z3cwiD48yYSD9YmF2M4CEU4AtaIQG4c0H/Jf0Ohqd6kDhpA1I1zei
+Rcs9fYgVpq06i9urCqbc3LuZZJZ4L/LSSTBF1jqi5p6lja5874JUhSSDvEZV3UMs1dwUfgqJHTeC
+Qr+yUx5+pWlGoYySm2atPIUMqEfi4ysncArhVoQUus8vfxpkbQZsgGX98aQou6lQvikV3cmdYkXX
+eCx78GQ1KYdQ5Sjgvffq9zGfG5PiEobHhQ==
+
+-->
