@@ -50,7 +50,7 @@
     </implementation>
     <implementation id="sha1new=23991c6e6cf53d7b401c61aff71575ff326e3bca" released="2014-04-13" stability="stable" version="2.38">
       <manifest-digest sha256new="BFQPX4FKOIBNJRC34KOWGMANFIT3WNZ5N6DXUVDOUEJZMRFYLVYQ"/>
-      <archive extract="release" href="http://www.graphviz.org/pub/graphviz/stable/windows/graphviz-2.38.zip" size="51904518" type="application/zip"/>
+      <archive extract="release" href="https://graphviz.gitlab.io/_pages/Download/windows/graphviz-2.38.zip" size="51904518" type="application/zip"/>
     </implementation>
   </group>
 
@@ -81,11 +81,11 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJZtCOaAAoJECLqERp+QkKkx78H/2mKLXLYyaN6i0n1UnHbyXDO4QucCBeXbulu
-saF57N3rcAYNTZCF22g0+H8omdGgDCqOytPHnAjGGvrfdBogBj1HWes/A5PuBM6U+q/jwsKc0BRU
-EKWkHOA7sdEZ9wNqIHuvd7NLaGqAEEOzU4ZGo7gqPh0uZ8YVB6zAIwZHOzQbei+iq9q+1qSVmkeT
-aav9M1F8KPaDhKvW1VvBok1gqOs0VE1Jblv4ZU3cV2GehoFWwGE0ZtzVbvDulUQT85n6f2xc76w8
-QMYce45X1xe0ipX/eG3N+pgyd1k2PQgXWI14e0pxhy5nvrboKOZ3WPQB1ThCr6O0j+ztTvMpCT/T
-iCM=
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAls4r30ACgkQIuoRGn5CQqT7kgf/c+dr
+kJTk1luLZCH5YMIoKrQuiNpKHFSjl+VwsJqNFjoR+/gVhEPmcuuELBbM0cEW9NKkp8qwTL6En3Fv
+08a/SDY8HS5Qja+zdyphOHDi6j/qiCUl9r+sajOkWoBHTIKyYHEsEZdoF7uJ/OPl9kZj772kE0rk
+xCNNkHrSo7mFOcn4gRgkL1j6E1PQCDV2EusHXCJmSDQOdAV8H+NRtqT7jLVMgjU5fDXL7tMeKkka
+d0nNaVvcEl032DRqV0yNQVZFXMOm4HT24wgO/NbVkL6dNKz+s7e1dyvEAnmcwiqpah3xlXXm7TjT
+ZaVCHDAF8qs17P/pDJzj8AFpWsX35tCFag==
 
 -->
