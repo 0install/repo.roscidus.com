@@ -310,16 +310,24 @@
       <manifest-digest sha256new="6UA4LLCRNE2ZXZE6JK3ZUZMS7UM2DMPWS6XR6H7JGMZBXFCMSIBA"/>
       <file dest="docker-machine.exe" href="https://github.com/docker/machine/releases/download/v0.14.0/docker-machine-Windows-i386.exe" size="23463936"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=3372431b2eaa30938027a18c28eceb29512a1ccb" main="docker-machine.exe" released="2018-06-12" stability="stable" version="0.15.0">
+      <manifest-digest sha256new="MDIIEOXPBUDIXLHE5APOVOY4V6CQGZ2AGECJ2J2I3K5MCSLKL3EA"/>
+      <file dest="docker-machine.exe" href="https://github.com/docker/machine/releases/download/v0.15.0/docker-machine-Windows-x86_64.exe" size="28575232"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=2c97ce368b836b4605d9c93f6665662798f6117c" main="docker-machine.exe" released="2018-06-12" stability="stable" version="0.15.0">
+      <manifest-digest sha256new="LPGJEBSICJUNRLQETB5GOSF6MCBDM4RX4RGMGIJ5KEHWDDDSSVWA"/>
+      <file dest="docker-machine.exe" href="https://github.com/docker/machine/releases/download/v0.15.0/docker-machine-Windows-i386.exe" size="24218112"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="docker-machine" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlq2Pw0ACgkQIuoRGn5CQqQfRAgAgKt+
-zgjbkzzsZs8QBVn+nKl6lp5tSywzUdx1c/uz+4CmpF2ShO317ZThRO2K0nlu6gX/Gjpeudw5fRQa
-/E+0c2DtjM+6+GFm2vFs32FPkTOgwuLQaYH63EUHezdAGWz4ZpQdWCXlKlaNfZFG7Qyr7V0GJ+xF
-kQyFNFIKWu/PgKnMUlKfA5S9yE9t6hj21FKkA22fzQbPPum2tA0hnRRyQ83/0Ws5LDpnPz08FJK/
-YEKY6ImOW4x3YsQNS5da6qUjwXxqEucGKgx5TY+wmYc6biUxO8Ubpfx4bJhkC8s0hIE3V7GDKuUc
-d6Swdd89CbeMjLLmuKptRESC1XIvJ7ppiw==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAls4r+QACgkQIuoRGn5CQqSV4Qf/SjJF
+ptvMeEjSLKKo462T74hsFszRDhsT4Wr4uD3NyyQIgqHxIXv/675+5gp7Uskus+8FW6rXAnGLnooF
+CBLLVLg8kKz72AoVozZg5sjbHivPW2zIjQHmF+BBBbavBeuqddmkzxLSKZ2Vo9cB/0vTpUcFCswn
+9cDq7ZrOdSIr48EV5blQb1m56NBuwY9tMQLWIPf6CpQmkCMaKpSmuq/hFun2QCLbCaSyTnZSFZtf
+p6itCdRjJHIwxNDLye67nWGosSITxy0BTBKFdCaYSnNx9WPluZu/PX/0MD6m3yQv7FaT+EgPs+lM
+ULYzwsdwmv5uxqMkegguFOPh8TVPa5FygQ==
 
 -->

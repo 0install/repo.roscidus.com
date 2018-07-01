@@ -550,16 +550,28 @@
       <manifest-digest sha256new="RDLXLR57VEDCNQWKHBSUCXHDS6E7XBPDNGVCJR3TLQANSEWRNIQQ"/>
       <file dest="docker-compose" executable="true" href="https://github.com/docker/compose/releases/download/1.21.2/docker-compose-Darwin-x86_64" size="6195320"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=faf42ec19b6ec0b9e0c5e48a6b71f33505d76c93" main="docker-compose.exe" released="2018-06-21" stability="testing" version="1.22.0-rc1">
+      <manifest-digest sha256new="N7OBPLT7P2NGCZRSTZN7MX6B2ZIMEHKMHO6AAOUWUI7QEIKPCEMA"/>
+      <file dest="docker-compose.exe" href="https://github.com/docker/compose/releases/download/1.22.0-rc1/docker-compose-Windows-x86_64.exe" size="7564466"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=83541d32fe85eb5c9091343e6456cb8d15e568eb" main="docker-compose" released="2018-06-21" stability="testing" version="1.22.0-rc1">
+      <manifest-digest sha256new="S6ZQG2N3SBBUZCEUAWACRFENSVR4RNT7JDKHRZ34PQBT2GATUCWA"/>
+      <file dest="docker-compose" executable="true" href="https://github.com/docker/compose/releases/download/1.22.0-rc1/docker-compose-Linux-x86_64" size="11745696"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=a4767514456ff4cb157c310a90ecd8d38f28e38a" main="docker-compose" released="2018-06-21" stability="testing" version="1.22.0-rc1">
+      <manifest-digest sha256new="W6WVPDZJXEXNF2XFG757ZY3WPML7UXO5J2YWOZFQDJEB5PLT3XBQ"/>
+      <file dest="docker-compose" executable="true" href="https://github.com/docker/compose/releases/download/1.22.0-rc1/docker-compose-Darwin-x86_64" size="6201489"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="docker-compose" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlr4DJAACgkQIuoRGn5CQqSW6Af+LLHt
-1soZnwNFPuJihHgVik0JNxKBaW6ce32mAwd9ZsY7R9V2RlN02Dqr3PoHe8TrepkfYvGLdjc9gUB1
-/R7Lc1HVNMlTS/c+9THrT/CKs1gdCRjBRbgh+GFY57bL0S2IQ66KUeNl0vLqP959ft9RO1kJovba
-UY0KMu8nSzUCWe+yse9FXgcUSue9iyR/Fjkj2tjK7yw9eRuN+rt9dDsFw9KxGZiCYKQprj8O3GaW
-fD28291opFMsoVCzM5Ul6M+js+xCJS5pY5zYWr8F+Nl4cazojlQzLQJzvWdUjPK9KnB4f/oOh2Mf
-nK38ZMs3uGOv5yuafpfKXZ49fQ1ILZgW6w==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAls4r+UACgkQIuoRGn5CQqQkIQgAr2W/
+nNy/GFu4dGoqMm0tjzN8JaF+c28rx/Xpffc8rptljdRnc6ufS2VRjMvsGUMkM47RD8RFZUQq1/nx
+Hlu3zr2q0fuXNZNfJjBSB3/MbrI5UN8LEy3W5QSLNhuovuWhvKUzf/V+pynFecXMPaCGyoRoSeng
+vSOEMi7PYAJiPnP6OjYEOa0AVGbqAbVYNs5tW/U0ez20zF3B0IsAoj5EB1H0ugXojWka1aWWjjgz
+lZgdWbsmX9m+nL5GkHWcfDqfQrn9Ue4+P2T25sYSNZ+NakTe4NXJ2iBSH1YneRDLQa4Xj6r3EPbG
+us3cxlxqSp8i0IGdD+4FFBF31ulGfZk8Eg==
 
 -->
