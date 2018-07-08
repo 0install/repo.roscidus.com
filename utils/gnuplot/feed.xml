@@ -121,6 +121,14 @@
       <manifest-digest sha256new="MP2ZQFXKN63TRBQJVYGNZU3ZM6IWTZWGNNCMEZWGYOTWSHLQ3IWA"/>
       <archive extract="gnuplot" href="http://downloads.sourceforge.net/gnuplot/gp523-win32-mingw.7z" size="17851901" type="application/x-7z-compressed"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=ee73e47b30098f53f4e606a467047a20c9abb532" released="2018-06-08" stability="stable" version="5.2.4">
+      <manifest-digest sha256new="RELQJ7C34WX7SSCD4ZPR2GDBWJD3QXGKBAEDVCKQVEVVNC4AW3GQ"/>
+      <archive extract="gnuplot" href="http://downloads.sourceforge.net/gnuplot/gp524-win64-mingw_1.7z" size="25295077" type="application/x-7z-compressed"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=90199c6538c6352a95ea4037a510106352804ebf" released="2018-06-08" stability="stable" version="5.2.4">
+      <manifest-digest sha256new="2P26CGK2DGQXHG6O2JUT2YSVJAJHN6UV3S4KDAZJO7BHQ4YWM7NA"/>
+      <archive extract="gnuplot" href="http://downloads.sourceforge.net/gnuplot/gp524-win32-mingw_1.7z" size="25676916" type="application/x-7z-compressed"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="gnuplot" command="run">
@@ -133,11 +141,11 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlr4DI4ACgkQIuoRGn5CQqTcbQgAkjfh
-+G2HV1nIvnO3bOHzieM+T8tCMe/HoKArWT8b35t9chMJDTTFIgpdopzuJ1liKTMa5an4P+XLbIGz
-GTQY3UnRAhSISWFZ+OZSJwWDLPSuj3JJ3GqYW/gxWhIwbFEKLuVsGUbggcKL+1I9xaiSFaa4Jfhs
-N8LT0s4nY8q4wUxhxfd6XKzTBDpUmZ5FaPeFyil4/ZDXHfm8H3zLreKwm0xThile+ygdNjnOnBPi
-N4daIJX0MsjJkvFwhj2uVG0z2GtBuI5+KH7fiHrCyP/7u9z5wo1j7y3bAVK0VVVWHUX7Kpfknfxg
-FYcYZCHHKKelL6IbBNSAld6iygBW+8uxfg==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAltB3HIACgkQIuoRGn5CQqSrKAgA9OPe
+2UuDaQB8pUYkVv3VC7dgzDNR6hDyjgUyW3P3y0V3dgM91b+Qu726f2dvxdgX932b+etdif2OECvG
+ZdFtM6qNLgcRj4yBWS1lxY5D8Qcaj8LtqF4nhbDlUBVBrLknL8fFM4lwCGsXm9zG+XFHgQYfErvJ
+5uqzg+RBIJp6IYWDiVmqRdmUHemeSFreLwQ1MZ+IVW2/fmD5wTE3TLHKVnBIT/a6pd3qnsT6VlBg
+5GWPIVqhZoIlLLM86xRfg2ctCvQnpmHpCucMe8++Y2WiI/bjpH+CH76+44CU62jwNBCZ9O8nUWW2
+l/prbwzBtHdgnOLN0Lgh0ZORjcPDyxW6UQ==
 
 -->
