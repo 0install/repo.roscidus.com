@@ -90,7 +90,15 @@ because it uses IDEA (which is patented worldwide).</description><homepage>http:
     <needs-terminal/>
     <summary>formats Go programs</summary>
     <description>Gofmt formats Go programs. It uses tabs for indentation and blanks for alignment. Alignment assumes that an editor is using a fixed-width font.</description>
-  </entry-point></interface><interface uri="http://repo.roscidus.com/golang/go-darwin"><name>Go - Darwin builds</name><summary>tool for managing Go source code</summary><description>This is a tool for managing Go source code. Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.</description><homepage>https://golang.org/</homepage></interface><interface uri="http://repo.roscidus.com/golang/go-linux"><name>Go - Linux builds</name><summary>tool for managing Go source code</summary><description>This is a tool for managing Go source code. Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.</description><homepage>https://golang.org/</homepage></interface><interface uri="http://repo.roscidus.com/golang/go-windows"><name>Go - Windows builds</name><summary>tool for managing Go source code</summary><description>This is a tool for managing Go source code. Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.</description><homepage>https://golang.org/</homepage></interface><interface uri="http://repo.roscidus.com/java/gradle"><name>Gradle</name><summary>modern open source build tool for continuous delivery</summary><homepage>http://www.gradle.org/</homepage><category>Development</category><entry-point binary-name="gradle" command="run"/></interface><interface uri="http://repo.roscidus.com/java/hsqldb"><name>HyperSQL</name><summary>100% Java Database </summary><description>
+  </entry-point></interface><interface uri="http://repo.roscidus.com/golang/go-darwin"><name>Go - Darwin builds</name><summary>tool for managing Go source code</summary><description>This is a tool for managing Go source code. Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.</description><homepage>https://golang.org/</homepage></interface><interface uri="http://repo.roscidus.com/golang/go-linux"><name>Go - Linux builds</name><summary>tool for managing Go source code</summary><description>This is a tool for managing Go source code. Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.</description><homepage>https://golang.org/</homepage></interface><interface uri="http://repo.roscidus.com/golang/go-windows"><name>Go - Windows builds</name><summary>tool for managing Go source code</summary><description>This is a tool for managing Go source code. Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.</description><homepage>https://golang.org/</homepage></interface><interface uri="http://repo.roscidus.com/google/gcloud"><name>Google Cloud SDK</name><summary>set of tools for Google Cloud Platform</summary><description>The Google Cloud SDK is a set of tools for the Google Cloud Platform. It contains gcloud, gsutil, and bq, which you can use to access Google Compute Engine, Google Cloud Storage, Google BigQuery, and other products and services from the command-line.</description><homepage>https://cloud.google.com/sdk/</homepage><entry-point binary-name="gcloud" command="run">
+    <description>command-line tool for Google Cloud</description>
+  </entry-point><entry-point binary-name="gsutil" command="gsutil">
+    <needs-terminal/>
+    <description>command-line tool for Google Cloud Storage</description>
+  </entry-point><entry-point binary-name="bq" command="bq">
+    <needs-terminal/>
+    <description>command-line tool for BigQuery</description>
+  </entry-point></interface><interface uri="http://repo.roscidus.com/java/gradle"><name>Gradle</name><summary>modern open source build tool for continuous delivery</summary><homepage>http://www.gradle.org/</homepage><category>Development</category><entry-point binary-name="gradle" command="run"/></interface><interface uri="http://repo.roscidus.com/java/hsqldb"><name>HyperSQL</name><summary>100% Java Database </summary><description>
 HSQLDB (HyperSQL DataBase) is an SQL relational database engine written in Java.
 It has a JDBC driver and supports nearly full ANSI-92 SQL (BNF tree format) plus
 many SQL:2008 enhancements. It offers a small, fast database engine which offers
@@ -507,11 +515,11 @@ More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
 This package is built from the X.org xproto proto module.</description></interface><interface uri="http://repo.roscidus.com/lib/zlib1g"><name>zlib1g</name><summary>compression library - runtime</summary><description>zlib is a library implementing the deflate compression method found
 in gzip and PKZIP. This package includes the shared library.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAls4seoACgkQIuoRGn5CQqQ9Iwf/YqLt
-st9Rpa9U4/dLsaqi7d5SLlTd9y1j66Qhggw4+qcPK0SxPrHhGSUFLXqP9XzHHialh5MhKQNfYLkj
-toUJIQ4SynJWbwx4M4mMRqhpIpXHIFtDkUBWCGyPSr5+d6FzhkG1FCClXwUReGdd3WbxO+KmFC9s
-hMv6YwB19mOQA0v6rfLXWtyGskKaS9itNE0tTPlHK+GYCc4+3wI6ssolwPcU3RFGOCE8pXFngr/I
-yY+UkR/7bknWOPYMFd93DKlUPLp+EB9AvnVSPxgA0nRrd0QCtdU/F2GfdjxCeoUTmolgXsTgX2hU
-6s4LyvYBHUbFD8M+XRd7gw493hmQNWYj1w==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAltB3P0ACgkQIuoRGn5CQqStewgAr5dK
+3JCE+k1dtQql1sjtGICPh5Nil2snRQV0HaxXV1ch1Ci0t8aHgOR6/RrqsGY6PA4gzQhqn18EUDZL
+OXSouKm6tIkNW6wE+Xw0d3BxzNLQcgLPEYMDDy8P0pytOOcB6IAIAB6ES8TtSq8aU3mWdiEe5Mm4
+uDWNkY3zKwqMgZ3OPNeaqjrWdHjdiJKqEvz+FnQN+GlXB62Io/0/zqy2Wcp/4bCEsszuUb1sFtld
+BHroWA4BOVnhQHD92mgB44jgMcSVZyIcdheiNVv38+BFqO+OPsxBRJrP56F05ddGwpc1PXJ7tSdt
+Rx+di+6y2LVL3mbYWWY71EnmS5VPA7JQ0g==
 
 -->
