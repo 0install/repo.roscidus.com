@@ -121,13 +121,13 @@
       <manifest-digest sha256new="MP2ZQFXKN63TRBQJVYGNZU3ZM6IWTZWGNNCMEZWGYOTWSHLQ3IWA"/>
       <archive extract="gnuplot" href="http://downloads.sourceforge.net/gnuplot/gp523-win32-mingw.7z" size="17851901" type="application/x-7z-compressed"/>
     </implementation>
-    <implementation arch="Windows-x86_64" id="sha1new=ee73e47b30098f53f4e606a467047a20c9abb532" released="2018-06-08" stability="stable" version="5.2.4">
-      <manifest-digest sha256new="RELQJ7C34WX7SSCD4ZPR2GDBWJD3QXGKBAEDVCKQVEVVNC4AW3GQ"/>
-      <archive extract="gnuplot" href="http://downloads.sourceforge.net/gnuplot/gp524-win64-mingw_1.7z" size="25295077" type="application/x-7z-compressed"/>
+    <implementation arch="Windows-x86_64" id="sha1new=12a9eac3893fe4cd57e59fe2f39698a9831aac5c" released="2018-06-08" stability="stable" version="5.2.4-2">
+      <manifest-digest sha256new="5CTPYRQUFVIRI7ULHLKGENBKIKAIEUW4ONKWTOXPPHORI4YFOCCQ"/>
+      <archive extract="gnuplot" href="http://downloads.sourceforge.net/gnuplot/gp524-win64-mingw_2.7z" size="25242872" type="application/x-7z-compressed"/>
     </implementation>
-    <implementation arch="Windows-i486" id="sha1new=90199c6538c6352a95ea4037a510106352804ebf" released="2018-06-08" stability="stable" version="5.2.4">
-      <manifest-digest sha256new="2P26CGK2DGQXHG6O2JUT2YSVJAJHN6UV3S4KDAZJO7BHQ4YWM7NA"/>
-      <archive extract="gnuplot" href="http://downloads.sourceforge.net/gnuplot/gp524-win32-mingw_1.7z" size="25676916" type="application/x-7z-compressed"/>
+    <implementation arch="Windows-i486" id="sha1new=2570d36e11bcc3f3c0529031ab733549630e40fe" released="2018-06-08" stability="stable" version="5.2.4-2">
+      <manifest-digest sha256new="YFLI4TLGPG5YRKQ547VJQIQXQPGA6XDKOLOXOAWR6BBVVM6FGYLQ"/>
+      <archive extract="gnuplot" href="http://downloads.sourceforge.net/gnuplot/gp524-win32-mingw_2.7z" size="25655100" type="application/x-7z-compressed"/>
     </implementation>
   </group>
 
@@ -141,11 +141,11 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAltB3HIACgkQIuoRGn5CQqSrKAgA9OPe
-2UuDaQB8pUYkVv3VC7dgzDNR6hDyjgUyW3P3y0V3dgM91b+Qu726f2dvxdgX932b+etdif2OECvG
-ZdFtM6qNLgcRj4yBWS1lxY5D8Qcaj8LtqF4nhbDlUBVBrLknL8fFM4lwCGsXm9zG+XFHgQYfErvJ
-5uqzg+RBIJp6IYWDiVmqRdmUHemeSFreLwQ1MZ+IVW2/fmD5wTE3TLHKVnBIT/a6pd3qnsT6VlBg
-5GWPIVqhZoIlLLM86xRfg2ctCvQnpmHpCucMe8++Y2WiI/bjpH+CH76+44CU62jwNBCZ9O8nUWW2
-l/prbwzBtHdgnOLN0Lgh0ZORjcPDyxW6UQ==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAltLORcACgkQIuoRGn5CQqR2sAf/WQZ0
+4iI3qeG7woZhg9d1c1fsRYauGrbJec+Q9FhOEOQdsGWwkun7mjuiomy3BtZSyyJq+dEJLzsXcQh8
+BoA3Oj11AGb5XLBGFW5xMg/xFxKGRMZykt8tRAnHzldHcTdY+CVqm78MxQ+JtQNWymGkK21qLW/5
+saqD2a3qNGVsHz0anc0o2gtmLFWjJ61sHO554eLYBVbgDak2ULKljlVfacnGwVZZ+aCgEWxZPAMs
+mQeryEFN9mMpSwuT8uH8+9O6V1QzM13q7JvAnJFe7KiBU5Ldo9U1QZLVKhrsgD9dfXMSSyt7zFft
+gLLhoAO11BkNFAscJneGsdHKd0UA7OAjWQ==
 
 -->
