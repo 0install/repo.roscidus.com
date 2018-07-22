@@ -119,7 +119,7 @@ Professional runs on Microsoft .NET 2.0 and Mono 2.6 or newer.</description><hom
     <needs-terminal/>
     <name>Node Package Manager</name>
     <summary>package manager for JavaScript</summary>
-  </entry-point></interface><interface uri="http://repo.roscidus.com/ocaml/ocaml-runtime"><name>OCaml runtime</name><summary>ML language implementation with a class-based object system</summary><description>OCaml is a general purpose industrial-strength programming language with an emphasis on expressiveness and safety. Developed for more than 20 years at Inria it benefits from one of the most advanced type systems and supports functional, imperative and object-oriented styles of programming.
+  </entry-point></interface><interface uri="http://repo.roscidus.com/dotnet/nuget"><name>NuGet</name><summary>the package manager for .NET</summary><icon href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/NuGet_project_logo.svg/1024px-NuGet_project_logo.svg.png" type="image/png"/><category>Development</category><entry-point binary-name="nuget" command="run"/></interface><interface uri="http://repo.roscidus.com/ocaml/ocaml-runtime"><name>OCaml runtime</name><summary>ML language implementation with a class-based object system</summary><description>OCaml is a general purpose industrial-strength programming language with an emphasis on expressiveness and safety. Developed for more than 20 years at Inria it benefits from one of the most advanced type systems and supports functional, imperative and object-oriented styles of programming.
 
     This is the runtime package. It contains the bytecode interpreter (ocamlrun) and the toplevel (ocaml), which allows dynamic linking. It also includes the standard library, plus the Dynlink, Bigarray, Str and Unix extra libraries. Note: only changes to the last version component are binary compatible (e.g. 4.00.1 and 4.00.2 are compatible with each other, but not with 4.01.0).</description></interface><interface uri="http://repo.roscidus.com/security/openssl"><name>OpenSSL</name><summary>command-line toolkit for TLS and SSL protocols</summary><description>OpenSSL is a robust, commercial-grade, and full-featured toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols.</description><homepage>https://www.openssl.org/</homepage><category>Utility</category><entry-point binary-name="openssl" command="run"/></interface><interface uri="http://repo.roscidus.com/games/openttd"><name>OpenTTD</name><summary>Open Source clone of Transport Tycoon Deluxe</summary><description>
 OpenTTD is an open source clone of the Microprose game &quot;Transport Tycoon
@@ -515,11 +515,11 @@ More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
 This package is built from the X.org xproto proto module.</description></interface><interface uri="http://repo.roscidus.com/lib/zlib1g"><name>zlib1g</name><summary>compression library - runtime</summary><description>zlib is a library implementing the deflate compression method found
 in gzip and PKZIP. This package includes the shared library.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAltB3P0ACgkQIuoRGn5CQqStewgAr5dK
-3JCE+k1dtQql1sjtGICPh5Nil2snRQV0HaxXV1ch1Ci0t8aHgOR6/RrqsGY6PA4gzQhqn18EUDZL
-OXSouKm6tIkNW6wE+Xw0d3BxzNLQcgLPEYMDDy8P0pytOOcB6IAIAB6ES8TtSq8aU3mWdiEe5Mm4
-uDWNkY3zKwqMgZ3OPNeaqjrWdHjdiJKqEvz+FnQN+GlXB62Io/0/zqy2Wcp/4bCEsszuUb1sFtld
-BHroWA4BOVnhQHD92mgB44jgMcSVZyIcdheiNVv38+BFqO+OPsxBRJrP56F05ddGwpc1PXJ7tSdt
-Rx+di+6y2LVL3mbYWWY71EnmS5VPA7JQ0g==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAltURlMACgkQIuoRGn5CQqRvoQgAuVSi
+Ku9xVSppxHD40b1z0N5MDc6rsJ0tMynyA9DSgT1GuoQiEFft0/vDppd7lAI5IUH5EyYF0BIeSj2k
+WUwfKe89qWUAMYhN+CoZJCVg+CXjCKbwifRtPPmXHhg8vRznnWM5PDjtgOaAZH8lvlSEISNZzRdt
+EWdo4IBnjsYPj+dY01TFKj1dgmXPi/gUGlMaC8WXH2merrAbKWS02q6qcZZdALng5DwPx//GGajj
+cK3Xb3bJPOXsVpxDkTDLAtGOB5y39J5Z00wA2lcLdi1OsSvswqF18lWTJUrImTgJNf8GZS5QI/vD
+eqdUsdLj+aTZ+fZ74SYw5E3W9sS72e8z5A==
 
 -->
