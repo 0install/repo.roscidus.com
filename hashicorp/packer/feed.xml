@@ -218,6 +218,14 @@
         <manifest-digest sha256new="CY5QNE7OFDYLVWAQOS47M7K6JTNUD2Q6IUWF3B7QP7TWUCYXRNIQ"/>
         <archive href="https://releases.hashicorp.com/packer/1.2.4/packer_1.2.4_darwin_amd64.zip" size="19033721" type="application/zip"/>
       </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=dbc7cf53965c970562cd3f07256e154f1ed24cbc" released="2018-07-20" stability="stable" version="1.2.5">
+        <manifest-digest sha256new="O3DUINQSIQFNQW5B4GB7VYLHWNOQE7D2H65GSFCFGHRZUD2Y3H3A"/>
+        <archive href="https://releases.hashicorp.com/packer/1.2.5/packer_1.2.5_linux_amd64.zip" size="19436507" type="application/zip"/>
+      </implementation>
+      <implementation arch="Darwin-x86_64" id="sha1new=5d634249b203be35b291157a4db0dc8589d56a25" released="2018-07-20" stability="stable" version="1.2.5">
+        <manifest-digest sha256new="EXO6OVT2GMK7D4Z2A5JQYB3SZG7JCQG4WBYOUOVCOYUZST6MFR6Q"/>
+        <archive href="https://releases.hashicorp.com/packer/1.2.5/packer_1.2.5_darwin_amd64.zip" size="19352311" type="application/zip"/>
+      </implementation>
     </group>
     <group>
       <command name="run" path="packer.exe"/>
@@ -325,17 +333,21 @@
         <manifest-digest sha256new="E2GG5IBRGTJBXBOII5G2Y3NR3EFPTPCIBXAA3ELFLXMKH6KOWM3Q"/>
         <archive href="https://releases.hashicorp.com/packer/1.2.4/packer_1.2.4_windows_amd64.zip" size="18967336" type="application/zip"/>
       </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=60e59662bad5b8020a601421201b9913c647b1d6" released="2018-07-20" stability="stable" version="1.2.5">
+        <manifest-digest sha256new="SSEQQHJYLWGCOYOAXYOAN3FDWLCVKOSYLGWACRZMDXIFJVMFUIWQ"/>
+        <archive href="https://releases.hashicorp.com/packer/1.2.5/packer_1.2.5_windows_amd64.zip" size="19278206" type="application/zip"/>
+      </implementation>
     </group>
   </group>
 
   <entry-point binary-name="packer" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlsmPRQACgkQIuoRGn5CQqRBogf+Mxl9
-IpdmO02+P4OlpPHg7YIqGcYpQWhqzT8ZBbtk9oaoDGrGarg6jGqiBGGx/5gpJKjG6cPNdh8i1Rid
-ZNNHCsEiTo4h2PHZOeWSsNsNEYRgzgDJbSp86jDK9CMhJBm/KU7JXbZl6EmQ1Bzevn8Qc71TLbDq
-2jtAaT8QJAlBuyGifqz579BziGpsqkm5xPoTLhWKAspLHainmbOxra/cnJdOjhmmch80RP3VRr8D
-TidkBnhlXMUkbyrLB/jZDUfEWwPFZqpbf+LxbzSqbLOZcCk4R/afivg3yBMR+E9R0LOLGhFYwSIs
-BnMnerW5bIUki7OEq/xVmdXzkSiKgmatwQ==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAltURuUACgkQIuoRGn5CQqTPwwf/RpME
+NLqtAiKpq1HnCnkNX9D8crNEMoQTCb1cgMT0y/7jXRUab3RUVNS9Jn/THAo5tQuW9oaKJgPQGK3N
+uW6KsQDhy0YfSMF/qRmyUO9bRp9pWTzsFspqMHZwHI/XSJTGzhduKyIul+yvicJ7mqXCOnVTEAb7
+EerFEC3uhpTtm1Eo8E3hz+kpZmc5VYQjqMOVPPfMr7Vcgz5U/Jw+Y+Hlq6EmHZ20PIXQ22QRU/oC
+FJQycr5ZzK4WBZDtz4g/lGx22wRUPkWJS6zvX33r6y/aQjzqe+geuDHyd4KJkNZDw3X63Ge5xyPL
+goeMo1pw9hnksuZciE7ubZ5/DXN7ZhLKPA==
 
 -->
