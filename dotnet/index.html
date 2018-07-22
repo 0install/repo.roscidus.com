@@ -1,10 +1,30 @@
 <!DOCTYPE html>
-<!-- saved from url=(0029)http://repo.roscidus.com/dotnet/ -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<html>
+  <head>
     <title>repo.roscidus.com: .NET</title>
   </head>
+
   <body>
     <h1>repo.roscidus.com: .NET</h1>
+
+    <h2>Command-line tools</h2>
+
+    <h3>Available feeds</h3>
+    <ul>
+      <li><a href="http://repo.roscidus.com/dotnet/nuget">NuGet</a></li>
+      <li><a href="http://repo.roscidus.com/dotnet/nant">NAnt</a></li>
+    </ul>
+
+    <h3>Samples</h3>
+
+    <p>To add <code>nuget</code> (.NET Package Manager) to your <code>PATH</code>:</p>
+    <pre>      $ 0alias nuget http://repo.roscidus.com/dotnet/nuget
+    </pre>
+
+    <p>To add <code>nant</code> (free .NET build tool) to your <code>PATH</code>:</p>
+    <pre>      $ 0alias nant http://repo.roscidus.com/dotnet/nant
+    </pre>
+
 
     <h2>.NET Core</h2>
 
@@ -37,7 +57,6 @@
       <li><a href="http://repo.roscidus.com/dotnet/framework">.NET Framework</a></li>
       <li><a href="http://repo.roscidus.com/dotnet/framework-client-profile">.NET Framework Client Profile</a></li>
       <li><a href="http://repo.roscidus.com/dotnet/ironpython">IronPython</a></li>
-      <li><a href="http://repo.roscidus.com/dotnet/nant">NAnt</a></li>
     </ul>
 
     <h3>Samples</h3>
@@ -77,12 +96,8 @@
 
     <p>To use IronPython (Python implementation running on the CLR) as the runner in a feed:</p>
     <pre>      &lt;command name="run" path="myapp.py"&gt;
-        &lt;runner interface="http://repo.roscidus.com/ruby/python"/&gt;
+        &lt;runner interface="http://repo.roscidus.com/dotnet/ironpython"/&gt;
       &lt;/command&gt;
-    </pre>
-
-    <p>To add <code>nant</code> (free .NET build tool) to your <code>PATH</code>:</p>
-    <pre>      $ 0alias nant http://repo.roscidus.com/dotnet/nant
     </pre>
 
 </body></html>
