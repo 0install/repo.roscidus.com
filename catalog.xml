@@ -224,7 +224,33 @@ bash.sourceforge.net/).</description><homepage>http://www.gnu.org/software/bash/
     authentication (Basic, Digest, NTLM, Negotiate, kerberos...), file
     transfer resume, proxy tunneling and a busload of other useful
     tricks.
-  </description><category>Network</category><category>Utility</category><entry-point binary-name="curl" command="run"/></interface><interface uri="http://repo.roscidus.com/lib/curl3-gnutls"><name>curl3-gnutls</name><summary>Multi-protocol file transfer library (GnuTLS)</summary><description>libcurl is designed to be a solid, usable, reliable and portable
+  </description><category>Network</category><category>Utility</category><entry-point binary-name="curl" command="run"/></interface><interface uri="http://repo.roscidus.com/utils/chocolatey"><name>chocolatey</name><summary>package manager for Windows</summary><description>Chocolatey is a package manager for Windows (like apt-get but for Windows). It was designed to be a decentralized framework for quickly installing applications and tools that you need. It is built on the NuGet infrastructure currently using PowerShell as its focus for delivering packages from the distros to your door, err computer.</description><icon href="https://chocolatey.org/content/packageimages/chocolatey.0.10.11.png" type="image/png"/><homepage>https://chocolatey.org/</homepage><entry-point binary-name="choco" command="run"/><entry-point binary-name="RefreshEnv" command="refresh-env">
+    <needs-terminal/>
+    <name>Refresh Environment</name>
+    <summary>read environment variables from registry and set session variables to these values</summary>
+  </entry-point><entry-point binary-name="chocolatey" command="chocolatey">
+    <needs-terminal/>
+    <name>chocolatey</name>
+    <summary>alias for 'choco'</summary>
+  </entry-point><entry-point binary-name="cinst" command="install">
+    <needs-terminal/>
+    <summary>installs packages from various sources</summary>
+  </entry-point><entry-point binary-name="cuninst" command="uninstall">
+    <needs-terminal/>
+    <summary>uninstalls a package</summary>
+  </entry-point><entry-point binary-name="cup" command="upgrade">
+    <needs-terminal/>
+    <summary>upgrades packages from various sources</summary>
+  </entry-point><entry-point binary-name="clist" command="list">
+    <needs-terminal/>
+    <summary>lists remote or local packages</summary>
+  </entry-point><entry-point binary-name="cpack" command="pack">
+    <needs-terminal/>
+    <summary>packages up a nuspec to a compiled nupkg</summary>
+  </entry-point><entry-point binary-name="cpush" command="push">
+    <needs-terminal/>
+    <summary>pushes a compiled nupkg</summary>
+  </entry-point></interface><interface uri="http://repo.roscidus.com/lib/curl3-gnutls"><name>curl3-gnutls</name><summary>Multi-protocol file transfer library (GnuTLS)</summary><description>libcurl is designed to be a solid, usable, reliable and portable
 multi-protocol file transfer library.
 
 SSL support is provided by GnuTLS.
@@ -515,11 +541,11 @@ More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
 This package is built from the X.org xproto proto module.</description></interface><interface uri="http://repo.roscidus.com/lib/zlib1g"><name>zlib1g</name><summary>compression library - runtime</summary><description>zlib is a library implementing the deflate compression method found
 in gzip and PKZIP. This package includes the shared library.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAltURlMACgkQIuoRGn5CQqRvoQgAuVSi
-Ku9xVSppxHD40b1z0N5MDc6rsJ0tMynyA9DSgT1GuoQiEFft0/vDppd7lAI5IUH5EyYF0BIeSj2k
-WUwfKe89qWUAMYhN+CoZJCVg+CXjCKbwifRtPPmXHhg8vRznnWM5PDjtgOaAZH8lvlSEISNZzRdt
-EWdo4IBnjsYPj+dY01TFKj1dgmXPi/gUGlMaC8WXH2merrAbKWS02q6qcZZdALng5DwPx//GGajj
-cK3Xb3bJPOXsVpxDkTDLAtGOB5y39J5Z00wA2lcLdi1OsSvswqF18lWTJUrImTgJNf8GZS5QI/vD
-eqdUsdLj+aTZ+fZ74SYw5E3W9sS72e8z5A==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAltcGU4ACgkQIuoRGn5CQqRbpggAj5md
+HP0vBtgQ5ZosgXTiPuz9wPVBkHQjLSINawRLJyxkFAvYI3rjF00xjl6l0PvY5tkVNueUN4sVRtST
+4E9xvOVryjqVU5jQYJunaaglyq2SHiIFLwROp35ruCFGNu2YgLUZeqa/kA2CJV7JO6kOX9N+WnYK
+0SxR8ukIBRTuwSMVgBuRg6qP4k3WUe3RQ9JPPwZlUCvc4YIvnSMkNbDkZLyBQ05ABwZOzLISFhWP
+YXBTi/lLGBMFSE3kvtO4pFlrRdwtxzHOpGFlop2r/ye9VwNxZ7SMgGLCMC2/M/c+Qx5yVgCCGyzL
+WMaxFqsGZJgLgHUCmKtH9CjeWVVLts5HbQ==
 
 -->
