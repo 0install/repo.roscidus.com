@@ -305,6 +305,30 @@
       <manifest-digest sha256new="7ZHF6OUSNC6ZAGH5EU3R7F4O47YFU4A3PKUERQYQGQ5BYHQNJSIA"/>
       <archive extract="google-cloud-sdk" href="https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-209.0.0-windows-x86.zip" size="108784724" type="application/zip"/>
     </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=eaf0ffb09db8f5318344e479b2c97fe39f537bd6" released="2018-07-31" stability="stable" version="210.0.0">
+      <manifest-digest sha256new="J7S6WXIQVCSNYNEJSR27LCLOG5WVDDSFNTFXI3K5JPCQFZ5LJSGA"/>
+      <archive extract="google-cloud-sdk" href="https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-210.0.0-linux-x86_64.tar.gz" size="20646104" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=dbb74b2102c283a9f1eacd927aacd9da9ae64fb3" released="2018-07-31" stability="stable" version="210.0.0">
+      <manifest-digest sha256new="5QEY77F6W7ZLHBR5AVJBKH5PDMLWXHZ7XGEOUZZ5SACR2TIKL24Q"/>
+      <archive extract="google-cloud-sdk" href="https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-210.0.0-linux-x86.tar.gz" size="20234182" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=509ddc2092609f0df8cc2a3087c4f5b42303d675" released="2018-07-31" stability="stable" version="210.0.0">
+      <manifest-digest sha256new="2HGFF4CPXQHOLSBX6AJ7UPZRD5IVET5QV3JM5MQPCP57NZIPKRJQ"/>
+      <archive extract="google-cloud-sdk" href="https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-210.0.0-darwin-x86_64.tar.gz" size="16707925" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-i486" id="sha1new=50d04df9c28f1c7b4a5c2941a4717eeb688cace5" released="2018-07-31" stability="stable" version="210.0.0">
+      <manifest-digest sha256new="GPDCSGULLVKH2KUSNHXYFB7B3SAHMSG3GA64PUIO4L5PUBZAW3VQ"/>
+      <archive extract="google-cloud-sdk" href="https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-210.0.0-darwin-x86.tar.gz" size="16707788" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=2f6115b4df24235ae98be7b2cc4c161c7dab2127" released="2018-07-31" stability="stable" version="210.0.0">
+      <manifest-digest sha256new="VSAYN676HNKIW3AMPQ4XHEDZMOB545K2J5PQUY54XMKKPBYSE5WA"/>
+      <archive extract="google-cloud-sdk" href="https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-210.0.0-windows-x86_64.zip" size="109322573" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=7df48026fa475b404568addab6cbf8159a108129" released="2018-07-31" stability="stable" version="210.0.0">
+      <manifest-digest sha256new="HXLJSQA553WYDNZA7SQPXGW6ANMMVOSWYZWBWMV7SGQTHCYY6DTA"/>
+      <archive extract="google-cloud-sdk" href="https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-210.0.0-windows-x86.zip" size="109516091" type="application/zip"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="gcloud" command="run">
@@ -320,11 +344,11 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAltURuUACgkQIuoRGn5CQqS/VAf+MKEC
-vQC3M0vX7TqxRhzXxCwq8X+wpPFVfto4g1YZZPwTen4qF96UU/ohwEkWH3fE5jSNTz1LdVW+wBo/
-cc6dHMpXx+X4jY+wlQIXa6OcudhHSG6vou0k0r+sdLkW735AqmeltwE/52FdqvRkBcfHvV9/tRC8
-23NKnbK0aiNvZ7nf2eDBQYtjPPcWbH7ep1WBJs1rz3ZG32evKzGaKWoBL6i17EE2prcgd6LjSx7j
-fTwPg5K+6tmHIGA5Sw5MJ2HvPKOkz978L5hTXTMMG63UHdoN8mX27dSBBl/sdcqJQXgnKGjH/sBp
-nGTAZ6O/+z6kA+BBYnktP85yIg61hToPNQ==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAltl6WUACgkQIuoRGn5CQqQAAwgA8+uw
+eFP+cr447tLi5p5NOwpUJHtpIVdfnu/aRg4uK35JNqtFMbNhiPMGweZtzIUCSTmPV3EZNHiYiroC
+f6onHJhvuwKNXrs9r5Krzw016Q7LKxS1lemWAA6GUQlANt5XXdwn40jikwkR4CUXu7vaY7ILql9d
+LxVWJTQzx/Vmn51f4/3zs20PCcUqSIhLnL5kGM7W4Hix/+u3u6qx/ZQQ7qz1tvZsva6DmtTigYK+
+vJFBe6GExgJDWrpLFNk+6/4rVDchv1WaKx4oRkSUrDX4l2VSCWEBfZxokNe33mb0GAt27YqwbzU/
+DMxFY5shL/lTzSGLW/WBxRt3j8IifJU4Qw==
 
 -->

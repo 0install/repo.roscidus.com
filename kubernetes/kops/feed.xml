@@ -264,16 +264,32 @@
       <manifest-digest sha256new="MYWN4VDWBKOXED66K4BCQ25HIWKLEELGBS6I5TOL25PWJ3RVVA4Q"/>
       <file dest="kops" executable="true" href="https://github.com/kubernetes/kops/releases/download/1.10.0-alpha.1/kops-darwin-amd64" size="98450784"/>
     </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=79893b7e0723d92b570cf58903ef3369ffe65d7b" main="kops" released="2018-07-23" stability="stable" version="1.9.2">
+      <manifest-digest sha256new="2BWA3XCGEE2SGEG57I5VGDG2THJCRWE3U7CJ2DE5F4FZN3QHSA2Q"/>
+      <file dest="kops" executable="true" href="https://github.com/kubernetes/kops/releases/download/1.9.2/kops-linux-amd64" size="81809664"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=a4bbe7868dd09525ba0bbd122474914fd6c762a4" main="kops" released="2018-07-23" stability="stable" version="1.9.2">
+      <manifest-digest sha256new="MRHQ7Q7ZSTS6GBO3S67XKSJATTEBHS6IFL4VAXIFQ75VPCCMQOHQ"/>
+      <file dest="kops" executable="true" href="https://github.com/kubernetes/kops/releases/download/1.9.2/kops-darwin-amd64" size="94383616"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=13dc378420cbecf877129be7bcd7955f6a1d1a34" main="kops" released="2018-07-23" stability="testing" version="1.10.0-pre2-1">
+      <manifest-digest sha256new="42TQQZDFWEGEUVFBBHZ27P7HDQ5BAV7JFJLZE4JIHLI7DZ4ILXEQ"/>
+      <file dest="kops" executable="true" href="https://github.com/kubernetes/kops/releases/download/1.10.0-beta.1/kops-linux-amd64" size="85860416"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=9a45fe7af7aac6f8b11adba7a8374640ea9a8204" main="kops" released="2018-07-23" stability="testing" version="1.10.0-pre2-1">
+      <manifest-digest sha256new="3ZXOZJCHMWLQ2LDEZN4NWO6F4RGWS2XH24SSY4NAK5U464HF2Q6A"/>
+      <file dest="kops" executable="true" href="https://github.com/kubernetes/kops/releases/download/1.10.0-beta.1/kops-darwin-amd64" size="99018240"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="kops" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAltB3HMACgkQIuoRGn5CQqTJ4ggAr6Sq
-Uymm2HNLw2acg3r4MjSMa5qPStdSEgo4q4rrtSrtjDCiks9xXEQhEK7Xof8uW9vyl/3li9t0R6Ou
-TRMlBPI3SsOHSnDTyQSQGgjyYvxrNvC7aCg+3VVdmrlkJyOo6vAyLbqM1bRDMJAAU+/Gl28p8tJJ
-rwvGWuILvT8tJWPkoPuSVyZJ6p9RyMu5NHP5T775rsgyrSmdejSydj9hCKO7hfX/aCXBTQcDoLDg
-f2lWBZE30Ms9f6Xn5rTRER9OKy5puSchZIhU+2M7X09jXo1dho15qU8gc5wz13PA9Xie3J4BjmCb
-XttUhdrp7ZswfywI5JbiKvODpKZmJ71hxg==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAltl6WUACgkQIuoRGn5CQqQznQgAhGue
+rX2HwRUt5vVymTL66C6UyiWlsyooT7ewF6U0d0fOEGsEnfFbvsJe6sE0G5NWSqANqY1Ti3N5bW5m
+pt6xWcWHBSUYhdM5twibkxIZBoBx47ppUoYmMq65xtSFEJYQ1qzOzBRuPv5BDCj8J7ZmL9mIVJ7d
+4X1e6FkbGz77Q3k5Ntx5fXE5YQZDRS3AYEI1pUBdb2YCdFa1j9cBmSZqtLI3hRStavSqKoGVxNI2
+9c/rohfuxFmWlrmGGeSLU1opXxUJ2uPOryQ1vCl4CMEZ1Cavx9j0NKEvgITFa/J4xS+qcqpntMSu
+tQrdI+bdCb5xQ5HEorBDcs/UOFZfEe1rtg==
 
 -->

@@ -308,16 +308,28 @@
       <manifest-digest sha256new="AALK35FR5KRXYQTDJ63ABRTPN66H7YNPEIFEN3EJ4YNO4Y5JJF3A"/>
       <file dest="kompose" executable="true" href="https://github.com/kubernetes/kompose/releases/download/v1.15.0/kompose-darwin-amd64" size="47318384"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=894bce72e415615971b77da30c058e20b232b3b1" main="kompose.exe" released="2018-07-24" stability="stable" version="1.16.0">
+      <manifest-digest sha256new="I7YF7PPIAWTWEDRUZZ7YNG3SCY72ELEA2GDKLW4NMB6YKIQFLW7A"/>
+      <file dest="kompose.exe" href="https://github.com/kubernetes/kompose/releases/download/v1.16.0/kompose-windows-amd64.exe" size="47727104"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=b3882f9dddf5af5696394f4ad437d31cc1fd796f" main="kompose" released="2018-07-24" stability="stable" version="1.16.0">
+      <manifest-digest sha256new="V6WJEU6CMXV7VKAESHUVYB6XCSEL77645WFTCJDPUADEP5PKGZSA"/>
+      <file dest="kompose" executable="true" href="https://github.com/kubernetes/kompose/releases/download/v1.16.0/kompose-linux-amd64" size="47893144"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=f6b33f9a0e910dadb569554b7243649f844d4934" main="kompose" released="2018-07-24" stability="stable" version="1.16.0">
+      <manifest-digest sha256new="O2J6RBBHCFBEIGZAEOVYC2GUGCL6G27Q55W2XNOJST2PVYRSGJDA"/>
+      <file dest="kompose" executable="true" href="https://github.com/kubernetes/kompose/releases/download/v1.16.0/kompose-darwin-amd64" size="47318464"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="kompose" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAltB3HMACgkQIuoRGn5CQqQgtAgAlwC4
-rAVkMVMbeYELSlHruOk31xCADgh/DdxpGsUH6VZpdpwojiHgX985wMEOQ9WHIb4zi8QWCwcu9RlN
-nSeuO2NbYIiyOKynmFGcjtXHX7WnWfgatbuSKr/JH+yefr0Fpp5acGbaKMBZgiEr1JYq2rDZ/AiR
-xywojTC263rPZ23rmHAYCaiDYgoHuTMG0vZ6kS3tZQUk1NcK87+3ylHIBG/ou0C70rmLmMKftWTo
-JnGrUJIbtP5P2H3duvmudAJBSYZZPMygkA57XYsHF+qekexCr69j1RPONhol/KrJlRWtYPKeHn+1
-jFDNJdwNygLJwFBL1OmuPLiJkCp0nZ83MA==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAltl6WUACgkQIuoRGn5CQqQI0Af/b8K2
+/ew38l9/uzEOcFkS9BsuJ23B8PNDdGxPwsQkjSYB4nhPQkZUBwqH0ZHaTlHwHpNv1pvxu8k3b8Rt
+AkCQpPMPsIpHF6KI6PbyOjVKCvvnkITzKDKh2NLjEc24FmYSnZAtxNKPc8mW2MQI6NzZihxSUqL9
+lspy+GmNx/D/uKIe7SFv3c+8LoHMNYvJVThDB/hKIGbHQTUV426spWHTlsLCuuX7wXS+nGKSK1yZ
+crTgd5/NPOxroXeIvrHP+DAHdGzfLEmpOI5cKcQE7i6Z7yp+f33rj7MLq+poBtpKQF/zr0HlJ9SD
+EHk5IPuLpnbVv1J6Ubzw5dt/Fe+moD9PRQ==
 
 -->
