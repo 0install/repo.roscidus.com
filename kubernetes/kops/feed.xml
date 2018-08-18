@@ -280,16 +280,24 @@
       <manifest-digest sha256new="3ZXOZJCHMWLQ2LDEZN4NWO6F4RGWS2XH24SSY4NAK5U464HF2Q6A"/>
       <file dest="kops" executable="true" href="https://github.com/kubernetes/kops/releases/download/1.10.0-beta.1/kops-darwin-amd64" size="99018240"/>
     </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=44985765898a3f4c88c789189e636265c31109b9" main="kops" released="2018-08-16" stability="stable" version="1.10.0">
+      <manifest-digest sha256new="A4EEQ4AUC7KKXG6B54R74EMQJ54OBHYMZ47QKNTONIS7Q3HZWEMA"/>
+      <file dest="kops" executable="true" href="https://github.com/kubernetes/kops/releases/download/1.10.0/kops-linux-amd64" size="85875392"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=e42d60f396ce18a1816579dcb73c3401d5dc1b6d" main="kops" released="2018-08-16" stability="stable" version="1.10.0">
+      <manifest-digest sha256new="MUAZRLGQSVHD3CKEM7ZHOPOMW4FGNOR5NV4GVJH6WCZ3JJGTY2UQ"/>
+      <file dest="kops" executable="true" href="https://github.com/kubernetes/kops/releases/download/1.10.0/kops-darwin-amd64" size="99035920"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="kops" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAltl6WUACgkQIuoRGn5CQqQznQgAhGue
-rX2HwRUt5vVymTL66C6UyiWlsyooT7ewF6U0d0fOEGsEnfFbvsJe6sE0G5NWSqANqY1Ti3N5bW5m
-pt6xWcWHBSUYhdM5twibkxIZBoBx47ppUoYmMq65xtSFEJYQ1qzOzBRuPv5BDCj8J7ZmL9mIVJ7d
-4X1e6FkbGz77Q3k5Ntx5fXE5YQZDRS3AYEI1pUBdb2YCdFa1j9cBmSZqtLI3hRStavSqKoGVxNI2
-9c/rohfuxFmWlrmGGeSLU1opXxUJ2uPOryQ1vCl4CMEZ1Cavx9j0NKEvgITFa/J4xS+qcqpntMSu
-tQrdI+bdCb5xQ5HEorBDcs/UOFZfEe1rtg==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlt4JckACgkQIuoRGn5CQqRf0wf+KuGH
+55oobFV0/dYj3ydrmr2yXlOdnCjc4Al9p5DfEiuEv0NayP5fnsXLnNUcsQfpJPK72vCiqjbENRGT
+UjWLsfietPMxMkNyhnHn5DaPxfR2WaTY8vTEAc1IWE+xasXzaGHoYzTaSxxINHEMsdVFUbPcqeQK
+NOPQ61jJoUXryVqFpX+m8pl0Udp6mmVGOWqR3BELPyMXydVO7y9y+vUbzHz0RgENEm/+WyJMU8UD
+3sSvJa9TY1tMhamEskd5piNYSo9/VORqBdYYvFfGNvFN4QkBRwSFVGpp0MiQynUL/Wm/kswVYy2g
+FNJe5ic+vJGOCD/qzW2wIIDN6FgMExv8xg==
 
 -->

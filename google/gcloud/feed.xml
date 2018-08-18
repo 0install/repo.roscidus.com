@@ -329,6 +329,54 @@
       <manifest-digest sha256new="HXLJSQA553WYDNZA7SQPXGW6ANMMVOSWYZWBWMV7SGQTHCYY6DTA"/>
       <archive extract="google-cloud-sdk" href="https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-210.0.0-windows-x86.zip" size="109516091" type="application/zip"/>
     </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=b88f3d05052a905aeea6758e9ce10446f5cf8fb6" released="2018-08-07" stability="stable" version="211.0.0">
+      <manifest-digest sha256new="5TJII5GTCYR2HKFKUONIZVZAZLXPKNBNJKSWBUJDJBO2IHH62QBA"/>
+      <archive extract="google-cloud-sdk" href="https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-211.0.0-linux-x86_64.tar.gz" size="24324554" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=efb3915544b716023edac45e145e180fcf543d3d" released="2018-08-07" stability="stable" version="211.0.0">
+      <manifest-digest sha256new="RN5KEBZLEJOKXIO6QNFDAHXTZXAWSDGKM6SILA6SCERK35QRIL4Q"/>
+      <archive extract="google-cloud-sdk" href="https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-211.0.0-linux-x86.tar.gz" size="23927809" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=af1ba03a8221abee330c9890d45e109159e021bf" released="2018-08-07" stability="stable" version="211.0.0">
+      <manifest-digest sha256new="Q7CYKITG6SR4ZVD5ORPA4JTALKS2B4XOVVWQIZZOARE6XALN7CLA"/>
+      <archive extract="google-cloud-sdk" href="https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-211.0.0-darwin-x86_64.tar.gz" size="16929190" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-i486" id="sha1new=6b0a4d305a064168d7344ff0e8031fed48570c35" released="2018-08-07" stability="stable" version="211.0.0">
+      <manifest-digest sha256new="2JB7NRL73ILWU23GAMYDZTCXYO35WM7KZ2LYV333O3VDPROZJXNQ"/>
+      <archive extract="google-cloud-sdk" href="https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-211.0.0-darwin-x86.tar.gz" size="16929139" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=39e2c612e0cf8104a0c67db615ae12a330872c3c" released="2018-08-07" stability="stable" version="211.0.0">
+      <manifest-digest sha256new="PEVHP33HYZ332U3MZEY55UGNSZ6PT6VSRAXM4RFNJ6D5UWJGQ6TA"/>
+      <archive extract="google-cloud-sdk" href="https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-211.0.0-windows-x86_64.zip" size="110638434" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=834b7f9876cea70da78115ca0aa3bf9eb951aec0" released="2018-08-07" stability="stable" version="211.0.0">
+      <manifest-digest sha256new="RV3GXTLYSDDSMSPPUXAWGZOMFK6EBOLYMVFP7Z2J752XZHO5CBJQ"/>
+      <archive extract="google-cloud-sdk" href="https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-211.0.0-windows-x86.zip" size="110746448" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=abbab2c87d609ae953c1238204f8787bf06b00c8" released="2018-08-14" stability="stable" version="212.0.0">
+      <manifest-digest sha256new="QOJVELQ5HL2F5CAELFZSY6F4VDWDXRTODTBFKTM44CHPRRR5UYRA"/>
+      <archive extract="google-cloud-sdk" href="https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-212.0.0-linux-x86_64.tar.gz" size="24393369" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=97971f3cc5bbd7c2817422cd7685e6f1a6de022d" released="2018-08-14" stability="stable" version="212.0.0">
+      <manifest-digest sha256new="ZVCXSHFNS7TDC4HGI7QUFKJLFEQ7OU3XQOZP2LUA23COL2WDOYNA"/>
+      <archive extract="google-cloud-sdk" href="https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-212.0.0-linux-x86.tar.gz" size="23998875" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=7d89bb0050fb887f1be01d74dc6669ccca191ea0" released="2018-08-14" stability="stable" version="212.0.0">
+      <manifest-digest sha256new="ZXCWR5L3M6YAPTPTKNLNTNXEQXOZ5Y24RZKSQM6FUTZEBDO4GYIA"/>
+      <archive extract="google-cloud-sdk" href="https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-212.0.0-darwin-x86_64.tar.gz" size="16997450" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-i486" id="sha1new=b69f7783be215f95cc9c99cb36e25bf6d8bd0fec" released="2018-08-14" stability="stable" version="212.0.0">
+      <manifest-digest sha256new="63WS3BKC5AFC55IXNOXIEJ47HAF62JD7FQ6W26JQJZ3JDQMB6A7A"/>
+      <archive extract="google-cloud-sdk" href="https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-212.0.0-darwin-x86.tar.gz" size="16997757" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=53ce1aa0571f7ac2f18919afd3694a1d25ae0580" released="2018-08-14" stability="stable" version="212.0.0">
+      <manifest-digest sha256new="47H65Y24UUCSNLSL7SGOVTNBSSO6Q54SOLVJ3JDIT4YUC4TMG34A"/>
+      <archive extract="google-cloud-sdk" href="https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-212.0.0-windows-x86_64.zip" size="111106313" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=dd1f68137a42b615e8a046a2429596b3266d2569" released="2018-08-14" stability="stable" version="212.0.0">
+      <manifest-digest sha256new="D53WY4ILTKDGBUTTRNVNNYN6ZGP2BLHP3OGP67Y6OWSGKBEARIOQ"/>
+      <archive extract="google-cloud-sdk" href="https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-212.0.0-windows-x86.zip" size="111214327" type="application/zip"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="gcloud" command="run">
@@ -344,11 +392,11 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAltl6WUACgkQIuoRGn5CQqQAAwgA8+uw
-eFP+cr447tLi5p5NOwpUJHtpIVdfnu/aRg4uK35JNqtFMbNhiPMGweZtzIUCSTmPV3EZNHiYiroC
-f6onHJhvuwKNXrs9r5Krzw016Q7LKxS1lemWAA6GUQlANt5XXdwn40jikwkR4CUXu7vaY7ILql9d
-LxVWJTQzx/Vmn51f4/3zs20PCcUqSIhLnL5kGM7W4Hix/+u3u6qx/ZQQ7qz1tvZsva6DmtTigYK+
-vJFBe6GExgJDWrpLFNk+6/4rVDchv1WaKx4oRkSUrDX4l2VSCWEBfZxokNe33mb0GAt27YqwbzU/
-DMxFY5shL/lTzSGLW/WBxRt3j8IifJU4Qw==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlt4JcgACgkQIuoRGn5CQqTwfggAkUdO
+s2dJNVxLazHeFpCQNfg5ft7O1qav7DgezjjfGHnd5DRS4qNYanaz9b7y4ib/dzxBBsWMg1l/oM1t
+60AnYEmE0p2yR7x4mACMfCn+GAyLYVpkJjKX2RHwdX7e28ajY52O/MsjVX6ov36u47PmmI04FrFk
+JGJwVgIehwB4mGfSU3mgs68b/uGqkdstHadzr5SXje2x3NFW2DM/aedKFIidHftG3TDVgt2e8mUD
+ftmG68CZ+prO8dklc4My5E7YE8nrbRp0z72kDKkx72TyLlE5LAwSRt7v6C3SjCWMmdFT5SiguERW
+wV18r4IwwNAM+0dbWvF9jQUrr+r0KKphIg==
 
 -->

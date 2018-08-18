@@ -47,6 +47,14 @@
       <manifest-digest sha256new="EMCSM4ZSWVCGE7MZLVZTKFLQYV5W3OOSZV62KTLKUQ6OBCGZLM2A"/>
       <archive href="https://github.com/PowerShell/PowerShell/releases/download/v6.0.3/PowerShell-6.0.3-win-x86.zip" size="48701077" type="application/zip"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=66cbf2147e3cc2a6aafc7254fbecf70237999d64" released="2018-08-10" stability="stable" version="6.0.4">
+      <manifest-digest sha256new="VLWHHRFXG6SBJWU5IYZZHAHYMR25D2XTGVEQKQ6E4CRTQIN6OIEA"/>
+      <archive href="https://github.com/PowerShell/PowerShell/releases/download/v6.0.4/PowerShell-6.0.4-win-x64.zip" size="52974501" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=0d4f779f4bf3f94b8e3f4d28e4334316407b8bd4" released="2018-08-10" stability="stable" version="6.0.4">
+      <manifest-digest sha256new="E5FWFCCVJ7BBHI5A3UCCCI4DNNA6XNHFHODW25KRDVRFVGCF6LPQ"/>
+      <archive href="https://github.com/PowerShell/PowerShell/releases/download/v6.0.4/PowerShell-6.0.4-win-x86.zip" size="48759738" type="application/zip"/>
+    </implementation>
   </group>
   <group license="MIT License" main="pwsh">
     <requires interface="http://repo.roscidus.com/lib/unwind8"/>
@@ -70,16 +78,20 @@
       <manifest-digest sha256new="M2NFIVJTCMTY3NEZVSOYEIGB3B52AKTH4CQ4255MDGIIC6654XNQ"/>
       <archive href="https://github.com/PowerShell/PowerShell/releases/download/v6.0.3/powershell-6.0.3-linux-x64.tar.gz" size="52487263" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=31e3b541fbff45950f86171a82a1ea1f7d039c38" released="2018-08-10" stability="stable" version="6.0.4">
+      <manifest-digest sha256new="CCOUZ6TMHQOW5I7XEF6ODBY6LF7HYAZGG5YCXRVHKJW2GUL6F3EQ"/>
+      <archive href="https://github.com/PowerShell/PowerShell/releases/download/v6.0.4/powershell-6.0.4-linux-x64.tar.gz" size="52538500" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="pwsh" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAltURuUACgkQIuoRGn5CQqQfSwgA7Xyq
-CyykYuqGsgqGDAE5tSjpzEGgFm2vfiIApG63IklTXTXcG3WEPkemr67K8xntKlXVELzwJNHTaGGH
-z+BWgVl/Ddqnt3+5Zc1wPK4ULRG7z36b3OuAQo/OSwr3pw9TsgvjEXfND4qh4GY7T5gcH1a7wJ/f
-jJwqctnXFCe36DEyAMYgSujabhpzz1ZvVf/iOCY3TaL6sOwxbgKttCX0vr8iuYCPIzVRJftz1WNB
-Yb1CqjHl7ESTIURjz8/likl5d3mQT0OQ+NLPgNFJXeKPjd5bKYP3l4oG/OOk57rWCoFtvKxQXXlo
-e84s+n1sA6Vrs7YZZisVd6I6Kckc1yXR5w==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlt4JcgACgkQIuoRGn5CQqRZuggArW91
+CJ1FiC0GkvnPe5h/ahA0ZQJkNLVg1cNKXxIrklPnqfe4q1AHASal22n/OpIP6F658rTiIXftW/JT
++GaQd4IkqmiMb2Vf6yG/avzZvpRpKacvGvIdYop5UkGiEUBuljC3nBO73lHA+CeiUDTKuJp9Hnyq
+X4QfhvxjKC54IVHFg9/ZzjnuIv4Sf9Cts0R9ELJlWR2xkpzUZIsVo6oYqeluQoRysEfMMgpdPZ+3
+UZ+nlioclAwdqMIe9oI0RFxOu/xLLY5n4wUVdvDFcKcXaVM2c8sm/dhriKWsmU950lb6+eZYyVEi
+Cc29FGSOlpSEJ2q4dlgNgg9J5ihvPXRfBQ==
 
 -->

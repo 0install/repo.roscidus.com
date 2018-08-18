@@ -782,15 +782,23 @@
       <manifest-digest sha256new="27DNK4XOMLOX43IMIJBWGX7E2XBP3R2YDV5M7GSPSWUCPWPHCC4Q"/>
       <archive extract="gradle-4.9" href="https://services.gradle.org/distributions/gradle-4.9-bin.zip" size="76334709" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=a30190ce961aa96d5ff43bd24d38546a64a9fc38" released="2018-08-09" stability="testing" version="4.10-rc-1">
+      <manifest-digest sha256new="IGPXQS5OWPGHZDTV24UMJALVW33IRE532OZK5T3ZQYSXYGNS4IEA"/>
+      <archive extract="gradle-4.10-rc-1" href="https://services.gradle.org/distributions/gradle-4.10-rc-1-bin.zip" size="78404459" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=904c6087334c17d395f7df37370a209284d5fbbe" released="2018-08-14" stability="testing" version="4.10-rc-2">
+      <manifest-digest sha256new="MAPVW6E5TGIZ6XM7TNFGA7UQT3OMJEJ4ZWLYUPWFJ3JUISCT7JCQ"/>
+      <archive extract="gradle-4.10-rc-2" href="https://services.gradle.org/distributions/gradle-4.10-rc-2-bin.zip" size="78406764" type="application/zip"/>
+    </implementation>
   </group>
   <entry-point binary-name="gradle" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAltURuUACgkQIuoRGn5CQqTfwwgAofrT
-o3Teq35BF4tpKRxIjuJuun2rCJr+AsrkQVxnst7iCfiBIQyhvTEmA/+8lY5CZ3LcFS5yAVFNQX6T
-Vi6RBLpiZIfonM0sEJhtv0t/wnOavL/n56Kh9QwJC9WI/6T2Nm39hBWH2N7fuUzr2UrCl2UyUoWm
-Bxm/HvNC62DxnJeXmjXGehSj+83VIEakScgE22hIeVx8MvAYzhoHAMwlG/P/dmezcFgjAxhRPgiN
-4eQv4tIrn8Q76CKGBAluZ3zIO8S+d/iGwnePLvGpkFwhyYlqTwnoobUVDRGLJo+fdmv9fh9+1rSm
-MuQYM6FwARrdLTyCilJ6iTBPYcJYnuqhBg==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlt4JcgACgkQIuoRGn5CQqRxbAgAyEbo
+awt0g8nKHwFgaIdO14gdxZrHLhw4bP6t/DrtWhbDiW/a7JwTCPUMjlBYPQ902NuyzUjR/mTeb4Eo
+f9exxhRJe/cRnrMTdEdxWk0Xrs1VFKSunufZ1RoRf4/iKbOUYT4cM9AI4DFfkRqY4cHcgc6cqjoM
+zvRKGlHJWmyQ+bvF7qx/qYEheJ5Ne0FYwfsGubquBREweqWQPI+Zl81OzOBKVBPzN1G5d8uHmYRp
+pezSkyR7DB1qGI5WS5Fpu2GIjIXesRXwdAs+kA70iCfchwTWY1/ZeAt4h64chseU+2jCfChbagW1
+1+jQe0kdO267vrNb3EGT3M1ZitNwGVrA9g==
 
 -->

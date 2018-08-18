@@ -1287,16 +1287,56 @@
       <manifest-digest sha256new="P7Z3P7HLOACZYAVT532TJ72YBHN4QQU7ZHKV2HW5S5IOWJULAARA"/>
       <archive href="https://github.com/electron/electron/releases/download/v3.0.0-beta.4/electron-v3.0.0-beta.4-win32-ia32.zip" size="45270021" type="application/zip"/>
     </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=11c3a82808fbd1ca796f9f781c66898b9093e281" main="electron" released="2018-08-08" stability="stable" version="2.0.7">
+      <manifest-digest sha256new="LXWNJ346NECPD3O3C3HQUAUHMQJQA7AADDWJ6JIW64X3ZIG72F4Q"/>
+      <archive href="https://github.com/electron/electron/releases/download/v2.0.7/electron-v2.0.7-linux-x64.zip" size="48584590" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=069f787f1ee5e06c0500cfdf11ab303d0a957ccb" main="electron" released="2018-08-08" stability="stable" version="2.0.7">
+      <manifest-digest sha256new="ZTVJTL7XX7UORJE6RUOAYZTHFGPL2BQQ6VUS57LQ6RT4QNPVDRVQ"/>
+      <archive href="https://github.com/electron/electron/releases/download/v2.0.7/electron-v2.0.7-linux-ia32.zip" size="51723906" type="application/zip"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=8915b6328415dd3b4e9ce0e4a5ceea815664198c" main="Electron.app/Contents/MacOS/Electron" released="2018-08-08" stability="stable" version="2.0.7">
+      <manifest-digest sha256new="FZO3R4HOTXKWFB5SLPKVJDXLLIZTGGDHOU2VIZMKWMRSZLCG5QIA"/>
+      <archive href="https://github.com/electron/electron/releases/download/v2.0.7/electron-v2.0.7-darwin-x64.zip" size="48664599" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=92a98d8480989173a5ca29ee01f4179c2cbaf4c1" main="electron.exe" released="2018-08-08" stability="stable" version="2.0.7">
+      <manifest-digest sha256new="ZENDLSMERPNWSIFY4BBXCWDXZCSJSUDLIZ7YPOJ2ZOHWHSEO3HBQ"/>
+      <archive href="https://github.com/electron/electron/releases/download/v2.0.7/electron-v2.0.7-win32-x64.zip" size="50699758" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=13762f74851c64332db9771c7029aabf4cf8ab04" main="electron.exe" released="2018-08-08" stability="stable" version="2.0.7">
+      <manifest-digest sha256new="T4N74ENRNXSRJKIGTAKCGZMFQOHD4IYIDQWNN7S3GHXIYZUPHBFA"/>
+      <archive href="https://github.com/electron/electron/releases/download/v2.0.7/electron-v2.0.7-win32-ia32.zip" size="42159922" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=420be904b7c7bf3acf511b35faa789e1efea09c4" main="electron" released="2018-08-13" stability="testing" version="3.0.0-pre5">
+      <manifest-digest sha256new="4V7DSFDDRRJHNG5MRSYM6W3A3BOWCZAK76LAXEBUMPV7RPIVAF5A"/>
+      <archive href="https://github.com/electron/electron/releases/download/v3.0.0-beta.5/electron-v3.0.0-beta.5-linux-x64.zip" size="51249230" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=57916c9ea178d9e5a5063ac6fe8fee0e1c6db162" main="electron" released="2018-08-13" stability="testing" version="3.0.0-pre5">
+      <manifest-digest sha256new="DJYKDZ7GIN7V4VAL7QSVJVK6XJZ6A6C37M52ZSX2IQOUFI3YIY4Q"/>
+      <archive href="https://github.com/electron/electron/releases/download/v3.0.0-beta.5/electron-v3.0.0-beta.5-linux-ia32.zip" size="52288835" type="application/zip"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=ed99811a3d18daed2bccf8a82e7bf8359d11ec46" main="Electron.app/Contents/MacOS/Electron" released="2018-08-13" stability="testing" version="3.0.0-pre5">
+      <manifest-digest sha256new="BZDPZOWY7IN6XYTGKKWWI6IGCWCL6AZHV4NXQRUM2IOVNJE6QSEA"/>
+      <archive href="https://github.com/electron/electron/releases/download/v3.0.0-beta.5/electron-v3.0.0-beta.5-darwin-x64.zip" size="49927606" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=e88c47bfc29b036deea61cfb540b25ea882c7555" main="electron.exe" released="2018-08-13" stability="testing" version="3.0.0-pre5">
+      <manifest-digest sha256new="PIF3X7N5JLJPFWFN4EWJ3IE74GDMNUF2G67SKCVLIY4W6D2JBXLA"/>
+      <archive href="https://github.com/electron/electron/releases/download/v3.0.0-beta.5/electron-v3.0.0-beta.5-win32-x64.zip" size="52941602" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=49b915675a8bde51c44795e9865dbc0b0a3f607b" main="electron.exe" released="2018-08-13" stability="testing" version="3.0.0-pre5">
+      <manifest-digest sha256new="LFMNSFIXEGPUCFLWDUIQUDUNGC7E3W5DNTZ53UWGYCAUKJXYQFMQ"/>
+      <archive href="https://github.com/electron/electron/releases/download/v3.0.0-beta.5/electron-v3.0.0-beta.5-win32-ia32.zip" size="44330226" type="application/zip"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="electron" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAltl6WUACgkQIuoRGn5CQqRPdggAh9Md
-T4QWvWq0B8+C4mJGO593N8ydQPrSlEdXa6jHKMmbgDieHlbzLDlGhYK9g0HeTMx7fhyDVKTIq6il
-dlBSpRDjmaVFjqB213ghqtruE8zMQPDbRVfUwE0YrqoMT0F/QN9TPfrhCC+bREN/W54puM/bixyw
-lC5Q+8Ur2Vb1siM9kjGLrx+gdVwKmvNCx7/EAMd82nT+93C4c54jPhiJUZDYAoaX6MpCXjw02AGz
-p0SPVVjx8tPAzVxzbeioETBvaS9THDGUKq0wLCeqS1oCUyWtx6TnPnkRjMv8Z/U8RbCCuguY0I18
-Ph5XFBOfesfz+RwDImgilncwjz4rVCmySg==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlt4JcgACgkQIuoRGn5CQqQe5wf9Ezt3
+L45UnaJ4q+LgTXeXtMLF0RhUg3YbprG7HUGM81bp1hrgs0tfelf88AbAURbHo8HZpun0tO2TchX7
+yNPLbkbIZ0per9Pi0vxunwhl7Hjsx4sTE+z74pH/gEq9WHtr9Ar6SrehHCC/BjlSYsEesCZ31g6y
+cla7A9UZ+j6kDjdPViIB7GEgGP3UesiQIueDuRPHpSPYSXy02DR35IAHJsA4i+ehn9H0s8xH/5CX
+UDAQCDq/bvUuCBjeYddkWy6PyLamEIFzOQHuZDlM9E4t/Bye1JqFr+OG0csfvRZ03oe4aQEucOjE
+o4nUMg8YD0YTAD3xXaCuiMFKrv7ICUE8Aw==
 
 -->
