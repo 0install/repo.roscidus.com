@@ -790,15 +790,23 @@
       <manifest-digest sha256new="MAPVW6E5TGIZ6XM7TNFGA7UQT3OMJEJ4ZWLYUPWFJ3JUISCT7JCQ"/>
       <archive extract="gradle-4.10-rc-2" href="https://services.gradle.org/distributions/gradle-4.10-rc-2-bin.zip" size="78406764" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=3e72e3b21ccfc8bb634b1888646eed5aa829dbbf" released="2018-08-23" stability="testing" version="4.10-rc-3">
+      <manifest-digest sha256new="NPU7XGGNEZFY4HJTYGWVZXS4Y7X35AACY332BDLKJTDZMXECN3CA"/>
+      <archive extract="gradle-4.10-rc-3" href="https://services.gradle.org/distributions/gradle-4.10-rc-3-bin.zip" size="78406395" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=9bea1927f82cf5b00c8914ac5fd450d9920b7d5d" released="2018-08-27" stability="stable" version="4.10">
+      <manifest-digest sha256new="YWIPT2PNR4AXBIBENJWBJSBBW3CMTILUZ7I5SE3HN7ZWR5B77O3A"/>
+      <archive extract="gradle-4.10" href="https://services.gradle.org/distributions/gradle-4.10-bin.zip" size="78403740" type="application/zip"/>
+    </implementation>
   </group>
   <entry-point binary-name="gradle" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlt4JcgACgkQIuoRGn5CQqRxbAgAyEbo
-awt0g8nKHwFgaIdO14gdxZrHLhw4bP6t/DrtWhbDiW/a7JwTCPUMjlBYPQ902NuyzUjR/mTeb4Eo
-f9exxhRJe/cRnrMTdEdxWk0Xrs1VFKSunufZ1RoRf4/iKbOUYT4cM9AI4DFfkRqY4cHcgc6cqjoM
-zvRKGlHJWmyQ+bvF7qx/qYEheJ5Ne0FYwfsGubquBREweqWQPI+Zl81OzOBKVBPzN1G5d8uHmYRp
-pezSkyR7DB1qGI5WS5Fpu2GIjIXesRXwdAs+kA70iCfchwTWY1/ZeAt4h64chseU+2jCfChbagW1
-1+jQe0kdO267vrNb3EGT3M1ZitNwGVrA9g==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAluLtBwACgkQIuoRGn5CQqS37QgAkrkN
+UKynsK5m2wnyak1BNrr/OKpVQQh4NBawDvDzrFFg21L5ECUA6t42Di+Gvcd35BcYL7flToBRHlYh
+dWyG2gxc4DiaNXlVlKwQzUgxpCHuSmna3Tt2EhmxcJA13gua4CVFasVHyMGgknepigYAoQS++KND
+yLKWpoI+Z3ILCpFj9BngYrPt+O4DtiLjV56MSbBBIqv6DijLIOJdWzXPhIqUJizBJGfH+mJh431S
+IOpmk9EObdvQB1mCi29S9apclrKk2vp6UyVDK7wexf6dmbaQn7t01LTrUWmA0m0PpUEznXkMk0RY
+O+fC9r6tSTY63rxvMdTnTxVk1O8bUWUv9Q==
 
 -->

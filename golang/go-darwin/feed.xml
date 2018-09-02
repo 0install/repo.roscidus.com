@@ -161,14 +161,18 @@
       <manifest-digest sha256new="EC3IARP7VP3H66WJDEPFHQHN5EFPDFYQKXCEHLVWUTV4G4RATK3A"/>
       <archive extract="go" href="https://dl.google.com/go/go1.10.3.darwin-amd64.tar.gz" size="130393769" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=f8b287185e26fd350b91431e87dfa6038f8ea33c" released="2018-08-24" stability="stable" version="1.10.4">
+      <manifest-digest sha256new="LT7X7L4OBEP6W3P4GAWFJZPRXORJN2RJHE7SDAG7LBRJTYIHYRVA"/>
+      <archive extract="go" href="https://dl.google.com/go/go1.10.4.darwin-amd64.tar.gz" size="90700370" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAls4r+QACgkQIuoRGn5CQqSOzAgArs5R
-skeyYYxE0FOHbW2jO4QLqyqDXszD9SIrmSS4n18SulT1X6c0eFYOD+CQUvm7/YkU6t8oKPSxikNZ
-5/caJKO3Yd+uKn+KkV3I9CEOpaXyDLfIWsx26LGH0ogAk5xRWBno3aOYE/NWefqZNd4M/P69XFsf
-IlTWOsTVpqD5nZJc1WaLzEtt32PgzGB7D3YnHSVKxApjbgI0tV4z3GXLYJAGO46NfFnQvTmgqBZM
-twPBni5T9xiti6y0nCss0bhF/GmHfiOcIU4lNA4xhhjK3QbSLMQQ54XwX+pFmr8evyzmlo9E1d1/
-LOwr6zRUUMwbONMivIEj6ONCJCQ8phgWPA==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAluLtBwACgkQIuoRGn5CQqQIeQf/U0wW
+NwmNcgJsUeLhffdHmt8bVPl7r8c80OBharncUYn+QfKws1L+R93R9FYCqXDy9vjQDy94kAE/UvKX
+MNvOkd/IRfwAXHf0JUknwccczZEq5EooV248/IPLpy7WZCE/7V5CEXzqUdRqPmuzwLtjcyO2gBZm
+kKRbG6lCBioMYPS2shMjgo26on7VoVCpMNIXYl5FEH5+9/ybmx8dDju5fPbOeNoOrvA+vXBxk2Qr
+okPIQufvG/OqIvglqTBDY8J4SZPBjReSBRuGiNtj+lOitzYM6jigPZgBP1a/uaNbcstSSmila6tv
+B30iagJ97/oZN9bDkVe3gxSGjKuLmvQdow==
 
 -->

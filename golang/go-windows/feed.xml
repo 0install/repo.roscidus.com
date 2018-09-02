@@ -373,14 +373,22 @@
       <manifest-digest sha256new="C7REK7DYE7MDBWOSDG6DMSMBEXZTE65IQ2D5O5VHQPATZCX7T27A"/>
       <archive extract="SourceDir/Go" href="https://dl.google.com/go/go1.10.3.windows-386.msi" size="108843008" type="application/x-msi"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=8f2545b56cc27ca864a8353c3dfd47cd9e60f0ba" released="2018-08-24" stability="stable" version="1.10.4">
+      <manifest-digest sha256new="HD7MKEDSTXYUC5O26PYFW57LSMRRTVVRGZN3UW3VU6MYFALY2WMQ"/>
+      <archive extract="SourceDir/Go" href="https://dl.google.com/go/go1.10.4.windows-amd64.msi" size="81555456" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=680d2b4bd06299022ea3cb9df9e61c2bd3243f7b" released="2018-08-24" stability="stable" version="1.10.4">
+      <manifest-digest sha256new="BZERKZE3HXUUQGGQFLREQHYMQKLRWZONDJIG44FZ3MPOVTTBAOMA"/>
+      <archive extract="SourceDir/Go" href="https://dl.google.com/go/go1.10.4.windows-386.msi" size="70049792" type="application/x-msi"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAls4r+QACgkQIuoRGn5CQqTxnggA8cws
-788+ZX1Z9EskMsdX3SlG1XQR//gnztYFALic2tymFUdSujdksTkLz4euNF0Z9Q8+pP8dh21uI94G
-I9jEESDe4XHu8EdLh/DuFxcuAcQ8JqgV4p4mD9zzeLpNV5HMFBWaH9AcLcz+EUTgJZ3GjBwRJKWV
-5ucTxhM5d3htr90NAWdkS3ym+v7aFAFp5HJ6iU1UMFQGQ0UCxfaRTdWlJXvEd4qLh46SBpaWN1w8
-JBrejZ0NU99LOf1OGeXnBpHoPvQ8v5yZ/Qz3TD2abCedNTf93kiIInR06z/k4z6Bd9XlypvNghka
-YzjYZQfBN+ewUyXr7tIk8yuUSzaVStmWdQ==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAluLtBwACgkQIuoRGn5CQqQu2ggAyG8x
+1ErPwdJZQay2faJKueZjrOB5NyLPCkMj1kb/RA2BtoBgKknN8h34GC9F14SzORBTh+ykbkArbT6T
+U23Iwlar7ZK+A4qr6YTBswkz68iaFX+Wdq4ws8og1ZsfTglYqLYDHQj6UG7fX1Y1IlAa/f4ExcLd
+U3vs7Q8ybHBbmu/NQ8Oie7zGckdWcyamdYGNJZCVloba+rs6SL9n1e1FchaqkqWCc1xUh5qsIR0k
+KFlP4xOYHgbAr2UMrgXqr7SnJ8ApcPGj2nC6l8OLjtJvjiWyItk5JsmvZMcbqJcpx5jWOXk+xvkG
+9/0iwfdPMgvNHHXgIzcMR8aGI1YBtPzjCA==
 
 -->

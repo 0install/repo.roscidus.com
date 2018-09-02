@@ -22,6 +22,14 @@
         <manifest-digest sha256new="CONM6LLACPF7EHULKCDKMDQX46WOQLDEZU2FSK5YBKTDLA4USGRQ"/>
         <archive href="https://releases.hashicorp.com/vagrant/2.1.2/vagrant_2.1.2_linux_amd64.zip" size="36604237" type="application/zip"/>
       </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=eed7522d5722746d71c2563b41eb4e2384c6f926" released="2018-08-31" stability="stable" version="2.1.3">
+        <manifest-digest sha256new="FPX7DZER5RTLUN773GVDSARPLQALEUTGRADA52LCPALXWG2LCZRA"/>
+        <archive href="https://releases.hashicorp.com/vagrant/2.1.3/vagrant_2.1.3_linux_amd64.zip" size="36568298" type="application/zip"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=710f414ce722865c161c607c73b56b294e6a0d63" released="2018-08-31" stability="stable" version="2.1.4">
+        <manifest-digest sha256new="AFZDAKOS62DFUEFGJFQPZIKFYZJTVHA4HKZTYZI5ELH7B3FV72KQ"/>
+        <archive href="https://releases.hashicorp.com/vagrant/2.1.4/vagrant_2.1.4_linux_amd64.zip" size="36572585" type="application/zip"/>
+      </implementation>
     </group>
     <group>
       <command name="run" path="bin/vagrant.exe"/>
@@ -89,17 +97,33 @@
         <manifest-digest sha256new="TP2UVXZLPFLCQRJKRYAAO37KJYUCYUECYT7TRKRXENU4KQGC6LSQ"/>
         <archive extract="SourceDir/HashiCorp/Vagrant" href="https://releases.hashicorp.com/vagrant/2.1.2/vagrant_2.1.2_i686.msi" size="227672064" type="application/x-msi"/>
       </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=38fccfc338402142602141ddb56bb32d474ccb43" released="2018-08-31" stability="stable" version="2.1.3">
+        <manifest-digest sha256new="KMGIFKUVXAGWBDQ2NKGQMOYMCE43H66GNOLTC3XS7VLVRYNR4XTQ"/>
+        <archive extract="SourceDir/HashiCorp/Vagrant" href="https://releases.hashicorp.com/vagrant/2.1.3/vagrant_2.1.3_x86_64.msi" size="238792704" type="application/x-msi"/>
+      </implementation>
+      <implementation arch="Windows-i486" id="sha1new=756f43566ef6dd1e785c35de01ed9b8733846711" released="2018-08-31" stability="stable" version="2.1.3">
+        <manifest-digest sha256new="45WOZZTXN66DCES3KZPWACCZ55XVEO4OD5WR3JPT7FIRYDFXMCSA"/>
+        <archive extract="SourceDir/HashiCorp/Vagrant" href="https://releases.hashicorp.com/vagrant/2.1.3/vagrant_2.1.3_i686.msi" size="232988672" type="application/x-msi"/>
+      </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=923ae78842e68ea551cae5cb37a7e98d623bc387" released="2018-08-31" stability="stable" version="2.1.4">
+        <manifest-digest sha256new="5ZIRNMBZY6ANG7BZVQOUAJD6WXKZPFKWPZVY6342L7RHZNZBIBPA"/>
+        <archive extract="SourceDir/HashiCorp/Vagrant" href="https://releases.hashicorp.com/vagrant/2.1.4/vagrant_2.1.4_x86_64.msi" size="238813184" type="application/x-msi"/>
+      </implementation>
+      <implementation arch="Windows-i486" id="sha1new=56a4565233addf11a3b938ce9f737add780cbd9e" released="2018-08-31" stability="stable" version="2.1.4">
+        <manifest-digest sha256new="F7VWR6U3C6AFA77SRYCLQSZ4TM654OJOTGFMVSUPWV3FBTUO66CA"/>
+        <archive extract="SourceDir/HashiCorp/Vagrant" href="https://releases.hashicorp.com/vagrant/2.1.4/vagrant_2.1.4_i686.msi" size="233017344" type="application/x-msi"/>
+      </implementation>
     </group>
   </group>
 
   <entry-point binary-name="vagrant" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAltB3GsACgkQIuoRGn5CQqTdOwf9FOXG
-VhPljhnmr08DRGJePsw8/zlOfusRRnoXXx9XL0c4WlBmRcypgvQQBgod7icUSgk6yuygpiH/aulA
-sPZMii+JWbUJGpSU/sTT74yQTeayLw56CG1T6emcTEtDhyTcvyElwInJqkgAuFP3qREW11ko0F4W
-Tin49zc99kkyg6L+AtaDhkRAHoZ0YAtyqV4vI0WLRcl7c4egebo/kq8zsfvtUvK7sDhbX2kRzsxu
-ZZkNiiMzuVQh01r/tFkfIxg4hHlPHBOmya1qAGSzbuRrX8TyummztReBlsyoIw07QTtMzT/LpenO
-yoBGEQ1z+utSozzmqHDrRZ/waosLunfBZQ==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAluLtBwACgkQIuoRGn5CQqRhmQgAzlcy
+8x+hcwJeijWYyyWDUdp4mSeDsPDlRUZxxoIWHMfVfilmQi2sROduarcmB6QWPyELjgx4NzLQWVHd
+GAl//B10k6AEaVa88fVqEBLMkAoN/Vd4u67L7HBWR+5fQYc7tHNnndLAyVOGbBWlkCIQA7j1Ukbk
+Fe5k9XdbORul7PXjEGmU19f+Vd1eBQOIB7A6vamyvp8AmErVbl17PVNzckCPu00DwzCht8PEspw4
+J1gBNHpDVeDRhxQ6jMS+PN18s3hd7suzwOd1sct4D4KCzAaVq+HSRctLgGEcvMUuybd6eqfujKMS
+K9hHx4Ujq8IRmHDF1tNbrjJ9YdViPX6JSw==
 
 -->
