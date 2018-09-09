@@ -260,16 +260,24 @@
       <manifest-digest sha256new="S7UWHEK35ZQT6P23SGCDRPRSTEH3THOPNJA5APRLAYEQBGK2WQCA"/>
       <archive extract="curl-7.61.0-win32-mingw" href="https://bintray.com/vszakats/generic/download_file?file_path=curl-7.61.0-win32-mingw.tar.xz" size="1892268" type="application/x-xz-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=9ab3e5c35600f6e53a244299689eef9f37bc651e" released="2018-09-05" stability="stable" version="7.61.1">
+      <manifest-digest sha256new="7U6ORPE4OWP2VNAYDQWBRD563JZPV6O32JXEMFPMNX5P2ZOEBJAA"/>
+      <archive extract="curl-7.61.1-win64-mingw" href="https://bintray.com/vszakats/generic/download_file?file_path=curl-7.61.1-win64-mingw.tar.xz" size="2031532" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=d0d209ca8dc821772581eadc6dfa97521fb4a354" released="2018-09-05" stability="stable" version="7.61.1">
+      <manifest-digest sha256new="GO7QHDM56RN2VTBHCU56C3Q66KHSINNMQETY2LKLIGWJ6OTEXWPA"/>
+      <archive extract="curl-7.61.1-win32-mingw" href="https://bintray.com/vszakats/generic/download_file?file_path=curl-7.61.1-win32-mingw.tar.xz" size="1892240" type="application/x-xz-compressed-tar"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="curl" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAltl6WUACgkQIuoRGn5CQqTWSQf/ePKu
-F3bVq+GZWVxCP1hfmSmeGM+troR8pArtP3dIEAs63+/br1jEFvALrIAuY4/etG8UVStNQxQukgAk
-UMb6ghRxiXKwMCNIwO5Jbs7USMK3IEthoeZNon4ZZk9OclbMZ8yDcc4V/8yx57G4AvxgqAiVvcyb
-CbpqxF20Qjhzt4uIEok7lXy/ABzsaaLAJ63NUSalHtbBeBVaLhtKl40GBTUnJVssv9N8aNMZq6qw
-lVv6iVtZ/3Z50+bT8ejNNEbCXyp3vzE2U5WYe5Iiv64h08V919XJPrRVHOFsZRknGk0wEOy40i2D
-KGx4oZs6Pf/6asKmgYtl5eKGzOi9C9n3uQ==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAluVUjYACgkQIuoRGn5CQqRH8ggA2IP/
+v6qDBwS3SQz3oEHTw4kpzY3nyGao2Ck+AHHPUcA2XZWHdpRMGRpUNS0zUmKDHHPV8BwqjsJjo9mN
+neYtnII8YTW2zy0Tx7utn/FW1jls5iOXYsuOQ+PQOoxhCRpAoE/tZsInXvB8MMP9iDFwTquHrMNc
+Jtig285tyaoTXEpwg3uXT2o/0mMqP4p62Rw9Vf24szjYaELn7XTm4bQvcivqtzsWDPMny0dQhfDp
+JRbw075Ld4rzeH0q7T/NqBwPPjqeveId6Le7OiktonxDWDVdH1liVZ8fWeBiga3YTXSUbwqwgbLe
+/HCbCVDi4P9X5HSPO1F/vyDe2PWMZVAyCQ==
 
 -->
