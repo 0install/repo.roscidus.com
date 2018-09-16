@@ -798,15 +798,19 @@
       <manifest-digest sha256new="YWIPT2PNR4AXBIBENJWBJSBBW3CMTILUZ7I5SE3HN7ZWR5B77O3A"/>
       <archive extract="gradle-4.10" href="https://services.gradle.org/distributions/gradle-4.10-bin.zip" size="78403740" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=79f1a25a8cdbd186a29c4585ed3ac21e6a0fb02c" released="2018-09-12" stability="stable" version="4.10.1">
+      <manifest-digest sha256new="23ZERXQ2254BMEJMSUT7DKV4AWXCSCUITVNMMZBMTOLQPEDRRITA"/>
+      <archive extract="gradle-4.10.1" href="https://services.gradle.org/distributions/gradle-4.10.1-bin.zip" size="78415822" type="application/zip"/>
+    </implementation>
   </group>
   <entry-point binary-name="gradle" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAluLtBwACgkQIuoRGn5CQqS37QgAkrkN
-UKynsK5m2wnyak1BNrr/OKpVQQh4NBawDvDzrFFg21L5ECUA6t42Di+Gvcd35BcYL7flToBRHlYh
-dWyG2gxc4DiaNXlVlKwQzUgxpCHuSmna3Tt2EhmxcJA13gua4CVFasVHyMGgknepigYAoQS++KND
-yLKWpoI+Z3ILCpFj9BngYrPt+O4DtiLjV56MSbBBIqv6DijLIOJdWzXPhIqUJizBJGfH+mJh431S
-IOpmk9EObdvQB1mCi29S9apclrKk2vp6UyVDK7wexf6dmbaQn7t01LTrUWmA0m0PpUEznXkMk0RY
-O+fC9r6tSTY63rxvMdTnTxVk1O8bUWUv9Q==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlueMhwACgkQIuoRGn5CQqSyqwgA5HKK
+/42bu3JNUMIE8vBzE4Y8VdmXpTsnHGa+rFdMU0/UPpBtytB0SOncQqyqG0fIsPSZoOoDnf6j1zfG
+6NOKOb0bIj30pr8aAhqdQp4KbhNwL26anm7dNhkc9Bnvb3RR2igfpaRUsXDI6BX0mTTx1tRncgZe
+X3ahCxPyxSkQ0EIc8MD4rSbemE7QKLlPyT87FY62S55WyeXDPsrksgVb9fwCSvCaDlqxVAlgQT6w
+bdiji377h/Awz8vSYetSSfR07GVqy2ltALv6yuuBkz+fORqnaXfVbzl7dfyckLRJgXuyoi7xqqSI
+V6fYZgr8eaflWaGqXnWQW0O3ZOhnTPBdMw==
 
 -->

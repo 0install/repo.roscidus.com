@@ -149,14 +149,56 @@
       <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709" sha256="e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" sha256new="4OYMIQUY7QOBJGX36TEJS35ZEQT24QPEMSNZGTFESWMRW6CSXBKQ"/>
       <recipe/>
     </implementation>
+    <implementation id="netfx-4.7-mono" version="4.7">
+      <command name="run">
+        <runner command="run" interface="http://repo.roscidus.com/dotnet/mono">
+          <version not-before="5.8"/>
+        </runner>
+      </command>
+      <command name="run-gui">
+        <runner command="run-gui" interface="http://repo.roscidus.com/dotnet/mono">
+          <version not-before="5.8"/>
+        </runner>
+      </command>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709" sha256="e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" sha256new="4OYMIQUY7QOBJGX36TEJS35ZEQT24QPEMSNZGTFESWMRW6CSXBKQ"/>
+      <recipe/>
+    </implementation>
+    <implementation id="netfx-4.7.1-mono" version="4.7.1">
+      <command name="run">
+        <runner command="run" interface="http://repo.roscidus.com/dotnet/mono">
+          <version not-before="5.8"/>
+        </runner>
+      </command>
+      <command name="run-gui">
+        <runner command="run-gui" interface="http://repo.roscidus.com/dotnet/mono">
+          <version not-before="5.8"/>
+        </runner>
+      </command>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709" sha256="e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" sha256new="4OYMIQUY7QOBJGX36TEJS35ZEQT24QPEMSNZGTFESWMRW6CSXBKQ"/>
+      <recipe/>
+    </implementation>
+    <implementation id="netfx-4.7.2-mono" version="4.7.2">
+      <command name="run">
+        <runner command="run" interface="http://repo.roscidus.com/dotnet/mono">
+          <version not-before="5.12"/>
+        </runner>
+      </command>
+      <command name="run-gui">
+        <runner command="run-gui" interface="http://repo.roscidus.com/dotnet/mono">
+          <version not-before="5.12"/>
+        </runner>
+      </command>
+      <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709" sha256="e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855" sha256new="4OYMIQUY7QOBJGX36TEJS35ZEQT24QPEMSNZGTFESWMRW6CSXBKQ"/>
+      <recipe/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJZtCMlAAoJECLqERp+QkKkTbIH/AjtE8shmomXlNnNaI4wrK11u1YPkl7oNOGd
-vo9KNk9HBhPETUvuVOPl1z6VfMWADFv6GFTZi6t9UujMx9VgvwnMJ9BiKegCwIHWx2MDWjpKzc+h
-G7k+agB/dewlO6nZJ26K7q8j0DRM4PBC8Az5L4gT+ucLvPFEYXuOlglrTUwWd7pOavob0d5mRBXN
-biuCq+IdeO9ImMWXs6Uacks5AcDQPn5aVGhDfo5Qv93V6pg6ET5Z+UqbAkI2437UZR1dMM0IzEog
-t6nF7qi++CB5v03JxfnKzjo8CDZ4huUKz04Bc/b60Bg9wGGDQ5u5isOJWK6gfSOvZffFiA5gUCp/
-cjM=
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlueMh0ACgkQIuoRGn5CQqSYSwf/biUe
+hBE+ShsW/vIv7+xHNY/6TMT0XMGrN890/UvwgiqNJ9wCZ+putqjoo7X5p8WU7SJ5l+K8wBMKW5uy
+rxFK0LfFL18Pl9sjk1nUtliDuq+xFW9a9RG9tnVqQKQpBt8Sdoeb6IiufwYhrUM8xHsHxbwD5yXh
+dbZHzrgri9Lf969AZF7gSUDQBHanDtcsujpii7Rlr+YBVFaw1cDo4+uWRUkaPAxkz3QxEUyoIPPr
+phELL63khP0QstZzu0IEq2e41UZUpTl/PrJje+DcFVQTmfnwAYtbNTYM3raraNIcv6yAfY68n7q6
+p8k3jFsCKvap37/yDpEbyiaEs5eA3VLgwA==
 
 -->

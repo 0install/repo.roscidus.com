@@ -226,6 +226,22 @@
         <manifest-digest sha256new="EXO6OVT2GMK7D4Z2A5JQYB3SZG7JCQG4WBYOUOVCOYUZST6MFR6Q"/>
         <archive href="https://releases.hashicorp.com/packer/1.2.5/packer_1.2.5_darwin_amd64.zip" size="19352311" type="application/zip"/>
       </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=9ac014f55501a9981bf2f60d9169ae74ed9a1cb3" released="2018-09-15" stability="stable" version="1.3.0">
+        <manifest-digest sha256new="GCF3ZZHIVRYKNUTJ3SFSMCYGOXKYVC3NOGYV2FBETCBFRNTLSWHA"/>
+        <archive href="https://releases.hashicorp.com/packer/1.3.0/packer_1.3.0_linux_amd64.zip" size="27032737" type="application/zip"/>
+      </implementation>
+      <implementation arch="Darwin-x86_64" id="sha1new=dc03b0526ab8014e18e1e90f27bd2056040b164c" released="2018-09-15" stability="stable" version="1.3.0">
+        <manifest-digest sha256new="CS74C4QPORMQ2AOZB5DUGRA5DMKXM3VPKMVGOWOP5VERDIABBKHA"/>
+        <archive href="https://releases.hashicorp.com/packer/1.3.0/packer_1.3.0_darwin_amd64.zip" size="27172859" type="application/zip"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=599d93e2bc04c9fb91440b936a33e97c9032571b" released="2018-09-15" stability="stable" version="1.3.1">
+        <manifest-digest sha256new="SSE6XYZ6YXL3KIBKSE7LSX6KBYDDYMM7V55H6GEPC5BLEJARRFXA"/>
+        <archive href="https://releases.hashicorp.com/packer/1.3.1/packer_1.3.1_linux_amd64.zip" size="27052341" type="application/zip"/>
+      </implementation>
+      <implementation arch="Darwin-x86_64" id="sha1new=18d7d59bae6cfb4fd7c50a3620935eeceb6ae4ab" released="2018-09-15" stability="stable" version="1.3.1">
+        <manifest-digest sha256new="LDTMDLWEDPO5V6NOCUG5KCVJLQTQOO2JITCZQ3MXI6ASVWDWD6HA"/>
+        <archive href="https://releases.hashicorp.com/packer/1.3.1/packer_1.3.1_darwin_amd64.zip" size="27188490" type="application/zip"/>
+      </implementation>
     </group>
     <group>
       <command name="run" path="packer.exe"/>
@@ -337,17 +353,25 @@
         <manifest-digest sha256new="SSEQQHJYLWGCOYOAXYOAN3FDWLCVKOSYLGWACRZMDXIFJVMFUIWQ"/>
         <archive href="https://releases.hashicorp.com/packer/1.2.5/packer_1.2.5_windows_amd64.zip" size="19278206" type="application/zip"/>
       </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=3b2a9fc2b64466fddb39d670b7f359c1e0fe9511" released="2018-09-15" stability="stable" version="1.3.0">
+        <manifest-digest sha256new="WMT4GE3NVYCP5UUO62D7XJEFPQSE3MJFDAQJQBTNJJH5O5ZJJIBQ"/>
+        <archive href="https://releases.hashicorp.com/packer/1.3.0/packer_1.3.0_windows_amd64.zip" size="26863738" type="application/zip"/>
+      </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=cb2694ebb91fde96a2299ac7f655ed4ff69e9078" released="2018-09-15" stability="stable" version="1.3.1">
+        <manifest-digest sha256new="CHGCKF2UIMX5DPPRJWGO3NKC6MRJAO6NHQYDCSWGHMCDXBI3XKNA"/>
+        <archive href="https://releases.hashicorp.com/packer/1.3.1/packer_1.3.1_windows_amd64.zip" size="26867025" type="application/zip"/>
+      </implementation>
     </group>
   </group>
 
   <entry-point binary-name="packer" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAltURuUACgkQIuoRGn5CQqTPwwf/RpME
-NLqtAiKpq1HnCnkNX9D8crNEMoQTCb1cgMT0y/7jXRUab3RUVNS9Jn/THAo5tQuW9oaKJgPQGK3N
-uW6KsQDhy0YfSMF/qRmyUO9bRp9pWTzsFspqMHZwHI/XSJTGzhduKyIul+yvicJ7mqXCOnVTEAb7
-EerFEC3uhpTtm1Eo8E3hz+kpZmc5VYQjqMOVPPfMr7Vcgz5U/Jw+Y+Hlq6EmHZ20PIXQ22QRU/oC
-FJQycr5ZzK4WBZDtz4g/lGx22wRUPkWJS6zvX33r6y/aQjzqe+geuDHyd4KJkNZDw3X63Ge5xyPL
-goeMo1pw9hnksuZciE7ubZ5/DXN7ZhLKPA==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlueMhQACgkQIuoRGn5CQqQMmAf8CoA5
+jPeA+Ql2BXJVmcl6AsseXkWezgE7D1Ja/Jq2TQGcNsBFHViXfkvhA7RcFvtakIHoXToNIinmKWQc
+Im8xEU4gzmnn8nGbkThGdPAhBhZqQsnxoNhnxJeDmyGLAk0qhzbh9+VNN2KqpY3Emua2dDjB5NBk
+nJtcccsfzRwSdEaAJvgBDEHP2U48e+w6MXVey2NokNSoUDlcJs8jvCN/HkGEz9TEDnKFsbYdIunq
+5YWUAJqagOuG37QFQ8ST4888q06PSKkmQ7pQHoNQMjki/3etOQvfnqpjv+HBff5ZCsooNOHzOYWs
+UkvU3i4W7StQdtU4pocG81wbswW8DM4Z8w==
 
 -->

@@ -193,6 +193,10 @@
       <manifest-digest sha256new="R3UXIJUUOKI6Z2BEK5BGPIZ7WDK2FPQS6PL24OKD7ISMCEQVKSGQ"/>
       <archive extract="kotlinc" href="https://github.com/JetBrains/kotlin/releases/download/v1.2.70-eap-40/kotlin-compiler-1.2.70-eap-40.zip" size="37178484" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=e0b2e9d8a7a12a3be3c5fd3bf11ba3be76c77166" released="2018-09-13" stability="stable" version="1.2.70">
+      <manifest-digest sha256new="Q5TTLLNVJ3GYX7Y4X52KL6Y5R7IMHHODIYC456EQ7A2U55FUMM2Q"/>
+      <archive extract="kotlinc" href="https://github.com/JetBrains/kotlin/releases/download/v1.2.70/kotlin-compiler-1.2.70.zip" size="37177896" type="application/zip"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="kotlin" command="run">
@@ -225,11 +229,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAluVUjYACgkQIuoRGn5CQqT1/AgA04aZ
-SM8cN7j0l5o4J8VcyTwETA+9TfmDnqo1Cbb+FM8U9nj1ruA0MC09haXtQmzvKZEtjC9by60FVghQ
-Iul8M+kHmXmmVRhpthCK2Ypb42E/jlhlTXwMmgrIBimBThGVwJ4+JAJfeoXymJiWfXYaFNW1QM3p
-YR/HeHZCCRq8KQLSTefpqmRN1oCq5QR/kO2QKg6Seg9F40tmpJ8xmTdqViUJwbSP5fPwqTJqU+7F
-1yFJFdBvyEpBiQej9dcCWxB9151boDS3IbnLDvdwCHPDAhJgDw7t/xgf8czL0o45fE94FNu06REX
-c7mAuM346uWvqf0oTywaanDg3Ltb+gsrXw==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlueMhwACgkQIuoRGn5CQqRw0gf/eAoT
+VP68hPZRxRaHxzKvh4cRUv58C8dXt9C3z4Dc2sfY3gZ05VdfOB3xS9zSc7UG63gZ6pINJMYg+l1O
+RYX+HVrzZJKJNxB+94UE8dvw0dU4RShEaVmegbn8+hDC6/VxAI8FHYlYB+i9hskvdhoPYhXXUir+
+NgpkB0QgjAa2G4+hy2Sy2/fF1iQnCcxdyQf0LDrQzpfa5HoG/PjhNhesOgp2I3KDMeQwp5Ls18BB
+G4LC7Pmuk0crl1fFAiH/YD/t1ym6VNvvz7PnRjcpF54t2Se9rgYrmcyRIivs6qpoMAw9/I5NQOOZ
+u3wWcvT3d8/3TosxRxflnmcDKWN74XNdDg==
 
 -->

@@ -55,8 +55,17 @@
       <manifest-digest sha256new="E5FWFCCVJ7BBHI5A3UCCCI4DNNA6XNHFHODW25KRDVRFVGCF6LPQ"/>
       <archive href="https://github.com/PowerShell/PowerShell/releases/download/v6.0.4/PowerShell-6.0.4-win-x86.zip" size="48759738" type="application/zip"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=4736433c95b13955f0d56807360772c6570a928d" released="2018-09-13" stability="stable" version="6.1.0">
+      <manifest-digest sha256new="FODXZF3FXXEGQD2TWDCBIFQVZRP2YMEVA5TXXS2WLDKD755XEU2Q"/>
+      <archive href="https://github.com/PowerShell/PowerShell/releases/download/v6.1.0/PowerShell-6.1.0-win-x64.zip" size="59113178" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=513130da7e5cc8dac33d2d8c9dc0b70443f98f41" released="2018-09-13" stability="stable" version="6.1.0">
+      <manifest-digest sha256new="AAHIDJEBHTOTNFQABVUULD3BVDVO6PNT5SSUMWJYCMTZPMBNLDSQ"/>
+      <archive href="https://github.com/PowerShell/PowerShell/releases/download/v6.1.0/PowerShell-6.1.0-win-x86.zip" size="54133760" type="application/zip"/>
+    </implementation>
   </group>
   <group license="MIT License" main="pwsh">
+    <requires interface="http://repo.roscidus.com/lib/curl"/>
     <requires interface="http://repo.roscidus.com/lib/unwind8"/>
     <implementation arch="Linux-x86_64" id="sha1new=029dd1d8bd0d019815035dd11d525178f2c7c42c" released="2017-12-14" stability="testing" version="6.0.0-rc2">
       <manifest-digest sha256new="KPRMKFWKGS7Z5PG4TIJOT436FS5ZDHHG5MOATNSS6GOFJLSXUFQQ"/>
@@ -83,15 +92,22 @@
       <archive href="https://github.com/PowerShell/PowerShell/releases/download/v6.0.4/powershell-6.0.4-linux-x64.tar.gz" size="52538500" type="application/x-compressed-tar"/>
     </implementation>
   </group>
+  <group license="MIT License" main="pwsh">
+    <requires interface="http://repo.roscidus.com/lib/curl"/>
+    <implementation arch="Linux-x86_64" id="sha1new=082dd853049b265049bbbe08d4bb17ea958e47f0" released="2018-09-13" stability="stable" version="6.1.0">
+      <manifest-digest sha256new="BLLVDOJLWRQKD72AHEYKWCQFI7T4XNQYZFVR2LRO264P7NYJSIHQ"/>
+      <archive href="https://github.com/PowerShell/PowerShell/releases/download/v6.1.0/powershell-6.1.0-linux-x64.tar.gz" size="58271981" type="application/x-compressed-tar"/>
+    </implementation>
+  </group>
 
   <entry-point binary-name="pwsh" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlt4JcgACgkQIuoRGn5CQqRZuggArW91
-CJ1FiC0GkvnPe5h/ahA0ZQJkNLVg1cNKXxIrklPnqfe4q1AHASal22n/OpIP6F658rTiIXftW/JT
-+GaQd4IkqmiMb2Vf6yG/avzZvpRpKacvGvIdYop5UkGiEUBuljC3nBO73lHA+CeiUDTKuJp9Hnyq
-X4QfhvxjKC54IVHFg9/ZzjnuIv4Sf9Cts0R9ELJlWR2xkpzUZIsVo6oYqeluQoRysEfMMgpdPZ+3
-UZ+nlioclAwdqMIe9oI0RFxOu/xLLY5n4wUVdvDFcKcXaVM2c8sm/dhriKWsmU950lb6+eZYyVEi
-Cc29FGSOlpSEJ2q4dlgNgg9J5ihvPXRfBQ==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlueMhwACgkQIuoRGn5CQqQspAf+OEAy
+pozG7pfk4RVEyB6dUStEv3DQaIiEtSfc0po0WQ3ilnbpJDo6Zyh6W3k8gLicnFFcOgzHhx+IZhf6
+q2m0qKzjPeI32/5coaacsxz1wUhjGLNLlOK1W+AAXl/pY5vFn/3DPpfKBcaQkTgNLLqyLNNkhdb0
+ctJRpMu9mJcxDXV5+2FctN4gvNIEhRHApJotis/CMZVcefdkEqt4vPh3Nbw4SzSYUoY2TFutnL+W
+yYYY4VH4mhVlvgkqUk/v0YHLWg3uTXGhV7fNz0kfv1hnPFyvKrlsU3tywBvOvjxQFy4/RmNwc/sn
+lXgVODrpcpiRAS8fZ8blOQyHeuOfNR4vDQ==
 
 -->
