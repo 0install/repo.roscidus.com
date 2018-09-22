@@ -12,9 +12,12 @@
   <icon href="http://0install.de/feed-icons/Kotlin.ico" type="image/vnd.microsoft.icon"/>
 
   <group license="Apache License 2.0">
+    <requires interface="http://repo.roscidus.com/java/openjdk-jdk" version="7..">
+      <environment insert="" mode="replace" name="JAVA_HOME"/>
+    </requires>
     <environment insert="." mode="replace" name="KOTLIN_HOME"/>
     <command name="run">
-      <runner interface="http://repo.roscidus.com/java/openjdk-jre">
+      <runner command="java" interface="http://repo.roscidus.com/java/openjdk-jdk">
         <arg>-Dkotlin.home=$KOTLIN_HOME</arg>
         <arg>-cp</arg>
         <arg>$KOTLIN_HOME/lib/kotlin-runner.jar</arg>
@@ -22,7 +25,7 @@
       </runner>
     </command>
     <command name="kotlinc">
-      <runner interface="http://repo.roscidus.com/java/openjdk-jre">
+      <runner command="java" interface="http://repo.roscidus.com/java/openjdk-jdk">
         <arg>-Dkotlin.home=$KOTLIN_HOME</arg>
         <arg>-cp</arg>
         <arg>$KOTLIN_HOME/lib/kotlin-preloader.jar</arg>
@@ -33,7 +36,7 @@
       </runner>
     </command>
     <command name="kotlinc-jvm">
-      <runner interface="http://repo.roscidus.com/java/openjdk-jre">
+      <runner command="java" interface="http://repo.roscidus.com/java/openjdk-jdk">
         <arg>-Dkotlin.home=$KOTLIN_HOME</arg>
         <arg>-cp</arg>
         <arg>$KOTLIN_HOME/lib/kotlin-preloader.jar</arg>
@@ -44,7 +47,7 @@
       </runner>
     </command>
     <command name="kotlinc-js">
-      <runner interface="http://repo.roscidus.com/java/openjdk-jre">
+      <runner command="java" interface="http://repo.roscidus.com/java/openjdk-jdk">
         <arg>-Dkotlin.home=$KOTLIN_HOME</arg>
         <arg>-cp</arg>
         <arg>$KOTLIN_HOME/lib/kotlin-preloader.jar</arg>
@@ -55,7 +58,7 @@
       </runner>
     </command>
     <command name="kotlinc-dce-js">
-      <runner interface="http://repo.roscidus.com/java/openjdk-jre">
+      <runner command="java" interface="http://repo.roscidus.com/java/openjdk-jdk">
         <arg>-Dkotlin.home=$KOTLIN_HOME</arg>
         <arg>-cp</arg>
         <arg>$KOTLIN_HOME/lib/kotlin-preloader.jar</arg>
@@ -65,6 +68,7 @@
         <arg>org.jetbrains.kotlin.cli.js.dce.K2JSDce</arg>
       </runner>
     </command>
+
     <implementation id="sha1new=8919914eaf40a76e9715c335dc8c51acc6b6ca56" released="2017-11-24" stability="stable" version="1.1.61">
       <manifest-digest sha256new="MKAI4HMWEEV25T5KCHDF23A45UUXPOWXXEG3IRBNF3CTD26CKGWQ"/>
       <archive extract="kotlinc" href="https://github.com/JetBrains/kotlin/releases/download/v1.1.61/kotlin-compiler-1.1.61.zip" size="32400359" type="application/zip"/>
@@ -197,6 +201,10 @@
       <manifest-digest sha256new="Q5TTLLNVJ3GYX7Y4X52KL6Y5R7IMHHODIYC456EQ7A2U55FUMM2Q"/>
       <archive extract="kotlinc" href="https://github.com/JetBrains/kotlin/releases/download/v1.2.70/kotlin-compiler-1.2.70.zip" size="37177896" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=dfabf171412be1a28ad31575cf77e9d3a1867696" released="2018-09-20" stability="testing" version="1.3-rc">
+      <manifest-digest sha256new="3BDZKG2YAPYUMPSAXK5EBJZTODEH6TO33QOL5ZFNHPKHWWIGHEYA"/>
+      <archive extract="kotlinc" href="https://github.com/JetBrains/kotlin/releases/download/v1.3-rc/kotlin-compiler-1.3.0-rc-57.zip" size="35983627" type="application/zip"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="kotlin" command="run">
@@ -229,11 +237,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlueMhwACgkQIuoRGn5CQqRw0gf/eAoT
-VP68hPZRxRaHxzKvh4cRUv58C8dXt9C3z4Dc2sfY3gZ05VdfOB3xS9zSc7UG63gZ6pINJMYg+l1O
-RYX+HVrzZJKJNxB+94UE8dvw0dU4RShEaVmegbn8+hDC6/VxAI8FHYlYB+i9hskvdhoPYhXXUir+
-NgpkB0QgjAa2G4+hy2Sy2/fF1iQnCcxdyQf0LDrQzpfa5HoG/PjhNhesOgp2I3KDMeQwp5Ls18BB
-G4LC7Pmuk0crl1fFAiH/YD/t1ym6VNvvz7PnRjcpF54t2Se9rgYrmcyRIivs6qpoMAw9/I5NQOOZ
-u3wWcvT3d8/3TosxRxflnmcDKWN74XNdDg==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlumPOQACgkQIuoRGn5CQqTx2gf/VV4G
+yVJz8DVRVWkrAjZeFz4FdwlcPurpck7ywfzANWYf41ijFmJhqAm3KNkv9S+kyoX+kuTV/M2U6iux
+aFqxAke1UcApw72oYlDP8hfe8JLNZl+AXqhsWupdLfygH5XSKjB4r/aVczjNrRtAgJ8aUPCBDYVl
+W+Yql+yuudWqMvMyOy3DPcJ8/kqaff3GRqUYTIgz2ETPnmNbdwB+liRomgglUCTsKd2k9+v7hncy
+zmfkHN/KsbLppabo08N1K2ta39X6DjEQztF7Q76f3NjEj6eqTK3zuPZFe4VRC6Bu6+00vBF17q9o
+Hr73Hu52YsJ8i1rgMTgqWsj7Fx2WVkFMQA==
 
 -->

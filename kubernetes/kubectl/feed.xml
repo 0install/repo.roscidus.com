@@ -718,6 +718,18 @@
         <manifest-digest sha256new="PAX3ACZREEQTOVHWBIM3WA72VQL3NWBK76PBYUKDZLDNVWATOF6Q"/>
         <archive extract="kubernetes" href="https://dl.k8s.io/v1.12.0-beta.2/kubernetes-client-darwin-amd64.tar.gz" size="14152798" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=32cde94157f70ed9b1354ad369358f000f0a756c" released="2018-09-18" stability="testing" version="1.12.0-rc1">
+        <manifest-digest sha256new="SV54AK7GVNAKOCXHEQIPHKOXYUBON6TJXVYLWJWOUDY66H75FCIQ"/>
+        <archive extract="kubernetes" href="https://dl.k8s.io/v1.12.0-rc.1/kubernetes-client-linux-amd64.tar.gz" size="14254510" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Linux-i486" id="sha1new=7f1464b89bdde606d489fd5021724dfb4b769d29" released="2018-09-18" stability="testing" version="1.12.0-rc1">
+        <manifest-digest sha256new="7H2PGEL2TMUUN2KNSCYAC7CGW2ZWOI4PDSMKSSE3E7OV7WFX7EGA"/>
+        <archive extract="kubernetes" href="https://dl.k8s.io/v1.12.0-rc.1/kubernetes-client-linux-386.tar.gz" size="13652965" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Darwin-x86_64" id="sha1new=c13f18a2fe654719f4354593aa97deed11992f22" released="2018-09-18" stability="testing" version="1.12.0-rc1">
+        <manifest-digest sha256new="67VWIUSXFSFXJ7Y2Y7PPWTOZAP6EV6M6LZNK4AYWG4PMGKCRFOPA"/>
+        <archive extract="kubernetes" href="https://dl.k8s.io/v1.12.0-rc.1/kubernetes-client-darwin-amd64.tar.gz" size="14156461" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
     <group>
       <command name="run" path="client/bin/kubectl.exe"/>
@@ -1193,17 +1205,25 @@
         <manifest-digest sha256new="R2TTGPEF63BYRGUPZDHA3GA6CA2C4JSN3F7CXLRM77KB5QVZU4MQ"/>
         <archive extract="kubernetes" href="https://dl.k8s.io/v1.12.0-beta.2/kubernetes-client-windows-386.tar.gz" size="13649638" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=cda889b74388a6406cf19b991f196718899e3416" released="2018-09-18" stability="testing" version="1.12.0-rc1">
+        <manifest-digest sha256new="SPQSIZYMQH5W55LFMDYXUHFNFBIS43TP3D7WNKUZSH75QMS734ZA"/>
+        <archive extract="kubernetes" href="https://dl.k8s.io/v1.12.0-rc.1/kubernetes-client-windows-amd64.tar.gz" size="14283947" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Windows-i486" id="sha1new=bc37aea8526363e06f1fca24d83c3425548a1191" released="2018-09-18" stability="testing" version="1.12.0-rc1">
+        <manifest-digest sha256new="YQBQBABWRG3OOMBSM6WAOM7WM46P6HR6N4UPBTGOERGWJUUOU6EQ"/>
+        <archive extract="kubernetes" href="https://dl.k8s.io/v1.12.0-rc.1/kubernetes-client-windows-386.tar.gz" size="13654342" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 
   <entry-point binary-name="kubectl" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlueMh4ACgkQIuoRGn5CQqRCqwgAu8UI
-0IjTwmlB4cvE90J2nzPAFFgHSPbZGAjky9qlH1RxbRhk/9no88N86GT37C69LANcxJZomGEcWbBB
-5C6sqUvJTnf4Q1Q/DnM3vfNex96H/FOrg382Mx+3TE6eWgrB1MZPyrjUAL06uzBZ4oI4Ltrrf0Xw
-NM4INvMNX2yxEKJKbMzq07r0DlF6JxqZpp8D78Gp+Si9xkuUZu77b1THcACWDKXZWtZsNF7bVuBE
-XQoGVusmlpy+PojOGExnVS92t/S0iICGdEV1LfnyitmBN3Sg25uMZ4cBkAk0q3cilGE091bEGTAh
-aGiBa0wLY/jpJtDdE1ktLiyZEmnSz36IDg==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlumPOUACgkQIuoRGn5CQqQQKQgA2DF+
+s3LyQb7UjxNEOulaZQrJZUMS3+cmulQ3078dW+BScI2aPqZUnCC8FfW5MBGFSg7mcC4GlZR1PJ2+
+DlWq8bqtvOf5xrjgfeIC8zLUQuLDZQzVPc3xVAtoAGOplNleG0611ER9yBj4+jQvfvVzKJ9uAapE
+XpiQOK8+c25KXX6fRc9MM1rmzxvUWxB1W/D3D5hQOXgNe4KLsWHMHzjh1fMO0xA6GY9Jxc3TTVoA
+LNsSrS+FFPNT4vmYVOuPeSSEZ40Et8xAnUyqBMRvs+eKT1z/vtzM4oTzUTopUOzH3EZVapupNtHQ
+jEGV3inPEjALpaT9EihMAJGEM6qEnMCm2A==
 
 -->

@@ -439,42 +439,161 @@ recompiled and issues the commands to recompile them, when necessary.
 
 The upstream sources for this package are available at the location
 ftp://ftp.gnu.org/gnu/make/. The documentation for this package does not meet
-the Debian Free Software Guidelines, and has been removed from this package.</description><category>Development</category><homepage>http://www.gnu.org/software/make/</homepage></interface><interface uri="http://repo.roscidus.com/devel/make-dep"><name>make dependencies</name><summary>libraries for make</summary></interface><interface uri="http://repo.roscidus.com/java/openjdk-jdk"><name>openjdk-jdk</name><summary>OpenJDK Development Kit (JDK)</summary><description>
-OpenJDK is a development environment for building applications, applets, and
-components using the Java programming language.
-
-The packages are built using the IcedTea build support and patches from the
-IcedTea project.</description><category>Development</category><entry-point binary-name="javac" command="run">
+the Debian Free Software Guidelines, and has been removed from this package.</description><category>Development</category><homepage>http://www.gnu.org/software/make/</homepage></interface><interface uri="http://repo.roscidus.com/devel/make-dep"><name>make dependencies</name><summary>libraries for make</summary></interface><interface uri="http://repo.roscidus.com/java/openjdk-jdk"><name>openjdk-jdk</name><summary>OpenJDK Development Kit (JDK)</summary><description>OpenJDK is a development environment for building applications, applets, and
+components using the Java programming language.</description><category>Development</category><entry-point binary-name="javac" command="run">
     <name>Java compiler</name>
   </entry-point><entry-point binary-name="java" command="java">
-    <name>Java application launcher</name>
-  </entry-point></interface><interface uri="http://repo.roscidus.com/java/openjdk-jre"><name>openjdk-jre</name><summary>OpenJDK Java runtime</summary><description>
-    The package was built by the Debian project using the IcedTea build support and
-    patches from the IcedTea project and then repackaged for Zero Install.</description><entry-point binary-name="java" command="run">
     <needs-terminal/>
     <name>Java command-line runner</name>
-  </entry-point><entry-point command="run-gui">
+  </entry-point><entry-point binary-name="javaw" command="run-gui">
     <name>Java GUI runner</name>
-  </entry-point><entry-point command="javaws">
-    <name>Java Web Start</name>
-  </entry-point><entry-point command="java-rmi">
+  </entry-point><entry-point binary-name="javadoc" command="javadoc">
     <needs-terminal/>
-    <name>Java Remote Method Invocation</name>
-  </entry-point><entry-point command="javacpl">
-    <name>Java Control Panel</name>
-  </entry-point><entry-point binary-name="policytool" command="policytool">
-    <name>Policy Tool</name>
-  </entry-point><entry-point binary-name="servertool" command="servertool">
+    <name>Java API Documentation Generator</name>
+  </entry-point><entry-point binary-name="javap" command="javap">
     <needs-terminal/>
-    <name>Java IDL Server Tool</name>
+    <name>Java Class File Disassembler</name>
+  </entry-point><entry-point binary-name="jar" command="jar">
+    <needs-terminal/>
+    <name>Java Archive Tool</name>
+  </entry-point><entry-point binary-name="jarsigner" command="jarsigner">
+    <needs-terminal/>
+    <name>Java Archive Signer</name>
   </entry-point><entry-point binary-name="keytool" command="keytool">
     <needs-terminal/>
     <name>Key and Certificate Management Tool</name>
-  </entry-point><entry-point binary-name="pak200" command="pak200">
+  </entry-point><entry-point binary-name="servertool" command="servertool">
     <needs-terminal/>
-  </entry-point><entry-point binary-name="unpak200" command="unpak200">
+    <name>Java IDL Server Tool</name>
+  </entry-point><entry-point binary-name="pack200" command="pack200">
     <needs-terminal/>
-  </entry-point></interface><interface uri="http://repo.roscidus.com/devel/pkg-config"><name>pkg-config</name><summary>manage compile and link flags for libraries</summary><description>
+    <name>JAR Packing tool</name>
+  </entry-point><entry-point binary-name="unpack200" command="unpack200">
+    <needs-terminal/>
+    <name>JAR Unpacking tool</name>
+  </entry-point><entry-point binary-name="appletviewer" command="appletviewer">
+    <name>Run applet outside of browser</name>
+  </entry-point><entry-point binary-name="rmid" command="rmid">
+    <needs-terminal/>
+    <name>Remote activation system daemon</name>
+  </entry-point><entry-point binary-name="rmiregistry" command="rmiregistry">
+    <needs-terminal/>
+    <name>Remote object registry</name>
+  </entry-point><entry-point binary-name="idlj" command="idlj">
+    <needs-terminal/>
+    <name>IDL-to-Java Compiler</name>
+  </entry-point><entry-point binary-name="jjs" command="jjs">
+    <needs-terminal/>
+    <name>Nashorn engine</name>
+  </entry-point><entry-point binary-name="jrunscript" command="jrunscript">
+    <needs-terminal/>
+    <name>Java command line script shell</name>
+  </entry-point><entry-point binary-name="jaotc" command="jaotc">
+    <needs-terminal/>
+    <name>Java Ahead-of-Time Compilation</name>
+  </entry-point><entry-point binary-name="jcmd" command="jcmd">
+    <needs-terminal/>
+  </entry-point><entry-point binary-name="jconsole" command="jconsole"/><entry-point binary-name="jdb" command="jdb">
+    <needs-terminal/>
+  </entry-point><entry-point binary-name="jdeprscan" command="jdeprscan">
+    <needs-terminal/>
+  </entry-point><entry-point binary-name="jdeps" command="jdeps">
+    <needs-terminal/>
+  </entry-point><entry-point binary-name="jhsdb" command="jhsdb">
+    <needs-terminal/>
+  </entry-point><entry-point binary-name="jimage" command="jimage">
+    <needs-terminal/>
+  </entry-point><entry-point binary-name="jinfo" command="jinfo">
+    <needs-terminal/>
+  </entry-point><entry-point binary-name="jlink" command="jlink">
+    <needs-terminal/>
+  </entry-point><entry-point binary-name="jmap" command="jmap">
+    <needs-terminal/>
+  </entry-point><entry-point binary-name="jmod" command="jmod">
+    <needs-terminal/>
+  </entry-point><entry-point binary-name="jps" command="jps">
+    <needs-terminal/>
+  </entry-point><entry-point binary-name="jshell" command="jshell">
+    <needs-terminal/>
+  </entry-point><entry-point binary-name="jstack" command="jstack">
+    <needs-terminal/>
+  </entry-point><entry-point binary-name="jstat" command="jstat">
+    <needs-terminal/>
+  </entry-point><entry-point binary-name="jstatd" command="jstatd">
+    <needs-terminal/>
+  </entry-point><entry-point binary-name="schemagen" command="schemagen">
+    <needs-terminal/>
+  </entry-point><entry-point binary-name="serialver" command="serialver">
+    <needs-terminal/>
+  </entry-point><entry-point binary-name="wsgen" command="wsgen">
+    <needs-terminal/>
+  </entry-point><entry-point binary-name="wsimport" command="wsimport">
+    <needs-terminal/>
+  </entry-point><entry-point binary-name="xjc" command="xjc">
+    <needs-terminal/>
+  </entry-point><entry-point binary-name="kinit" command="kinit">
+    <needs-terminal/>
+    <name>Obtain and cache Kerberos ticket-granting ticket</name>
+  </entry-point><entry-point binary-name="klist" command="klist">
+    <needs-terminal/>
+    <name>Kerberos display entries in credentials cache and keytab</name>
+  </entry-point><entry-point binary-name="ktab" command="ktab">
+    <needs-terminal/>
+    <name>Kerberos key table manager</name>
+  </entry-point><entry-point binary-name="jabswitch" command="jabswitch">
+    <needs-terminal/>
+    <name>Java Access Bridge Switch</name>
+  </entry-point><entry-point binary-name="jaccessinspector" command="jaccessinspector"/><entry-point binary-name="jaccesswalker" command="jaccesswalker"/></interface><interface uri="http://repo.roscidus.com/java/openjdk-jre"><name>openjdk-jre</name><summary>OpenJDK Java runtime</summary><description>The Java runtime allows you to run applications built for Java.</description><entry-point binary-name="java" command="run">
+    <needs-terminal/>
+    <name>Java command-line runner</name>
+  </entry-point><entry-point binary-name="javaw" command="run-gui">
+    <name>Java GUI runner</name>
+  </entry-point><entry-point command="javaws">
+    <name>Java Web Start</name>
+  </entry-point><entry-point command="javacpl">
+    <name>Java Control Panel</name>
+  </entry-point><entry-point binary-name="keytool" command="keytool">
+    <needs-terminal/>
+    <name>Key and Certificate Management Tool</name>
+  </entry-point><entry-point binary-name="servertool" command="servertool">
+    <needs-terminal/>
+    <name>Java IDL Server Tool</name>
+  </entry-point><entry-point binary-name="pack200" command="pack200">
+    <needs-terminal/>
+    <name>JAR Packing tool</name>
+  </entry-point><entry-point binary-name="unpack200" command="unpack200">
+    <needs-terminal/>
+    <name>JAR Unpacking tool</name>
+  </entry-point><entry-point binary-name="appletviewer" command="appletviewer">
+    <name>Run applet outside of browser</name>
+  </entry-point><entry-point binary-name="rmid" command="rmid">
+    <needs-terminal/>
+    <name>Remote activation system daemon</name>
+  </entry-point><entry-point binary-name="rmiregistry" command="rmiregistry">
+    <needs-terminal/>
+    <name>Remote object registry</name>
+  </entry-point><entry-point binary-name="idlj" command="idlj">
+    <needs-terminal/>
+    <name>IDL-to-Java Compiler</name>
+  </entry-point><entry-point binary-name="jjs" command="jjs">
+    <needs-terminal/>
+    <name>Nashorn engine</name>
+  </entry-point><entry-point binary-name="jrunscript" command="jrunscript">
+    <needs-terminal/>
+    <name>Java command line script shell</name>
+  </entry-point><entry-point binary-name="kinit" command="kinit">
+    <needs-terminal/>
+    <name>Obtain and cache Kerberos ticket-granting ticket</name>
+  </entry-point><entry-point binary-name="klist" command="klist">
+    <needs-terminal/>
+    <name>Kerberos display entries in credentials cache and keytab</name>
+  </entry-point><entry-point binary-name="ktab" command="ktab">
+    <needs-terminal/>
+    <name>Kerberos key table manager</name>
+  </entry-point><entry-point binary-name="jabswitch" command="jabswitch">
+    <needs-terminal/>
+    <name>Java Access Bridge Switch</name>
+  </entry-point><entry-point binary-name="jaccessinspector" command="jaccessinspector"/><entry-point binary-name="jaccesswalker" command="jaccesswalker"/></interface><interface uri="http://repo.roscidus.com/devel/pkg-config"><name>pkg-config</name><summary>manage compile and link flags for libraries</summary><description>
 pkg-config is a system for managing library compile and link flags that works
 with automake and autoconf.
 
@@ -573,11 +692,11 @@ More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
 This package is built from the X.org xproto proto module.</description></interface><interface uri="http://repo.roscidus.com/lib/zlib1g"><name>zlib1g</name><summary>compression library - runtime</summary><description>zlib is a library implementing the deflate compression method found
 in gzip and PKZIP. This package includes the shared library.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlumOv4ACgkQIuoRGn5CQqTdhwf+Iuqq
-ykgjJUZSoz3Pk59tefqC0NrdQHuBz2jDxmJ0f/IUYBaqeAbYV7I7Lv1nTSUhOyaR1i1KDeJEy7s8
-rnrld8CKiTkPYLWHM96TmkkQ7NEL0A1OtUQwhgkyddJcTDr9qzvM2LXu+mLtiSiDfUBTixDe5P2b
-8RYKqY1R4EB+35U3FYMb+Lr2jpU7Ln3HkslGXTlv4yrMy3O0aKTHztner5Ua0RbQfRuI2vo8HGdI
-ImMqNm45tBoMzaCZxJwTE6oL94/Va5lgEn3wsLXk+PVxvvdLtmv8ZO56DRMwchNIG0LY0uEmcB6h
-c29MEWL0aXGUO2ZdCX5p5wp8zJZfwyxFsw==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlumPOYACgkQIuoRGn5CQqRelQgA4daK
+a7advcyX0Vx2ev5sgJOV6GjEe9Omx2Jc4oaV3R753mcLa6U0nluL0IqUkyQ8hACNk4x08WuRRBlt
+kEMOIp9K1wYN5BQdrrxsKzRp5xeaPocSRT/cdbO35iU3vdUFLZptLqxO2i6tEZJoP3nEbBrZipLv
+6mMDTy7feilRC5aFVoEl3MioFiGLczERk725vDGzcYIIytcay0t386JqTn3Si99pPdXDfCCBEPGO
+BKMM5QNb7na5vBEwXcfQwEF+Qbw35O1SgM21e96CSJjfFIMnLYs2vSX171gFxgQ0pTfqSekiYogo
+6Fmkt/72NT8f0uLlZwhJGsCLTaOJeOxKjA==
 
 -->

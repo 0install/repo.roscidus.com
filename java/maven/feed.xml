@@ -48,6 +48,24 @@
       <manifest-digest sha256new="ODD3GBRJ37YCUVFV53WQ2SILOSE6ZGR2U5C7DB2USUOKWL4WDGJA"/>
       <archive extract="apache-maven-3.2.5" href="http://archive.apache.org/dist/maven/maven-3/3.2.5/binaries/apache-maven-3.2.5-bin.tar.gz" size="7956528" type="application/x-compressed-tar"/>
     </implementation>
+  </group>
+  <group license="The Apache Software License, Version 2.0">
+    <requires interface="http://repo.roscidus.com/java/openjdk-jdk" version="7..">
+      <environment insert="" mode="replace" name="JAVA_HOME"/>
+    </requires>
+    <environment insert="" mode="replace" name="M2_HOME"/>
+    <environment insert="boot/*" name="CLASSPATH"/>
+    <command name="run">
+      <runner command="java" interface="http://repo.roscidus.com/java/openjdk-jdk">
+        <for-each item-from="MAVEN_OPTS" separator=" ">
+          <arg>$item</arg>
+        </for-each>
+        <arg>-Dclassworlds.conf=$M2_HOME/bin/m2.conf</arg>
+        <arg>-Dmaven.home=$M2_HOME</arg>
+        <arg>-Dmaven.multiModuleProjectDirectory=$MAVEN_PROJECTBASEDIR</arg>
+        <arg>org.codehaus.plexus.classworlds.launcher.Launcher</arg>
+      </runner>
+    </command>
     <implementation id="sha1new=54f1f4adcde1ca7be683a1d6835c23c4b8295aa9" released="2015-03-18" stability="stable" version="3.3.1">
       <manifest-digest sha256new="5ESY4XSUCIY4GKNKXUFCTC4BPKGEKATMOHGZDV4RG6B4JIWRDB6Q"/>
       <archive extract="apache-maven-3.3.1" href="http://archive.apache.org/dist/maven/maven-3/3.3.1/binaries/apache-maven-3.3.1-bin.tar.gz" size="8059952" type="application/x-compressed-tar"/>
@@ -100,11 +118,11 @@
   <entry-point binary-name="mvn" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAltB3HMACgkQIuoRGn5CQqTIYgf/SKeO
-2x9Qj2eGYwZMBRkIsipZ3YPscCoaFFt8e+sGdltkWc64GMP6UEXACrvDLEMfdxvG3eRBAWWd6mhA
-5uFsc1TXlj0WY8y21FLaoHhJlYn8a0dY5L1METwXrF8rnX2ylOCiR3ipkF6t/UB//m4SH/pZfsdF
-ywi33E74KvoPHVQQHzSInByIe8lTS+AEyKJxhcNnWf9mH//gL7gUfZAXxMynhuJIZ83fdZwvKGkn
-q/k5Q1NUKl2dEt3m7AJJY846WUAJyoa6WlLHZcYEl4rL/cAhHGkOJmas+HciQjwVwW5cIcUXAXon
-9fIwlz8d5WozR9Go4XYmTqEmD8Ljm4vD8g==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlumPOQACgkQIuoRGn5CQqQTewgAhHWn
+hyhBY/FcmaykORSEv4T2dAWo4rca51+TWvQSSlvjZ582w0PTzPl75pmTHRVNnjOesNUYIeLKgIGb
+A39917I6rX83I+hZXm0wXzZ6nZvpWUF7Q6dfmyWqWqPqlcUMrUZmAurS6e19L0d4AtxQ02/62lqB
+F9XNPWVYghou6bBOOj+XnZZT+A909N3Z357GN9PoXMHVCfEj3gTjqW07MMvMzQ3+sgALxYfe/g9y
+QBbV+hlRYaUUvxUbf6rJA5SjIJD4Jt7+gW6bsTap6KHvo12gmWJv3OKii6bRNSwehoA6FozU0mZs
+U5f14Crray9kBxdVHKB5ZyNeI5q8Pr6YQw==
 
 -->
