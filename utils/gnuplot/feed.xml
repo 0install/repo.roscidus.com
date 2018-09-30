@@ -9,8 +9,8 @@
   <category>Utility</category>
   <needs-terminal/>
 
-  <icon href="http://0install.de/feed-icons/gnuplot.png" type="image/png"/>
-  <icon href="http://0install.de/feed-icons/gnuplot.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/utils/gnuplot.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/utils/gnuplot.ico" type="image/vnd.microsoft.icon"/>
 
   <package-implementation distributions="Debian Gentoo Ports RPM Slack" main="/usr/bin/gnuplot" package="gnuplot"/>
 
@@ -141,11 +141,11 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAltLORcACgkQIuoRGn5CQqR2sAf/WQZ0
-4iI3qeG7woZhg9d1c1fsRYauGrbJec+Q9FhOEOQdsGWwkun7mjuiomy3BtZSyyJq+dEJLzsXcQh8
-BoA3Oj11AGb5XLBGFW5xMg/xFxKGRMZykt8tRAnHzldHcTdY+CVqm78MxQ+JtQNWymGkK21qLW/5
-saqD2a3qNGVsHz0anc0o2gtmLFWjJ61sHO554eLYBVbgDak2ULKljlVfacnGwVZZ+aCgEWxZPAMs
-mQeryEFN9mMpSwuT8uH8+9O6V1QzM13q7JvAnJFe7KiBU5Ldo9U1QZLVKhrsgD9dfXMSSyt7zFft
-gLLhoAO11BkNFAscJneGsdHKd0UA7OAjWQ==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAluxIZwACgkQIuoRGn5CQqRtXAgA5hSD
+UJHq6Txz8qohFBVbX92dlj+lKdvj7BNNocRKokukdm+GzvyvWvthvNHqsUinjQVbIsEGJextrw1f
+SHUMG+s2abV6E6NDgSY28BuIpv5dWN+vXeRYEZFKthFMrRwBinUYWaKb+HUzEbKbdO09ftLkQbk3
+vnt7LYfksd6GkRzU9y5xoBbhXt11sjewQKxFKVH6SixTsc+vRBuY12jE+J8UKxBacNBpfWRQmoaG
+LvNYedigmnvDydEpkVP6s/hd3OI7duR2XbtKMPC0M74qFGNts2/Q0dWzqNBjyvqhEkGEeGE+yKCg
+VCxeESh6WeqimvtFdxuSN3tZDOAcPJXXAQ==
 
 -->

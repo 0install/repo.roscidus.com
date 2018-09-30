@@ -8,8 +8,8 @@ Professional runs on Microsoft .NET 2.0 and Mono 2.6 or newer.</description>
   <homepage>http://keepass.info/</homepage>
   <category>Utility</category>
 
-  <icon href="http://0install.de/feed-icons/KeePass.png" type="image/png"/>
-  <icon href="http://0install.de/feed-icons/KeePass.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/security/keepass.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/security/keepass.ico" type="image/vnd.microsoft.icon"/>
 
   <group license="GPL v2 (GNU General Public License)">
     <command name="run" path="KeePass.exe">
@@ -166,11 +166,11 @@ Professional runs on Microsoft .NET 2.0 and Mono 2.6 or newer.</description>
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlueMh0ACgkQIuoRGn5CQqQG9wf+NrJL
-iJQ0yz8Ds/u/RBdGHr3DLnN8AHXOQ6l4ouClIgWWiSXHQwSJJSGM0XqCBJC4fbe3EskkKWUigTwv
-IHSZMDy3NkliePxibHhxYyi/8GmeJLI9LPVfqcwf9OhmuX13BkkIIAWWgVVbTRuBp12cgug1JeK5
-kE/XAG0KV+KbTUbqsYEiC5lXAqRhGOB4nUDbNc2tLcrNFtHEVaLlN37thejbgGcDaGXNkt3h0ekN
-NkRzX4Oa/8KGxHoVfxNj0RApdDgGLOOibCEbG4YedVRv8oGbxQhcmjLWxRBNKcMnV7WLHZQii38s
-5z2Sw47ONAxAaUOIvk7O66hMGvm6JTYASw==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAluxIZ0ACgkQIuoRGn5CQqQ0Vgf/VxLP
+aDPRXEINxEfOyhWS5hrYNMRazHtJOF75J8juFOIl2cOQ1Q5tN7uIGJm7O80/OBlzfZEw8MsDsUB3
+V8rKbxpZ8eMlRPomvPPqIpI7C17J5jbXgK60oreAs3Ib9RIv4RQXKttGxdWks0oLCYPd5fdyVOv1
+MtfNi6t8U2yAvcRpuVLCrjczffgUaPLup/TQJX42bmm6EHWnXtCZDXuE0Fowq6a27KHsxOu8pARE
+O98c77ohRCi5uQ0wAPxcSG+tSl214/2iAwvtz45+ncb19buK/D+Ht2uGhmyqKnzHcQXq1gWDlHrU
+OX4TVZtn3gW2/MKJeZAy/uit264hobZ2Kw==
 
 -->

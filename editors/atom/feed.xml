@@ -5,8 +5,8 @@
   <summary>the hackable text editor</summary>
   <description>Atom is a hackable text editor for the 21st century, built on Electron, and based on everything we love about our favorite editors. We designed it to be deeply customizable, but still approachable using the default configuration.</description>
   <homepage>https://atom.io/</homepage>
-  <icon href="http://0install.de/feed-icons/Atom.ico" type="image/vnd.microsoft.icon"/><!-- TODO: Export icon -->
-  <icon href="http://0install.de/feed-icons/Atom.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/editors/atom.ico" type="image/vnd.microsoft.icon"/><!-- TODO: Export icon -->
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/editors/atom.png" type="image/png"/>
   <category>Development</category>
   <category>Utility</category>
 
@@ -241,11 +241,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlumOv4ACgkQIuoRGn5CQqQnrggAonQU
-xXlRIdRX0KtYGAaNnYoI+ITBEBXBSjMP/h7xZidWxx9+Tmxu7vo+6Qzcy6AcaXpd1yIBbI+zifL3
-CePJsn40KBnxD/fR0XwhpvccXiyqGROu9OdOndweMOZBDgx0xVhghKAtosui3OyHsjSMfuLM/OwS
-lpjLI7lb9d4LkCa6crK7QqvvY6G8kzqKn6yxEndZCs70hroMKeuDyfeUG+cdDwhSjBvhqGOgs69p
-Y2uRSerV3OCjk9MR6gBgkEVhLafS4zeU9XzCsd8uE0oqa8e0+egKlMmi5sZX/8pKZwkx/R6K19aV
-8IRrmb4b2OGbA29SFy3ur9TIFNY/1d+JPA==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAluxIZ4ACgkQIuoRGn5CQqQWuQgA6Xl6
+E/hFqjIl28mUeM5eI6lennlp1aiRK8g1bXwaXyIVJOTlEFced7UON3uDQO6uCc9YHRQxlD3gv3jB
+gV14h3WSBP1kkDanlNOFRPippHhN5slkFjV+Ony07idbi3FNFyE1TmAT25W3++8xWDp3Z2/7jN7E
+YVAIsA5EHSNkT7O+a0rceYuiKiUhf1n1RCpU1ZUZmv52WX84AETWk3EXY4WoVHUxCoSYK4C9PZ7u
+Rt5GrPurb0qlw02x+psoaaTCDGuFcAfKpcosPZHRsaev6CDLzvOx9wHhH4M3SFEfK0/iQxUKEjn0
+2rv98/gxGLi+YwJuABiu1rT0w/L8Nhphvw==
 
 -->

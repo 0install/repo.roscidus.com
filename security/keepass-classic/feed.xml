@@ -8,8 +8,8 @@ Classic runs on all Windows systems without any prerequisites.</description>
   <homepage>http://keepass.info/</homepage>
   <category>Utility</category>
 
-  <icon href="http://0install.de/feed-icons/KeePass.png" type="image/png"/>
-  <icon href="http://0install.de/feed-icons/KeePass.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/security/keepass.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/security/keepass.ico" type="image/vnd.microsoft.icon"/>
 
   <group arch="Windows-*" license="GPL v2 (GNU General Public License)" main="KeePass.exe">
     <implementation id="sha1new=c4a9b9c8d62d30c983189766a8e6862b862fff34" released="2005-06-04" stability="stable" version="1.00">
@@ -172,11 +172,11 @@ Classic runs on all Windows systems without any prerequisites.</description>
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAluVUjYACgkQIuoRGn5CQqSQ3wgAnQoB
-7jmWyjK64r0U0Lkrui0LJByJGSqtEkEMUlYdKyayrvFSpULg+/Zy8bX8d5iG56XmFljHcVX1h2oR
-beSsKQqOGlWZaitLnUsPjDE/kucErXSdtccGIl/jHshjZlPIjdA2Dxr5AeW1jocEQ7nK/tg9i79P
-cJObSoVped3SSLRqlZXZLmqQUop0HafuDewBha+qcvoXpU7s+NuSyBdcSYxRoOcis0GrEi7c0tyR
-q+gu1Ch0Pmi31lOKX6gg0VMAyE96XfNlNzt8Xwg5VleKulidCcWCz6UEl5pbCIC0+FKsglWgHj0G
-cgQBwlulJlUuh1IueLHwblS3bAB7UXubtQ==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAluxIZ0ACgkQIuoRGn5CQqS+mggAuB62
+c+iOXhIhoHA5J4UiorZKsXGI/6rBiv8aJHVTMMjVN2Mowysuk7k5b7QIEyjI0nGRiT7slnRDsg4x
+lizurVR4OSARAGOrztqPQlWE7f2wjYpH2uYqICrQ5StQkSbkuZhcSfeVazAmRJwaOdb+X+kRDlyg
+a+BZ+O1ZACUo3aFarUcBg06VFjDAyhWnRQTba0kpmMbnSw5AiSG+KdKj5sBsBh0acin7bxYfpYjh
+Fxyzc0m26WP9hzNHwFin9IiAX1/JIklNbohO2ttavYob+W6SHBCZBtdN6OR5TxN0Q4CjCSuZfghU
+87eSSsYbtX5uxAj4KqSDYzX97a+w0DCnbg==
 
 -->

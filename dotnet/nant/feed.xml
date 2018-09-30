@@ -4,7 +4,7 @@
   <name>NAnt</name>
   <summary>free .NET build tool</summary>
   <description>NAnt is a free .NET build tool. In theory it is kind of like make without make's wrinkles. In practice it's a lot like Ant.</description>
-  <icon href="http://0install.de/feed-icons/NAnt.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/dotnet/nant.png" type="image/png"/>
   <category>Development</category>
   <category>Utility</category>
   <homepage>http://nant.sourceforge.net/</homepage>
@@ -20,11 +20,11 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJZtCMlAAoJECLqERp+QkKkM0YH/1gyizMCGco3ep6AoRF2KB410xFLs81rnaAb
-a1GCYaLrvkq4nsCPpg1+ExtJYFWoPrs04btFPoDXIPVEHKZpTglGK9fU6wrs/2QJZa2Kvz02Gl9d
-m87fBkNjoyqN/pl8Jcj94Bs334s3TbhaxNnMc8Rz2Re7H/U/wpTMpakTwwO72d/CzgaxDjW5Vfpo
-XNuI+98YN2/y1Tmsn4/yqFNMyA5kspDw4Fp+n6Ejp/uNso+qWBrXP/ZaRL6pUgH1t1tpybRLv2Ko
-nlbT2NsmG9pIKDrmWfmu1fJSpY9BpLgqCqrjZorHv58JhbUGg0F3hjAWxYnciZ/iLqF7mDFGkbIg
-zIQ=
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAluxIZ0ACgkQIuoRGn5CQqQvCAgAiPxN
+FemyMBsKywtskJcyL9+UKwmP6ztUrV0NpHTUYAN2ZS0NQguEMIW8j2XTxppycEOHrPYEZUOvFsVN
+YQJaG7yJvYgQVNBQSzhm1Ei+Dpw7V09x6g7Jd3rkgr0olVnVGkbBm03FA5A71nIJWFkpc4OTEORZ
+DgJQjzub9PrxHyJhqt240gaQyT5DHY1ufwvnlspqUv/BH+7gpSGauLviYveZEorrsMfWiArZPXl4
+1vxnZK4LU1jcp8tza2s37T4efxJhBICluZGSIABTCsUTOJbu/bq9R8Shr/SHw4GMlSrbHr9zNogv
+3grwFTW9ST20h/jlJiC44Pu7ToD0/LfsOw==
 
 -->

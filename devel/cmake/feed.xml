@@ -11,8 +11,8 @@ workspaces that can be used in the compiler environment of your choice.</descrip
   <category>Development</category>
   <needs-terminal/>
 
-  <icon href="http://0install.de/feed-icons/CMake.ico" type="image/vnd.microsoft.icon"/>
-  <icon href="http://0install.de/feed-icons/CMake.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/devel/cmake.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/devel/cmake.png" type="image/png"/>
 
   <package-implementation distributions="Debian RPM Cygwin" main="/usr/bin/cmake" package="cmake"/>
   <package-implementation distributions="Ports" main="/usr/local/bin/cmake" package="cmake"/>
@@ -229,11 +229,11 @@ workspaces that can be used in the compiler environment of your choice.</descrip
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYjOh6AAoJECLqERp+QkKkLgEIAJx0+ghCxyxa555S7ZwXpEFrYb7yKupTo15O
-5w0xoshxZy060uc+6znKRMgWIEi68czTHjbUorBXj/vy+jnT4RKSMcBnEhpelhqUTvpAwM3+ldSh
-SdJhFFwRo8Q/ApYD1wJs98L36/WpyxepvSzT3OZnjLX5XxVHR1bejAW5zLZ/8XQnDWvXSmE1ARVg
-sDTrEbGDOGODXzawQ4MI1I4aNenOgeW5X83XYUmb5NKwLFeD/5do1JRwI35J365unZ2zAxYuO7Cf
-QyO/IFItKtDTfbhBrikVG9lq5aF+N9ehpptgTjRtW+t5Hks4sB+lSkEV0DcRRo6531wKYFgvgeb4
-wf0=
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAluxIZwACgkQIuoRGn5CQqQIEAgA8YLE
+GlhCSkiZSw+ifl9xKmSBi8T19AMH608J60+5mZmlZGRCdbfIH/oGETqKRRXon/yh9qrx6YwsOa11
+sf/5h9657AkQLE0ZhNmGyJfuVX7qkOFFxPE8x/qA9ggBWEYXUkAwpv+834U+B/8ipNf94fdOpfcq
+VSGwBdmbVm93NULpwxbJU4pvnZQEk3qp9XBeITSJs5NwvR93OyNUpHT6aGDQgzmwkzGHii58dkZv
+pXpIJw3d537pm4In5KbbWDOA49X0l3FFM/hNnH8xQv5LsKkHri+9rNQHuNcZvl5gzXZRA3ejB/Au
+ZUBZqWIHOKD3mWDtgeYdnkJBPDd3aF0iMQ==
 
 -->

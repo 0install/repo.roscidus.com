@@ -13,8 +13,8 @@ modules are easily written in C or C++. Python is also usable as an extension
 language for applications that need a programmable interface.</description>
   <needs-terminal/>
 
-  <icon href="http://0install.de/feed-icons/Python.png" type="image/png"/>
-  <icon href="http://0install.de/feed-icons/Python.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/python/Python.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/python/Python.ico" type="image/vnd.microsoft.icon"/>
 
   <feed src="http://repo.roscidus.com/python/python/upstream.xml"/>
 
@@ -167,11 +167,11 @@ language for applications that need a programmable interface.</description>
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlsbz+0ACgkQIuoRGn5CQqSZjQf9H2Bs
-F6lL8M6uRpnOUjQ8sR+IWh3+H/NCwBA1yj0mTWr0DMAmlUclYrUXTk86YzSEygqxZSxgbJLkOeXa
-OVtjQPKhkcn1+pE80gYx1IzVvcHvNb7gwfBY3+wymJwtp84oisHeWiIZfNj8cWzKfQxvmHYDrjs1
-U/xT7YaT0zM2DAlSKN+m2vo+VbHx7VPisYPK9R506q2KXmVBVmwshInHG8dvbZ4wqq2jx7FaA8H9
-dh5JM1HwtMPbZd3UP5J0kuNrhLpJq1Qk3XACgJjPja9bMJNItZu+sqvWx2zC1Vsn29CdE3NaN/7u
-eO+cmkGeLfZkdGfhFBM8Koka9SsLr9xMgA==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAluxIZ0ACgkQIuoRGn5CQqShNQgAuHBQ
+5AsIFsfM8OUFMlaBz/bwzcUty3rKGl18d/zi2TougZSJJ9XzG8PnUpoMO36iaVIlvf92vdc75hK0
+TOWbOVsFkVGnDhlgMWzzffhjoKL3mxjxEy4WjJqMhg693cbOZeuWKan7ZVEHCuW3N/vq6zrVzCLy
+yH/9+mZCFJZ2S2N+giqLLZYT9nFzCM2yqqL2gqvXZHJNpIHIaaV5hl3EPSGMCdnX7ooXIiKdmorM
+Sg9nM0c057dJAd/JXv5rKk+uZZx0EZz+27QH8iEOs66wiVD3c/LUZlD6TPfgXpUJREhZ5WL/kf9h
+PfVh1evSCo50SgNleglwx6X20TKK5vkoMg==
 
 -->

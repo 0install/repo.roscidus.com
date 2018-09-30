@@ -7,8 +7,8 @@
   <homepage>http://nodejs.org/</homepage>
   <needs-terminal/>
 
-  <icon href="http://0install.de/feed-icons/Node.js.png" type="image/png"/>
-  <icon href="http://0install.de/feed-icons/Node.js.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/javascript/node.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/javascript/node.ico" type="image/vnd.microsoft.icon"/>
 
   <package-implementation main="/usr/bin/node" package="nodejs"/>
 
@@ -3420,11 +3420,11 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlumPN8ACgkQIuoRGn5CQqQ6kggAm3pf
-I1QUTB6Hz3v6UCGRoJm/4jk/0JXSKKbCOzSS3n0tXdlv/cB4LC5f33K/GQb6cS9XdcUpDyXM1uWh
-Op25tmApD783Cj9t8o+JcAsLlDn2D4SxZa8jF1TTMXWCHRaKxcEZi8/S+tf29zJaX24oKj7AhWli
-ep507cisjNxl/Et+dp4pVtp5qmgU/zHU/MbcSNnGkRBzHXyntnT9SIUw+jrw3b8muv9rXsOWXVJz
-5c5rvtvIA5YM9V5G3mHAqpuwphjd5KW64jXCGT952ORKB1riXg5PwtztczN/DUA+6sRlyQRkbPNh
-1k+ozWtGo5W2LHMcB3/qnsbMlcbRo9hkEg==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAluxIZcACgkQIuoRGn5CQqTEVQgAvuRY
+UUgVTCUBwRJJiC0ZiXgxAi/xC3mZ3YH8V+dVJecik0v08PgTDp9ET0I5iRnfxX+bPeXlGUoX8YgK
+D8JirlXRGKGg6Ezn56N1C+ysf8JSc6d/P63td0GuWIMhvxwryplURte2c/SZxkNTXdBRx722fpZG
+c0o1zRGStElQpyl9AR+uMipraH5LRRvonqfBQfupCxsZ6uGkkOJjcHlpBHEBumziQ+0Lte8YmFqQ
+aF98xlvZfc6qK8B8BitMWo1M5FxAuPilAKUFhByEtRHxEZ3GNnPEm0DoYjAkLrgMbS7dqrejsVt5
+wmp/lGYeqOus7lXoIDHuwdslhR1e47CB8Q==
 
 -->

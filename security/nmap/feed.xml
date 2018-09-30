@@ -4,8 +4,8 @@
   <name>Nmap</name>
   <summary>utility for network discovery and security auditing</summary>
   <description>Nmap (Network Mapper) is a free and open source utility for network discovery and security auditing. Many systems and network administrators also find it useful for tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime. Nmap uses raw IP packets in novel ways to determine what hosts are available on the network, what services (application name and version) those hosts are offering, what operating systems (and OS versions) they are running, what type of packet filters/firewalls are in use, and dozens of other characteristics. It was designed to rapidly scan large networks, but works fine against single hosts.</description>
-  <icon href="http://0install.de/feed-icons/Nmap.ico" type="image/vnd.microsoft.icon"/>
-  <icon href="http://0install.de/feed-icons/Nmap.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/security/nmap.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/security/nmap.png" type="image/png"/>
   <category>Network</category>
   <category>Utility</category>
   <needs-terminal/>
@@ -273,11 +273,11 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlumOv0ACgkQIuoRGn5CQqQvDQgA5oeR
-MITcY40lsKwTxgtWCBJqjTzffLiiCTzujSMdsm8Cw7pOSuWBjLuVSvnvSxl8IVb2PoE/2KXdQ+hZ
-f84MllleOz8RhN6oQpxtWlboyEbNQQqUFnnI1l1ttZMYxqCuHpsE2e5R/jBMR/WLwM0u9e4b3t0X
-MPFnM9ozopeIe4US5Ztpvkh3W3R7AGlV/G30AXkVPd+u4BZxE3EdXwuacw8C7h3yAJDvid2ia6gS
-zvw1ZB/iPmmMRsChr29sOBqR/EBT/n4Zfs9cD/RaZp/GNv7DJeIzHvd3wZxv5gtE/tKeuEBmdN7Z
-O+g7MM+SoJ9+emADsTKQMW8D1p+ixLRb/g==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAluxIZ0ACgkQIuoRGn5CQqQzAAgA54ex
+MtHkMaBv92cYstwEWaeSx1Osa4VTAyBuROoQ2aXf7K1eLBE4z77Uar7ZrO2Y+oOkw4QQIT/gp65S
+UDjqX3MjHC323wyfio0T2QqcLHERTn610Jq4vggaNEzoVtjQrC0UJeFtzRA/4KA+1E20Tm0tsDJR
+1ZJpLMLKrzOY6Z484tVmYDd5bm5s8pz13PaWdWv8FU+zAXDo1K1AwZvASh2khQoznAV2eRzqg/4+
+aCriV3gOZCdxKLUFG9cFjdfNnKotRd4s0AKQjaPrOGi2tK6gwtJlBLqCerBsO2jAaLlCPQVyCKGE
+IYR6HDDcCDDBVygC1pa2KDI7sdK2HyffYw==
 
 -->

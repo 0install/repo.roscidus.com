@@ -8,7 +8,7 @@
   <homepage>https://github.com/GitTools/GitVersion</homepage>
   <needs-terminal/>
 
-  <group>
+  <group license="MIT License">
     <command name="run" path="GitVersion.exe">
       <runner command="run" interface="http://repo.roscidus.com/dotnet/clr"/>
     </command>
@@ -128,20 +128,36 @@
       <manifest-digest sha256new="AWV4SAZR36RMJHPZ75BCLFENMMZWHVEPZ2UTPD7ZCPPOQJKH4MXQ"/>
       <archive href="https://github.com/GitTools/GitVersion/releases/download/v4.0.0-beta.13/GitVersion_4.0.0-beta0013.zip" size="6172795" type="application/zip"/>
     </implementation>
-    <implementation id="sha1new=b136b60860de70c7e3453de9bd9662e49872bd51" released="2018-08-21" stability="testing" version="4.0.0-pre14">
+  </group>
+
+  <group arch="Windows-*" license="MIT License">
+    <command name="run" path="GitVersion.exe">
+      <runner command="run" interface="http://repo.roscidus.com/dotnet/clr"/>
+    </command>
+    <implementation arch="Windows-*" id="sha1new=b136b60860de70c7e3453de9bd9662e49872bd51" released="2018-08-21" stability="testing" version="4.0.0-pre14">
       <manifest-digest sha256new="AH7H5V5QJ2YWVYEADXZHG45FLXDKXYGFYSCL3TRTVYDX2LI7L3MA"/>
       <archive href="https://github.com/GitTools/GitVersion/releases/download/v4.0.0-beta.14/GitVersion_4.0.0-beta0014.zip" size="5996644" type="application/zip"/>
+    </implementation>
+  </group>
+
+  <group arch="POSIX-*" license="MIT License">
+    <command name="run" path="GitVersion.dll">
+      <runner command="run" interface="http://repo.roscidus.com/dotnet/core"/>
+    </command>
+    <implementation id="sha1new=ff2ab061486866b0ead2ad5d0374329b9b4d3592" released="2018-08-21" stability="testing" version="4.0.0-pre14">
+      <manifest-digest sha256new="K3YQ26RZBG5YURR57DIM6SSZ6GQO3OKARPTDXFKOSAHWSIZKFBKA"/>
+      <archive href="https://github.com/GitTools/GitVersion/releases/download/v4.0.0-beta.14/GitVersionDotNetCore_4.0.0-beta0014.zip" size="11902775" type="application/zip"/>
     </implementation>
   </group>
 
   <entry-point binary-name="GitVersion" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlumOvcACgkQIuoRGn5CQqSEIggA1odI
-rVeoltPBPXKv5UsoZeFJOmaDtBUqhtbjK6S2nCDsXAuDgwTlZE1Zxu340OEuZ/buNu5iOMiCk1Fl
-k0QNvkCm9DKO0RhlxLcZxXcVJQLUuMnHH7LNc1R3cRwp1fUwY7kluvfSJMa3UHwN20CHpYkE+VCg
-VwrlTUaaFnmrTkq9A+qcuIwsMe6dqbjFqe6LrKFrm1KpjPi75oyF0Lu3x3rzvaEAC45NLARu1vHC
-7XU+DKQ4rmd8/SVSAYA4xL67kPktvIzpf1j7IfbD8v/EYrWtu6878snvCEaGGD8a0MorflQDedJz
-BFrqpTf2I52NoZCBJIF7v8H6eknDY595uw==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAluxIZwACgkQIuoRGn5CQqTEZgf/YBb0
+vBH6pGWc0SdWYejGPzXLs05ym6J3rCkDQahq1oBH7je/ap3SYVQWBSAR96siqQzv10mWeSbyHDTD
+AOR+YMIA9oidwR8q6ap8gA7SlW1ZjN4/eKVnhI6xmFVMfL+75Vkfcpuy7MLwb623jm+uL1NpnJon
+bCxoehsX8yIP2/EJ93KHNUXjz+unbiULEV9L6IlV80x6BwrCSouKc4Nw8vmi/L5SLxUBb3dITLab
+OSN2RbrmBpDgtRa5c6OTojGMy4GBFYZLnNLRKPPs9vgrQIdmInVPdTAk7tiXZ+BD8kCzTxWmMIfB
+OviVad2bxORb3QvLHoRBkQl+8K393HXAcQ==
 
 -->

@@ -8,26 +8,26 @@
   <category>Development</category>
   <needs-terminal/>
 
-  <icon href="http://0install.de/feed-icons/IronPython.png" type="image/png"/>
-  <icon href="http://0install.de/feed-icons/IronPython.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/dotnet/ironpython.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/dotnet/ironpython.ico" type="image/vnd.microsoft.icon"/>
 
   <feed src="http://repo.roscidus.com/dotnet/ironpython"/>
 
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <file-type id="IronPython.File">
       <description>Python source code file</description>
-      <icon href="http://0install.de/feed-icons/IronPython_doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/dotnet/ironpython.doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
       <verb args="&quot;%1&quot;" name="open"/>
       <extension value=".py"/>
     </file-type>
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJZ2J/EAAoJECLqERp+QkKkL60H/03YwQfRxeuv8sKQM6Zo34GcV9vSWQPyfzWt
-Er0UfSEiuUr/sdK78xTgDUgd6wrY5DxF4+PWO7LQvzZv8rqCs9UHv8+tOSNBdh6dBuJ0pEafOZ+9
-QsVj52xxGar4Cz073dpWsT45k0CzwYkpZPvYJlweCbr+kp/E6Bg38Ap03AXJj55q/V3vgcj7Gftb
-K14MnYuzOhHKgvNIDg11fuD3gi89TQGclUxhXiVtQH7ZjaF57cRhHlsVKBEGq9mNzm8lvMafj6Zv
-xBAUep0lN4w8LSrgcBBZ4mSQGFIt+TZg+05XIpW7ss9xwfSpWArCGKaVBuPvOVVj/YkZ0fNryG2B
-bG4=
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAluxIZwACgkQIuoRGn5CQqQovwgAi77R
+cdcF6sen7uG+pQzi8sg+ym4qFjn0Ma/AMJwFpR2paonrqblSo99d7n7acUrPunauVjKvBot3Zv98
++KnGoX1nYvR7OUZbVHLVeWXcu/AJ3Wv6HAzvqjKuEYYvOdDKvUgAvYu8QqvoZleIYTI7sjqdfeel
+xOfw1RqzP417jG+Veq0YliYz1Kxf6dRqDHAZIFUu6RxKewgu/IXTWv+A3LN/2hcm9b/hY+7Yesh7
+tWwoDySqSVAFVrbQNNlqUNGS8y1VjLODjse5ulWgSMkr5cmUsyIXirjdtopvlqsut5fZxjY7RGvn
+2ocqwyGEUPnOHmtYl6gdKwdzl5acILYF+w==
 
 -->

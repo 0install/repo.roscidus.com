@@ -8,8 +8,8 @@
   <category>Development</category>
   <needs-terminal/>
 
-  <icon href="http://0install.de/feed-icons/Scala.png" type="image/png"/>
-  <icon href="http://0install.de/feed-icons/Scala.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/java/scala.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/java/scala.ico" type="image/vnd.microsoft.icon"/>
 
   <group license="BSD License">
     <environment insert="." mode="replace" name="SCALA_HOME"/>
@@ -294,11 +294,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAluLtB0ACgkQIuoRGn5CQqQi6Af+O8GQ
-LQpdq43m5uE09fLSco56g3sasAniexreiDPKQ8MfzYRarMg1LQN0tQ8HcrlLuOV008VAh2UBbDr+
-c9p17uZfazD7+eBgIwskeIn48zGm6RENAF5ChSDwgtUJJtCM2yUvjKe7tAF147+aQZgTOGm+pXEJ
-OSnRXC3XRJGLiMLM/AKh5vZ2h7YJ4QDocgH1chAkuZNLM0imos1b7VvvrXRwNNBlImDnIleHi4bj
-dPvE7O3x8862fjtv8Topkuhd5Ngu1ZTSlhMKjDUj4zPt5z+48lOTnjFmNBvlDPTHA10wyKZ/VAxb
-9bzFpLJe82YimqXbE3AcRQtmMtOHOO2Ctg==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAluxIZwACgkQIuoRGn5CQqQm7gf/R5gq
+8gFPoh4LthNfJNSmKMTNupz8PxShEjwm72soBufmxrnWxxsmp/nRYb3P6rQw+J1m3Dz1u+mHxSDX
+R6RFTEIO0mDPb9P08/E+7LLjrYfOjjA8FgYGFU9kQvMA7WjdHR+ZKn86+79+0XW3DVznllRN/dfK
+lIoUyJfh6yvIIwVMyMCqazcmt1PpngboHnUNf3uaLCTgNMesBk7rAVejH3nTf1vnASJELmFoyu1Z
+8Uvd2wX7g2wn5NbO5YBWhgYdwxzgJBcPNHodeuXcF1AJHyfJhYti9F5Lpa9XkR5+n2c3UgOI7Pxh
+ymL7hp9Yi28wo5CUV2PDkk25gOhzFU5YQw==
 
 -->
