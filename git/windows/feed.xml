@@ -5,10 +5,10 @@
   <summary>decentralized version control system</summary>
   <description>Git is a powerful version control system aiming to be the fastest decentralized source code management tool on this planet.</description>
   <category>Development</category>
-  <homepage>https://git-for-windows.github.io/</homepage>
+  <homepage>https://gitforwindows.org/</homepage>
   <needs-terminal/>
 
-  <icon href="https://git-for-windows.github.io/img/gwindows_logo.png" type="image/png"/>
+  <icon href="https://gitforwindows.org/img/gwindows_logo.png" type="image/png"/>
 
   <feed-for interface="http://repo.roscidus.com/git/core"/>
 
@@ -387,11 +387,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlueMhsACgkQIuoRGn5CQqRMFQf/YYDF
-L1qxqM61rtOoPnqVXydIJzSI7Ow4FJBPLb3IqVuw6XKKW52N3j+puXH0DSx8V9bjX6LRgF68myR7
-B4Cx3Ymw46DFuuKt7lroEVrQwk2nviiZJNMtez2whAM6orvTVv6V+QYxhNIDJYAUu6eAsN/q568R
-Br/D+uXqsbCd39UdpeVgaNt0Z63zzXdbfvBQyNrQOUxlqBFsLus5TARMSDdadlsul4+v4xLNtJWH
-vrM/+RZjUvcaY5LfY8gSsyPSIE1tfIFARlCUwqwsebUKueKO+mXQ2gkFMLiziob53RvvCMJKIt7O
-aDm5upLe3j3wJ1dgCZXYtXhK78UzoZpXXA==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlu5AjQACgkQIuoRGn5CQqRNtAf9EqOD
+0dDkCJNqc0FYnxhvH/wgURiPH/sV+k1yOz8hE6xdW2tIckaWUxfmK0qiAblUAAHVdJ1erHi/Fo0F
+/JYFzaJdv5bm68r68t4ZCLAm/jDFcmOUhLlsfwnLPtFllmAjEbD1FAtgvEqBjxzu71N3zfpLy+fa
+rhmclUnY7pqJ88FKqbmGtnXAFy3QCc/YsVrMKchl9S5kM8T/b4Ou+BC8ZTqNHosvR4N4sXRY0uqB
+Q2JCv1V/c9o3Bd5jle1VaqXgzmE3kdy3kWx4gqxhVZ99R3ktiSkjVcxFVVPumGi6lS4tSjpA5NKS
+1vcGq2iwO+nrCq5HvAC2qpJPiSxd7ONHtg==
 
 -->

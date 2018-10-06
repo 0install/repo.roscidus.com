@@ -389,14 +389,22 @@
       <manifest-digest sha256new="CJQ7N75ZV7DC6AISM5ELDYE4QDINYETDLVJQ2FVHSVJM2FHVZE5Q"/>
       <archive extract="go" href="https://dl.google.com/go/go1.11.linux-386.tar.gz" size="110454815" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=9f7e81d83e0bbd357e4b877f26821db7d13a77f8" released="2018-10-01" stability="stable" version="1.11.1">
+      <manifest-digest sha256new="LRCQHLJ6UJHMW3ROOBWNA7EH34RBIDKQ24LK5WT2PTEG3UZDHKGQ"/>
+      <archive extract="go" href="https://dl.google.com/go/go1.11.1.linux-amd64.tar.gz" size="127205934" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=b40d874f9c7d2e5f24e12511f256104b94adbb95" released="2018-10-01" stability="stable" version="1.11.1">
+      <manifest-digest sha256new="MV2GXMOBY2M4WDRQUWD5MFEZLN6D3AEH2FZODQX6T5I2PBRJP5BQ"/>
+      <archive extract="go" href="https://dl.google.com/go/go1.11.1.linux-386.tar.gz" size="110500307" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlumPOMACgkQIuoRGn5CQqRH2wgA7uh+
-Bw+EZGnhHDRSh92SAfv9T8ZNyJNFy4q3nX6+KkbUmKZUyMZE/cK7izX7WSALuYW0GFe4r4dUMRuS
-UT91H/I8I/W4lHZRBFl7/OHqr3OxRWUOlrM12FPgm+9Dm8arZSzIdLRURxMgEb68yqOCW01p33P6
-uIJf3vhQVcM8oomsOTUBLL8z6y/Wf3tzY6Q3NTFexdICm8MgbojMiBCEjJjR5KZeFSH7M+rx3pS3
-XlmlCvxX0SKSIQf+8V3x4TeeOnZEokr7JVCgdi1RkTjc38aMgzhhwa6vVeq2QYBwWHeY3GBkgSw3
-CpS+BvR7qLufJ8iw2TAejEWWF6TW2TLmLw==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlu5AjkACgkQIuoRGn5CQqQnXggAzHCp
+rZXzGwLrvaQiKHDmWi6f4C9pKOoGXctf5CZy3+Z7Lty1b/8kS5SdrdIdml4S41G35ZowaRTs52Hd
+l6y0S1ay8MXdD+lfR4HD5QmiK3OFMiJkmoszHkMF+emGPje29Im1mmQi+zYp3J58wsZ1QoqWbmF5
+eWofD0/l9sqMA/X303mwHUJEjjat+170zKZJDkxRcHs6JoRczyntm5MsKiwZIRmXaudrJGm5baSR
+oF+uL2elA4QudKSAsQD7ip48K4wA2rLst3U7s0at1n8UbIfWGeJW7MR7ohJRySKsCr7DKN3kYESL
+8Yq3fLX2hWTTe03PD8Z3LqUCN6k60F2QmA==
 
 -->

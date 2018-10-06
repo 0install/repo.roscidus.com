@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/devel/glade" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
   <name>Glade</name>
   <summary>a User Interface Designer</summary>
@@ -13,9 +13,9 @@ needed.
 
 By using GtkBuilder, Glade XML files can be used in numerous programming
 languages including C, C++, C#, Vala, Java, Perl, Python,and others.</description>
-  <homepage>http://glade.gnome.org/</homepage>
+  <homepage>https://glade.gnome.org/</homepage>
   <category>Development</category>
-  <icon href="http://glade.gnome.org/images/glade.png" type="image/png"/>
+  <icon href="https://glade.gnome.org/images/glade.png" type="image/png"/>
 
   <group license="OSI Approved :: GNU General Public License v2">
     <group arch="*-src">
@@ -40,11 +40,11 @@ languages including C, C++, C#, Vala, Java, Perl, Python,and others.</descriptio
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJP+W2DAAoJEAcTP5bKdNi6HfMH/1MUqw0BQROg8hrSBK93SF+A9yXYbMluv+5Y
-V9xuthkyDvqPDBqWHHKNz3k8zdPPoTjBwCjZK9+mLKHdVmNMPn1VzZQ8ejA8uDuBrTe58E9fXICo
-AKvY0qqU1bWjmFChwRd2ikLSkTP2jIhhW7WAJmaHMFLnMA6bil4t3DpbjDL9YTaDvNrydxZ/xQ/5
-WdmZ+MI/W133/tnbjXfGFcGuQMrT3sruCAXA/Nv9T1VySTU+PB/v7atIUNhJ/J1kvGwjI9IQq0tw
-/3NKzVA4k3OzAkNeKe27E/xa7fqvYZaTUynFoxoDnRZGq0kvRprWe0qW2r47GMpDfS6PNmjLaoSX
-2jM=
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlu5AjoACgkQIuoRGn5CQqThEQf/dfCd
+uBP9S9VsEVgf6fxhtCI5VlRlzUA3PRqL4bnXUimZF5OmeFsJSodOSt9T1zQ6ZkIWtK0ZuhAqfgW2
++AZOGpnHvfQ4yYE2oBPmfIv+pFhXPa7Jk6UAftsj1Y+BhW7VTRZDNIoyVbMDi5Zss2P78rIpGRfO
+6fCfB8bcRmQPfLJC576l2UrSZadUEuIKxZsJIdE5scPPksXPFYp4AaRz6/Tp5OsxlbbA7WlkF1w8
+c56q5o6hbmTdDu7nUebgGHluf72ZpMNM7zP4H/A6Qw54G2D5L4Q+7uADEMxItJu41EafUAUn4W5X
+BAwwWTyr1W8NG4y4yL+ddbBL+aOkH84aGA==
 
 -->

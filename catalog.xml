@@ -35,7 +35,7 @@ connect to servers using SSL if supported by PHP.</description><homepage>http://
     <name>FFprobe</name>
     <summary>gathers information from multimedia streams</summary>
     <description>ffprobe gathers information from multimedia streams and prints it in human- and machine-readable fashion.</description>
-  </entry-point></interface><interface uri="http://repo.roscidus.com/utils/fixparts"><name>FixParts</name><summary>fixes some common problems on MBR disks</summary><description>The FixParts utility fixes some common problems on Master Boot Record (MBR) disks.</description><homepage>http://www.rodsbooks.com/fixparts/</homepage><category>System</category><category>Utility</category><entry-point binary-name="fixparts" command="run"/></interface><interface uri="http://repo.roscidus.com/utils/gdisk"><name>GPT fdisk</name><summary>disk partitioning tool for modifying GPT disks</summary><description>GPT fdisk is a disk partitioning tool loosely modeled on Linux fdisk, but used for modifying GUID Partition Table (GPT) disks.</description><homepage>http://www.rodsbooks.com/gdisk/</homepage><category>System</category><category>Utility</category><entry-point binary-name="gdisk" command="run"/></interface><interface uri="http://repo.roscidus.com/lib/gtk"><name>GTK+ Runtime</name><summary>runtime components of GTK+</summary><description>This package contains the runtime components for GTK+.</description><homepage>http://www.gtk.org/</homepage></interface><interface uri="http://repo.roscidus.com/git/windows"><name>Git for Windows</name><summary>decentralized version control system</summary><description>Git is a powerful version control system aiming to be the fastest decentralized source code management tool on this planet.</description><category>Development</category><homepage>https://git-for-windows.github.io/</homepage><icon href="https://git-for-windows.github.io/img/gwindows_logo.png" type="image/png"/><entry-point binary-name="git" command="run">
+  </entry-point></interface><interface uri="http://repo.roscidus.com/utils/fixparts"><name>FixParts</name><summary>fixes some common problems on MBR disks</summary><description>The FixParts utility fixes some common problems on Master Boot Record (MBR) disks.</description><homepage>http://www.rodsbooks.com/fixparts/</homepage><category>System</category><category>Utility</category><entry-point binary-name="fixparts" command="run"/></interface><interface uri="http://repo.roscidus.com/utils/gdisk"><name>GPT fdisk</name><summary>disk partitioning tool for modifying GPT disks</summary><description>GPT fdisk is a disk partitioning tool loosely modeled on Linux fdisk, but used for modifying GUID Partition Table (GPT) disks.</description><homepage>http://www.rodsbooks.com/gdisk/</homepage><category>System</category><category>Utility</category><entry-point binary-name="gdisk" command="run"/></interface><interface uri="http://repo.roscidus.com/lib/gtk"><name>GTK+ Runtime</name><summary>runtime components of GTK+</summary><description>This package contains the runtime components for GTK+.</description><homepage>http://www.gtk.org/</homepage></interface><interface uri="http://repo.roscidus.com/git/windows"><name>Git for Windows</name><summary>decentralized version control system</summary><description>Git is a powerful version control system aiming to be the fastest decentralized source code management tool on this planet.</description><category>Development</category><homepage>https://gitforwindows.org/</homepage><icon href="https://gitforwindows.org/img/gwindows_logo.png" type="image/png"/><entry-point binary-name="git" command="run">
     <needs-terminal/>
     <name>Git</name>
     <summary>command-line interface for Git</summary>
@@ -69,7 +69,7 @@ GtkBuilder GTK+ object these can be loaded by applications dynamically as
 needed.
 
 By using GtkBuilder, Glade XML files can be used in numerous programming
-languages including C, C++, C#, Vala, Java, Perl, Python,and others.</description><homepage>http://glade.gnome.org/</homepage><category>Development</category><icon href="http://glade.gnome.org/images/glade.png" type="image/png"/></interface><interface uri="http://repo.roscidus.com/security/gnupg"><name>GnuPG</name><summary>GNU privacy guard - a free PGP replacement</summary><description>
+languages including C, C++, C#, Vala, Java, Perl, Python,and others.</description><homepage>https://glade.gnome.org/</homepage><category>Development</category><icon href="https://glade.gnome.org/images/glade.png" type="image/png"/></interface><interface uri="http://repo.roscidus.com/security/gnupg"><name>GnuPG</name><summary>GNU privacy guard - a free PGP replacement</summary><description>
 GnuPG is GNU's tool for secure communication and data storage. It can be used to
 encrypt data and to create digital signatures. It includes an advanced key
 management facility and is compliant with the proposed OpenPGP Internet standard
@@ -593,7 +593,7 @@ It has modules, classes, exceptions, very high level data types, and dynamic
 typing. There are interfaces to many system calls and libraries, as well as to
 various windowing systems (Tk, Mac, MFC, GTK+, Qt, wxWindows). New built-in
 modules are easily written in C or C++. Python is also usable as an extension
-language for applications that need a programmable interface.</description><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/python/Python.png" type="image/png"/><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/python/Python.ico" type="image/vnd.microsoft.icon"/><entry-point binary-name="python" command="run">
+language for applications that need a programmable interface.</description><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/python/python.png" type="image/png"/><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/python/python.ico" type="image/vnd.microsoft.icon"/><entry-point binary-name="python" command="run">
     <needs-terminal/>
     <name xml:lang="en">Python command-line interpreter</name>
     <name xml:lang="de">Python Befehlszeileninterpreter</name>
@@ -680,11 +680,11 @@ More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
 This package is built from the X.org xproto proto module.</description></interface><interface uri="http://repo.roscidus.com/lib/zlib1g"><name>zlib1g</name><summary>compression library - runtime</summary><description>zlib is a library implementing the deflate compression method found
 in gzip and PKZIP. This package includes the shared library.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlu5AMsACgkQIuoRGn5CQqQeDwf8DwHr
-uMDj9/VSuLA99Y8hlJMlcOixEAiuLH5+LPcw/oiT73KwzL1Y6yjTeT8MvOjKMU/w1I0x4/zpuPVO
-TRRGlr79FFnAreQWbzAsrGZfZyXAQHfIYGvM3GEoIVeGEXii9vwZ/F+crs7LcZZ5hyJicm77xsTy
-JVWL8/2xza1pjkEP75z6MQrqw0A8OoEFyh81C/RIkz8i26RKRgOkGNcZAiBFbjF5YKqdHXGxfPJr
-PR+LHf21kqWmlvHREbUcPvDGyymZiNiN8biug71HnxjD1Vc7v3QyAZj8jXvbL3noHF2APiM2n2If
-gl6UUVuOlSBIONzfwZvFXh6/4xblLjqstg==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlu5AjwACgkQIuoRGn5CQqRBWQgA1/U2
+4uVlVndJ2VK22hWhAK5F7wuwrvO7FAnLKKW8XZxDNTleYHPztmlDvYOjG05Kong7eflkGt9jWrVq
+Wb9xYFcgMd4UqN9YuImm0Fv2iB7E35Sj9rgNivf4UtgFcFfxRN4mofGFKBMnq+JlZG9BYtc1tFzk
+VhIbuIvewDFfqFKXy3lbukX5W2Nw2Nmor8IMiepTXbL/VIX0FpXX+Oyyo789ML5HQUJdZeDvR9oc
+Loz5anYpkTJl6V6EB/PE4WHspH9qHIl1Np+FqqbaoD3XrQ6GkHtk3GlppaLZ1DWm6vyzogk+4m1g
+Pbw8uyQZ/mcpvW+S1OkzU7QDFwbpOeNbHA==
 
 -->
