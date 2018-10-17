@@ -15,8 +15,6 @@
         <arg>Bypass</arg>
       </runner>
     </command>
-
-    <!-- Aliases -->
     <command name="chocolatey" path="chocolateyInstall/chocolatey.ps1">
       <runner interface="http://repo.roscidus.com/powershell/windows">
         <arg>-ExecutionPolicy</arg>
@@ -105,8 +103,6 @@
       <runner command="run" interface="http://repo.roscidus.com/dotnet/framework"/>
     </command>
     <command name="refresh-env" path="chocolateyInstall/redirects/RefreshEnv.cmd"/>
-
-    <!-- Aliases -->
     <command name="chocolatey" path="chocolateyInstall/choco.exe">
       <runner command="run" interface="http://repo.roscidus.com/dotnet/framework"/>
     </command>
@@ -255,6 +251,14 @@
       <manifest-digest sha256new="YPG44BGOHP4RVLKUSV67N4HAQBD2SN7FQVDBMFA5PRNHLJK4VNMA"/>
       <archive extract="tools" href="https://chocolatey.org/api/v2/package/chocolatey/0.9.10-beta-20160318" size="5885499" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=90ca223081fc51719e0a535a289c6f90f9d3ed8d" released="2018-10-09" stability="testing" version="0.10.12-pre-20181009">
+      <manifest-digest sha256new="WQ6N5IFGK4GVGUMOO2BZJF7ZSPT3H7YOZNZ2W2RXM5ZXK3OM7CSQ"/>
+      <archive extract="tools" href="https://chocolatey.org/api/v2/package/chocolatey/0.10.12-beta-20181009" size="5758099" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=9dcd839f6bc32e187fbad65962359ea9d99541a1" released="2018-10-12" stability="testing" version="0.10.12-pre-20181011">
+      <manifest-digest sha256new="E37CN4ANSEJFCUXP2YSFZS35HXSHCR66UG66GNVTN373L3IGTNYA"/>
+      <archive extract="tools" href="https://chocolatey.org/api/v2/package/chocolatey/0.10.12-beta-20181011" size="5758603" type="application/zip"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="choco" command="run"/>
@@ -263,8 +267,6 @@
     <name>Refresh Environment</name>
     <summary>read environment variables from registry and set session variables to these values</summary>
   </entry-point>
-
-  <!-- Aliases -->
   <entry-point binary-name="chocolatey" command="chocolatey">
     <needs-terminal/>
     <name>chocolatey</name>
@@ -296,11 +298,11 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAltl6WUACgkQIuoRGn5CQqQXtQf+OlVq
-2MS5vaFKcSFwHTpE2YtT7jpOKKF7kOJ+DYUM1Q62tXGbcFh4ElBuxklgnddo8+DLy0XESn4TsInb
-S16WBN6uYc3Z9sSKQzM3CEOA+F+0kX0icMpsddHK4NIy7RyMb7s6eqD+bZYNotvw8t/VybH22YHs
-ZOTc76fhmx/mOqiyyxT1hPDoXqhGxhjq1Puw2iZ+45jHhSd/lwLW9IVtxl4exn94Ur0vY+6dA5vs
-CKZD8F5QJn6OIlL20C+zRY6HysWB743DIAEYQSRZkLEVgyjp3YxtQqk7I7+6DqgNK9IfJ1PAVKDC
-t8nJqA4Vez4kGhNMU04wN60ZVdOR9wqqBQ==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvG/ikACgkQIuoRGn5CQqQQPggAlNpb
+ogX3yyQsQnchgKTRGaGlcfrvqm9TN/Q0N4wDFKXf7gr1pPSKrZ9CEe2hh/Zj5wvKLVtyYg6N6JLI
+qwjv9jK7AcqbIGFov6fv3R/W0wW50xHFULJTvcdFoei1rRLodm2ZqNCBWEqpvJvQnbWb1PR6eQt5
+iarrMc1EGcGuFstgetxKhuGY2mBtTasvscA5XJqBAdFIbAa/V+0tYK6DllbAwTeZFVODOdIYXnjS
+YImXipxIo+vwRPYYFapim+nRbCO6cHO8daLoJgXLf2qxQnOrWHGmXb395t17YyU68SGIUvAS5Bc1
+X6BTkI9od8tz/FxLLmV+4yvPb1+H/rRTjA==
 
 -->

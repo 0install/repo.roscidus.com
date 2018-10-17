@@ -559,6 +559,20 @@
         <remove path="doLocalConf.xml"/>
       </recipe>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=24eed21ff9b0046ff09fa8ebe7d37c02b383ce62" released="2018-10-15" stability="stable" version="7.5.9">
+      <manifest-digest sha256new="BWAMRCDC5WW6FEPCKOJSOGG7MP3ZL5JOVMSK67O25X4NSQTT4B6Q"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/7.x/7.5.9/npp.7.5.9.bin.x64.zip" size="4726657" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=82b3d806d052187022d56762d292b12a674a1128" released="2018-10-15" stability="stable" version="7.5.9">
+      <manifest-digest sha256new="GJIQURYSZUEZWFJ66U4DZJC24LEMYIO62BCI4EAPYKOJIHHE2TJA"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/7.x/7.5.9/npp.7.5.9.bin.zip" size="4230808" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
   </group>
 
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
@@ -625,11 +639,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlu5AMoACgkQIuoRGn5CQqRzLwgA83w9
-My2bcWX5ywnRCV0CNQCWu1MmRXApNOymobnUPi5Ta0PfMj+pK9CdpUZA2mzTsyhk/fem2tihtbhw
-pv8W7AOI+LiE/ybStj17/kp1yc9XtYphcas+tgiQgwBn9HEgzVqt/VmkomhZjkGV/W19fRDsnKbY
-o+G1s7sim3+9PWVq5Bor8bxfMmjsMrZ6Wdm9z8blj/DNM4DXZj//9JIdB+jJ5W9VzWisPEISpXiw
-TK3XQYxKx6NrayIIkfOZXYG2NGT6pLhvmVo/6EPhP8Jvr4ltMa4ZCMcr+B473NiUNhIg06Jx5sgP
-GK2WgvynAwXT5bnn1YFTfRJGmWyzfgPfLA==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvG/ioACgkQIuoRGn5CQqQOJAgAwoeE
+t3nmlwkaJb1FqMX5ETnuZZhp+AtKO2f8dgv4rdtLODUQz3cbr4JqaA79sgfaVBkzD+tRPjwlbl51
+7UGRUqVbTSYaRrDd9IzqF7SWukvp12McOHOdp5Egczk4uDjaBQk7ElNpXSnb33DFuFwVE1Fu0BQa
+wZRNxNuw7QAsiHUoLnQKh8dAvygoGORCByEu9KchDiSIiBnuhVXGwQKdj+wy36qhNPsEN1npjzA5
+04XG21qbi7azh11xn3VNLVMsWQL7eHz6gyyiMn77ImTk99CMFAztaBX2wvYlHGXhooPWI3YJ/v9X
+NCeJFoui2WB5rMnwynKDj5qmydf3UahpbQ==
 
 -->
