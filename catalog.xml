@@ -372,7 +372,7 @@ This package contains the development headers for the library found in libice6.
 Non-developers likely have little use for this package.
 
 More information about X.Org can be found at: &lt;URL:http://xorg.freedesktop.org&gt;
-&lt;URL:http://lists.freedesktop.org/mailman/listinfo/xorg&gt;</description></interface><interface uri="http://repo.roscidus.com/lib/krb53"><name>libkrb53</name><summary>MIT Kerberos runtime libraries</summary><description>Kerberos is a system for authenticating users and services on a network.
+&lt;URL:http://lists.freedesktop.org/mailman/listinfo/xorg&gt;</description></interface><interface uri="http://repo.roscidus.com/lib/icu"><name>libicu</name><summary>library that provides robust and full-featured Unicode and locale support</summary></interface><interface uri="http://repo.roscidus.com/lib/krb53"><name>libkrb53</name><summary>MIT Kerberos runtime libraries</summary><description>Kerberos is a system for authenticating users and services on a network.
 Kerberos is a trusted third-party service. That means that there is a
 third party (the Kerberos server) that is trusted by all the entities on
 the network (users and services, usually called &quot;principals&quot;).
@@ -680,11 +680,11 @@ More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
 This package is built from the X.org xproto proto module.</description></interface><interface uri="http://repo.roscidus.com/lib/zlib1g"><name>zlib1g</name><summary>compression library - runtime</summary><description>zlib is a library implementing the deflate compression method found
 in gzip and PKZIP. This package includes the shared library.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlu5AjwACgkQIuoRGn5CQqRBWQgA1/U2
-4uVlVndJ2VK22hWhAK5F7wuwrvO7FAnLKKW8XZxDNTleYHPztmlDvYOjG05Kong7eflkGt9jWrVq
-Wb9xYFcgMd4UqN9YuImm0Fv2iB7E35Sj9rgNivf4UtgFcFfxRN4mofGFKBMnq+JlZG9BYtc1tFzk
-VhIbuIvewDFfqFKXy3lbukX5W2Nw2Nmor8IMiepTXbL/VIX0FpXX+Oyyo789ML5HQUJdZeDvR9oc
-Loz5anYpkTJl6V6EB/PE4WHspH9qHIl1Np+FqqbaoD3XrQ6GkHtk3GlppaLZ1DWm6vyzogk+4m1g
-Pbw8uyQZ/mcpvW+S1OkzU7QDFwbpOeNbHA==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvMUdkACgkQIuoRGn5CQqSU3Af+PqzG
+N6nDrEeBZH1L/Z+CyDeJ16T++UmIXMsMUUsWggzAvneBRCsmMKE7ARZtyXDGmcAWij+cjCByFpSi
+bPQ8ZU6A685iGPB8xd3AK/Q32j0wS9DUDaFv1H48ThRK973ZQwp9ULEpgqd419c4aeFcRDXeUCeT
+K/8XhjnkoCTB6d7ISEe2tBgBnzZiV5RqCW7ww2ODpPewRJLfR4i/Uh6V4mIukGQcrVQ3zXazHMkA
+Fpyhxq/iQi8j+0lD9e29jINxW6W0LA3Uyx7BNHzIyfJxT2MWBjtIxm1tcLfDD0BWe1ffPn4AMjiy
+z6znbUFtpbvaQtbf3oI/Pdih0C5AZPoq6w==
 
 -->

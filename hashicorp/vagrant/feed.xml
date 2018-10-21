@@ -34,6 +34,10 @@
         <manifest-digest sha256new="M7P4J47T4S7DVSEMAU62HKYIWXNCMCBDYLXZ6ZWNE5ZWEQZ6L5PQ"/>
         <archive href="https://releases.hashicorp.com/vagrant/2.1.5/vagrant_2.1.5_linux_amd64.zip" size="36581187" type="application/zip"/>
       </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=45ff9d4f7dc7b2c4c27f0fbaf87fe3942abb9462" released="2018-10-18" stability="stable" version="2.2.0">
+        <manifest-digest sha256new="KKYY7K7QWJJBEQOFBGCYBBDCUKZDDFBC52E5FFQOBT2RBBVRYMSQ"/>
+        <archive href="https://releases.hashicorp.com/vagrant/2.2.0/vagrant_2.2.0_linux_amd64.zip" size="36649388" type="application/zip"/>
+      </implementation>
     </group>
     <group>
       <command name="run" path="bin/vagrant.exe"/>
@@ -125,17 +129,25 @@
         <manifest-digest sha256new="GKXDEJQOTLFT3DFWITD2W7POOU2JDT7U3ZK4P7X7EHIOBBLW3CWQ"/>
         <archive extract="SourceDir/HashiCorp/Vagrant" href="https://releases.hashicorp.com/vagrant/2.1.5/vagrant_2.1.5_i686.msi" size="232992768" type="application/x-msi"/>
       </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=e295aec2ac2bd29dc047a7b42a2ca93937b4adeb" released="2018-10-18" stability="stable" version="2.2.0">
+        <manifest-digest sha256new="SFGAZBWYMQXAP3RD73V2ITUCQSLWYE4BPKC2FVWVBMN4LKPGFMYA"/>
+        <archive extract="SourceDir/HashiCorp/Vagrant" href="https://releases.hashicorp.com/vagrant/2.2.0/vagrant_2.2.0_x86_64.msi" size="238948352" type="application/x-msi"/>
+      </implementation>
+      <implementation arch="Windows-i486" id="sha1new=e060a969d478e8af9357e720a1921e3acdf98563" released="2018-10-18" stability="stable" version="2.2.0">
+        <manifest-digest sha256new="F5ZLDIABRJPMGHJLCU47HHLYQES7BEDIRUABWZSPEHUXRQYPSDMQ"/>
+        <archive extract="SourceDir/HashiCorp/Vagrant" href="https://releases.hashicorp.com/vagrant/2.2.0/vagrant_2.2.0_i686.msi" size="233123840" type="application/x-msi"/>
+      </implementation>
     </group>
   </group>
 
   <entry-point binary-name="vagrant" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlueMhsACgkQIuoRGn5CQqTj+Qf+MaBu
-8cVjI+Ek2j6euZeQ9pE6Kqmx1PgSSG4Z6Aewbwu0Z+14v8ZsK9L1H6rEW7p3BKPwDZ4QMJBNkolW
-TwRAfN/HhFnl2Oi4NV9DoJ6Y1+34pHS/96ctxlIRRIdfkKYUtFmqYo8Jlo4XdrrHyp8yoqI1GltA
-O5LuK2uQ4OkhNZK2G/gndvfN4E+lIF9F1j15p89U9xW8+6ACcKSFZ5vQRViDeZv7P5GxcA/our5x
-o6VbD/Yrp2zG4e3SH8GSM+0ie1X9OQwo9b3y6hMKD+a7n6nRSa83bn+/ZZiBhBWnpUHTm0jWdHZ6
-kgZjkaYlgsj/UhqKPa3zA8f7lC5CzVfKyw==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvMUc0ACgkQIuoRGn5CQqRJbwf+JrSU
++CIV91kYabEOyoYlWyAzgaiZ/xOQCDSv8woX4X2o1DJVm0quviNol8MYztfOlWplC8Qq7e9lv1bu
+rC6dYPN6dtAFj2+iRnRN/y1CtLuSqjMktrp/Oq1AEbcEcQxZgQ9z+0vyEw94EMCcVLZta+5xUecM
+BEQInU7JOIG5hAcIt+Oj01Xy7044ISiWElRx68rKITvSEEPvphlVAdLtpEvHyTQlOibqEcB2xA8f
+Te4KsSQxF62l9YNer2kKsDa3fmvWkdchBvAYqrYD3ANLfAEzkCNXdKEcqKuWKko3IQc9I4auKIj9
+SLQrhPCLcpOjW9D1WmRkBJq25DWXC3BWdg==
 
 -->

@@ -49,6 +49,10 @@ components using the Java programming language.</description>
         <manifest-digest sha256new="Q2X2UKIS43OQC4JKOKB4X655BCZCCO5BB6SVWTBEQGYL7CA5UR4Q"/>
         <archive extract="jdk-11" href="https://download.java.net/java/ga/jdk11/openjdk-11_linux-x64_bin.tar.gz" size="187611826" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation id="sha1new=7be475cac5d3b9dcc37de19dbc08511070b66023" released="2018-10-18" stability="stable" version="11.0.1">
+        <manifest-digest sha256new="P6B22G3HVIOJOFPNUPCGA3DGZABHFUZXQFYWCGH6NXE3VCPBKWKA"/>
+        <archive extract="jdk-11.0.1" href="https://download.java.net/java/GA/jdk11/13/GPL/openjdk-11.0.1_linux-x64_bin.tar.gz" size="187599951" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
 
     <group arch="Windows-x86_64">
@@ -96,15 +100,19 @@ components using the Java programming language.</description>
         <manifest-digest sha256new="5C36AHI7R24LHCRV3YO4QNQKE5CD7PQ3LQWTZ4JG27QNC2VIY53A"/>
         <archive extract="jdk-11" href="https://download.java.net/java/ga/jdk11/openjdk-11_windows-x64_bin.zip" size="187396683" type="application/zip"/>
       </implementation>
+      <implementation id="sha1new=2890ba0c4117b367785ff1824c3a5b5769b1e102" released="2018-10-18" stability="stable" version="11.0.1">
+        <manifest-digest sha256new="ILQMUS4QQTZ463BDL65VZ5TM4YQWHXFD3SWAFSBL7BG4RVASWOQQ"/>
+        <archive extract="jdk-11.0.1" href="https://download.java.net/java/GA/jdk11/13/GPL/openjdk-11.0.1_windows-x64_bin.zip" size="187416205" type="application/zip"/>
+      </implementation>
     </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlu5AjoACgkQIuoRGn5CQqScgwgAmBfq
-GC5KbGrX2iAbqTwKnhntdE3YxZb3TTXOkK3mFJSoHScNpGHrDtatf4o62Q+Efz4axvx/utYqJhKb
-xsInDR5Yoa4qOLDNNXO4TT6KWeHOPvb0ldWnEZVl0+26x4/p2r+ehNLKOtPmRakHycFq0mSobDV1
-2ml18puTqQc7tP9tNM1U8ZpsYNunQ/TAXjZvl1T9iXm7jWsrvDw2LD6ub9sKCJlwQk6BA4tP9tDB
-H2k5/euLHLP3WD/j5I1jSVkJqNLE12cOQPfUTqm00f2/wFwyo8zeFoFgdV8kLUS3Xn8sTwFy2foK
-59nvGx66CvHxsSiDPozH8MzUHaB8mbr+Xw==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvMUdcACgkQIuoRGn5CQqRTnwgAzetb
+6Bkh58emfwamHfQgxqVmiVBoO/mSQHL7W47VOGu2lFPzQhq9VwGok6yOuttwmmrj52zoBlU8NnCH
+0nI24XIUe+4QUPrT9FdGTNQZWhOcKXp75fon/8xGnDkURE6LpY6ovgks20MEfYW4Y3g9pEJt32Gf
+LWqNehBkb0ayZw5gXV4+EMKcgm0pkc4299RK5crsgg+kWFM5yFJm1mtnVQSFkPybdunQq+OQEF1x
+8aK0zj5rSxaHFWWX0Yaj9caoGQeTXML6kJSmig+bdfULIfPK2f6DtmfLFkCCqxX4QrdKzTgL6+p0
+wID/0aB19a+DuCyxN6Fw2k3sICuDj+LSYA==
 
 -->

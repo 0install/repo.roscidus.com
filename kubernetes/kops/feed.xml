@@ -288,16 +288,24 @@
       <manifest-digest sha256new="MUAZRLGQSVHD3CKEM7ZHOPOMW4FGNOR5NV4GVJH6WCZ3JJGTY2UQ"/>
       <file dest="kops" executable="true" href="https://github.com/kubernetes/kops/releases/download/1.10.0/kops-darwin-amd64" size="99035920"/>
     </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=e5220ff33b8084b744ace00a0a91effb90303960" main="kops" released="2018-10-16" stability="testing" version="1.11.0-pre1-1">
+      <manifest-digest sha256new="CZZZVTPR5XSG6UQ6Y2UTOGMH55JQIGDAOC6KJQAJLNWSMXYB2FBA"/>
+      <file dest="kops" executable="true" href="https://github.com/kubernetes/kops/releases/download/1.11.0-alpha.1/kops-linux-amd64" size="84901600"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=673e54521a95759fbb2160ea965781644d48a738" main="kops" released="2018-10-16" stability="testing" version="1.11.0-pre1-1">
+      <manifest-digest sha256new="P7YYLYTNDB77PZNC6DLDADGMKEOXE2G7DVPZ7OWPID5HBHTT3QSQ"/>
+      <file dest="kops" executable="true" href="https://github.com/kubernetes/kops/releases/download/1.11.0-alpha.1/kops-darwin-amd64" size="98341264"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="kops" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlt4JckACgkQIuoRGn5CQqRf0wf+KuGH
-55oobFV0/dYj3ydrmr2yXlOdnCjc4Al9p5DfEiuEv0NayP5fnsXLnNUcsQfpJPK72vCiqjbENRGT
-UjWLsfietPMxMkNyhnHn5DaPxfR2WaTY8vTEAc1IWE+xasXzaGHoYzTaSxxINHEMsdVFUbPcqeQK
-NOPQ61jJoUXryVqFpX+m8pl0Udp6mmVGOWqR3BELPyMXydVO7y9y+vUbzHz0RgENEm/+WyJMU8UD
-3sSvJa9TY1tMhamEskd5piNYSo9/VORqBdYYvFfGNvFN4QkBRwSFVGpp0MiQynUL/Wm/kswVYy2g
-FNJe5ic+vJGOCD/qzW2wIIDN6FgMExv8xg==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvMUdgACgkQIuoRGn5CQqR54ggArpix
+UOCUCbAlw59/I0ENkbjcF6HeTs8KdZKji73yr1T5EZ+7hwZZSlY8CA2j1vxJ10PCHytpiGCvJtlY
+L4ft7j91T/fGOBDGRLlnqEzHnCQQJ5fb9n6817/zkXibqbXMnizbuQijPmI4gMKdVizEjBgplkYU
+wXq+vQ9mrUH90u/C/JWRfTAt1TJZZfhv9A4s1HJIA5SVBOMVD+g4hcUo5RMNtKDzN+YVyLdcW2pE
+tYIyqAqz8AUpirg3/qdlydX95N7gsMFVsNEomGoBSCaZ0+6IMyGLdybvzLbf5Aa2JhWMYT6N0PSU
+qlCuV34Qfs7LBhFSriTAvDPpoFI1zkpUWA==
 
 -->
