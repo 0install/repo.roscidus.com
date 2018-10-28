@@ -15,7 +15,7 @@
   <package-implementation distributions="Windows" package="git"/>
 
   <group license="GPL v2 (GNU General Public License)">
-    <requires interface="http://0install.de/feeds/PuTTY.xml">
+    <requires interface="http://repo.roscidus.com/utils/putty">
       <environment insert="plink.exe" mode="replace" name="GIT_SSH"/>
     </requires>
     <command name="run" path="cmd/git.exe"/>
@@ -395,11 +395,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvG/iQACgkQIuoRGn5CQqSj6Qf/TtmA
-+c4yK6coHTpYrw+BYKTczjAG27hA/YYtma+GyTL57SxCiCjqGSSdAt6q3vKPfgc192sCn1TEeaiI
-JfiT9G2nlyDiDYRF7QJ7wnFgSZ5lFyJQcX3/OR4k3zcTzkvjS1sK+uwjByTiqAgd6qvaktOGVrND
-y5hjQP7gtALw60KzdDWVdZE9eBQ3czTWnXBaNTJeK4e/62l5BNhReLRwdhBDjzxD05X7q9rxUvne
-lbE++ttl+VOdjo0FUtn/JpMLDj9atqGUfOhGnRjWP2wUEmpIXx437hp4YIwKfL5dhQg/bfCnRopT
-QdLhVdoeZ9kb2qlWgI7D2+7MC9kzI8rOXg==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvVfscACgkQIuoRGn5CQqQIRQf6Am39
+tx5ocp4DJMA9bVMs+I9tk64zpZ53q79Tyll4mTyLVrVuaREyYPo1mm+VxjVxiddje8zIcnBIDk9s
+gffHE4aoNxUye4TtGem1B5vnjI/PzBOa1iPIWwTrpzpNUOo49ISatgyUpZ+rXg+ZIdXX1EdHKCpn
+3wZl14gbINTMf3UyxdOdrOea1KPLmsTSeg6RY1hvZHLYd4Y+NLAzn/NEpHak0W3L3m4mhduZ2bkl
+HNl+KRwSEAsizkGu/9+cvpw1gvmNWIMNOXciy8W7M0EBuJmK9Y6pJ5WOw+hj3oSntbjKbAmrRvRi
+0KqJGLgB6iiSz5FcyBRBTGljwr7LZajBMA==
 
 -->
