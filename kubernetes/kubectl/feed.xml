@@ -802,6 +802,30 @@
         <manifest-digest sha256new="IXJL4K46VQLQ7JKTJIYYRXP4FOWNMYIBLGMOGF7DPDP6FZ45IC3Q"/>
         <archive extract="kubernetes" href="https://dl.k8s.io/v1.13.0-alpha.1/kubernetes-client-darwin-amd64.tar.gz" size="12573837" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=7e739ad1f90224a20ce3c507d5d30b2bfa63c382" released="2018-10-26" stability="stable" version="1.11.4">
+        <manifest-digest sha256new="NFRELGHQGZ5LPTUZ22H7D4EBPO2YPBKMT7Y3EEXRH4SPJR5UQDGA"/>
+        <archive extract="kubernetes" href="https://dl.k8s.io/v1.11.4/kubernetes-client-linux-amd64.tar.gz" size="13907818" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Linux-i486" id="sha1new=14557adf9967e5046e420cd0130050f50dabab66" released="2018-10-26" stability="stable" version="1.11.4">
+        <manifest-digest sha256new="NNNWABML6YIJGKZ5ZJDXCKUTDIXM5ZQ6TN3ZT6O3M6R7BH2DKUHA"/>
+        <archive extract="kubernetes" href="https://dl.k8s.io/v1.11.4/kubernetes-client-linux-386.tar.gz" size="13346105" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Darwin-x86_64" id="sha1new=7cfe68806c9d41f6a2a01f54d82cdb82ee358c62" released="2018-10-26" stability="stable" version="1.11.4">
+        <manifest-digest sha256new="E256NXVLIMM7KTYJ4ZZE4HSSBDQXFOJDU3MYZ4GKE2W56ZEV6CPQ"/>
+        <archive extract="kubernetes" href="https://dl.k8s.io/v1.11.4/kubernetes-client-darwin-amd64.tar.gz" size="13817216" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=663aadb79aaa3b3824f309df8b6be14b76717463" released="2018-10-24" stability="testing" version="1.13.0-pre1-2">
+        <manifest-digest sha256new="BHMPE2MLHLHQF4YMEP3HCJGQLRIW4ZRL3ITRBXGTL2ATH5AGE6SA"/>
+        <archive extract="kubernetes" href="https://dl.k8s.io/v1.13.0-alpha.2/kubernetes-client-linux-amd64.tar.gz" size="12039122" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Linux-i486" id="sha1new=3c8ac1983e4bcd771da58adfd101cca3a2ce4ad4" released="2018-10-24" stability="testing" version="1.13.0-pre1-2">
+        <manifest-digest sha256new="YXSLHOZDB6QZXCMZAX6MTV322YHURPN6LGXANSMNK5B7S5KGITYA"/>
+        <archive extract="kubernetes" href="https://dl.k8s.io/v1.13.0-alpha.2/kubernetes-client-linux-386.tar.gz" size="11205841" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Darwin-x86_64" id="sha1new=cfe8ccb49b1937e9d73cea8bce37029e319b6eb1" released="2018-10-24" stability="testing" version="1.13.0-pre1-2">
+        <manifest-digest sha256new="5727P2FC32WARO3MDO3BDXOFU4JQIID462RDGKQKWT2HF3GXEYEQ"/>
+        <archive extract="kubernetes" href="https://dl.k8s.io/v1.13.0-alpha.2/kubernetes-client-darwin-amd64.tar.gz" size="12639216" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
     <group>
       <command name="run" path="client/bin/kubectl.exe"/>
@@ -1333,17 +1357,33 @@
         <manifest-digest sha256new="CSXFJBPWIV4OTHSYEEIK55QMQ433YHAJDHPGDFF6MD2DP2E3Q5KQ"/>
         <archive extract="kubernetes" href="https://dl.k8s.io/v1.13.0-alpha.1/kubernetes-client-windows-386.tar.gz" size="11184649" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=770d31243a82b59c49b614c5d75b847a297ac39e" released="2018-10-26" stability="stable" version="1.11.4">
+        <manifest-digest sha256new="ZZDP62J5KDZWBR2RWT74GGEMRQ4YTAN2PGTIZAYDUEA4LJXMPTSA"/>
+        <archive extract="kubernetes" href="https://dl.k8s.io/v1.11.4/kubernetes-client-windows-amd64.tar.gz" size="13939678" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Windows-i486" id="sha1new=9ba1bdaee04da947c1638090bde919fcd413f3b1" released="2018-10-26" stability="stable" version="1.11.4">
+        <manifest-digest sha256new="BJE3PZNCYZW74AU2MTXXRC2QN6WVAOHGXXR7GLHIPWTJFNFSNTGA"/>
+        <archive extract="kubernetes" href="https://dl.k8s.io/v1.11.4/kubernetes-client-windows-386.tar.gz" size="13348231" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=e78722257fc07fc0ead50e5cfb89fc491cea6edf" released="2018-10-24" stability="testing" version="1.13.0-pre1-2">
+        <manifest-digest sha256new="WLZQ4ZXVMUVLERDR2CHDN7GLR63BGSTB5XKZRCHYLO5NZKDSHY7A"/>
+        <archive extract="kubernetes" href="https://dl.k8s.io/v1.13.0-alpha.2/kubernetes-client-windows-amd64.tar.gz" size="12098369" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Windows-i486" id="sha1new=b35ed3714f0f10cd83437156adc9a501514c48ac" released="2018-10-24" stability="testing" version="1.13.0-pre1-2">
+        <manifest-digest sha256new="HLMNCSTVQAJ6C4LJCGJVUJH4RA4EI3VHPP372JYQNAQORBFEHKWQ"/>
+        <archive extract="kubernetes" href="https://dl.k8s.io/v1.13.0-alpha.2/kubernetes-client-windows-386.tar.gz" size="11237965" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 
   <entry-point binary-name="kubectl" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvMUdkACgkQIuoRGn5CQqShYwgAl2Ay
-VQF0nArT+VlHtIZXJvsM5Bi1+8bQj6ESk3mBEBWFD3mXXF+9RnXp17gqHYX3XTDwDmYhd05HVwhE
-kvg53l3aQFy80PALONglq866CrGgfpYvXSnZ9q4xSr13gQDNHpabmekb0jwCRpFL295AKMZBAnK9
-+nWs+RIyHJ7o9Occrrsk0XeR5m2NgLznDguwHXpibPyEc7P0RCgz1miYDZgTysQbXs8eyD+j5fWV
-2wJ5AxLKlbFV5AhFcv2q3/WFmlEVffUn8/EitGr2gvBJITp2jyHbhPwohZyjwAI9jcLK4Cdv8AJw
-rMix0+RYnM2qkG7TQ2M9N43UrJrqe3vY9g==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvVfeAACgkQIuoRGn5CQqRRjggAiT9A
+lRB0xly04WOQTxBCMz3hAAUdWaWV3k6BpnZKU4NknN0mSLYeky1fBMJRWyBzn6+ogCdDJTZCZPpp
+5DCm5L3+YAG+m4uAdI6NaPkkaI35rQadWNb+zSwMLnzVKKx+MJBQOqez2XwFmDRUJshCMVBAAw+M
+97M1yLwLJM4CLWTl4SUr30evbANffAIKd3Ezy5UlxDceixgXH/byWZrRbo+lvhzy6U5bGCTz8+vr
+0LxkuZ87+YAWTuBBnmoGPV2bn2NaoDaYXBdk1j1rrgnHEiEaTa0zQPmYiJhUQQDzrFGvJZsSudhN
+KuMZCGkPcRWYadpy8iP4Eob7DPfVLwoZ8g==
 
 -->
