@@ -268,16 +268,24 @@
       <manifest-digest sha256new="WESFCBTRCRXIOB4UABAQTD7DKR3SODRFTIA6WQNDEAM2FVCYL7PA"/>
       <archive extract="curl-7.61.1-win32-mingw" href="https://bintray.com/vszakats/generic/download_file?file_path=curl-7.61.1-win32-mingw.tar.xz" size="2042252" type="application/x-xz-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=c3a29d4fc4aa7c189ca3d57c39687da02ec69001" released="2018-10-31" stability="stable" version="7.62.0">
+      <manifest-digest sha256new="AUUIJETLNAOJI3O353KMXEX7RMBPZKKZD7EMHH3KAEIQB2A7IEZQ"/>
+      <archive extract="curl-7.62.0-win64-mingw" href="https://bintray.com/vszakats/generic/download_file?file_path=curl-7.62.0-win64-mingw.tar.xz" size="2199044" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=d80f587d7852e3da9f1ef6bb66ebe76ee1653b98" released="2018-10-31" stability="stable" version="7.62.0">
+      <manifest-digest sha256new="EPJSG2J6BTE42NQKIMPC2UF6TEJJPNBLOQXOBPW2YSEET2AYMDKQ"/>
+      <archive extract="curl-7.62.0-win32-mingw" href="https://bintray.com/vszakats/generic/download_file?file_path=curl-7.62.0-win32-mingw.tar.xz" size="2051916" type="application/x-xz-compressed-tar"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="curl" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvG/igACgkQIuoRGn5CQqR9ZQf/ZWUH
-RzvLqLJeheNt1Xl1B7scMz1qtdQmJZG6YrKDHYjt3ytcP3znP1kamfuXqL/c959/WNslm5hLs+cu
-ysUVUPQdYz2k3s+0YNdOvg9dNQboRJuHfM+KuBEyWYcv4DLrw3NAAm9MDKMBXybr6VoxqB+fqje1
-MfZOmkba9GNdw3cWFwBAxy/Nt7lbNz6GSbudA0JeEMDZyVOIxA4ASaN/Paj+J7JTivnyBUtbUSTN
-5jRnspdPLaQsrj1cj5F7Le/Xpo1k56fQTZa6srFTszxJlHJwVr2HhfYCCUZleBSRRfDq4I9WjqJy
-wntHy4VAGKkPQi666aJdZSDPN9Hk2p3IgA==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvd2+sACgkQIuoRGn5CQqRlMQf+MLWY
+iUrrAxfCEs5QHR6FDqplPYuY5beEadi78TC53kjJa7IhZzNpU9oVQlZ0fJjLuV2V8Ab9mfPzUNHx
+Mdy9sQFpKLnlNjGDB9nvETgmYTKXLgRBa5BgFmbLt5KdhWF/J3eTNbUqQmq0BsLS1VA5ghTEuE4T
+W2eGt0afz7yL2Tw7gabxSMSpE/5NhxNy0lSTB8lQHqBH4FzKdHHZBLUBBeU8NCdAFWCuU8+IbXJB
+VuxSUWxVANYwM6YcWin+VD172lTiZE7dQQFHH6ZQTWyrzdJyvAPDGnrZvsER0MMDMiLTYicNCXCz
+tozFkjyMRZ1+C03Vn2TcNxry4wImRbpL0w==
 
 -->

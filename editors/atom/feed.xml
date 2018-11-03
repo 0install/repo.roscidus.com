@@ -283,6 +283,22 @@
       <manifest-digest sha256new="UEHYM3HLAHH7XTH3SB2DZZ4VJYD3UJMVS62OEEOEJOTXH7XFQ4HA"/>
       <archive extract="Atom.app" href="https://github.com/atom/atom/releases/download/v1.32.0/atom-mac.zip" size="290951932" type="application/zip"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=69623ae38b6a0ac86f812d3a7b7fba2b9ecce9ca" main="Atom.exe" released="2018-10-31" stability="stable" version="1.32.1">
+      <manifest-digest sha256new="JTUP5SCH2IDMVLKSMI7RCPZBWVSYZO4DMLCEFB5YXDEG4AZB7IUA"/>
+      <archive extract="Atom x64" href="https://github.com/atom/atom/releases/download/v1.32.1/atom-x64-windows.zip" size="147995673" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=e332819e26596469f3c32c4620e8bd01127d0b18" main="Atom.exe" released="2018-10-31" stability="stable" version="1.32.1">
+      <manifest-digest sha256new="YYVLTLLQ2GWKABOI3CMMBKEK7Q6WVHKO3CHIFW3MV7O3RYWSMGGQ"/>
+      <archive extract="Atom" href="https://github.com/atom/atom/releases/download/v1.32.1/atom-windows.zip" size="136879762" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=4f7e39e48d81e7cab2d842b23206d965d0836246" main="atom" released="2018-10-31" stability="stable" version="1.32.1">
+      <manifest-digest sha256new="SZG7HBG44WJIHB33YA47NDMXOJE2USLGLVCB4XVUFQ2BTNVKPN7A"/>
+      <archive extract="atom-1.32.1-amd64" href="https://github.com/atom/atom/releases/download/v1.32.1/atom-amd64.tar.gz" size="282902059" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="MacOSX-*" id="sha1new=75dbb6c77578f9d54e9ef65a06f040b3007e6ddd" main="Contents/MacOS/Atom" released="2018-10-31" stability="stable" version="1.32.1">
+      <manifest-digest sha256new="XZIZWMCRY4VWASDBVFTVOOVBU4S66YKQDQ74DR4OPCWJ5SULLY5Q"/>
+      <archive extract="Atom.app" href="https://github.com/atom/atom/releases/download/v1.32.1/atom-mac.zip" size="291391975" type="application/zip"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="atom" command="run"/>
@@ -305,11 +321,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvVfeEACgkQIuoRGn5CQqTf+ggAu/Xd
-74jIKpeUuXq7cgTLDDTZxcA/F4KitD1eHXDQ+PcOGhQDKxq6Nm1fFsswlk87mRZwXTM8baMnPIjf
-zSwdj0G88ydy8RDU+j/uAZR/LEZ8GG44lClpxQR1IxKsCqVZU5iBUVemvGEJ3NzoL+FoT6JNmiwd
-wRBj96gY47qmOb7WE7ssqD3diYZMZq5U14wPK/Xle8D6NBIpjKQKk+rgglRi1sxuaLpUARqHwgpK
-eVLfCiZLXPRM3FE/kHpiSfddVugpmAd5GVJImfy4/C6BXRuiqt/RX/HLOUP8eVoo1jki+/ZRcx7N
-Rd75Kg3RRsB85S1MUPvxDRMv8IFCpB6E6w==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvd2+0ACgkQIuoRGn5CQqSVygf8CkMk
+0/zfecuuKknyGwZj7IKt5BmNudmBqRoP+3xa0R4a4kReQlizyBiPSXO8gFTTvm6mDhRqlv6+qexi
++pv1vEcUuFnifJcnVVjf1yHFGpNKiv6yUNdsy6G4x49phUR61CBgZidGHcJhqBx9zl7BPG9FIZl7
+sWNWwDvnoMSgKUwAWiE1MysbMthyof3Jaa35jxUwUf7cDkGN9DOufYm4OSyY8pvUg0JtPpqHKHXs
+o0J8oW5qpBeTOa40yLcHY4VivC9rGAroD0XNKRScyAfPOpNq6Ht8antdQBHd97rltaBIOWZQ9yK4
+cj2pYlmA1xwk5y3ZRvHQJQpUaitFMwPOMw==
 
 -->

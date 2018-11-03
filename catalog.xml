@@ -60,7 +60,7 @@ connect to servers using SSL if supported by PHP.</description><homepage>http://
     <needs-terminal/>
     <name>scp</name>
     <summary>Secure remote file copy</summary>
-  </entry-point></interface><interface uri="http://repo.roscidus.com/git/gitextensions"><name>GitExtensions</name><summary xml:lang="en">GitExtensions is a graphical interface for Git</summary><summary xml:lang="de">GitExtensions ist eine grafische Oberfläche für Git</summary><homepage>https://github.com/gitextensions/gitextensions</homepage><icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/GitExtensions.ico" type="image/vnd.microsoft.icon"/><icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/GitExtensions.png" type="image/png"/><category>Development</category><entry-point binary-name="GitExtensions" command="run">
+  </entry-point></interface><interface uri="http://repo.roscidus.com/git/gitextensions"><name>GitExtensions</name><summary xml:lang="en">GitExtensions is a graphical interface for Git</summary><summary xml:lang="de">GitExtensions ist eine grafische Oberfläche für Git</summary><homepage>https://github.com/gitextensions/gitextensions</homepage><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/git/gitextensions.ico" type="image/vnd.microsoft.icon"/><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/git/gitextensions.png" type="image/png"/><category>Development</category><entry-point binary-name="GitExtensions" command="run">
     <name>GitExtensions</name>
   </entry-point><entry-point binary-name="gitex" command="gitex">
     <needs-terminal/>
@@ -708,11 +708,11 @@ More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
 This package is built from the X.org xproto proto module.</description></interface><interface uri="http://repo.roscidus.com/lib/zlib1g"><name>zlib1g</name><summary>compression library - runtime</summary><description>zlib is a library implementing the deflate compression method found
 in gzip and PKZIP. This package includes the shared library.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvVfsgACgkQIuoRGn5CQqSlhgf/ScTd
-XUx8IyVEZQN9TydKOD0/G00xbdHv0UCuEafb5NWsQrvru2XOEmM/u2o/lexQzcpPhUbJOfSkscdM
-T78HwP4W7qAjEd5xGaI3eeQP4o1KpK/I2ChRslW1S1pC2KQziDar48pk/a5l0NyFtmUOvXRO4E+m
-HB9PwLSreThXiSXR+rxNPlJkpcrKELwFfdJKSXuctlD7O78+2CfRdxHKStIIzn9nvTaUH57adrbL
-jyjI2zIJm0M5SJFgxGWQnOFb9wx9LNlBKQ2aoetUrfSB3YLeefz41R46XUOlbnv/q5Hs005xiC5d
-NemEz9Wih73FeQC3ASPaPNRp0GQCEDWMJw==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvd2+0ACgkQIuoRGn5CQqTLfwgA3uLq
+jcj1MhSjtWsdDOMDWHQQo2gsptNvH2gy5MGfkagk8OUzP/WRVVYIU8sqqbAv8peDDgS3Cy7gxVh4
+y2JoBzqL2PmxL5lvPDgOB3zIWGZK2q9yfnE7VpApJH6GrQYE5rl44z/vNiSjxFYEpgYiN+J5Jh8J
+9D6cKHLGyVS3GIG01pAw1RQwGj7wGiOihKXb6+D8qUnEXrxlBRJkvuI97pGup+J5M2G9bzd/DaZj
+/vLmX7VGWplhuAAEyp2qZy0pGqiEUrTrnB5EOlGMXsxEc5xRII8NCzVaaKG+sdos0wFcTZTpHbGx
+0zscUd1L5ptB8Mw+v7qnRD4xd21AUhH3Xg==
 
 -->

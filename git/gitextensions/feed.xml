@@ -5,8 +5,8 @@
   <summary xml:lang="en">GitExtensions is a graphical interface for Git</summary>
   <summary xml:lang="de">GitExtensions ist eine grafische Oberfläche für Git</summary>
   <homepage>https://github.com/gitextensions/gitextensions</homepage>
-  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/GitExtensions.ico" type="image/vnd.microsoft.icon"/>
-  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/GitExtensions.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/git/gitextensions.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/git/gitextensions.png" type="image/png"/>
   <category>Development</category>
 
   <group license="GPL v3 (GNU General Public License)">
@@ -231,11 +231,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvVfscACgkQIuoRGn5CQqSIbQgAgt4z
-QKg6OphndIlpa0ix0XT+Tfcc8+AFu2i60m46/Vz207rMgX5IiwpOCLSdXcUkVVEgdmYvCURDu/2G
-cFlDMyBrtkzlr2HRTREbtLADuwvE5hry1b7BLGR2PWEraowUrt/PhRuz/Ap4mMO81VkQxK+3CjQr
-8PL2518yQI54WhgR+oe+Z/UzDfbSvSIIdd/aGN+osj5lnzGiR1shLStS57S9sXafuLw5JyEsbGnB
-SexD0s8X+UhcpSOylCnuPdDkAmMa6xY4vKXU7K47gfSfXbV95VpofMuCVGfmN7aEqT7RgNWqoQYt
-ahBmpGnsxKk3x/xSIwr5rZMkkVDKIP8vQA==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvd2+sACgkQIuoRGn5CQqTqgggA2PrG
+VhePnusls8QQQffavTV+cLpNDJin/ISjaczdsWWDIsb1wCryw6TcjVa7agDB3JQSgcgZ0+51LQsP
+l4k74L/X9t7OPUqzr/cNKHEpWtV8Iq5RHoQ4K9HLhdWjobeLpJOAbO6ReoMaBwsF+UzvIk01P5uV
+pTzgOEH2UL5j7pqhhLKNmGIhkAf8aVnwGk8nQeKrRc54OHA/6q5bbrEHYkSdnqUnARkSusrt2o4f
+QAKukdKSPQ4XsI/XrUgayYX6w4IX+GCh50hluz1Ib8tuWHYhYdrtVqZmUPNcimNfNP9zinbN9vr0
+QG2aZK45/GcEiCThQ0S2qW56YiYaYQoppQ==
 
 -->
