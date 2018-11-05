@@ -4,14 +4,15 @@
   <name>libicu</name>
   <summary>library that provides robust and full-featured Unicode and locale support</summary>
   <package-implementation distributions="RPM Arch" package="libicu"/>
-  <package-implementation distributions="Debian" package="libicu57 libicu60"/>
+  <package-implementation distributions="Debian" package="libicu57"/>
+  <package-implementation distributions="Debian" package="libicu60"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvd2+wACgkQIuoRGn5CQqRTzgf+OkWe
-63yyRbXCaHLZc+jwuCfua5A0IaGX6oYajY7g+d7Giu3RoXzo9hCf6zwXWsQ8rMybh/OeWGCGR2r4
-El2mZtmmW8inNJdcvPuNm+xSzMZQxD2r6JJf+AU39lcYl4cV0Pv9Zv+73uyjQ91zd2XqmmoLK8B1
-jkofXl6O/UDbWh807guKRGAed+kmPg2FFbeh0O1H/0zlEwFh5rTrbeEPXRRsNadegbhk9JBrGK5o
-GYp3zGmHg/c/Xz+UIfUP20B/WCshQkaetD8m9OZnrVLPxCmjz2VxjpNs6wUJAyZnL0DCWlvPEf0S
-mEqtxQq0LZuf0eb3jmqbU1VLweWYiLMXAg==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvgixQACgkQIuoRGn5CQqSMEgf/Y4b3
+gfMYyloSkOLXUjjASvy3Z8/f4jeVXcfxxsoRQ0uhox3+FRbRz/240AlDZ832Rp62F4dys+tj3TSi
++5y97RwzXX/XcVxnc4ZBG1PF3ypvRkp4wQgdnd8SyHLElkBbPOnICwRwgSMA1tVk5OZw1MwgfEUu
+CqvOimbp6rDVhYYrLGblkWEv7S1nNIt5M10iWPqwz25ElJOkNbjexJXaabL1UQUhg2KgpgcxDMa+
+p5AIRvhL0LEPIxXvKEJwpmkW8zp5+/JlLjrR7au18rmLyN6uGxpckpv0+WLCCdADEjT9eAHIR4By
+qecumPTXRZI2/zy+BrJ0b1ho61FelmuIBg==
 
 -->
