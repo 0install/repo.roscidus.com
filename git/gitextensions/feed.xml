@@ -199,6 +199,10 @@
       <manifest-digest sha256new="NP622AKKYZLQ42W7LNGI2J4GJ6OFJGKGR6EZDAQ3TYLCU67LRADA"/>
       <archive extract="SourceDir/GitExtensions" href="https://github.com/gitextensions/gitextensions/releases/download/v3.00.00-beta1/GitExtensions-3.00.00.01-beta1.msi" size="31329136" type="application/x-msi"/>
     </implementation>
+    <implementation arch="Windows-*" id="sha1new=bb484d8ffc9a10b16e175b12ebb9ebdb3874247e" released="2018-11-04" stability="testing" version="3.00.00-rc1">
+      <manifest-digest sha256new="35DCA7HC5DGHR7DBCGJOOZBA5JNBS4EIIKIHICF6ND5DO74T5SRQ"/>
+      <archive extract="SourceDir/GitExtensions" href="https://github.com/gitextensions/gitextensions/releases/download/v3.00.00-rc1/GitExtensions-3.00.00.02-rc1.msi" size="15989782" type="application/x-msi"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="GitExtensions" command="run">
@@ -231,11 +235,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvd2+sACgkQIuoRGn5CQqTqgggA2PrG
-VhePnusls8QQQffavTV+cLpNDJin/ISjaczdsWWDIsb1wCryw6TcjVa7agDB3JQSgcgZ0+51LQsP
-l4k74L/X9t7OPUqzr/cNKHEpWtV8Iq5RHoQ4K9HLhdWjobeLpJOAbO6ReoMaBwsF+UzvIk01P5uV
-pTzgOEH2UL5j7pqhhLKNmGIhkAf8aVnwGk8nQeKrRc54OHA/6q5bbrEHYkSdnqUnARkSusrt2o4f
-QAKukdKSPQ4XsI/XrUgayYX6w4IX+GCh50hluz1Ib8tuWHYhYdrtVqZmUPNcimNfNP9zinbN9vr0
-QG2aZK45/GcEiCThQ0S2qW56YiYaYQoppQ==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvpV5AACgkQIuoRGn5CQqTGKwf9GGk0
+sQbaLtmnSrwQXjogpO0WXhNHgCrEiejkCCfVOO0RunpSN7twcGKVz9m90TBxNO3D7qDRm1UHXv7h
+rXbwZPdCFRhAJbkn1LFBrm3Bo/sp4nOvjXbFSpMTs6/TByGI2Jw8MAHy+J3tVe/RaER59hiGAyFe
+lTh+YIZJ63CVd5SDf5KYBvKByhVlIXs7k9y6warlPQBmmwvyj7hiWYrAWYacbI6FAkTgScUwf1BX
++2c5WcwoNdDHVfF/xAppKlG9Pa4i4mdqmSHDDkJfbVdxTljaB7TyMK6leBm7buk1p3M/5b8HdNay
+UFoi+w4Sz2JwUspI3bSdIPRqt2fR7tAcJA==
 
 -->

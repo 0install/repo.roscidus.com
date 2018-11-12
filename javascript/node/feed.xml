@@ -2034,6 +2034,14 @@
       <manifest-digest sha256new="ONQZTHH7YT75C7CSEIE6YIK76DD6I7MXSNETSFL74EYNC5O3K3TQ"/>
       <archive extract="node-v10.13.0-darwin-x64" href="https://nodejs.org/dist/v10.13.0/node-v10.13.0-darwin-x64.tar.gz" size="16344901" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=94aaa0fb50e4279aff70a6fd81081c36bdb8b665" released="2018-10-30" stability="testing" version="11.1.0">
+      <manifest-digest sha256new="NFMQWY2GKLTWQL7C3JPGXBNOWHHQK4XLLLA2CWTSIKXKEDO62VFQ"/>
+      <archive extract="node-v11.1.0-linux-x64" href="https://nodejs.org/dist/v11.1.0/node-v11.1.0-linux-x64.tar.xz" size="12546640" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=5c69e294343b375481d32e0e9980936a03a8415c" released="2018-10-30" stability="testing" version="11.1.0">
+      <manifest-digest sha256new="ISSY7AMA3GYV6VCDGSNAXIZLRTIZOKBOPEHVBYORBWEPAZPMZ3LA"/>
+      <archive extract="node-v11.1.0-darwin-x64" href="https://nodejs.org/dist/v11.1.0/node-v11.1.0-darwin-x64.tar.gz" size="16605931" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 
   <group license="MIT License">
@@ -3458,6 +3466,14 @@
       <manifest-digest sha256new="FV55SJKXWCVP3ONUYRN3AYLFUDIGQREEQZEIHW6WMP2ZBYBRGR6A"/>
       <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v10.13.0/node-v10.13.0-x86.msi" size="15708160" type="application/x-msi"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=84c6172eefbed2c43abac0462179bb4cde7f053d" released="2018-10-30" stability="testing" version="11.1.0">
+      <manifest-digest sha256new="2HRJIHYLT777G76XZ2NJO5IMMKBIZREAIXNS53CATQUTWVTQTJ2A"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v11.1.0/node-v11.1.0-x64.msi" size="16703488" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=fe161b545bc3a81ff74c24213a75efd45bb0e9a8" released="2018-10-30" stability="testing" version="11.1.0">
+      <manifest-digest sha256new="YVV3G2QJXQNFDJ3FYSSQ67XQDJIH6IPRDZ3SFRTCQNI4D3YJTSYA"/>
+      <archive extract="SourceDir/nodejs" href="https://nodejs.org/dist/v11.1.0/node-v11.1.0-x86.msi" size="15056896" type="application/x-msi"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="node" command="run"/>
@@ -3468,11 +3484,11 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvd2+sACgkQIuoRGn5CQqRQKAgA8Fn1
-8HB2Rxf501O8sEDFyENZF0ph1ZDmq4Kspa/I6w4ibwWqEPTSqKd1g5NzS4VjMC2KLiC1ADpX5OLJ
-ufvFx0vkFWYN3XDw/cTV4AFzFi5ASf+ySdCxBrwb1XLEdq/ayMoWaT2HKQqrB3rgkdZIEBXnIyKe
-wFqtWoIGGye4tjca5KVUEMTJH44IOQd1ZPkFFpoilXDe1zm15/A5B5DNFOPiBwzIbDMD4HE4BjNZ
-QiNFRoeleIERTpVKIg59MkPu8/RBA2279Ca84GXcWhTJ230mHDSmZ98XKw0WUGVqLiSg2b04cteD
-/0KHJLtfHN60qNurd3DCpBi1yUjOYeV7yg==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvpV5QACgkQIuoRGn5CQqQ2pwf/cz8x
+Fb3/dQ788wG9YsU2x4V/mEhYUuBNuI1VJyjYlAHJvxXU7Qank1RR3fyUhnBkWCx/0aZ8SJoys9h3
+lIAV15/xgxnMfzz+ZLiyQm0aYPMnkJA8Ebq74Rm7D7qlZMigYdb6kYRwl/P8pv+z46l5zmiNRULW
+MPag0LnOksq9rVxEtJcSUxQDNxSSQfHizpHki61BuAz/X87TzI/gP1jAprwhdvi+mC/SHZMkdrqI
+MT1Nlc/Y9sHiWEhcu88amArJuyq0fVis0wd5E5oNNP/0DIBy1tZLkY8Si8o53KkxSYQhGuC5B4rl
+tOhf3PuoQOhl2CrG4chNkcCUzlf0SOhMlg==
 
 -->
