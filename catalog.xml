@@ -65,7 +65,7 @@ connect to servers using SSL if supported by PHP.</description><homepage>http://
   </entry-point><entry-point binary-name="gitex" command="gitex">
     <needs-terminal/>
     <name>GitExtensions command-line alias</name>
-  </entry-point></interface><interface uri="http://repo.roscidus.com/devel/gitversion"><name>GitVersion</name><summary>versioning when using git, solved</summary><description>Versioning when using git, solved. GitVersion looks at your git history and works out the semantic version of the commit being built.</description><category>Development</category><homepage>https://github.com/GitTools/GitVersion</homepage><entry-point binary-name="GitVersion" command="run"/></interface><interface uri="http://repo.roscidus.com/devel/glade"><name>Glade</name><summary>a User Interface Designer</summary><description>
+  </entry-point></interface><interface uri="http://repo.roscidus.com/git/gitextensions-2"><name>GitExtensions 2.x</name><summary xml:lang="en">GitExtensions is a graphical interface for Git</summary><summary xml:lang="de">GitExtensions ist eine grafische Oberfläche für Git</summary><homepage>https://github.com/gitextensions/gitextensions</homepage><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/git/gitextensions.ico" type="image/vnd.microsoft.icon"/><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/git/gitextensions.png" type="image/png"/><category>Development</category></interface><interface uri="http://repo.roscidus.com/git/gitextensions-3"><name>GitExtensions 3.x</name><summary xml:lang="en">GitExtensions is a graphical interface for Git</summary><summary xml:lang="de">GitExtensions ist eine grafische Oberfläche für Git</summary><homepage>https://github.com/gitextensions/gitextensions</homepage><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/git/gitextensions.ico" type="image/vnd.microsoft.icon"/><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/git/gitextensions.png" type="image/png"/><category>Development</category></interface><interface uri="http://repo.roscidus.com/devel/gitversion"><name>GitVersion</name><summary>versioning when using git, solved</summary><description>Versioning when using git, solved. GitVersion looks at your git history and works out the semantic version of the commit being built.</description><category>Development</category><homepage>https://github.com/GitTools/GitVersion</homepage><entry-point binary-name="GitVersion" command="run"/></interface><interface uri="http://repo.roscidus.com/devel/glade"><name>Glade</name><summary>a User Interface Designer</summary><description>
 Glade is a RAD tool to enable quick &amp; easy development of user interfaces for
 the GTK+ toolkit and the GNOME desktop environment.
 
@@ -708,11 +708,11 @@ More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
 This package is built from the X.org xproto proto module.</description></interface><interface uri="http://repo.roscidus.com/lib/zlib1g"><name>zlib1g</name><summary>compression library - runtime</summary><description>zlib is a library implementing the deflate compression method found
 in gzip and PKZIP. This package includes the shared library.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvd2+0ACgkQIuoRGn5CQqTLfwgA3uLq
-jcj1MhSjtWsdDOMDWHQQo2gsptNvH2gy5MGfkagk8OUzP/WRVVYIU8sqqbAv8peDDgS3Cy7gxVh4
-y2JoBzqL2PmxL5lvPDgOB3zIWGZK2q9yfnE7VpApJH6GrQYE5rl44z/vNiSjxFYEpgYiN+J5Jh8J
-9D6cKHLGyVS3GIG01pAw1RQwGj7wGiOihKXb6+D8qUnEXrxlBRJkvuI97pGup+J5M2G9bzd/DaZj
-/vLmX7VGWplhuAAEyp2qZy0pGqiEUrTrnB5EOlGMXsxEc5xRII8NCzVaaKG+sdos0wFcTZTpHbGx
-0zscUd1L5ptB8Mw+v7qnRD4xd21AUhH3Xg==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvwQ6gACgkQIuoRGn5CQqR55wf/de+I
+coeDSH4ClsAYuJRuLXK7Ugub1v3YZOBEaOq0Ibq5hmYZL4ZYqW20J5IRwQ7HOyPb92JGShqqF0hZ
+pj2oiZ6NTsi39J4nW+G3ZbXstlXLJ0mf+YDXEG6me5A4RskAH2bNRfo1i89Limui+pkcp6ysKR5b
+EUCpCbwx91rrmMUwfcjBRUChMHz/SjkM4ajnvbWr7eh5L+uWRNrLbOYr1SshpHvKu/h9bwo0o/dj
+8VLPHB3f/qMzrsuS8qYAfH0XlK55zIe2BrxNbJhxwCEiIpFb/nMxi35Ka0GELAIHba/NSeB0IPTW
+GjCYJN2x/e5sTsk93PKDWpifiwsU3c1hFw==
 
 -->

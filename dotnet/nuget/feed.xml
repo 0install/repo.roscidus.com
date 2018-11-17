@@ -63,16 +63,20 @@
       <manifest-digest sha256new="S2LN7H4PYELN3YBS22BAC2GMDD7SYZVCYFNGRMJYI6XOYYOBSAWQ"/>
       <file dest="nuget.exe" href="https://dist.nuget.org/win-x86-commandline/v4.8.1/nuget.exe" size="5490256"/>
     </implementation>
+    <implementation id="sha1new=c81a2b9872a9c4364a160fd257a4dd913be0adf1" released="2018-11-12" stability="testing" version="4.9.0-rc1">
+      <manifest-digest sha256new="OTB3V54KMWMJFCGA7CLVVSP6J7QM6STFQQAPLZWYX6NBKWRTV6AQ"/>
+      <file dest="nuget.exe" href="https://dist.nuget.org/win-x86-commandline/v4.9.0-rc1/nuget.exe" size="5648976"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="nuget" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAluVUjYACgkQIuoRGn5CQqQ/rwf9GxkC
-1Hfux4oK+PKQ/D2acbTYBpDhPIJ8Ki33aHA8+7IrbnyWL/GCWPmH1gW2THnxNEKOnMby8gCQ4kb7
-BFGoS6//pCT5AWw734gphFRUnHtibVOXbLGZDkII8UmQfMlhdMlHW4PuofMPOnVhbCWwFhZNABiy
-4joptUNsoucoOo/3Vr/ZlJCAtjntkzgpm9LAKVcH7YW1mo881R1y+ScydTDDVI6y4hssVurDYE3F
-2upb8A+sgFwc2rRJHHouj9puNSuHPw4G6ztpNhbbL7x0nHVAclbbbDM6csE3CGj5ec4WChpnTUyJ
-Tw+0AqzL2O+stpXO5GcJq3U19FdKfRARxQ==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvwQ6cACgkQIuoRGn5CQqQVIwgAhD83
+bC+I6wWJHypteET/mWMtgJhXf7CIXwdiIBT7lW967EyJJ7e1OyEb4an1fM4R4bfNgcuVP2FJJcP7
+9hUQlwV2VxCpuHteSvHm3tdCOKprJR5JyYPCXEmY29ItpxLkP9HCZp2DpjKgZxDVzm4rTFmI7vjb
+5eENwaOXRXWW9Cp6TLfjExxU6CncsCFNq72HqcYNqXwdr7MLLjOCxnbvjegKatiBzr9JqoIwRfvG
+ZEo4LNOTT36bY/IQwPpscAVMjzskNVdBF2vsx9YrY4dGUYKoQ8yRZ90lg5qgspkouUly/Lio9B27
+coUuBXQdQwmtVMopzr5oybje/DjANAuFww==
 
 -->

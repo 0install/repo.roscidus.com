@@ -113,6 +113,14 @@
       <manifest-digest sha256new="RPJ5WJZW3KKAJXEDLGNLFN3GTNZF7A45O7SVSRICQV2L2WO4KBJA"/>
       <archive extract="ffmpeg-4.0.2-win32-static" href="https://ffmpeg.zeranoe.com/builds/win32/static/ffmpeg-4.0.2-win32-static.zip" size="54919179" type="application/zip"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=8c0cbcde5460463018530a00689aebc5b85d3e53" released="2018-11-12" stability="stable" version="4.1">
+      <manifest-digest sha256new="DRZ6F45U4B44C7GO7LRHVHUZYN3AIAEADTGROEGCQTALKQDEUX6A"/>
+      <archive extract="ffmpeg-4.1-win64-static" href="https://ffmpeg.zeranoe.com/builds/win64/static/ffmpeg-4.1-win64-static.zip" size="64449170" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=cfcb672ac8af7267807083bfbb3a2c6118acbb2b" released="2018-11-12" stability="stable" version="4.1">
+      <manifest-digest sha256new="5YDBWM7DGDEHEB5IZ6RBGN3NGMPQBNG2FY2EA4VOCVX3LXFTFT7Q"/>
+      <archive extract="ffmpeg-4.1-win32-static" href="https://ffmpeg.zeranoe.com/builds/win32/static/ffmpeg-4.1-win32-static.zip" size="55159009" type="application/zip"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="ffmpeg" command="run"/>
@@ -130,11 +138,11 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAltl6WUACgkQIuoRGn5CQqTtFAf+JkaV
-/e+tVB4q6NxP+ZcJHXDPh/DbbmhRu+LusYK35DSNFwianTY4xv2j9ag7u/rj4Q7NCSe6X+X2blzC
-CZcklR6fFNCBxiuhjXwHM1Nebt34gbbcvzcIhaRnYr8p++aYAtkTxr9o8T+eUXzMeoKhj09Rbdre
-htg4U4JVKIHALU+gjmFE9Qho1y/9HfBqmbPBQO6HRFNjdmiW+s4F3RucXyrQr+SnYKrwliB3WCRt
-MiIraMYUrz7gLJ8b+ro5WFhQbLg5yxHRQNiNAsh/wab/0O+JmTfg//8I+pAheqb0PUKmoSCtJwrD
-BodQu3uaB0i7pCABDX/EyneKH2Fs4s7K1g==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvwQ6YACgkQIuoRGn5CQqQU7Af/aJD+
+/Wo7IyGkYLjljtIQVzySz0/50SFi0QL61/eaJ8D8jByccxZ5L27jRUmNjAs+Rgnb6RNJ0OLkZUvY
+ypQ4G7ZHQk1iWmcRyTs0W2kXcvjwQ+1M6vpVU6E3nxvbGvVvrx5T4N1py3xYx9UDPuFCmq5I6H9I
+RGxGISvSdfLo/ydGVCaKECVUUHTBEKEvDmxUnumVwzQxE8GMKvwlUqke+Xks7sUbTuQFHXsQWb4E
+FW/kXpmAaRJZVbteAXMU7Yn1pMN6DcQtWwuWp8AMbuUnZErrJTCEgb+sxGe1kwFjVlXxg7TUfqcS
+nAk466w2gbn0HNl+ZNyt7fVSgMN1v4p46g==
 
 -->
