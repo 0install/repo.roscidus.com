@@ -44,6 +44,7 @@ the core library used to build GTK+ and GNOME.
     <restricts interface="http://repo.roscidus.com/python/python">
       <version before="2.8" not-before="2.7"/>
     </restricts>
+    <requires interface="http://repo.roscidus.com/lib/glib"/>
     <environment insert="." name="PYTHONPATH"/>
     <environment insert="gtk-2.0" name="PYTHONPATH"/>
 
@@ -55,11 +56,11 @@ the core library used to build GTK+ and GNOME.
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYg1S3AAoJECLqERp+QkKk6yQH/3JOpw6Q9nCRGVHwt46ubPgjH5t/5NZK92Ps
-iZeZvO64WB3tfOQ4LGh53Z+ZLOhtqjl1n6Ro6aaSBpbmFBFUZIkFV7ZomeA4ypM74moNGJn7vs2T
-uRmRlmG+2dhZeJrkes8lyPcoc2Qo6iNgFoOozIA/GqjGMybLz97kCP+sDvw7DLGBqc35QNnKBzUS
-FP8IcvS9RNvGXlamnk9cgZuADOS0zEatebopuDiihK1iLQAxkFD3TCJNM6YdYC0FlhsITiqBoCSC
-lyt4ZZRubZFzMPhY9exkLfU0NbsjCn3Pcel+anS8EPQre1kBqBFyK/17nFg2hCio7vZ1ILYUENST
-n2Y=
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlv5X38ACgkQIuoRGn5CQqTfRAf9Gk2z
+tLh7a6+GzaqLEb+xw6HftVcu+qG5/jzwMg/PNNYD+FzGeMb72HZRPib65JNdRRrPfyhVrk554veD
+Jqz6wwr0Q/jcUvt9dFd5Y5EK7L87+JOrwm5INgF6zoyFCQA2Vhsdzd4vZNUs14MAvUh6aQRjYfEH
+drZNQh3xXVo0LTko0PjeGcae8VBIqqrt7VZkTjOokttcxDIiHx/DThQo4Jnr3bJ8yTOjCKRKyvIY
+5yZBY4bbhXK6tQgc2VocFC818YWJ1/s7Ckfj4qPcorSRBnDzKiaqfkM/16LZzFVapAXr1vdBl+Fo
+38Ma7X7AwBjGKZWWv/JIywqo8NKltb5s4w==
 
 -->

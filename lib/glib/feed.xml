@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/glib" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>GLib</name>
+  <summary>low-level system libraries written in C</summary>
+  <description>GLib provides the core application building blocks for libraries and applications written in C. It provides the core object system used in GNOME, the main loop implementation, and a large set of utility functions for strings and common data structures.</description>
+  <homepage>https://wiki.gnome.org/Projects/GLib</homepage>
+
+  <!-- Windows binaries of GLib are available as part of GTK releases -->
+  <feed arch="Windows-*" src="http://repo.roscidus.com/lib/gtk"/>
+
+  <package-implementation package="glib"/>
+  <package-implementation package="libglib"/>
+  <package-implementation package="libglib2"/>
+  <package-implementation package="libglib2.0"/>
+  <package-implementation package="libglib2.0-0"/>
+  <package-implementation package="libglib-2.0"/>
+  <package-implementation package="libglib3"/>
+  <package-implementation package="libglib3.0"/>
+  <package-implementation package="libglib3.0-0"/>
+  <package-implementation package="libglib-3.0"/>
+</interface>
+<!-- Base64 Signature
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlv5X4MACgkQIuoRGn5CQqSEWQgAgHM/
+gj13jXRYSKZCyu7KTqXh1n3wb50f4Jw+AWgnoOQrohtokFq+6wW6W6WAoiXA8HsKM3dO5h4AYvGw
+HZ5ALYHs5E2VOhf8gS88XQu8hRRq/1c7yohIHcrUfYGsovEtWPpe6NFG97882E5CmY9ZWqVH5ywJ
+9z3E8rM3sFPHvzdV6hDd1PKS5LKA5iZRij089W7h6g/EcjMBpCVL0L05BQMIM+onvCN6r+fUSnVz
+PtIMr0mO8ZZPMrENT7gR57c8XxtevKxQVQu99u6KyAgjnz9ebOYgXcxmRrc6q5CpMIjloaRoSPGv
+I6R73mkIIVZVYLDa/1ppemJmMu1wWYxdkA==
+
+-->
