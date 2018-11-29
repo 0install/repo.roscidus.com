@@ -155,16 +155,24 @@
       <manifest-digest sha256new="JVL6GWFZTUL6K52G3XY25JHL52WFAJLKQAAN7TQEEIFANNW62VBA"/>
       <archive extract="openssl-1.1.1-win32-mingw" href="https://bintray.com/vszakats/generic/download_file?file_path=openssl-1.1.1-win32-mingw.tar.xz" size="2306804" type="application/x-xz-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=b98375927b3b934a2f2959f83e710ec6b20d9853" released="2018-11-25" version="1.1.1-1">
+      <manifest-digest sha256new="4QAPEZ3MYADVYH5PO5P37ASKDKM6PQ4XTXRS5A7MVAJTBWP6H2TQ"/>
+      <archive extract="openssl-1.1.1a-win64-mingw" href="https://bintray.com/vszakats/generic/download_file?file_path=openssl-1.1.1a-win64-mingw.tar.xz" size="2598524" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=69fa9604c4e4ac9d62eeef1f84be57cd2901f762" released="2018-11-25" version="1.1.1-1">
+      <manifest-digest sha256new="OCKY5KFGZKTYJV5ZVWMZ3ULR7XMDBLTPQ75WMI2AHPXRJGP2M6CQ"/>
+      <archive extract="openssl-1.1.1a-win32-mingw" href="https://bintray.com/vszakats/generic/download_file?file_path=openssl-1.1.1a-win32-mingw.tar.xz" size="2316884" type="application/x-xz-compressed-tar"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="openssl" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlueMh0ACgkQIuoRGn5CQqRFmwf9EL87
-Spyn9OoFVXcngXXDGJP91ww7k5GyUijU1Wrct84SnPXIfMViqvJ9T/XcdQWitLk1cHevnDY5NVld
-9xj96XdsCYphXQ55ERPvyVoxNJnA6jiIuqzElaByOGazSHiYUIiXgfwF9QU6gg/g/3vJS4tD/Un/
-L7Xcb30nBqBXmFZAmAbvKOt91yVGRPpNr7UwHZ1XVKqPewNo3cZq2LCK3t0Cs3qWeHBwSal7RQDV
-xqhOPqrHPrFgQX7YcUbrekOxeNTRSmyfwN5dmC2CdnQyn48Idg6lUSefUnQD+U1ulaZWcxvbZ6lf
-B7hEg33nSxIii2tbEuVRYxWb2NWSAcERjQ==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlv/rMgACgkQIuoRGn5CQqQD8Af/S7xd
+2SfCb6jLcbkF2D/7f8keUrB+bVcZrolp/jRynZDK58+XUYOqBbrZxy4mDSmq45l8ZIQ/SLXrNvpL
+WQ7CnDgjfHuJjPXlmUUukFs96MyIp/4S4IrXaFHbuJHjU3J11BKi62iYBOWozRE32ZhzIZIKow9f
+bzrYHP3z8HKBGRybuhcusayWDY5+9wVYKDAPVTEBj1pDuSIGashhvR8R7/avFc0Ij+ondcHTMgLp
+X+zQVWjr8s2SS/wjwTvwUeCN+f09RigkM5VI4jAx1J40uXXFWyd2FKAbqJ4uC6+5yTokaGqr9uC3
+KBfVNVaRcOaM0SSVBvofYZ2WQ3dOJRwn+w==
 
 -->
