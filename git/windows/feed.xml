@@ -177,6 +177,10 @@
         <manifest-digest sha256new="EL7AW742AOXPJDKB7SI62MCR5NJ3XXCOSEN64MUG6FKT5ITDXKUQ"/>
         <archive href="https://github.com/git-for-windows/git/releases/download/v2.19.2.windows.1/Git-2.19.2-32-bit.tar.bz2" size="89629836" type="application/x-bzip-compressed-tar"/>
       </implementation>
+      <implementation arch="Windows-i486" id="sha1new=8f422289338e9e7cd3ea07890f5160ec32836c69" released="2018-12-10" stability="stable" version="2.20.0">
+        <manifest-digest sha256new="HTIKFU22VQOB2PA6ANAOWDI4BQUYMOHGWJ7JDAGTJJ5QAZWKGX5Q"/>
+        <archive href="https://github.com/git-for-windows/git/releases/download/v2.20.0.windows.1/Git-2.20.0-32-bit.tar.bz2" size="94889153" type="application/x-bzip-compressed-tar"/>
+      </implementation>
     </group>
     <group>
       <command name="curl" path="mingw64/bin/curl.exe"/>
@@ -324,6 +328,10 @@
         <manifest-digest sha256new="4PGSNI4LUVNBDUDL3TAMPT77NHYROQW52ITOB3XHGDIJOOXH7WNA"/>
         <archive href="https://github.com/git-for-windows/git/releases/download/v2.19.2.windows.1/Git-2.19.2-64-bit.tar.bz2" size="90883279" type="application/x-bzip-compressed-tar"/>
       </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=1bcb83528704600cfe889a7005ff5442dcdc0dc4" released="2018-12-10" stability="stable" version="2.20.0">
+        <manifest-digest sha256new="CJJVLTK5ICKFLLVIJPJFCFC3SVCJHQJCOCN3I5IJZ7HHKPW4XUAA"/>
+        <archive href="https://github.com/git-for-windows/git/releases/download/v2.20.0.windows.1/Git-2.20.0-64-bit.tar.bz2" size="97020247" type="application/x-bzip-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 
@@ -403,11 +411,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlv5YHYACgkQIuoRGn5CQqTbVQgArKRo
-+S8rLVwoISe08c7YeeZ8nwJKnvKJQJiE8Oo6C3Cy47vVroUTVfjZdUo02pKhUd0O40M/N1ZglALK
-uBpaWUWqODY7pP2y6MX/jcAKkQrOjz0E6x1oe8VC6JBmFQA2stVMcp8eokAFaQvqK0DwapBTaLq+
-NchFlzt81fdk1wEdinQZuoOzZ78jttyn2JqgYh4TnhPDcqF0GrjQXIk/F2+w83nZjX8lr76U3ene
-yOWJMION0tISXSCSwfvJ5HCw8BLa0rW7su5BELRThbHl+FT+b8r6fI69JIZn3PKMPy6orhlespg5
-uhGk4Tt9BDWb7J9LTU4DjSJnBdymkzRnog==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlwVH8sACgkQIuoRGn5CQqTYRAf/fstK
+ucNZcuS3AafTtUvqQqprdf2/Ao3j6xrgehRyWyCp5XfVIxuutfusQ40i+PpBIY4rOiuz35QoyONy
+U12kgN5VChFtcsxrKtBysXXtNqVYEnrpwrTJPx2a+gxdMztUrTcDtvBIaBW4xzYZIMZ51ictUSKg
+QOg0D4PiJ+nrkWHkRpAoAV8giid/Q/1jXkXN9Z48TDmyCmHejd6YetMqPyChqg9EHtrcbd81GW+i
+U8jIqaes2G5Yaz+EU3CczudSACw0J72vHCNqYqYvRkunEYqmbNyacXNtNTnwRm86BZvgtwFna18H
+IbYcEZgitBthuobClu0eHUGRG6Z2xwJTIA==
 
 -->

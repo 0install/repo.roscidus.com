@@ -362,6 +362,30 @@
         <manifest-digest sha256new="EINS4SMZWMRZUCNOWNTADEJH77AD6CETMPEZGGCB6HVXWYQZNDMQ"/>
         <archive extract="darwin-amd64" href="https://storage.googleapis.com/kubernetes-helm/helm-v2.11.0-darwin-amd64.tar.gz" size="20252159" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=77ebb303e6e78d9d6d0c9d3b479e454d67fca91c" released="2018-11-30" stability="testing" version="2.12.0-rc1">
+        <manifest-digest sha256new="YWYE476JO74KIFKVV2DKHW6MLFLAG6VXW46GPVPV55P7K5X5AJUQ"/>
+        <archive extract="linux-amd64" href="https://storage.googleapis.com/kubernetes-helm/helm-v2.12.0-rc.1-linux-amd64.tar.gz" size="22702833" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Darwin-x86_64" id="sha1new=e545624b34d217805e5f22fa8996c8a35b2d51d6" released="2018-11-30" stability="testing" version="2.12.0-rc1">
+        <manifest-digest sha256new="KSSQJ5UONQB3FZ3U32NSIKZVVIA4NEXSJYJ5OE62L64B7XUXHL5A"/>
+        <archive extract="darwin-amd64" href="https://storage.googleapis.com/kubernetes-helm/helm-v2.12.0-rc.1-darwin-amd64.tar.gz" size="23843803" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=53656fba16adb107116bec82588c2339fded6c6d" released="2018-12-05" stability="testing" version="2.12.0-rc2">
+        <manifest-digest sha256new="F2BCKOTC5QO22NWEL7YQZGSGB5BS52D2IHO2VVVZHODPXY6ICLWQ"/>
+        <archive extract="linux-amd64" href="https://storage.googleapis.com/kubernetes-helm/helm-v2.12.0-rc.2-linux-amd64.tar.gz" size="22700058" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Darwin-x86_64" id="sha1new=a6706f248acbd05c95d97bedac7a0628d1e7fc77" released="2018-12-05" stability="testing" version="2.12.0-rc2">
+        <manifest-digest sha256new="FCTAQNBPJ4IGP42GCMUEUTQCWYM6HSBXXMBLQAUZFOYYTUDFHE3A"/>
+        <archive extract="darwin-amd64" href="https://storage.googleapis.com/kubernetes-helm/helm-v2.12.0-rc.2-darwin-amd64.tar.gz" size="23843967" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=7b839161451d25b42581af9605f61f9a9b05fe15" released="2018-12-07" stability="stable" version="2.12.0">
+        <manifest-digest sha256new="GJSOETM4MBSL7WN7Q4V3VHTDCXG2URXNWBFW4Z3MU6NRCOPX5EIA"/>
+        <archive extract="linux-amd64" href="https://storage.googleapis.com/kubernetes-helm/helm-v2.12.0-linux-amd64.tar.gz" size="22703391" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Darwin-x86_64" id="sha1new=ae784191c74b6547ab3e78850beff3c8a138b025" released="2018-12-07" stability="stable" version="2.12.0">
+        <manifest-digest sha256new="4H4HYKMUPACHZIH3A4T3USNRW2VUA7DGY7W6BX32MCACWAUXTQSQ"/>
+        <archive extract="darwin-amd64" href="https://storage.googleapis.com/kubernetes-helm/helm-v2.12.0-darwin-amd64.tar.gz" size="23844807" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
     <group>
       <command name="run" path="helm.exe"/>
@@ -541,17 +565,29 @@
         <manifest-digest sha256new="EBREJBX2G7FI5ZVMXBKP4OPELLC7IZZUQ5HWGTTNGDLBPX7BQ6CQ"/>
         <archive extract="windows-amd64" href="https://storage.googleapis.com/kubernetes-helm/helm-v2.11.0-windows-amd64.tar.gz" size="19251597" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=58222287d5d70252ab78ea85f49fa0f6b1233108" released="2018-11-30" stability="testing" version="2.12.0-rc1">
+        <manifest-digest sha256new="NC3IWL2BZQJ4JEBOSSNZZ2F64VFUGOWLFGUMZWGLLY5FKK6UBTPA"/>
+        <archive extract="windows-amd64" href="https://storage.googleapis.com/kubernetes-helm/helm-v2.12.0-rc.1-windows-amd64.tar.gz" size="22739862" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=d16e31bf8841f080b3ed05ab44ed3c74e173e8ec" released="2018-12-05" stability="testing" version="2.12.0-rc2">
+        <manifest-digest sha256new="OCFGBU44EDL42YEHFQAI5A2GTBADC2ORIVRRPGTU5ITPONKUNOWA"/>
+        <archive extract="windows-amd64" href="https://storage.googleapis.com/kubernetes-helm/helm-v2.12.0-rc.2-windows-amd64.tar.gz" size="22739471" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=19281b94c2cf607d486cc0b6ce18aeeafd006821" released="2018-12-07" stability="stable" version="2.12.0">
+        <manifest-digest sha256new="XUNS4MP6KS53UYZQXABTHK2NDIXG4JBEQHRHST2AQOTQNUMHHIOQ"/>
+        <archive extract="windows-amd64" href="https://storage.googleapis.com/kubernetes-helm/helm-v2.12.0-windows-amd64.tar.gz" size="22736510" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 
   <entry-point binary-name="helm" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlu5AjsACgkQIuoRGn5CQqRJWwf8CxHS
-cGyNP/q1cqWwDUIoLtfDLeraUH2rNJxORWzW282OsMC3nLvI3+duu/IkIg3++E8Ta/7uwL0jiZdQ
-gtNOpIumbKj1OVGAj/gteJciBYrsgy++GKpeipWFDehN1oeLNqK7HrsgJgn6RhYFAyj3KejjPVOT
-OMW0AVv8aZXxHSRT1f1QqUxo7clhLGusM5U8vgvfJz5x/y2rB3cMn8WQxiKRJYJPTSF0ZQloPH6Q
-Yil2Vrn75Z7mLzqQLChIS9QMc2OGKUpDsegkhxeoEc4HGKP3q1yItVqkHdqejh+b/VW/hG6p/3OQ
-6ACh6tk9cgs1OkgJzJFzXnB1jFS7vR4cgg==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlwVH80ACgkQIuoRGn5CQqQDyggAnd4u
+s6q3t3jQFUVH9oBbX7OiAeOn6l8TSLl8h5xHqAiYv2AIxZceXUKWJmqC7BIwTiw8MizQW9hijoFr
+oaFkNhqJmQzeCfJemPD0jRz4xpGgtegq+IMVkYJ4eMvi8Wd8ISsnhGAA3lQJh7oiVCMzEleef4ID
+oPGh00nXy13qGEIza+oZKAmiV8ClITF4D82uDGtiqdR9MRa/SSwFNGFiVYbcK8JVDo5piwMf9CgG
+g5rxxd3g1xMmIiWWIbRToWmH9aDNe7O+LvEnZGurq9g9puYiVqv665JCHBguGN+ft+jE5QdSNdNF
+/NhAzxTpkIVZB/jDJ9OgYBmqwJkqlOpwyQ==
 
 -->

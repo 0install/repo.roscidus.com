@@ -225,6 +225,14 @@
       <manifest-digest sha256new="EJDAYDLAGHEVS3SEBYC4CMWFZFDFOJC6HPRUQX3AZULRKSJ6MKGA"/>
       <archive extract="kotlinc" href="https://github.com/JetBrains/kotlin/releases/download/v1.3.10/kotlin-compiler-1.3.10-linux-x64.zip" size="70028540" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=9641bf8733983e5552d2e7f3ba7c78471efe5392" released="2018-12-06" stability="stable" version="1.3.11">
+      <manifest-digest sha256new="T5UXEEVC4JXQW46TVLYMN7IM6RP7BR6MYFPVODWWYEO3D5HIFS7A"/>
+      <archive extract="kotlinc" href="https://github.com/JetBrains/kotlin/releases/download/v1.3.11/experimental-kotlin-compiler-linux-x64.zip" size="69321298" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=6453e72050e3a43dad837bcd3f1d2882eb2e447b" released="2018-12-12" stability="testing" version="1.3.20-pre-25">
+      <manifest-digest sha256new="2BCEMPG45UOCSKAIBK57Y2ZO73VPZIVQGKO42LO6QHTEAGOPTLMA"/>
+      <archive extract="kotlinc" href="https://github.com/JetBrains/kotlin/releases/download/v1.3.20-eap-25/kotlin-compiler-1.3.20-eap-25.zip" size="38173905" type="application/zip"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="kotlin" command="run">
@@ -257,11 +265,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvwQ6YACgkQIuoRGn5CQqQ8qwgAyYww
-/ufAhNVZlwvgQ3PZX2RUOMTYKnCm3K0eF9VPa/37D8ngJPMyzMPykOdkKOmPJVYCILKnjnB2FxOV
-WzWRp5FVlGuyGpS52gGxW8D4A06qnOiqd6RDpQk5MekB+yeAYBS4M6KDZHBQ3pbe3InxdbsYJ8/v
-Z7p4MJ8J2SMHr/LIXN28CouUWiTMDYdETP/jeJeZyer/+TeOHjWwFHCsHtWnE/A+mRtILKl005km
-YbQM6CkZV+N1kE2PGNjhr76BLkGX7XQrWcub5mnRNVb5Lui2RTchSnYsmTKRuay5ZdEG4phfixyT
-pQuvxle+vlMDcuaMr/rt1zFUFwCXKfqLCw==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlwVH8wACgkQIuoRGn5CQqQrewf8ChiA
+rc899Jb2PkhZpuILbUtKyFOaGhoAE7eVj40/MWIK9XdcPZFVXKy29qeu3uC+9OnJrPcWA4PxDzgY
+UOhc6jB4AzqYJtv857Mo+CUGc0dHldhNopVXUBJa4MI+VX8FxjcG6h0262Js6bz1fMpja5lYXLBV
+Myni0xtDoU5f1Cufw8DjeOwf0UQ29Ka8IO0cUtl5emi8JipZbG9YUTogmCg/lkef2A5AWLllnwCx
+aULpBRRz+QB3u06YDAU4Q8IHtEgYK5nShg5tSjolGb3xMu+WoMVbWZlMwW3Mjrj8n36NOhB2SUYF
+2In4qxvizb9ZB780Kz6BZ4+VahRNd8IzTA==
 
 -->

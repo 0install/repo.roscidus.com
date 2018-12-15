@@ -276,16 +276,24 @@
       <manifest-digest sha256new="EPJSG2J6BTE42NQKIMPC2UF6TEJJPNBLOQXOBPW2YSEET2AYMDKQ"/>
       <archive extract="curl-7.62.0-win32-mingw" href="https://bintray.com/vszakats/generic/download_file?file_path=curl-7.62.0-win32-mingw.tar.xz" size="2051916" type="application/x-xz-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=deebb592457b8e262414f73a37a2459e4eccd297" released="2018-12-12" stability="stable" version="7.63.0">
+      <manifest-digest sha256new="72XUUJBVUXJIDUWJX5PQI6R5JGTV63DUZ7VDUPP3IT54QR3MYIVQ"/>
+      <archive extract="curl-7.63.0-win64-mingw" href="https://bintray.com/vszakats/generic/download_file?file_path=curl-7.63.0-win64-mingw.tar.xz" size="2203928" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=1ddb77510bdbb9b787ba4536c08d997caa8ac189" released="2018-12-12" stability="stable" version="7.63.0">
+      <manifest-digest sha256new="WPBA7YQ2UXZ4L3X4S6WGEYHNOGLDB6AIR2UJYWG2Q2V2V2JBGXQQ"/>
+      <archive extract="curl-7.63.0-win32-mingw" href="https://bintray.com/vszakats/generic/download_file?file_path=curl-7.63.0-win32-mingw.tar.xz" size="2049216" type="application/x-xz-compressed-tar"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="curl" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvd2+sACgkQIuoRGn5CQqRlMQf+MLWY
-iUrrAxfCEs5QHR6FDqplPYuY5beEadi78TC53kjJa7IhZzNpU9oVQlZ0fJjLuV2V8Ab9mfPzUNHx
-Mdy9sQFpKLnlNjGDB9nvETgmYTKXLgRBa5BgFmbLt5KdhWF/J3eTNbUqQmq0BsLS1VA5ghTEuE4T
-W2eGt0afz7yL2Tw7gabxSMSpE/5NhxNy0lSTB8lQHqBH4FzKdHHZBLUBBeU8NCdAFWCuU8+IbXJB
-VuxSUWxVANYwM6YcWin+VD172lTiZE7dQQFHH6ZQTWyrzdJyvAPDGnrZvsER0MMDMiLTYicNCXCz
-tozFkjyMRZ1+C03Vn2TcNxry4wImRbpL0w==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlwVH8wACgkQIuoRGn5CQqRM/AgAj5un
+JSz39DnLCLYItDHUFwlDIselnXBwHjeg+nzy4ZEET9oT48vCnM2El4KhR6S5+3qKWGZE0QajI6Bc
+67h2EL2N7xQD9YJnL1l0SxeRuX+xoY+mOr4X1KBecEx/HEaT5jC6t1dBCESgNovva8BePa2vH8T6
+aSS63DkZQPtNXZQQcnt49G0EoGyVe0CUmz3VYznXcnVleiiQO6g3IRxlGvojtQ/zYCGKhWb/YNU3
+NDGM0bGP7Dh7lUKENCe2ZbGoHL0DGlet2NDZPo0KCKxWUbtufc3GafYyCYBzJvcXcff8PmyuZ6Kp
+lG7JZ6a0Gu4WyeGV2AhCr5FNZ31Q6UxpxQ==
 
 -->
