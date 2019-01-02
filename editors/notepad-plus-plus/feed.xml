@@ -573,6 +573,20 @@
         <remove path="doLocalConf.xml"/>
       </recipe>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=be84acae6c38196b50da960a868a564cab11a442" released="2018-12-13" stability="stable" version="7.6.1">
+      <manifest-digest sha256new="MNIUPTM5AATDXNTHCY7H366P2QONVSQGER34CWIUAKM6BUA4KFCQ"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/7.x/7.6.1/npp.7.6.1.bin.x64.zip" size="4836805" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=2e41439e7ce5880dc1aaf18c334de1a16e0f9b8c" released="2018-12-13" stability="stable" version="7.6.1">
+      <manifest-digest sha256new="Y22SDJXZT5V54MMNYMIG5JYM3P7D5P2IULEIWW5B5HNUAQUZA5YQ"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/7.x/7.6.1/npp.7.6.1.bin.zip" size="4338242" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
   </group>
 
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
@@ -639,11 +653,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvG/ioACgkQIuoRGn5CQqQOJAgAwoeE
-t3nmlwkaJb1FqMX5ETnuZZhp+AtKO2f8dgv4rdtLODUQz3cbr4JqaA79sgfaVBkzD+tRPjwlbl51
-7UGRUqVbTSYaRrDd9IzqF7SWukvp12McOHOdp5Egczk4uDjaBQk7ElNpXSnb33DFuFwVE1Fu0BQa
-wZRNxNuw7QAsiHUoLnQKh8dAvygoGORCByEu9KchDiSIiBnuhVXGwQKdj+wy36qhNPsEN1npjzA5
-04XG21qbi7azh11xn3VNLVMsWQL7eHz6gyyiMn77ImTk99CMFAztaBX2wvYlHGXhooPWI3YJ/v9X
-NCeJFoui2WB5rMnwynKDj5qmydf3UahpbQ==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlwsri0ACgkQIuoRGn5CQqRlcwf8CBDK
+pgNjpKpOk+xkXygHHJKR9WJFqT+m1jMXQCg+0GwjqblqCdbExFhv+ByErfI782ngOvTT49sBPAqV
+PE5UPtOhRJzgUEDxUh1j8ycaC9bVZ+7cq6kHUgxAFgTMYXj0W25Jn7O11/mlKYD5AGA2mPzk7nB8
+LBwdltQKRvH3WAaauPGsIMkoUzlKfj6JF8xEpI98obJhDijd4EVpK5e47BUqWs3u1v1ECC4Gpb4x
+dKHv5cVC/dq8NVN/QBbaYauym/vviCGD6uUDuGNsNvtuhQsE2pSZU278aw227f8y2sLbogGcnvFU
+Z9Rk9qVWzPDw7iyLzUlLiXdN4zu+nfV9sw==
 
 -->

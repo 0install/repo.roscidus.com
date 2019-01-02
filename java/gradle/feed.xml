@@ -846,15 +846,23 @@
       <manifest-digest sha256new="SOKPF24MU6QMJ27KSABXQSYHOTBFPHOX5IYNC5VLC47BJLE6DTKA"/>
       <archive extract="gradle-5.1-rc-1" href="https://services.gradle.org/distributions/gradle-5.1-rc-1-bin.zip" size="85784990" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=e36640b77558fd07e404313a3d8c82d13d348de3" released="2018-12-17" stability="testing" version="5.1-rc-2">
+      <manifest-digest sha256new="RCWNHBZFJA7YPJFDWZZ7VUUFOZ7DJ23FAYF4VOXVZCZI2E2ISZ6Q"/>
+      <archive extract="gradle-5.1-rc-2" href="https://services.gradle.org/distributions/gradle-5.1-rc-2-bin.zip" size="85785659" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=bc24ff7a33252add4282a697578cdc1b5fd566f8" released="2018-12-22" stability="testing" version="5.1-rc-3">
+      <manifest-digest sha256new="N74SS3VVXJNFHNSJYL2U5CBAQXUCUA53RRO4TZZB27VM6WLTKY7Q"/>
+      <archive extract="gradle-5.1-rc-3" href="https://services.gradle.org/distributions/gradle-5.1-rc-3-bin.zip" size="85787281" type="application/zip"/>
+    </implementation>
   </group>
   <entry-point binary-name="gradle" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlwVH8wACgkQIuoRGn5CQqREUAf8Cw1a
-rRM7ZrUHIp+9sfSOHe2Rsd1jtuzVPLmEOhkA6iPgsyTs+EBYLnUex/KuQ8l26bhb2xLIGrsqzzq3
-iiMJOP1p09fOfmeEopnrqs+cpXc/aBo/T6HTEm/WYdLXvg7HUAP4ZQQRLS7SByOin58SgR08Fei6
-oDkywAjtFaInhtP+bZg1gIiPjl6+nv2ldc9NjaC4gf8B9TJy2fsbUmCHNZr+tRwkpF6J4jsMYWRW
-5EN/q9JxHg9+rC0Co5mAZ6TIPx484sv1ZBLf9J4dB+26aZtohctsIlBPwxCBJd/PBbwVosC+j4BH
-S9PZ963iYEE5QmheIOqrJFiCoDcMzTEofg==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlwsriwACgkQIuoRGn5CQqQsxAf/bFOv
+Fh965pkNl7W7kq2KQBZA9UmO9ZxEa26VN4C990cpps0Zonb7uwHyfzjU3SnSRGsYUbR3kY4N4Jog
+tuHyh4zHZpnE/pjl5U3WuAI3qPMCyKwzlt3S47ku7u6aRFn4q//Z7ZWjy1oncbZaVxh2HUvLSuab
+gvg+/8UWrXKKpYB+b1TGjuUSiKJF5GVQDJKy3RNJRC7vSBGYHfJlz0UQk80Y6IZQ9tJZ+P3YwSYB
+tbwBpJwqbuccGCpcmDhp7NJgSzsEuCmRIsndTr2Akr8cQCyResMosdPAZyC5njf4+eENg96X/Jlf
+QI35aiGPS3bcW3Wl4A21vBTOrQSeChdzVQ==
 
 -->

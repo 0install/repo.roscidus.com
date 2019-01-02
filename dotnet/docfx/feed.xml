@@ -154,16 +154,24 @@
       <manifest-digest sha256new="EQXJWVIZUSZAKDVE43UWXDTFEAXNOIIQLEQUACM6G4P2WYGVGO2Q"/>
       <archive href="https://github.com/dotnet/docfx/releases/download/v2.40.4/docfx.zip" size="22027742" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=a6f0a3bbaefb9bf60f1b5a605bb122dea0045470" released="2018-12-17" stability="stable" version="2.40.5">
+      <manifest-digest sha256new="SQXSYCBAGQEIH4L5VBXIBHWEIVLHJ7MQXLSFLQD35YSUXKVM4XZQ"/>
+      <archive href="https://github.com/dotnet/docfx/releases/download/v2.40.5/docfx.zip" size="22021102" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=dafe6eacb9ed330902b2f08a9634adcc26d234c9" released="2018-12-19" stability="stable" version="2.40.6">
+      <manifest-digest sha256new="OZBTC5K3AP2SQ5MVCPMJCYBJAX47C4CZWESX6ZL2PM5OZUVUYTOA"/>
+      <archive href="https://github.com/dotnet/docfx/releases/download/v2.40.6/docfx.zip" size="22021102" type="application/zip"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="docfx" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlv/rMgACgkQIuoRGn5CQqSKLwf+L7Td
-eu4ZjAnL0nG9/CjE0r7ZiQctZ4dcZs7Pm/aWBdTEVzR0r+1RXeygFzmlm1QlUHohQmxzta74MCdI
-WsYJQoXCyb82+MML1tL0uMmGIWb1p6a2z+6TqK+rE2ze5bHwrLeuG1xHw3bhni+APhGqfDeJepo5
-7V11gs2T1+2P0rNmxZsKwzdUBfz8wdAA/9IPcCqJ3EkUH+fANTQXvsZQ0fDKiST28buvJ3yb0j65
-hjMAfRdP1VAIgOFGDQDI8kqyyLZnNoIVicdV54onUiADWBhqAvatXf2pM2AZJHMmTEITQv7akZC3
-LOu70/bm9ED9m22rrTIok5ZClJs1Ymqq6g==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlwsriwACgkQIuoRGn5CQqQi7wf+MqpL
+C/4eYPtNKDZ+ydfR2kk2W/VzTsz6ZlDFcMVnv2d2xDe5HgQ4zDTMcntmy6dCsdhD/+prQm1IzaTZ
+moBzn/5md+xVvs3tV0cuV5d2sR4dwSPjG9jVo1pkusmRrFsciq+hXXNRqCwpdtAkqw1uw7lqLwwa
+fFed0IjVjUFonN7WaBknGqGmy5kAtrL4FH6PiPfJgNlDpfmDCnhiRZMlD1V7NSBlVQxRzcG+z/bC
+5f08TJ2NyDwLNKH743ZqjlJblpuj0MhzP2zn7Lo9T7mSDG67RWdnrDeTHSDXEpzn4QxmH+RfoAxO
+2EcnQ8QpPra4iEe8dHRXPx9vadsa6aBvVQ==
 
 -->

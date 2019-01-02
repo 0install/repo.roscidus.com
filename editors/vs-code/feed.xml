@@ -635,6 +635,22 @@
       <manifest-digest sha256new="LWMWFW4OVKPJA7KVZPBRSG2I36CFHSHCFRE7XCWLOZ2LHFEKKP3Q"/>
       <archive extract="VSCode-linux-ia32" href="https://az764295.vo.msecnd.net/stable/c6e592b2b5770e40a98cb9c2715a8ef89aec3d74/code-stable-1544567214.tar.gz" size="67903934" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=e694a6694369c8f3206250d04944a25b9ae00644" main="Code.exe" released="2018-12-30" stability="stable" version="1.30.1">
+      <manifest-digest sha256new="ET2EL6MTNX2PS6LWNBMRHL756UG6BUGPH2QQOGOO7ND3PMMWSTDA"/>
+      <archive href="https://az764295.vo.msecnd.net/stable/dea8705087adb1b5e5ae1d9123278e178656186a/VSCode-win32-x64-1.30.1.zip" size="67976748" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=20239743562281884f10db0a1d0dd2afb346823c" main="Code.exe" released="2018-12-30" stability="stable" version="1.30.1">
+      <manifest-digest sha256new="TVYFKMDXUZJ333UJHP5Q5C67GBQFE6KNGZF2ZHOR7JTRTEESONNA"/>
+      <archive href="https://az764295.vo.msecnd.net/stable/dea8705087adb1b5e5ae1d9123278e178656186a/VSCode-win32-ia32-1.30.1.zip" size="59267451" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=ce1fd871ed6472face30094a95d2e296270fe7f5" main="bin/code" released="2018-12-30" stability="stable" version="1.30.1">
+      <manifest-digest sha256new="NKZQEJWNOMNLIWVATWJME4RPPGV4NRRCOUX2ZTRDPEDBWNVV7FZA"/>
+      <archive extract="VSCode-linux-x64" href="https://az764295.vo.msecnd.net/stable/dea8705087adb1b5e5ae1d9123278e178656186a/code-stable-1545156735.tar.gz" size="64971757" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i386" id="sha1new=50b8c1659b7f7cbb03cfea93110dfab9071c101a" main="bin/code" released="2018-12-30" stability="stable" version="1.30.1">
+      <manifest-digest sha256new="P5R77MLQEMZF2D2HE4NRINM5NJYJVKA26N6O7WXMHHMVG2QY24SQ"/>
+      <archive extract="VSCode-linux-ia32" href="https://az764295.vo.msecnd.net/stable/dea8705087adb1b5e5ae1d9123278e178656186a/code-stable-1545156555.tar.gz" size="67933497" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="code" command="run"/>
@@ -1378,11 +1394,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlwVH84ACgkQIuoRGn5CQqRUOQf9FDWp
-jEcfH3KrfN+F+L/7E3V7zm212V6SB2fBE8hxCT4KLCVL6W4AhK2hz6V7vs2TTPXZSe1v0uaVj09h
-slj29ZawAOMU6YYu+d48GW9fypk2DiSefox3DzqGgJ40GYs9AcrsDY/LfbYWEsp3Xtm+G4Z+gNCx
-WcTBp5PoURYiW45gwjtOOI+f13aqT18ASbRi+0+G9PsvcX/b0txBAKo4d6l0jKiNcRfxJ41vHG1B
-CM6TY4kTjiQLXy8cDUGzzG10fWEHpoEOGF1YRECnQjZ0ChgejfrXjfv/+v2oM1zy2OwOR4iOkKxy
-PoVwevaCzw3DDquFT7TurAiArBENm26Siw==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlwsri0ACgkQIuoRGn5CQqTbOggAgO68
+hNCtSoQb9gAdxJvZuOeCbihFhTPTLxu31eGne6i6PJRdqscrD0WsgNS3KVkdy2LTLAqfxFCodHI7
+x6EWRhakgsKJ9jfn9WqZNf8/G+rc0psJWi5tZCPM2fESnxpBBQxm0prBiw58WhyDA6L1DzZfopYg
+pg17J7j/JcJFFWRETcZNL1slvQDLP5igqnIEFIoLSNR+g/MxC372fuPYefFnC12OC82xo8NZyGZE
+YURuDjIR+p5fy4Ixva/t8VojJRlogKf0qxa79DNJEvi+elx/54eVtvwB1ZPe6hSXdVF1NWpsyTDz
+RLmkrrR13lX5gGqGguwp0Kl0Ga1WmEYiZQ==
 
 -->
