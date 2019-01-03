@@ -26,25 +26,32 @@
     <package-implementation distributions="Arch" package="python2-cairo2"/>
   </group>
 
-  <group arch="Windows-i486" license="LGPL (GNU Lesser General Public License)">
-    <restricts interface="http://repo.roscidus.com/python/python">
-      <version before="2.8" not-before="2.7"/>
-    </restricts>
+  <group license="LGPL (GNU Lesser General Public License)">
+    <restricts interface="http://repo.roscidus.com/python/python" version="2.7..!2.8"/>
+    <requires interface="http://repo.roscidus.com/lib/gtk" version="2.22..!3"/>
     <environment insert="." name="PYTHONPATH"/>
 
-    <implementation id="sha1new=4529f3d66d923e8491aa029092a67d855d2771cb" released="2010-12-23" stability="stable" version="1.8.10">
-      <manifest-digest sha1new="4529f3d66d923e8491aa029092a67d855d2771cb" sha256="d7bccace7cbd998b42c56e9f62804d3f3538cc2306ab29467f90040e71545874" sha256new="266MVTT4XWMYWQWFN2PWFACNH42TRTBDA2VSSRT7SACA44KULB2A"/>
+    <implementation arch="Windows-i486" id="sha1new=4529f3d66d923e8491aa029092a67d855d2771cb" released="2010-12-23" stability="stable" version="1.8.10">
+      <manifest-digest sha256new="266MVTT4XWMYWQWFN2PWFACNH42TRTBDA2VSSRT7SACA44KULB2A"/>
       <archive extract="SourceDir/Lib/site-packages" href="http://ftp.gnome.org/pub/GNOME/binaries/win32/pycairo/1.8/pycairo-1.8.10.win32-py2.7.msi" size="147456" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=b9b71efede8a8abd6df73c5e0e8b7eac1db0f795" stability="stable" version="1.10.0">
+      <manifest-digest sha256new="TGTXCGTCARXN5K42WXVGKXMTVIXOMMXMGLRTOLETSPS62L6P3VMQ"/>
+      <archive href="http://repo.roscidus.com/archives/python-cairo/pycairo_gtk-1.10.0-cp27-none-win_amd64.whl" size="29176" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=e6380430b93ea83a185f810f8b160d8b0a620dd1" stability="stable" version="1.10.0">
+      <manifest-digest sha256new="VTDYMK6G7VIG6IQ7LVWVPAM2Y5MUH3NFHXLJY5LRMEMH3I7JOWTA"/>
+      <archive href="http://repo.roscidus.com/archives/python-cairo/pycairo_gtk-1.10.0-cp27-none-win32.whl" size="25791" type="application/zip"/>
     </implementation>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYelTXAAoJECLqERp+QkKkqtAIAMJJN9W7OoTqRdFOjppfWMY6gPmxMX7AG9Od
-pKAcfQi3sTzM5JRgXaa9hSuoqtjBSGfwA20BpUgCwfvj43pE16SnHJnVu2IamYfwkDHuoTLfSkEk
-Ru7A53KBS5YtV301nBJlFS2qAvXF1pCd8dqIpeyDQlaPW6BZHHZZ5h3F3RyqcbZBb+F3P2jAkIEP
-ofzCUoSTMKh/dOI8Qp3RjS+xg7B8S4E3DcM+xO8h2OKJoy5EGccsgLPtugTK6QySDifugN+Kg0au
-wfTcdLD2KXCJffFzs+9xwRXsSmzOY5pNnT+fPtwnu9skHimFCU5hrmBW0/U0gi1I1Ux28I6Crc4A
-o+E=
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlwuCbgACgkQIuoRGn5CQqR5DQf/RsSr
+/sK9bAKdFUmIdEQ9UNXjU1pe9fH7h9/I1Z76pdL0JdSHrVoQPcILC/nbFLBnxvEnH+NxxPOVToTS
+FJRKJ4Eq4XEMhp/Wtjcmdl4qms17F0jdo6qUMm8RtjNe9KM3IOsJK3qrndcYGty21gGpXhUtzx/S
+HdqLCYWdDp9OyULWnV1XSTvHP3sUqFgj3kBccC0hUz6k4R7fAxhf/ECGm35C0OaSjh96PgCX2k88
+Jk6Sv4tFWo41WySB4o+Nz3b6CMmimVdf/7nbtHW60tIFdwJlIK16GNMxgXj6Y8mz98LwExsmc0vN
+COHllMkzvZ91LCqASTqMJtot+/U28gwWRg==
 
 -->
