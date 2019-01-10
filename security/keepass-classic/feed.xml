@@ -160,6 +160,10 @@ Classic runs on all Windows systems without any prerequisites.</description>
       <manifest-digest sha256new="BGLYWOLS6J6DRRQN5A5NS75R6IUOHLEWPTM4FYSHJPPAPIRMYCTA"/>
       <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.36.zip" size="1592527" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=c4ab6ca7a4151e762b599024a8b779e4d0b1a8e4" released="2019-01-02" stability="stable" version="1.37">
+      <manifest-digest sha256new="OUBKGL5EZ6XRHNJLYZDXXHRIJBVJI2NPXQMLO4PUNLK4B4PSNMGA"/>
+      <archive href="http://downloads.sourceforge.net/keepass/KeePass-1.37.zip" size="1596314" type="application/zip"/>
+    </implementation>
   </group>
 
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
@@ -172,11 +176,11 @@ Classic runs on all Windows systems without any prerequisites.</description>
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAluxIZ0ACgkQIuoRGn5CQqS+mggAuB62
-c+iOXhIhoHA5J4UiorZKsXGI/6rBiv8aJHVTMMjVN2Mowysuk7k5b7QIEyjI0nGRiT7slnRDsg4x
-lizurVR4OSARAGOrztqPQlWE7f2wjYpH2uYqICrQ5StQkSbkuZhcSfeVazAmRJwaOdb+X+kRDlyg
-a+BZ+O1ZACUo3aFarUcBg06VFjDAyhWnRQTba0kpmMbnSw5AiSG+KdKj5sBsBh0acin7bxYfpYjh
-Fxyzc0m26WP9hzNHwFin9IiAX1/JIklNbohO2ttavYob+W6SHBCZBtdN6OR5TxN0Q4CjCSuZfghU
-87eSSsYbtX5uxAj4KqSDYzX97a+w0DCnbg==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlw3buwACgkQIuoRGn5CQqSDIQf/QvLM
+7itDTOMDKDu9zFqyobKhqoUSSgdbNDjGsXAGK4Vnk+YpyfjVsUQYp2F5GOhgpMUBZnZwQqoO97yG
+oe4+KbKVUSUmCbvQjBTcpfLk3pUnDs23mm+uK1+d9WXU57M1uLP+YZhGYxNjkmzSLI4kHb/7eu+V
+bCoM7ybUTbeeAYCfIwNWZpbFpgxMCaGJw1YM4kgjPbJY8f5lTkaLO4WAGi1GsAq1rgj4+dD29NQI
+VIzSE4SrrOBnivROdvifcVRaSjfCvC+59gMnfv84L4bw101hgiGRz6qaeymcE9oLW3yuuxCDEhbS
+WQA77qoFfGvxd/1GSW24Dl/3DBt7rCoj2A==
 
 -->

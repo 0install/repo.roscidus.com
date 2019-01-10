@@ -359,6 +359,10 @@
       <manifest-digest sha256new="E37CN4ANSEJFCUXP2YSFZS35HXSHCR66UG66GNVTN373L3IGTNYA"/>
       <archive extract="tools" href="https://chocolatey.org/api/v2/package/chocolatey/0.10.12-beta-20181011" size="5758603" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=35711d7cd6cd8d718201aedfbd9959fd56739a2b" released="2016-03-20" stability="testing" version="0.9.10-pre-20160320">
+      <manifest-digest sha256new="24TLCPVFA25LBBVNM2XL7Q4CPIJCZFFWZK2HWOSHMWTBGAAEFNMQ"/>
+      <archive extract="tools" href="https://chocolatey.org/api/v2/package/chocolatey/0.9.10-beta-20160320" size="5891494" type="application/zip"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="choco" command="run"/>
@@ -398,11 +402,11 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvpV5UACgkQIuoRGn5CQqQOqQgAu3/D
-vhKq6E6m1Gg8JmgRvvLHwYAqq5UAm+HH4U8We3TCskGrZKZdHpk72jdab5+SiisRjYtDtFjPY/Vu
-PmtY7NAdlhjjHk+cRnq0xucoi+Vw3EaIUpuTiecbacjq97Q8PuSfzOhEoGTpMcLjkFmS4OLoJQ28
-DHkVaDvkgWZQ7hS4/8uemFgSwiOvjM3BdbxKtlCY4AdYofm8CrkVGPVms7jlIuxrC3tRull4S7zF
-Klt0knZqbws6hFXaTG0tYJveCL7DyZUCACG0R+RXskK642VVqEAy/uak9zAEe/xKDoKtpk6kzqzE
-gADWUKdq6iIDjnSUfv88nf7CO9BU7EKQrQ==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlw3busACgkQIuoRGn5CQqRC2QgA0oas
+sG/ri6UZsCluD1Z7Xtxi0U4v/wr4HNR/4IAj6nY4LnqxNoNp6Dn40wWVvKQKyR6xJGAfvNUf5pPj
+eJ0RwykA9JoDWkJIzqQReAq7zotqJ1iZOpd02JdmjiRwPOotpzNesnlcNeRN8/H5ANknBlHHVaKb
+EgJckbulu9F51qex7Ud7ufMJEf8YqvFnwVraMQspQpL8T2KeQZyq1khdf5Go9GHKjbHyt8ainwqR
+/ZKZ5ZOlqOFjyW+NgWN4Tnu1JSTHiOdxPWkCvER9CGgg59SfK/uaDv05P8mUk+AZuzW6MmfY0JJd
+jNtgYUzv+o2oNFoEFCAL0Tyx4BZ6HuUToA==
 
 -->
