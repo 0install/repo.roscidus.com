@@ -628,12 +628,6 @@ language for applications that need a programmable interface.</description><icon
   </entry-point><entry-point binary-name="pythonw" command="run-gui">
     <name xml:lang="en">Python GUI interpreter</name>
     <name xml:lang="de">Python Grafischer Interpreter</name>
-  </entry-point><entry-point binary-name="easy_install" command="easy_install">
-    <needs-terminal/>
-    <name>Easy Install</name>
-  </entry-point><entry-point binary-name="pip" command="pip">
-    <needs-terminal/>
-    <name>PIP</name>
   </entry-point></interface><interface uri="http://repo.roscidus.com/python/python-cairo"><name>python-cairo</name><summary>Python bindings for the cairo graphics library</summary><description>Pycairo is a set of Python bindings for the cairo graphics library.</description><homepage>http://cairographics.org/pycairo/</homepage></interface><interface uri="http://repo.roscidus.com/python/docutils"><name>python-docutils</name><summary>processes plaintext into HTML, XML, LaTeX, etc</summary><description>
 Docutils is an open-source text processing system for processing plaintext
 documentation into useful formats, such as HTML, LaTeX, man-pages, open-document
@@ -708,11 +702,11 @@ More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
 This package is built from the X.org xproto proto module.</description></interface><interface uri="http://repo.roscidus.com/lib/zlib1g"><name>zlib1g</name><summary>compression library - runtime</summary><description>zlib is a library implementing the deflate compression method found
 in gzip and PKZIP. This package includes the shared library.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlwVIDEACgkQIuoRGn5CQqSbXgf/Q4mu
-hXNoo1cIzihhVrvvkMQyGFdaEJkRz4aEv+lbq9PQtKweqUAnw14jsGj1wgACqjo49TDb0bcdBFba
-BOwk27UuMW/vvwfGnuwMgMg9zchKsLuIUFgZbOYEh6JHE0U7oE8ZYoNcl/7LldMCW0uq9Q2UThGK
-bo2U8wPur/e9RSeGX7fMSWfjeSmROVuZEHSlnjO8GnRzQ2qgwSpPkXEH2yAupaL4ga/eHKM56Vg/
-ufiMKa9iB4fAg1NQH7XL/8GMAm+e75ne65gw6LpZDWxZN0pdd20btUgTV9EuA4Oni1TKC3Mfi1ay
-Xhll+to6pQ0ChjVVV0gSq7CZAL7vMVg4PA==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlxC+yoACgkQIuoRGn5CQqT1NAgA0i6Z
+Wvj+p/czjtRqo3G9jGYD6JlU39CL99p0G1GEJCSXbS63qsWr/JSbl96YMq4+bEZf+S/3N28HJ6uK
+Eb/fPo7mle1ce7NYXzAtBbUiVlXEHpXK/+hl9bkJYnAwmUZ/EiL50BTrF4LJyyT4OWoGXOwslNvV
+BtQ48V0/935GaGSAE6kNUSkIsFkO9cMZ5+LGJNPXE8nDV+SaoaI1/WWIiQJpFtdF0KPT+IinfCE2
+YQP7sUvMhDbKyBnCax+4o+7RaKqJ7XHDOTSgiHjR6RB9xZlowQNz9QKgHVEK0BKukgPObs6CCNvY
+SGiGVmnM5r5Eb+tloFux7m7zf5EqM7vwwQ==
 
 -->
