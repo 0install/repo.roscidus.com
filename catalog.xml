@@ -471,7 +471,8 @@ The upstream sources for this package are available at the location
 ftp://ftp.gnu.org/gnu/make/. The documentation for this package does not meet
 the Debian Free Software Guidelines, and has been removed from this package.</description><category>Development</category><homepage>http://www.gnu.org/software/make/</homepage></interface><interface uri="http://repo.roscidus.com/devel/make-dep"><name>make dependencies</name><summary>libraries for make</summary></interface><interface uri="http://repo.roscidus.com/java/openjdk-10-jdk"><name>openjdk-10-jdk</name><summary>OpenJDK Development Kit (JDK)</summary><description>OpenJDK is a development environment for building applications, applets, and
 components using the Java programming language.</description><homepage>http://jdk.java.net/10/</homepage><category>Development</category></interface><interface uri="http://repo.roscidus.com/java/openjdk-11-jdk"><name>openjdk-11-jdk</name><summary>OpenJDK Development Kit (JDK)</summary><description>OpenJDK is a development environment for building applications, applets, and
-components using the Java programming language.</description><homepage>http://jdk.java.net/11/</homepage><category>Development</category></interface><interface uri="http://repo.roscidus.com/java/openjdk-jdk"><name>openjdk-jdk</name><summary>OpenJDK Development Kit (JDK)</summary><description>OpenJDK is a development environment for building applications, applets, and
+components using the Java programming language.</description><homepage>http://jdk.java.net/11/</homepage><category>Development</category></interface><interface uri="http://repo.roscidus.com/java/openjdk-9-jdk"><name>openjdk-9-jdk</name><summary>OpenJDK Development Kit (JDK)</summary><description>OpenJDK is a development environment for building applications, applets, and
+components using the Java programming language.</description><homepage>http://jdk.java.net/9/</homepage><category>Development</category></interface><interface uri="http://repo.roscidus.com/java/openjdk-jdk"><name>openjdk-jdk</name><summary>OpenJDK Development Kit (JDK)</summary><description>OpenJDK is a development environment for building applications, applets, and
 components using the Java programming language.</description><category>Development</category><entry-point binary-name="javac" command="run">
     <name>Java compiler</name>
   </entry-point><entry-point binary-name="java" command="java">
@@ -702,11 +703,11 @@ More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
 This package is built from the X.org xproto proto module.</description></interface><interface uri="http://repo.roscidus.com/lib/zlib1g"><name>zlib1g</name><summary>compression library - runtime</summary><description>zlib is a library implementing the deflate compression method found
 in gzip and PKZIP. This package includes the shared library.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlxC+yoACgkQIuoRGn5CQqT1NAgA0i6Z
-Wvj+p/czjtRqo3G9jGYD6JlU39CL99p0G1GEJCSXbS63qsWr/JSbl96YMq4+bEZf+S/3N28HJ6uK
-Eb/fPo7mle1ce7NYXzAtBbUiVlXEHpXK/+hl9bkJYnAwmUZ/EiL50BTrF4LJyyT4OWoGXOwslNvV
-BtQ48V0/935GaGSAE6kNUSkIsFkO9cMZ5+LGJNPXE8nDV+SaoaI1/WWIiQJpFtdF0KPT+IinfCE2
-YQP7sUvMhDbKyBnCax+4o+7RaKqJ7XHDOTSgiHjR6RB9xZlowQNz9QKgHVEK0BKukgPObs6CCNvY
-SGiGVmnM5r5Eb+tloFux7m7zf5EqM7vwwQ==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlxMJDkACgkQIuoRGn5CQqTJWwgA2nL+
+8WmavdPkWKwgP+H2YGzFqfpoI6ZhkUhAjg8ny1ugoZ4FJDXuo0OxKkZiMoUi9Db6bMJ4SXN6foSD
+fT1MCTcNDpV3zksa61lJdHGFve3ViBur8fKpXc1kjQU4M+yA1w0ejA6aSBs9xwdjkOXS7t7p9GCD
+duswv5/DfDqlAZO6l1G9GNAqzvLw8SKGQ6OBRS2VxTUnmLeMGGLLyqDeZyuH8VgI2RoSSPHpcsDM
+CRjIAlP5h/Esu4MJPg9DRJPD3ibb7Hs8SjNKc4EVbQOvBtKN638TCFrHN0uWN5dhHrCyYwduS1h2
+pQ4axJaOe2jdAu8DU8BVesV+tV+xHhzQFQ==
 
 -->

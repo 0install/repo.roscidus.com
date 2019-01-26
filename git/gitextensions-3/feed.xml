@@ -49,14 +49,18 @@
       <manifest-digest sha256new="JEW735KWXI535HW37BSJB2B3P2ZA6SN34LYI4Q37WTAAZQ3CM36A"/>
       <archive extract="SourceDir/GitExtensions" href="https://github.com/gitextensions/gitextensions/releases/download/v3.00.00/GitExtensions-3.00.00.4433.msi" size="15654912" type="application/x-msi"/>
     </implementation>
+    <implementation id="sha1new=41ed79bede59edd17264491466c201a651522035" released="2019-01-20" stability="stable" version="3.0.1">
+      <manifest-digest sha256new="FPCOBO24K7YWC6BW7SRGW6RWGF5W3VIYWKWA54UDD65YKXHIO64Q"/>
+      <archive extract="SourceDir/GitExtensions" href="https://github.com/gitextensions/gitextensions/releases/download/v3.0.1/GitExtensions-3.0.1.4933.msi" size="17481728" type="application/x-msi"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlwVH8sACgkQIuoRGn5CQqQSmwgAk2Km
-zEnMUNboDxTM3dY1XvZTvxieh3SEzwqB4Va42XUCPhVHdT/76L0nCvYjHCmbIQDeCyFwM2MPrQX/
-9Rx2aF3s0ruvG2cOj4UlguzYW7/6iyMm4R4xPhIc/GD1eaD47yAg8f0pV5Xwvl/GaJPIIH+woEyh
-oWfhXJCmN6mmI+QhVZBJ1rPyE/mITmPxtisKxzj3sEXSuwtOPOM1Wpk44KFPOy1LVSin1yBsRJN/
-r4fUeQL/pPOGSQdDcD3w9AjbAfRyYXwGEJeeK8ojGr/DBvQrD73YWpjbhkIkCit48ljmoFR3xjuo
-ESNnOFWwYzLlohCSW/WbMW/gsww8Q1n1vQ==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlxMJDIACgkQIuoRGn5CQqT+Qwf+Pom7
+sytxd8eDNMwhgRTT3G06MtjO6PxSVVzgY4OFwTwv4rcMtd0WEyCWS9uluv0BnnqHnGlxcY5Rnalr
+frmxPFo9KGqDPb0MN/wT9NdmA9msxr2WUyFfpIqTa4s/1CQ04OfpX1xpzMkiYPPhVTucxi7k4mVZ
+QQNaV0Dmt+oRkhwLaJxXhEBQZHHwbJbBpJKiB80VhIjzxsZtojws/0L2Ykj/Nc+ANIpW9R6BQq43
+bRLsGaZNcZYQO0SMb7kTpLxOj/rdEiFOlQL6GldDJqIfL2TDmqRBwF8gA7nPhCi0IEhZ1Y0VnHaE
+awA3e6w4DBTsIpxyB2xJA3d/pwI9erPmvw==
 
 -->

@@ -7,13 +7,15 @@
 components using the Java programming language.</description>
   <category>Development</category>
 
-  <feed src="http://repo.roscidus.com/java/openjdk-10-jdk"/>
-  <feed src="http://repo.roscidus.com/java/openjdk-11-jdk"/>
-  <feed arch="Windows-*" src="http://0install.de/feeds/Oracle_JDK.xml"/>
+  <package-implementation distributions="Darwin" package="openjdk-7-jdk"/>
+  <package-implementation distributions="Darwin" package="openjdk-8-jdk"/>
   <package-implementation distributions="Windows" package="openjdk-7-jdk"/>
   <package-implementation distributions="Windows" package="openjdk-8-jdk"/>
-  <package-implementation distributions="Windows" package="openjdk-9-jdk"/>
-  <package-implementation distributions="Windows" package="openjdk-10-jdk"/>
+
+  <feed arch="Windows-*" src="http://0install.de/feeds/Oracle_JDK.xml"/>
+  <feed src="http://repo.roscidus.com/java/openjdk-9-jdk"/>
+  <feed src="http://repo.roscidus.com/java/openjdk-10-jdk"/>
+  <feed src="http://repo.roscidus.com/java/openjdk-11-jdk"/>
 
   <group>
     <!-- Some versions of JDK bundle their own copy of the JRE. For those that don't we refer back the regular JRE. -->
@@ -26,14 +28,9 @@ components using the Java programming language.</description>
 
     <package-implementation distributions="Debian" main="/usr/bin/javac" package="openjdk-7-jdk"/>
     <package-implementation distributions="Debian" main="/usr/bin/javac" package="openjdk-8-jdk"/>
-    <package-implementation distributions="Debian" main="/usr/bin/javac" package="openjdk-9-jdk"/>
     <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1_7_0-openjdk-devel"/>
     <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1.7.0-openjdk-devel"/>
     <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1.8.0-openjdk-devel"/>
-    <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1.9.0-openjdk-devel"/>
-    <package-implementation distributions="Darwin" package="openjdk-7-jdk"/>
-    <package-implementation distributions="Darwin" package="openjdk-8-jdk"/>
-    <package-implementation distributions="Darwin" package="openjdk-9-jdk"/>
 
     <package-implementation main="/usr/bin/javac" package="openjdk-6-jdk"/>
     <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1_6_0-openjdk-devel"/>
@@ -205,11 +202,11 @@ components using the Java programming language.</description>
   <entry-point binary-name="jaccesswalker" command="jaccesswalker"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAluxIZ0ACgkQIuoRGn5CQqRjagf9GuDl
-R5eCu3PfzHdQzkLy1AKR2LWXwAs3aSvzXJcOGk0VJz4QVwqiBvQY1LfNRAZlRf+B/42A7YGhdrQK
-rVkIBCIlEoEJfZsJH1Z+nYyLo9k7uH7jJKzVnaaoAc6v7NsU6xoUZFLGpIepjevc+FMaTMLDVLPc
-ifSFbooNle2fjVjgAAAqwr/ibH9BRzQ2tf2amN64gwI/Agt6cbrFeTHK6DgkysnnCWNy/mfFC5mc
-+FTHWJybhF8PuwvXT3e26KkDc2GPm/y5CdflX5sW2viBJQ3kTf/d6zsMjHpz6sv6rvCgqXTI1HqN
-vZsI4cvBmjz2AUt/IOz3q+oQTxpkhYM+tA==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlxMJDgACgkQIuoRGn5CQqRBkAf/aARm
+naOOFXV3TB0eJe1G5YERE/jhq+wyK3ekfOLRBeDw7GzZoBcO0Llxz/P+EIvmJdkD22oPSFRSLd13
+dDbuBV6dH/tiPvthuh6tWYW5k0MHXFL6/RvbmSDVaVTKFjRQymY+3J33STmWATXdWAxylIWtbiXM
+o1ou20DKkhMSzs6tdyiKTMJSUKN/RY0Cl0a/VQrvZ9+kQRntrSvG/0O3IOCvwqOHisIgnpNBrXAh
+flRV7ZZRgqPXUjX2OYWgxis3oauC3+0It+B8Hxghtnj9KfOCEAbS7YO2EoUlV/LwLc1ikproQyMl
+a7tJ1/D20UtWLzb+O+Jo+ktIRPjwiAE4Xw==
 
 -->
