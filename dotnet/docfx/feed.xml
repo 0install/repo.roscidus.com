@@ -166,16 +166,28 @@
       <manifest-digest sha256new="JCBB6B6UWAW2S7HOLSD7K3GKP5KW2LRBVFOHFRKTE7ESUXNDCNXA"/>
       <archive href="https://github.com/dotnet/docfx/releases/download/v2.40.7/docfx.zip" size="22021319" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=f79ad07f471f738512da71961d53e1d6ad8a9ba4" released="2019-01-25" stability="stable" version="2.40.8">
+      <manifest-digest sha256new="JBTBOU3OBNUG3VWWQXC4CTFOVHMITM3JUW4OZANVZ32OI3PT5LEA"/>
+      <archive href="https://github.com/dotnet/docfx/releases/download/v2.40.8/docfx.zip" size="22037694" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=33b1b767582c4efcac23d44567a973e6c282668c" released="2019-01-31" stability="stable" version="2.40.9">
+      <manifest-digest sha256new="IPLFELHV6M7TTT3ERTG2AEFFFCDYYKDSB74BYJ352UYEKX27Y3PQ"/>
+      <archive href="https://github.com/dotnet/docfx/releases/download/v2.40.9/docfx.zip" size="22037696" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=7905e56d33f390cc477ed9ae9a216f865afdf3b4" released="2019-02-01" stability="stable" version="2.40.10">
+      <manifest-digest sha256new="6V2NTOBOIO6EIFUALN4WL3SBELXPNLWBXQR3NJ4UFH47GLWYAQAA"/>
+      <archive href="https://github.com/dotnet/docfx/releases/download/v2.40.10/docfx.zip" size="22037641" type="application/zip"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="docfx" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlw3buwACgkQIuoRGn5CQqSZXgf/fBaz
-BucBLOcVTABWm17xOd/kaJw60kN4qQGK3q5qd6BcfTriNbxDfi52rye5oCNN0tkZI/EP1TifEjd4
-1SurkEni2hd4nT8KoRd9Qtu5znSVIaX7X/Sc35HyMjt21HO+mU7bZT813Oyq3svx16Gfg/EEA5TM
-SH63dhQHQW8tL7Eb2XLRdL6fPFlb4lHngO6nJFmG07/8msfqPLt0SEgIbUfy8hikf0rkuvE0ES9c
-bmE1ezNY32zUYwzQUshr/W5FhDCqJ1FtghBrbYuH9YJEL0vr2oqJv6y2J2WlVTl3/Cr3vxlouuYq
-yDEOst32wg/fK/6I4tel+O/tzIM6FLrYAg==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlxVWsgACgkQIuoRGn5CQqQ7wwf9HcOI
+Z+8zY1H9YPS+RwWgVOQFCbd0kAszPx9vlp1PzIVSNuhE/8s0/hSpG0m6ccJsXoKGeV+NOXidvZVK
+JHw+uT8Yf/txYTVlijbNZqVbB6VzNnsJFhsZUGRo5NDGhqS0jIDH4ECG4Q3PHipz3KGevy3dWAdK
+7b+mZk4rwDxk3b4t3OWhhZoFJsJOZpT4ikP9xWWBbDTXYFQVnnyxztItUdoRm/uak3PF1vgJV9P6
+SL8yXrz3hc4jLN7gbxS1RUyt5Va2kg1ctDr1wfoXDUU5XzYUjtlGBTMwvlspelTrI1O4p+Fkm3Zy
+5eTcyMiju/e7KiP/OOEgz9GZllgHFhAi4g==
 
 -->

@@ -402,6 +402,14 @@
         <manifest-digest sha256new="JR7HMXMS2LZS3UQOXTD4CQM2LCIXVIRI523ENRDZHKPE47GX7PZQ"/>
         <archive extract="darwin-amd64" href="https://storage.googleapis.com/kubernetes-helm/helm-v2.12.2-darwin-amd64.tar.gz" size="23870684" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=61e1b3473953da6fd02bf7b9c8d20e65e8f7c5d0" released="2019-01-22" stability="stable" version="2.12.3">
+        <manifest-digest sha256new="7VZX3SXAYDNED4T42KXB6KAIBVWVBL5GI36O7V2NHHDD6N23SXQQ"/>
+        <archive extract="linux-amd64" href="https://storage.googleapis.com/kubernetes-helm/helm-v2.12.3-linux-amd64.tar.gz" size="22722816" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Darwin-x86_64" id="sha1new=beb7750616a9b9a3cbbd2afcd2d806d2a3ac62a3" released="2019-01-22" stability="stable" version="2.12.3">
+        <manifest-digest sha256new="ESAPZ4462AT2KCX2F6JTRLJ3TRJLENUULL2YEADS3XRKJDSJ4HLQ"/>
+        <archive extract="darwin-amd64" href="https://storage.googleapis.com/kubernetes-helm/helm-v2.12.3-darwin-amd64.tar.gz" size="23867687" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
     <group>
       <command name="run" path="helm.exe"/>
@@ -601,17 +609,21 @@
         <manifest-digest sha256new="WVJE4OIY3ZAD3WR6GCH7HXRZWGQIZGWXJCTVIQQLDKS2O5T57QDA"/>
         <archive extract="windows-amd64" href="https://storage.googleapis.com/kubernetes-helm/helm-v2.12.2-windows-amd64.tar.gz" size="22760511" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=4677b0c8a0335edc57e95709e13bf66329796372" released="2019-01-22" stability="stable" version="2.12.3">
+        <manifest-digest sha256new="5CSF3LZAHVSHHGSN6SL6C5VX4Z5HMAAK4ZEREJVYFD33O55ZA3YA"/>
+        <archive extract="windows-amd64" href="https://storage.googleapis.com/kubernetes-helm/helm-v2.12.3-windows-amd64.tar.gz" size="22760227" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 
   <entry-point binary-name="helm" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlxC+ygACgkQIuoRGn5CQqQMRwf/UwIO
-hwA0M1gU2vMrO42Qd/4MwELU5HZBe7H8atGLx5K9HAkrZ6TahJzXFPGBIxoz9/5ASjux7mgzVQ63
-kxBc6S6V0hvKHdwfJKE9Zqve+mwNzZODJHs2+v1F8yTOAt/y+5vAls1jzNtWFaR9WEU741UCwOqN
-zJKbaEz1RAZfORRHhH+F/UYJ83Q3ximedhivp302Mgug6W7bhPVMlsNMjQgTvSJ+7wXvCWYeOczG
-ahGG3sy+c1TMTuDw3ut5ct9pJfr+B5+ro95LXM0SREC/zzL2e/soafzwzsdSBM01plIb+iZg7s1X
-Am3smpyVfcD4pVjzVlj7ThL1Ydjw9Au/cA==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlxVWskACgkQIuoRGn5CQqQUHggAk5LY
+poqWAWp5845PcT8DFxIo3tVZXeXejtrTj1d4Ce2QslLd4NXu0BAvY3uKLzvr3I6eXqJwQlCtZwQx
+5Sn92w/bK+upBFZJ6v8UC0ZLk1WtU4XfXpd9MZB2a848WYzY7HzbyuJxTRB4FbVr26tiX/2xuAo/
+bNPAUTcs8sImebRfVqrdzojhsAHkDajm3vnqb8rIcojmyco5RZeDrNLulHgIeA9TGv8qEkTdvAa0
+TvD8oyOuY8wF20KrbGFmHnNgrRas1Yfuo9Fnb8fGZwD5fdXsoQBXOpXC9VGQwbE0RsKSdKubslBS
+k5TMYgr3Eswd6YHfWyz/11PncamJdZa3Uw==
 
 -->

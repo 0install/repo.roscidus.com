@@ -587,6 +587,20 @@
         <remove path="doLocalConf.xml"/>
       </recipe>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=d475082f00b1759d5ac39f25600d9f297d7cccd0" released="2019-01-27" stability="stable" version="7.6.3">
+      <manifest-digest sha256new="DSCE7XS5Z7CL5NGUZBUJQQE7LGTVLIOMIQEY62B4PHPGTSHYQ5EQ"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/7.x/7.6.3/npp.7.6.3.bin.x64.zip" size="5549433" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=049e4bf36cd9f8a58f32fed4a45a14bf4a179101" released="2019-01-27" stability="stable" version="7.6.3">
+      <manifest-digest sha256new="R3R3VHJ7WDW253EWSIVTLELBGVVSLTU6QVQWBKBPAPCIKYDS2T4A"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/7.x/7.6.3/npp.7.6.3.bin.zip" size="4978716" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
   </group>
 
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
@@ -653,11 +667,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlwsri0ACgkQIuoRGn5CQqRlcwf8CBDK
-pgNjpKpOk+xkXygHHJKR9WJFqT+m1jMXQCg+0GwjqblqCdbExFhv+ByErfI782ngOvTT49sBPAqV
-PE5UPtOhRJzgUEDxUh1j8ycaC9bVZ+7cq6kHUgxAFgTMYXj0W25Jn7O11/mlKYD5AGA2mPzk7nB8
-LBwdltQKRvH3WAaauPGsIMkoUzlKfj6JF8xEpI98obJhDijd4EVpK5e47BUqWs3u1v1ECC4Gpb4x
-dKHv5cVC/dq8NVN/QBbaYauym/vviCGD6uUDuGNsNvtuhQsE2pSZU278aw227f8y2sLbogGcnvFU
-Z9Rk9qVWzPDw7iyLzUlLiXdN4zu+nfV9sw==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlxVWskACgkQIuoRGn5CQqRIMggAg44G
+lZ1/h3MkiIJ7Y0g6aPm+eWjVrUVJHGNImhDx5rbh/dpsHJHRrX8sXyYu00JuWrutZ95Q4dluHP5e
+T4DHB2bahJdN+w47KAb8NABUxSPrRQQbUD9pspanLMpkm11wV7jOxN1pXd5tMi+AriiooMjn62wW
+tfcmuPGHuFiXpGvyWU7Hhtx+td+GrGU+jGBY0wbQkTbxf25yu6eXi6VuCH15A3ke+DVW5Cycz7ZL
+qtxqS4HUHLUpmk7CfhPIXPc+r6SxrAzqxwyNXrjrl96Vx2hYLUYMsvJD434tnSWk8UjIwf0Bcz6Z
+sYGnigrPLtHRGMAgIDOyyrNDiAcOEKKqHQ==
 
 -->
