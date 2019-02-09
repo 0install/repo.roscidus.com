@@ -23,7 +23,6 @@ the core library used to build GTK+ and GNOME.
     <package-implementation package="python3-gobject"/>
 
     <package-implementation distributions="Arch" package="python-gobject"/>
-
   </group>
 
   <group>
@@ -37,10 +36,6 @@ the core library used to build GTK+ and GNOME.
     <package-implementation package="pygobject2"/>
     <package-implementation package="python-gobject2"/>
     <package-implementation distributions="Arch" package="python2-gobject2"/>
-    <package-implementation distributions="Gentoo" package="dev-python/pygobject">
-      <version before="3"/>
-    </package-implementation>
-
   </group>
 
   <package-implementation distributions="Gentoo" package="dev-python/pygobject"/>
@@ -81,11 +76,11 @@ the core library used to build GTK+ and GNOME.
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlxeuNsACgkQIuoRGn5CQqTbDAf+OiDp
-fzSy5fmV6QrHF1mQcRmJC+uKzvIYGhoiZDuGf5zIsTJYhSUy1Ac3YiaV6hnpxaQiSiz7+hxRf7/c
-ir0Vr0I8bSOuTKJbv2hxI4GyN+H4Uy+Kl72NmfFFiChwRQfJQtSjEbEhf6YVx9QeLi3pkbrJNyJ4
-CVnytoKF8SfDPUcG9hyTCxWndt0FINybkSfhREbvzsgxK/KWSlFALOYeqw4lcqJm4n6UdROsBiLP
-C9VMJrKZ30bUdkvXKCpzuhg0gnNDpWZs369IUPYccOI56naYmMIg1YI+pil6XhrGUCLUSjD5wom1
-ofaQjQxCEdQh23jmkshmTSzyLzEF/5JoRA==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlxeuZgACgkQIuoRGn5CQqT/WwgA6rvV
+MDy702NiOAfJnjDFq3ZVwtwwwaKe4EORtyu2UhdRFuhfiVgl4y1lfNv0ps0ibU28TYlTv9jYmpgq
+T8F9GOqk6QUip+BEMtS4xdGDlQnW/meXff7nGEwDTR4dt6FUoWjTEbXNZg///e9271uhhRHKAX1X
+mqAuk2XVIzJCa/LlrZLUefFtbXxthmmWm2SQFU57gYTZAyxHgCfh7RW1YQ6oSKK2CYYn3t/4OOir
+w2TitIldCBhxos6e8M2ruGYsbaNryqNJl1X6p2wP4f144qaVdFLxfvuXe2K97xW/u+Odkw9dRzIV
+P1Zd60Ece63ynIHXOWBw4/PojvKauMny8w==
 
 -->
