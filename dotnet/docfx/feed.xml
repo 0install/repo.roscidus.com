@@ -178,16 +178,20 @@
       <manifest-digest sha256new="6V2NTOBOIO6EIFUALN4WL3SBELXPNLWBXQR3NJ4UFH47GLWYAQAA"/>
       <archive href="https://github.com/dotnet/docfx/releases/download/v2.40.10/docfx.zip" size="22037641" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=e4129bf5c3aff68c046d21cac7d8c5680a5b2f82" released="2019-02-15" stability="stable" version="2.40.11">
+      <manifest-digest sha256new="ENS7IEZB3YZSS7JIIBYIANS5R2FXUJFXMVMMSJEAJIGHNMFE7VSA"/>
+      <archive href="https://github.com/dotnet/docfx/releases/download/v2.40.11/docfx.zip" size="22038314" type="application/zip"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="docfx" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlxVWsgACgkQIuoRGn5CQqQ7wwf9HcOI
-Z+8zY1H9YPS+RwWgVOQFCbd0kAszPx9vlp1PzIVSNuhE/8s0/hSpG0m6ccJsXoKGeV+NOXidvZVK
-JHw+uT8Yf/txYTVlijbNZqVbB6VzNnsJFhsZUGRo5NDGhqS0jIDH4ECG4Q3PHipz3KGevy3dWAdK
-7b+mZk4rwDxk3b4t3OWhhZoFJsJOZpT4ikP9xWWBbDTXYFQVnnyxztItUdoRm/uak3PF1vgJV9P6
-SL8yXrz3hc4jLN7gbxS1RUyt5Va2kg1ctDr1wfoXDUU5XzYUjtlGBTMwvlspelTrI1O4p+Fkm3Zy
-5eTcyMiju/e7KiP/OOEgz9GZllgHFhAi4g==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlxys24ACgkQIuoRGn5CQqS35Af/WyxL
+yyWRNbD5YMAyruG7gvna3q0PHgVhlHTOTvODcUm1qy5TL3mBsXdJ4Jnou0c9x7JRHr5uPsKdjLfS
+v7Hw4AWK/Ofxhd3CYmFzYXCVPNR6mN8tMYBCQO/0hZVfrdonl8oaxFCLqvD0ejMr65YPh5sBN4xh
+dKi8YpSdQS1pLjZn/wud7NzDM6gESt4EmAGOWv02oPvQNILRaQxfAF3sR4GANgCPqHzwp6AxGvdP
+AMYM+FCJTp3NDjgDmXhlZYmzSr5GEKMStnf+zRFwcIsEjn9peiqShkzQdb0WNsgnPQQsLtjpszKQ
+JljcR/8o/6SchKe4SVu+a1a1bKZRLZdKNA==
 
 -->

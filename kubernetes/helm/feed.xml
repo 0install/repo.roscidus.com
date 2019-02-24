@@ -410,6 +410,22 @@
         <manifest-digest sha256new="ESAPZ4462AT2KCX2F6JTRLJ3TRJLENUULL2YEADS3XRKJDSJ4HLQ"/>
         <archive extract="darwin-amd64" href="https://storage.googleapis.com/kubernetes-helm/helm-v2.12.3-darwin-amd64.tar.gz" size="23867687" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=7b3fc2a1c48fbcef96dcf97abdfe96db497aabe0" released="2019-02-13" stability="testing" version="2.13.0-rc1">
+        <manifest-digest sha256new="BAXYZ5KO7YMGLCGL4H6QP524I25TJYDNU2CNJDLWJL6LJDWUVQRQ"/>
+        <archive extract="linux-amd64" href="https://storage.googleapis.com/kubernetes-helm/helm-v2.13.0-rc.1-linux-amd64.tar.gz" size="22946830" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Darwin-x86_64" id="sha1new=9773c75d39c360f3985375febe16e133b80543ee" released="2019-02-13" stability="testing" version="2.13.0-rc1">
+        <manifest-digest sha256new="IAV7ZSF5DF45ARN673LOQM2YKSED2AF6E5Z7FB5MFIRMCTYZOM3A"/>
+        <archive extract="darwin-amd64" href="https://storage.googleapis.com/kubernetes-helm/helm-v2.13.0-rc.1-darwin-amd64.tar.gz" size="24087599" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=d0817d0d2f220f3d3021d276496ea4d1518f9120" released="2019-02-19" stability="testing" version="2.13.0-rc2">
+        <manifest-digest sha256new="DJYYOFEI2C5JSVX6E3FBXQMO62V4HCCGVERZPCGYSKQSAAWPCF7Q"/>
+        <archive extract="linux-amd64" href="https://storage.googleapis.com/kubernetes-helm/helm-v2.13.0-rc.2-linux-amd64.tar.gz" size="22946717" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Darwin-x86_64" id="sha1new=a362e154bcc092fd1cab6613758e18f6f4e08f27" released="2019-02-19" stability="testing" version="2.13.0-rc2">
+        <manifest-digest sha256new="LPTVHP626AOCKFFDPNWSLJALXFU7MI2JQJNUPJAZNBOJWXZL5RWA"/>
+        <archive extract="darwin-amd64" href="https://storage.googleapis.com/kubernetes-helm/helm-v2.13.0-rc.2-darwin-amd64.tar.gz" size="24087824" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
     <group>
       <command name="run" path="helm.exe"/>
@@ -613,17 +629,25 @@
         <manifest-digest sha256new="5CSF3LZAHVSHHGSN6SL6C5VX4Z5HMAAK4ZEREJVYFD33O55ZA3YA"/>
         <archive extract="windows-amd64" href="https://storage.googleapis.com/kubernetes-helm/helm-v2.12.3-windows-amd64.tar.gz" size="22760227" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=f79c0f868aeebbe8946f885c95fff01da6d0cd7e" released="2019-02-13" stability="testing" version="2.13.0-rc1">
+        <manifest-digest sha256new="6Q4XUYP4FD73LJZJP3RNDG6CG2FCHZXG3OYEJOTMCHDJEUMQ2CTQ"/>
+        <archive extract="windows-amd64" href="https://storage.googleapis.com/kubernetes-helm/helm-v2.13.0-rc.1-windows-amd64.tar.gz" size="22979031" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=5b571eb533628bbd00c518eb4aecfa9ad33ce336" released="2019-02-19" stability="testing" version="2.13.0-rc2">
+        <manifest-digest sha256new="RN34PES6IV53F7MSJD7DUEKQSLHLAA7QAUTNAWO7GHEVP2H2KIIQ"/>
+        <archive extract="windows-amd64" href="https://storage.googleapis.com/kubernetes-helm/helm-v2.13.0-rc.2-windows-amd64.tar.gz" size="22982170" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 
   <entry-point binary-name="helm" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlxVWskACgkQIuoRGn5CQqQUHggAk5LY
-poqWAWp5845PcT8DFxIo3tVZXeXejtrTj1d4Ce2QslLd4NXu0BAvY3uKLzvr3I6eXqJwQlCtZwQx
-5Sn92w/bK+upBFZJ6v8UC0ZLk1WtU4XfXpd9MZB2a848WYzY7HzbyuJxTRB4FbVr26tiX/2xuAo/
-bNPAUTcs8sImebRfVqrdzojhsAHkDajm3vnqb8rIcojmyco5RZeDrNLulHgIeA9TGv8qEkTdvAa0
-TvD8oyOuY8wF20KrbGFmHnNgrRas1Yfuo9Fnb8fGZwD5fdXsoQBXOpXC9VGQwbE0RsKSdKubslBS
-k5TMYgr3Eswd6YHfWyz/11PncamJdZa3Uw==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlxys24ACgkQIuoRGn5CQqTgXgf/YrnX
+ZVgZv9itXEWQQjNV8HIQ7DErCOcVP/6TimMpqUEdEINfBPsY6zCvpDxG3gzo/XSCCrbOr7nnE3Gi
+bT0NacNHWuk0H89BW8gj210vfVPfBCrYs86k1Nh8Q2qw1FsQgsVrINRDym56qnWkSwbB5rNV9m0d
+qVUXttZ0TyUA8+KvJSoSMPqHtY8zX2KAmj9rxDpoulvO/GzvnYA1jKVPQpJsSsesdW5wvGOh+rKz
+aFIsB8Ki8+GsPXnP52UZBUFyl6FO/xTzXQpMhFGbKu+MTxNqbENBU2MeSO9uuWVrrHs0nIC6LD54
+ORnxKKkuF5sns1Jf/Byq4d9znRoDKOtaaA==
 
 -->

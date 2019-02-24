@@ -87,6 +87,14 @@
       <manifest-digest sha256new="3L4WOZPSIPYN7YZ644HMGC7QABCFA2RSAZR3QSXJXUVIFI2IORCA"/>
       <archive href="https://github.com/PowerShell/PowerShell/releases/download/v6.1.2/PowerShell-6.1.2-win-x86.zip" size="54006640" type="application/zip"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=7711851b88a6497357b80fa48e7fe0558ae0f94b" released="2019-02-19" stability="stable" version="6.1.3">
+      <manifest-digest sha256new="K7GDDLHPHDHA2ERNN5FTKRF4WV34TSIPTDZZKNFFIAF2AHNAHWHQ"/>
+      <archive href="https://github.com/PowerShell/PowerShell/releases/download/v6.1.3/PowerShell-6.1.3-win-x64.zip" size="58700422" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=310c0b80a5b9def2f0d46f1c7569875440fd3686" released="2019-02-19" stability="stable" version="6.1.3">
+      <manifest-digest sha256new="ESUXVYC4R2F67Y3LRRSNK66IR3BXS4BWRFLB3UXQFWQ5UKVNUMRQ"/>
+      <archive href="https://github.com/PowerShell/PowerShell/releases/download/v6.1.3/PowerShell-6.1.3-win-x86.zip" size="53675619" type="application/zip"/>
+    </implementation>
   </group>
   <group license="MIT License" main="pwsh">
     <requires interface="http://repo.roscidus.com/lib/curl"/>
@@ -134,16 +142,20 @@
       <manifest-digest sha256new="XTODWMWRCEULKUR5XS5NWHN2ANR3EQ2ZFRWBA2VBC7WDSJQIYQTQ"/>
       <archive href="https://github.com/PowerShell/PowerShell/releases/download/v6.1.2/powershell-6.1.2-linux-x64.tar.gz" size="58107003" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=23b39fc1b4472409f89f9ef0f767103788e99dee" released="2019-02-19" stability="stable" version="6.1.3">
+      <manifest-digest sha256new="BKIOQVUY5JS4BAQPYRR2BLB5DVGKOPG5WJISORXODBAZ5FT2BCTA"/>
+      <archive href="https://github.com/PowerShell/PowerShell/releases/download/v6.1.3/powershell-6.1.3-linux-x64.tar.gz" size="57933016" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="pwsh" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlxC+yUACgkQIuoRGn5CQqR+uAgAh8Dn
-jkyu4zVZdV0UUmcNKt8GSPvPysILd9W89i2rRDP4edd0vX7ZZRGG5PZdM/WPDTVfYaRZZfmGktWZ
-bsH/gZMxH6uJ5lIFesEqZaqCBWHs8cm7q8b9TCRUGXvgcO0RmGNTm4tD3tmK+VIWbTFB1OiRTvVz
-lrcUBlRSEomdPw+DLVwJaLqtpqG23vnui8mm8mRtL+TtOHoLbJ174IFt7L5cxEXyKgveJuixKtqr
-ASiQdW9bTVqVoAp9XxY1Bw39SlwDQI0zhg0NUa41/SUVzwr8n+tk7+qcbxd51iEx9dMDrGd27bSt
-92omwfa5ekO/MSB38VxI3aQ+kJ4qkDQH6g==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlxys2wACgkQIuoRGn5CQqQdIwgA8x1k
+yVd83IaVNAgOO9jgIf1+Mw4rkgdRA+GEqQ47VMI5Hx1ljsQHOcj92W3S4DNdpu8kKU6T1wHHCb5N
+kc0jIy9mukYDnm1hae5Ab6QzcoERfwGBuMHqNKB+fGdD7v03V1oqoGsaE92PoKAHj3mOVqSSMuad
+rseNYDuavfqD3SU5uSW3VY5Q+ZOSgKtJSfE+NlQzddJiOFUMku/nrbmewI8z4TLqTBxGU7vjM3rD
+ZWQEuLsQquV2uni9tcLq9ChStKX8uSsICrAc8noYTjQULk3jftDvHfT374BpJv0mAzbgM+XOec8P
+570gjhtTOyXfLRPhREqCi46jppJDeYtNXg==
 
 -->

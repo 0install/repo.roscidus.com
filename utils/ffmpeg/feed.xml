@@ -121,6 +121,14 @@
       <manifest-digest sha256new="5YDBWM7DGDEHEB5IZ6RBGN3NGMPQBNG2FY2EA4VOCVX3LXFTFT7Q"/>
       <archive extract="ffmpeg-4.1-win32-static" href="https://ffmpeg.zeranoe.com/builds/win32/static/ffmpeg-4.1-win32-static.zip" size="55159009" type="application/zip"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=a06314df85debb04fc3fdd1333a18ca0c4f32180" released="2019-02-21" stability="stable" version="4.1.1">
+      <manifest-digest sha256new="WI4AHLXCA5UWQ4KCKDCYIZMV5ZFTMTWQGYF7DAO52SZMNIIKEF3Q"/>
+      <archive extract="ffmpeg-4.1.1-win64-static" href="https://ffmpeg.zeranoe.com/builds/win64/static/ffmpeg-4.1.1-win64-static.zip" size="66347524" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=683eaf394844aad2cc618104b0d49b5aec3290ca" released="2019-02-21" stability="stable" version="4.1.1">
+      <manifest-digest sha256new="RV44A2VMEV4SENGLVXSB3PIKBWQDCTR5TRIRI72LY3XICIUULFBA"/>
+      <archive extract="ffmpeg-4.1.1-win32-static" href="https://ffmpeg.zeranoe.com/builds/win32/static/ffmpeg-4.1.1-win32-static.zip" size="56613981" type="application/zip"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="ffmpeg" command="run"/>
@@ -138,11 +146,11 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvwQ6YACgkQIuoRGn5CQqQU7Af/aJD+
-/Wo7IyGkYLjljtIQVzySz0/50SFi0QL61/eaJ8D8jByccxZ5L27jRUmNjAs+Rgnb6RNJ0OLkZUvY
-ypQ4G7ZHQk1iWmcRyTs0W2kXcvjwQ+1M6vpVU6E3nxvbGvVvrx5T4N1py3xYx9UDPuFCmq5I6H9I
-RGxGISvSdfLo/ydGVCaKECVUUHTBEKEvDmxUnumVwzQxE8GMKvwlUqke+Xks7sUbTuQFHXsQWb4E
-FW/kXpmAaRJZVbteAXMU7Yn1pMN6DcQtWwuWp8AMbuUnZErrJTCEgb+sxGe1kwFjVlXxg7TUfqcS
-nAk466w2gbn0HNl+ZNyt7fVSgMN1v4p46g==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlxys20ACgkQIuoRGn5CQqQ3qgf/Z6RT
+1jmBvP0Ptxpi01dONqXTwB2BtlgkYTXiGzUVlHSKX6gUIq/UpVKr3/av5tQihEu4/7y9Oqa7Ud1J
+q41F9qNd6lRF32lTuUi33wnnqVezkikouPpsBpjhBLDhy+JlTRALYdKMC9kyRtaUKMaOnidokCjL
+oWE12h3SvXgzEp3w4y8vieUQhUL13DPK/l6Aswuovm8uxAcCzOZyOWqeeeSVJZAiNeNyCt27QREz
+Cs+3l/A/IcoERJhssp90G+ER6o/WF2OivoOGO5YZSzNM2fYFBUOH/P68+7zUFHwKaCzYIsjjxMiV
+wD+w6kxpM/7Wwb7O35iD/FgZ4RfrZfBoRw==
 
 -->
