@@ -601,6 +601,20 @@
         <remove path="doLocalConf.xml"/>
       </recipe>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=ac09ce90c972edb43a470983b6d08af4aa46a926" released="2019-03-06" stability="stable" version="7.6.4">
+      <manifest-digest sha256new="7A7BM3WK4P4UEFRJCAEDWEO7LUC3BHHUVULRKRTNJV2YHX55F6YQ"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/7.x/7.6.4/npp.7.6.4.bin.x64.zip" size="4276336" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=e1756139e633092c6550b01934ebfd4c2fb749fe" released="2019-03-06" stability="stable" version="7.6.4">
+      <manifest-digest sha256new="UWK42P3MCAWXUT5XMBZ3HA2TLOR6OJ3EOFZBCC7EIL3FM4KCTVCA"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/7.x/7.6.4/npp.7.6.4.bin.zip" size="3869606" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
   </group>
 
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
@@ -667,11 +681,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlxVWskACgkQIuoRGn5CQqRIMggAg44G
-lZ1/h3MkiIJ7Y0g6aPm+eWjVrUVJHGNImhDx5rbh/dpsHJHRrX8sXyYu00JuWrutZ95Q4dluHP5e
-T4DHB2bahJdN+w47KAb8NABUxSPrRQQbUD9pspanLMpkm11wV7jOxN1pXd5tMi+AriiooMjn62wW
-tfcmuPGHuFiXpGvyWU7Hhtx+td+GrGU+jGBY0wbQkTbxf25yu6eXi6VuCH15A3ke+DVW5Cycz7ZL
-qtxqS4HUHLUpmk7CfhPIXPc+r6SxrAzqxwyNXrjrl96Vx2hYLUYMsvJD434tnSWk8UjIwf0Bcz6Z
-sYGnigrPLtHRGMAgIDOyyrNDiAcOEKKqHQ==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlyCTFIACgkQIuoRGn5CQqQTYQf+OGXg
+di4YX7aeMogevh3TMii/v/ytmm8dFAz7vHbx2BsbvleCWgI30hD3o1wGV7Xx9XBF42QmGGVAMQy5
+9OAwjacSw0AIExFUSsG2UeczfVut6pbfkgZw1laTOA6C0pjysq7KqOco4+oigR8O3YArwH8okBcK
+gDOR0Cs7YrXPs6NSsHnpgaf0Odg9K//cmtRh8+guwGCeY5lglNT47/DF3QeKK0HnybAaDuaLx2Uj
+neVkfImAIvtyzLpiAoTPpSjzC8ZuWrUhQgaqNKgCbQQEO41L119gVjotJYE434+bBG8Eadmjrkj0
+NejKbNBf118qGvsfZ21MemjKyzUenpC2pA==
 
 -->

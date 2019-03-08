@@ -320,16 +320,24 @@
       <manifest-digest sha256new="WYYWW44UWLFPT4TO4QAIW33C2RE5NHTQKQS7CAC2IA7CSVZS5QLA"/>
       <file dest="kops" executable="true" href="https://github.com/kubernetes/kops/releases/download/1.11.0/kops-darwin-amd64" size="98406176"/>
     </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=1f68925458ad93fc11dcb3b0a657c43086cf95d4" main="kops" released="2019-03-01" stability="stable" version="1.11.1">
+      <manifest-digest sha256new="X6H746ILCGY3733ZJMH5XKO2LJF4J3ODSW7ZJHQOEHB5USDGOLPA"/>
+      <file dest="kops" executable="true" href="https://github.com/kubernetes/kops/releases/download/1.11.1/kops-linux-amd64" size="84961664"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=b80c761d1f8002ff39bc17fe0e21945831f815c0" main="kops" released="2019-03-01" stability="stable" version="1.11.1">
+      <manifest-digest sha256new="EBFYREPDQ32LB7DQOPXTQGTDS57YYLI66TQRCNQ66WOPZHYBIGVQ"/>
+      <file dest="kops" executable="true" href="https://github.com/kubernetes/kops/releases/download/1.11.1/kops-darwin-amd64" size="98406432"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="kops" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlw3buwACgkQIuoRGn5CQqSB5QgA5mb4
-Y53nw0zHEh2nUL+dHU1GqYKnlUV1N9DqxNSP+vN+RrEvhqWe5tnnfQWeOixZrZioiq897/A0C5Rn
-qDGZa9nyuumEj8g4e3w8sgk++cb8Y9dxToUiiTHzO/yCoSrhbhtkSZ0L5+ZzJU9BMlC9vndu1cS/
-cYPdTYnVKorMEIWHsGwb8+YCPfB7RII/+6kmq8ozdfu3nyxP01ADyhYmVicSKtui5TQc1cdpJMvn
-WxEk98PasSpKY13buu1V7NWYhUu9FKJG9z9RQut4nzd9YWqBgRkp+F0i+3vEAUgtwrwd5/IKFYUM
-l/GuTbwRegjFhapB63L5uJfx0kEMGwwWyg==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlyCTFEACgkQIuoRGn5CQqR01Qf+NH+a
+Hyq4yvyADkWQfnpR8lnKIFiWlRstwso4ocoJCy4B39eCohMtrRuR11vGRaEA5hEGAekjn1EnvYaX
+OZn0l9ytMbCRVnoQcw5+qBV0pe0kDRcpzOcsQPA7auSsnWOzTwbwtuGMLXonQQuAJfF/OSQJq7Mh
+HIsVtQdpGxnXC58/tmCgw3T5nwMQVWIULuhYmSEyWzT5IIrCK7QGyzyLUCS4oT1I5OssSXwLv1jK
+X9yEK3kUBmy9CaF4UtBCBWtO1yoWBdmqku+jbCEaMk5sJEbxgY0cnL/99N6UIkM4x1o6DqueeMSp
+J5bTcT1NxcGjFinvEQrb3hdzAKOwIYLIOQ==
 
 -->

@@ -336,6 +336,14 @@
       <manifest-digest sha256new="3JDA5TL7QUDDQVSHXN2NDX2X5XSLSYIYYVR7LG6X4LTSTAKKI52A"/>
       <archive href="https://github.com/git-for-windows/git/releases/download/v2.20.1.windows.1/Git-2.20.1-64-bit.tar.bz2" size="98129652" type="application/x-bzip-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=e8cda8fe332ba3f41f401a663ab611a5f692c441" released="2019-02-26" stability="stable" version="2.21.0">
+      <manifest-digest sha256new="OZDBZW5OM3TALGK56UQX72O7UPJ4ESUEQP5MXDSUE45PJ6TSWXEQ"/>
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.21.0.windows.1/Git-2.21.0-64-bit.tar.bz2" size="100274000" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=b3585f4b36894eebb386dfbfd7c252cea4c80a20" released="2019-02-26" stability="stable" version="2.21.0">
+      <manifest-digest sha256new="NCY5OLMPEMEJQFAUSPHFTYL7NVPYTFP752IKHSVQ3E2TV7HJYRVQ"/>
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.21.0.windows.1/Git-2.21.0-32-bit.tar.bz2" size="98217205" type="application/x-bzip-compressed-tar"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="git" command="run">
@@ -410,11 +418,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlxMJDcACgkQIuoRGn5CQqSjpAgAyGEb
-9uB9oGcTik+EzseuPZtOaMWFSRe/9GpVhGRjdrxsCkbjQyPyzhhy1RTiCNCF5ZTF+h9SxGsGDZn9
-qY/GGcWahovFqP0vzFiqAuKDTvqAXGwkrn3huaOjk5D7sberANHjvTqiSf7ZRtwPLYt+z38PE9Gm
-zl/e1qvlBA8NTZD7Vg+Qm2OtFi5Y9ZwR7tpwS+3KaFhiJJEYIt3P/WShHRX76Ktrl5+bpjOOMU3x
-UwfhmlKdxS8+zzS9T0v2CD+D4bk5pVdFPwJuZInj91IgRholzpDo/gdLDV9NdziNFdAc8UlRHxs/
-qKl9PbyTnvEid4SK0O+leBFCPLnXpQkvnw==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlyCTE8ACgkQIuoRGn5CQqSKXgf+Jtlb
+tDOeI7TzCNKo54Jf6F0d9TyECYPJGkeiM1HZLcty74XH04wQV71M7QaETYQ0F5dh1K3FFdTTrqA6
+vfqFJCleIdY31ZxhmXc6eUohu3apOVo1Vox/vuaOSiT3/XoG2pVh4aXsMYvsFOTHmQ3bfu2Ashzu
+CpHQaofZtM4LWqIqu8JX6l9Ar09NB6f6ORrWfoWSSOGIyIn1opJQwS4u9n6ieoVjdX8YM6YXJCEY
+SIS7xOoFfjWU5VfRYz9IcUEQFeKDQXxBr6BSij9fNvrih9diBGxKWkBeDmQJqGjgbEraV3YPHgCJ
+q7q4hMyV8uKjucGjIWn+KAHw6JdYV7yJ1w==
 
 -->
