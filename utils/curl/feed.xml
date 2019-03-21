@@ -284,24 +284,24 @@
       <manifest-digest sha256new="WPBA7YQ2UXZ4L3X4S6WGEYHNOGLDB6AIR2UJYWG2Q2V2V2JBGXQQ"/>
       <archive extract="curl-7.63.0-win32-mingw" href="https://bintray.com/vszakats/generic/download_file?file_path=curl-7.63.0-win32-mingw.tar.xz" size="2049216" type="application/x-xz-compressed-tar"/>
     </implementation>
-    <implementation arch="Windows-x86_64" id="sha1new=1ed19054d4ac2157074091abdc78825379dd818b" released="2019-02-06" stability="stable" version="7.64.0">
-      <manifest-digest sha256new="6WBOHNQA2I5JO4WOAUNVNHVMD6GQK5ZCXBJS3OXJW6H4BTWJDNSA"/>
-      <archive extract="curl-7.64.0-win64-mingw" href="https://bintray.com/vszakats/generic/download_file?file_path=curl-7.64.0-win64-mingw.tar.xz" size="2150708" type="application/x-xz-compressed-tar"/>
+    <implementation arch="Windows-x86_64" id="sha1new=45a4ab70081e21e1a3a0a10ddfebdca95e2b42d9" released="2019-03-08" stability="stable" version="7.64.0">
+      <manifest-digest sha256new="KQ3RO4ADSPYITORAY6COF6NAQVWX77WRIVT3HO4FEDZPGDEDEC3Q"/>
+      <archive extract="curl-7.64.0-win64-mingw" href="https://bintray.com/vszakats/generic/download_file?file_path=curl-7.64.0-win64-mingw.tar.xz" size="2154764" type="application/x-xz-compressed-tar"/>
     </implementation>
-    <implementation arch="Windows-i486" id="sha1new=4dbc5be201979ed5fdd5fce665f150dd423d72c7" released="2019-02-06" stability="stable" version="7.64.0">
-      <manifest-digest sha256new="SDJEQ3IKSFNTQO3NUXP5CIJI4AAJCWKVSBXE3ANNKH4Z2W56MQAQ"/>
-      <archive extract="curl-7.64.0-win32-mingw" href="https://bintray.com/vszakats/generic/download_file?file_path=curl-7.64.0-win32-mingw.tar.xz" size="2007492" type="application/x-xz-compressed-tar"/>
+    <implementation arch="Windows-i486" id="sha1new=295d8d2cce1f2b052784c0aae757e1847dce9339" released="2019-03-08" stability="stable" version="7.64.0">
+      <manifest-digest sha256new="BYXGFTJYL74BAJCYJMEFARSNIKJTJC3VFOAWQ5N545RHH6K4TZIA"/>
+      <archive extract="curl-7.64.0-win32-mingw" href="https://bintray.com/vszakats/generic/download_file?file_path=curl-7.64.0-win32-mingw.tar.xz" size="2010668" type="application/x-xz-compressed-tar"/>
     </implementation>
   </group>
 
   <entry-point binary-name="curl" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlxys20ACgkQIuoRGn5CQqQRGgf9EBtF
-UwA4u/loJSKKh5bb1K0SfcdGXLbk5N4JwxOiNqsAOClDFWY94YV+wVfVVY0es/nbY3ff/ewwE2vH
-j+p01Fgr4salGqOJHIDWLcz6AB3+SWeHImLdnkxdhBcdVv8dE+5aO44ogPw0TcZ2Pi3GdiEz3Srw
-ufGieVWUBZPUtRJJLaMqra8AgwquXiGZklr7mmHAX52UkvEuVdKTp5nXi1BImNAMmhHpLyK39+0L
-fNMPhptZLSwM2Zc1WiaAl3TE/2scwQMI+vw4Mwzt+keGhJol9I9oo2mrcxltLTbcaqRxoePMB30Z
-JOOysSiZ+r3bm5PnBFIAfZxxGMnuQ5pwzg==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlyTb80ACgkQIuoRGn5CQqTLZAf/RrxJ
+zcXr5mycoEV+HuiLVWlfbFhEevwprceXluMSkUk0tjjPcq995I/A2gY4CHm4A9fF/wHZsNcxy7TX
+W9oZ2kJiVh/XNQNGsCK91QoQjJAaW12+i/7IPvh7zo75yecpqFTNZ62ipcZDXIdl/IKdll/lpXta
+Tm/V2AxiAmj3LQmnc+lDVInVb4U8EACpzGod69ryQQYWEUfjiVA1SIrfdKaaetkfkh8QrXQaeh55
+O0ZHMFHcBACnRrAWrwajJX0GWItDbLmaB2e4cY4i6HHWWH4xiVd0+GHFmmDy77buCnOs+GmRNCxT
+KvpFLrHKa/zLfKxc+xYhkT07Ki750byURA==
 
 -->

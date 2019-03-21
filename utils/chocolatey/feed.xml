@@ -363,6 +363,14 @@
       <manifest-digest sha256new="24TLCPVFA25LBBVNM2XL7Q4CPIJCZFFWZK2HWOSHMWTBGAAEFNMQ"/>
       <archive extract="tools" href="https://chocolatey.org/api/v2/package/chocolatey/0.9.10-beta-20160320" size="5891494" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=482506d41f8e96a20a4b0345e3804f4a85f7e3ab" released="2019-03-15" stability="stable" version="0.10.12">
+      <manifest-digest sha256new="3SA7OC6GKKJW7IDT7INUBQXAA6OUCNAMGNIFWA2B76LJV3C3RFDQ"/>
+      <archive extract="tools" href="https://chocolatey.org/api/v2/package/chocolatey/0.10.12" size="4064224" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=3759833bae5cbe2fc6927a8b1fb857d912396df3" released="2019-03-15" stability="stable" version="0.10.13">
+      <manifest-digest sha256new="4HFPASZGWS2746VIXFRNTT6D6AXX2MYKVVMTTD3ZMTFBHRQJS2XA"/>
+      <archive extract="tools" href="https://chocolatey.org/api/v2/package/chocolatey/0.10.13" size="4064469" type="application/zip"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="choco" command="run"/>
@@ -402,11 +410,11 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlw3busACgkQIuoRGn5CQqRC2QgA0oas
-sG/ri6UZsCluD1Z7Xtxi0U4v/wr4HNR/4IAj6nY4LnqxNoNp6Dn40wWVvKQKyR6xJGAfvNUf5pPj
-eJ0RwykA9JoDWkJIzqQReAq7zotqJ1iZOpd02JdmjiRwPOotpzNesnlcNeRN8/H5ANknBlHHVaKb
-EgJckbulu9F51qex7Ud7ufMJEf8YqvFnwVraMQspQpL8T2KeQZyq1khdf5Go9GHKjbHyt8ainwqR
-/ZKZ5ZOlqOFjyW+NgWN4Tnu1JSTHiOdxPWkCvER9CGgg59SfK/uaDv05P8mUk+AZuzW6MmfY0JJd
-jNtgYUzv+o2oNFoEFCAL0Tyx4BZ6HuUToA==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlyTb80ACgkQIuoRGn5CQqR5MQf/eh7g
+T6cehjA9mxwwhvsOOLydB94YOGPbtqHa0ms2tNun1cQDm+BewyjEDJiSNlrSBn1qB5ZpfkJ9w+fw
+jgVtIYaLgeytpLk9G5LbPyi2tk5vxnmvaYUhlvgwYZLkD4q1q/G/UBc2e2a3oeaWKEv7CA7KGUmq
+y9x/u+HLST4t4/76Dlhw+ADMjvekeKozcBep45POoCo2mp9HLaehLgg70lK4z3hAPmQUcdnbczqN
++XxmflgqjhytLIJ4igqIfEOYDji9ruiFg5eqkbQTwFfQhIP+HlW4jOD0HFCTYthhwZq4/uzjBcKG
+ZFNJrWQkls0YCcUXycqEUY1Ba/WWZhNLFg==
 
 -->

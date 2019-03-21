@@ -471,7 +471,8 @@ The upstream sources for this package are available at the location
 ftp://ftp.gnu.org/gnu/make/. The documentation for this package does not meet
 the Debian Free Software Guidelines, and has been removed from this package.</description><category>Development</category><homepage>http://www.gnu.org/software/make/</homepage></interface><interface uri="http://repo.roscidus.com/devel/make-dep"><name>make dependencies</name><summary>libraries for make</summary></interface><interface uri="http://repo.roscidus.com/java/openjdk-10-jdk"><name>openjdk-10-jdk</name><summary>OpenJDK Development Kit (JDK)</summary><description>OpenJDK is a development environment for building applications, applets, and
 components using the Java programming language.</description><homepage>http://jdk.java.net/10/</homepage><category>Development</category></interface><interface uri="http://repo.roscidus.com/java/openjdk-11-jdk"><name>openjdk-11-jdk</name><summary>OpenJDK Development Kit (JDK)</summary><description>OpenJDK is a development environment for building applications, applets, and
-components using the Java programming language.</description><homepage>http://jdk.java.net/11/</homepage><category>Development</category></interface><interface uri="http://repo.roscidus.com/java/openjdk-9-jdk"><name>openjdk-9-jdk</name><summary>OpenJDK Development Kit (JDK)</summary><description>OpenJDK is a development environment for building applications, applets, and
+components using the Java programming language.</description><homepage>http://jdk.java.net/11/</homepage><category>Development</category></interface><interface uri="http://repo.roscidus.com/java/openjdk-12-jdk"><name>openjdk-12-jdk</name><summary>OpenJDK Development Kit (JDK)</summary><description>OpenJDK is a development environment for building applications, applets, and
+components using the Java programming language.</description><homepage>http://jdk.java.net/12/</homepage><category>Development</category></interface><interface uri="http://repo.roscidus.com/java/openjdk-9-jdk"><name>openjdk-9-jdk</name><summary>OpenJDK Development Kit (JDK)</summary><description>OpenJDK is a development environment for building applications, applets, and
 components using the Java programming language.</description><homepage>http://jdk.java.net/9/</homepage><category>Development</category></interface><interface uri="http://repo.roscidus.com/java/openjdk-jdk"><name>openjdk-jdk</name><summary>OpenJDK Development Kit (JDK)</summary><description>OpenJDK is a development environment for building applications, applets, and
 components using the Java programming language.</description><category>Development</category><entry-point binary-name="javac" command="run">
     <name>Java compiler</name>
@@ -524,6 +525,9 @@ components using the Java programming language.</description><category>Developme
     <needs-terminal/>
   </entry-point><entry-point binary-name="jdeps" command="jdeps">
     <needs-terminal/>
+  </entry-point><entry-point binary-name="jfr" command="jfr">
+    <needs-terminal/>
+    <name>Tool for working with Flight Recorder files (.jfr)</name>
   </entry-point><entry-point binary-name="jhsdb" command="jhsdb">
     <needs-terminal/>
   </entry-point><entry-point binary-name="jimage" command="jimage">
@@ -703,11 +707,11 @@ More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
 This package is built from the X.org xproto proto module.</description></interface><interface uri="http://repo.roscidus.com/lib/zlib1g"><name>zlib1g</name><summary>compression library - runtime</summary><description>zlib is a library implementing the deflate compression method found
 in gzip and PKZIP. This package includes the shared library.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlxMJDkACgkQIuoRGn5CQqTJWwgA2nL+
-8WmavdPkWKwgP+H2YGzFqfpoI6ZhkUhAjg8ny1ugoZ4FJDXuo0OxKkZiMoUi9Db6bMJ4SXN6foSD
-fT1MCTcNDpV3zksa61lJdHGFve3ViBur8fKpXc1kjQU4M+yA1w0ejA6aSBs9xwdjkOXS7t7p9GCD
-duswv5/DfDqlAZO6l1G9GNAqzvLw8SKGQ6OBRS2VxTUnmLeMGGLLyqDeZyuH8VgI2RoSSPHpcsDM
-CRjIAlP5h/Esu4MJPg9DRJPD3ibb7Hs8SjNKc4EVbQOvBtKN638TCFrHN0uWN5dhHrCyYwduS1h2
-pQ4axJaOe2jdAu8DU8BVesV+tV+xHhzQFQ==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlyTb9EACgkQIuoRGn5CQqQ5Vgf9Ek+a
+AoMkJggBZymV6FToaTr8niseZ50pk92dHlEx2abSd8By2DBPecpyxgOVms2C6PEqRhQ7U7lCX1As
+5JiZ1eG+4C+EXPnZ8+Ih5P2ZvGyrR1Jwxh7BkCG/qCiZGKCNfjqYM54sjH4IejW4jFmEPDISIMb+
+H0BOvZexNN9bj4WAqQJeFMYuSEvsBmziBOrAM3Ig82EC4M0Y9hoXgbYaYjxKJEp0K/rvlcaZAAl3
+/VekmMbHjNKoXtXWzVYJY2x3/91hpATrY8L/PUXZtHeTpUI95QjlYdqrjoKsZerOFE9eQh0sZs+B
+MDIBXN9vdisjYfpabFMiFQEwF1PYmuCkRg==
 
 -->

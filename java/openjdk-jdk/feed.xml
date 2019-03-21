@@ -16,6 +16,7 @@ components using the Java programming language.</description>
   <feed src="http://repo.roscidus.com/java/openjdk-9-jdk"/>
   <feed src="http://repo.roscidus.com/java/openjdk-10-jdk"/>
   <feed src="http://repo.roscidus.com/java/openjdk-11-jdk"/>
+  <feed src="http://repo.roscidus.com/java/openjdk-12-jdk"/>
 
   <group>
     <!-- Some versions of JDK bundle their own copy of the JRE. For those that don't we refer back the regular JRE. -->
@@ -146,6 +147,10 @@ components using the Java programming language.</description>
   <entry-point binary-name="jdeps" command="jdeps">
     <needs-terminal/>
   </entry-point>
+  <entry-point binary-name="jfr" command="jfr">
+    <needs-terminal/>
+    <name>Tool for working with Flight Recorder files (.jfr)</name>
+  </entry-point>
   <entry-point binary-name="jhsdb" command="jhsdb">
     <needs-terminal/>
   </entry-point>
@@ -202,11 +207,11 @@ components using the Java programming language.</description>
   <entry-point binary-name="jaccesswalker" command="jaccesswalker"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlxMJDgACgkQIuoRGn5CQqRBkAf/aARm
-naOOFXV3TB0eJe1G5YERE/jhq+wyK3ekfOLRBeDw7GzZoBcO0Llxz/P+EIvmJdkD22oPSFRSLd13
-dDbuBV6dH/tiPvthuh6tWYW5k0MHXFL6/RvbmSDVaVTKFjRQymY+3J33STmWATXdWAxylIWtbiXM
-o1ou20DKkhMSzs6tdyiKTMJSUKN/RY0Cl0a/VQrvZ9+kQRntrSvG/0O3IOCvwqOHisIgnpNBrXAh
-flRV7ZZRgqPXUjX2OYWgxis3oauC3+0It+B8Hxghtnj9KfOCEAbS7YO2EoUlV/LwLc1ikproQyMl
-a7tJ1/D20UtWLzb+O+Jo+ktIRPjwiAE4Xw==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlyTb84ACgkQIuoRGn5CQqTAMgf+N9aa
+lwlxOfROO613aXaGq5Bhu3dGuDJCuJtYmeogXrUfSI+pTnXeuF6YaS5D914sit+x7JMNRFcfx0Cf
+M7FmnhwilFyIriJF3ng7HIn6YA0i0rL0IexCUlFIvWcWkBPHY7gRHw8YKHCGuT2m0qiuy7RgkCaE
+ifV/DsRGgdF5/Zf74hf4LrzQuDPO3pl08aAbCdZclsRx2ImhhnjBgIMqai207hI822/1IZphqRzp
+9NwVsE0+w/IEe/fAvl+dgj929unCI41lMvUzlo+NkG8OCvtICVPLIPrYMCj4CiyGv4936GTqGGXr
+3yC2sk+R48oPTs9aiLw07iTV5+Naw/BLzg==
 
 -->

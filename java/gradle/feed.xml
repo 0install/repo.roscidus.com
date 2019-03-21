@@ -878,15 +878,23 @@
       <manifest-digest sha256new="WFKATNMYBNWAJK2IAL5FNKRTLW3CCQ4CE53XKYMCLIWMQ4IDTDDA"/>
       <archive extract="gradle-5.3-rc-1" href="https://services.gradle.org/distributions/gradle-5.3-rc-1-bin.zip" size="87238414" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=4b3959ab01e33b77161e34f8764684bc19b789d5" released="2019-03-11" stability="testing" version="5.3-rc-2">
+      <manifest-digest sha256new="DYHFR7SIKABWLX62RV62VBTZXBAOUN4D4AI6RNY6BDILIVLLVEZQ"/>
+      <archive extract="gradle-5.3-rc-2" href="https://services.gradle.org/distributions/gradle-5.3-rc-2-bin.zip" size="87238800" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=d02d101ce159c89cc596304b61072f53b9420c9c" released="2019-03-13" stability="testing" version="5.3-rc-3">
+      <manifest-digest sha256new="N4B6NTUY3APPKYCHB7BMHKPLIWU4L4RXESBRX6TW36EXD52LNZRA"/>
+      <archive extract="gradle-5.3-rc-3" href="https://services.gradle.org/distributions/gradle-5.3-rc-3-bin.zip" size="87237886" type="application/zip"/>
+    </implementation>
   </group>
   <entry-point binary-name="gradle" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlyCTFAACgkQIuoRGn5CQqRrwAf/UtZj
-/KmU9bxNsRuNKKREx9QMwXKEqwCJs/jSV3P8wOuF4KbhpZfBa6bPjHti9X3XW1AQKJrMfLOm0h/h
-HSqP+svIvtjKhoznbYLBmEhB8bZc6gk2kkIRotxJS+mnelLZYMnUXuEpnrlq5Oo1b1JMiqyHszTF
-CgwYZdavwHHjls1gJyrRqvwVM1tSIytbvOs3Bb1pqLkPQG+6mTECM05eQ7ye5sz4iFiJN13PGRdo
-G3dvyhHZIF1HCNp7yclTScQpnD7ZsIQg4UgWEEd0GB2BbXA275KHERtGTMiGuHpt/iP16P1Cpm6l
-ofFyU5gmD2rjFk4kyVZRX6syZ5IcFzywgg==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlyTb80ACgkQIuoRGn5CQqSM/QgAl2rC
+oz2wARjGQEjOhcMywWTjVieL730oQ8p1gfQXhrofCbdBvvtXMOu/iaZXzT9LYdAkhsCOFrCff7CU
+XbxNl12F4+sKPv0uVVUbdndWVBoKSpRoAQP2CEPMOSyOTEknk1w4yAVUELivh9LM0lSpXJQePPcH
++9uhs+MD+vxqCeCjU3kDeREnOPJk3l6U3Lc0P3KWmzLmfbkHOUHUoNETbcLdQg7/8Y1UAR/dVMYm
+V397My1vLsEH4zmdcOKww+RsSIupk8IQ4jMvWXZqswWfT4Aj6QKYKlyt+gxfldfiwPSKpysahsVv
+PTNLmB7CgQ796IBBYGSLC2DmvdJG0dZttQ==
 
 -->
