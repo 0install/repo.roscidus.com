@@ -698,6 +698,20 @@ language for applications that need a programmable interface.</description>
         <remove path="python37._pth"/>
       </recipe>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=6108aa4cb8c7595aa77b4bc7150330a8111f1450" released="2019-03-25" stability="stable" version="3.7.3">
+      <manifest-digest sha256new="OZBU5WQJGI4ZYTMAGZKYKM5GUXV7XVIAQBBJJP7RFXITN5C7ZXEA"/>
+      <recipe>
+        <archive href="https://www.python.org/ftp/python/3.7.3/python-3.7.3-embed-amd64.zip" size="7018568" type="application/zip"/>
+        <remove path="python37._pth"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=8caea8e1c139b7fa15eba372599bd9754606ea54" released="2019-03-25" stability="stable" version="3.7.3">
+      <manifest-digest sha256new="K7HMB22R5LFFNXVZLNVF4CHHVMDFJJTP2EP5KLY246R4OTCYSVFQ"/>
+      <recipe>
+        <archive href="https://www.python.org/ftp/python/3.7.3/python-3.7.3-embed-win32.zip" size="6526486" type="application/zip"/>
+        <remove path="python37._pth"/>
+      </recipe>
+    </implementation>
   </group>
 
   <entry-point binary-name="python" command="run">
@@ -730,11 +744,11 @@ language for applications that need a programmable interface.</description>
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlyTb84ACgkQIuoRGn5CQqRBfQgAh1c4
-phXm68/IbhSDQnbcd6uNILGHzFJJ3z4uTvvZZOYkICv9jMExIEu7X/pXyokGvA1TLWJcfvv4bFpV
-qLiUb+hrk2QS6p7moRH1CbgLkCqMui1VWizh+nqnzz10UT6hze3G9Bv9UlfuBd1A4OKhy7gFiTQD
-mT0hPOM+xo6cvn3zBX8J2NkMnE4mrwTWLOyJp8BUiABhkKkPWLnJgxM2QoFm6MAvGer8Y9SXKvx1
-j2DNszBuJGqD4pe33RKiSWNHz8qSJSbd0TWH6A2K0i96c0yGSVT7asb2+FmGG71JqL0saoUTYMFC
-KjDRXMC7AYaRMAcEsDQkC04v/I/n+cfBow==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlyfeK0ACgkQIuoRGn5CQqR45QgAoPMK
+MPAO8V7ibR402CALVGE1soDmrg5GueYvUonB4b7W/WWbmeU7bmFLdJFrhmf/hdQLCdfMQ2JaQXpa
+rF759UGbJ0AKyKS83458Cp0CMxw/hMj3smHJr63XAvvFkOOCkTUieqd+VxUEHhq/oBPyk1k2Kaut
+6TTeJMNYW8DPMuEfHt5Q/UR0Ax/3DYXUbtFYW5PT1sWA5dgJYMN2k88SpYctUWx4A6DRYXSbL8UN
+2nAlQUWrvigAImnMawzmnOLX1jTAI2u9yQBNglJaz0Li30y2pN55ZoLxwdALyudcFdSh8r0cq17x
+kHixMEb1mIw5rmg7znVllooHonAd4RbQ5w==
 
 -->

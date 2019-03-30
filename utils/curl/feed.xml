@@ -292,16 +292,24 @@
       <manifest-digest sha256new="BYXGFTJYL74BAJCYJMEFARSNIKJTJC3VFOAWQ5N545RHH6K4TZIA"/>
       <archive extract="curl-7.64.0-win32-mingw" href="https://bintray.com/vszakats/generic/download_file?file_path=curl-7.64.0-win32-mingw.tar.xz" size="2010668" type="application/x-xz-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=a0ffe930e4b1b007987282fa250338fd712a9872" released="2019-03-27" stability="stable" version="7.64.1">
+      <manifest-digest sha256new="WCCOCEJ2M2VZDMFH3XQN7NAKWAKKUETTCLYU2NMCBSGC3NZXEQUQ"/>
+      <archive extract="curl-7.64.1-win64-mingw" href="https://bintray.com/vszakats/generic/download_file?file_path=curl-7.64.1-win64-mingw.tar.xz" size="2137240" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=6c10967021e9b509449e9ed0d1fc92925b024e0d" released="2019-03-27" stability="stable" version="7.64.1">
+      <manifest-digest sha256new="XDGND6ZY525G3KJHSVSY4XKIGN5JUVYCQGF76S7FYM72IJB7Z46A"/>
+      <archive extract="curl-7.64.1-win32-mingw" href="https://bintray.com/vszakats/generic/download_file?file_path=curl-7.64.1-win32-mingw.tar.xz" size="1994104" type="application/x-xz-compressed-tar"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="curl" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlyTb80ACgkQIuoRGn5CQqTLZAf/RrxJ
-zcXr5mycoEV+HuiLVWlfbFhEevwprceXluMSkUk0tjjPcq995I/A2gY4CHm4A9fF/wHZsNcxy7TX
-W9oZ2kJiVh/XNQNGsCK91QoQjJAaW12+i/7IPvh7zo75yecpqFTNZ62ipcZDXIdl/IKdll/lpXta
-Tm/V2AxiAmj3LQmnc+lDVInVb4U8EACpzGod69ryQQYWEUfjiVA1SIrfdKaaetkfkh8QrXQaeh55
-O0ZHMFHcBACnRrAWrwajJX0GWItDbLmaB2e4cY4i6HHWWH4xiVd0+GHFmmDy77buCnOs+GmRNCxT
-KvpFLrHKa/zLfKxc+xYhkT07Ki750byURA==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlyfeK0ACgkQIuoRGn5CQqQD7QgAwscd
+Bzo9Q3h7x4HfYSicjBwzexrrpUQdxwCTlTCXiL26BbzF3YRwe45frDRzfkk6rErgK4cAfLgOLlSu
+o/mojC0wYolExcbX5iZqRcXMliFkEOZsIGePrffsZV/G9oxmlAKqz0alxxfv8TpYQVL+ieeUAPl7
+tL7Ozi8bJb9JWobzhX7hi5bxQZFVVR6A7aLffSeYzqdCZTuFU/S4xp7xxxSM5bHlULkx+vHMUgnR
+nzoToS7rRS7gmoRtL2vSG1snvffABX7oKuN+0/Xob2AqBIHL2Kbe4Vqk30yDiVk6fsctJ01yLCf8
+SQxo950215zzVW+diGcHpWBOLfbIJcDFCw==
 
 -->
