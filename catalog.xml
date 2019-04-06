@@ -357,7 +357,7 @@ provided as separate git* packages.</description><category>Development</category
   </entry-point><entry-point binary-name="sfdp" command="sfdp">
     <needs-terminal/>
     <summary>draws undirected graphs using a 'spring' model and a multi-scale approach</summary>
-  </entry-point></interface><interface uri="http://repo.roscidus.com/kubernetes/helmfile"><name>helmfile</name><summary>deploy Kubernetes Helm Charts</summary><description>helmfile is a declarative spec for deploying Kubernetes Helm Charts.</description><homepage>https://github.com/roboll/helmfile</homepage><entry-point binary-name="helmfile" command="run"/></interface><interface uri="http://repo.roscidus.com/kubernetes/kubectl"><name>kubectl</name><summary>controls the Kubernetes cluster manager</summary><description>Command-line client that controls the Kubernetes cluster manager.</description><homepage>https://kubernetes.io/</homepage><entry-point binary-name="kubectl" command="run"/></interface><interface uri="http://repo.roscidus.com/lib/cairo-dev"><name>libcairo2-dev</name><summary>Development files for the Cairo 2D graphics library</summary><description>Cairo is a multi-platform library providing anti-aliased
+  </entry-point></interface><interface uri="http://repo.roscidus.com/kubernetes/helmfile"><name>helmfile</name><summary>deploy Kubernetes Helm Charts</summary><description>helmfile is a declarative spec for deploying Kubernetes Helm Charts.</description><homepage>https://github.com/roboll/helmfile</homepage><entry-point binary-name="helmfile" command="run"/></interface><interface uri="http://repo.roscidus.com/kubernetes/k9s"><name>k9s</name><summary>curses based terminal UI to interact with Kubernetes</summary><description>K9s provides a curses based terminal UI to interact with your Kubernetes clusters. The aim of this project is to make it easier to navigate, observe and manage your applications. This command line app continually watches Kubernetes for changes and offers subsequent commands to interact with observed resources.</description><homepage>https://k9ss.io/</homepage><entry-point binary-name="k9s" command="run"/></interface><interface uri="http://repo.roscidus.com/kubernetes/kubectl"><name>kubectl</name><summary>controls the Kubernetes cluster manager</summary><description>Command-line client that controls the Kubernetes cluster manager.</description><homepage>https://kubernetes.io/</homepage><entry-point binary-name="kubectl" command="run"/></interface><interface uri="http://repo.roscidus.com/lib/cairo-dev"><name>libcairo2-dev</name><summary>Development files for the Cairo 2D graphics library</summary><description>Cairo is a multi-platform library providing anti-aliased
 vector-based rendering for multiple target backends.
 
 This package contains the development libraries, header files needed by
@@ -680,7 +680,7 @@ languages as well.</description></interface><interface uri="http://repo.roscidus
 
     This software is licensed under the terms of the simplified BSD (A.K.A. &quot;two
     clause&quot; or &quot;FreeBSD&quot;) license. See LICENSE.txt for information.
-  </description></interface><interface uri="http://repo.roscidus.com/java/swt"><name>swt</name><summary>the Standard Widget Toolkit</summary><description>
+  </description></interface><interface uri="http://repo.roscidus.com/kubernetes/svcat"><name>svcat</name><summary>CLI for interacting with Kubernetes Service Catalog</summary><description>This is a command-line interface (CLI) for interacting with Service Catalog resources. svcat is a domain-specific tool to make interacting with the Service Catalog easier. While many of its commands have analogs to kubectl, our goal is to streamline and optimize the operator experience.</description><homepage>https://svc-cat.io/docs/cli/</homepage><entry-point binary-name="svcat" command="run"/></interface><interface uri="http://repo.roscidus.com/java/swt"><name>swt</name><summary>the Standard Widget Toolkit</summary><description>
 SWT is an open source widget toolkit for Java designed to provide efficient,
 portable access to the user-interface facilities of the operating systems on
 which it is implemented.
@@ -707,11 +707,11 @@ More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
 This package is built from the X.org xproto proto module.</description></interface><interface uri="http://repo.roscidus.com/lib/zlib1g"><name>zlib1g</name><summary>compression library - runtime</summary><description>zlib is a library implementing the deflate compression method found
 in gzip and PKZIP. This package includes the shared library.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlyTb9EACgkQIuoRGn5CQqQ5Vgf9Ek+a
-AoMkJggBZymV6FToaTr8niseZ50pk92dHlEx2abSd8By2DBPecpyxgOVms2C6PEqRhQ7U7lCX1As
-5JiZ1eG+4C+EXPnZ8+Ih5P2ZvGyrR1Jwxh7BkCG/qCiZGKCNfjqYM54sjH4IejW4jFmEPDISIMb+
-H0BOvZexNN9bj4WAqQJeFMYuSEvsBmziBOrAM3Ig82EC4M0Y9hoXgbYaYjxKJEp0K/rvlcaZAAl3
-/VekmMbHjNKoXtXWzVYJY2x3/91hpATrY8L/PUXZtHeTpUI95QjlYdqrjoKsZerOFE9eQh0sZs+B
-MDIBXN9vdisjYfpabFMiFQEwF1PYmuCkRg==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlyounQACgkQIuoRGn5CQqQuVggAqlIx
+QwsmXJoSFzolfKKgN3WMGNjJlXAGS59mY53iQ5nZjvk98wiFjI3snezXTzA3nUJaz24LLU6Mno1W
+n+kq+0ve/HUQV6Skvjgvqe0J73Wsh8wZpNVwNX8SAYHvLpx9Rbx4EoRtaDR4TJR5CIJE974rlQxR
+4WNyvXyi/4lKNE/vX/WkJIUgBsxT2mGdlE6lGZL2yKZb+pWDauvU0is8HcMNB5KM3oX7BZXVrFdA
+tIn4ktp+dW0s81o6I8JtBQ9j9XZya/NUEjXxS7yCiSSp1tNG88Lazyt4s/sAMiU5R0RhLjn211+G
+hvCwWGwjpZjD8L1OnIAdRfm5vgKPi4aq1w==
 
 -->
