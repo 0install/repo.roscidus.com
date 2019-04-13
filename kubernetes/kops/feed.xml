@@ -344,16 +344,24 @@
       <manifest-digest sha256new="BCBKJJ4MITROXJVKIUTQJCPVVYV3C76LRKLHEB5J4S5HSMUVVLIQ"/>
       <file dest="kops" executable="true" href="https://github.com/kubernetes/kops/releases/download/1.12.0-alpha.3/kops-darwin-amd64" size="103086032"/>
     </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=02dfac1d553b89e0c561493b1c01acdb5076a84a" main="kops" released="2019-04-08" stability="testing" version="1.12.0-pre2-1">
+      <manifest-digest sha256new="C65BCEVLAKDVZKPDTCIIOBWT7WNWTGQ3V6S5OEMVUKBN7JVJ5I5Q"/>
+      <file dest="kops" executable="true" href="https://github.com/kubernetes/kops/releases/download/1.12.0-beta.1/kops-linux-amd64" size="88773824"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=6d6f12a7493180b674edf2b8a06034bdd9907b60" main="kops" released="2019-04-08" stability="testing" version="1.12.0-pre2-1">
+      <manifest-digest sha256new="L4DBQ2SREF3BR3ZLML7PBQXRVGVSAFVMCFOBACMWXAG72TXFHVIQ"/>
+      <file dest="kops" executable="true" href="https://github.com/kubernetes/kops/releases/download/1.12.0-beta.1/kops-darwin-amd64" size="103103568"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="kops" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlyounMACgkQIuoRGn5CQqQrdAf/dxOp
-Vab7+A8L9YY+8opDqmROm1r1lODI+27uot2NozBV0Yory3tYbkEwec1gLQbR4OdS7N0hRDEFHTO9
-k1cr4QmzgjYfuM9vCzMRdcpeJObatcWVdhO9Cac3j5CLVHbTk2WKqKYk2UMV8dvlhaTGObfrwjEf
-gW6zOVz1cg1m5KzyyOACcrXRD1dc16XKevkiW4LMClOZZ9dQwY/4f1fb4SRH6ZIUlY7eseYXR+F0
-cqrS/XcY6OAG45snhSWClI6aRKt22aDGRzbWb19nGQgqBs7MBrY8tRnKVgDfikFSbFieB7cMpAVC
-2di3w3iXxIkMYaZHoJrpw5/4hR4htB8jVw==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlyxq8UACgkQIuoRGn5CQqSTOAgA9efq
+JqoiZy/y+uQb0AEec8gi5u4omMxo7p2v5YlxE4kFLvO6JYneK91/TZ4TmcuG25xU/DgmuLL1U1fB
+HsNuFPaQIfW1/G6KzJ70EBR9oEUd9Rlf19GHsADOeVrpO1DacQv6DJMTNWSoTX2lTgP2Kb2Ek7c1
+j1usexKXugZhp7wd5nDbQXHNC0imgXdoCMoI7Ouoa7sutwWoh6yCMqvT7pa1oZmdkEDJmugxDPbH
+dkNpUJb9iLXazFdv4IiG1xs9yk8SIFDhvypHkPnXQc9r5n/lKDaxfhXAoJZeK+imQnceZJNZo87C
++u6sb7jEWZdmEoS42dF1l/NceyzpQXAynQ==
 
 -->
