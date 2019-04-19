@@ -615,6 +615,20 @@
         <remove path="doLocalConf.xml"/>
       </recipe>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=dc080cf6d99c220f208e2ef3582469610579fd14" released="2019-04-04" stability="stable" version="7.6.6">
+      <manifest-digest sha256new="BDOO3VPGWXC2XOR5KZTTI6NB4L2CFNO4VZRHIGT3A7T4CSEG576A"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/7.x/7.6.6/npp.7.6.6.bin.x64.zip" size="4278015" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=1779f37e3c0200a75b982e8e6e5c3d50afc4b46b" released="2019-04-04" stability="stable" version="7.6.6">
+      <manifest-digest sha256new="OZSPCWBGTU6PJL25DEUE5SWWTROCYJPFGOSLGJ6SCYA3LCOJ6TLQ"/>
+      <recipe>
+        <archive href="http://notepad-plus-plus.org/repository/7.x/7.6.6/npp.7.6.6.bin.zip" size="3871106" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
   </group>
 
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
@@ -681,11 +695,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlyCTFIACgkQIuoRGn5CQqQTYQf+OGXg
-di4YX7aeMogevh3TMii/v/ytmm8dFAz7vHbx2BsbvleCWgI30hD3o1wGV7Xx9XBF42QmGGVAMQy5
-9OAwjacSw0AIExFUSsG2UeczfVut6pbfkgZw1laTOA6C0pjysq7KqOco4+oigR8O3YArwH8okBcK
-gDOR0Cs7YrXPs6NSsHnpgaf0Odg9K//cmtRh8+guwGCeY5lglNT47/DF3QeKK0HnybAaDuaLx2Uj
-neVkfImAIvtyzLpiAoTPpSjzC8ZuWrUhQgaqNKgCbQQEO41L119gVjotJYE434+bBG8Eadmjrkj0
-NejKbNBf118qGvsfZ21MemjKyzUenpC2pA==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAly5g0QACgkQIuoRGn5CQqQoVwf/TrCM
+F/b3bpeYMmB5/zQBOi01Iw+yUt81CY4tmzuSJb66UxhzccSXzqDvd+XpFh7j1O8DO4KagnXJFIf1
+fdEGFO/QQfxQEMDEX/i0eRzEy2lobV8ymSowSsvwxc0d3kshUW0APeLq8ZBi2KAPInMiwufJUvc1
+hjV/3QWhpzBfi0lFOwyFx6tIqcADfclR13fHngAqzHGxJeACgxUHg9IV/oYxjjvYSnwC+0hd3WP3
+WpU3Czb5MOmPKStU/dhxbSajHeK9/oOHgmeJQhlT7obXXr1N9Mgw4Soqp3MQS+uPioqEJ80tEajh
+Frl098L0xdC8EXuQwVYA+AtVPx+GyQa+Gg==
 
 -->

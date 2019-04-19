@@ -118,15 +118,19 @@
       <manifest-digest sha256new="SCSPEOWPBISLBRPWCRUC63X4QGFMEYKWA4GIW5J5P2H5LDRUTRZA"/>
       <archive extract="apache-maven-3.6.0" href="http://archive.apache.org/dist/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.tar.gz" size="9063587" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation id="sha1new=cc01d0f907810cecbc34a3844d7097b74d359238" released="2019-04-12" stability="stable" version="3.6.1">
+      <manifest-digest sha256new="PUVF7AKE4SNDRFXJPQ4T5V3GX4SRYD5W4X7OQWAR72EJ7AAJGONA"/>
+      <archive extract="apache-maven-3.6.1" href="http://archive.apache.org/dist/maven/maven-3/3.6.1/binaries/apache-maven-3.6.1-bin.tar.gz" size="9136463" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
   <entry-point binary-name="mvn" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvd2+wACgkQIuoRGn5CQqR2pQgAoiUg
-6ZJCb3RklH1m/aLbh6Qt4/Ocvpa0eoCW4U8gczF5QUL6FmD+f0mMpK8UXg5aKBBFdm0f19/BKBt5
-9w9BvrxND99FE9BRgKkyhFK6K7KWN/MBQquLLDZDNUj6C7u8Nre1E77yHriwVGUGbWxBJkUVDq7y
-0tNvpTj/ScS9eXm7QtKrkZ+awp7PJehuI3cj632D+lGjrWBkiJ/NZAEmxaRzI14tkHTd4HJ4tswo
-pBYNO0Z0E2D/q2gr7ILed1NSLSECiYi8VFCw0SwmFRofQ8iQ1mM/JV9SdXJ8cxtCNaBsF6Cy5oxX
-M8o91+tP68BwVgNQ/jZTiqJJu64wNxJvYw==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAly5g0MACgkQIuoRGn5CQqQskwf9Hs49
+Eipl5sDr6li1YyPmMNLe7x7JVbMlk1a4+1z7hg54ZJeH7X2BXqj30w0qmaiHU0l7GHuzG1CkP/B+
+7TAyA9RbV9Xfp6DbI2H99KOcmL6jbYckNS2ipg1z+HdD2nyPlhrUBmR6ayKeQL2zS15tQDFCN/zw
+2nWSOjbgKVbiQAyPyupkgh0J/VUKNPtg+ltuRuLIulHfFE5baT4BdbC1Co8OGVZkbxBcRebcoYdn
+hucy0JaUHZKhcZUWZg8FpQWGsWN2Ra/LlhzH1/Ctgnrt6QCxBpsxvu2LGOZHkDMIHM8E00VjyOMZ
+D4XNctYh3NGauSbP4e+4PSVy0xaTnEINWA==
 
 -->
