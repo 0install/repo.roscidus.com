@@ -63,7 +63,11 @@ components using the Java programming language.</description>
 
     <implementation id="sha1new=8f83c322afb391eb4a2e345af82cd98d5f6d5fb3" released="2019-03-20" stability="stable" version="12">
       <manifest-digest sha256new="5RREMEE5RUNTHELBZLSBKVO5A4ZXJAGPXQE5WFUISHC2O7AFXZJQ"/>
-      <archive extract="jdk-12" href="https://download.java.net/java/GA/jdk12/GPL/openjdk-12_linux-x64_bin.tar.gz" size="197633782" type="application/x-compressed-tar"/>
+      <archive extract="jdk-12" href="https://download.oracle.com/java/GA/jdk12/GPL/openjdk-12_linux-x64_bin.tar.gz" size="197633782" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation id="sha1new=4901e39627eabaad155c42e2716f64251165e4f4" released="2019-04-28" stability="stable" version="12.0.1">
+      <manifest-digest sha256new="AJUQQLBO4RKNO3CMD4TMFFNYJ4VZGD2ZJCNVOTOVTTZJZWBZN44A"/>
+      <archive extract="jdk-12.0.1" href="https://download.oracle.com/java/GA/jdk12.0.1/69cfe15208a647278a19ef0990eea691/12/GPL/openjdk-12.0.1_linux-x64_bin.tar.gz" size="197649562" type="application/x-compressed-tar"/>
     </implementation>
   </group>
 
@@ -111,16 +115,20 @@ components using the Java programming language.</description>
 
     <implementation id="sha1new=75cba7a795fd308f2939bce444f90a6ab4016e8d" released="2019-03-20" stability="stable" version="12">
       <manifest-digest sha256new="L4ZLTUHSB5NUWKUYK7VNNTFOBPNN5XPSBNVZWNHSUUAXEU6NKECQ"/>
-      <archive extract="jdk-12" href="https://download.java.net/java/GA/jdk12/GPL/openjdk-12_windows-x64_bin.zip" size="196405895" type="application/zip"/>
+      <archive extract="jdk-12" href="https://download.oracle.com/java/GA/jdk12/GPL/openjdk-12_windows-x64_bin.zip" size="196405895" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=c527b4b5f7feee9c403db8ec18a170ad07d834e3" released="2019-04-28" stability="stable" version="12.0.1">
+      <manifest-digest sha256new="3CI3O5AMCAOJD3X4QUJXB3MQUPUTLQATU77BT7REWPHZCVW4OFDQ"/>
+      <archive extract="jdk-12.0.1" href="https://download.oracle.com/java/GA/jdk12.0.1/69cfe15208a647278a19ef0990eea691/12/GPL/openjdk-12.0.1_windows-x64_bin.zip" size="196414289" type="application/zip"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlyTb80ACgkQIuoRGn5CQqTHgAf9Gmfv
-H/uhD9FEp8XJ1Lci/C/YGI3HGemWylR9d5z3Ft/njaBoQhscf2SiiwqUVcHFG7OZ4eLrKQTVVrCW
-rYBgGTBxGTgIe7isW+5JzVBTF976M7vjupKFMDsbUM9BHa6tW3lr4jfeCgXP12zyzPmn+bamYxNe
-ZcBYWZrayk+1ey2oX6SrkqKc3qoUy7MKs7EgsUny4sl3mq3Rwu/EuxAz5H5HfTAd8v1CH7HQmkhw
-or/jX6M0kby3L/NYKO6HYTdRnu47KVE/8ln9rx7RKA9gmnrQwGA9cY7JbHefiMSboiMO9Lrwei73
-qBw4mVF5SNzMFiazu/FPcfTfgRcHsZ5EDg==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlzJ0RoACgkQIuoRGn5CQqRiXgf/anZo
+lf5I4p+pKK2OXHuii6QiMI0btxeau/nUU/Ubtk/KZQcK8utz9vfbp/ab/jYkTV2Ql5oJGtyeZprd
+/CE/XivXbCtPSLJUZOvY+rsJJ/WjbYG0BimNOCQzxn8lz8KAIKUPWCuP0tPL4d9fr0y5kCr1XuVy
+s4LwCsFWs/haeOsw2t6UQFYaJT5Uit1AzfjejN212AyqHoa2NqUNXsucweQeB8CamIT8LZvGjKAP
+Fg+NOIY07ERACzl4723DwtwcJ4Map3MYL0yO5v/JoOSEn9YzQVUnXO62We4lKLozPv7cd4rL5G1O
+SsqD1R4Q8C3tW0tEEDzszri4K9OhQYYHQg==
 
 -->

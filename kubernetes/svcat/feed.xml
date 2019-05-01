@@ -356,16 +356,28 @@
       <manifest-digest sha256new="YLDCWJJNZ3GWZ3AMGZ4QPU2BJV2ABN7VNC7Q2NCTMH7WDYVXLUHA"/>
       <file dest="svcat" executable="true" href="https://download.svcat.sh/cli/v0.1.42/darwin/amd64/svcat" size="33022440"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=0205c5b9b4ec0d4d046b62e07e960cd535d91d6a" main="svcat.exe" released="2019-04-17" stability="stable" version="0.1.43">
+      <manifest-digest sha256new="QY47BKJ2MXVIA4NPDJZTPBELGNDGWZ5RUSG6OQTIMS4PVZOIWW6A"/>
+      <file dest="svcat.exe" href="https://download.svcat.sh/cli/v0.1.43/windows/amd64/svcat.exe" size="29314560"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=15acae7b29280100096bc4d5f5b4501ad5d3c2b2" main="svcat" released="2019-04-17" stability="stable" version="0.1.43">
+      <manifest-digest sha256new="4M2SWDMBG4G5OIKSNXON4KC3IBGIBRMTUHJ7PTF6J23PWV7G7GTQ"/>
+      <file dest="svcat" executable="true" href="https://download.svcat.sh/cli/v0.1.43/linux/amd64/svcat" size="29213664"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=37f71763f939f149151489526a8e85d9fe9e20e7" main="svcat" released="2019-04-17" stability="stable" version="0.1.43">
+      <manifest-digest sha256new="7BC3B4L3AEZE2KKJOU4HWX4OP6HNOSEAJWT4J46MBEINTNN6U2MA"/>
+      <file dest="svcat" executable="true" href="https://download.svcat.sh/cli/v0.1.43/darwin/amd64/svcat" size="33994600"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="svcat" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlyounMACgkQIuoRGn5CQqToZQf/WPwC
-tJZtk8YfNyc1kh0O5JagoxYDQMBnxfvLo0CJvzK0Refxf0M3HpzAWmpjd8DHcKKxtoDbhKmIa3AS
-i11wYI6csgLzYnX8g0rjOP0xveEhUApcyTCeJJnUqLnNFda6Hnky+Q9VfWe5GAq6D5cgU4ky/v07
-r25wkhCKKHuyF67IG5+GmaR7EVC/00M7zTgzV5+aIgSkRl1VPBg2S/HPg+7Zlnt2dT17nfUqsgG5
-CBkEhYz2h71ifY1G+q+08m/WGswNgpTQ9Pfk+fM3pH88Ks3bTbnBbAxJxGRSlxxyNDub43NkMSzG
-TeN4EUFL80LjQFEqisTzVW0WzRH8nCOhaA==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlzJ0RsACgkQIuoRGn5CQqS3sgf8Cvlz
+mJOhCYxD/OB9+cODaw64TqHABHDQCQPXUroV8KXRKnrfbahBFcQviPoqaV+VvSq9oMSzNXtJGTCJ
+NXGYidSafrp8ys9Kp2wyX3q79mhEpmuuWcDCg1u9/wUzs4viqhdiD8N1Wko3/dVtzIxkqxZiKjfP
+Jo+NXNJQZWN4HS5siHwmoJtr5d91qfmu9nwf4PShJdSeXLDC0jwtpHASvvi8WtFrtRtZQdIe7b8e
+2uLNSipdSy2WIN4lzHfxjSgD5fLzfC0Ruxs6rSCJ65jcIdILEzn2vLJqW7rMSrfnN560MNh5zslW
+3Zu9dtRa43Phd7UwHiWN7WFzvF4D51+J/g==
 
 -->

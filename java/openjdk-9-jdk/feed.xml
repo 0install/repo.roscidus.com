@@ -69,7 +69,7 @@ components using the Java programming language.</description>
 
     <implementation id="sha1new=80bed954bbe5a6751d59df228123610c0a00a9ca" released="2018-01-16" stability="stable" version="9.0.4">
       <manifest-digest sha256new="3DLOHNHEUKFTMSZKGY4IUWUE7E7Y7ZKZHCB5VH66XI7ORHFKECNA"/>
-      <archive extract="jdk-9.0.4" href="https://download.java.net/java/GA/jdk9/9.0.4/binaries/openjdk-9.0.4_linux-x64_bin.tar.gz" size="206018615" type="application/x-compressed-tar"/>
+      <archive extract="jdk-9.0.4" href="https://download.oracle.com/java/GA/jdk9/9.0.4/binaries/openjdk-9.0.4_linux-x64_bin.tar.gz" size="206018615" type="application/x-compressed-tar"/>
     </implementation>
   </group>
 
@@ -123,16 +123,16 @@ components using the Java programming language.</description>
 
     <implementation id="sha1new=2ffbb30780c4ad42e4341f95d9c6c0a01458cf73" released="2018-01-16" stability="stable" version="9.0.4">
       <manifest-digest sha256new="KW74OTFX6XTN3KYGRLVWYHCFVT2YY7UTPMYHV6WK7C5ORBEX4KRA"/>
-      <archive extract="jdk-9.0.4" href="https://download.java.net/java/GA/jdk9/9.0.4/binaries/openjdk-9.0.4_windows-x64_bin.tar.gz" size="186166671" type="application/x-compressed-tar"/>
+      <archive extract="jdk-9.0.4" href="https://download.oracle.com/java/GA/jdk9/9.0.4/binaries/openjdk-9.0.4_windows-x64_bin.tar.gz" size="186166671" type="application/x-compressed-tar"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlxMJDcACgkQIuoRGn5CQqR2Gwf/cqWC
-qLVyqxFQDqE35KBAeJ419O6FGHja2LH+kraZSv06rgStdifkaFMVdyBZozfibdKciNyC9Iv+qqrk
-PtakZvsbTAm9fJHKMASS9C3TqevvwJ8ZULvE4/gFZDGglzZ4vxlH/L3WF+c6dTWr3IUo3mhXywCQ
-XJx7MPc4XZzUXT8msYAlNWXF7Rv8bmzd5TKB7B3zJ8213KDaR7dcuEoZO/iPfwlaWdl9tUy+MjIK
-AHOJs13GUBMYOE0o98cEEi+9bSjhdwcUsG6qajq3MS2V+EuR16KATa7y7Ooyn7AgKaVTvow/w1WZ
-LZ4aFxx9LFmnE4TN+UXpiELxSXXZXibCsg==
+iQEyBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlzJ0RoACgkQIuoRGn5CQqTV/Af3XHbJ
+TcSxcyrf5MStsm1kDrlgzSk1rnsEQoYs+rFv2ctp8M5szRwkOLfrVLqFfMizJ8Ex1gDDtfWgdWCz
+tX+qrrCtW+ESeBdvjubvFEhrTJc/zFu9EaJDsvBPhUQ+ibO2HILTPvQ9rKwef2W6sAys6C28tC4i
+2veiJuwPqDKK4H9aAaXYSKUdGiT/D+uLJ7fAkO7uVwQjM+T/yPcMWJnp2k6dCmR6cFnFrT9lGyHR
+T68HpA2HkesHRJdju97XK2dV5HDQVlHMXYAoOCbJjfDVq9OlsOFgrVtvYhTcpfwMjN+JM6MPnNC4
+Ue74BLPiDhMYBT4GV/gtysydLtrAM2KY
 
 -->
