@@ -548,16 +548,28 @@
       <manifest-digest sha256new="MQBLMPD5ZCNCWROGUZ7TVXOZNFXBJNRE6OQJ364ISWAPJPA52ISA"/>
       <file dest="minikube" executable="true" href="https://storage.googleapis.com/minikube/releases/v1.0.0/minikube-darwin-amd64" size="40032744"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=9a8dda8efc75d6c35adc82433cc04e04e37f0330" main="minikube.exe" released="2019-04-29" stability="stable" version="1.0.1">
+      <manifest-digest sha256new="3DKL5MNHO5QFVI7NOC4MKC5WI5ZE2R4AKXX4RC7NNFXD6AAOSHPQ"/>
+      <file dest="minikube.exe" href="https://storage.googleapis.com/minikube/releases/v1.0.1/minikube-windows-amd64.exe" size="40088576"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=5383233e32bbea7426b69391b5f2e1708f2a16f3" main="minikube" released="2019-04-29" stability="stable" version="1.0.1">
+      <manifest-digest sha256new="I7AEO4ZLKIGEKG5OYWZZA2RAF74OPXRRA7DB7HPSYFTDSXPDAX7A"/>
+      <file dest="minikube" executable="true" href="https://storage.googleapis.com/minikube/releases/v1.0.1/minikube-linux-amd64" size="40196548"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=5dbea71346ee6ef45f585ee26e14e760c9561a42" main="minikube" released="2019-04-29" stability="stable" version="1.0.1">
+      <manifest-digest sha256new="QBDGCYWGNWJTIWCNBHP5ZD2MODGP4BBVM5NWVFVMXMKXS2FLUOGA"/>
+      <file dest="minikube" executable="true" href="https://storage.googleapis.com/minikube/releases/v1.0.1/minikube-darwin-amd64" size="40103864"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="minikube" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlyfeK4ACgkQIuoRGn5CQqTEXAgAyhkq
-jMpMCqykT3TesHhGaG/wijmBUgM6FuZOFRMvpq2p6layLl+QF9xn0R+PFS90dC/GoFjfi106DkEg
-Si3snpqb2ze+R+qUY1aV+dLvZCj2AtVH/hMcZBtCI7VQa2RuVr33a4ti1f0iIJH9fdx2kDcTt5o1
-Q94bEm5wx6qX/qrcprelPp4E3ymj30Uq61YmDcVfGOR2PFGOosMDFsjoBBNyditYnT4bAb6zMFwp
-2HgFenltnEghCmld4zL9CCYJR08VHGMDMIZm60Sf80G+6pOjRyntxwMzDuuHuqDlMezkAIYmIyTn
-BmzSQlxRD3u90tCB1SnlNRhlxJH2vuGN6A==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlzWqREACgkQIuoRGn5CQqTiBwf+JgfG
+v9n17iWfrTkPtylxvEcuLX/q0oM2Hb8R4vIF0vBf+Kf/xOeTs7JlaQ3EXaWkuDkUuguaIym7inMw
+1FexYBC1xuDw9mxapNim0h9qeIRg/a4DbrC3129A66u8KIpFm9Qoh0pyB++xZSsrkZoSh5YcsNnj
+zkGazP1uZYB+Bs1NOVziJYc3Xpmf0mCBeuG0J1T9wST008qFjarU+hz+FGEvcou42lx630aZ1Eh1
+HKypZTjtkI9mjzxI/JZ3ReRq+2FWnNXiY2DflswuzE25vuIFqx/OhTt3zTVDWYpVEUoTW3QS5LlG
+GOKSQik7fW9XDP8GzbTHOL8S5/0Ryzj0bw==
 
 -->
