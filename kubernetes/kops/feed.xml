@@ -376,16 +376,32 @@
       <manifest-digest sha256new="EASMR5FA57OOJTDMHS7S5CNPTYN5SHHDSD5SWCS2TDZRLSNLFL6Q"/>
       <file dest="kops" executable="true" href="https://github.com/kubernetes/kops/releases/download/1.14.0-alpha.1/kops-darwin-amd64" size="103107616"/>
     </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=18500342962bb88dea6114ad1bdf322e483a699f" main="kops" released="2019-05-15" stability="stable" version="1.12.0">
+      <manifest-digest sha256new="VHJ7F3JG5Q73IISEGBYHJH3FARGSJ4CSLMY7XGVXJJXH225EGRVQ"/>
+      <file dest="kops" executable="true" href="https://github.com/kubernetes/kops/releases/download/1.12.0/kops-linux-amd64" size="89143712"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=635c4ef0646af23b4b5d2cd39ff9e133ea943c3b" main="kops" released="2019-05-15" stability="stable" version="1.12.0">
+      <manifest-digest sha256new="JT2OUV3D44BFFBCWQHG5HELB2S2HECD4PN27XCNX46IIQUEC2M7Q"/>
+      <file dest="kops" executable="true" href="https://github.com/kubernetes/kops/releases/download/1.12.0/kops-darwin-amd64" size="103513472"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=2d3cd433d01386e630edf4d8b288109e8b4e63c0" main="kops" released="2019-05-17" stability="stable" version="1.12.1">
+      <manifest-digest sha256new="E2OEAJTSOZ3KWQM4PUBRCO3B5523E5J2ARASZBUP2IKCWO5F4ALA"/>
+      <file dest="kops" executable="true" href="https://github.com/kubernetes/kops/releases/download/1.12.1/kops-linux-amd64" size="89143712"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=db358cc2723972962d0dec8dd784628133d28f1c" main="kops" released="2019-05-17" stability="stable" version="1.12.1">
+      <manifest-digest sha256new="6DBXVS4VYJAOOVJGZS7JPWMPGEGACEDYC57UDRERZRGV5CUC5YBQ"/>
+      <file dest="kops" executable="true" href="https://github.com/kubernetes/kops/releases/download/1.12.1/kops-darwin-amd64" size="103513472"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="kops" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAly5g0MACgkQIuoRGn5CQqS7GwgA3O8V
-PJOjXMe8P5hiLF49TnMwb0BRIDelNfInMz70FalgizMym5SYXw60ebjynwNpOaRisraZQpFRVwRH
-7aMqDnIWn6OfNLiFzxD4tUhEUh/KaU/0gxbHG6XLkO5KxGYZkNZKb56Z/sJRZo9oH5Of9fuXhTT8
-VeCQCWSS4Dtm02qqC9VhXZNJJo90grTgvpEPCU3yxDSPIRytt4tx18+ujJamqRsXauTJ0aXPSNXl
-A8zvZa5ZZmm64yoA2DoSvFfOhHEwCilhJ3gz3hxcwGrFQ8CHEdceQVwa9m6UNhjOvx0U6cxTD3Np
-78xSna+7pF9OYnNUihkY9BvqTkITXDkzJg==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlzhmBQACgkQIuoRGn5CQqSK4Af/WP30
+FKbrl4qovFOJu2ftvb5y91WguadMxgnlhyReCnoG9uTrvy7vWsmrjMifmM7MjVwzwkGXBI5bC1lv
+CssrkEdfCQghzOSwdldBdHYpvMumOSPU4Q/ztP14FHVIcBL9Y1jmkBEByuefn9sDob4aLadQNlWr
+Q2131wbn0tmDAacWhloXy8uuYAHlADbkp3/MijCqrDCzuG8cmCy4i0l285gk6FpfQe1AqP4e1Blh
+Ku8kW3N3x3j0oDWbmW3xFoJvCHWnoPWA5sIZyyodzMDfUkIuNCzKu7c0zEervcLHpPZvxPnnOvmR
+3KaaTV+dwfovLY72t0UDp6aGor5blZ1L4w==
 
 -->
