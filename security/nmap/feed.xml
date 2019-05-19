@@ -97,9 +97,6 @@
   </group>
 
   <group doc-dir="usr/share/doc/nmap" license="modfied GPL">
-    <requires interface="http://repo.roscidus.com/lib/svn-client-1">
-      <environment insert="lib" name="LD_LIBRARY_PATH"/>
-    </requires>
     <command name="run" path="usr/bin/nmap"/>
     <command name="ndiff" path="usr/lib/python2.6/site-packages/ndiff.py">
       <runner interface="http://repo.roscidus.com/python/python" version="2.6..!3"/>
@@ -273,11 +270,11 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAluxIZ0ACgkQIuoRGn5CQqQzAAgA54ex
-MtHkMaBv92cYstwEWaeSx1Osa4VTAyBuROoQ2aXf7K1eLBE4z77Uar7ZrO2Y+oOkw4QQIT/gp65S
-UDjqX3MjHC323wyfio0T2QqcLHERTn610Jq4vggaNEzoVtjQrC0UJeFtzRA/4KA+1E20Tm0tsDJR
-1ZJpLMLKrzOY6Z484tVmYDd5bm5s8pz13PaWdWv8FU+zAXDo1K1AwZvASh2khQoznAV2eRzqg/4+
-aCriV3gOZCdxKLUFG9cFjdfNnKotRd4s0AKQjaPrOGi2tK6gwtJlBLqCerBsO2jAaLlCPQVyCKGE
-IYR6HDDcCDDBVygC1pa2KDI7sdK2HyffYw==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlzhl8kACgkQIuoRGn5CQqRtoggAtSh3
+P8AZUwlDfiqUlAu5xNnUwaW2juWnqoT/bKFO8h7iJi/orNrj8Ok+5+0Tku2fJy+pv6tFOSm/S7ah
+v1gqBWWqlAkrZM7GSNeW8Z08hF7MAZGu19HFQ1oiYbwG4KrokbdBmzihaCCDbQDQjpOa02hyR4gT
+qtxAuhvRov0BC5mB805w/APBMaXgzB0QiDjJAqS+6Fi0xYWP5OybvwyDVqo/VG27np4i/cZK3K/9
+Imr6V4RAPqIAKVqdQA9qs96CWpszIs88diWeHFJZBYkU87wJKGEMMaoz3ulHYOwqdLBsGZz/6mwL
+V+r9NtmBgj6iW8AhHrb8Y0HYv7d/LNGA/g==
 
 -->
