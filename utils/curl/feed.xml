@@ -300,16 +300,24 @@
       <manifest-digest sha256new="HKAXL7OIGVPPNDNM6JU5XHQYXY4ZYSISGIYHJ7JLIQMNOSE53XUA"/>
       <archive extract="curl-7.64.1-win32-mingw" href="https://bintray.com/vszakats/generic/download_file?file_path=curl-7.64.1-win32-mingw.tar.xz" size="1994304" type="application/x-xz-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=3fcd6aabca340aac597ac577dc963c7c083afa3f" released="2019-05-23" stability="stable" version="7.65.0">
+      <manifest-digest sha256new="JML62U3SXCWCLCY2WGOMG5KHMPG3EBXNT63Y74PZP5SU2PM6RLMQ"/>
+      <archive extract="curl-7.65.0-win64-mingw" href="https://bintray.com/vszakats/generic/download_file?file_path=curl-7.65.0-win64-mingw.tar.xz" size="2137940" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=7e847b4bd5d7150a7490faeefbb44fdfa2d2e5f5" released="2019-05-23" stability="stable" version="7.65.0">
+      <manifest-digest sha256new="LT7FZYWRSWEQ7J5BFDDYCJD73A2YXQ23ROMYWKUSJQMXSRJEUADQ"/>
+      <archive extract="curl-7.65.0-win32-mingw" href="https://bintray.com/vszakats/generic/download_file?file_path=curl-7.65.0-win32-mingw.tar.xz" size="1994636" type="application/x-xz-compressed-tar"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="curl" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlzJ0RkACgkQIuoRGn5CQqRpSAf/XYL5
-u3SSFV0Bu2Dp6hu4W5it55sMjKSVjjYNS6yaYqeZR6dMV5qNtA8gZzmH3QIGUu6XBcjRb0ZYXiN9
-zDjaBho1I5SZBxDJOmTZ5fqxjWFKs9iVi4X58jIBmDGhOFve7bfc5LKVnx7pQvhwo2fd2RViEr7Q
-MuZr57yFiumSGV27CvmE8jfeg7BMvTxF3geJF4khjYPhEFqD0A836VXBwkM5oFcYmqlWhBNAfbOU
-TmyoyovI5V4pQiwic4bWlRvchPo98OMNC1ZnuDYu3eVEI7WND6A5bG768kourI40Wnr0g49HoibK
-mf57lG2vAmai+9lap8qzcAZi60Y3ao+esA==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlzpGSgACgkQIuoRGn5CQqTkOQf+PVLw
+5aJ0FE+o4IGpaazcaMBN6QTG6RC84owK5hiJSXNYaNcdnLnWaiyLLJrQvuu5jGDI8fGLE7E+01tV
+tz7w3e+jb6MxpnO6ozglnZVe6i3SECqm6vzGPqq7vSqLIr0V2KIpJDkCXXZl1whqtjUSeRg4p/aS
+rB5gxOYUAHd8or0AOLq3Cmp7V55KF2ZCJTdHFIUidI6qSHr8FGJMKfDooDqAUqEcJdWfr1rEPuq5
+mPUwjpPLnMWk2gltfWGXyzROwqheTeHHdyucGtzWz7f7ESLXnRcFTwR/6Nmnbw/ICOr1Tbktsqnj
+9+lUn//+01XNbT4aEqp3w8ig63fEXrkktQ==
 
 -->
