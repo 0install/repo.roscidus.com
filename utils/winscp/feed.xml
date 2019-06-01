@@ -211,14 +211,18 @@
       <manifest-digest sha256new="WKW5HDMO64PMS6TOBWBL4CQXYZCK2N3HBWZDWHIC6HRGNDIWUDJA"/>
       <archive href="https://downloads.sourceforge.net/winscp/WinSCP-5.15.1-Portable.zip" size="7844609" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=3fa5ca5a99e7161c6da6f84fdff310e405700f06" released="2019-05-29" stability="stable" version="5.15.2">
+      <manifest-digest sha256new="SVHBXOVQ7WVYFE7GCVYUBVFOZ57H7JGXJVPIVQ6DPGABUF3YOUAA"/>
+      <archive href="https://downloads.sourceforge.net/winscp/WinSCP-5.15.2-Portable.zip" size="7846247" type="application/zip"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlzhmVoACgkQIuoRGn5CQqT2KggA5wBp
-AoEPWdFwNlEAKz97rTHhWlLzq4vp8hN0wFml+l2uqE17vXWDtC8qx3MdcjQFozNlBrnbrd31Yf6G
-SIZVppIYgK40/aB5P2AWqcjPWyceumByTcU/O2iX0L+EurO6qBOc7FCTEwzc4m9JDYDJr3OL3dvY
-5/MJzALLT/+KZnVRumLcXESkPVRHcUT5EwyY5QSs146cQQ3XXas7WzLWyuvyoxX5WXh4ZDq1mwfP
-udxZbuRSlnIUSm5NA2nNeQvrPzNkpWkBP3aToncuE1WPTqp/uk6GZ/6jOREv9UmrLUszA0012vib
-gTTVm57fTllGHRY6oo128ZQA6mRaILXOAw==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlzyZ8cACgkQIuoRGn5CQqTkeQf+IHZ5
+BuEaA0tul7pcZPvCU441D804vsBnD7Yknu3ip+5uXfx56BUT6QWsy29XEVmI7PaLhraPviohdAci
+a7abcQt0PwRlIzBwMzfalhisWZ6KYWw45ytCVnJahdp35EQRNl4IV1y6yrzBAoahlenJCmiCJC0H
+kDI/LcCSeKmGxBT1Vgavivhcns0aHywy+wyvSOVJvbp6CPU4kDvb8dFCttL0a4nRgf6W8WjdVN6p
++FxE7tYt5qQwycQeBDK6M3jV48U42EB24z10qv21EPo0hdsaR5/Hvw92WNiHnPy1ZLkBqxZT+z7H
+pWGp5Tazc58ixHqW3Qgm7ucxhBabogZ/8w==
 
 -->
