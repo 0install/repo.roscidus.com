@@ -319,7 +319,7 @@ bash.sourceforge.net/).</description><homepage>http://www.gnu.org/software/bash/
     authentication (Basic, Digest, NTLM, Negotiate, kerberos...), file
     transfer resume, proxy tunneling and a busload of other useful
     tricks.
-  </description><category>Network</category><category>Utility</category><entry-point binary-name="curl" command="run"/></interface><interface uri="http://repo.roscidus.com/utils/chocolatey"><name>chocolatey</name><summary>package manager for Windows</summary><description>Chocolatey is a package manager for Windows (like apt-get but for Windows). It was designed to be a decentralized framework for quickly installing applications and tools that you need. It is built on the NuGet infrastructure currently using PowerShell as its focus for delivering packages from the distros to your door, err computer.</description><icon href="https://chocolatey.org/content/packageimages/chocolatey.0.10.11.png" type="image/png"/><homepage>https://chocolatey.org/</homepage><entry-point binary-name="choco" command="run"/><entry-point binary-name="RefreshEnv" command="refresh-env">
+  </description><category>Network</category><category>Utility</category><entry-point binary-name="curl" command="run"/></interface><interface uri="http://repo.roscidus.com/utils/chocolatey"><name>chocolatey</name><summary>package manager for Windows</summary><description>Chocolatey is a package manager for Windows (like apt-get but for Windows). It was designed to be a decentralized framework for quickly installing applications and tools that you need. It is built on the NuGet infrastructure currently using PowerShell as its focus for delivering packages from the distros to your door, err computer.</description><icon href="https://chocolatey.org/content/packageimages/chocolatey.0.10.15.png" type="image/png"/><homepage>https://chocolatey.org/</homepage><entry-point binary-name="choco" command="run"/><entry-point binary-name="RefreshEnv" command="refresh-env">
     <needs-terminal/>
     <name>Refresh Environment</name>
     <summary>read environment variables from registry and set session variables to these values</summary>
@@ -740,11 +740,11 @@ More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
 This package is built from the X.org xproto proto module.</description></interface><interface uri="http://repo.roscidus.com/lib/zlib1g"><name>zlib1g</name><summary>compression library - runtime</summary><description>zlib is a library implementing the deflate compression method found
 in gzip and PKZIP. This package includes the shared library.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlzhmV8ACgkQIuoRGn5CQqQIYgf8CagQ
-ZofwoiPZf67ZQj6jqghx8h5jztlY6JQ26yUaw9TNvD27AoX/A5P6rZMTHN+plnT0RNAUvvJAAl57
-vDduE+CYow+qIxMV/s49bBtmjXsAkd5s2qfpsa9EO0YmLTZK52dS8HQMeKwSkWPv1Kb4xlGIA/c5
-cyiRhRToQM9eRIps/Ck+m3XshUKpGPCCRM+dluU7vK/y/ClF0GHyHh6KvKOPHPQ9MbMzvaERw1EG
-MHYbksDNlib5VBNKJyPxyIQcfWcVoJVgvZkGo6M935Siwjv0aJ2JxfmNPRrvUbQijomJzWwnTh9r
-xmKUBzDAi2yopvqgrQov5g2OLmdN+h4uvw==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlz9TJQACgkQIuoRGn5CQqRM5Af/dfgw
+mx/SXq2lqTnYqOJabqlAFSkW2aImpDTuzwFuh3hEGbzS6XeZR8kUQOQc1qbS6kWeV9R97KXr43zv
+92SiWoATo33CZuWXvCxM4GmdhMqWluA2JETTDLom2cFNlkOlWl2qQauxacJoJDEnvgxHJG+sxB8P
+DeDXl09ur/NHprc4BgjRgNHQ0RNiN++a4vU0fL/FcuGfsZeBhdSpXKkV3UoMLKnHsaVQOyzLCRjk
+ZJzsMl3hVhsqFdm1zPSitYC6bTaEb1TFik3eNb6z/hGst81Gt/fPKRnsrG0OUeDUMYwmCgMLYq9E
+/Qq5xYpGPIFycAs0CuZAQjlHuYdPg3NIew==
 
 -->

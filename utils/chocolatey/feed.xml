@@ -4,7 +4,7 @@
   <name>chocolatey</name>
   <summary>package manager for Windows</summary>
   <description>Chocolatey is a package manager for Windows (like apt-get but for Windows). It was designed to be a decentralized framework for quickly installing applications and tools that you need. It is built on the NuGet infrastructure currently using PowerShell as its focus for delivering packages from the distros to your door, err computer.</description>
-  <icon href="https://chocolatey.org/content/packageimages/chocolatey.0.10.11.png" type="image/png"/>
+  <icon href="https://chocolatey.org/content/packageimages/chocolatey.0.10.15.png" type="image/png"/>
   <homepage>https://chocolatey.org/</homepage>
   <needs-terminal/>
 
@@ -383,6 +383,18 @@
       <manifest-digest sha256new="5NI3SK4L6EGB5REJGR4W5O6HMFP5JD65J3R2DARA5XR5J34WDD5A"/>
       <archive extract="tools" href="https://chocolatey.org/api/v2/package/chocolatey/0.10.14-beta-20190418" size="4065791" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=bcec851164f5dfaf4f23a99322fa1772f30440cc" released="2019-05-30" stability="stable" version="0.10.14">
+      <manifest-digest sha256new="DD3U26EBKACRU27G343NYIJUGWW5RS2VEMJ77Z5J2TGUU2RGMJJA"/>
+      <archive extract="tools" href="https://chocolatey.org/api/v2/package/chocolatey/0.10.14" size="4067191" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=f3e68958351edf857e493f09552e8ecae7d6d41a" released="2019-05-31" stability="testing" version="0.10.15-pre-20190531">
+      <manifest-digest sha256new="V4ZZRKKC3OUJMEXGSK4WQRDJVJI6NF4OICGTJRUU37WDVPEYP7PA"/>
+      <archive extract="tools" href="https://chocolatey.org/api/v2/package/chocolatey/0.10.15-beta-20190531" size="4067008" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=d5f91253199e93484ada77cf331a0a3b606a8f16" released="2019-06-03" stability="stable" version="0.10.15">
+      <manifest-digest sha256new="FB5UGGJU7ZOSPIKS2P373EO6LM2XTG3KBPLMOIQYM4CBKK6KAGFQ"/>
+      <archive extract="tools" href="https://chocolatey.org/api/v2/package/chocolatey/0.10.15" size="4067171" type="application/zip"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="choco" command="run"/>
@@ -422,11 +434,11 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlzJ0RkACgkQIuoRGn5CQqTx3ggA6jlt
-trwwYthvM7gCjUxJBz8Gn8pDHNWD6N+7H+/fu5QJfP0NVTTkaTpfkbswH50WNrQv08Ai25xWZk9N
-86Z9DZMoNWtbGPiTTXIUX0w1hkvtlaEBY0U3ZbVSyD0JvbbHGuFM5guofplKR0yc3Ca//sVRRKFi
-hb2/+/Tv0eaRIg0hyKDhK67edymDDYTSnrmmcPDjPrvqolx0n279YmeYJDVllHEVWNBsVotfDdOk
-k7jcMLTW7+f8nvKPJIPXmxDicDkv7M86eBbyYZekM37Ef+5n/9+g51CMcqUWcOL2MH/hhtXtqevY
-yzk+TbTuYqj9QNSfnm0VQMeLrD3W5lIUuQ==
+iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlz9TJEACgkQIuoRGn5CQqSXoQf/dI9P
+opExSkHBfuCW3HBwkFU+Mv1PwdKlQREZbYNG0DVFe3VafOzvmvrgzsH5zCb4vEKHs0dREiduQ52W
+qtI6iEEKgLIbB/Ziei83ZhwnAZItEpK9n4Vf4OspBdJZnNtg+9xzVXv/wqi1pMwIrR95MDmJDQ/+
+xtDqMYTuyGmwL3M9yGM1oa+HuMMhaCitOsyMI3T5QJWOXVcDwcYofQ/3QFKZ4FhgAiFRjML4wlq1
+fS0XmfUJPTDjkFZCfwpkEMLRQJAQeMZs9KXWhMd7WoXXuh2mffo4/qI6NUKOC87ph4wvA3hHoKQC
+qRW/L6f0hvy5R+CEMUSsuKyZHGhYOUW1Cw==
 
 -->
