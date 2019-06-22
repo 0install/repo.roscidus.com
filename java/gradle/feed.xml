@@ -914,15 +914,19 @@
       <manifest-digest sha256new="QIXGOH7TPMRYMBET4CJUJMJYOAWQ7VXS7ZT257Y37JRHPBAUNHLQ"/>
       <archive extract="gradle-5.5-rc-2" href="https://services.gradle.org/distributions/gradle-5.5-rc-2-bin.zip" size="89143513" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=86d36a2d9e4db696d75deb232e3d68d3d06ccfcc" released="2019-06-15" stability="testing" version="5.5-rc-3">
+      <manifest-digest sha256new="ZGF67DBLQXJF7GMTVPAXRFYPFS7JESCC4YEWPDXBVVT3ZK4UTQ4A"/>
+      <archive extract="gradle-5.5-rc-3" href="https://services.gradle.org/distributions/gradle-5.5-rc-3-bin.zip" size="89147894" type="application/zip"/>
+    </implementation>
   </group>
   <entry-point binary-name="gradle" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlz9TJEACgkQIuoRGn5CQqTdMwgA52eu
-3XRn1M/R6tVUJxPL4gbUjFdAqpfKh/J40RmSKjvygvGDFcfR6IqHQ14rc38tUpcjqnK0yGtKwq6T
-FqPrWhMdQs/+J+4CQT8ZrVWZYD4CZOVdg4CdJrI9hQOJIwoTqN+7MgHcMz3loT6szebzu6ep2Wko
-uZf05YIPisyZ0xmu/GAVRRzXobuWXSdx3+B2uLQJ7lj5h7Z/XAbRsTl10pH9AKsZ3M+8EdgVUdjn
-+EIZt+ptf4F1cefMjuFx9MTNCnXsZcA6x7TpyAq6ciL6LUNy8XR/Pa59Qbw3z5iSvTYRYZVRWQxD
-C7wuzw3cqvQqs3WS0YXGURu3OrnnyjNeig==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0N+wcACgkQIuoRGn5CQqT8iAgA7vNH
+7UgCIjq+gtZimmx2HrAGhMWA8Jioi23fJS/q1dAY7G4rBo2MJW5jeJMfRmLd2PQXIyQEixQO2xSs
+7v/KskbWB7zgvN/0qaXxim2IXqqDOugY5h17cn/awQL/YDJdkK4Sat9opwVcR/rswN9MGhvzd2he
+J6bJPF8hsyzd0w3DiO3gJ0Em/Q+osZoDE8Q3lXLQJG0LF7P93iCIJOc2AB89HGP6XckYkaJLlxQB
+WPUVcjWyRcIXye5/OTFQm0nEG+FU7SAMqur2DudLu98EpaZ8jNi+MxtN331nqPHT3WgCGyxkZ1Tr
+OqpNrVALHcAo712JvwtH5ubBiCC7NkBP+A==
 
 -->

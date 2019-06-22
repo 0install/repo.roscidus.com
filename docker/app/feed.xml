@@ -127,16 +127,28 @@
       <manifest-digest sha256new="6NADBP3QCF2DZKC2RJGUJPJ7ZXAQATT6ZELAE453LTB2F5AQHDEQ"/>
       <archive href="https://github.com/docker/app/releases/download/v0.8.0-rc1/docker-app-darwin.tar.gz" size="25447089" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=3be2cdb925210ad93d07af0dc7ce27b58da424d6" main="docker-app-windows.exe" released="2019-06-11" stability="testing" version="0.8.0">
+      <manifest-digest sha256new="VMLI2FWR2O645VHRX23EGOCLQKHLJCHLLQFQ7TKZ7LXTAS6V5WIQ"/>
+      <archive href="https://github.com/docker/app/releases/download/v0.8.0/docker-app-windows.tar.gz" size="23238774" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=3487e9ad5c3b5488ea1429e782824cb9c561fda3" main="docker-app-linux" released="2019-06-11" stability="testing" version="0.8.0">
+      <manifest-digest sha256new="6JCYJ7K7F6XMPEMUDIVOVIL7YLQ2G62HRCEXVCZY5M7ASZHJKLMQ"/>
+      <archive href="https://github.com/docker/app/releases/download/v0.8.0/docker-app-linux.tar.gz" size="23257777" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=a8d7d6a209b490871e958ace5df5ef16fc3ecfe8" main="docker-app-darwin" released="2019-06-11" stability="testing" version="0.8.0">
+      <manifest-digest sha256new="RU2NRME6CTLBKPSSQAYJJMKHYNPQNH654OCHZPWADYVYSTXM76FQ"/>
+      <archive href="https://github.com/docker/app/releases/download/v0.8.0/docker-app-darwin.tar.gz" size="25459546" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="docker-app" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlzpGSwACgkQIuoRGn5CQqS26Af9GkCa
-PdT4aMbxUJrwcHfvrB/qbIO1kqodUIAaL4ZDCSOBFUGC03PtBzXQgllR7ApOAbCKVXeiUz12iHpB
-+K6n5ydIcKUfqoLM9i/68zWBxSeiHpbu8JAAWTX8ThMYlDm/6dAKIqonbvDU31V2cKgDUJLRoHsI
-6X15ytpdg4kc0doPspM+BnNU4h4EH0J4aJjbx5Ca96cN7vs/TbzzZPZC4L+wQfTmqrLO1pXiiTXF
-A8NdP5DiDtGV4a+QjdKUEcUksqI5RsIYBze2YPfGKbgIv4PeRUBoNm9NQNKEFFihMiUs+tT76Fgv
-jDDDZOliqfmotkIzlb8eEJ3g2rEErcVIpQ==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0N+woACgkQIuoRGn5CQqQlRAgAl5W3
+OMnkuEmJQH6GEiI0i7/l7R+fnK0bEq3YtQRBvS/q5ar6RmFsHyGrbqCaZKk6nsDjp9F+qkb3bgSA
+UTMsai9lCjrQBRSSCzl/SOmzB6jZUZCHcD6dm/sSBJRjolZQHeqHKAZm+ZVbrq1N9+TrVRlBSZpz
+e3sm9dcxcfcs0+Xy7sHuySF1m5cQ4jvt6ZOeLeytnjxI5TL2dmyDbI4WncWiGckThYM2Hg9BTjEC
+jZ3E2SqWb0F1/NhN0Ca27GhcB2kkDBR5DZQB8uKMli9yMTaHx7bE6a3iF7+Xfp863Ja6Gc7WVObm
+m/ffA/ApcVIRX1pQGdZB5xUfVkaO08NYrQ==
 
 -->

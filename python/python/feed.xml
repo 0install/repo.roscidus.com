@@ -712,6 +712,20 @@ language for applications that need a programmable interface.</description>
         <remove path="python37._pth"/>
       </recipe>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=256300c37b32bd9df0808378918de354face8ef2" released="2019-06-18" stability="testing" version="3.7.4-rc1">
+      <manifest-digest sha256new="CPUU3WWCHA324X7SVJHNWL7WTONBN7DT4ITBNPQ7L3I2SH2OLIPQ"/>
+      <recipe>
+        <archive href="https://www.python.org/ftp/python/3.7.4/python-3.7.4rc1-embed-amd64.zip" size="7466510" type="application/zip"/>
+        <remove path="python37._pth"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=c19bfa5d9686fdaf68587b245308b95f97d6e165" released="2019-06-18" stability="testing" version="3.7.4-rc1">
+      <manifest-digest sha256new="TZW7T5JCAMX4S6KWSX26TTQ3CUO66JZA6HXR6ZQVJBU77GXRIIOA"/>
+      <recipe>
+        <archive href="https://www.python.org/ftp/python/3.7.4/python-3.7.4rc1-embed-win32.zip" size="6711238" type="application/zip"/>
+        <remove path="python37._pth"/>
+      </recipe>
+    </implementation>
   </group>
 
   <entry-point binary-name="python" command="run">
@@ -744,11 +758,11 @@ language for applications that need a programmable interface.</description>
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlyfeK0ACgkQIuoRGn5CQqR45QgAoPMK
-MPAO8V7ibR402CALVGE1soDmrg5GueYvUonB4b7W/WWbmeU7bmFLdJFrhmf/hdQLCdfMQ2JaQXpa
-rF759UGbJ0AKyKS83458Cp0CMxw/hMj3smHJr63XAvvFkOOCkTUieqd+VxUEHhq/oBPyk1k2Kaut
-6TTeJMNYW8DPMuEfHt5Q/UR0Ax/3DYXUbtFYW5PT1sWA5dgJYMN2k88SpYctUWx4A6DRYXSbL8UN
-2nAlQUWrvigAImnMawzmnOLX1jTAI2u9yQBNglJaz0Li30y2pN55ZoLxwdALyudcFdSh8r0cq17x
-kHixMEb1mIw5rmg7znVllooHonAd4RbQ5w==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0N+wgACgkQIuoRGn5CQqRW3ggArwM9
+PNuWwu5wgNE5wiM9EmJhp9meDpjqL0gtyZRNGhid4T8RyhgyU95Ctmb26mAE5y8ZvmjcZ8chM5UM
+784+YBKpYZQuTNHH/3dPDU06hVFMf3oqJS5tZTDSzJ9snqKf9t5qUzscFT24Z4moO88XPQD8TVrS
+MECxoa4zrZkZ8BpIo/a6P4XundoUNp4kq9d9vD2ukvM6fO+V1n64oUZzHCfrqysgmKxhcq4UTHV4
+fU9LykDQgTJhhBKFRUUcWfPU52f+/+pJWWFO3KsYHmx7U0nWuNIjgF9tsxFxvZezfnUh9pDvLFk1
+9NDanQQQ6908wuzQE84OBOMivEV+aKyd8w==
 
 -->
