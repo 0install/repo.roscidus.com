@@ -4,6 +4,7 @@
   <name>Nmap</name>
   <summary>utility for network discovery and security auditing</summary>
   <description>Nmap (Network Mapper) is a free and open source utility for network discovery and security auditing. Many systems and network administrators also find it useful for tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime. Nmap uses raw IP packets in novel ways to determine what hosts are available on the network, what services (application name and version) those hosts are offering, what operating systems (and OS versions) they are running, what type of packet filters/firewalls are in use, and dozens of other characteristics. It was designed to rapidly scan large networks, but works fine against single hosts.</description>
+  <homepage>https://nmap.org/</homepage>
   <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/security/nmap.ico" type="image/vnd.microsoft.icon"/>
   <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/security/nmap.png" type="image/png"/>
   <category>Network</category>
@@ -270,11 +271,11 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlzhl8kACgkQIuoRGn5CQqRtoggAtSh3
-P8AZUwlDfiqUlAu5xNnUwaW2juWnqoT/bKFO8h7iJi/orNrj8Ok+5+0Tku2fJy+pv6tFOSm/S7ah
-v1gqBWWqlAkrZM7GSNeW8Z08hF7MAZGu19HFQ1oiYbwG4KrokbdBmzihaCCDbQDQjpOa02hyR4gT
-qtxAuhvRov0BC5mB805w/APBMaXgzB0QiDjJAqS+6Fi0xYWP5OybvwyDVqo/VG27np4i/cZK3K/9
-Imr6V4RAPqIAKVqdQA9qs96CWpszIs88diWeHFJZBYkU87wJKGEMMaoz3ulHYOwqdLBsGZz/6mwL
-V+r9NtmBgj6iW8AhHrb8Y0HYv7d/LNGA/g==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0XXu0ACgkQIuoRGn5CQqSkOwf+Lkcy
+7ZSo5Bqdqq4qrkLT6qCr9SrL7T4E6C6heUh2K10ey/AgU7SVqr9WbuIIP3Z3YK1RkfClM0sWoZyY
+yI3pmOl1RcXkqSBMW0mqLfsdlKzSk+/ZOsszqKAl0roU+W5WmTe/UQD0Xub1WXEwjwryQ/Kx3V5+
+b9NimQyUEAbBSnovos9fVKx5uK26NEP0/nOng4FSufGEvfkiT/LAtlJUdd/IhwXuD01prCGKHwBD
+ukWwJMFmA1Cy6iGV6SlyJH0BvqfvxJF53fIPCaVUcsVS/Q3YiBjzEEO7+Z4YSmHbOtR5DWea7kgW
+28xQ22TefTtFB5OCSVIZyTPv3+qtmz/f3w==
 
 -->

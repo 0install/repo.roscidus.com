@@ -3256,14 +3256,40 @@
       <manifest-digest sha256new="536AOL3WLEY7MQDZNT4KNGBJIJ4QMGC5TMVDIUBYD6JVYAOLBUHA"/>
       <archive extract="filezilla-3.42.1" href="https://download.filezilla-project.org/client/FileZilla_3.42.1_src.tar.bz2" size="4987250" type="application/x-bzip-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=60719e8348c854efdb994d1d43f2110cf44546e1" main="filezilla.exe" released="2019-06-27" stability="stable" version="3.43.0">
+      <manifest-digest sha256new="IOOK2WEK7ZOMPGYCSHIKWPWMQ2IWOGCROBD3YEP3LVNRFVAFNZZA"/>
+      <recipe>
+        <archive extract="FileZilla-3.43.0" href="https://download.filezilla-project.org/client/FileZilla_3.43.0_win64.zip" size="11442289" type="application/zip"/>
+        <archive href="http://repo.roscidus.com/archives/filezilla/filezilla.config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=3a290597fac77ef13d3ecf629dce1c623199fe10" main="filezilla.exe" released="2019-06-27" stability="stable" version="3.43.0">
+      <manifest-digest sha256new="THJ7GATNPDSR2ZJ6DMMHYM7FQ3HZPAFI3DYXIELU5IBEIIVTA2QA"/>
+      <recipe>
+        <archive extract="FileZilla-3.43.0" href="https://download.filezilla-project.org/client/FileZilla_3.43.0_win32.zip" size="11521715" type="application/zip"/>
+        <archive href="http://repo.roscidus.com/archives/filezilla/filezilla.config.zip" size="332" type="application/zip"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=1b0a8ec456518317ddf1b3089be8d2525e78202b" main="bin/filezilla" released="2019-06-27" stability="stable" version="3.43.0">
+      <manifest-digest sha256new="XITGW2RAJELAHX6YJNP42JCPESHF35R66KY5TVXNYJWYDJ6A7Y4Q"/>
+      <archive extract="FileZilla3" href="https://download.filezilla-project.org/client/FileZilla_3.43.0_x86_64-linux-gnu.tar.bz2" size="9425505" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="MacOSX-i686" id="sha1new=37ccadfbc77585fa94187a8f38a574cb3fe941a9" main="Contents/MacOS/filezilla" released="2019-06-27" stability="stable" version="3.43.0">
+      <manifest-digest sha256new="O5W7XSOSCB2KZ4KFDTP5ZX2EOFWYN32X5INHKVZUANVVWJXEQDAA"/>
+      <archive extract="FileZilla.app" href="https://download.filezilla-project.org/client/FileZilla_3.43.0_macosx-x86.app.tar.bz2" size="10050854" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="*-src" id="sha1new=4e1396f026a6d8589674bf68b69c2ccb435b536d" released="2019-06-27" stability="stable" version="3.43.0">
+      <manifest-digest sha256new="JR3NWSAQ6BTBIXATMDYDCGDAELAF5NKFOYPKHCDH7O6HZ55D5ZPA"/>
+      <archive extract="filezilla-3.43.0" href="https://download.filezilla-project.org/client/FileZilla_3.43.0_src.tar.bz2" size="4544635" type="application/x-bzip-compressed-tar"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlzdNNgACgkQIuoRGn5CQqROVwgA6FAQ
-sS4jM2cDnwTtsVO/tXWZ/O3ik1TkWP9UgxfCvarv/gDINF5ECg/KptKYBOQ8D9qShDdjEVA6Bjfr
-1bq15xZrVhcecTipzmOeNZ5VrHUpGbBzqO+FdMJZUvKavTW4TDNFv4FvvLQfIRYgiP4LqNn/0D/U
-CtIsGXN0Dv0qpeHEHgzfnobdiVXzJE0aFyXbUcxsx78006SgXPupJEyj0kMzxgadreinF5Dr9mMi
-EkWRuZMllrfKdgBT38eFZ9e+fG539EOOfsvi/JbiFT4Is37qL210kwNBYNX5NPiaqPbUqMweMVcP
-KnzohW3lnafRL9N314mJZXsvkCEcG9siJQ==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0XXuwACgkQIuoRGn5CQqTD7Af9FYPZ
+cp7s675w2EDZjf98zFLtjAUliV9kz93m+EAx2+/tT8xUELNWnCYL6v+D1VcYWkhnVOGbXHPhkD5b
+VIOdJbS0VVM7akP8wlfptbuQC51FqSGhWyfQrdxkAu7HNIh0WqW5qj/ql8jGFemhFcQ2uv3EIQZK
+4OAKoGZpzdPZnuxKVX/aFw70rZ4BS3B1gPhYejPWu5YA/tJoYJnKNr4B1GivKrwlJwk3ExLYRodw
+sIUTS93rnnyBoyFokCc4QKqMqCYgAvR7SrLd3KtA/6Xo/TiSZlbLXi/gGRbcpeTusK0n9CTSb0Cp
+kM17FpyfGm0/LO0MuOf19dve2qgkZ5GcEg==
 
 -->
