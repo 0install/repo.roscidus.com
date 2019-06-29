@@ -402,7 +402,7 @@ provided as separate git* packages.</description><category>Development</category
   </entry-point><entry-point binary-name="sfdp" command="sfdp">
     <needs-terminal/>
     <summary>draws undirected graphs using a 'spring' model and a multi-scale approach</summary>
-  </entry-point></interface><interface uri="http://repo.roscidus.com/kubernetes/helmfile"><name>helmfile</name><summary>deploy Kubernetes Helm Charts</summary><description>helmfile is a declarative spec for deploying Kubernetes Helm Charts.</description><homepage>https://github.com/roboll/helmfile</homepage><entry-point binary-name="helmfile" command="run"/></interface><interface uri="http://repo.roscidus.com/kubernetes/k9s"><name>k9s</name><summary>curses based terminal UI to interact with Kubernetes</summary><description>K9s provides a curses based terminal UI to interact with your Kubernetes clusters. The aim of this project is to make it easier to navigate, observe and manage your applications. This command line app continually watches Kubernetes for changes and offers subsequent commands to interact with observed resources.</description><homepage>https://k9ss.io/</homepage><entry-point binary-name="k9s" command="run"/></interface><interface uri="http://repo.roscidus.com/kubernetes/kubectl"><name>kubectl</name><summary>controls the Kubernetes cluster manager</summary><description>Command-line client that controls the Kubernetes cluster manager.</description><homepage>https://kubernetes.io/</homepage><entry-point binary-name="kubectl" command="run"/></interface><interface uri="http://repo.roscidus.com/lib/cairo-dev"><name>libcairo2-dev</name><summary>Development files for the Cairo 2D graphics library</summary><description>Cairo is a multi-platform library providing anti-aliased
+  </entry-point></interface><interface uri="http://repo.roscidus.com/kubernetes/helmfile"><name>helmfile</name><summary>deploy Kubernetes Helm Charts</summary><description>helmfile is a declarative spec for deploying Kubernetes Helm Charts.</description><homepage>https://github.com/roboll/helmfile</homepage><entry-point binary-name="helmfile" command="run"/></interface><interface uri="http://repo.roscidus.com/utils/jq"><name>jq</name><summary>command-line JSON processor</summary><description>jq is a lightweight and flexible command-line JSON processor.</description><homepage>https://stedolan.github.io/jq/</homepage><category>Utility</category><entry-point binary-name="jq" command="run"/></interface><interface uri="http://repo.roscidus.com/kubernetes/k9s"><name>k9s</name><summary>curses based terminal UI to interact with Kubernetes</summary><description>K9s provides a curses based terminal UI to interact with your Kubernetes clusters. The aim of this project is to make it easier to navigate, observe and manage your applications. This command line app continually watches Kubernetes for changes and offers subsequent commands to interact with observed resources.</description><homepage>https://k9ss.io/</homepage><entry-point binary-name="k9s" command="run"/></interface><interface uri="http://repo.roscidus.com/kubernetes/kubectl"><name>kubectl</name><summary>controls the Kubernetes cluster manager</summary><description>Command-line client that controls the Kubernetes cluster manager.</description><homepage>https://kubernetes.io/</homepage><entry-point binary-name="kubectl" command="run"/></interface><interface uri="http://repo.roscidus.com/lib/cairo-dev"><name>libcairo2-dev</name><summary>Development files for the Cairo 2D graphics library</summary><description>Cairo is a multi-platform library providing anti-aliased
 vector-based rendering for multiple target backends.
 
 This package contains the development libraries, header files needed by
@@ -752,11 +752,11 @@ More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
 This package is built from the X.org xproto proto module.</description></interface><interface uri="http://repo.roscidus.com/lib/zlib1g"><name>zlib1g</name><summary>compression library - runtime</summary><description>zlib is a library implementing the deflate compression method found
 in gzip and PKZIP. This package includes the shared library.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0XXOgACgkQIuoRGn5CQqScPgf/UAqv
-ZCT8AmcJ9tgc6s0yp9j6wE+9utXCWlSDjA2VRC6g1yB14YsUvfmwzaCgmRz/0U8+Xu+0l2cE4rDJ
-/L9nqidDACx16pqssnqKgIuNvsXnxp1vGc1Cx0FIz6ZssOhyzU2jMmQsmDkQlTaXjD1wapPB1L9u
-FeRaBARAT+TbFM1IA5EMAe6BNj0gSBS/CNJDVSlbYdmPrWjajGWVD5ljEH39EgaxTW4QGTq2KP2T
-wKJkx6kxez6qlw6GpSpzJqlRAjNkVp102xzx1FyDICZJARDrxxAsb69abPI+OcQORM9LPufPHa2B
-/s6G+z8DIN7PsSvG6ApdJrgZxKUMnaulhw==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0XXbAACgkQIuoRGn5CQqQaGQgAs4jK
+Q8u9moCPfyIPvRObix5Zk+LOw+h2coKmzzOz2VlYh/mEzfnY99JELHQSU0Pd/fQlN51H1DkN9fVM
+whDq/ZKhPkUW0kLKtDiFWFhIoB+2O7+gjvUeRKSRyqhtmxO/1SgjjJhsRoSNfRPK4DLAOc5N+cvi
+Rak+ivXsealSpn0cLLiYoq9O1UCZCvMjW5RSqSJ8/Zic9t9AoCRkZlH1n4kR1W6eHcFcaD7cHvXj
+W6OmrLWVnhj2JlIJvBEeoz729TBkjhphQbJFWeT5MK7OtfcrGIRBaGVaDlXwdZwGNxHw6MEM8VLY
+ginn6i5MyhOSVIUWmb+6e9NoF3/tSWk8EA==
 
 -->
