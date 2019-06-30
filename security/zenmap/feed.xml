@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/security/zenmap" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <name>Zenmap</name>
+  <summary>Nmap frontend and results viewer</summary>
+  <homepage>https://nmap.org/zenmap/</homepage>
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/security/nmap.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/security/nmap.png" type="image/png"/>
+  <category>Network</category>
+  <category>Utility</category>
+
+  <package-implementation main="/usr/bin/zenmap" package="zenmap"/>
+
+  <group doc-dir="usr/share/zenmap/doc" license="modfied GPL">
+    <command name="run" path="zenmap.py">
+      <runner interface="http://repo.roscidus.com/python/python" version="2..!3"/>
+    </command>
+    <requires interface="http://repo.roscidus.com/python/python-gtk"/>
+    <requires interface="http://repo.roscidus.com/security/nmap">
+      <executable-in-path name="nmap"/>
+      <executable-in-path command="ncat" name="ncat"/>
+      <executable-in-path command="nping" name="nping"/>
+      <executable-in-path command="ndiff" name="ndiff"/>
+    </requires>
+    <environment insert="." name="ZENMAP_PREFIX"/>
+    <environment insert="usr/lib/python2.6/site-packages" name="PYTHONPATH"/>
+
+    <implementation id="sha1new=2f1f3db589d95b457d7c7f1793fe62ba8d067b8a" released="2018-03-20" stability="stable" version="7.70">
+      <manifest-digest sha256new="BJ4ZS7YAT7322U3FDZALNVREO2HXN6EBDGBIXFJZ3A2P6VW4PBIA"/>
+      <archive href="http://repo.roscidus.com/archives/zenmap/zenmap-7.70.zip" size="1249103" type="application/zip"/>
+    </implementation>
+  </group>
+</interface>
+<!-- Base64 Signature
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0Yk3gACgkQIuoRGn5CQqRjgAgAtf/q
+uYB4zUUWctvMcKdU6lRxTA+KpZ5DLfTCy6VHTa8Tocc1H+UiBA0yohgcyyjcJz0/ixZLYnrk7QPw
+cqqOzD+kLzQCyE2bn6Bk6ItLB4kf7jelap9JfCcrag1p8hPYZsN7XRfIUEiqgSK9Ag7jh5OFCEk5
+Jn7ZEOn5GKXR6qrTs3/I3cwFzeW6sWyC5m9C5tQ3WijXDEsc6nl3BqD68H3q+5WdeqT0xm8uaIEa
+R2y9Y/noH5aJiM5FLDpTAoBv0AJB+K2f0DPcd+96UEf76Rse+qBrAzOjoIC27GgJNjJq5hrAJoeI
+bFGTkdVQK+9dHxPXXxqHi4gxyyma6RNfFQ==
+
+-->

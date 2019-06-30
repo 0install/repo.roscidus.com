@@ -23,11 +23,11 @@
       <manifest-digest sha256new="XHJCZH3BXCJ4T75HQ63JXU6URTXAE5WIAMWSD2UXUYF4LATFVIIQ"/>
       <archive href="http://repo.roscidus.com/archives/python-gtk/pygtk-2.22.0-cp27-none-win_amd64.whl" size="963000" type="application/zip"/>
     </implementation>
-    <implementation arch="Windows-i486" id="sha1new=870fd5d1c2968e3da44232f492064a69ec70c0b8" stability="stable" version="2.22.0">
+    <implementation arch="Windows-i486" id="sha1new=870fd5d1c2968e3da44232f492064a69ec70c0b8" stability="developer" version="2.22.0">
       <manifest-digest sha256new="674477UGD7YPVU4RYTGPVJ5EIXVQJJFIVB5YZ6C7Q66JZJREZJQA"/>
       <archive href="http://repo.roscidus.com/archives/python-gtk/pygtk-2.22.0-cp27-none-win32.whl" size="757169" type="application/zip"/>
     </implementation>
-    <implementation arch="Windows-i486" id="sha1new=f29642fc00bdfa2a64b443c0a5f94dfb3ed72c99" released="2011-04-10" stability="stable" version="2.24.0">
+    <implementation arch="Windows-i486" id="sha1new=f29642fc00bdfa2a64b443c0a5f94dfb3ed72c99" released="2011-04-10" stability="developer" version="2.24.0">
       <manifest-digest sha256new="5NQCQXEZAJRXGOM6H4Z4AXIBG4R7Z5RSBCRB5RFZHXNN2NMNIPTQ"/>
       <archive extract="SourceDir/Lib/site-packages" href="http://ftp.gnome.org/pub/GNOME/binaries/win32/pygtk/2.24/pygtk-2.24.0.win32-py2.7.msi" size="835584" type="application/x-msi"/>
     </implementation>
@@ -35,11 +35,11 @@
 
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlwuCbgACgkQIuoRGn5CQqRgDwf+Jp4D
-MkTeC1fB/7Fts1jsk4DhkqexQYBIL0aX3VLBd0a1i/xa1HgjSL97VYjvYrcnpRe0257MOXV12A4U
-uBhFyqnPAS2doyceGNNlowfKdnofHtDVSVliR6+nh0W7cadHKlCgyoz3W7PyvXz7xUyIKYx9Oo96
-IXe4/l1E06GvDnxeBIFetun3tNCBKQRcnHV7CQZY8+OmY8hN2piXWK4BB6WQHkGcQS21D/pxhAxs
-zwbky+FcOpUUDqic1UlZT5D/pZVI5T1zZcEkkogZLDTDKjFpvTrrPFJ+PVhTmfJ9lDIDkm38lIgL
-4opwvP2mjF4qeJ0IGowgF6f9nZtLoDJTvA==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0Yk34ACgkQIuoRGn5CQqTwRwf+JO4u
+fz0nq9VEZMZMGeeFVAinqFCDdXBPGEXI7MMlL3TxGi+IX2IwN6KZZhcgaw45urVZ+trk5bMJl1jM
+9jPQ4o03midFuyYadrtG7Gr1uJbsNya5Q/8HXL0UfGyqg4yaE262ioFLn0FA9EWEtblKswfQOQvQ
+8yR7AzrHd6DJE9YPtwvJtqd6CIKc1S7eFgffUOWAEuZUjOpvu+S3+Rw0+lSSTgo22RMTUayJtcbP
+mwaEjz4QXLdmA4um3g0Bk/9ZAIBAnkkz2wgXyp52o4yt6ONkLJlcLEbkOoWCrEi72ef+5pDdsIPh
+cEyW52dMk1jDKfJ52L54Lm85QAvfZkiF8A==
 
 -->

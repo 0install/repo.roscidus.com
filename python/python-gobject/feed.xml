@@ -50,11 +50,11 @@ the core library used to build GTK+ and GNOME.
       <manifest-digest sha256new="GTWVISPUFHUCTTJGWC5PW2NYRWGSVES4HBRZ5O3H4K22S4UT5X4Q"/>
       <archive extract="SourceDir/Lib/site-packages" href="http://ftp.gnome.org/pub/GNOME/binaries/win32/pygobject/2.28/pygobject-2.28.3.win32-py2.7.msi" size="442368" type="application/x-msi"/>
     </implementation>
-    <implementation arch="Windows-x86_64" id="sha1new=26307f0d01d2658495b0922c644e9b415e645406" stability="stable" version="2.28.6">
+    <implementation arch="Windows-x86_64" id="sha1new=26307f0d01d2658495b0922c644e9b415e645406" stability="developer" version="2.28.6">
       <manifest-digest sha256new="P4GNQDM7UJRU7JLJDXE6DAG5UJNVTTLHCIXHEHWR5KXPKKQ5HNQA"/>
       <archive href="http://repo.roscidus.com/archives/python-gobject/pygobject-2.28.6-cp27-none-win_amd64.whl" size="538211" type="application/zip"/>
     </implementation>
-    <implementation arch="Windows-i486" id="sha1new=2ead3fbcf68cf5b175a536581a943ced35259d46" stability="stable" version="2.28.6">
+    <implementation arch="Windows-i486" id="sha1new=2ead3fbcf68cf5b175a536581a943ced35259d46" stability="developer" version="2.28.6">
       <manifest-digest sha256new="VSYQ2X6A6BRVRCRYEYDXAXN2BUEGEJNI6O6SI7CXQELZKVJVCLGQ"/>
       <archive href="http://repo.roscidus.com/archives/python-gobject/pygobject-2.28.6-cp27-none-win32.whl" size="511973" type="application/zip"/>
     </implementation>
@@ -76,11 +76,11 @@ the core library used to build GTK+ and GNOME.
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlxeuZgACgkQIuoRGn5CQqT/WwgA6rvV
-MDy702NiOAfJnjDFq3ZVwtwwwaKe4EORtyu2UhdRFuhfiVgl4y1lfNv0ps0ibU28TYlTv9jYmpgq
-T8F9GOqk6QUip+BEMtS4xdGDlQnW/meXff7nGEwDTR4dt6FUoWjTEbXNZg///e9271uhhRHKAX1X
-mqAuk2XVIzJCa/LlrZLUefFtbXxthmmWm2SQFU57gYTZAyxHgCfh7RW1YQ6oSKK2CYYn3t/4OOir
-w2TitIldCBhxos6e8M2ruGYsbaNryqNJl1X6p2wP4f144qaVdFLxfvuXe2K97xW/u+Odkw9dRzIV
-P1Zd60Ece63ynIHXOWBw4/PojvKauMny8w==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0Yk34ACgkQIuoRGn5CQqQucQgAjdgX
+ElUJpzh9pR1gI/3lnt0oiRF9bHOL8FrjWKU/+vYNAvapHFcNdDCfA50Dw9CtV3wfNk5kQwTucA/3
+YyZItnhj6D5KSFCXwiD7XzETiG75BgV15ed2rB5HWPLHP5foq8jXlVHIKQ4xCVilAUSjeWGynh/M
+nvy8aIKmj1M9jZH37/3seg/FhZQE4AZ00QyeF6HZDtGjf++fRMmQvtSWZnnqjJPnVjeGpnCFMihx
+YkmadsXJ6SEhsaLuBcmYTMGvj+kjYCxTI6sCEX0W+EBWJwTZPhZFkzE2dPlBC+jpIPGi0mH+RE8Y
+SKaEkhBu5YhtHniU//9ALBE4nFk2QbdJpQ==
 
 -->

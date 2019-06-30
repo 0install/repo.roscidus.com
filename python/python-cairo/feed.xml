@@ -35,11 +35,11 @@
       <manifest-digest sha256new="266MVTT4XWMYWQWFN2PWFACNH42TRTBDA2VSSRT7SACA44KULB2A"/>
       <archive extract="SourceDir/Lib/site-packages" href="http://ftp.gnome.org/pub/GNOME/binaries/win32/pycairo/1.8/pycairo-1.8.10.win32-py2.7.msi" size="147456" type="application/x-msi"/>
     </implementation>
-    <implementation arch="Windows-x86_64" id="sha1new=b9b71efede8a8abd6df73c5e0e8b7eac1db0f795" stability="stable" version="1.10.0">
+    <implementation arch="Windows-x86_64" id="sha1new=b9b71efede8a8abd6df73c5e0e8b7eac1db0f795" stability="developer" version="1.10.0">
       <manifest-digest sha256new="TGTXCGTCARXN5K42WXVGKXMTVIXOMMXMGLRTOLETSPS62L6P3VMQ"/>
       <archive href="http://repo.roscidus.com/archives/python-cairo/pycairo_gtk-1.10.0-cp27-none-win_amd64.whl" size="29176" type="application/zip"/>
     </implementation>
-    <implementation arch="Windows-i486" id="sha1new=e6380430b93ea83a185f810f8b160d8b0a620dd1" stability="stable" version="1.10.0">
+    <implementation arch="Windows-i486" id="sha1new=e6380430b93ea83a185f810f8b160d8b0a620dd1" stability="developer" version="1.10.0">
       <manifest-digest sha256new="VTDYMK6G7VIG6IQ7LVWVPAM2Y5MUH3NFHXLJY5LRMEMH3I7JOWTA"/>
       <archive href="http://repo.roscidus.com/archives/python-cairo/pycairo_gtk-1.10.0-cp27-none-win32.whl" size="25791" type="application/zip"/>
     </implementation>
@@ -47,11 +47,11 @@
 
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlwuCbgACgkQIuoRGn5CQqR5DQf/RsSr
-/sK9bAKdFUmIdEQ9UNXjU1pe9fH7h9/I1Z76pdL0JdSHrVoQPcILC/nbFLBnxvEnH+NxxPOVToTS
-FJRKJ4Eq4XEMhp/Wtjcmdl4qms17F0jdo6qUMm8RtjNe9KM3IOsJK3qrndcYGty21gGpXhUtzx/S
-HdqLCYWdDp9OyULWnV1XSTvHP3sUqFgj3kBccC0hUz6k4R7fAxhf/ECGm35C0OaSjh96PgCX2k88
-Jk6Sv4tFWo41WySB4o+Nz3b6CMmimVdf/7nbtHW60tIFdwJlIK16GNMxgXj6Y8mz98LwExsmc0vN
-COHllMkzvZ91LCqASTqMJtot+/U28gwWRg==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0Yk34ACgkQIuoRGn5CQqTLRgf9HFNQ
+vZlSYislim2TNWs9cwxmEJQBs3p6X8tFFe8AdGTDXgt0al801AB9JnconpCM+YPxXnhao9UpTyUt
+24znWb0kzQ+fxWz6Jtfj2wO+hrTutFlLzw3HjWeosOrflZ+ZYyFidKTNTepHkr6zRf+SzZehPIBM
+U03HNhVXT6e8BvG3nCC03XsVq2iAkrC4dtxLvVArvfKkuxtQnDWR/JZm6Ka8oGrU/wDI8AQWthcG
+0qfgTAsnWkGyd2smzTh4RHE8Yu1EDtJVsEvAULr7CyRDQ/XbLiCgY76pOzUxyacweCqwLRXObv47
+7A+esePpdANDc8uiXJ42puwek/kZhb3mzw==
 
 -->

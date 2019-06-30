@@ -303,7 +303,7 @@ development cycle.</description><homepage>http://sablecc.org/</homepage><categor
   </entry-point><entry-point command="lzcat">
     <name>decompress .lzma file to stdout</name>
     <needs-terminal/>
-  </entry-point></interface><interface uri="http://repo.roscidus.com/utils/aspcud"><name>aspcud</name><summary>a solver for CUDF instances based on ASP tools</summary><description>
+  </entry-point></interface><interface uri="http://repo.roscidus.com/security/zenmap"><name>Zenmap</name><summary>Nmap frontend and results viewer</summary><homepage>https://nmap.org/zenmap/</homepage><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/security/nmap.ico" type="image/vnd.microsoft.icon"/><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/security/nmap.png" type="image/png"/><category>Network</category><category>Utility</category></interface><interface uri="http://repo.roscidus.com/utils/aspcud"><name>aspcud</name><summary>a solver for CUDF instances based on ASP tools</summary><description>
 aspcud is a solver for CUDF (Common Upgradeability Description Format) instances
 based on ASP tools developed within the potassco project. It utilizes the
 preprocessor cudf2lp that rewrites CUDF specifications into ASP facts. These
@@ -752,11 +752,11 @@ More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
 This package is built from the X.org xproto proto module.</description></interface><interface uri="http://repo.roscidus.com/lib/zlib1g"><name>zlib1g</name><summary>compression library - runtime</summary><description>zlib is a library implementing the deflate compression method found
 in gzip and PKZIP. This package includes the shared library.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0XXvEACgkQIuoRGn5CQqQN5Af/aOHZ
-2sUXaICMIiJ5ZzZyZKMagyO7GzCgq4p2gvrhSRGZ5Jv3oU9toLqXSUf+F8vHCsLa/yAE2pIX3auq
-ZEreRO6mO9ZjIWmR/Eb3qzbtqyrnAwyYC0HUhJLkn8e6nrnkazmDiEUnIAenKndgZ8rcYMgFaBEJ
-gHWWxQg/tzpbKdzI4xixIj2fo21LwyxL3hwnE8rRA35Fg3Ks5xObo+5q5bFIiISlSZyUWQZghYhx
-n6o3bzsWWbzFGm2UIDqi7k7MQM3M31GMz1ReGNLbi+/b1AIDhd9xudxER5u9ZxD1ytAM6cU6BdfZ
-g63R7oK2SS/0Wd/uWVeYX6Ka+yWN8FQgAQ==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0Yk38ACgkQIuoRGn5CQqQFaQf+IWOL
+N8FCgNo8mTEeQWO/xrcPGifOFni8xg8yehxyy6EHoWgfDkCRDyBCwHHaf7XSFEHbm8Q+yPFpES0t
+Sc/BFwDSwyvo4xLCAvcuBvosQm9uDnUbJmRhZEAX2BdW5aRZV8+xtBtj7tafXzg3imV7Vy/epNbV
+sdSS708h7Q/aIYDuJ8vgWaxj8K34ifD9AYsCv5BmrIfz417eMEmVOqf+cjh6jQDRC8ZFbPxUNn+a
+LY0ljz/t1skuKWOmduwS//8WAD/OgdHbLd+H0SZ7x63UgzKalHPsMW9aBT7RwmIfwdZeiYQIYyos
+5X4RdvBn8q+pzGRsQIZm95yPY599hXIfUQ==
 
 -->
