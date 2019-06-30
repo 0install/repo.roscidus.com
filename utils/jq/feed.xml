@@ -6,6 +6,7 @@
   <description>jq is a lightweight and flexible command-line JSON processor.</description>
   <homepage>https://stedolan.github.io/jq/</homepage>
   <category>Utility</category>
+  <needs-terminal/>
 
   <group license="MIT License">
     <implementation arch="Windows-x86_64" id="sha1new=9bfdaaadd45602607df0b483a3744c1f1423f9fc" main="jq.exe" released="2015-08-08" stability="stable" version="1.3">
@@ -133,11 +134,11 @@
   <entry-point binary-name="jq" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0XXa8ACgkQIuoRGn5CQqQmYwgAhAhG
-s4cKSnIUX/Pes1bkJ2QaZOqGhCvnBpFhxzqE4UpekBiX4EryKLW1A+r1fPH83OW+cM135CScsB5a
-uca4MRM1D1gMr9cvWSqiLgg9qIMT2XIZSHLuZZdIbol1qM2JsIYuNEn2M8II3f+/Ae37UQij86oh
-G85sTM79WcV1csykXY2JZCEO1c/cvzCM6kLvkdqNTmQfPbXANmwLIxjHEqRrqx90abv1IrvN/8kF
-eMnlQZdZplirRSXiqT1mZuG+H5gFL6c0AuZvTtrMR3kxKZNkvFzr4SMwVVdvD3x4fn3duR01Jp7S
-KZ27TFEp2prd73+Bi2oWaP5/IsHq4Zt4zA==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0YkjUACgkQIuoRGn5CQqSSwwf+OEQP
+NJJI/oPRZKHHzIVGiiR50aqkqMWGNjp8Kqfsqey1Lgsh1BfpaYiMOTDVA/3XzBL4dWBG1Ocmb0pH
+J4R5K1Gw2VAuawGBCzrxxFYYI5Y/QotSvLJjUZ5/CZuG1dH8+WFnx+j3klahG5EWw3sHLp9Re5tG
+EAu0m6WvuVmsM9abieUHEs9rzPJwXQkd8vbMWWeUvFGa34kPDqKZLkwFXZCJNVeP3nL1l3oChpzX
++5GvS/hiMT9GRHyzVO/lyZxxOwV1m+vaf3ebYMQC49OdDMMDEzxDKbDfovQlP+W/RTmELjOnxBVA
+8pPAiBAGdJRYAaFeLRBfFv6yV7uDMPXv1A==
 
 -->
