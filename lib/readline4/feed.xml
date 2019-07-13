@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/readline4" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <name>GNU Readline Library</name>
+  <summary xml:lang="en">Get a line from a user with editing.</summary>
+  <description xml:lang="en">Readline offers editing capabilities while the user is entering the line. By default, the line editing commands are similar to those of emacs.</description>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.png" type="image/png"/>
+  <category>System</category>
+  <homepage>http://mingwrep.sourceforge.net/</homepage>
+  <needs-terminal/>
+  <implementation arch="Windows-*" id="sha1new=cc673e7a4960169c3cae331701247a60a05b781a" license="GPL v2 (GNU General Public License)" released="2001-07-27" version="4.2-20010727">
+    <command name="run" path="bin/rl.exe"/>
+    <command name="rlversion" path="bin/rlversion.exe"/>
+    <manifest-digest sha256new="2MXPRT36XXCPZK54IV3HM6YGMUMB3IGNJFK4RX7RYNRSF6AZOM4Q"/>
+    <archive href="https://sourceforge.net/projects/mingwrep/files/readline/4.2-20010727/readline-4.2-20010727.zip" size="227405" type="application/zip"/>
+  </implementation>
+  <package-implementation distributions="Gentoo" package="sys-libs/readline"/>
+  <package-implementation package="readline"/>
+  <package-implementation package="readline4"/>
+  <entry-point binary-name="rl" command="run"/>
+  <entry-point binary-name="rlversion" command="rlversion">
+    <needs-terminal/>
+  </entry-point>
+</interface>
+<!-- Base64 Signature
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0podYACgkQIuoRGn5CQqSwQggAgAZ3
+DUFXAZd0cKXNLELPmF8r0lYUg+CXu031IWi3itTG6GjIy17Dtrsq8POxe7yF75RKhIS0dDES/mSu
+aOVvGJsBMWm6gVRj8Thi9G4JFvveJebmkMi+SHqGHLl0L+u1oQNKtJfBU4hjrxKAgIAr/BmG0thc
+j3w+nzRO6rXR7RFi6NP4YD4R5GJAkQ0yFgppHR+8Howr0szoxXV7U5Z4GIMsZNL29SVdnhGJi6VW
+pq9x85KigLj9p8xLTsdp4nczcpym3XXAKpiHaxPF6piNxTo2/cAze7aMLPBnHGerzZho29chS+Zz
+gmz0xike3kQ6Qwoe+5+1PjXszH5454BZsg==
+
+-->
