@@ -310,22 +310,22 @@
       <manifest-digest sha256new="N4H7KF4MKQBCU7VNUVD4GHUFQY3AWJQZZEBNZVQSQLN3EL2K6VRQ"/>
       <archive extract="curl-7.65.0-win32-mingw" href="https://bintray.com/vszakats/generic/download_file?file_path=curl-7.65.0-win32-mingw.tar.xz" size="1997336" type="application/x-xz-compressed-tar"/>
     </implementation>
-    <implementation arch="Windows-x86_64" id="sha1new=c95849fd09e93daac70afedf43418f9702657c27" released="2019-06-05" stability="testing" version="7.65.1">
+    <implementation arch="Windows-x86_64" id="sha1new=c95849fd09e93daac70afedf43418f9702657c27" released="2019-06-05" stability="stable" version="7.65.1">
       <manifest-digest sha256new="UMUFCUBHGVQVYC74WSKBCYDASIRLAHALYHVMZKBZAYCXEDAMLFRQ"/>
       <archive extract="curl-7.65.1-win64-mingw" href="https://bintray.com/vszakats/generic/download_file?file_path=curl-7.65.1-win64-mingw.tar.xz" size="2162176" type="application/x-xz-compressed-tar"/>
     </implementation>
-    <implementation arch="Windows-i486" id="sha1new=ba61735ed3746bcfafb4a405c5aff3895e7fc80d" released="2019-06-05" stability="testing" version="7.65.1">
+    <implementation arch="Windows-i486" id="sha1new=ba61735ed3746bcfafb4a405c5aff3895e7fc80d" released="2019-06-05" stability="stable" version="7.65.1">
       <manifest-digest sha256new="S5JIQX7AQDQCB7MA623WX6HYDUNR2GHEFDD2VI53LF4JH627QCUQ"/>
       <archive extract="curl-7.65.1-win32-mingw" href="https://bintray.com/vszakats/generic/download_file?file_path=curl-7.65.1-win32-mingw.tar.xz" size="2017088" type="application/x-xz-compressed-tar"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0XXuwACgkQIuoRGn5CQqRZAwgA5qNt
-s+JHSj25Mo2GmYaHxnLHwm2rV982s/ilA+Ks25ssMpvUlHIkDHBcFj2wJUSxrw+09DyWNuaLIDY4
-hKSC1asIs1ZlRHFExuityj5ZhOuH2ogm8fglypR9op4C37vlep9zf1jUSiXZfL2H5TMuVqjy8nPV
-0lKqx6ElBGommc/isahtBM2ONGS7AYHAuolnDNiCAUz+LqMBQnjpHJzLTAPeJKnbnT5or86RiFAV
-PhZUZsSokRmhEzTUHg5ZsLPHGO8kMp2Mx6WJO7aQOm9SEHVwxnkJbK+HwkdNbTp+60Y1OMVlwDrS
-uUXPwfPy0GEFMiUnRlurffath8NHHIC9PA==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0pmyMACgkQIuoRGn5CQqTS2Qf/RHJ4
+yV056wIQOg3z/w+i9gadvSDCu7qneCNSKt0IexgD7gR+59vGP7oox+8vbc9nxW53QCcTGIbt60Ed
+0yjbI77eo5U8//HZhZAHnv4mRfpC4cWGJkkBoxkkJodjc34xJjDmOc737952ykOj4/pVNT4SBKo6
+Yk+Of3frzkuOOsQCBCGZcd3anzbru0xFHaJ8w1IGDPTSxsOew6INaBIkrFFDex6QMsn2Mt4vxX+c
+gbFreq3XJGhq42EFh43qhBM+WLwxbiO9ji6/pZAHNzop+FYUZsecmTpCCLJ3+EXqdCeibxIjnBQg
+DbGGB7wxjnpZ1uFccynLGTWSnOXxklBShA==
 
 -->
