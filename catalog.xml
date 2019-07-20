@@ -721,7 +721,10 @@ pkg-config is a system for managing library compile and link flags that works
 with automake and autoconf.
 
 Increasingly libraries ship with &quot;.pc&quot; files that allow querying of the compiler
-and linker flags needed to use them through the pkg-config(1) program.</description><category>Development</category><homepage>http://pkg-config.freedesktop.org/</homepage></interface><interface uri="http://repo.roscidus.com/python/python"><name>python</name><summary>interactive high-level object-oriented language</summary><description>
+and linker flags needed to use them through the pkg-config(1) program.</description><category>Development</category><homepage>http://pkg-config.freedesktop.org/</homepage></interface><interface uri="http://repo.roscidus.com/lib/pthreads-win32"><name>pthreads-win32</name><summary xml:lang="en">Open Source POSIX Threads for Win32</summary><description xml:lang="en">GNUC/not dependent on exceptions version
+The POSIX 1003.1-2001 standard defines an application programming interface (API) for writing multithreaded applications. This interface is known more commonly as pthreads. A good number of modern operating systems include a threading library of some kind: Solaris (UI) threads, Win32 threads, DCE threads, DECthreads, or any of the draft revisions of the pthreads standard. The trend is that most of these systems are slowly adopting the pthreads standard API, with application developers following suit to reduce porting woes.  
+Win32 does not, and is unlikely to ever, support pthreads natively. This project seeks to provide a freely available and high-quality solution to this problem. 
+</description><category>Development</category><homepage>http://www.sourceware.org/pthreads-win32</homepage></interface><interface uri="http://repo.roscidus.com/python/python"><name>python</name><summary>interactive high-level object-oriented language</summary><description>
 Python is an interpreted, interactive, object-oriented programming language. It
 combines remarkable power with very clear syntax, and isn't difficult to learn.
 It has modules, classes, exceptions, very high level data types, and dynamic
@@ -809,11 +812,11 @@ More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
 This package is built from the X.org xproto proto module.</description></interface><interface uri="http://repo.roscidus.com/lib/zlib1g"><name>zlib1g</name><summary>compression library - runtime</summary><description>zlib is a library implementing the deflate compression method found
 in gzip and PKZIP. This package includes the shared library.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0y8pQACgkQIuoRGn5CQqQPVwgAtT17
-VBzk/q5o52QWr+yvWBxYXQV63R0FTqPnCEjrmDeh+m7r/K98d3W15t2IEYV5SdodMVHnl8SSQqNB
-N5ykhzyEyNJkMu6yjB4ha1GaKSal7VJwPC0aJjJVWZVrHzUIori9PttrI2HFq9ucfQz6m1OLgWt3
-pNWdvJnVYr+RxArKXgouQySJ5zA6cNIASD0XSO5uCfc2Juy8LSDUvs+HSEJ9STrDuTDfzitMtvbV
-bw9SMp6Z4m+K1Ghbrnf+jHtNMgGGWl2D/NumOGFfKY2Cn5x49q2OzMT5ftDBVRivk1xfAYsln8x6
-/r6H97nD3m7oELMC4inNBaMSSYkpZnCYog==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0y85YACgkQIuoRGn5CQqTrJAgAo7id
+R0m1PTFsLopd5cEfyJtwPdjAZgMiYPJUR4mOI+VsZmXncrda2oM0+kR2XWfCynXf2tbtqrq88sIy
+YLxN6U4U0T9WQUizGvtU8lEmvOEtz5OWVTwMiUrZ2xbTLBAXjCdzjXd+KeZaJP7ZEBuQonvV3k3X
+4+Oi7vHtXWSPEWdx/l7crh/MdXz6ptbvvJvP/bqni3AKJcBWDjTrN6xqK8FPoqCqlEPBhyWbtA8c
+wnBaE7UOj73773KyykLecIuKKF6ruY94vQGuebuZaluQqikIdC6tMNfbUxLXgEZ3ppl6rBpaeTR9
+aN0/YRqYGZNnqhyYEFR0KkcMAqVyfBaZiQ==
 
 -->
