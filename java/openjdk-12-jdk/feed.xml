@@ -69,6 +69,10 @@ components using the Java programming language.</description>
       <manifest-digest sha256new="AJUQQLBO4RKNO3CMD4TMFFNYJ4VZGD2ZJCNVOTOVTTZJZWBZN44A"/>
       <archive extract="jdk-12.0.1" href="https://download.oracle.com/java/GA/jdk12.0.1/69cfe15208a647278a19ef0990eea691/12/GPL/openjdk-12.0.1_linux-x64_bin.tar.gz" size="197649562" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation id="sha1new=1b0b25728d805e0da286acb8887dc6e8f7715907" released="2019-07-18" stability="stable" version="12.0.2">
+      <manifest-digest sha256new="Y4G7ELFJTUUCSUHVGSP2WH24BKCFLBRXMX462A5VFMVAM6PSOX6A"/>
+      <archive extract="jdk-12.0.2" href="https://download.oracle.com/java/GA/jdk12.0.2/e482c34c86bd4bf8b56c0b35558996b9/10/GPL/openjdk-12.0.2_linux-x64_bin.tar.gz" size="198163978" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 
   <group arch="Windows-x86_64" license="GNU General Public License, version 2, with the Classpath Exception">
@@ -121,14 +125,18 @@ components using the Java programming language.</description>
       <manifest-digest sha256new="3CI3O5AMCAOJD3X4QUJXB3MQUPUTLQATU77BT7REWPHZCVW4OFDQ"/>
       <archive extract="jdk-12.0.1" href="https://download.oracle.com/java/GA/jdk12.0.1/69cfe15208a647278a19ef0990eea691/12/GPL/openjdk-12.0.1_windows-x64_bin.zip" size="196414289" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=ab3b6261dc241ade63f318ec623b812a870c2640" released="2019-07-18" stability="stable" version="12.0.2">
+      <manifest-digest sha256new="S3JLQYSCYH4EVE4VYH22ARXPFGF4NXCYQCZ7JCIAS7ZCEZFL6D6A"/>
+      <archive extract="jdk-12.0.2" href="https://download.oracle.com/java/GA/jdk12.0.2/e482c34c86bd4bf8b56c0b35558996b9/10/GPL/openjdk-12.0.2_windows-x64_bin.zip" size="196542797" type="application/zip"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlzJ0RoACgkQIuoRGn5CQqRiXgf/anZo
-lf5I4p+pKK2OXHuii6QiMI0btxeau/nUU/Ubtk/KZQcK8utz9vfbp/ab/jYkTV2Ql5oJGtyeZprd
-/CE/XivXbCtPSLJUZOvY+rsJJ/WjbYG0BimNOCQzxn8lz8KAIKUPWCuP0tPL4d9fr0y5kCr1XuVy
-s4LwCsFWs/haeOsw2t6UQFYaJT5Uit1AzfjejN212AyqHoa2NqUNXsucweQeB8CamIT8LZvGjKAP
-Fg+NOIY07ERACzl4723DwtwcJ4Map3MYL0yO5v/JoOSEn9YzQVUnXO62We4lKLozPv7cd4rL5G1O
-SsqD1R4Q8C3tW0tEEDzszri4K9OhQYYHQg==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0y8JoACgkQIuoRGn5CQqQ4pwf+Lq3G
+Ks4WQ931V3Wp4pyX1DTEJKU72mAOsh0VejIOoGA7xbpmC3E6bLV9PD3kzLLdtQjgHpFKlJVbJcv9
+ih67WnA7YAF/wSLNzehegf66Z4wfVNVH/D2B0mlNPoZPLf6QrSozwdjbAp2tOHZaL31IvKTR5Dus
+qHJ/UYVPExUgdjeBtbADx97R/3Irq3E9xGL6aACcOreLPYzXHdaqUSCUfhhitmXQQ2tqV8VbJMS2
+rv4fdnT+VaMp/2UnJsO1WarEJ7ysYw3MX7NqBFFmHfz5VP54zXtBSYOJS4K7r5rAQv+jaCO1Lb4P
+FtWjJosQhKgu8LufOloDfCA/0D1UG2pE3w==
 
 -->
