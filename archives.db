@@ -1,0 +1,41 @@
+# Records the absolute URL of all known archives.
+# To relocate archives, edit this file to contain the new addresses and run '0repo'.
+# Each line is 'basename SHA1 URL'
+ocaml-runtime-4.0.1.tar.bz2 d02237550e97a2b4fb09d49c5808561c72501c9a http://repo.roscidus.com/archives/OCaml-runtime/ocaml-runtime-4.0.1.tar.bz2
+ocaml-runtime-linux-i486-4.0.1.tar.bz2 587b68f37d157528ea3adb572544df67148e5fb3 http://repo.roscidus.com/archives/OCaml-runtime/ocaml-runtime-linux-i486-4.0.1.tar.bz2
+ocaml-runtime-linux-x86_64-4.0.1.tar.bz2 13204cd779f90e8a0177eaa3608f69d2f362e8aa http://repo.roscidus.com/archives/OCaml-runtime/ocaml-runtime-linux-x86_64-4.0.1.tar.bz2
+ocaml-runtime-windows-x86_64-4.0.1.tar.bz2 f9eb29c1704369a0a715558e98425a841ef497c4 http://repo.roscidus.com/archives/OCaml-runtime/ocaml-runtime-windows-x86_64-4.0.1.tar.bz2
+ocaml-runtime-darwin-x86_64-4.0.1.tar.bz2 dc3cb96247535cac6e173cd4207336de70b0539e http://repo.roscidus.com/archives/OCaml-runtime/ocaml-runtime-darwin-x86_64-4.0.1.tar.bz2
+pywin32-220.win32-py2.7.tar.bz2 0452ba93410a193a875ae1779dda09f8ac8b4d0d http://repo.roscidus.com/archives/Python-for-Windows-Extensions/pywin32-220.win32-py2.7.tar.bz2
+pywin32-220.win32-py3.6.tar.bz2 5f3bce6f04fb68d4e23976e85d7381463541477c http://repo.roscidus.com/archives/Python-for-Windows-Extensions/pywin32-220.win32-py3.6.tar.bz2
+pywin32-220.win-amd64-py3.4.tar.bz2 e987b4e7c1bdbef2b7f8c803dfbcaf5292b31dbe http://repo.roscidus.com/archives/Python-for-Windows-Extensions/pywin32-220.win-amd64-py3.4.tar.bz2
+pywin32-220.win-amd64-py2.7.tar.bz2 caa68bcafa1813071c05fc73c9307d7f142b00f3 http://repo.roscidus.com/archives/Python-for-Windows-Extensions/pywin32-220.win-amd64-py2.7.tar.bz2
+pywin32-220.win-amd64-py3.6.tar.bz2 b9d885111d804b51cdc6fc998b4459cf481a2164 http://repo.roscidus.com/archives/Python-for-Windows-Extensions/pywin32-220.win-amd64-py3.6.tar.bz2
+pywin32-220.win32-py3.4.tar.bz2 1f72ada353f7be9d9c358feaf99c608ebdbee2ec http://repo.roscidus.com/archives/Python-for-Windows-Extensions/pywin32-220.win32-py3.4.tar.bz2
+mono-2.10.9-win32.tar.lzma 0460b99541937485bacdaf40e98348952f323f19 http://repo.roscidus.com/archives/Mono/mono-2.10.9-win32.tar.lzma
+jar-launcher-1.0.jar c033c1976dc5911d6595d25bfb259d264c10cf4b http://repo.roscidus.com/archives/JAR-Launcher/jar-launcher-1.0.jar
+monopath-emulator.zip d12f4437427078afe98f587b64206886044df37d http://repo.roscidus.com/archives/cli-monopath/monopath-emulator.zip
+gnupg-w32-1.4.11.zip 73c708fd5af694ec6a2bec96fa46e884bae0c2bf http://repo.roscidus.com/archives/gnupg/gnupg-w32-1.4.11.zip
+gnupg-w32cli-1.4.21.zip 110e66d7b6bd7b8fb6ff99dd0fe4e90434fed936 http://repo.roscidus.com/archives/gnupg/gnupg-w32cli-1.4.21.zip
+gnupg-w32cli-1.4.22.zip e3714d0d70dc953ddc4b7e8295a6f1c87068fd4f http://repo.roscidus.com/archives/gnupg/gnupg-w32cli-1.4.22.zip
+docker-18.03.0-ce-win-x86_64.zip 68e9be3a91c53b35b17403c1b24c89f35f280119 http://repo.roscidus.com/archives/client/docker-18.03.0-ce-win-x86_64.zip
+docker-18.03.0-ce-linux-x86_64.tar.gz 758fd27dd17306cdc95a7f4b828390f499a36e50 http://repo.roscidus.com/archives/client/docker-18.03.0-ce-linux-x86_64.tar.gz
+curl-7.60.0-win64-mingw.zip 3457ba00bfcaf0f50d204886e010e19055ab4e3d http://repo.roscidus.com/archives/curl/curl-7.60.0-win64-mingw.zip
+curl-7.60.0-win32-mingw.zip b2194d890d770f444b2f577c737cce6e1d941ba1 http://repo.roscidus.com/archives/curl/curl-7.60.0-win32-mingw.zip
+python-3.6.0-win64.tar.bz2 260dd36f05c8c244f788461de94e1d756465bb66 http://repo.roscidus.com/archives/python/python-3.6.0-win64.tar.bz2
+python-3.6.0-win32.tar.bz2 6801c8afa7421178b1d2f108d500e0522cc07e90 http://repo.roscidus.com/archives/python/python-3.6.0-win32.tar.bz2
+python-3.6.5-win64.tar.bz2 76a467b74253cec1620e5ac50f12e8d9c1716d63 http://repo.roscidus.com/archives/python/python-3.6.5-win64.tar.bz2
+python-3.6.5-win32.tar.bz2 c3d018dac157fb84e21cc4c40fd149a2b3fda92e http://repo.roscidus.com/archives/python/python-3.6.5-win32.tar.bz2
+filezilla.config.zip 38f11d2508a15ef74a31125d9d516e3574d7c232 http://repo.roscidus.com/archives/filezilla/filezilla.config.zip
+pygobject-2.28.6-cp27-none-win_amd64.whl 94c5e8603d40de38806b8f7790b05e1fafe1bb13 http://repo.roscidus.com/archives/python-gobject/pygobject-2.28.6-cp27-none-win_amd64.whl
+pygobject-2.28.6-cp27-none-win32.whl 3f45ee0c8ab3d1952b21044e3a9cf52de22d9d0b http://repo.roscidus.com/archives/python-gobject/pygobject-2.28.6-cp27-none-win32.whl
+pycairo_gtk-1.10.0-cp27-none-win_amd64.whl 99bfbd70de6469f4287be8782084e20252b32c63 http://repo.roscidus.com/archives/python-cairo/pycairo_gtk-1.10.0-cp27-none-win_amd64.whl
+pycairo_gtk-1.10.0-cp27-none-win32.whl 0d43d4ed6cbb892057d7b152967e254fc04ba93c http://repo.roscidus.com/archives/python-cairo/pycairo_gtk-1.10.0-cp27-none-win32.whl
+pygtk-2.22.0-cp27-none-win_amd64.whl 1d9b2929341c7f8b6e16747d270037d6cdb910c3 http://repo.roscidus.com/archives/python-gtk/pygtk-2.22.0-cp27-none-win_amd64.whl
+pygtk-2.22.0-cp27-none-win32.whl f9055b8a2d28ba6eba14740e48474e729636cdd2 http://repo.roscidus.com/archives/python-gtk/pygtk-2.22.0-cp27-none-win32.whl
+pygobject-3.24.1-py3.4-win64.zip d59d02420b07b6c9285d84850bc097f492d7d878 http://repo.roscidus.com/archives/python-gobject/pygobject-3.24.1-py3.4-win64.zip
+pygobject-3.24.1-py3.4-win32.zip c10e67444aed79b8d220f930f760695594640461 http://repo.roscidus.com/archives/python-gobject/pygobject-3.24.1-py3.4-win32.zip
+libgtk-3.18.9-vc10-win64.zip 002f54822d67a8b7e57caa8d3480e3a45288490c http://repo.roscidus.com/archives/gtk/libgtk-3.18.9-vc10-win64.zip
+libgtk-3.18.9-vc10-win32.zip 94f0d2ff1400f4e30f82b69ad4a74439a6288241 http://repo.roscidus.com/archives/gtk/libgtk-3.18.9-vc10-win32.zip
+gnupg-w32cli-1.4.23.zip 6518483abf3ca350ff164527076be3d9ab3cfe73 http://repo.roscidus.com/archives/gnupg/gnupg-w32cli-1.4.23.zip
+zenmap-7.70.zip 5eaa21e6029b0264ea1152cca3754832421884d8 http://repo.roscidus.com/archives/zenmap/zenmap-7.70.zip
