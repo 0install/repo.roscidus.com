@@ -72,14 +72,18 @@
       <manifest-digest sha256new="JVOTWZNXHRITMC2GNRARYESGHJ4PDDUVUV7Y5J7RZWWA7ZDPVU2A"/>
       <archive extract="pyyaml-5.1.1" href="https://github.com/yaml/pyyaml/archive/5.1.1.tar.gz" size="164166" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation id="sha1new=eea52ef584f7287ff940703304cee8bd5c1dafeb" released="2019-07-30" stability="stable" version="5.1.2">
+      <manifest-digest sha256new="VLHEAMFKS2CIEZRUGA4JTNACJGU4NGWAQY5QLCIVSMX4Y5LAJK2Q"/>
+      <archive extract="pyyaml-5.1.2" href="https://github.com/yaml/pyyaml/archive/5.1.2.tar.gz" size="164097" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlz9TJIACgkQIuoRGn5CQqQaMAgAr3xZ
-xWwYjH4tDbNfyO0kh9S7YY0zDAzp+X2d9iJOT+6OZPMd9OA5Rrb+nDobopVvWjVDngYkIpW8S9j/
-1Ea48ohgR1LNMVYTYYDjGL3WvN7NlxscV9PkaUkluujwyDtRnN20Q19JCxYVGMFx3FspaMCnECNO
-XZlnrV1SWsMCbbHqKm5np7ydNr+dlFKjYUfEWtNLR/Z/jT5/U7+DhBpPNzW3mqanq+plWKuWOvXe
-7YsC44gGVO8Y3ucK4I7haJ9fEe4ChsD9tcwX1kNJdblUGcjqJom9u5lvvZoc1FuCUIpzt4zLg5fN
-AS9rpysanTSkkX1RYzKo/wonnMggKdK8xg==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1Gx+kACgkQIuoRGn5CQqS5rggA4rdE
+d1OEEdWhwlh1XAwMElXhZCzhdtQbcdjAlX6rxRxpEdWPdb2Lbd5lptVxGzcZ/9rQxhe1sAbkB0k9
+PegccBqz9pxOh3N8p37c5pbntZ5QlxQQFq9iHKBoOTgAwt1p7CtU2cHpK4h8vzEkxFd5F59fE1+n
+apI91+wGu2dhNYPkn6HllqPO5bsnROEY1SDzXPw+1iBdZoyuQnnlcTWTsGHhxZEPEkE+5CSYzIC1
+PkpVSDVV7MAZ4o0c6L5tqsxsZw2ic0puOl1eintnX6WX3r8zfFmnedWPz3pxbd7TrQAnTSlgsZOv
+FuL69wfgyo9L049nNotTWi+HX9D564aLhg==
 
 -->

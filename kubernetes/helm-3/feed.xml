@@ -20,6 +20,14 @@
         <manifest-digest sha256new="7CCUM4RWGZQ54G2G6AU46ENW7LLG2ZP7SIKULKUDXEG6ZRJSGM4A"/>
         <archive extract="darwin-amd64" href="https://get.helm.sh/helm-v3.0.0-alpha.1-darwin-amd64.tar.gz" size="13365862" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=120aa279a93006e72f1dfd723d3948ed92d0e858" released="2019-07-23" stability="developer" version="3.0.0-pre2">
+        <manifest-digest sha256new="YNOF536G5RDKLESWXXYPSWLTCW7RBZQ7ZHWF6QGDZWVGDAB7TDOA"/>
+        <archive extract="linux-amd64" href="https://get.helm.sh/helm-v3.0.0-alpha.2-linux-amd64.tar.gz" size="12822378" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Darwin-x86_64" id="sha1new=20ae5aed4f5a8e546289fc4852bd4aa1d2088281" released="2019-07-23" stability="developer" version="3.0.0-pre2">
+        <manifest-digest sha256new="7LPBITB44WERVUCTQQC5AYJTCYAVE7GR432DX3P4ME66WBQDZITA"/>
+        <archive extract="darwin-amd64" href="https://get.helm.sh/helm-v3.0.0-alpha.2-darwin-amd64.tar.gz" size="13480048" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
     <group>
       <command name="run" path="helm.exe"/>
@@ -27,15 +35,19 @@
         <manifest-digest sha256new="SUUT7XVPSL5QHAQGRX2PQ6JYE2XNMONSOVGVIPW4EJMMCBMZBMBQ"/>
         <archive extract="windows-amd64" href="https://get.helm.sh/helm-v3.0.0-alpha.1-windows-amd64.tar.gz" size="12685765" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=008b937fd7a51b5b0cd4b6bf19239cad70541675" released="2019-07-23" stability="developer" version="3.0.0-pre2">
+        <manifest-digest sha256new="BNI2PUTPA5XAP5XL62ZTKWICCA6R4V47S32AESSKC2UJWPYENPQQ"/>
+        <archive extract="windows-amd64" href="https://get.helm.sh/helm-v3.0.0-alpha.2-windows-amd64.tar.gz" size="12797041" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlzhmBQACgkQIuoRGn5CQqT6ZggAomeB
-FMbioeq9ViQ5Cag1qCoOvnQga2Jxo2HftsOFVuwJY18VFLgdhHzL3bd48kqarNlMIr/Wv26SX9J/
-tnPtXwPldpfYuMKmlYyTK0Ew9M4t4NICiQyW21Q8aH/ggobObEF5Sd2Do4vVsh1ugL+5DGX2e4sa
-XAGFpvl14vgL8h/t3JkmFx1NUsQn63zU6yLCr5WeIqKbdLJe8yKMjz/Q5I4UG8syxAWyZi3hxFMP
-q9BUzUb2CbfrcFGEzAIjvizcsdQJkQQ+IQwzf6VTlLKF8X6KS9BxjAKboxE9I47u1FvJSnJG3+v1
-/gb8HdxbBdNSEYE0Rf+EtA2NC/xh7vKdDQ==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1Gx+oACgkQIuoRGn5CQqT1+gf9HdyM
+iiYVQpjgcEz+3BPANyxjNI6xfltTQAUlpU6oYHM7TLI0EZds3+m7iwCPBII8lDwqonvf81kDMZlS
+SUQ5mqsOD31PC24EBCf52R6Xzbaxcmb6nbplWtzR1ihtCMQjbPGWCeRP/9TZC7kTXFJr4rrVGdvc
+UkSiXxZ6CvtvgzJ0PaEOctQg+5GzPzVfOZ6F8idfPKE7ma5DrEJZdo3TGACRKOb3tRY7KiGnHJDr
+JR/DgnAOq3mblSPmJoG2jToovagh3XxgFJB7LdmkZDqTAKnFZe/6cvGMOlr9bQB1LyduaqrWJtii
+sYdSMSqakQE8QUv3vPyvKCMXBnGbO27yvQ==
 
 -->
