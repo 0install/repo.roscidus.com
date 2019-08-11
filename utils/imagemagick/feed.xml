@@ -2384,14 +2384,28 @@
         <remove path="ffmpeg.exe"/>
       </recipe>
     </implementation>
+    <implementation arch="Windows-i486" id="sha1new=4b7d0c6d84375d63c862c142555965f2084bfc4d" license="Apache License 2.0" released="2019-08-04" stability="stable" version="7.0.8-59">
+      <manifest-digest sha256new="3LUPLBJLNBI6PVA66I6LAO3FVLZJENQW3G2Z6FH5HIB45QTJZOKQ"/>
+      <recipe>
+        <archive href="http://ftp.icm.edu.pl/packages/ImageMagick/binaries/ImageMagick-7.0.8-59-portable-Q16-x86.zip" size="73896570" type="application/zip"/>
+        <remove path="ffmpeg.exe"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=b50e86c92b1555f59c211c5bf31e2c3616afc05a" license="Apache License 2.0" released="2019-08-04" stability="stable" version="7.0.8-59">
+      <manifest-digest sha256new="3KZEPCFJ33UN2FQPKMPQUOPEUONOMYWOYN4LMUWV2D555GATFVQQ"/>
+      <recipe>
+        <archive href="http://ftp.icm.edu.pl/packages/ImageMagick/binaries/ImageMagick-7.0.8-59-portable-Q16-x64.zip" size="81159460" type="application/zip"/>
+        <remove path="ffmpeg.exe"/>
+      </recipe>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1Gx+gACgkQIuoRGn5CQqRX6wf9GOiY
-uyflylZrovRbadK6hOvtpG1JTbO3rFgQwI1XC53/wxsYD0GVMWQQy2nPjyByC47vjBMCxqBNd4/M
-OVwEb38Tv4MefHndi/lY3DQ5wH81gIgsjovcMKindCc/MrKy0bm1jI8YjfYqGE8Z7OYG1eXIM56R
-evnWJFB/3LO/i1FR+jrx+0r1U3V3q7T6h/Gbgy6GHuIiRWltQzwCv/Mk67SOQklLQXnnsU1afkSY
-X32QIVEIU1xlPzckxvirXClNBEzHnNf2jsBRmZoexcZtBJBaOinPCffiWpQs7hysPzGdlcAiXCY0
-1gArVYL4GCKMKuhnXJm8ME+GLo0JGc5yRg==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1QbRoACgkQIuoRGn5CQqSIxAf/dSu3
+bE91dFyDdL+74pibyJQ2M5Vua5970E1/oTnv4KMtigNVgGuxHvt3qW38NgA7DMJJ44Ps8ZL5dihG
+krUhGnAfgyGwYGO6d0gow1oqJylcjjJZ2OR+vdVPXDuFK5VnPq5yYMMhDSigjjR+A9XaW6l3RXZV
+z7QttLqa3OTK/mAb9LsHhDxPA0TtmREYCp7E+oS14D5S/SCIu89qG0eArUj9/sRRgKMzsOf1KiZC
+oSFt+cybWao2z/6k/ewe7ske3MnOSFnjEImW+zquFTE5H6nLgqKkQqAUylbdUwNQmjsiQZ+Br3QL
+Yc3gtIvH2DvfT45zSQ/RvZyucnwKzJTcbQ==
 
 -->
