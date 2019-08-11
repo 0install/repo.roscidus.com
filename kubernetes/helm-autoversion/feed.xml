@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/kubernetes/helm-autoversion" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <name>Helm Autoversion</name>
+  <summary>wrapper for Helm that auto-downloads client matching server version</summary>
+  <description>A wrapper for Kubernetes Helm that automatically downloads a Helm (client) version that matches the Tiller (server) version.</description>
+  <needs-terminal/>
+
+  <!-- Intended to be registered by users via: 0install add-feed http://repo.roscidus.com/kubernetes/helm-autoversion -->
+  <feed-for interface="http://repo.roscidus.com/kubernetes/helm"/>
+
+  <!-- Marked as version 3-pre to be considered "better" than all Helm 2.x releases but not as a candidate for Helm >= 3.0. -->
+  <implementation id="sha1new=a551fc5839686a79ee5fe9b7412f0bcb82b43605" license="MIT License" released="2019-07-16" stability="stable" version="3-pre">
+    <manifest-digest sha256new="YK4PPBMOGQYPFR227KIBN3NCXBE3FM2FGY2NMOAAOX3R7N66RPUA"/>
+    <command name="run" path="helm-autoversion.py">
+      <runner interface="http://repo.roscidus.com/python/python"/>
+    </command>
+    <archive href="http://repo.roscidus.com/archives/helm-autoversion/helm-autoversion.zip" size="1035" type="application/zip"/>
+  </implementation>
+
+</interface>
+<!-- Base64 Signature
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1QbnoACgkQIuoRGn5CQqR1AQgA6Cg/
+gZIuGW2z3fIHWNO3lWhLNRoEb8/XvPyuH0Lgu7+WdQ2H+8VWD0JcOUD0sXzrq8YCtrqY2qLDtWAv
+UVsRexNPIKpQGQgoo4IOfRFPcXjopk6KFIEZu9nNJDNSgOfMzyIgBPmw97auJ7EDikOXep0qLgEn
+MydkaM/7SGHQCqs+KoQ2PAd29ZilGPe27AJVYxVEwQURDcyQbg1vaFT/9bGTgCiNzxdptdchQMBn
+KEIuVkBOMvMhe6jOIawiri6E0X8qU2/Jj9VVtVoWARSkrUyVr6gc/TyyMKB4YRjGgYIGb8QufB1g
+4/+MVxR9P+0yf/RZabVNx5U83SF0zl+49w==
+
+-->

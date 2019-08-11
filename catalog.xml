@@ -152,7 +152,7 @@ because it uses IDEA (which is patented worldwide).</description><homepage>http:
   </entry-point><entry-point binary-name="bq" command="bq">
     <needs-terminal/>
     <description>command-line tool for BigQuery</description>
-  </entry-point></interface><interface uri="http://repo.roscidus.com/java/gradle"><name>Gradle</name><summary>modern open source build tool for continuous delivery</summary><homepage>http://www.gradle.org/</homepage><category>Development</category><entry-point binary-name="gradle" command="run"/></interface><interface uri="http://repo.roscidus.com/java/hsqldb"><name>HyperSQL</name><summary>100% Java Database </summary><description>
+  </entry-point></interface><interface uri="http://repo.roscidus.com/java/gradle"><name>Gradle</name><summary>modern open source build tool for continuous delivery</summary><homepage>http://www.gradle.org/</homepage><category>Development</category><entry-point binary-name="gradle" command="run"/></interface><interface uri="http://repo.roscidus.com/kubernetes/helm-autoversion"><name>Helm Autoversion</name><summary>wrapper for Helm that auto-downloads client matching server version</summary><description>A wrapper for Kubernetes Helm that automatically downloads a Helm (client) version that matches the Tiller (server) version.</description></interface><interface uri="http://repo.roscidus.com/java/hsqldb"><name>HyperSQL</name><summary>100% Java Database </summary><description>
 HSQLDB (HyperSQL DataBase) is an SQL relational database engine written in Java.
 It has a JDBC driver and supports nearly full ANSI-92 SQL (BNF tree format) plus
 many SQL:2008 enhancements. It offers a small, fast database engine which offers
@@ -846,11 +846,11 @@ More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
 This package is built from the X.org xproto proto module.</description></interface><interface uri="http://repo.roscidus.com/lib/zlib1g"><name>zlib1g</name><summary>compression library - runtime</summary><description>zlib is a library implementing the deflate compression method found
 in gzip and PKZIP. This package includes the shared library.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1Qbb8ACgkQIuoRGn5CQqSNDwgAxnxg
-dGB+b4/xqQ0ZXdji/5xS+eHueOg4w4rDElW5JtJOZDpBF92zzpTT1qfqsgPeKXB6HEjyj/o3ZYGE
-r+x0eSZgquw0MD2w0zAlRNy6FgAC4GRMB94BwG+/inDw6s4Mu6iq//BJGgU5Hrzq5LYIfJdsbT31
-54vkpUDoPyES3OPYiIrGv+svAqLdWDOg7xhqJcjTiD4rgpzyijdFupJrPd4zIhysf9EooyLztpJK
-JvOPT+WcyN6PZHR1BJbwNf2ErJ/NI0RxmR1bOpr4tE+AyywRSngF+e2nkFI+ah6BH+VA7GBp/zQM
-HF7Y9pDcr6yyiPLzkBOH0ADr0CYlPHqPFA==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1QbnsACgkQIuoRGn5CQqRIWggAxeMq
+d8JZ4449xgusOTxmduKeQ0EQslIucZwb9bwLj/w8o+cohxONL359H3Gj+nfuorNZnKYXMkZ55l5A
+YwAR6WUsQeXDekatNVkOBPn+rIy0YuqWP5ikIPGKGqO71SaYEsJK+8aBO597RpH766D97AYJwVRL
+rEaI3thyltIS8kaoVFClWOShVzn2I8r2sLcCUQ7vZQ0saDuYgOzLhd0yE5IZEKMssU2+zidJo5wr
+UfbeEKnyJw/uSWZOsvZ6MLZJkPazoVtCq8cjQ+U0fNGZzYG1A7TLv2hY8KmUC4HIM7WWyYzK04va
+BEj4BRW/QUG/lfBb1TpAHTaw+VbMdOew2g==
 
 -->
