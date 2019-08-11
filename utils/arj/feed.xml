@@ -4,8 +4,8 @@
   <name>Arj</name>
   <summary xml:lang="en">Arj: archiver for .arj files</summary>
   <description xml:lang="en">ARJ is a file archiver that compresses files into a disk space saving archive. It is fast, reliable, and has a rich set of features which include Windows 9x, Millenium long filename support, file version management, data damage protection, ANSI escape sequence display handler, configurable command options, multiple volume archives (archives that span diskettes) and much more. </description>
-  <icon href="http://repo.roscidus.com/utils/arj.ico" type="image/vnd.microsoft.icon"/>
-  <icon href="http://repo.roscidus.com/utils/arj.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/utils/arj.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/utils/arj.png" type="image/png"/>
   <category>Utility</category>
   <homepage>http://gnuwin32.sourceforge.net/packages/arj.htm</homepage>
   <needs-terminal/>
@@ -46,11 +46,11 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0y+WQACgkQIuoRGn5CQqS3+gf9H6YS
-krMcIFebP9jl4U2JtTcfuctKheST1B9X+09X7DwxOjxTfpcWdEk60g7vfeim91kKw7N4/YOAid3k
-Yw/5NtRXJfHiGWaYXlkLHlI7T5FzSxt4/1jRvCFhw65SAwxdE4JTw6UJIUS5yKCkTtmuy0Hss///
-NfGbtNeo2c0WTCFrAdxI8ZAtt06Nc7qsmyhdCy03r42GSwOqOtPfJTzxc/CTu+pviUqM+oO8nxeD
-Gu/r+hpEMWDHRkdVBAwq6S3McIdMeyNqL1bncKLRIiK3u9SVbR/LQU8MppsINgBgs3qXCMaO+4cX
-rvWmzr9r7+QZJYlNNO5wS4tBd0MLDSr3eA==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1Qb58ACgkQIuoRGn5CQqQ4qgf/fnhp
+F7aiAsVxajQU9G6xeemZUP7SBlbV4XmRir3Ppu4t0NNAzSD4lEhMYemVO6EgrYUKktwGM272ZN7i
+n8Z9MNbAukXtZYZwjEgHgNAHRZFb2HEcBvP82sST10MisXWZHi2pLALhQM/SiZ6v2kkXWH5aIJ0z
+ljxnUvWrkH+D288NjXQeDg3JMEL8946mT9+nBEi0YgXuLjP9RAkRc1FLDYbEXEDrPga6hzAPWFpF
+5YmjRUq5/UqsXO0TsiV5F8PChWtsym5KHb6Tfq+RBYRcxX6c5mMh7FB8VS0RH0vtxLgvwdxCWU/I
+SQCGR5HQuTXFSXykgnI8qpGKHV1b49gS9g==
 
 -->

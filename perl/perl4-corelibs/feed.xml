@@ -11,8 +11,8 @@ distribution instead.  From core version 5.13, until their removal,
 it is planned that the core versions of these libraries will emit a
 warning when loaded.  The CPAN version will not emit such a warning.
 </description>
-  <icon href="http://repo.roscidus.com/perl/perl.ico" type="image/vnd.microsoft.icon"/>
-  <icon href="http://repo.roscidus.com/perl/perl.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/perl/perl.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/perl/perl.png" type="image/png"/>
   <category>Development</category>
   <homepage>https://metacpan.org/pod/Perl4::CoreLibs</homepage>
   <implementation id="sha1new=b36e6483c2da3e2d1cc6913120ed9c2afa5dbaca" license="Perl License" released="2017-07-29" version="0.004">
@@ -22,11 +22,11 @@ warning when loaded.  The CPAN version will not emit such a warning.
   </implementation>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0pn+MACgkQIuoRGn5CQqSKegf/U3ip
-ceOA9pPWb8k5tsNlPoBTl2JvCjtCrkmM0wkkvMRRQbwruS6XFGIFEmOCQ3d1e5MROkqFZJ3EIPx1
-WAQax32hS0qy0SxEzrwJy0zGQehJIvUrKLcwW3Eu7+odmBXgIa7xBMiHAVz5hcin4BJiw/Ikd8TZ
-22QekLh21nauV0tBNqd6c0n47M9k2mYmAA5wT4nLS4eUFXCucHLo+loce+yKgJo117R82tEmc/Nv
-eir2J24xg3EPAx61iQPlU5NTKssicVHdv8/wu/HyHu42NKfojIQlBZl0pZjp7Svjz48eygs5KFij
-E+uq+uIx2ACTD3F5c84Ir9J1F+dSTFd11A==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1Qb58ACgkQIuoRGn5CQqShxwf/Rhvb
+Z95GK6gMcUV0kZaP1LubIuH4hcThU7mhc66pDm0v2hAiP3P/YpS3uLYsZQmw6gB3H/PANmfNfBgr
+g6W+i+7E/cQnfTBn1dlAhxXgeFke4aKoHb14jCU4LoFtFkedU+ENaBKo3ylUEDUFbL9L3EX2OW8O
+yB5fFJX45rUg2ZaVdwSvIgqw3KB5IYEc1+Qb0lUUniJ5R3mqTZr25/JISc/nFei+8HyGv6tGU/jR
+4Rg4f0uebLAyB1egFS16qLigQb1/4yZduUTM51CCZKA3IlkRQz6fgojQfGvQ3LYF5ctZEoUQfVoJ
+52MqAMOVxFsia7SOb6GHfXKqZVBAIAAxfw==
 
 -->
