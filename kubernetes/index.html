@@ -20,6 +20,16 @@
       $ 0alias helm http://repo.roscidus.com/kubernetes/helm
     </pre>
 
+    <p>To make 0install automatically download a Helm (client) version that matches the Tiller (server) version:</p>
+    <pre>
+      $ 0install add helm http://repo.roscidus.com/kubernetes/helm-autoversion
+    </pre>
+
+    <p>To have 0install automatically pick Helm versions when pulled in as a dependency (e.g., from helmfile):</p>
+    <pre>
+      $ 0install add-feed http://repo.roscidus.com/kubernetes/helm-autoversion
+    </pre>
+
     <h2>Official tools</h2>
 
     <ul>
