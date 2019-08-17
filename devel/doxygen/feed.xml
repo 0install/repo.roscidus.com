@@ -126,6 +126,10 @@
       <manifest-digest sha256new="MIPZGH5ZSU7VPAVKBQ2SKYFEHFBMJJH44UPPGBOLTKJAYC4PNUIQ"/>
       <archive extract="doxygen-1.8.15" href="http://downloads.sourceforge.net/project/doxygen/rel-1.8.15/doxygen-1.8.15.linux.bin.tar.gz" size="43329823" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation id="sha1new=d46834e1eb9dea9ff4340b52a93e89a083801585" released="2019-08-09" stability="stable" version="1.8.16">
+      <manifest-digest sha256new="SINER7G3BVGM5RJIJQUSPF5ZIM7JW4DRMUUZ5KJIC6MTKV5RKQYA"/>
+      <archive extract="doxygen-1.8.16" href="http://downloads.sourceforge.net/project/doxygen/rel-1.8.16/doxygen-1.8.16.linux.bin.tar.gz" size="44585771" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 
   <group license="GPL v2 (GNU General Public License)">
@@ -324,6 +328,14 @@
       <manifest-digest sha256new="PXXTNBLSYR6APZOQWKVJ3TB3L3NNZFZEKPK5AOK6EG2JAPYX4VTQ"/>
       <archive href="http://downloads.sourceforge.net/project/doxygen/rel-1.8.15/doxygen-1.8.15.windows.x64.bin.zip" size="23153287" type="application/zip"/>
     </implementation>
+    <implementation arch="Windows-i486" id="sha1new=a21b95eafea85174c8d6287a1526a4496fc1ed7b" released="2019-08-09" stability="stable" version="1.8.16">
+      <manifest-digest sha256new="CZ5OXG4XTFEYCNEW25NEKVEDQ7S4QD7S5SG5P3M4OVJ7NHJRXJ7Q"/>
+      <archive href="http://downloads.sourceforge.net/project/doxygen/rel-1.8.16/doxygen-1.8.16.windows.bin.zip" size="19196248" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=fa051fcffddb8021207915a6e54a832acbbc0298" released="2019-08-09" stability="stable" version="1.8.16">
+      <manifest-digest sha256new="RBABJTCARG6BVNGYJNINHFSE36WIZ7B43Z6YNGG2BWI26NQIYOJA"/>
+      <archive href="http://downloads.sourceforge.net/project/doxygen/rel-1.8.16/doxygen-1.8.16.windows.x64.bin.zip" size="23291135" type="application/zip"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="doxygen" command="run"/>
@@ -332,11 +344,11 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlwsrisACgkQIuoRGn5CQqRg5ggAgTpx
-zYiVsES4EVsRLgcrzStBCmSxITWWZDPqc/HtGZOSfQ7tYLA4T+oBa910ZSIr0ElL2QTNodR5AkEu
-V2UD9B7jEzp1xay0fi7ZuheEnT3ueFAi7KxR6myuD5i7KOZ9/ebu2dHgMt4k0WMog/XuA9Lu0QK+
-/7y+4MqoTqdhmNpYeFs1KNp+OK8sFQhFEm0wCYfQxkqke3ml3ykwxEDs24eQKGUjwC/iBmFPmNhu
-w895ZXvtGfAsMj+RiNXcF8nBHZyR/v06VXrp+lixM0d37XFGnG21AQBn87aYRYYHB1XwQSq8fHZM
-7S1P89u4WEVka5IELyJhS6//r3KW2fwedQ==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1XzwsACgkQIuoRGn5CQqRS4gf/dve2
+7BEYiYboc3M47koPlb31M38VmbY98PBuZWlnDitUp7knQOmRgGtoMNUN200A4Jk8OBsLuyBljhRm
+KNh3ZfIqVodWpMI4WrVov9KJeU0R/NARpy1Tv7xPmjHdxg/LCiYWcaAooMGj7EOR0UnGVei1sN5g
+mTHKeKORXxt92HV9fXHkaEqZbcWNnJFGwPTXszftDsRLu4ThthFjJoSJt45RQArrt/VCeextxUq/
+bXMJLmWwCa/9dgSqJoFhokDV+QE012qzfHcu18T9ANLaL39tMTnj4eveyevtpkf6E+yQUiYa12uN
+nGMmc3kFKyhl919R9LzxELrzDWFaWHKPeQ==
 
 -->

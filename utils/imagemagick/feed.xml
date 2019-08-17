@@ -2398,14 +2398,28 @@
         <remove path="ffmpeg.exe"/>
       </recipe>
     </implementation>
+    <implementation arch="Windows-i486" id="sha1new=e73c9f290d2245faad0c1aea331cde40772de5da" license="Apache License 2.0" released="2019-08-10" stability="stable" version="7.0.8-60">
+      <manifest-digest sha256new="4AR6L3T2RATW7WGRGOOTRZG4EFMXQYUT37HCHSELGFBPZUECUB3A"/>
+      <recipe>
+        <archive href="http://ftp.icm.edu.pl/packages/ImageMagick/binaries/ImageMagick-7.0.8-60-portable-Q16-x86.zip" size="73895243" type="application/zip"/>
+        <remove path="ffmpeg.exe"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=4bd83ff01506a18eaa6872875da0b7a37bd4663b" license="Apache License 2.0" released="2019-08-10" stability="stable" version="7.0.8-60">
+      <manifest-digest sha256new="GGUOYKIWRTEWDASXMXMD7C7JVCMSKUVD6QJGSZ4QGXANBO3LQAMQ"/>
+      <recipe>
+        <archive href="http://ftp.icm.edu.pl/packages/ImageMagick/binaries/ImageMagick-7.0.8-60-portable-Q16-x64.zip" size="81168139" type="application/zip"/>
+        <remove path="ffmpeg.exe"/>
+      </recipe>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1QbRoACgkQIuoRGn5CQqSIxAf/dSu3
-bE91dFyDdL+74pibyJQ2M5Vua5970E1/oTnv4KMtigNVgGuxHvt3qW38NgA7DMJJ44Ps8ZL5dihG
-krUhGnAfgyGwYGO6d0gow1oqJylcjjJZ2OR+vdVPXDuFK5VnPq5yYMMhDSigjjR+A9XaW6l3RXZV
-z7QttLqa3OTK/mAb9LsHhDxPA0TtmREYCp7E+oS14D5S/SCIu89qG0eArUj9/sRRgKMzsOf1KiZC
-oSFt+cybWao2z/6k/ewe7ske3MnOSFnjEImW+zquFTE5H6nLgqKkQqAUylbdUwNQmjsiQZ+Br3QL
-Yc3gtIvH2DvfT45zSQ/RvZyucnwKzJTcbQ==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1XzxAACgkQIuoRGn5CQqRksQgAuAcV
+EUZCKs3BoJvbg7bLoaPiX8Q08CP+pfQMId0d5GpESEBm6aMgtu3QIND/lJXcQyWKsx2WzTPwZwPZ
+cZAZMsvnmiyjpwqiqyLzNpUuVF6iCUeqaJkByIW7IbE3loEajsDCKlxBQBl9ZN+mkMPruDkqjwNw
+QawWpU2fdqFIyTi6YLRe88SOa0i+JxE1RanlPhJgozoeRK068wglN4jFXDTtRB+Ec2jE4WFdLtjH
+tBFi7wI5tOI/3aFYri9cqaGBhrnCeZl6bsLs293cRDy8ORnvf8DVVXSh4AxR/WjtRsT5YQjINMCz
+YrO4ojzidgDXiH8r6t4XYWYgeZf56ZM0rw==
 
 -->
