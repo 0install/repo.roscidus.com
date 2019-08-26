@@ -581,14 +581,38 @@
       <manifest-digest sha256new="T5SRHR4KN3FJSMGALRWORT2T47LOPDKIMETXHSV2YXZPPGJH4H6A"/>
       <archive extract="go" href="https://dl.google.com/go/go1.12.7.linux-386.tar.gz" size="109461824" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=0b6514c9089be5da13dd1aa102cb40098b653d74" released="2019-08-13" stability="stable" version="1.11.13">
+      <manifest-digest sha256new="HESQJXSNOZYGNOTB6SCFX3XSSM4XHBQ2FQFOXKCBK2IH3VK76NFQ"/>
+      <archive extract="go" href="https://dl.google.com/go/go1.11.13.linux-amd64.tar.gz" size="121068518" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=c51e7e1e677f0a16c925130573a3e1657161f343" released="2019-08-13" stability="stable" version="1.11.13">
+      <manifest-digest sha256new="O3KWIEO4MHWYTGFWWQ2XNKCUVRKR57RJAXPYXTRIRIU3YYTHBMUQ"/>
+      <archive extract="go" href="https://dl.google.com/go/go1.11.13.linux-386.tar.gz" size="104089632" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=b22df8bc26b702b2d5d4f0ae6df9079e8ad0546b" released="2019-08-13" stability="stable" version="1.12.8">
+      <manifest-digest sha256new="SDX7SSK7UX7WCT7NAWMG5VKEWJYJA7V2PFDPSYRWIZNDYAAX3BIA"/>
+      <archive extract="go" href="https://dl.google.com/go/go1.12.8.linux-amd64.tar.gz" size="127961104" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=1ff341417f740855b4955ccd3ad13434fb549946" released="2019-08-13" stability="stable" version="1.12.8">
+      <manifest-digest sha256new="ZZTUGVC6TGB3GL5J5JGTJQ2PY2R2IZDFAZLWSJQDVVFUXIPKJ3DA"/>
+      <archive extract="go" href="https://dl.google.com/go/go1.12.8.linux-386.tar.gz" size="109472934" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=8ddab03f9eedab992ab711d53452391aec790353" released="2019-08-15" stability="stable" version="1.12.9">
+      <manifest-digest sha256new="7SOFYVXJ3ELWBGZLVZ5JQ6KJXQGMV74WDMYGRQZGUKA6EAOMDKSA"/>
+      <archive extract="go" href="https://dl.google.com/go/go1.12.9.linux-amd64.tar.gz" size="127961523" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=ed718331e56650194878514b0f4bdd4bbaf422ee" released="2019-08-15" stability="stable" version="1.12.9">
+      <manifest-digest sha256new="7V6XQOU4D7TO45EUHZUDFMVHZYQPZXRRFU4MIIP2TNXRLXWK46RQ"/>
+      <archive extract="go" href="https://dl.google.com/go/go1.12.9.linux-386.tar.gz" size="109477033" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0pmyIACgkQIuoRGn5CQqTSpwf/Qx5z
-Qts4BnPr4XL5Mnyj8AmPDmMGAPQRtK9TKLYNmXZaIoM/diEANZnO/xfp/BcLB2vwC4Ajy3B5epGg
-h23A2nZtq9D8/9eLOix9xRQ956hh2pYUgmTc+8rHi7TpnRfuHLhaBQs5T+8AasGocoXHgo+cJIe+
-iTak9lL9ZNGqIQKy1diJmo2JdoxdL72fRK//svStctlPDJjUUa+6MWaNPuiIZrqIk5Z1quVRMWr0
-Vb05ItmlxVy6MJxArBnz3xuzBiZ7MCvHerk7WN671xZjfd7HwKXnxGEH1KcEFgO37dFSfUhJSeXg
-mo0kfA1ODfFqsh35dl8EmYsWpHjUbi9pwA==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1jw4wACgkQIuoRGn5CQqTPNQgAhg5t
+kYn+y0naMgdPg63UIVPNqjBaMbRXebzZlI5BMy0cS8O1hMo7mmYLnwM5SbKdUVxFoUzjvl3Rbr31
+6dBRKmmihDBB0uOzeDwm225CctCeVqnG/cm5uPJJI6tZd7CM+9ITCjDOleYgabNurnzcB0uFQOkO
+0kqyi2dj0H7Y0A3GW2M8kE123xcjDfED2Rjqnc2RmLeL0G8wUaWtgE2ySERzUmnlpEItpbq3EFMP
+PN8ugCJzIhlGHSjLh9A0qmirh09fSQ2o7iwO9kt+BQgs5pWBAOwZcFKgHig91ha/RqxTFn7q0oX+
+RpUovEIEcA5F6bvzWVCDWuc24hTodrwS+g==
 
 -->

@@ -6,7 +6,7 @@
   <homepage>http://ant.apache.org/</homepage>
   <category>Development</category>
   <needs-terminal/>
-  <group license="The Apache Software License, Version 2.0">
+  <group license="Apache License 2.0">
     <environment insert="" mode="replace" name="ANT_HOME"/>
     <command name="run">
       <runner command="java" interface="http://repo.roscidus.com/java/openjdk-jdk">
@@ -159,11 +159,11 @@
   <entry-point binary-name="ant" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlzdNNgACgkQIuoRGn5CQqQzSgf+Nwux
-xP3wUrhH0RPsktHcXPc3DMb3KBq447gL2F8PheUqGUjUp05LCDRT0DUd9ubxZ74Juj/g3OYHqqDY
-rA+ysKjTgNBlMcloy0OjiNMemYLoOX1n1mE0PFyDkog6nt9XcvlzwmOWfvdW4vqmMH793bEBKqKb
-nWI1LVKWzH2eYTknEufJG51e8flcIpw+SzvD6nrMRrSOy4dh72UbSVAXLi0otBINUZZViQuSvuz+
-bSW9ovAsbTKi0ePzp7POjTeXW09N1+GetQ4dZ8N26iqsaeAZec1tTABXq8MCcQmKWsE/eJmQQEQC
-ODntr0QChx16/TNQjCKCDFTOEgr/UQtyfw==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1jw44ACgkQIuoRGn5CQqQcrwf/XOPS
+DW0XOi1xtR/MFjUZ/0GLW2TBejxlRhDaUJH3iiO4CZYlO7aBNPzW3/SYu3hBmX16eR69NiXEFqch
+yIRhAwZeWzX+EVC50ndqIdjKabRzxB0t7vQ1Faf15ILMffKHstDjjo1LT8ouJFuqCjhfhmqhImzH
+Sukzd9Gzt7CVDBw5Y/DNNWJWbzqtcqvdJfbNPgqNEEbYCDL/L7Roe3PH7mZRTUoJUYxIFxdeaW3c
+YHDrLHajNj4jOHiBT7MplHYFAm4dRozt5Hq8PqHH6Q5er8TNXUl4vhmX8s1keMDFN7d4OojHgI/z
+gsoPcveDlB+Bap9gjepwcp9wDxs2/I5fkQ==
 
 -->

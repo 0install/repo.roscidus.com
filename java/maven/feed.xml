@@ -7,7 +7,7 @@
   <category>Development</category>
   <needs-terminal/>
 
-  <group license="The Apache Software License, Version 2.0">
+  <group license="Apache License 2.0">
     <requires interface="http://repo.roscidus.com/java/openjdk-jdk">
       <environment insert="" mode="replace" name="JAVA_HOME"/>
     </requires>
@@ -49,7 +49,7 @@
       <archive extract="apache-maven-3.2.5" href="http://archive.apache.org/dist/maven/maven-3/3.2.5/binaries/apache-maven-3.2.5-bin.tar.gz" size="7956528" type="application/x-compressed-tar"/>
     </implementation>
   </group>
-  <group license="The Apache Software License, Version 2.0">
+  <group license="Apache License 2.0">
     <requires interface="http://repo.roscidus.com/java/openjdk-jdk" version="7..">
       <environment insert="" mode="replace" name="JAVA_HOME"/>
     </requires>
@@ -126,11 +126,11 @@
   <entry-point binary-name="mvn" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAly5g0MACgkQIuoRGn5CQqQskwf9Hs49
-Eipl5sDr6li1YyPmMNLe7x7JVbMlk1a4+1z7hg54ZJeH7X2BXqj30w0qmaiHU0l7GHuzG1CkP/B+
-7TAyA9RbV9Xfp6DbI2H99KOcmL6jbYckNS2ipg1z+HdD2nyPlhrUBmR6ayKeQL2zS15tQDFCN/zw
-2nWSOjbgKVbiQAyPyupkgh0J/VUKNPtg+ltuRuLIulHfFE5baT4BdbC1Co8OGVZkbxBcRebcoYdn
-hucy0JaUHZKhcZUWZg8FpQWGsWN2Ra/LlhzH1/Ctgnrt6QCxBpsxvu2LGOZHkDMIHM8E00VjyOMZ
-D4XNctYh3NGauSbP4e+4PSVy0xaTnEINWA==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1jw40ACgkQIuoRGn5CQqTmoQgAjWuh
+ywcUn4lINip82hoRqDBAu/K+IfDrxaevK/TQQCkjIxJwbSE6IvzhKBO+P4J3da4YrcAu8N8sg82S
+qmzv1hYjxqYY+NER5ToCZk/dJq0io59mst3KypETEKQt2MzyFw/Js+hqgX9ttc5yhaoRga/y7by1
+igxEl9y0QdHDgpdzq4LfgpJFSLp0fdmIVZfVdQx/RNszYOm1PPIH3DN7YTMwIUO/v/XBL+Tp6nVt
+11fnaxVmqpM4hhO4BNOBIeWamvYuMoDJ19oMV1w+g/SXO1blqbdoDwNhtt8tzzY/9GENViIco5Fl
+eBWPFbx9ON5/Kwo9riPA0MnUasJEOB58rQ==
 
 -->

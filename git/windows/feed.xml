@@ -352,6 +352,14 @@
       <manifest-digest sha256new="PB46XWC57NUQHPSW6CL6JJOMQGBMM6EMMYDZQY7QF2GQRCR4H4VQ"/>
       <archive href="https://github.com/git-for-windows/git/releases/download/v2.22.0.windows.1/Git-2.22.0-32-bit.tar.bz2" size="109553228" type="application/x-bzip-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=0a84d84cd82d53f6a13c41c30b582cf98769236e" released="2019-08-17" stability="stable" version="2.23.0">
+      <manifest-digest sha256new="37NK2HAN4IRSYZZI6TVMQARW5U7QHEFDKBJNCO4SZF5PCSURQBJA"/>
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.23.0.windows.1/Git-2.23.0-64-bit.tar.bz2" size="116609433" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=aae98fde13c04403499e79d30a9b6c61920967d7" released="2019-08-17" stability="stable" version="2.23.0">
+      <manifest-digest sha256new="FO6VHEJO7CZQQMSWNX36NWPX45CJCHUGP4GJXHEDYFXIBDTC3XWA"/>
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.23.0.windows.1/Git-2.23.0-32-bit.tar.bz2" size="114235861" type="application/x-bzip-compressed-tar"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="git" command="run">
@@ -426,11 +434,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlz9TJAACgkQIuoRGn5CQqRoEAf+NJsc
-rPC5lPFIhnifL+h+qbrXoO2cm0rhja75RGfHLJVW3oHq2+ftS5TK1WRhX8JLDkGQvxhognntun5C
-sq6Sr4sCUpkXsDKxiAHOUgacU662iOWTERlVxmh6a19kbS2SyUv2L2eY9oLXP6zjpkTvsms51J1u
-09bzYj4So3/YlDZgmcRSnOZQAN6C7LOK7F5g/Q0YTDcBAU/sSs8BuoI5odb0F/ciUTfGZgjFtcXQ
-4cSM2VQTw0WcR9jNiV4IeU7AkNWCvOoOR3dXXPuYmQJY6RqF1TMfcNZ02FLOjwn0lK7Cu+R2iYY9
-Prmr617JlTRHVNEtAs8xT1iVctsPZ7Ln6g==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1jw4sACgkQIuoRGn5CQqTVBQf/S13m
+MzETtJf/FlGF8ygSXx5LrK5Zx/eFcdpve1vC78iCv3C+gHBba69SPt2p/VB01srr6c6IHQaBBBYi
+tcL/BlVTGEuYAy4asRezQ1IxReyrK9rRnXoJFK0bL5Jj4Fj9mcTqdriEj80mxtJ4inkIFgzZJXD5
+O6N5fbUcjldrVcB9EGIJWx+Kr27cD9AZDUckUG4+IkGl3mmFBYcqD9ilu3Ezp35l/dXQkiBLAL5B
+zyHMevKuOdVwHXVJYGSKBzy3bJFw6TvAoTLlUQDFNtvhj1VFXcPKYtzSsdSYJq1T8VEYiR5Y9Eqp
+1a+bg11Y6k1UYPBIPsZd6WKI0HRDcTD4eg==
 
 -->

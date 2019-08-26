@@ -265,14 +265,26 @@
       <manifest-digest sha256new="V62W557MRC73QNWGC4OJ3SSMXE74OSNXOP6M6NES5WWE5SWWBINQ"/>
       <archive extract="go" href="https://dl.google.com/go/go1.12.7.darwin-amd64.tar.gz" size="127614387" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=276f0c786e42b5121b7e7180c70faf14155c1b00" released="2019-08-13" stability="stable" version="1.11.13">
+      <manifest-digest sha256new="YH3DDF63NCA2ZXOYWLZQAW4S2BDE2Y5E4UAZVYUM6AKQUCQNCZSQ"/>
+      <archive extract="go" href="https://dl.google.com/go/go1.11.13.darwin-amd64.tar.gz" size="120519348" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=2b812ba357822756755cfb2a9cf8f2f56ec1bc08" released="2019-08-13" stability="stable" version="1.12.8">
+      <manifest-digest sha256new="CK3IKL6URXWZCGTMUUTTOI62DN65EVVQWXZOPRXNMWDYPDJFFTCA"/>
+      <archive extract="go" href="https://dl.google.com/go/go1.12.8.darwin-amd64.tar.gz" size="127645633" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=de909de4aff619175838c8fa347d3a6b4e28190a" released="2019-08-15" stability="stable" version="1.12.9">
+      <manifest-digest sha256new="NUWWZFLCQWMTLPQMRKSTKRT2GQDUWC5YCX2VCKNYHUJPGCOIQCHA"/>
+      <archive extract="go" href="https://dl.google.com/go/go1.12.9.darwin-amd64.tar.gz" size="127648296" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0pmyMACgkQIuoRGn5CQqSLcwf+Lgg6
-HBTpBsuAtkjHlfLEtBf7h36KildeQOCLHXUPJv9zVab0w8FneCGBxZK3Lv/YBCh7hWs4pYWxP/XB
-hDI69yYseMRBcTMZuTmzC3TSb6gV5rOJ/32aqkczIRn3Q9QSl7eLGVvemSJLBK9+ocgfLupqxNWj
-Mey72GyKmSDpr2P7Z5UEXe7X82rwmoXCHQfDz7K4+WEaxIvZ8CbKw8ZDUDDV0P//7PUAT3XCST72
-mgrqsulUqhYd7I6bmH5ppEycYB7+sL7eyCItVEzQwAhqi650Jgxz0gT51vw0d7PJ6evvR87+sl3f
-3i9hgaDDTdB9vglIlKqZg/D67zlS48/T0A==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1jw4wACgkQIuoRGn5CQqRD7Qf+Owul
+JnE1IWNIox/RM/liNdLTNmhLbicIJim7jGJejDjrUCe1R39m2xDZrbXVgHM73GQJzElmGWIxQnUy
+fW2ul63Ef9al92M+X+qZLZV0iTAcfqWT7JhJ8EbQlATBrK3UJCnrVleKKmpFNrEJ9+ETe7lCwI3d
+noBJUo6o+KeGjkfJ6fJNCtvzS6TXGnZfBExq1kBqeUsqE7LDnztrbm3R6ZkcOyx8BsY+Usmf/4F6
+Q7KzniXSySo7cMNXABMDB/9MFvfP5KY66mgRjsN3RR6fyZdVnhVLXlF4L3m5TK0+pCEt2VYmZlkc
+EoDsA8hXv9Rr/JQncWRmhIkIX027s//53A==
 
 -->

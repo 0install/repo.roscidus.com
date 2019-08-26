@@ -7,7 +7,7 @@
   <category>Development</category>
   <needs-terminal/>
 
-  <group license="The Apache Software License, Version 2.0">
+  <group license="Apache License 2.0">
     <requires interface="http://repo.roscidus.com/java/openjdk-jdk">
       <environment insert="" mode="replace" name="JAVA_HOME"/>
     </requires>
@@ -481,7 +481,7 @@
       <archive extract="gradle-2.14.1" href="https://services.gradle.org/distributions/gradle-2.14.1-bin.zip" size="45038784" type="application/zip"/>
     </implementation>
   </group>
-  <group license="The Apache Software License, Version 2.0">
+  <group license="Apache License 2.0">
     <requires interface="http://repo.roscidus.com/java/openjdk-jdk" version="7..">
       <environment insert="" mode="replace" name="JAVA_HOME"/>
     </requires>
@@ -938,15 +938,19 @@
       <manifest-digest sha256new="CXTY3U4RLEPXLUVX27HEVCMM4NA77YVICFS3ZHGA3QJCGUD5BERA"/>
       <archive extract="gradle-5.6-rc-2" href="https://services.gradle.org/distributions/gradle-5.6-rc-2-bin.zip" size="93896760" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=b7828fc7bf4066bced70d0b9c4070dff2786a1fe" released="2019-08-14" stability="stable" version="5.6">
+      <manifest-digest sha256new="2EZH4VD3DMGZQGGBP3232MZ3WHR6UJLDWXXJAQOQZNDZYX5XCIUA"/>
+      <archive extract="gradle-5.6" href="https://services.gradle.org/distributions/gradle-5.6-bin.zip" size="93883485" type="application/zip"/>
+    </implementation>
   </group>
   <entry-point binary-name="gradle" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1QbRoACgkQIuoRGn5CQqTvFwf/WHMm
-zVvSF7k7XDwHh/szAjUosDK1DGRjhOi7pgQqWuREHHITn4VQUzemc2RrrmN0wonoXGwnqxcEES/l
-Cg4yjEyLohLjmgKuoV4b9W7qwYdEpvudaseR7Gn1E8abZ+5CjUssEk1m04PNTcKQaQaV1YKLOwPO
-3dEnwMWQRDJdPz3y57Ix1IqD22SnU5HXsRTWaA4fu43K+doXLTJHXn4zAFMiKJjU5BS+gLbR3A3n
-/GGrEoirEHyJFI5Q1AFivK8OpuxPskQgK1LBpT1ZvDuymO9+tOkYRnlpFtclJ5pr3w54N3AAzLwj
-Vbz/nJnP1/h4z65yHLQen+SrQnSCbOVs7Q==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1jw40ACgkQIuoRGn5CQqTavggAgavs
+bAhjXvo/PVO8kP0lGFs2ewLPbFFLzmgMsHL3sKQpGl+2Yj0JsKw9YmYyz0dwK6rjurkMv3tDnCPP
+6YYHiouCi2DikM3x+1CwngB14JeUXrLqv0BiSo6mcxcOM+tcPGQBZGapgfNZLnx5pvSa6wS4F38g
+eQH/cCLV9lms61PSMMRB+xNqNPKKDImWZNS3tQJSGPUb2Hoky8dqzhID/KjWgTQdSh2LFVGZJJL2
+Zu/uzocLsunVYNVuFLxtB0zXrynmR8LE/k/nyfn8laUTnan7cLaNrhzko3hP96vBFt3c/ecGpwz+
+FlLD8zYAXJY5Qaz3Zyeiiz7Yb5ZhURXQiQ==
 
 -->
