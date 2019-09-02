@@ -15,16 +15,16 @@
     <command name="run" path="helm-autoversion.py">
       <runner interface="http://repo.roscidus.com/python/python"/>
     </command>
-    <archive href="http://repo.roscidus.com/archives/helm-autoversion/helm-autoversion.zip" size="1035" type="application/zip"/>
+    <archive href="https://archives.0install.de/pub/helm-autoversion/helm-autoversion.zip" size="1035" type="application/zip"/>
   </implementation>
 
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1QbnoACgkQIuoRGn5CQqR1AQgA6Cg/
-gZIuGW2z3fIHWNO3lWhLNRoEb8/XvPyuH0Lgu7+WdQ2H+8VWD0JcOUD0sXzrq8YCtrqY2qLDtWAv
-UVsRexNPIKpQGQgoo4IOfRFPcXjopk6KFIEZu9nNJDNSgOfMzyIgBPmw97auJ7EDikOXep0qLgEn
-MydkaM/7SGHQCqs+KoQ2PAd29ZilGPe27AJVYxVEwQURDcyQbg1vaFT/9bGTgCiNzxdptdchQMBn
-KEIuVkBOMvMhe6jOIawiri6E0X8qU2/Jj9VVtVoWARSkrUyVr6gc/TyyMKB4YRjGgYIGb8QufB1g
-4/+MVxR9P+0yf/RZabVNx5U83SF0zl+49w==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1tJJIACgkQIuoRGn5CQqTfeggAjSsR
+c8fCSVWqCaSJsJYgtBZZQ8fh7NUg0qupaLsCA0tUtxH4Da2XcrtKo7oGj2qlJMRGJwvwQPYJjEP5
+5Adc3KPcFAWLTFdj4m6RW/x5p30ku3tF/+C65bJoTX/GH71ftIS8sIHo8zyBKsDzbASRGZzicQ7i
+CBDALZeLtyVB6oJJlPW7fa1wWUDBId7sI09+cZ5c09+nzjVaSDek2XEk7gl5T8DrWj2q62f6nCwJ
+XqhDXRO0d0gV4pcfieDd7hYRicqDzOleg4xYnl0giyKmg19o62ugu4YcKlR1RN7FQpR3D5jPus3Q
+aczymI0+D5ABvw1MAxyhGNZNYh3TdyL3ZQ==
 
 -->

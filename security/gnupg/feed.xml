@@ -51,19 +51,19 @@ because it uses IDEA (which is patented worldwide).</description>
     <command name="gpgsplit" path="gpgsplit.exe"/>
     <implementation id="sha1new=13f58c4e0c8cefb86b993e13f1b3111a082467b2" released="2010-10-18" stability="stable" version="1.4.11">
       <manifest-digest sha1new="13f58c4e0c8cefb86b993e13f1b3111a082467b2" sha256="8432d5b002edba0d26a75c3bb2e5183801eca4cd766a0958d9117f68ed5953ff" sha256new="QQZNLMAC5W5A2JVHLQ53FZIYHAA6ZJGNOZVASWGZCF7WR3KZKP7Q"/>
-      <archive href="http://repo.roscidus.com/archives/gnupg/gnupg-w32-1.4.11.zip" size="2114852" type="application/zip"/>
+      <archive href="https://archives.0install.de/pub/gnupg/gnupg-w32-1.4.11.zip" size="2114852" type="application/zip"/>
     </implementation>
     <implementation id="sha1new=b6f50f55e5203a4f4684f7a6681328019e593c10" released="2017-05-15" stability="stable" version="1.4.21">
       <manifest-digest sha1new="b6f50f55e5203a4f4684f7a6681328019e593c10" sha256="2d37438e4864f8472012aa8439ca328de816436d90ee9457ed4910ce1cc1a016" sha256new="FU3UHDSIMT4EOIASVKCDTSRSRXUBMQ3NSDXJIV7NJEIM4HGBUALA"/>
-      <archive href="http://repo.roscidus.com/archives/gnupg/gnupg-w32cli-1.4.21.zip" size="2829534" type="application/zip"/>
+      <archive href="https://archives.0install.de/pub/gnupg/gnupg-w32cli-1.4.21.zip" size="2829534" type="application/zip"/>
     </implementation>
     <implementation id="sha1new=8baef90a82cbf543e5d3d791fda3d46157f0ca9d" released="2017-07-19" stability="stable" version="1.4.22">
       <manifest-digest sha1new="8baef90a82cbf543e5d3d791fda3d46157f0ca9d" sha256="d76b93905853e6e3aad9ac7d0f64b6d177ed4149c5cc45a2d8ed553c7e10b395" sha256new="25VZHECYKPTOHKWZVR6Q6ZFW2F362QKJYXGELIWY5VKTY7QQWOKQ"/>
-      <archive href="http://repo.roscidus.com/archives/gnupg/gnupg-w32cli-1.4.22.zip" size="2840518" type="application/zip"/>
+      <archive href="https://archives.0install.de/pub/gnupg/gnupg-w32cli-1.4.22.zip" size="2840518" type="application/zip"/>
     </implementation>
     <implementation id="sha1new=5b1e973aee2f6be3fa4af2a4ffc6d37342a334aa" released="2018-06-11" stability="stable" version="1.4.23">
       <manifest-digest sha256new="PEQH4OUEHZ376SFT4IB3D2LI2KIYGHVPKU55GBLRU7NZEPMIDXTA"/>
-      <archive href="http://repo.roscidus.com/archives/gnupg/gnupg-w32cli-1.4.23.zip" size="2835894" type="application/zip"/>
+      <archive href="https://archives.0install.de/pub/gnupg/gnupg-w32cli-1.4.23.zip" size="2835894" type="application/zip"/>
     </implementation>
   </group>
 
@@ -80,11 +80,11 @@ because it uses IDEA (which is patented worldwide).</description>
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlxesNEACgkQIuoRGn5CQqSWzwf6AimO
-4SbzqaOTRZsGCZAKoJzjOvsdYBQXExxe+apW2hq7hGyXQp9EPwb8l8F4YxxbuB0LSnk7XH+rR8WA
-cnNb+XEA5uxs02SWH3jEzFb9mbAqeqlJjyP6XfufCHflr6dIG09IVmQQVkizhc3zyI13JKdHXCIi
-2lgnnoMbB9sfsRm68MP5PSzG+lLQvr2zmli0irpuEhTM8/vulJZ81Eie3iWNmk+uYTzFp0BfdhHb
-OYBhdD7pwZ464MwdDPs3pCf5Rqk5W7+vc0uj5d8vP6zbShA7uj1tTsq0aAsoB+dl875Vin9MyaTH
-hpb3fjN8U/bQ3DBHglolontGwbAS1srtOw==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1tJJAACgkQIuoRGn5CQqShLggAz32W
+z6csl6d4rnhutqKXSyNXy85jo1n0XDPd24QAnpmhLj5pjDRMmTkGpGD/Ujq7NDZ4DfM6krnVD7mQ
+h7eh0o/WDmOMcPp1O2dZCVwd56ny5lskQAkgDcMFs72yynJwXBr4w3Cdkn/ry/Y5ZJilJuAiYHC1
+kfFaQFpfL9aLMXoQ0Rj6lPSboSvC4c20BRSO8QSihyQZ2A2XY2ecqtrtQi3C2RbxZCm/P1gkgJM/
+FiMA+si+UCaAGjBEUj7+DsMLGaa0kkxkXrij27pTD4GvoXaE4QxH4/viKl5TfGtZxqUngktPo7wg
+6FUfvzAmLx6CLTMU1fmieVDnarPCjE+F4Q==
 
 -->

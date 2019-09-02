@@ -52,11 +52,11 @@ the core library used to build GTK+ and GNOME.
     </implementation>
     <implementation arch="Windows-x86_64" id="sha1new=26307f0d01d2658495b0922c644e9b415e645406" stability="developer" version="2.28.6">
       <manifest-digest sha256new="P4GNQDM7UJRU7JLJDXE6DAG5UJNVTTLHCIXHEHWR5KXPKKQ5HNQA"/>
-      <archive href="http://repo.roscidus.com/archives/python-gobject/pygobject-2.28.6-cp27-none-win_amd64.whl" size="538211" type="application/zip"/>
+      <archive href="https://archives.0install.de/pub/python-gobject/pygobject-2.28.6-cp27-none-win_amd64.whl" size="538211" type="application/zip"/>
     </implementation>
     <implementation arch="Windows-i486" id="sha1new=2ead3fbcf68cf5b175a536581a943ced35259d46" stability="developer" version="2.28.6">
       <manifest-digest sha256new="VSYQ2X6A6BRVRCRYEYDXAXN2BUEGEJNI6O6SI7CXQELZKVJVCLGQ"/>
-      <archive href="http://repo.roscidus.com/archives/python-gobject/pygobject-2.28.6-cp27-none-win32.whl" size="511973" type="application/zip"/>
+      <archive href="https://archives.0install.de/pub/python-gobject/pygobject-2.28.6-cp27-none-win32.whl" size="511973" type="application/zip"/>
     </implementation>
   </group>
 
@@ -67,20 +67,20 @@ the core library used to build GTK+ and GNOME.
 
     <implementation arch="Windows-x86_64" id="sha1new=4e13aab34b0b9e821f865ac2727527d21762db4b" stability="stable" version="3.24.1">
       <manifest-digest sha256new="PQXAXJZSCXW3TXMF3VLMTHVHJLCG6X75H3JW72D5NDX2YMWVA2KQ"/>
-      <archive href="http://repo.roscidus.com/archives/python-gobject/pygobject-3.24.1-py3.4-win64.zip" size="306152" type="application/zip"/>
+      <archive href="https://archives.0install.de/pub/python-gobject/pygobject-3.24.1-py3.4-win64.zip" size="306152" type="application/zip"/>
     </implementation>
     <implementation arch="Windows-i486" id="sha1new=30912d6c8006758785ce97160bb6223752fb9a9f" stability="stable" version="3.24.1">
       <manifest-digest sha256new="AFIIFWYRGY7HNFKSQUGGLITO62J33XIQ4RRBCNFBBU3YOIFYYNXQ"/>
-      <archive href="http://repo.roscidus.com/archives/python-gobject/pygobject-3.24.1-py3.4-win32.zip" size="294434" type="application/zip"/>
+      <archive href="https://archives.0install.de/pub/python-gobject/pygobject-3.24.1-py3.4-win32.zip" size="294434" type="application/zip"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0Yk34ACgkQIuoRGn5CQqQucQgAjdgX
-ElUJpzh9pR1gI/3lnt0oiRF9bHOL8FrjWKU/+vYNAvapHFcNdDCfA50Dw9CtV3wfNk5kQwTucA/3
-YyZItnhj6D5KSFCXwiD7XzETiG75BgV15ed2rB5HWPLHP5foq8jXlVHIKQ4xCVilAUSjeWGynh/M
-nvy8aIKmj1M9jZH37/3seg/FhZQE4AZ00QyeF6HZDtGjf++fRMmQvtSWZnnqjJPnVjeGpnCFMihx
-YkmadsXJ6SEhsaLuBcmYTMGvj+kjYCxTI6sCEX0W+EBWJwTZPhZFkzE2dPlBC+jpIPGi0mH+RE8Y
-SKaEkhBu5YhtHniU//9ALBE4nFk2QbdJpQ==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1tJJEACgkQIuoRGn5CQqQKIAf+PVyU
+qcighzVceDzBvqy7B1hiWvXHzOOD5PYQJbg71cxer1pUj4BaGGQd4pQALv77HimQQ4EhJuWhl7o/
+II6nSsLQxyPFpi2+asnxPS7HYH4J9rG6PYAVrmyrS8CwwlX4ZVFH+WljvWLhOzwvmdqfRxLpb3eU
+y6BItlBMfDTAlH8MOx5LDuAT5Q9XxQhejK8ysLku+XwJSuuClheIlYnofcoc2GbY/UR8q6MGesq9
+Sb+n6D09UEPAu1ZL/FM0HWRVTZlpI7FCYBH/wG3uGa8QT2nZiK2hiuKluahceG2tyE0hFcfTG8KH
+E2n5u2cPHn9TbVpHXBmRMDPi74O8+td/aw==
 
 -->

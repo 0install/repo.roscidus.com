@@ -37,21 +37,21 @@
     </implementation>
     <implementation arch="Windows-x86_64" id="sha1new=b9b71efede8a8abd6df73c5e0e8b7eac1db0f795" stability="developer" version="1.10.0">
       <manifest-digest sha256new="TGTXCGTCARXN5K42WXVGKXMTVIXOMMXMGLRTOLETSPS62L6P3VMQ"/>
-      <archive href="http://repo.roscidus.com/archives/python-cairo/pycairo_gtk-1.10.0-cp27-none-win_amd64.whl" size="29176" type="application/zip"/>
+      <archive href="https://archives.0install.de/pub/python-cairo/pycairo_gtk-1.10.0-cp27-none-win_amd64.whl" size="29176" type="application/zip"/>
     </implementation>
     <implementation arch="Windows-i486" id="sha1new=e6380430b93ea83a185f810f8b160d8b0a620dd1" stability="developer" version="1.10.0">
       <manifest-digest sha256new="VTDYMK6G7VIG6IQ7LVWVPAM2Y5MUH3NFHXLJY5LRMEMH3I7JOWTA"/>
-      <archive href="http://repo.roscidus.com/archives/python-cairo/pycairo_gtk-1.10.0-cp27-none-win32.whl" size="25791" type="application/zip"/>
+      <archive href="https://archives.0install.de/pub/python-cairo/pycairo_gtk-1.10.0-cp27-none-win32.whl" size="25791" type="application/zip"/>
     </implementation>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0Yk34ACgkQIuoRGn5CQqTLRgf9HFNQ
-vZlSYislim2TNWs9cwxmEJQBs3p6X8tFFe8AdGTDXgt0al801AB9JnconpCM+YPxXnhao9UpTyUt
-24znWb0kzQ+fxWz6Jtfj2wO+hrTutFlLzw3HjWeosOrflZ+ZYyFidKTNTepHkr6zRf+SzZehPIBM
-U03HNhVXT6e8BvG3nCC03XsVq2iAkrC4dtxLvVArvfKkuxtQnDWR/JZm6Ka8oGrU/wDI8AQWthcG
-0qfgTAsnWkGyd2smzTh4RHE8Yu1EDtJVsEvAULr7CyRDQ/XbLiCgY76pOzUxyacweCqwLRXObv47
-7A+esePpdANDc8uiXJ42puwek/kZhb3mzw==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1tJJEACgkQIuoRGn5CQqRFeQf9FP6+
+SuukaTcz7MhtO+pmdxbVMyLtPEZmVuoJRqPTEoW1vpcsYTNaBwi6H0e8/JmO5VWB9oEB9zEVnc3U
+0kT8tQhsNxvQ1TkUaYR6TmaU97iFN1QDN8TPeXOAuuQDImScJ/13pKSi7n+16HK9cIg5sNFVHz2O
+xLB1pJLMwhcfqf0SsxQPGVYwuQRiWSlt1ug/OLbLqtcMnLlSlbAYMCw0+nRWzHEEuVzrkwhUpE84
+MB/y/yah/pH2awLAkuwOVTaIa8d7JADc0VtJjdVkoIiScjLuhU3qeir7iiJRR12AQVZCNZy/ETMT
+nylXQZ83KDj0KnXd+/Vdds9gGf74GhtVGg==
 
 -->

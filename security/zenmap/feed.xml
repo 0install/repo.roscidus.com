@@ -27,16 +27,16 @@
 
     <implementation id="sha1new=2f1f3db589d95b457d7c7f1793fe62ba8d067b8a" released="2018-03-20" stability="stable" version="7.70">
       <manifest-digest sha256new="BJ4ZS7YAT7322U3FDZALNVREO2HXN6EBDGBIXFJZ3A2P6VW4PBIA"/>
-      <archive href="http://repo.roscidus.com/archives/zenmap/zenmap-7.70.zip" size="1249103" type="application/zip"/>
+      <archive href="https://archives.0install.de/pub/zenmap/zenmap-7.70.zip" size="1249103" type="application/zip"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0Yk3gACgkQIuoRGn5CQqRjgAgAtf/q
-uYB4zUUWctvMcKdU6lRxTA+KpZ5DLfTCy6VHTa8Tocc1H+UiBA0yohgcyyjcJz0/ixZLYnrk7QPw
-cqqOzD+kLzQCyE2bn6Bk6ItLB4kf7jelap9JfCcrag1p8hPYZsN7XRfIUEiqgSK9Ag7jh5OFCEk5
-Jn7ZEOn5GKXR6qrTs3/I3cwFzeW6sWyC5m9C5tQ3WijXDEsc6nl3BqD68H3q+5WdeqT0xm8uaIEa
-R2y9Y/noH5aJiM5FLDpTAoBv0AJB+K2f0DPcd+96UEf76Rse+qBrAzOjoIC27GgJNjJq5hrAJoeI
-bFGTkdVQK+9dHxPXXxqHi4gxyyma6RNfFQ==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1tJJAACgkQIuoRGn5CQqQPGAf/eslq
+ApqIUmgVrK3Sqe5gFSbq6VKgPVf3NdooInv398vdK1s6PI1ugxWct1swSjrIBUiEZ+L3wgFGFNJF
+RJ9GPc3DyJceOsf2S81VRUid9bZ5RSk5QGJi8AwRjsaRkqNzXlcWMxzpwHKiSFhQQqsk1qOV9OGV
+jvC0/XqGv9sHUAn6PbcLA2wPbXJUb2xs0mlGGjjWUY4Hn4xfX02fMP7sh/wHhS1XQVR7aBygac91
+v2wFY4kIZeOgOooKmtnmMlt3voosnyW1QSk3vYiSb5p31UMCDlh5u/N5ZReBDNRXe0JjqLx9N15V
+pyLTobjWP1EHYmCMDgnDgpZs5W/N/QM5dA==
 
 -->

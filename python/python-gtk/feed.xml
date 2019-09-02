@@ -21,11 +21,11 @@
 
     <implementation arch="Windows-x86_64" id="sha1new=2f5fef4f9becc3b50c76fe497f95d4f3a6bb3ca6" stability="stable" version="2.22.0">
       <manifest-digest sha256new="XHJCZH3BXCJ4T75HQ63JXU6URTXAE5WIAMWSD2UXUYF4LATFVIIQ"/>
-      <archive href="http://repo.roscidus.com/archives/python-gtk/pygtk-2.22.0-cp27-none-win_amd64.whl" size="963000" type="application/zip"/>
+      <archive href="https://archives.0install.de/pub/python-gtk/pygtk-2.22.0-cp27-none-win_amd64.whl" size="963000" type="application/zip"/>
     </implementation>
     <implementation arch="Windows-i486" id="sha1new=870fd5d1c2968e3da44232f492064a69ec70c0b8" stability="developer" version="2.22.0">
       <manifest-digest sha256new="674477UGD7YPVU4RYTGPVJ5EIXVQJJFIVB5YZ6C7Q66JZJREZJQA"/>
-      <archive href="http://repo.roscidus.com/archives/python-gtk/pygtk-2.22.0-cp27-none-win32.whl" size="757169" type="application/zip"/>
+      <archive href="https://archives.0install.de/pub/python-gtk/pygtk-2.22.0-cp27-none-win32.whl" size="757169" type="application/zip"/>
     </implementation>
     <implementation arch="Windows-i486" id="sha1new=f29642fc00bdfa2a64b443c0a5f94dfb3ed72c99" released="2011-04-10" stability="developer" version="2.24.0">
       <manifest-digest sha256new="5NQCQXEZAJRXGOM6H4Z4AXIBG4R7Z5RSBCRB5RFZHXNN2NMNIPTQ"/>
@@ -35,11 +35,11 @@
 
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0Yk34ACgkQIuoRGn5CQqTwRwf+JO4u
-fz0nq9VEZMZMGeeFVAinqFCDdXBPGEXI7MMlL3TxGi+IX2IwN6KZZhcgaw45urVZ+trk5bMJl1jM
-9jPQ4o03midFuyYadrtG7Gr1uJbsNya5Q/8HXL0UfGyqg4yaE262ioFLn0FA9EWEtblKswfQOQvQ
-8yR7AzrHd6DJE9YPtwvJtqd6CIKc1S7eFgffUOWAEuZUjOpvu+S3+Rw0+lSSTgo22RMTUayJtcbP
-mwaEjz4QXLdmA4um3g0Bk/9ZAIBAnkkz2wgXyp52o4yt6ONkLJlcLEbkOoWCrEi72ef+5pDdsIPh
-cEyW52dMk1jDKfJ52L54Lm85QAvfZkiF8A==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1tJJEACgkQIuoRGn5CQqTQ6Qf9GUO2
+gcm3aX42rQFuA7r4U17N+NfhaYat8BK+581xrMWw8Eq7V3WACxqU/NF0+MZEJv0H1a09svcsGsKz
+8gcmkbDi5g75mG9nR61dRNQ+TiWQxM7I5LgufHV674CEYhP1Rly0wgQhlVUIFiJ8JMJrjNSEEQRH
+TEq2uBmffHU5JgU1vTaDTsnssraDDJ0kmQiJCHJSxj7E+iZPRr1/4PzIRXglXiGEJqgo+IOjP9vw
+69j4lJHp3Z6jQHnDwSUxqpeQ1IEQ81NKZWbZDltg+xYhgNYZRL6bNh5upMUq0qIHunAPl4pI17hE
+s+5UIKpJp++N8eGS/mW3dA4wQOdjn9emSg==
 
 -->

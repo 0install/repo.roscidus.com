@@ -24,16 +24,16 @@ Workaround for java -classpath ... -jar ... which does not work.</description>
     </command>
     <implementation id="1.0" stability="stable" version="1.0">
       <manifest-digest sha1new="3706305d50a745c5a362b02aaf417d2d0765c9c1" sha256="60d4d71585f66a36ac1e3116f234ff93d0319b6d0dccb17e027e162cc9da0481" sha256new="MDKNOFMF6ZVDNLA6GELPENH7SPIDDG3NBXGLC7QCPYLCZSO2ASAQ"/>
-      <file dest="jar-launcher.jar" href="http://repo.roscidus.com/archives/JAR-Launcher/jar-launcher-1.0.jar" size="3201"/>
+      <file dest="jar-launcher.jar" href="https://archives.0install.de/pub/JAR-Launcher/jar-launcher-1.0.jar" size="3201"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYe3HUAAoJECLqERp+QkKkpykH/ibE4hJsuQQWcBapTCE9wPZRktk7m0YxcLjf
-eY25k1HBjfMxf6dc0+YpxbmZrM86zf8FJFU7d3vA1v3lorkchCgrDPCvcfMPWd578SuMC42odlON
-QA/6pGXAojSPcACZGbSMi4mn5UTw0MWvkZEHcHmO6Q5EwWoIo29eLOcIqhIAXnn80ZxfSdHtrdmx
-UUk4oHY6tr5alMq/8ttuwM9CXcbDXtvC/tyPT9kJy6rzPiHKb9pfFsQNTDj3/teS4KKQLX8tjy41
-mlw+s0JRaYPshAS6QoIri+PB3DH36hdfEXPuaBky9XbCpUuzpcyinPhXUtO7v+nTpyVTHfKA9wo/
-/1c=
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1tJJAACgkQIuoRGn5CQqSmmgf/SbY3
+LP1PFan204DisZLZCEIKGIR8BpWUAAUKn+OtsuTme1xX/PzsLp14TEl+pa1dWM2mhnaNNku+KDed
+Yse6PXXWS8HQIWxWjQjNV4nen5RVguLZpaA3MQtO5DGNftrWtiyZfQ7kFqR0y0Tq75T5EkNDTcE1
+b+mNYuDMKJQ+NZBXXhg/rZ/0AqaWBpmfKlOdDmxAdOWqcJq1J/bbj2973zAfnIr/n2KpHdIipQJd
+6mLnAAA8oXZcsAI2GMgIbO58kA0BDczohFgW3+BN/NKLuvjaSOLWsD2kQLDGqK4P+NWN633R9e7K
+jn193oxa/72n/D9XajbPYnKgMfe0xVLIfA==
 
 -->
