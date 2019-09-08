@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/lib/x-ice-dev" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>libice-dev</name>
   <summary>X11 Inter-Client Exchange library (development headers)</summary>
@@ -43,7 +43,11 @@ More information about X.Org can be found at: &lt;URL:http://xorg.freedesktop.or
 
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk3ilaMACgkQBSn9tx+xORAnvwCeMO7HyrJuaXaw7BVQQn2d+ASUO+4AoIUHHY2O
-nbWgEwa7mnKJDKvWgMiH
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl100oUACgkQIuoRGn5CQqRw3gf+Jh4D
+7Pa5ImCGGDcfJrZvK4BePNtDnI0dlNfX/usKDCf0vwlvepGZuqt9++zwZbnHv8Nf0mL+mZTXmeNy
+yya7koTv0GJYApOwmRtWV2Nw7zudRqio5fHfy/VcB+MifqB4yCIdxmwBIc+0vDEt3zAxT4rTMhSx
+zGzEsap+R5BQAl9uwOw01sdfXL+qUG9a1BLCfSiQCsYl+NVToIKZjlanR5cdQY4gL/riOJyf8iQJ
+306EsnOrhgch9oqEjMX6io4xUFHktMCFqwF68G84cdsKXKDAUMYSCBQ+ZYE4GdcyZnOIN2c6J3jw
+cy1XD0jJz6K7i6VKmFUKli+WIlY7Y4kH8w==
 
 -->

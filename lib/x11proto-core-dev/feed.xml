@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/lib/x11proto-core-dev" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>x11proto-core-dev</name>
   <summary>X11 core wire protocol and auxiliary headers</summary>
@@ -31,7 +31,11 @@ This package is built from the X.org xproto proto module.</description>
 
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk3ilG0ACgkQBSn9tx+xORBORQCdEPFWddW+3BM9qoLWj4RJysMMg1oAoIjVXKA+
-x8wAIOa4JyyQlaKYBK/I
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl100oUACgkQIuoRGn5CQqThsQgAgXg9
+cvntJxIP9GerB2gd+oCES1EfegPiQ/lGITt8eTH9Epng3OjzKRGRck/DBhhSVQmpmB22b8noiU2a
+NRNDarO5HEzaMefXEteEUnjCUk2LnHLqhoKs3V0Pm9BHq35d+IVBGNLbSQfx4TwytfnOm2O5Wof4
+gBP62BTX0aM87wS/rhQ0U3guBmrnCRlCmNhAvtw9TLM7mtdoGmKfjyfhl7xsSi4zYlLcrc51W7/R
+4ZJoD0s1Uo3taGEO35lex8V8g2M4GQnSXlhrx0iMKrTAyjdWzY0VtiPnPShNwLoNVYSfQ7zjCADQ
+XGT74uKnH2lfX83JsfIKaxLlRCOmfMNOag==
 
 -->

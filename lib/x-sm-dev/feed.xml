@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/lib/x-sm-dev" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>libsm-dev</name>
   <summary>X11 Session Management library (development headers)</summary>
@@ -50,7 +50,11 @@ This module can be found at git://anongit.freedesktop.org/git/xorg/lib/libSM</de
 
 </interface>
 <!-- Base64 Signature
-iEYEABECAAYFAk3ilaUACgkQBSn9tx+xORBwKQCffbCUSg1+Z6EKae1UcWtGTPx/LDcAn2RbG32d
-yA7+xtb4kqeJYyJ6TEza
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl100oEACgkQIuoRGn5CQqR5ZwgAjyGr
+F+XY0WzE1MUdVE/q9b6lRrKF0SJVL6Cndz18YmQlh63Ni2m0Te4yq6dyCgevMywvP8z920KlHfTg
+3PcfNCXg10Pvrm6/AANSkLz/wDAoGSz7MoyaSM+QFoLUFEKKnVf8WTtInrCq6QJbdcS7W8p0H1+8
+bKD8+Bgluid8XleLX49ywqMARbAMhrv57e/xZWJGmMGF1QX6bZ2KWJvhQfCLiC/g81GxLR/HREYs
+m6KTuCozPyDuT2yNRBDsnZUkCOk/rK54GyWZkqfW8HPx68nNvuR4/VXVARga2zTcfJij281WSMko
+fumacyAkjEpwcr0LA0Mk5BrJt4FuxZ0ObQ==
 
 -->
