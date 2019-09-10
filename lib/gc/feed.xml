@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/lib/gc" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>libgc1c2</name>
   <summary>conservative garbage collector for C and C++</summary>
@@ -15,23 +15,23 @@ intended to be used as a plug-in replacement for C's malloc.</description>
     </requires>
     <group arch="Linux-i386">
       <implementation id="sha1new=a4037bc11ac0ece34b24adea70e7255689f52b19" released="2012-01-02" version="6.8-1.2">
-	<archive href="http://repo.roscidus.com/lib/gc/libgc1c2-i386-1_6.8-1.2.tar.bz2" size="125683"/>
+	<archive href="https://archives.0install.de/pub/gc/libgc1c2-i386-1_6.8-1.2.tar.bz2" size="125683"/>
       </implementation>
     </group>
     <group arch="Linux-x86_64">
       <implementation id="sha1new=4803988e733f5c99bbbb6d2b6ddcb95a149d3f52" released="2012-01-02" version="6.8-1.2">
-	<archive href="http://repo.roscidus.com/lib/gc/libgc1c2-amd64-1_6.8-1.2.tar.bz2" size="128933"/>
+	<archive href="https://archives.0install.de/pub/gc/libgc1c2-amd64-1_6.8-1.2.tar.bz2" size="128933"/>
       </implementation>
     </group>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJPAZQfAAoJEAcTP5bKdNi6vbwH/REmkch7pJTOpMfcvpFObTKpUXpI9Nn6Vrck
-1S7m0BvH0MT252i3rPDZyZLqsoRABHS93MxTg1NRr1lD+BmsHBqkfI06HGajBi7u8V5N2ZJXleXr
-41wxc9fFUB7lA7KsFknYejVl2iYBAcK4u1l/WOfvo1qfMRGKzE9+SZAZBRcVl3z4IZ7kGhDM+Fcn
-q/DH8ZF5TfR1hpK/ifora0wUW4UyhAXXSA/alWm77yccitTzmDVpV1yxUBlrnXDbPbeq7Eq6Rp93
-EmCtc8eIr9/Q7sWpkuyHc3NOYi0zjDrJMX10OTHBBnLds8Pyi+cySWrYVTqDm4nJu4HGs+ZPg/a6
-j94=
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lHwACgkQIuoRGn5CQqRIKggAniCO
+D0KzvGgQBm8NIJOus23AxZd/hCFteTELp6mtQvHYPhm0Ml/OjM6kMIATfNmreVdmGU0wAwtPVX/9
+cS7xTb0pT19rsg3CkgWpZICUripPtwtIgbwk+DFb2RLUEctQrkAe9imY8BjeZfoOKq9sq2nxRj9k
+sfi9/SUgDAigWzcOPrM425cpv49L6PqGGIkQ3c5w1RYwYNa21r302XLi6bvzg1Ia00Hmh4MG9v5u
+aJoxxcl+eXExH2BHibDbowg+ssdIRtpggO37GDkjpS1qes5j24h4O/X74K47F4ZfZjkP/0sl985Q
+1H1AwV+TK+eRkF22GhJeHUmyvchBPqjZjg==
 
 -->

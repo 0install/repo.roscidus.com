@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/lib/krb53" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>libkrb53</name>
   <summary>MIT Kerberos runtime libraries</summary>
@@ -21,26 +21,26 @@ Kerberos clients.</description>
       <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
     </requires>
     <implementation id="sha1new=2a8dbfd1181e06f6c1903ffe209da7dedc92cfb9" released="2010-06-26" version="1.6">
-      <archive href="http://repo.roscidus.com/lib/krb53/libkrb53-i386-1.6.dfsg.4~beta1-5lenny4.tar.bz2" size="464267"/>
+      <archive href="https://archives.0install.de/pub/krb53/libkrb53-i386-1.6.dfsg.4~beta1-5lenny4.tar.bz2" size="464267"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=35b78e682f6f51e05ccdd9155698a0667ff9aea6" released="2010-06-26" version="1.6">
-      <archive href="http://repo.roscidus.com/lib/krb53/libkrb53-amd64-1.6.dfsg.4~beta1-5lenny4.tar.bz2" size="508704"/>
+      <archive href="https://archives.0install.de/pub/krb53/libkrb53-amd64-1.6.dfsg.4~beta1-5lenny4.tar.bz2" size="508704"/>
     </implementation>
   </group>
   <implementation arch="Linux-*" id="sha1new=8510fa7b47a00d8f45a17a02e2736ff4361c144e" released="2011-05-29" version="1.8.3">
-      <archive href="http://repo.roscidus.com/lib/krb53/libkrb53-i386-1.8.3+dfsg-4.tar.bz2" size="1380447"/>
+      <archive href="https://archives.0install.de/pub/krb53/libkrb53-i386-1.8.3+dfsg-4.tar.bz2" size="1380447"/>
     </implementation>
   <implementation arch="Linux-*" id="sha1new=ab541b8fecb59f40b1eea7e9e1b5cbfe660b9cc9" released="2011-09-17" version="1.8.3">
-      <archive href="http://repo.roscidus.com/lib/krb53/libkrb53-1.8.3+dfsg-4squeeze1.tar.bz2" size="1380605"/>
+      <archive href="https://archives.0install.de/pub/krb53/libkrb53-1.8.3+dfsg-4squeeze1.tar.bz2" size="1380605"/>
     </implementation>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJOdH3wAAoJEAcTP5bKdNi6S5sH/ia7js47+w5L8lcmY1AphKUaZDtKhI4OlFSa
-4aPolGr8ENrRXiczISQ4wrDppf0W1pnjU101qVghu48K+4gfB3lZV389W6H296HO4MkPQmtV9ekI
-Qg2swtONdx8QBPsG1UxyT8jIqKDM8enajH7OsLyvj21++CYt/o/5jzurn/A9IQ9YPxzphj3iHvNR
-snUtWhiWqN+6ubaGds9p/xfd0KWYLJKPr8TqWywFk2jACG3jcc66YwaGL+oNzQqA8lfUU31eFh8l
-r7hX0zUDJab3WgrAJ1IQD6HRtNLrO/LjTB18wahWvDSaSJMs2tbA2W+zsaE70cHdI2fdO2CHO+r0
-6cc=
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lHwACgkQIuoRGn5CQqRnuAf/UTAe
+PNS5CbIkmMBH8ul8diCk0k6N22VRHJpD82PM/5lcJMEIMabSrZeS6QClP7CxhoN3KsM9rItvyPg1
+wQ9/gfoDv0dsb/gK5R2ZfeypE8io8L7FuziZAeZI4uAKsbhssZ900JJ9IvHJuIBRobAnti8eZeQx
+W7cjz38oRrPklG/Kv8iLlVKIioIy6nQfbCNjJAsBEzoLU8P7ejGaaj5WYQrexaycxjHPTp+TKfWs
+WkDm+9pv/JX6fJslBaLhRQWX33fl01kSEqysuee3+t3WuxFTHuKDT2sgCRumuc/VLosCPM/EibrA
+3K3WLRL3yOoSYTUjrDtevojeESLZO3FEdg==
 
 -->

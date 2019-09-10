@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/java/hsqldb" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>HyperSQL</name>
   <summary>100% Java Database </summary>
@@ -13,15 +13,15 @@ tools.</description>
   <homepage>http://hsqldb.org/</homepage>
   <implementation id="sha1new=4ddf5a731e08856bb81b94a19f82448e493b315b" released="2010-02-07" version="2.0.0-rc8">
     <manifest-digest sha256="0434f6bc5e24bca516805d0b68cd202d0c20d570820684c1f87c5010803871a6"/>
-    <archive extract="hsqldb" href="http://repo.roscidus.com/java/hsqldb/hsqldb-bin-2.0.0-rc8.tar.bz2" size="1626331"/>
+    <archive extract="hsqldb" href="https://archives.0install.de/pub/hsqldb/hsqldb-bin-2.0.0-rc8.tar.bz2" size="1626331"/>
   </implementation>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJLbt5yAAoJEAcTP5bKdNi6u9IIAKxBtF08Fld/7trhuuY+rCI5CemLTwV+DG01
-xibEXkRNlsqoI/vn7l/FVn6kYiENii5pfAggzBfi0cZ3I1shj5+f5aii8j/CCfiENAXankJI8Nh8
-MykR7rdWU9rRaqmzxSyjyBaleB/V5VvTRQPlybso24kVLJDo1UC4JuKy8r5D9JKG99WerLjMkSOl
-0qDfGse3Ax6+AfCmixk/qTgXqGaL7dJYEeXgd77va75s3zPuv3bsftnSqq7ISSlLdSkH5CX4wS78
-L+3Cv1h/rQAFlnMjq6mN86KWhguw0d/PIk50FHIaKLIeVWPtzA0Y4wBOH19zD+YxU/AtLV3RDsBy
-Vbg=
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lHkACgkQIuoRGn5CQqQXEgf+PLUE
+W2tHEeMbY3XjrLT14ONCLjVaICWECiwKVMLMbIiwdBuvDh/RWNNF8kegvIFjTzXq6n0W9npRuuZY
+PJXJaEtBIqcIaGOLSR9EJlcWOvCBpAZw8TU+cLyl8gfUR7eNdhn5ZeyANVmnO43cMJf4OtD/hyeI
+OAx3QadqdoergBi+hHJHHuYnckBN0to+YvzVk3nxUK95veeSdFFQ34UZjKzCtwBMfvwRYvIQKNQH
+f+GqjxFHiRGvMNvzsRGoqFistoot+FNDlA/fmp1lQ3lDJarXWWO2wRJL3Cski5jR5N08yYikamG5
+Lsg2fwx3cEeOPFmt/C2CY8dJL7age7igcQ==
 
 -->

@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/e/e-swt" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
   <name>e-swt</name>
   <summary>graphical interface support for E</summary>
@@ -9,7 +9,7 @@ package adds support for using it with the SWT widget set.</description>
   <homepage>http://erights.org</homepage>
   <category>Development</category>
   <implementation id="sha1new=58ee48b5da1c86990c0392795916f8ac7dd4cf4f" license="Public Domain" main="rune" released="2009-12-31" version="1.0">
-    <archive extract="e-swt" href="http://repo.roscidus.com/e/e-swt/e-swt.tar.bz2" size="222" type="application/x-bzip-compressed-tar"/>
+    <archive extract="e-swt" href="https://archives.0install.de/pub/e-swt/e-swt.tar.bz2" size="222" type="application/x-bzip-compressed-tar"/>
     <requires interface="http://repo.roscidus.com/e/e-core">
       <environment insert="rune" mode="replace" name="RUNE_BINARY"/>
     </requires>
@@ -19,11 +19,11 @@ package adds support for using it with the SWT widget set.</description>
   </implementation>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJLPPApAAoJEAcTP5bKdNi60XIH/3W4ldat+djDCkZdd8pu0lzi7JZ1lJ2v0Ft8
-YpwBKCPAlFsNxYfMhf6+M8pHTGkz2xyjuT1+43eaX+IUb+0G7VKAKso6XnVLQm8LZHApJOe9WJ+M
-oPVGdvjy872pmlpmrcrRNPpHEpDZLZtyK9WDiCgLbeyeS0DgG5Quso7WN7i/cwbX4uh8EtWeF1/c
-XcJUsj9bbxtcXtxKikxqWMLcsVH58Ax+8HBByEoBECpA8O0+9YYI5mVvhS8JdZ1b3EjuKoBm8ACm
-l1422Ozl5bd0DBhTCsuGwp5TV5OpC16m1YqA2lui1T42nYVrcNZ+vj9qR+Zhp8AG3Tx3+Fp/Fkz0
-kZY=
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lHkACgkQIuoRGn5CQqR19QgAng95
+0tcq91PwrbHiWOmOJI565QN2g9xIEToc5LhLipH05oX0jAY0H5yEw8hfKKh+NvueQFn1w6N00w4D
+BWB27crlVK7CPA67b7he8B7uQxpSVGBMfbxh23I4RKSUlbVPCb7IzHSIbG1dwnJs63Yap+2eyz7X
+zf9qF8a0IQsvya4fbpoBDhbwa5tGJWqd5ExAjK1CUzeHRr9nAgKFSw6Ri5Jwd6WheFr1vJ/VbXJC
+5q6rbC6IE7oZkKMq9wel8Rs4jc9LNvm4xGcG8nE62xIO5WNvJXNhkXNaSL2coBxoYKQyyzpCmuso
+1hTkO0JjAdHVRvRt5Qns/oKY93LZnNHYaA==
 
 -->

@@ -19,23 +19,23 @@ This package is built from the X.org xproto proto module.</description>
   <package-implementation package="x11proto-core-dev"/>
   <group arch="Linux-*">
     <implementation id="sha1new=6e426da8203b60a1f32e458cc86efc58abb2ea78" released="2010-08-12" version="7.0.12-1">
-      <archive href="http://repo.roscidus.com/lib/x11proto-core-dev/x11proto-core-dev-i386-7.0.12-1.tar.bz2" size="79688"/>
+      <archive href="https://archives.0install.de/pub/x11proto-core-dev/x11proto-core-dev-i386-7.0.12-1.tar.bz2" size="79688"/>
     </implementation>
     <implementation id="sha1new=40638953ec0bab851731f83c506152ddc16d7370" released="2011-05-29" version="7.0.16-1">
-      <archive href="http://repo.roscidus.com/lib/x11proto-core-dev/x11proto-core-dev-i386-7.0.16-1.tar.bz2" size="83503"/>
+      <archive href="https://archives.0install.de/pub/x11proto-core-dev/x11proto-core-dev-i386-7.0.16-1.tar.bz2" size="83503"/>
     </implementation>
     <implementation id="sha1new=e6ad2e80bb943ba7bbf81a66313b22a524295b46" released="2011-05-29" version="7.0.16-1">
-      <archive href="http://repo.roscidus.com/lib/x11proto-core-dev/x11proto-core-dev-7.0.16-1.tar.bz2" size="83545"/>
+      <archive href="https://archives.0install.de/pub/x11proto-core-dev/x11proto-core-dev-7.0.16-1.tar.bz2" size="83545"/>
     </implementation>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl100oUACgkQIuoRGn5CQqThsQgAgXg9
-cvntJxIP9GerB2gd+oCES1EfegPiQ/lGITt8eTH9Epng3OjzKRGRck/DBhhSVQmpmB22b8noiU2a
-NRNDarO5HEzaMefXEteEUnjCUk2LnHLqhoKs3V0Pm9BHq35d+IVBGNLbSQfx4TwytfnOm2O5Wof4
-gBP62BTX0aM87wS/rhQ0U3guBmrnCRlCmNhAvtw9TLM7mtdoGmKfjyfhl7xsSi4zYlLcrc51W7/R
-4ZJoD0s1Uo3taGEO35lex8V8g2M4GQnSXlhrx0iMKrTAyjdWzY0VtiPnPShNwLoNVYSfQ7zjCADQ
-XGT74uKnH2lfX83JsfIKaxLlRCOmfMNOag==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lHwACgkQIuoRGn5CQqTJWQf9EbzR
+5+n+i4cYN8pPSroAo2JUwqdqsENkYEpqHQQTNCk6RrOcvgYjJNbkO3M05GePMr+ngaL/6WRsq+w3
+HWhYY06I2Ruth0hXgNHDi0OO6ZGMedYmbMo/2lSHmZKwxDFM6sqfVwVYsF77xQeF/NhJLJTlvZeG
+bU3URMwm46qYMkdOAdtc3Gev4n9g4E7GiFD2QaIdhYMCmQhNkRQ7kkWDfiVsTbUwLONBOnIEL1xH
+dUpaB3l1Th3I/hXdwxwCX065x3kUkf7wqlTnXTfwQUcBFCCad8nLWTc5zE3T/qU0pBl5ck5eyKNe
+J2f12zLy9x8npiZvjAeeiJ4Z0SlROb5MMg==
 
 -->

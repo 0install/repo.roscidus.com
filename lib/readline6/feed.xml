@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/lib/readline6" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>libreadline6</name>
   <summary>GNU readline and history libraries, run-time libraries</summary>
@@ -12,20 +12,20 @@ recalling lines of previously typed input.</description>
   <package-implementation package="libreadline6"/>
   <group arch="Linux-i386">
     <implementation id="sha1new=284c4bac4d43f41fad32250614a9eab5202a55b3" released="2011-06-25" version="6.1-3">
-      <archive href="http://repo.roscidus.com/lib/readline6/libreadline6-i386-6.1-3.tar.bz2" size="134310"/>
+      <archive href="https://archives.0install.de/pub/readline6/libreadline6-i386-6.1-3.tar.bz2" size="134310"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=b3329db54dddfcf5febd40f55b28227d3f7fa4a8" released="2011-06-25" version="6.1-3">
-      <archive href="http://repo.roscidus.com/lib/readline6/libreadline6-amd64-6.1-3.tar.bz2" size="148959"/>
+      <archive href="https://archives.0install.de/pub/readline6/libreadline6-amd64-6.1-3.tar.bz2" size="148959"/>
     </implementation>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJOBf0oAAoJEAcTP5bKdNi6lq0H/3mKkx8C2SEOz46fu9PiP6RRMriarLPkuqrw
-9ret+qv93VDHhuP13XzQ7k93/kGLPmBXv5ghkwzQwa4EfKqQTmOMiZjh8eul7CfP5jJGmtGm6M6j
-noWEo3YwT7YiY1V1I1jAzZVIkSzkqva65FyHJuaDuBoyqfTdJP/xhHazD5GvVX+7M8742PDf5xmK
-CNbb4Uvf+ZhB7vHFuAophMS2mBPQwTF3nRRJ6a9bGFuih525juI4qtjMARlViSOMCFISQ2Ioiocd
-HT8KvZE5qQ6pr9sOPg1RI2LngMjhYjoUofm93m4nO7xbPxrfxQZa5TzKb+pO17Dhgwp6JOSzQpIA
-ZME=
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lH0ACgkQIuoRGn5CQqTP7AgA4Vn9
+aoqpVdyNAFGxpy6AheyfXygDajZG6/gPoA11cFrFsprKEb8PRdKjvHGwsZo1I7kbNXMBph1f8/Ju
+gOR6IwoO3J1oKmNBXNrjXa1FUXbcyz8Tt1v1aRFuJKoSBiywHy93w3e7JX/61Twf4CuyzXDoFvxl
+KirCb9oe2TQfOvRgmkestjeEu3UMdS6khYT0pfJ+dWJ/2eckXd599tVPLxsItIIXibZe9hQ+aBHx
+VudaVykmrPx1APURikG+Lz8V4ZAcnzzyW2UF13lBqTrWnLHaJHfaJTAQzvG3Bor4IiWlAa0xpSAg
+ZhOZDhNW+nK3I6wQO4GmELg4tMl93a8mhg==
 
 -->

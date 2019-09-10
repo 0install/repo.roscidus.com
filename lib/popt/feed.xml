@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/lib/popt" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>libpopt0</name>
   <summary>lib for parsing cmdline parameters</summary>
@@ -13,19 +13,19 @@ strings into argv[] arrays using shell-like rules.
 This package contains the runtime library and locale data.</description>
   <package-implementation package="libpopt0"/>
   <implementation arch="Linux-i386" id="sha1new=362577ba8014c27fa70d458512af35b56cdf5ea6" released="2012-05-26" version="1.16-1">
-      <archive href="http://repo.roscidus.com/lib/popt/libpopt0-i386-1.16-1.tar.bz2" size="51588"/>
+      <archive href="https://archives.0install.de/pub/popt/libpopt0-i386-1.16-1.tar.bz2" size="51588"/>
     </implementation>
   <implementation arch="Linux-x86_64" id="sha1new=856e07e63b6130b96ab39bf8dfc3ac5e3d18db96" released="2012-05-26" version="1.16-1">
-      <archive href="http://repo.roscidus.com/lib/popt/libpopt0-amd64-1.16-1.tar.bz2" size="53008"/>
+      <archive href="https://archives.0install.de/pub/popt/libpopt0-amd64-1.16-1.tar.bz2" size="53008"/>
     </implementation>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJPwOygAAoJEAcTP5bKdNi6hs0H/jrD2aSM04K29wE9/SIdcs1opATso31LgtQH
-iZRNJYn6NqDsZkL8/X5sriQwlfDBl6axARKemXSKMuvy6bMVtPFi1JE9xcvb7mFI8BO4HXMO8rbo
-rFNhfQSDRzDuSk/MJ01bOufI+PMT4H1b4kqsn4EA8XEKNMTNmQMc+2wWOQB2AHuTmXV9YuhN3xtS
-Ug8bZPd63mBN4tgX2yvUMOpvyDt7lMhBYxMCBr9mP6NSmy/eUN9qUF5gOfm8xmoyopK0dYNPDS+B
-j00b7I2DpW0Q0msMrzNF7yJAjx8v7JE0TxRT81TwknAC+kw/JKIZGDOwMD9ZLGHciGSSfNSCNmNu
-Kic=
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lHwACgkQIuoRGn5CQqSUvgf+J64R
+XF2jP05nrXNrkkLGEU2x2Vi6AeOXg6eCP1EOj0GnTsXvOSy4TBY4hVJiHjgjZ1kCisAxOzzXtrtm
+wca7dG24aqZYAWxB1sGuMA1B0sMivU3nRGEA0DIWG5FRKKmCmuyNQ0N7McKU6NJDgCWgPzcVE2T9
+0brX3h27JYOhU2oGA3fP/s/s8nkPYwmue6F/SBKdGK8Zff2r7h0ag4EPVu9HdgNWOX4TAfjJrXHY
+P6ASXLZ76XWpj9FkpLTWnqhgGvruka7ZztyA8uyjtvkGfhECDmbTGP5PjkFKyij4BmJLA4Cbkqgr
+kNDTgNznAI4UMXQjedSq1WV2cgMFt52wCA==
 
 -->

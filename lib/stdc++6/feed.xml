@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/lib/stdc++6" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>libstdc++6</name>
   <summary>The GNU Standard C++ Library v3</summary>
@@ -17,20 +17,20 @@ in g++-3.0.</description>
     </requires>
 
     <implementation id="sha1new=3ea473cbd976fac4360478603fd301fc387ec21b" released="2011-10-01" version="4.4.5-8">
-      <archive href="http://repo.roscidus.com/lib/stdc++6/libstdc++6-i386-4.4.5-8.tar.bz2" size="329917"/>
+      <archive href="https://archives.0install.de/pub/stdc++6/libstdc++6-i386-4.4.5-8.tar.bz2" size="329917"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=addf2265c9a59a45aa95db15d7458d00a65bfe96" released="2011-10-01" version="4.4.5-8">
-      <archive href="http://repo.roscidus.com/lib/stdc++6/libstdc++6-amd64-4.4.5-8.tar.bz2" size="324558"/>
+      <archive href="https://archives.0install.de/pub/stdc++6/libstdc++6-amd64-4.4.5-8.tar.bz2" size="324558"/>
     </implementation>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJRKKglAAoJEAcTP5bKdNi68AQH/30C5VmD8+pbKgp2I+IU7TCPovTM5CwaU/lG
-rllL34WLBt/aRENX9ch0vQM8RvsKGURH+8RenOxL/ll/3AC1TMQS0Y27noVck8HeAr7wy7AzhK2a
-KzcJnBVOJfvqm1HQsi+ZVlr/KdVMOOgLT8Kp4v9jn9vLRLgeWn+BFKTdmzkPa55okOZCpNq/LGaI
-IFKsJT3h/7At+UH+NzQ471XpluSeXG1e5Gf96O2a9Hl+qpeD1bxrq544FpZXl4kTWicyXgcv4yJY
-9IM6/cg0+d+Hc3zVFM+ImTl/wkeWx/QXZ6l9ztKp/RCbNp/vOgBqKo9ezYw1z71/FSVcaFFx4jV8
-heQ=
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lH0ACgkQIuoRGn5CQqQXkggAve4f
+6d4pGb+zT9M4Xc4sO2IAbJfmAYxVZGMOnLJ23woFnl7KTDp2PBlylSbCsrxye0VnP/tVp83dwExS
+lSI+/NNCLVS/wZoTLlnWONSLGAn4iRia2310pBJ2BvJiqalCHnaT9DeY0o+TnU2WGrHf+4ZG7mO8
+aQW7nYqxziu1bVibZIebmjRSdo3m/FiStPL+MlOQmLuWHJL+lePbmlxAqCZfOdd0CCVROYlfMBtV
+JM4HtBSbyxUxNHsx/7zq+BIJKgiF5bqUD+AGW6hSiHv9CLTN/MRA6Rz770xHJXKE6VrXaZZdOmab
+LEVtC2bnu3RNU+y7dpT1ZRdQrW1kMwxUhA==
 
 -->

@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/python/sphinx" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>python-sphinx</name>
   <summary>tool for producing documentation for Python projects</summary>
@@ -25,16 +25,16 @@ languages as well.</description>
     <requires interface="http://gfxmonk.net/dist/0install/jinja2.xml"/>
 
     <implementation doc-dir="doc" id="sha1new=7dd5e02109d6906134d10ea06f8d892269a1e83f" license="OSI Approved :: BSD License (revised)" released="2013-01-18" version="1.1.3">
-      <archive extract="Sphinx-1.1.3" href="http://repo.roscidus.com/python/sphinx/Sphinx-1.1.3.tar.gz" size="2632059" type="application/x-compressed-tar"/>
+      <archive extract="Sphinx-1.1.3" href="https://archives.0install.de/pub/sphinx/Sphinx-1.1.3.tar.gz" size="2632059" type="application/x-compressed-tar"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJRIfQNAAoJEAcTP5bKdNi6RMIH/0pVWLl1Y3Z/lbugFLkxKRrKsDsPP1HEVIg9
-tDTKCL8Z27qVe3cWmnoHfh6ZNZFa5oNNBnuIjlAaODFTv75nkDVoJ8J/QIH7C7Fk2T5ysKrPRHpC
-l26eQCRPXZXMIcXi183pro5ZQxvbHoKW7wbGknjgBNfrXARjeUzVma92uXzkJtGYeObaDEJpldGp
-tuVH9+XOhpfXAS2j6IMl4VAkSGFcs71WvFWPYxpFfyijsoz4ECLcfmufHPtg8BLKxyrV3LOonTss
-KYc2/He1UCiPReDmDETPXW59lTBzazmaDsXasp1tykD+Atm6OjYcS4YwFN2hfQ8Z1Um6ggHgvM41
-7j0=
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lHoACgkQIuoRGn5CQqR8XwgAg/iB
+L3RFZJb9hrcjXtFw6QxcT0+D7/vREODWkvb4mcU6WpNGbhmZLw7b4F4g860G8TG7tFkC182kkMOu
+dytROAaoSFMivGmN+k3wIbrPuiJmCiol6YNa0Hobc3ALQUSSeD3iajaOgkWlTTOiZo9teidu2CAV
+5buPzfebpVg53HQOj7wzhenHSsYJ+qU+om+5RzTWim6Jp6lbzS00KcEXYiZMhY2sUR0qHfkZx3LG
+T+rcfyPMWcHC8MfmRlRndLr61GN7Pg2tBfND0psMz5RYMQ/HSyxWIT7GWmDoUNevtLzzh4gARDj/
+PE673nknTwKqUsNjjV4PBnJllQsp3U/yPw==
 
 -->

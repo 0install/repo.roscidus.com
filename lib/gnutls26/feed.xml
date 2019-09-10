@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/lib/gnutls26" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>libgnutls26</name>
   <summary>the GNU TLS library - runtime library</summary>
@@ -26,10 +26,10 @@ This package contains the runtime libraries.</description>
       <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
     </requires>
     <implementation id="sha1new=32004067246ee21fc05c2e2946da7d26a1b2bdc9" released="2010-06-26" version="2.4.2-6">
-      <archive href="http://repo.roscidus.com/lib/gnutls26/libgnutls26-i386-2.4.2-6+lenny2.tar.bz2" size="459931"/>
+      <archive href="https://archives.0install.de/pub/gnutls26/libgnutls26-i386-2.4.2-6+lenny2.tar.bz2" size="459931"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=e955d6178824f75fbd8178777f6903831d06fc90" released="2010-06-26" version="2.4.2-6">
-      <archive href="http://repo.roscidus.com/lib/gnutls26/libgnutls26-amd64-2.4.2-6+lenny2.tar.bz2" size="508374"/>
+      <archive href="https://archives.0install.de/pub/gnutls26/libgnutls26-amd64-2.4.2-6+lenny2.tar.bz2" size="508374"/>
     </implementation>
   </group>
   <group>
@@ -40,31 +40,31 @@ This package contains the runtime libraries.</description>
       <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
     </requires>
     <implementation arch="Linux-i386" id="sha1new=df49a5548f26afab506f75718504467bf55ef213" released="2011-05-29" version="2.8.6-1">
-      <archive href="http://repo.roscidus.com/lib/gnutls26/libgnutls26-i386-2.8.6-1.tar.bz2" size="522728"/>
+      <archive href="https://archives.0install.de/pub/gnutls26/libgnutls26-i386-2.8.6-1.tar.bz2" size="522728"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=956f537b29f9d72de320ad86e468686df1e1a0ee" released="2011-05-29" version="2.8.6-1">
-      <archive href="http://repo.roscidus.com/lib/gnutls26/libgnutls26-amd64-2.8.6-1.tar.bz2" size="569966"/>
+      <archive href="https://archives.0install.de/pub/gnutls26/libgnutls26-amd64-2.8.6-1.tar.bz2" size="569966"/>
     </implementation>
     <group>
       <requires interface="http://repo.roscidus.com/lib/zlib1g">
       <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
     </requires>
       <implementation arch="Linux-i386" id="sha1new=1a2e7e981c336d9b1e5eebc23c24d66d9da157e6" released="2012-03-27" version="2.8.6-1">
-      <archive href="http://repo.roscidus.com/lib/gnutls26/libgnutls26-i386-2.8.6-1+squeeze2.tar.bz2" size="522997"/>
+      <archive href="https://archives.0install.de/pub/gnutls26/libgnutls26-i386-2.8.6-1+squeeze2.tar.bz2" size="522997"/>
     </implementation>
       <implementation arch="Linux-x86_64" id="sha1new=14733b1cffcf5393f178b8fd13fe0d17aa468630" released="2012-03-27" version="2.8.6-1">
-      <archive href="http://repo.roscidus.com/lib/gnutls26/libgnutls26-amd64-2.8.6-1+squeeze2.tar.bz2" size="569973"/>
+      <archive href="https://archives.0install.de/pub/gnutls26/libgnutls26-amd64-2.8.6-1+squeeze2.tar.bz2" size="569973"/>
     </implementation>
     </group>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJPcZO7AAoJEAcTP5bKdNi6lCIH/0EO4W0HnYITDA6SqW+N1LhEYtFF+AmE9ULN
-8/7F1YpMuwa9rLPt1NXX1BxNGjIBS6LZeN1K8KNxk5fD95gApfK3VPJar4UnBtBKIKQWoqPpiXH1
-bOPIiq9063cJcDCbBWrrewqbooZQG5T4EM5o8b0Vxy21Y9TrJp9e8ZtYpdbuQL8exjlgrr2IwW0k
-3KQj3ZACYLVkoLUCCwQv6tjeMbcCxfBrCstYbewewK4OrFOADQ05Q8M3xQcW1ueUIbl6oa435oKt
-OkkjxG4iD/1Mno5Ut+x5W9PIAEhduErKuj6BNN8c95geEFN52laPueFM/MwZC6LbA/74vrHyJ0e3
-9JY=
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lH0ACgkQIuoRGn5CQqRoHgf/cSnq
+yrJO9s1PJh4Q1PA3SYoYwJtkDS01UcbtyIiHDQ00913LHLYnLgOGwheiZPwsGdjTRhjXBCGfllJI
+QRhfLTtBEwda2o0IhsKJ+ag+lqmD5LEobcnOa1TmE/nDrWxIlW3/qBJ6XaQPvXKFASb3AW+7tN56
+X7e9snRUjGxnwtXjGxost/wkxslIACSf6S+qtzeWsFh274bN0NldlxpPf5xcClBwkKJsxe2rhhy6
+65waXSzXtZPWTO/TZ2ZKKQCKTLINXA2JW7I6bhJ1UINpgeeDRiwYqpgE42G4n/7W/lvYf0j2tNLV
+Y8bAi5s79lq/h5Z1KVKZ8h+zaj3Gtxi4jw==
 
 -->

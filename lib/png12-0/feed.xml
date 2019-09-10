@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/lib/png12-0" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>libpng12-0</name>
   <summary>PNG library - runtime</summary>
@@ -12,31 +12,31 @@ using libpng.</description>
   <package-implementation package="libpng12"/>
   <group arch="Linux-i386">
     <implementation id="sha1new=c33007f8f0185af570fe3c37f391b5832c8cb2de" released="2011-10-01" version="1.2.44-1">
-      <archive href="http://repo.roscidus.com/lib/png12-0/libpng12-0-i386-1.2.44-1+squeeze1.tar.bz2" size="106531"/>
+      <archive href="https://archives.0install.de/pub/png12-0/libpng12-0-i386-1.2.44-1+squeeze1.tar.bz2" size="106531"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=24a3bed36ab3898dab469b4faa8a7216f2813cce" released="2011-10-01" version="1.2.44-1">
-      <archive href="http://repo.roscidus.com/lib/png12-0/libpng12-0-amd64-1.2.44-1+squeeze1.tar.bz2" size="106552"/>
+      <archive href="https://archives.0install.de/pub/png12-0/libpng12-0-amd64-1.2.44-1+squeeze1.tar.bz2" size="106552"/>
     </implementation>
     <group>
       <requires interface="http://repo.roscidus.com/lib/zlib1g">
       <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
     </requires>
       <implementation id="sha1new=8390965d5ff42850c411b6902a72b5f7683ae1ae" released="2012-03-27" version="1.2.44-1">
-      <archive href="http://repo.roscidus.com/lib/png12-0/libpng12-0-i386-1.2.44-1+squeeze3.tar.bz2" size="106547"/>
+      <archive href="https://archives.0install.de/pub/png12-0/libpng12-0-i386-1.2.44-1+squeeze3.tar.bz2" size="106547"/>
     </implementation>
       <implementation arch="Linux-x86_64" id="sha1new=99450d9b55c1ffc3d05432f6424d804a055f331d" released="2012-03-27" version="1.2.44-1">
-      <archive href="http://repo.roscidus.com/lib/png12-0/libpng12-0-amd64-1.2.44-1+squeeze3.tar.bz2" size="106559"/>
+      <archive href="https://archives.0install.de/pub/png12-0/libpng12-0-amd64-1.2.44-1+squeeze3.tar.bz2" size="106559"/>
     </implementation>
     </group>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJRKKlKAAoJEAcTP5bKdNi6Jx0H/0oldA4Cufyxs9IWYAQ9W5nHL8y33PUq9IqA
-HxqVjHmyCEwewFIM3ldCLM0PTH/MHGUTyLvlA5zOisgSaPSETZX9p9oMXNs1ww/+4k4D6mWDFty8
-fdbZ8zo5aD3FsobArQ348Q5UptsAFoxFkl4kdlGxhYnBwEGZ7C0JXHhlgIu1CMDTUXbDuPIGm2ue
-390u3zqDqK7hEncnxszU80sls19WpCsiFs+eOnVPjEgJjScqenJ3AFAB1VFygidaaYsIRYwfcMiE
-6SPgxcf8n6GRYFzU6FCVEx2ZpFfCwtt0p8boRqrcRzT9NpRX/R8GFhq9O+649dwQhc/Vjj8rEebU
-0ek=
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lHsACgkQIuoRGn5CQqRQwggA4P+v
+I0fb0s+7yrwiNW/6KDxKYPkpqTMzVYRnhxA0bBKd+3Ts4AF+1IizyM6RQd/VvxxuDc0tIhLQt16n
+Oj9m5GIOMmKW5haPDY7csDNt3Gb1ywK1FJTNO9bsqupv82qpfmNv8IToWu00L5uH7CbswSnzlG9E
+6Bt+dKqY5f02+Arb9ala1LQ23UAYSeRkTu6wL7ctGuoxtfNcEzCoFoMpTfy38XxtvsdItkCl0wOV
+ZOJhen/zIYP0nmnnK02o1W/S0gxxLjplunJU4FajEmxCw6qOUtMXpfgk64bzcVb/q+3XJV9A7dP+
+/81p5zO7StH+nvykG3/GE4RwUlScAW/Fog==
 
 -->

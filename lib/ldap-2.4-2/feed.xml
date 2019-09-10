@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/lib/ldap-2.4-2" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>libldap-2.4-2</name>
   <summary>OpenLDAP libraries</summary>
@@ -14,26 +14,26 @@ Access Protocol) servers and clients.</description>
       <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
     </requires>
     <implementation id="sha1new=730a3697669531a75017f775ff5a6ebb88b8cd5e" released="2011-05-29" version="2.4.23-7">
-      <archive href="http://repo.roscidus.com/lib/ldap-2.4-2/libldap-2.4-2-i386-2.4.23-7.tar.bz2" size="192173"/>
+      <archive href="https://archives.0install.de/pub/ldap-2.4-2/libldap-2.4-2-i386-2.4.23-7.tar.bz2" size="192173"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=f26bb500bcf557a2c636ac934212baceeec3c6bd" released="2011-05-29" version="2.4.23-7">
-      <archive href="http://repo.roscidus.com/lib/ldap-2.4-2/libldap-2.4-2-amd64-2.4.23-7.tar.bz2" size="208883"/>
+      <archive href="https://archives.0install.de/pub/ldap-2.4-2/libldap-2.4-2-amd64-2.4.23-7.tar.bz2" size="208883"/>
     </implementation>
     <implementation id="sha1new=013a46023b8fab8930567f146772aa24954845c9" released="2011-09-17" version="2.4.23-7.2">
-      <archive href="http://repo.roscidus.com/lib/ldap-2.4-2/libldap-2.4-2-i386-2.4.23-7.2.tar.bz2" size="192637"/>
+      <archive href="https://archives.0install.de/pub/ldap-2.4-2/libldap-2.4-2-i386-2.4.23-7.2.tar.bz2" size="192637"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=54e46c67506f2b4be843f6103587e966a66cf4ec" released="2011-09-17" version="2.4.23-7.2">
-      <archive href="http://repo.roscidus.com/lib/ldap-2.4-2/libldap-2.4-2-amd64-2.4.23-7.2.tar.bz2" size="209216"/>
+      <archive href="https://archives.0install.de/pub/ldap-2.4-2/libldap-2.4-2-amd64-2.4.23-7.2.tar.bz2" size="209216"/>
     </implementation>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJOdH4BAAoJEAcTP5bKdNi6Ym4H/Rs/d683x78zSxAsWLopvSRO97ucFRHdo0Ry
-XaX+CTi71vu0Hb08XfofDkQktf3qGi4lfSR4e2wUQiu14WqkHu8F6mUQMauJnGSVfr+eFxwlu+/K
-MogcE+8Jyd0+YKCM82wCYdj5Xq1tRwBhpA/EioH4SVrbAOYHfgACHF9lhD71Fie13zdZuod3KkNO
-P6dOzzRShXylf4WIPEV0WVPdWqG1ui2SHOcQXy0Xc96NBT0Ue4tGxTOj374pzkPKh0mCH7lsKalB
-FHJfgcw6/TiOx4wGEspLCxj+TmShf83puRLwhEqtJlHT9tuCUp0UEXUe9yvpnsZvYA1AHjgCiRqn
-C7E=
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lH0ACgkQIuoRGn5CQqTUjwgAzegb
+5Iaqz0fERa9LT/4loCnq6M4Y4wfOTbyZLSzOwPLyCubYLCdKzLpr/sI5LotwB0JQwuvaFhdDy7mT
+orR77EqOC0SYvsY5WX8ccVTOssk/RCnWXNBCGhx/FqOt/7yElZPbVuCAgsUmC+ZKDn2WQHOIl3YW
+a+SoeS7dnEJnAikN530Q7qM2jFCwiokS0+3FYNBQi/smYDln33z6XywLqUE40CicH3FjPGJ7hrNm
+tOoBJldjKmDiTX375eFaZPU9+p8xYWFjlej7jfYU1/xWyN7lLHnyYXmnE6Z9UjJLEqTwAr5FSQM/
+JXNM9bFd65+Su79VGzD2ZxG8HVPKo+H5gw==
 
 -->

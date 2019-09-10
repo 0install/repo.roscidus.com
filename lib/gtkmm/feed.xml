@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/lib/gtkmm" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>libgtkmm</name>
   <summary>C++ wrappers for GTK+ (shared libraries)</summary>
@@ -30,23 +30,23 @@ This package contains shared libraries.</description>
 
     <group arch="Linux-i386">
       <implementation id="sha1new=21531defeb19a58397b52a2c3562b0e170db7f72" released="2012-01-01" version="2.20.3-1">
-	<archive href="http://repo.roscidus.com/lib/gtkmm/libgtkmm-2.4-1c2a-i386-1_2.20.3-1.tar.bz2" size="1276223"/>
+	<archive href="https://archives.0install.de/pub/gtkmm/libgtkmm-2.4-1c2a-i386-1_2.20.3-1.tar.bz2" size="1276223"/>
       </implementation>
     </group>
     <group arch="Linux-x86_64">
       <implementation id="sha1new=bb479194c2204b6cea6ada917fc46725e9c0afbf" released="2012-01-01" version="2.20.3-1">
-	<archive href="http://repo.roscidus.com/lib/gtkmm/libgtkmm-2.4-1c2a-amd64-1_2.20.3-1.tar.bz2" size="1206132"/>
+	<archive href="https://archives.0install.de/pub/gtkmm/libgtkmm-2.4-1c2a-amd64-1_2.20.3-1.tar.bz2" size="1206132"/>
       </implementation>
     </group>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJPADAUAAoJEAcTP5bKdNi6jVEH/0O39cmzlDYoNqy/nPbltL7e5yGEqBQX6dvO
-DpRfkBUSQzXVjlExd7VuBDHoiO9b/PUSlZ+Nrn0fH1KziO8SWJ4rRDD4OqBjCHAuXwPDM9vjkwIr
-38O+SGLjxyUE4aCKNMp/i+bCtRjGzEi+9dL9NWfvRj6XMODS1GaEoIKUb1rtBVKRoJ7/CsL8R6ay
-5J5acVd6cdBkjsJvHWyqayrkopVV0toGbpdUfSbZa4vs3f89d+P13GJLyg0Q3fH/72Z5krkReXEQ
-CJ8/5MpWPjn6E0Bb5MalUQGX3G/ysPrQUjpwzgdpjF8SAavNsLrmadv4QftaNvGOQ7gyr0mPpAYk
-50E=
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lHsACgkQIuoRGn5CQqRXbQf/eNRC
+x+tE6aYu+o0CyaJXnyPgdXS0BAMR2Hq7wp3dY5TE1g9xJ89N/Lkaa35Ho+hM+eLhdwm3QXlWYxE3
+iUczrrcuhGvbzBkPMm6IvJlTnqzFXCCR2awBLhOhilRbj9iTtXzpHvmmVJXPlnna4AYYw732FXoW
+LQDqAdxALQIYr5NBtOJMQqh7ntRFF7QPXuMynB+0LPcGN2rk5WQTUV1rsF3nTnc2a2+kDpP/xKh8
+EPF/BViSzt1wFw7Viq1Hc5UUX0xQsbalmxBjD4TFQfxCjGdA5c7yR6o2x8wETVqe9qBT5W1KZNnq
+R3Dt+4Q9EykKCdBc75GXgtqnmUdt7U2W8A==
 
 -->

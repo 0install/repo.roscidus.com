@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/lib/gmp3c2" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>libgmp3c2</name>
   <summary>multiprecision arithmetic library</summary>
@@ -13,26 +13,26 @@ It has a rich set of functions, and the functions have a regular interface.</des
   <homepage>http://gmplib.org/</homepage>
   <group arch="Linux-i386">
     <implementation id="sha1new=07ea5a9908e71893013736b0afe222cd259d3104" released="2010-06-24" version="4.2.2">
-      <archive href="http://repo.roscidus.com/lib/gmp3c2/libgmp3c2-i386-2_4.2.2+dfsg-3.tar.bz2" size="180918"/>
+      <archive href="https://archives.0install.de/pub/gmp3c2/libgmp3c2-i386-2_4.2.2+dfsg-3.tar.bz2" size="180918"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=1213339256f457c5b958b3f51f2a846fceac509c" released="2010-06-24" version="4.2.2">
-      <archive href="http://repo.roscidus.com/lib/gmp3c2/libgmp3c2-amd64-2_4.2.2+dfsg-3.tar.bz2" size="166595"/>
+      <archive href="https://archives.0install.de/pub/gmp3c2/libgmp3c2-amd64-2_4.2.2+dfsg-3.tar.bz2" size="166595"/>
     </implementation>
     <implementation id="sha1new=842fea4dcd8f380f17f079b1eca8636c158b21d1" released="2011-05-29" version="4.3.2">
-      <archive href="http://repo.roscidus.com/lib/gmp3c2/libgmp3c2-i386-2_4.3.2+dfsg-1.tar.bz2" size="232877"/>
+      <archive href="https://archives.0install.de/pub/gmp3c2/libgmp3c2-i386-2_4.3.2+dfsg-1.tar.bz2" size="232877"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=b20ab6ee8c9f79af433578ba2c17afcb1328c7da" released="2011-05-29" version="4.3.2">
-      <archive href="http://repo.roscidus.com/lib/gmp3c2/libgmp3c2-amd64-2_4.3.2+dfsg-1.tar.bz2" size="230081"/>
+      <archive href="https://archives.0install.de/pub/gmp3c2/libgmp3c2-amd64-2_4.3.2+dfsg-1.tar.bz2" size="230081"/>
     </implementation>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJN4pSUAAoJEAcTP5bKdNi63bUIAIyEQ13YcabdG3ESYwc6EDCDlVjnRFGqt9Wu
-zgvrvu+dL7Bu9KI4gZSq+Y4wn7s/DQOIGTr30XGNBiEieV/QyH4xHWeCFxuhQti8J/uCAh7B+0+7
-sFDE479OBPkMqTyyZVAgAmVYhKxqnz7J53rhn+cgQiLH00+PV9RJ1haBqoEerSBWuXchLYQn4gk9
-5ncHkZYgrB17+2EKWibdSt6SHqZlIhrk1AnpnW/CwFHBi6I2rtwRrJ5cbzS/jICxiYzOFduJ0HF4
-9/pGAiSlTVO8l2M97gDQj47N8/JphG0AF7uKOrj8BoROhaeyMAM/qxxhz2LMP0glVFmxhcA8HNQC
-1M0=
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lHsACgkQIuoRGn5CQqQtvQgA60Ed
+8W/7NvVC7+qVDncPGPuQe80vv6pJI8b+YabRKid8GPX+Q7svE74nX8VOCR9ysN3YhKsEX8m5UrKx
+ZgA927VRiZGIdmRq9Hb1R+SeCPJPP5naL27E0m1QiDSSadIniwOUQh818Njcdm4fBhs2NPHXwWXU
+EYUSkCitaXWSY/0miZJjJamYoLI3KMl07owiW2utjIclum1OgyjanXC8rMKT7kLVlwqCz/779aSu
+qTUkWL9kWoOfGlW0S1PNu6B1HaqhWzypMcx6HnKTI1cNHgjTi7d+HGXXZ32JvZL7IQFSdOzQOF+g
+EZh8AbzFxWAkC3S3GGmGEDYN+OEio0q27w==
 
 -->

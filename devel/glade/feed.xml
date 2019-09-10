@@ -26,7 +26,7 @@ languages including C, C++, C#, Vala, Java, Perl, Python,and others.</descriptio
 	</compile:implementation>
       </command>
       <implementation id="sha1new=004cb5d03e788ef8e893e6c53ea3a4b56f432322" released="2012-07-08" version="3.8.2">
-	<archive extract="glade3-3.8.2" href="http://repo.roscidus.com/devel/glade/glade3-3.8.2-tal.tar.bz2" size="2739051" type="application/x-bzip-compressed-tar"/>
+	<archive extract="glade3-3.8.2" href="https://archives.0install.de/pub/glade/glade3-3.8.2-tal.tar.bz2" size="2739051" type="application/x-bzip-compressed-tar"/>
       </implementation>
     </group>
 
@@ -34,17 +34,17 @@ languages including C, C++, C#, Vala, Java, Perl, Python,and others.</descriptio
       <implementation id="sha1new=4d4909806e707060c207c9b5983bffc8b0179a4c" main="bin/glade-3" released="2012-07-08" version="3.8.2">
 	<environment insert="lib" name="LD_LIBRARY_PATH"/><environment insert="." mode="replace" name="GLADE_HOME"/>
 	<manifest-digest sha256="f80ae33b9ae3f551ef85871864d8b114381a9abda0aa5848068835783893cf24"/>
-	<archive extract="glade-linux-x86_64-3.8.2" href="http://repo.roscidus.com/devel/glade/glade-linux-x86_64-3.8.2.tar.bz2" size="3080690"/>
+	<archive extract="glade-linux-x86_64-3.8.2" href="https://archives.0install.de/pub/glade/glade-linux-x86_64-3.8.2.tar.bz2" size="3080690"/>
       </implementation>
     </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlu5AjoACgkQIuoRGn5CQqThEQf/dfCd
-uBP9S9VsEVgf6fxhtCI5VlRlzUA3PRqL4bnXUimZF5OmeFsJSodOSt9T1zQ6ZkIWtK0ZuhAqfgW2
-+AZOGpnHvfQ4yYE2oBPmfIv+pFhXPa7Jk6UAftsj1Y+BhW7VTRZDNIoyVbMDi5Zss2P78rIpGRfO
-6fCfB8bcRmQPfLJC576l2UrSZadUEuIKxZsJIdE5scPPksXPFYp4AaRz6/Tp5OsxlbbA7WlkF1w8
-c56q5o6hbmTdDu7nUebgGHluf72ZpMNM7zP4H/A6Qw54G2D5L4Q+7uADEMxItJu41EafUAUn4W5X
-BAwwWTyr1W8NG4y4yL+ddbBL+aOkH84aGA==
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lHgACgkQIuoRGn5CQqSGjQf/Xr85
+4V14SMPzNo97BVcsw50HjEi3HgGbOxEjqDmLJxvbWJzJOD3ZgU6QDysuQQ5TsgFuc4wU32rn965S
+RINeFOJQ10yWEslyIV3PXnJi4ep1gxTsx+mkBpTfg3QNbBuPR+0ctI55j5NWRG6O8NKubDvfU54I
+UgATWqnOOHksyUliwIf7yd/g6X9WVliKxaiCzz1HRvNqTByenR+QloA2KGIy1uqL50ekal/zuVrb
+NAzcJnhrlM/4RUODvYZmWonEKJOBeMypGTJdA9Aw/bIQiIlzmtGUkIcC+FtytvN5uuv2bK36DPX+
+yittYMAAayUH94im6J8N1wyeMFELn0G6bQ==
 
 -->

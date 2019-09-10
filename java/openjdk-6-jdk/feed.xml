@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/java/openjdk-6-jdk" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>openjdk-6-jdk</name>
   <summary>OpenJDK Development Kit (JDK)</summary>
@@ -35,10 +35,10 @@ IcedTea project.</description>
       </requires>
       <environment insert="lib" mode="replace" name="OPENJDK_LIBS"/>
       <implementation id="sha1new=6b2afc4b5841dfa24b996b321d08b48109b0c5c3" released="2011-05-29" version="6.18-1.8.7-2">
-	<archive extract="java-6-openjdk" href="http://repo.roscidus.com/java/openjdk-6-jdk/openjdk-6-jdk-6b18-1.8.7-2~squeeze1-1.tar.bz2" size="8887727" type="application/x-bzip-compressed-tar"/>
+	<archive extract="java-6-openjdk" href="https://archives.0install.de/pub/openjdk-6-jdk/openjdk-6-jdk-6b18-1.8.7-2~squeeze1-1.tar.bz2" size="8887727" type="application/x-bzip-compressed-tar"/>
       </implementation>
       <implementation id="sha1new=9af7ae7fa806798b1df663c19cddf97f2aa411ca" released="2009-12-28" version="6.11" version-modifier="-9.1-1">
-	<archive extract="java-6-openjdk" href="http://repo.roscidus.com/java/openjdk-6-jdk/openjdk-6-jdk-6b11-9.1+lenny2-1.tar.bz2" size="7610012" type="application/x-bzip-compressed-tar"/>
+	<archive extract="java-6-openjdk" href="https://archives.0install.de/pub/openjdk-6-jdk/openjdk-6-jdk-6b11-9.1+lenny2-1.tar.bz2" size="7610012" type="application/x-bzip-compressed-tar"/>
       </implementation>
     </group>
 
@@ -47,18 +47,18 @@ IcedTea project.</description>
 	<environment insert="bin/java" mode="replace" name="OPENJDK_JRE_JAVA"/>
       </requires>
       <implementation id="sha1new=f2da5d5538d0e3b9d9c0843cb9362e900fd33566" released="2009-12-27" version="6.11-9.1">
-	<archive extract="java-6-openjdk" href="http://repo.roscidus.com/java/openjdk-6-jdk/openjdk-6-jdk-6b11-9.1+lenny2.tar.bz2" size="7602552" type="application/x-bzip-compressed-tar"/>
+	<archive extract="java-6-openjdk" href="https://archives.0install.de/pub/openjdk-6-jdk/openjdk-6-jdk-6b11-9.1+lenny2.tar.bz2" size="7602552" type="application/x-bzip-compressed-tar"/>
 	<environment insert="lib" mode="replace" name="OPENJDK_LIBS"/>
       </implementation>
     </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJQdnE/AAoJEAcTP5bKdNi6IX4H/jf3l0DsZ32ClUhO84XV+PVEHjMXMIwWv8ym
-5S67UE1NO9PMcNWQsT1TmmtQP1qfjCSjWKJ45ssU/GWK4svqlHIAH2yg/51XNUZ48jkCaMlWfXJj
-kQhk2JEuFFN7NwowKHyXITnEfQ8gKdNEqxMOBMLJmcTrK3AeDGOW2TOFXceCVUKVXXPvm73sBB0r
-6q1jBE+Yj/Fuli+K1kP/HCHGoDbpfwfJWXDsGKNNIMLDcwE0VA/bZZtMpXH7ckFBEjK1tlwWPQi0
-q8LOOluF9QJL98tiGYyC9RmV5/s2N37FjlwYqdkbQDro3Q5/gSfAn4WAdtoEUgrx5Gxw/z5WEF/q
-Qh0=
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lHkACgkQIuoRGn5CQqRlAggAmTTS
++mveu8TbV7uqC1+4X1BJ4r3tBDYv6BtNgvUibIHiNT8t6h9rXr/41fIrtrGCkUUN1siAC7k2LBhK
+BBsi4rgsXRPrnBBc7jgjrQoO5XPlLa3skkuKM7kWY2o/qCf5OdazH+13UPPrcZAd0G8Qs/GCq7m4
+xJGMo+nE/VJtFkJHKObYejsBSnIe++1tX4tLaN+JeOw7v+6v1IMhcfqmNiIVwNwKXrRm79XhSG8W
+AZUCzNLB1jk3Ix3iZ1vyW9+4TL/qy4TOjXzB7tps1RVuhcY5ZUACj72ZJ5Tkv5hVp1RfR1P7/UxP
+fkU+MLgDbXq9loyREc25RCRZWjQCJZ2NiA==
 
 -->

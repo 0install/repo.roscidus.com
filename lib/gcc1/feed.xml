@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/lib/gcc1" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>libgcc1</name>
   <summary>GCC support library</summary>
@@ -9,20 +9,20 @@ special needs for some languages.</description>
   <package-implementation package="libgcc1"/>
   <group arch="Linux-i386">
     <implementation id="sha1new=2d07d68dbb76ae78946c397d23b5c7d938167f41" released="2011-10-16" version="4.4.5-8">
-      <archive href="http://repo.roscidus.com/lib/gcc1/libgcc1-i386-1_4.4.5-8.tar.bz2" size="51674"/>
+      <archive href="https://archives.0install.de/pub/gcc1/libgcc1-i386-1_4.4.5-8.tar.bz2" size="51674"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=72d044a65851ef9fa91d5f2d2f954d2f918277a8" released="2011-10-16" version="4.4.5-8">
-      <archive href="http://repo.roscidus.com/lib/gcc1/libgcc1-amd64-1_4.4.5-8.tar.bz2" size="42678"/>
+      <archive href="https://archives.0install.de/pub/gcc1/libgcc1-amd64-1_4.4.5-8.tar.bz2" size="42678"/>
     </implementation>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJOmq5AAAoJEAcTP5bKdNi6kqwH/1+swqsFOSYUsskr0S2hwhA3COpoli96z6iH
-Def4uya1IU1MzUsTbVi5AaCY+JHo4lRPpSlhqzzz7lTrzAK2+GC0iR4ysf+wCW9ZL8TLfYpMKQc6
-z7qMU1TKZA7BWSnv2lQlBzFJ8bo+JqybAuFeh0M5Aovv5u6mAgcKZXmtcoagEbIItXPY7HS0ELDp
-X2Opy7KoyWAPtuK1uI4+eRGkAVNJQSxXjv4OdI/eRyC11WHfRMxxqB+H9RVRvW2L+KudZu1CLH9D
-9y2EgSdPDiz0BbfiKcZqlA/40ULiswT5iBKySaHxSR45vJtMJ+ug7RyxHG/DL9TkEiAEtQ8T+/KF
-bM8=
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lH0ACgkQIuoRGn5CQqSC+Af9EOtS
+QqRWbfcEN7kqSA3W1M8UadN7QGRH5WEUBkiQ1+S6+NEi3HoP228RjM0CXG7jl/d2RufeJsdE+GD9
+9GcuR6DXko4akNxGGlijUq3h5gClEGpwSCrOH0IKU3qN2Fi8g90lvQV0Yy/nNFSNBA+bFH5T8H7C
+8bWa2IfzZn/i25BD0ku7l/Yv+sQNj3qADuAE98SHIpUKlYK2HpTlYVNa1ZBin/6/59TrHlc9xYS1
+9EUEnFngDueXbtvGjHmL7bpzy0nluNvSgNflTvVlVFqoma49XDCnxovEzk1hiBYZTj2IFZcDlBHI
+klE8eNG97XDYxV4+Y7NEbvWGpHN3VBuIZQ==
 
 -->

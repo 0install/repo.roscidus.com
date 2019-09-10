@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/devel/pkg-config" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>pkg-config</name>
   <summary>manage compile and link flags for libraries</summary>
@@ -22,28 +22,28 @@ and linker flags needed to use them through the pkg-config(1) program.</descript
     </requires>
     <group arch="Linux-i386">
       <implementation id="sha1new=7619ff7ef124c2dcc423be77d22c4d6deac30cab" main="bin/pkg-config" released="2010-04-24" version="0.22-1">
-        <archive href="http://repo.roscidus.com/devel/pkg-config/pkg-config-i386-0.22-1.tar.bz2" size="52359"/>
+        <archive href="https://archives.0install.de/pub/pkg-config/pkg-config-i386-0.22-1.tar.bz2" size="52359"/>
       </implementation>
       <implementation id="sha1new=ac17f4bffd491781e31dbef628e0d0bf94d596d3" main="bin/pkg-config" released="2011-05-29" version="0.25-1.1">
-      <archive href="http://repo.roscidus.com/devel/pkg-config/pkg-config-i386-0.25-1.1.tar.bz2" size="57194"/>
+      <archive href="https://archives.0install.de/pub/pkg-config/pkg-config-i386-0.25-1.1.tar.bz2" size="57194"/>
     </implementation>
       <implementation arch="Linux-x86_64" id="sha1new=221455243b97d96b3db60220482cde5705c2196f" main="bin/pkg-config" released="2011-05-29" version="0.25-1.1">
-      <archive href="http://repo.roscidus.com/devel/pkg-config/pkg-config-amd64-0.25-1.1.tar.bz2" size="59401"/>
+      <archive href="https://archives.0install.de/pub/pkg-config/pkg-config-amd64-0.25-1.1.tar.bz2" size="59401"/>
     </implementation>
     </group>
     <group arch="Linux-x86_64">
       <implementation id="sha1new=3f38637717d69aae67a7d0f843b239bb661a908f" main="bin/pkg-config" released="2010-04-24" version="0.22-1">
-        <archive href="http://repo.roscidus.com/devel/pkg-config/pkg-config-amd64-0.22-1.tar.bz2" size="55581"/>
+        <archive href="https://archives.0install.de/pub/pkg-config/pkg-config-amd64-0.22-1.tar.bz2" size="55581"/>
       </implementation>
     </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJROG2RAAoJEAcTP5bKdNi60jwH/2GxpZPRgiZko5OKAMiUnThSs84Cf1YZ8Nnu
-JVgyH/av/xXpSLxwaJoBEmCb4wbJmXzj+zkKKA1+PfVBQsL8l8n4WXIV4+EL2GmiPt92oCcjtlcl
-v1fonoP23nnVXkSYq2uDafGYV5Jy3/cVF4wqtj2CJC9/0Q2KxyNbLdC88NISJel1fbOTU5Gx8Q0r
-fM0pu5aavBD6opimntS5BjFVHTmqKOWwyhoJOFTCOvB9CU9BfBI+24ut1fjV+VFbdrRUuPMwVOlQ
-n1spO9XQFwSXEblrbhyutcfbUJNcsbwoBPmAKcOwJLd0VVrk6rBc+9Ssc0ySxdPlfdSCoBspljei
-dsQ=
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lHkACgkQIuoRGn5CQqT2mQf/S62p
+RxLVyF0haUV7t0cbThMc5tvqa95c76CD3PuyXd0OPxqkcw/uc0Syl/Nfj5R9c4bw2zqGVW32MD4e
+Ce3sxHgCOoz62FePZDlfnlDkwZ8cEJTStsViP5fr2C2pAuuz6/BKThmaLaeG21GFtSJjZ6nOfKhT
+N8IlcL4utfjIWd3wRzvdOD9bUHmhVGS/6BpRLciCU0u6K4Vy5p5DJqQOoiRjv1BHqIbDkXFn155b
+kpFLMgzhj7QFmImPh6TahGQhzrrgPGEa/PmXcRJEVKJIVRRmBwVpYh50qb/NBJFoDgjbH7u8d3Zx
+DmUTeCg3l6LtoitdtNSC/6I5Urky5jkp5A==
 
 -->

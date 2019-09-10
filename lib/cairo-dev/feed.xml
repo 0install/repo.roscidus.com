@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/lib/cairo-dev" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>libcairo2-dev</name>
   <summary>Development files for the Cairo 2D graphics library</summary>
@@ -15,20 +15,20 @@ programs that want to compile with Cairo.</description>
     </requires>
 
     <implementation id="sha1new=10c834493ae8034aef70e6f889cc7c82a72fd0a0" released="2012-05-26" version="1.8.10-6">
-      <archive href="http://repo.roscidus.com/lib/cairo-dev/libcairo2-dev-i386-1.8.10-6.tar.bz2" size="559054"/>
+      <archive href="https://archives.0install.de/pub/cairo-dev/libcairo2-dev-i386-1.8.10-6.tar.bz2" size="559054"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=025c935dcb64ada0cb2f733cc1d8ec129742a55e" released="2012-05-26" version="1.8.10-6">
-      <archive href="http://repo.roscidus.com/lib/cairo-dev/libcairo2-dev-amd64-1.8.10-6.tar.bz2" size="577221"/>
+      <archive href="https://archives.0install.de/pub/cairo-dev/libcairo2-dev-amd64-1.8.10-6.tar.bz2" size="577221"/>
     </implementation>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJPwPBrAAoJEAcTP5bKdNi68+UH/irudI/O4Z8cPcqrXTRulx8OMrPbvDNQ99Fr
-J/ed0Vho67CbI5xm50XMCP3CyWXsVty5/2MoqhuRBY14zoJp58CMu70ifIHEvyFx666IolzCubHo
-jFP4rpmqTHsOnCbBZirGgRsY56RPXaC/oqC4ZDRjj4eUcz+Vyo7G4FTrT5Et0f/jMpTAoiOS8+tx
-v1Je7X+U9FOdECpE7QYSIWwjxA2Jzu0cGwRqXHZg3Bq/1hhcAglMndlsTdzVDH7Q2pO2NP/hgpRf
-Katpg/tCnwp8vq/P94pfDUiwM/F9x6l43MOpR4rd07hUd9PCRyEM5nod/Yez97fACP8QbSBo9xrl
-XEk=
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lHoACgkQIuoRGn5CQqT3/wf9GzeB
+++pEec+5BN3d3rw+h/28Dss95HO4GYX4GvHmBWNWQEwPtMix+2RMqymk2Vu4Y++QIlH4XwyGiMs4
+WPWgglJLkb1ekMw1cyYKcmxQa3cBrX4zYTxQJP4+CXK1qv9SXeZHNdfNtqasdQgj+R6EVmMmcNMn
+IaXh8+GedhB1Xzzz3wiM9xDIJ3fzdjXOoK1jeiUNCh7vCq4v7aFPRovWkg0lQASGe5OwOfF1zU3i
+unVQQ7z1YaNZ1gS0Knl53EL7iIBupBoz2/4Cz/9NCC38I0dxnW1AsJmrSQgGDLR+idIshQx9xijp
+/DSeMXtRtUpt80XW4mU7ZbMAigeDYHY2wQ==
 
 -->

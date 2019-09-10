@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/lib/mpfr1ldbl" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>libmpfr1ldbl</name>
   <summary>multiple precision floating-point computation</summary>
@@ -15,20 +15,20 @@ precision floating-point arithmetic (53-bit mantissa).</description>
       <environment insert="lib" name="LD_LIBRARY_PATH"/>
     </requires>
     <implementation id="sha1new=564b2940f6df9993292e80bb40588b6aacdc2d66" released="2010-06-24" version="2.3.1">
-      <archive href="http://repo.roscidus.com/lib/mpfr1ldbl/libmpfr1ldbl-i386-2.3.1.dfsg.1-2.tar.bz2" size="342210"/>
+      <archive href="https://archives.0install.de/pub/mpfr1ldbl/libmpfr1ldbl-i386-2.3.1.dfsg.1-2.tar.bz2" size="342210"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=d54e8b7a69491bfa8ea1c750bc2db9fbd75f5f54" released="2010-06-24" version="2.3.1">
-      <archive href="http://repo.roscidus.com/lib/mpfr1ldbl/libmpfr1ldbl-amd64-2.3.1.dfsg.1-2.tar.bz2" size="354414"/>
+      <archive href="https://archives.0install.de/pub/mpfr1ldbl/libmpfr1ldbl-amd64-2.3.1.dfsg.1-2.tar.bz2" size="354414"/>
     </implementation>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJMIzbgAAoJEAcTP5bKdNi6jfoH/iQgHdJQPEJWPU7DblQxLPGHPJCHBKGz70w9
-6JRnbbX5Se5sdWo6N6tXvmm5Ql2KcCTAPOId7oGxJSS1RBmVFhEUpVOvcxxHnPiKPb0tE/nio4SJ
-kCIEDNKD+k3Rc1zMI/CoAs3PllT1809rWavO3RxF10aGZQQeW49Icrq45Orp9tPbj2kpSEQbEVCs
-Jj+0R3y8v3YH7M23yODRSJKeFZYE7ftvxsKD8FnlGDPwkTznvsy3YCb1RyOEFfku29zH/XrHjwoN
-29meoaYcOZGWCD00Xj4vNvOc5JPLDkLwHN0fAQegnfIU/PFUIffEmU8p4GAPfP98IXCCfCz0Ds2R
-6hc=
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lHsACgkQIuoRGn5CQqQr5wf/XdCh
+akNTUGrchQ6/RR1ygIJOoM48sMrF7OHvMHYvDNCFhpWO1kgWHLpb6B6HuHI+V9d8vpcaIwj9Nm2G
+Z33srBO0Us1wzV3ApOc7De/PZEWmCWgB3LprRH8etDIH+4vzeaVzK7MuMHayKAKLFu65m53oNzMK
+ySOQnqPrtwkJnQPZEk9oc1jBIsH7dgXnmKXUeD9074jflHbvADklrLfoxsUnwYshWXGSv17fEMVS
+KPCb2YqtRqw78poDGHc6G3m2aCGmbKALzsDkuF4ciFt74nrfFqNfeq604Jgkqi4kOrKsoU36Gq+f
+BjwgT0vy8QCZpe0tCyMAqi/reSFyy4wi+Q==
 
 -->
