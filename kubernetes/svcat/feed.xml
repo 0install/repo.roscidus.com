@@ -392,16 +392,28 @@
       <manifest-digest sha256new="3AGDXIOL5XYV7UYPJ2OF2W4SANI4HQKH7OSFTSO532RXRHM7CBGA"/>
       <file dest="svcat" executable="true" href="https://download.svcat.sh/cli/v0.2.1/darwin/amd64/svcat" size="34003816"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=13ad26f2ca74222ee3c600c8cc22dd463a61326b" main="svcat.exe" released="2019-08-26" stability="stable" version="0.2.2">
+      <manifest-digest sha256new="DVHMQPZLZ5M3KTCEMLQOMFVZTTFI4RTUAULI56DWA32X74BYUWIA"/>
+      <file dest="svcat.exe" href="https://download.svcat.sh/cli/v0.2.2/windows/amd64/svcat.exe" size="31194112"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=f44e97ac46c1dba64361d1a144a12a11e3064072" main="svcat" released="2019-08-26" stability="stable" version="0.2.2">
+      <manifest-digest sha256new="AB6ER43D5674ZZFMQNPIK22TAOHTWRTO63KJMQ2N3Y72GRWVGM7Q"/>
+      <file dest="svcat" executable="true" href="https://download.svcat.sh/cli/v0.2.2/linux/amd64/svcat" size="31082080"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=cc1520cd52fc385c99de390e5fced5b200125737" main="svcat" released="2019-08-26" stability="stable" version="0.2.2">
+      <manifest-digest sha256new="LZU5AQZHSGDXXCBTYQKOHYEU3UGQBRRHOJY57YOMY7ZZE27654VQ"/>
+      <file dest="svcat" executable="true" href="https://download.svcat.sh/cli/v0.2.2/darwin/amd64/svcat" size="36157960"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="svcat" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlz9TJMACgkQIuoRGn5CQqTYbwgAgufY
-M8JW7YfuWonnq9UfHVtYPNayCFoVbzJjCJjXCtI2KPXt/7KSyb+XmwJjEASxwzrACnYkVEgNli5c
-Rs6dWBO1d48jLJ4E1zyGn5LmsWlWjAocIi4bJHqr4k5jKZ+QoKZs+FXsPNvXZkXhYSD5ZQEu1iQ0
-xu6X0XooC/Nss/aKhz3rnxc9bATl2353CLtVk/q/vgsvzTsiGmKxzLy88dRfaccDaFQkVNy42kKW
-bC3GUd7RBChFcTcnvytCxeke+ykwfbYPAYeZQssZ4M+CKV7LGB5xd8J0Q8VdUGsWBSQIRvjch0ER
-nCcYFAFMTMtLsu9jnlQ7G+VdIQptdEQ8bA==
+iQEcBAABAgAGBQJdeiTcAAoJECLqERp+QkKk5hQH/jjD73lvydILvlWpUup9IwWDEec2mmcRqBUV
+q6Gw7MdZLzDCTMzJRLQgKlz1l5K3eqY+hv9QMxdh12eG/jSGy+laTsa2LhjNgME9CrLFtB1Tc9eW
+uehPsWvd2nuok9V6BpVmxtMEyq6thZTLhQ9kJu9Yn9H8REg7IC853oW/iYB8r3h/9dNiGjmZKWcU
+m3qA3TylTQUX2+ztgGHyP7pa8D+lAfpcEPh6jRch6TJVI9uTAQhROtBcocFGuTh2fuJbpZ5qMKpJ
+hX+LlO+Xeb0AYYWgVgXhxhvAbPiRs0NPZ/dSu/EvDRDFxND9dBy+9+YS//9RDoL73ENBDolALFyH
+4b8=
 
 -->
