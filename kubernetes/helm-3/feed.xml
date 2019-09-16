@@ -44,6 +44,14 @@
         <manifest-digest sha256new="SEAAYZ2SFMEIJ7HUEHFKMN7M2BAVQH7S34AZDH5IQQ6P6RN7C6TA"/>
         <archive extract="darwin-amd64" href="https://get.helm.sh/helm-v3.0.0-beta.2-darwin-amd64.tar.gz" size="13559820" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=9a2fa31214c14240be4d323f2365be3a36a221e3" released="2019-09-05" stability="testing" version="3.0.0-pre3">
+        <manifest-digest sha256new="XTLHDCT344RWHBXBK3M5FBCTWUFD34JGPO4NB7ZKIQXORIINZDDQ"/>
+        <archive extract="linux-amd64" href="https://get.helm.sh/helm-v3.0.0-beta.3-linux-amd64.tar.gz" size="13097374" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Darwin-x86_64" id="sha1new=cc5b4770789c181ecc1688a0444b72bcd6ef6c6c" released="2019-09-05" stability="testing" version="3.0.0-pre3">
+        <manifest-digest sha256new="TBUX4P6HOWKPA6ZVAMXDIDLIIVVCT3MP42UNTV2SJZ3ZWLAJA5SQ"/>
+        <archive extract="darwin-amd64" href="https://get.helm.sh/helm-v3.0.0-beta.3-darwin-amd64.tar.gz" size="13764474" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
     <group>
       <command name="run" path="helm.exe"/>
@@ -63,15 +71,19 @@
         <manifest-digest sha256new="7XCXAQ6ABTICX5AWR3R552XJEFF2G4TS65DQHBWVOGHADN4JBEJQ"/>
         <archive extract="windows-amd64" href="https://get.helm.sh/helm-v3.0.0-beta.2-windows-amd64.tar.gz" size="12875800" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=365cd3297e03492a332e42e5a0083da66b179d36" released="2019-09-05" stability="testing" version="3.0.0-pre3">
+        <manifest-digest sha256new="2RCN6UHLOID6E2OUMHLFVGRK2ADTCHXHGZPL5Y6ZJOWLTB7P7FTQ"/>
+        <archive extract="windows-amd64" href="https://get.helm.sh/helm-v3.0.0-beta.3-windows-amd64.tar.gz" size="13069801" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdeiTcAAoJECLqERp+QkKkre8H/juAfWRf1m0nO/W9xcIQ9qlZumfxFnTGIT4O
-igC2QWYuA/xGp7/pT7FbqiNXga94b/i+miQIq/o03Rus9wH64Lkai4xb/BMttAirRhPJRJD8N7Zf
-SW1+jt1Xp3dxdOTuBtYPe376ef1NpBmqJP/Rk4aZTAz8lho9Nf60xZlUJMNkNKlseXRBUqm7zYDk
-UiZjLQF0m+Gmh3dasiq1NJqV58EO4/tOj5a+/gAVNYkFEBE3ntbwXf1T6qsBGkVmNb3Ro+gJa/+l
-/TuyAeGC3Yo1dIfLDNitBUaUtz9TPR5GbhsWFSR7snHixwzdQjmSzfYw05xMcE+i7A232ibSAbaA
-lNI=
+iQEcBAABAgAGBQJdf3HjAAoJECLqERp+QkKkIpoH/0Qw4GAocWwAGAT2H5ZvfAnslTa/iYCTYATX
+G8dFtAd15Dw1fMZT2Zb2hWiKr/rMoi1Z9yBurZt+YYC29+SraWtH1i8TLLHC0aPdKVrHttAK/4gw
+NYSeT9ZSvLEd0svEx3AvP1R4L1h81R05ebHT3Sk2F1JF+MVoYXxfvAQZ+THCgO9/dA8mJ1bxwfja
+DvDx3KTi+dI7Gx4YuwGCtMQlcnkg6+I/O5NkTeHQu5Bvdk5xoQDC5RDAPbMC58Cu45FJaaT+t+XH
+LVL3z/wKW5wq2JMJ5detbOvJ6nq/HIslR17hYbtJlv12RlmM/hNhcUzcAWkK1lIlQk3+Hoyh9XXx
+gv8=
 
 -->

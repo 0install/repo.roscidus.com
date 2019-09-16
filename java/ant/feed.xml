@@ -155,15 +155,19 @@
       <manifest-digest sha256new="X7POTGCLNDRN3UCL3NCO7YYMD3JSHL437HWIN4IUCPEPCQFBJSRA"/>
       <archive extract="apache-ant-1.10.6" href="http://archive.apache.org/dist/ant/binaries/apache-ant-1.10.6-bin.tar.gz" size="6860443" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation id="sha1new=806034631830f25f8f91cef6b91cafeb6dbb237e" released="2019-09-05" stability="stable" version="1.10.7">
+      <manifest-digest sha256new="WBYKIJMOPL7TA4NHUMVR3OZBQJLLFH4ANPWSCJZZCC4LB3QPHSUQ"/>
+      <archive extract="apache-ant-1.10.7" href="http://archive.apache.org/dist/ant/binaries/apache-ant-1.10.7-bin.tar.gz" size="6874544" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
   <entry-point binary-name="ant" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1jw44ACgkQIuoRGn5CQqQcrwf/XOPS
-DW0XOi1xtR/MFjUZ/0GLW2TBejxlRhDaUJH3iiO4CZYlO7aBNPzW3/SYu3hBmX16eR69NiXEFqch
-yIRhAwZeWzX+EVC50ndqIdjKabRzxB0t7vQ1Faf15ILMffKHstDjjo1LT8ouJFuqCjhfhmqhImzH
-Sukzd9Gzt7CVDBw5Y/DNNWJWbzqtcqvdJfbNPgqNEEbYCDL/L7Roe3PH7mZRTUoJUYxIFxdeaW3c
-YHDrLHajNj4jOHiBT7MplHYFAm4dRozt5Hq8PqHH6Q5er8TNXUl4vhmX8s1keMDFN7d4OojHgI/z
-gsoPcveDlB+Bap9gjepwcp9wDxs2/I5fkQ==
+iQEcBAABAgAGBQJdf3HiAAoJECLqERp+QkKklbAH/jZiSGpq9LN1LE+LHqgPi8AdTem6Xa9Vxxsr
+xb9LtUjgV1Cu8GgDcDMnT/b6mXk2TOoFysp5SAxlYAljqiKR2WQW0IrcL5mmpPEcQt/9ZSkDPwLx
+I5fxKno2ymO59C69SSiGuGt+/HrGksXwDZdlIrrsBImppxWXt2sSbrIata1Vw7KS4tyiTr5K8Lrt
+FUAfdVp/QAdxVFq+l5pmQpOUCnYD98NUSIHrVBeVR01CmPkB2t5AR2SMrpjM1nmwnL3+2Rz33ES5
+kAk9lEO1X9h20Ljvs/0XOwRTiBXmqzpiwQU71qV+YCh5DXJAS8d7gAIj9MLg9w93mguax8HW1CYT
+jEU=
 
 -->

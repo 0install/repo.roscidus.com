@@ -318,6 +318,14 @@
       <manifest-digest sha256new="ZJXC3TXIQIH2GFKYR2UJ3VUJI4NJLXYFVMTLBFKCBDNYGHWIFIQA"/>
       <archive href="https://download.calibre-ebook.com/3.47.1/calibre-3.47.1-i686.txz" size="61938708" type="application/x-xz-compressed-tar"/>
     </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=31740264b5929312bfde8207fb688cfe16745900" released="2019-09-13" stability="stable" version="3.48.0">
+      <manifest-digest sha256new="E6FMWGBFRDKZ2GL7ZT4IEOYVIDDQMDLXQGUHFFNX4EZ47IL6LVEQ"/>
+      <archive href="https://download.calibre-ebook.com/3.48.0/calibre-3.48.0-x86_64.txz" size="62386800" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i686" id="sha1new=556e63b9727c3f000c4b53a140ec22e818692d0a" released="2019-09-13" stability="stable" version="3.48.0">
+      <manifest-digest sha256new="N5B3KZE5BXKL7TBT2ZDEMQGEXSI3TMYR5D5OW6T5ZRDRGQJHSRJQ"/>
+      <archive href="https://download.calibre-ebook.com/3.48.0/calibre-3.48.0-i686.txz" size="61981276" type="application/x-xz-compressed-tar"/>
+    </implementation>
   </group>
 
   <group license="GPL v3 (GNU General Public License)">
@@ -613,6 +621,14 @@
     <implementation arch="Windows-i486" id="sha1new=6c4dce36ed086b926d7540238b6aad96dffd7c0f" released="2019-09-02" stability="stable" version="3.47.1">
       <manifest-digest sha256new="36USXA3YXEYRRKVQB6WU6TXAIPUFS2G3L3TGS733F7VOZZ42SMBQ"/>
       <archive extract="SourceDir/PFiles/Calibre" href="https://download.calibre-ebook.com/3.47.1/calibre-3.47.1.msi" size="64028672" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=b717a865f33691717a9695edc1e5329cd0ffae43" released="2019-09-16" stability="stable" version="3.48.0">
+      <manifest-digest sha256new="ZAQF4SUF5TPF3ADYFGTQZO4W4H5LN6EGNN2OV4FPT6RPBNJLNQ6A"/>
+      <archive extract="SourceDir/PFiles/Calibre2" href="https://download.calibre-ebook.com/3.48.0/calibre-64bit-3.48.0.msi" size="70045696" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=016a4cf1bc11cc3b68c5866d67ce040d6a49b67e" released="2019-09-16" stability="stable" version="3.48.0">
+      <manifest-digest sha256new="TTUAYQSMZ2VWAOBSDTCS3NGZUL2KVYG6Y55NU4XQG72RTI5DFK4A"/>
+      <archive extract="SourceDir/PFiles/Calibre" href="https://download.calibre-ebook.com/3.48.0/calibre-3.48.0.msi" size="64069632" type="application/x-msi"/>
     </implementation>
   </group>
 
@@ -929,11 +945,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdeiTaAAoJECLqERp+QkKk89UIALTB2oWZbBX/gG3HRljsmwb+LBY2HjlZNUrN
-BNEuMqfDnrLzGhzEsQeEDkc2QLz9/SInbFPc1fzJ1m0p6c5LRZPF/oeOHNXahEYiXMGlHN6Iu4Dy
-jY8eCz8WJKN9iATjTtLYwzlffPsyaDXv3Th/glwIa3os9MgLCyrqWw6TuwzAo/Dcomb8pCZQY5LV
-fMI2Tz2EkKpqzRiavw3vxlm7pchPBs1isbYP6skXO7oMAYFd8xqaNmuWdOzBIYqc/BgWPfVTEwP9
-x2O/2b9RzYF00CyRULkbSNN6qmooNCZ7JjFEou2ujcCySrAOMpfhnKDzuBJYeenKDSujJq0lLvoZ
-CQ0=
+iQEcBAABAgAGBQJdf3HhAAoJECLqERp+QkKk3BIH+wfrhJUmkC3CJF6P1DGAT4/NJQOHvC/Sylrq
+NS9s8p5XvorFU/AyACpueLXX0PNSS+7Ig8a/WYjBKP5EfTUHxFc8/sxA+zh9cETbb+QwBeamc+aa
+gBpnx4pnyw+kLNORmfKZd3k3Gm7LA+aBusKfdaF/e9NaKzhVRzJBvnNnh2v6EUAzpjq/IyfyGtl3
+YiOz7X2jg6HY+0756q2e379OT1usNvS4JJ2RCHHvLuiquRLPM2xoE96719Zb99+tz5TjGS39HF/u
+F8UpDYyesRc9NfneifJlvd95WO/Rb/gundaPlHjEi0KqNeb8u7G5CWRrEhQ6rGdDG+DJ9QvZtXjN
+tjg=
 
 -->

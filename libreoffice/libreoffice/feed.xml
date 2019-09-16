@@ -1108,6 +1108,14 @@
       <manifest-digest sha256new="RYPFACEA23I466VBJK25PXEGGFCO7WNYMOZHYJWYTNUZLOHUOT2A"/>
       <archive extract="SourceDir" href="https://downloadarchive.documentfoundation.org/libreoffice/old/6.3.1.2/win/x86/LibreOffice_6.3.1.2_Win_x86.msi" size="279392256" type="application/x-msi"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=cba373244d87bee20d7019e90edd98b98e48539d" released="2019-09-07" stability="stable" version="6.3.2.1">
+      <manifest-digest sha256new="42QJQSQS67XEX3DNQIOMRAG3D56JOQJ7ED2PDHM4JKH274PAEIMA"/>
+      <archive extract="SourceDir" href="https://downloadarchive.documentfoundation.org/libreoffice/old/6.3.2.1/win/x86_64/LibreOffice_6.3.2.1_Win_x64.msi" size="300761088" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=e0e83643bb39ce02366a2693f1cfb9df48c29a78" released="2019-09-07" stability="stable" version="6.3.2.1">
+      <manifest-digest sha256new="WXZZB6JVJMV2DAJN5UFKWRDGE63XDPJJIQ3CNQNFMPIDQW6X7VZQ"/>
+      <archive extract="SourceDir" href="https://downloadarchive.documentfoundation.org/libreoffice/old/6.3.2.1/win/x86/LibreOffice_6.3.2.1_Win_x86.msi" size="279388160" type="application/x-msi"/>
+    </implementation>
   </group>
 
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
@@ -1468,11 +1476,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdeiTcAAoJECLqERp+QkKkJncH/3j5ZEwnp18YY5AemKhAhL+Iox16EBNeNqR8
-t8yqHS4AofkMBSlB3WZOv9HUgBeX6dKBw6RlZB0SIrjTKFFDYGy+gi1iLoH8jpW5xf7MegDNCDT4
-9wU2dAwSVMvEsUboQKn2Kb5W9egas6n7njzB04yv0K94O+wwtIpQNhQwLdVbxq4xmw0v1cErUhdc
-GNmbiymFO+7U9vYgTsFjX9cY4LXF3MGEL7bFCAagFdpYQyH6NGHQc2bw+udLkpv12rpUQKPwG2Yo
-Z3DUtzxnCrzbDx6Q/NEG8mb83HwQdNfi5xuHVR/Z1jFduuz3DayJkvQLoM3nMJSu9XUX1+DrHVyr
-/y8=
+iQEcBAABAgAGBQJdf3HjAAoJECLqERp+QkKk6P0H/3/do8WePCKFFAu10WOF2W0QxcJXAM8wG/YD
+2zMK/fxkzVzP2NysSUlUQqdG52WZKn9pekWhk5j6N4lOp0kRaDluuCFLtyHOY+UZx/MOIfsbFgC1
+S4Q6FPkqWN0wpoX5l6QdzpZ7D5UzKgJV+LXN5snnDHQIj5yLBB1LxvdTS5GUqGXzEMVILDHd/WlZ
+Ef63dck/ofT0x69sGenFKSwKChDnL6m7FQqmKgqGuuaSi1SR5XiQp3PlPd4CYdx4zvlWGzBpNcFZ
+ZTFfR7A53SYCRYC8WG7PJsosoImEgpifCFraWbJs5ET2q/5QYVhnvTpKn3E/RS3Avhma2Fxwcmld
+PYM=
 
 -->
