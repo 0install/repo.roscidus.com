@@ -17,6 +17,7 @@ components using the Java programming language.</description>
   <feed src="http://repo.roscidus.com/java/openjdk-10-jdk"/>
   <feed src="http://repo.roscidus.com/java/openjdk-11-jdk"/>
   <feed src="http://repo.roscidus.com/java/openjdk-12-jdk"/>
+  <feed src="http://repo.roscidus.com/java/openjdk-13-jdk"/>
 
   <group>
     <!-- Some versions of JDK bundle their own copy of the JRE. For those that don't we refer back the regular JRE. -->
@@ -207,11 +208,11 @@ components using the Java programming language.</description>
   <entry-point binary-name="jaccesswalker" command="jaccesswalker"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lHoACgkQIuoRGn5CQqRKzwf/StpZ
-3B2gNjTe2i+dAfO3feBXArldUNQL+W8YZKt4S5D+qLAw1iJmIXh2idk546SKwdHpcFAuX36G+Zd8
-kSr3+jYas4/jnGvt01CunMA+zl3BssEDuStyhwmIZUp6FRKsQWTnHQgIwjJJJ3mtpc8fHM3mQWIi
-LBTX6GDlirFO3tMMEZNGfkSGXWnhgSLSZiDyNfcF9PM0RD9hBlSip+qtZ1zuv2UBDr7RaSwpm8ic
-0314k4cUa+8uABpk6A13I8wavbhIgosKHW1NjbmQ6S06+cWYqZFd2KMODLB5Rbxj+DwtqN+sGKdY
-LzmoStcsIo3ts7umVSHzyGkw8bOWCZqAOw==
+iQEcBAABAgAGBQJdg/aMAAoJECLqERp+QkKkyIQH/0Uunbuugbpdw/wzGMVH/paAZvwJ5OJ2xTYP
+2qrWuUMnpn0EdqlgjQLev0F+96jJGc2iLz07l5WS0xBOGFfsF+V3N3SjAAumocqWvPE7kuyF3Tji
+tBEyAEoZFdN7meZFX5t67OZkd2Ziv8L6Qk91MsJQfiAOC2ZtAi2ddWpumIvcSkDm2XwMjkPaee/T
+7Bq3parFn1WERZNGgSeWFJjfTJXZs5HGD0FDVrhGIDokP35tB806gZhkZjniexXREjcJTUdaDhYM
++0ETPozBLOum6bNngrYNYXgAB/XgYhFflpwK+kVJLEBFS+/he7LCqexSkul8n8xlzCY7H2Vle85o
+798=
 
 -->
