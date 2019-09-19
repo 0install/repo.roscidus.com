@@ -502,6 +502,18 @@
         <manifest-digest sha256new="SJA47YZJ77JX5PEZ7HEUCR4QZ5F2LRDT766CIFTI5MU3RQR42MPQ"/>
         <archive href="https://releases.hashicorp.com/terraform/0.12.8/terraform_0.12.8_darwin_amd64.zip" size="16707370" type="application/zip"/>
       </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=4b363373dd23f4a08894b1d5f71f17d6403324c5" released="2019-09-17" stability="stable" version="0.12.9">
+        <manifest-digest sha256new="NW2ZUYGETXI65LOVPQVKV3E5NMXZATHGNVUGZHWC7OVSKWOGAIBA"/>
+        <archive href="https://releases.hashicorp.com/terraform/0.12.9/terraform_0.12.9_linux_amd64.zip" size="16030372" type="application/zip"/>
+      </implementation>
+      <implementation arch="Linux-i386" id="sha1new=ad131fb6ef61f3c26010c987d58be7016e1c75d4" released="2019-09-17" stability="stable" version="0.12.9">
+        <manifest-digest sha256new="ITGV7R5PVR5QS6QRTTEAW5CD4U5TX4R52NUBNTUF4A6AOSMBKI3A"/>
+        <archive href="https://releases.hashicorp.com/terraform/0.12.9/terraform_0.12.9_linux_386.zip" size="15012463" type="application/zip"/>
+      </implementation>
+      <implementation arch="Darwin-x86_64" id="sha1new=e72abaa74a3fccdcfdc44dc5e9c23d3b1eb6c02f" released="2019-09-17" stability="stable" version="0.12.9">
+        <manifest-digest sha256new="QBE6T2MUFWN32RXNESLWE5HZJGGB433OTXDHMTCXFBTCAGSIF3JQ"/>
+        <archive href="https://releases.hashicorp.com/terraform/0.12.9/terraform_0.12.9_darwin_amd64.zip" size="16768906" type="application/zip"/>
+      </implementation>
     </group>
     <group>
       <command name="run" path="terraform.exe"/>
@@ -833,17 +845,25 @@
         <manifest-digest sha256new="NIUWEW6PKCBTZNHOJPWM364UF4F6P7ELTSY2YX3RBGA5C7ZY2BVQ"/>
         <archive href="https://releases.hashicorp.com/terraform/0.12.8/terraform_0.12.8_windows_386.zip" size="14950730" type="application/zip"/>
       </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=bffb2bee8a2dc9a36f5db5beaef3f9c4beb99583" released="2019-09-17" stability="stable" version="0.12.9">
+        <manifest-digest sha256new="EFV4RD4ZAK3CH3IZQMTA56AMUJDYXRSHCEUGOHIRRPAH2WJICPRA"/>
+        <archive href="https://releases.hashicorp.com/terraform/0.12.9/terraform_0.12.9_windows_amd64.zip" size="16053055" type="application/zip"/>
+      </implementation>
+      <implementation arch="Windows-i486" id="sha1new=4ef5cf024710a15d0c167aa2398423213bbec5aa" released="2019-09-17" stability="stable" version="0.12.9">
+        <manifest-digest sha256new="QQIZKBVS5SV5D5CPCPNRYRL3AXMURDHCHS7CW6E4PYWJPE2Y2QGQ"/>
+        <archive href="https://releases.hashicorp.com/terraform/0.12.9/terraform_0.12.9_windows_386.zip" size="14995441" type="application/zip"/>
+      </implementation>
     </group>
   </group>
 
   <entry-point binary-name="terraform" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdf3HiAAoJECLqERp+QkKkE7sH/ic859Yo98ogIHepLWGdO/h7cQvtvbsCvV2O
-PUpj49rA5y3ch4TctDDE84KgzdNRLelZcfNJ4xrnRwTH1Jgj/bmSsZdsL000yYC1QdQwhK6z3SWe
-xHnSUOF8sNywz2FOndcWZRDls2OaJEo3cVmJ8Xj7eZhyVYo/x2TJIzenPlPWvTmFk9XP2ZA3vhIU
-6E1uZMNXKk3TmgXpLsL3kaui2VNt71iHxmBw8DFjUx+z9ku9v778GxEBfv+wDQfjWlZGMQtXobG7
-ZMg42VkMehr1yos9aVBztuopBh9oamf56Aps/wyO2yuwDAuRJabm9weWf+ylo+xW2rIait6kIeCw
-pa4=
+iQEcBAABAgAGBQJdg/7UAAoJECLqERp+QkKkV1MIAKRpdr+DvPZHMSxn2+Tv6t4FZpwOULYODrKt
+2k1kvRAG06hr5eH3ZdeTWqFSYtMPlmoANVEwcq33dF2Nc+Qnh2KtgKL/7H9z6czaqM6bJ26rXlkQ
+HePqDLMzJqJ/EDEe3v72UyuCnMT7XqRoT8OEkxPfP3IGmOV1/tPzF7+RCD+HnP28jy+P+gpFF0JW
+0JM9wZvJmK7dDGufnm/O4RhhjU43KdsZkDIDEuSgIdS82bATJ6mt3Ra6oacQCJH8G8MDVRW6zp6D
+9PF6wx2hcm4vcGMkcKzerr4OiBzmBef7VmO9zLxk4m4noiWP9vD6HsEcubCsjCzbUw5AAoJbQGQy
+fAk=
 
 -->
