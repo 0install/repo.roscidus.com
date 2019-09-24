@@ -1116,6 +1116,14 @@
       <manifest-digest sha256new="WXZZB6JVJMV2DAJN5UFKWRDGE63XDPJJIQ3CNQNFMPIDQW6X7VZQ"/>
       <archive extract="SourceDir" href="https://downloadarchive.documentfoundation.org/libreoffice/old/6.3.2.1/win/x86/LibreOffice_6.3.2.1_Win_x86.msi" size="279388160" type="application/x-msi"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=eef5ddff763a634346b988fe1bf036955d96839a" released="2019-09-20" stability="stable" version="6.3.2.2">
+      <manifest-digest sha256new="SJTNV3IBBGKWR2PMC3IPEZX7DI2JBMHL5YA7AOXBO622FV2ZSKQA"/>
+      <archive extract="SourceDir" href="https://downloadarchive.documentfoundation.org/libreoffice/old/6.3.2.2/win/x86_64/LibreOffice_6.3.2.2_Win_x64.msi" size="300670976" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=31725dfbe4a8ca22ca42f867b4d967b0444948a1" released="2019-09-20" stability="stable" version="6.3.2.2">
+      <manifest-digest sha256new="RCSRQLQCIL2SYFWRSHJDGJ2YZDKHIORRFEF5M5Y25GKGEAXC2PRA"/>
+      <archive extract="SourceDir" href="https://downloadarchive.documentfoundation.org/libreoffice/old/6.3.2.2/win/x86/LibreOffice_6.3.2.2_Win_x86.msi" size="279351296" type="application/x-msi"/>
+    </implementation>
   </group>
 
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
@@ -1476,11 +1484,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdf3HjAAoJECLqERp+QkKk6P0H/3/do8WePCKFFAu10WOF2W0QxcJXAM8wG/YD
-2zMK/fxkzVzP2NysSUlUQqdG52WZKn9pekWhk5j6N4lOp0kRaDluuCFLtyHOY+UZx/MOIfsbFgC1
-S4Q6FPkqWN0wpoX5l6QdzpZ7D5UzKgJV+LXN5snnDHQIj5yLBB1LxvdTS5GUqGXzEMVILDHd/WlZ
-Ef63dck/ofT0x69sGenFKSwKChDnL6m7FQqmKgqGuuaSi1SR5XiQp3PlPd4CYdx4zvlWGzBpNcFZ
-ZTFfR7A53SYCRYC8WG7PJsosoImEgpifCFraWbJs5ET2q/5QYVhnvTpKn3E/RS3Avhma2Fxwcmld
-PYM=
+iQEcBAABAgAGBQJdipsoAAoJECLqERp+QkKkVfYH/jzsFOLyp1R21gXATCHbAUjATuoKtazK/aax
+VkHP3TF4LhSbL555dN0eZwX2vol9stf3Yfu3WGT8cY2nKS22jnW4HrkFdC7nLuqXzCIhnJOZ7CP0
+97NINb8tEag4fD9hUcl0N5PIwRPbeNXGpbm9eGWONeT3c4KJ7sjujJtMjyS/sNQHSXLViHvcgZ7t
+CprGcqUIy7zRwBT/5XKtMeGsBJvz3jkQKJMsYs3lmHeinbLasHXwxZ2zTyz18LJENPBeuiA/ZPzL
+1CLq2YtpsK55E3EIj5/1nzl8FJrcmzU5d3qYtUWmxS6cwRUzUySl4kj57oFf8mMmHArlM6pbpJoN
+7bU=
 
 -->
