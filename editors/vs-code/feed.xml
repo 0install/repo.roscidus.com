@@ -11,7 +11,7 @@
   <category>Utility</category>
 
   <group license="MIT License">
-    <requires interface="http://repo.roscidus.com/git/core">
+    <requires importance="recommended" interface="http://repo.roscidus.com/git/core">
       <executable-in-path name="git"/>
     </requires>
 
@@ -1662,11 +1662,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdm1eaAAoJECLqERp+QkKkSecH/0qmSCPoUW36fEQxQXjWIdzGiJPNWKaEmdFZ
-XLrPNT1mxFyutJe9EbX92GlIPkCD5LtxBfWcAVLOgfUE9ufBNtOhZkex+E4nR5rJLqyXPnmJOvIP
-yZASFWkttrQP1B3ct+ooYEFpunWdgGXxcBbUxfk+FVo2/j1Bm+GnohdDShnjsoeWVa4zNlexL+bM
-CjCrjJH47eO5JECiUplmiYb/HCoPc8xpPhDNVVmlkWES4usJxUcmt1wZEqtp4H9EM/HSU6arZ+Ce
-MzJl+LZ8aTX9wUE+mc5cbeoM9ufF9DKHVZC/7tU9p0I0DVaR+NNESNLNGPm1Lk47neEDc/qEydlk
-DZc=
+iQEcBAABAgAGBQJdm5GEAAoJECLqERp+QkKk324H/14aT052VoIOyXZQSxaskywQTX9+iyipl9x+
+wlzlTliDHb8q3e23Rh3CEkghNCKgKoBV/ej4BhrW6wi754vokCHBssC7JB6ZQNecv9yV3rO8VMA0
+dhFQcDfNOhyBiVQOid3U0GIdI+fiTAnIg2u/Ob+jE9RreLofqis6LaigIgQpieH+43lwzKyZkj1D
+Blw3+/GC2kClDwFEs1iU0Yfv80O4QrYywSJz+PLJWSXQ/yJ5dBwrXxwv7waCkJBg94REZHW+mK4f
+xNpbPqc0Q7tnF2iDAxUTr8RRax+tqeIp+jCWvqNQs5azF2MXNlBDCiIFYjUxrkNJwEgp7mUdJGgP
+BMA=
 
 -->
