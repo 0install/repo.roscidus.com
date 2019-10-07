@@ -2496,14 +2496,42 @@
         <remove path="ffmpeg.exe"/>
       </recipe>
     </implementation>
+    <implementation arch="Windows-i486" id="sha1new=f4b22ccdefae21b56ee82b58c6b475d8d71d9bc8" license="Apache License 2.0" released="2019-09-29" stability="stable" version="7.0.8-67">
+      <manifest-digest sha256new="XAMYINXIWIZ4TMVYMS6ETEYBPLF6N3BAARDF7IFHPDE3WUK35VIQ"/>
+      <recipe>
+        <archive href="http://ftp.icm.edu.pl/packages/ImageMagick/binaries/ImageMagick-7.0.8-67-portable-Q16-x86.zip" size="79289931" type="application/zip"/>
+        <remove path="ffmpeg.exe"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=efdf27bfa318cb61a4f1e2269db25b6a3517a062" license="Apache License 2.0" released="2019-09-29" stability="stable" version="7.0.8-67">
+      <manifest-digest sha256new="C3RL6JQZCN6BW5WYN77IFIXVEKAL4TXVXAJLZ3Y27NPAA2EDJNPA"/>
+      <recipe>
+        <archive href="http://ftp.icm.edu.pl/packages/ImageMagick/binaries/ImageMagick-7.0.8-67-portable-Q16-x64.zip" size="89479637" type="application/zip"/>
+        <remove path="ffmpeg.exe"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=8f410cb5294324fc1384efe2fdf8ddebe68e4a5a" license="Apache License 2.0" released="2019-10-06" stability="stable" version="7.0.8-68">
+      <manifest-digest sha256new="6RDNGX6XGU7E4O4SBFXT4IESYJQVE45PLKVGKS2ZF5UNJZGVDZ2A"/>
+      <recipe>
+        <archive href="http://ftp.icm.edu.pl/packages/ImageMagick/binaries/ImageMagick-7.0.8-68-portable-Q16-x86.zip" size="79442703" type="application/zip"/>
+        <remove path="ffmpeg.exe"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=0fcaca76d82a6bde1f0b74a130c97df8d64c20a3" license="Apache License 2.0" released="2019-10-06" stability="stable" version="7.0.8-68">
+      <manifest-digest sha256new="PSFUFQPH72ACLLDW6OALFJIIDKX7YDOZGJBI6MQMM4QMAROCWT4Q"/>
+      <recipe>
+        <archive href="http://ftp.icm.edu.pl/packages/ImageMagick/binaries/ImageMagick-7.0.8-68-portable-Q16-x64.zip" size="89625068" type="application/zip"/>
+        <remove path="ffmpeg.exe"/>
+      </recipe>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdipspAAoJECLqERp+QkKkJiwIANk5+xVadXg6kCeoco/wQNhaZFYkjKwwI3Pa
-QLeplCp95PQkXsTZ1slm3FhjgQkCOxA2TtNUM1rdqsX8g+RURTsJbdWjWqQ0HuouBv+b400SPdXF
-D+DsUn/Elslu/wAxvAR1+DPHpqjK90j2+A89QA+b5o1p/WVwsH3q//AYCsmB0r1EsJjFqh1jug+t
-ro3TdRaICe1jPwAA87bhfeSrKVA8BIFi09Bt2Kp0d23Isq88Yc1Du5me9lnaoKW809eZQFMFjJJR
-AtLswRGNtLJY3oKwJc7fMeSJ5jnTShaaidDWomtQmNK1XtQz8LZJ2/+fE3RibZEh4HpccDgaF8S5
-uG4=
+iQEcBAABAgAGBQJdm7RoAAoJECLqERp+QkKk22cH/iKA12mZAP6322jbF4tnDxyRoTdZWoeHZTCS
+Kjse5668jkAe8H+DSSFUYgl8lwS/BdWhZ3mtTR3y1G9DCZFxeV+jTaycgxJqc7fPPfUWztSGm3dy
+SqHRfjq3KbReuinkVfX1c8wYfyGJkWNjL+sKjZo/3yOlkqFt8KUDC+izzt4f3V5TPhSt6tZtdeo+
+9Ug+ObTBtJIIg9m0zODn//J8GknKf3l4GXjrRs+6ykCFdmiat8xFKPm4Lk942b+myinzuIyK4KTv
+L7pmwbi8nx5Zh4J3yXWkJ35BuV9HA0HFWrwA304AO1Zcg3LRKh6+VTdvkQ8NO4MwvIeXUEN0+vuZ
+CQU=
 
 -->
