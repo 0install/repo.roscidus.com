@@ -22,10 +22,6 @@
       <environment insert="puttygen.exe" mode="replace" name="GITEXT_PUTTYGEN"/>
       <environment insert="pageant.exe" mode="replace" name="GITEXT_PAGEANT"/>
     </requires>
-    <requires importance="recommended" interface="http://repo.roscidus.com/editors/notepad-plus-plus" os="Windows">
-      <environment mode="replace" name="EDITOR" value="notepad++ -multiInst -nosession"/>
-      <executable-in-path name="notepad++"/>
-    </requires>
     <command name="run" path="GitExtensions.exe">
       <runner command="run-gui" interface="http://repo.roscidus.com/dotnet/clr"/>
     </command>
@@ -200,11 +196,11 @@
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvwQ6UACgkQIuoRGn5CQqTeNwf/ZFBF
-3XUkj2geoie6y1SW5fkf6auahu2Ire6zFVAdjUqYDE8ThmXOi4ZvBw7MWI5set7T0qOQtNfSwE6f
-mXYNT8LH44gQNfzyhxlMcH43GegJbum+p+8NeF7qwH0VVIZrWHN7s09+yeEYEKDrXPyPao2GiqG0
-EliMqDqj2pb79K5/T/W/VGGOCCpNsJOI8OqF1pyJmxZohxX2dgVqBWgfK4qG/dGzZhlWU6QO/uWE
-A1GXAt3I7gR0iuptRjfS9/GgcHDeKAv8Gt7NOKzqpSwK6u8MC9fNL1eWiVAex9iTYqmnqSvwyltq
-RusOeyApAr+TdWAhfGoEelwTwRzqxawXYQ==
+iQEcBAABAgAGBQJdm1eaAAoJECLqERp+QkKkJ5wH/jGviX3GyOZ31Sl6UNUi4zTfJVHAQCFGUJsM
+TdmPEoqGTG5vTorQn/PNzGYsZYkwS7F5ZYkkzK+ZVhRkT2RWFtxfZrZYgH1zpVC8HjltsN/GBZGK
+UU3Fok18JXPegXezwU6BYElDw2QDqrm9QE2lFnM8Uap4aAqR6Y5UYTi+FA80k54335Zi8MmQ3VJN
+49aNfYoTDjCJlktdtnRf9/gBILTCQWgr+JY7Nv6HsEkBXmfUEAoOqk5Vngs14g2ZvHGoO6GNJ3Qj
+63fWO65miHSvIdHy/ydlgdVkXm6nYAdiRdZPGm7DQd+EH8VNm+utgyrsKrFf7H7XJhnOuZHUtYN9
+6uA=
 
 -->

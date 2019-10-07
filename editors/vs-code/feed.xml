@@ -11,6 +11,10 @@
   <category>Utility</category>
 
   <group license="MIT License">
+    <requires interface="http://repo.roscidus.com/git/core">
+      <executable-in-path name="git"/>
+    </requires>
+
     <implementation arch="Windows-x86_64" id="sha1new=3b0666d1db9ba8191c1a57a2942f73e86e3fa20a" main="Code.exe" stability="stable" version="1.14.1">
       <manifest-digest sha256new="FPJUKN63BOAYMMBELLVJUJ4XY4LXVRAJTM5WKRIYAUCUDCZTRA4Q"/>
       <archive href="https://az764295.vo.msecnd.net/stable/2648980a697a4c8fb5777dcfb2ab110cec8a2f58/VSCode-win32-x64-1.14.1.zip" size="66898924" type="application/zip"/>
@@ -1658,11 +1662,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdf3HhAAoJECLqERp+QkKkl/EIAJZoujYQn4ti+5ehzYvXe2S1UILw4VAApCrW
-FjNU8h28EaLAHjiIpEam6ZDYDFe1xQHChFrcXmCpA4oEQMseHBpt9p4BLs2IdhH9zUoT3+byxPgv
-itEyc3GjHPTh3en3lJeYB9iMQAbs3Molv5FA1DO1PplOgL7SDkmPBDDPBnCd4e3G/rALgV59mvd6
-NoenFEeVa1k++IhCKAqSig1bxuEtYe9axnB1lWPM41Bw55DAzOM2wkvL5kkU6p/L+28VmaVkxOVW
-jtoDu1l69JkQd8y/JRnwvGBw4Q7CBYevNcEZgJ2aZ7V2ONjkXaF2J8HdcYBQeoGvF5CAcBA7an1a
-9uE=
+iQEcBAABAgAGBQJdm1eaAAoJECLqERp+QkKkSecH/0qmSCPoUW36fEQxQXjWIdzGiJPNWKaEmdFZ
+XLrPNT1mxFyutJe9EbX92GlIPkCD5LtxBfWcAVLOgfUE9ufBNtOhZkex+E4nR5rJLqyXPnmJOvIP
+yZASFWkttrQP1B3ct+ooYEFpunWdgGXxcBbUxfk+FVo2/j1Bm+GnohdDShnjsoeWVa4zNlexL+bM
+CjCrjJH47eO5JECiUplmiYb/HCoPc8xpPhDNVVmlkWES4usJxUcmt1wZEqtp4H9EM/HSU6arZ+Ce
+MzJl+LZ8aTX9wUE+mc5cbeoM9ufF9DKHVZC/7tU9p0I0DVaR+NNESNLNGPm1Lk47neEDc/qEydlk
+DZc=
 
 -->
