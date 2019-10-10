@@ -15,6 +15,7 @@
     <package-implementation distributions="Debian" package="mono-complete"/>
     <package-implementation distributions="RPM" package="mono-winforms"/>
     <package-implementation distributions="Arch" package="mono"/>
+    <package-implementation distributions="Gentoo" package="dev-lang/mono"/>
   </group>
 
   <group arch="Windows-*" license="MIT License">
@@ -29,11 +30,11 @@
   <entry-point binary-name="mono" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1tJJEACgkQIuoRGn5CQqS25wf+PvvY
-Nw2NYm0fDNDIOjvp2SC6ytUBGNoOEo9kV1+HrFC1rk58dLTEWwPZ7meI9wff0hGf70EwgqLNQtfp
-EXhibISQoEy7EH2liXl+e+i2MQ3IacerXTndUFWIkzok0wGh5f3CYiszqvE3cY1+pe28nEjdFyZ/
-JyoqSobcwTYENJkLFUAh/IwHQvCqi3iMDZbYkGZlE9QfOhnBGHmHy2oVB73c78NL+XSrbD5vW3CK
-30rWT8vJyQ02+EqcWVbXt7wI4XTkdl65ZPF23oKpVOCv1JeTgqbFdEZ/RUmfH91fyDsjTb6wWS1v
-4GjcBcIAYIdgyCSBy4nRUjV/3nM0MTWwgw==
+iQEcBAABAgAGBQJdn4eWAAoJECLqERp+QkKkj6wIAMLcFaFjqdHickuAJJvxVFGsryrqD+cFUrjf
+nRoSItSM3ieUsOCkP7IzRXQByrZe/7zFoOayRoC/s8sfxd6jCq9wwFF5mHJ0ZpNO+AN5IS/JyCdq
+qR4lgF97BB7m9kpUtrCw/llGspa1ePdRUeGj2LiM/86ZkaKY7Onfy1aQRj604wZJvPKCf5k7Ok5r
+YavWjteK7Ng2BBfiaVH/3u5bUAdQ8MmlUPCqGFvSLf0MlXgPKyRd5oMGM24cO58xy0D4TAJYclpl
+XOUFJCUeabj9XdcBFYlVq94yV5jlbOrbhkc1naBE1F0Q6c2oO+YoEGgZThieaSwjSzyeOw+SQWIc
+jeU=
 
 -->

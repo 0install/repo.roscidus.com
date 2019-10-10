@@ -9,7 +9,7 @@
   <category>System</category>
   <homepage>http://mingwrep.sourceforge.net/</homepage>
   <needs-terminal/>
-  <implementation arch="Windows-*" id="sha1new=cc673e7a4960169c3cae331701247a60a05b781a" license="GPL v2 (GNU General Public License)" released="2001-07-27" version="4.2-20010727">
+  <implementation arch="Windows-i486" id="sha1new=cc673e7a4960169c3cae331701247a60a05b781a" license="GPL v2 (GNU General Public License)" released="2001-07-27" version="4.2-20010727">
     <command name="run" path="bin/rl.exe"/>
     <command name="rlversion" path="bin/rlversion.exe"/>
     <manifest-digest sha256new="2MXPRT36XXCPZK54IV3HM6YGMUMB3IGNJFK4RX7RYNRSF6AZOM4Q"/>
@@ -24,11 +24,11 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0podYACgkQIuoRGn5CQqSwQggAgAZ3
-DUFXAZd0cKXNLELPmF8r0lYUg+CXu031IWi3itTG6GjIy17Dtrsq8POxe7yF75RKhIS0dDES/mSu
-aOVvGJsBMWm6gVRj8Thi9G4JFvveJebmkMi+SHqGHLl0L+u1oQNKtJfBU4hjrxKAgIAr/BmG0thc
-j3w+nzRO6rXR7RFi6NP4YD4R5GJAkQ0yFgppHR+8Howr0szoxXV7U5Z4GIMsZNL29SVdnhGJi6VW
-pq9x85KigLj9p8xLTsdp4nczcpym3XXAKpiHaxPF6piNxTo2/cAze7aMLPBnHGerzZho29chS+Zz
-gmz0xike3kQ6Qwoe+5+1PjXszH5454BZsg==
+iQEcBAABAgAGBQJdn4eXAAoJECLqERp+QkKkEUkIAKgQePvZbrLPm/P+HuuqGFKF+/k95p02uBY1
+je5smA7SvlBKaCJIp45a5+ebmByAGheklQtMHtkPcJA+kJdh6e38thwDyPDejdOkO6s9mw+jjtE3
+XSIqESizUGQsnKV1jFWKSEhPVQwj1acnHPk7RoTbr0D8ouKZ3Kn5WR4frV8JIM80BJv5GXABUoIa
+EQ2QKkXn86WQfao6mz6D2ncmhkzlLT9fPZv4NsParqqh3pHpWORc2qLPnIWkpqGCOv+kk7TEbfrQ
+Kim0Mx2EMM7NJ5ptrmn0vzflXGj5GQ4gQaoYSlImO2U38ln4urs9Q/Vmu0+MWRXUA1SJZzYaeDps
+9dI=
 
 -->

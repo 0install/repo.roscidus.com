@@ -7,7 +7,7 @@
   <category>Science</category>
   <homepage>https://www.unidata.ucar.edu/software/netcdf/</homepage>
   <needs-terminal/>
-  <implementation arch="Windows-*" id="sha1new=b00607b01dd1d84ff10048ecbf6badd5deb937b8" license="UCAR-Unidata" released="2010-07-12" version="4.1.1">
+  <implementation arch="Windows-i486" id="sha1new=b00607b01dd1d84ff10048ecbf6badd5deb937b8" license="UCAR-Unidata" released="2010-07-12" version="4.1.1">
     <command name="run" path="ncdump.exe"/>
     <command name="ncgen" path="ncgen.exe"/>
     <command name="test" path="nf_test/run_tests.bat"/>
@@ -30,11 +30,11 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0y8pMACgkQIuoRGn5CQqT64QgAp2uz
-7TeygBaspsvf4YtihyY023FQVi7mnf/KFZGIMMi+TAprV0Xl5z71pqyuqFTXTCwr24rmakRIXm7K
-5LswrE546uxIs5SaRUW8ZHFu6yOPET/R+jqqgt1V7aYnhmR6ufb4mfabl1ae01oxHgCZGOa7ZZQO
-d68Fk/OQkfaAEEWvSlyuzNXCNQ1pzH6hbou7y7Yw7r4r5MTVj4qJGSlvNU7OX6SKXCwKb7kAr+b8
-kb6o42DlOCOe5Ki3z6Kw0GhlcNLzYgi9zFBFiixRL78i/KsZNhuiZCk6eoIN7CmV25CgKcrbor3o
-Gpai75LaFV152pTVB8G5UCesutBQRpoFZw==
+iQEcBAABAgAGBQJdn4eWAAoJECLqERp+QkKk5AkH/11BNM2KlHhPSiZpu5zbEQwLK1F+JUPX1Zqp
+smxlEXvtDxlAr9YrwrmbXyRBc+sMKkx8uB5pHVwTHO7j+sNFti7Avas6E7XIyZQ4/m06+8d2PJ1k
+CrRqn5g6QY9W1QFMf+dTsIZPHkoMEsjlq+rR8rBauP0y8n5SvlH/4SsxalLAaGIIqHApaa1wklmo
+ZXVqmGV1XwsYKdcms3IHRS69PNSuC84hfv32C2OBdN6iQxSH5DL/lj2WhzLsxDnFF7HnCBYvmaCc
+ptKDiEPFNUkUs+s4VGgQsL/nPWwmjlSOXgkqW9o6oRrBn2WWOD61Pqeg79RXALPHoeX/Cz9DthP2
+oz0=
 
 -->
