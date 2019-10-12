@@ -28,11 +28,11 @@ GNU Wget has many features to make retrieving large files or mirroring entire we
     <group released="2018-01-23" version="1.19.4">
       <implementation arch="Windows-x86_64" id="sha1new=1fab78a3c725599251c8db265d292b988be03a4a">
         <manifest-digest sha256new="KTI2LUWN4DL2VSHCHLREMTWRQJE2SRZTEPXBOMYNLRXQ34Q3ZHCA"/>
-        <archive href="https://eternallybored.org/misc/wget/releases/old/wget-1.19.4-win64.zip" size="3419084" type="application/zip"/>
+        <archive href="https://eternallybored.org/misc/wget/releases/wget-1.19.4-win64.zip" size="3419084" type="application/zip"/>
       </implementation>
       <implementation arch="Windows-i486" id="sha1new=f495b9776497a9dc5b5d92d6c599ba2a06ed0b46">
         <manifest-digest sha256new="PBYOCX3SYPU6B3IUI4FXQUFUDDHMZ46EM6IBQRVKOZ32TGLRH75Q"/>
-        <archive href="https://eternallybored.org/misc/wget/releases/old/wget-1.19.4-win32.zip" size="3171063" type="application/zip"/>
+        <archive href="https://eternallybored.org/misc/wget/releases/wget-1.19.4-win32.zip" size="3171063" type="application/zip"/>
       </implementation>
     </group>
     <group released="2018-12-04" version="1.20">
@@ -67,11 +67,11 @@ GNU Wget has many features to make retrieving large files or mirroring entire we
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdn4eXAAoJECLqERp+QkKkeSYIAPCvZgPlnIPKnGs8o3UADB2C7UtL0rLoVdea
-206xk7TMxpjxZLi/krumGlZpPLyjhAkLCFLaLwb9g5hrMprPmiCO1G5ocm/QxvKVNz1QTpRWhm+Q
-oRw/XemiD1/3gLrI97fUONJjsEuzdLvm9Se7Pq6r+W+nqKcWSJ0cetgzH/ct8DhjnpI+d9uVbpAW
-0nfkUdR4Uz1p4Kc3pw2W8TqYkht/4BLyNt1i4xxTHVZMj/N67MrJGkBO9FGSuQpwS8j+ToEk2Brw
-zM2w9BPnaGzlbGPDtykqoLZaFlrI/kqzaFKDVUT+vWMNu+HZOob1YW4/XaJc/xwcxj41eTw2/wui
-0C8=
+iQEcBAABAgAGBQJdoalxAAoJECLqERp+QkKkYkYH/AvdAbQNGgL1SLrChhunQjT6uyvVdR1mh8oO
++CpKJGQR+f/v9M/KTe7RV03651+BwPykMpONM0rSJuFy8Ew3G2y+EuF7NxMg8or6XxnEEv5YogGC
+PCGNAQI2hPjvqQ7jkT+amFei7KjA7bCO5+zMGFgCqjdyQqC5sPAKpAd95rAt3VHHc7svoHDCBELB
+cMOSHa3KUaOMGb8IMreEiiEHEWlmYKO3TzsLtLrtc2o3J33fUcrXE9wjId2Ayqai1tfu8OP44E67
+ThmuSi81gg8C3uS7jIm+nNPgzq3iKr52rx+4UeVcIvX6j9CNxbGpYemh6/sVtHQdd9bh1UUfSMh0
+L5w=
 
 -->
