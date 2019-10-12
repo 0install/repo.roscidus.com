@@ -31,7 +31,133 @@ Arc uses one of several compression methods for each file within the archive, ba
     <name xml:lang="en">rearj</name>
     <summary xml:lang="en">Converts other archive formats to .arj files</summary>
     <description xml:lang="en">The rearj command can repackage other archive formats to arj.</description>
-  </entry-point></interface><interface uri="http://repo.roscidus.com/editors/atom"><name>Atom</name><summary>the hackable text editor</summary><description>Atom is a hackable text editor for the 21st century, built on Electron, and based on everything we love about our favorite editors. We designed it to be deeply customizable, but still approachable using the default configuration.</description><homepage>https://atom.io/</homepage><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/editors/atom.ico" type="image/vnd.microsoft.icon"/><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/editors/atom.png" type="image/png"/><category>Development</category><category>Utility</category><entry-point binary-name="atom" command="run"/></interface><interface uri="http://repo.roscidus.com/devel/cmake"><name>CMake</name><summary>cross platform make</summary><description>CMake is a family of tools designed to build, test and package software. CMake is
+  </entry-point></interface><interface uri="http://repo.roscidus.com/editors/atom"><name>Atom</name><summary>the hackable text editor</summary><description>Atom is a hackable text editor for the 21st century, built on Electron, and based on everything we love about our favorite editors. We designed it to be deeply customizable, but still approachable using the default configuration.</description><homepage>https://atom.io/</homepage><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/editors/atom.ico" type="image/vnd.microsoft.icon"/><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/editors/atom.png" type="image/png"/><category>Development</category><category>Utility</category><entry-point binary-name="atom" command="run"/></interface><interface uri="http://repo.roscidus.com/utils/bzip2"><name>Bzip2</name><summary xml:lang="en">Bzip2: file compressor</summary><description xml:lang="en">bzip2 is a freely available, patent free, high-quality data compressor. It typically compresses files to within 10% to 15% of the best available techniques (the PPM family of statistical compressors), whilst being around twice as fast at compression and six times faster at decompression. The code is organised as a library, with a programming interface. The bzip2 program itself is a client of the library. You can use the library in your own programs, to directly read and write .bz2 files, or even just to compress data in memory using the bzip2 algorithms. </description><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/utils/bzip2.ico" type="image/vnd.microsoft.icon"/><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/utils/bzip2.png" type="image/png"/><category>Utility</category><homepage>http://gnuwin32.sourceforge.net/packages/bzip2.htm</homepage><entry-point binary-name="bzip2" command="run">
+    <needs-terminal/>
+    <summary xml:lang="en">a block-sorting file compressor, v1.0.4</summary>
+    <description xml:lang="en">bzip2 compresses files using the  Burrows-Wheeler  block
+       sorting  text compression algorithm, and Huffman coding.
+       Compression is generally considerably better  than  that
+       achieved  by  more conventional LZ77/LZ78-based compres-
+       sors, and approaches the performance of the  PPM  family
+       of statistical compressors.</description>
+  </entry-point><entry-point binary-name="bunzip2" command="bunzip2">
+    <needs-terminal/>
+    <summary xml:lang="en">a block-sorting file compressor, v1.0.4</summary>
+    <description xml:lang="en">bunzip2 decompresses all specified files.
+       Files which were not created by bzip2 will  be  detected
+       and  ignored,  and  a warning issued. </description>
+  </entry-point><entry-point binary-name="bzcat" command="bzcat">
+    <needs-terminal/>
+    <summary xml:lang="en">decompresses files to stdout</summary>
+    <description xml:lang="en">bzcat (or bzip2 -dc) decompresses all specified files to
+       the standard output.</description>
+  </entry-point><entry-point binary-name="bzip2recover" command="bzip2recover">
+    <needs-terminal/>
+    <summary xml:lang="en">recovers data from damaged bzip2 files</summary>
+  </entry-point><entry-point binary-name="bzcmp" command="bzcmp">
+    <needs-terminal/>
+    <summary xml:lang="en">compare bzip2 compressed files</summary>
+    <description xml:lang="en">Used to invoke the cmp or the diff
+       program on bzip2 compressed files.  All  options  speci-
+       fied are passed directly to cmp or diff.  If only 1 file
+       is specified, then the files compared are file1  and  an
+       uncompressed  file1.bz2.   If  two  files are specified,
+       then they are uncompressed if necessary and fed  to  cmp
+       or diff.  The exit status from cmp or diff is preserved.</description>
+  </entry-point><entry-point binary-name="bzdiff" command="bzdiff">
+    <needs-terminal/>
+    <summary xml:lang="en">compare bzip2 compressed files</summary>
+    <description xml:lang="en">used to invoke the cmp or the diff
+       program on bzip2 compressed files.  All  options  speci-
+       fied are passed directly to cmp or diff.  If only 1 file
+       is specified, then the files compared are file1  and  an
+       uncompressed  file1.bz2.   If  two  files are specified,
+       then they are uncompressed if necessary and fed  to  cmp
+       or diff.  The exit status from cmp or diff is preserved.</description>
+  </entry-point><entry-point binary-name="bzegrep" command="bzegrep">
+    <needs-terminal/>
+    <summary xml:lang="en">search possibly bzip2 com-
+       pressed files for a regular expression</summary>
+    <description xml:lang="en">Bzgrep is used to invoke the  grep  on  bzip2-compressed
+       files.  All  options  specified  are  passed directly to
+       grep.  If no file is specified, then the standard  input
+       is decompressed if necessary and fed to grep.  Otherwise
+       the given files are uncompressed if necessary and fed to
+       grep.
+
+       If bzgrep is invoked as bzegrep or bzfgrep then egrep or
+       fgrep is used instead of grep.  If the GREP  environment
+       variable  is  set, bzgrep uses it as the grep program to
+       be invoked. For example:
+
+           for sh:  GREP=fgrep  bzgrep string files</description>
+  </entry-point><entry-point binary-name="bzfgrep" command="bzfgrep">
+    <needs-terminal/>
+    <summary xml:lang="en">search possibly bzip2 com-
+       pressed files for a regular expression</summary>
+    <description xml:lang="en">Bzgrep is used to invoke the  grep  on  bzip2-compressed
+       files.  All  options  specified  are  passed directly to
+       grep.  If no file is specified, then the standard  input
+       is decompressed if necessary and fed to grep.  Otherwise
+       the given files are uncompressed if necessary and fed to
+       grep.
+
+       If bzgrep is invoked as bzegrep or bzfgrep then egrep or
+       fgrep is used instead of grep.  If the GREP  environment
+       variable  is  set, bzgrep uses it as the grep program to
+       be invoked. For example:
+
+           for sh:  GREP=fgrep  bzgrep string files</description>
+  </entry-point><entry-point binary-name="bzgrep" command="bzgrep">
+    <needs-terminal/>
+    <summary xml:lang="en">search possibly bzip2 com-
+       pressed files for a regular expression</summary>
+    <description xml:lang="en">Bzgrep is used to invoke the  grep  on  bzip2-compressed
+       files.  All  options  specified  are  passed directly to
+       grep.  If no file is specified, then the standard  input
+       is decompressed if necessary and fed to grep.  Otherwise
+       the given files are uncompressed if necessary and fed to
+       grep.
+
+       If bzgrep is invoked as bzegrep or bzfgrep then egrep or
+       fgrep is used instead of grep.  If the GREP  environment
+       variable  is  set, bzgrep uses it as the grep program to
+       be invoked. For example:
+
+           for sh:  GREP=fgrep  bzgrep string files</description>
+  </entry-point><entry-point binary-name="bzless" command="bzless">
+    <needs-terminal/>
+    <summary xml:lang="en">file perusal filter for crt viewing of
+       bzip2 compressed text</summary>
+    <description xml:lang="en">Bzless  is  a  filter  which  allows examination of com-
+       pressed or plain text files one screenful at a time on a
+       soft-copy  terminal.   bzless  works on files compressed
+       with bzip2 and also on uncompressed files.   If  a  file
+       does not exist, bzless looks for a file of the same name
+       with the addition of a .bz2 suffix.
+
+       Bzless normally pauses after  each  screenful,  printing
+       --More--  at the bottom of the screen.  If the user then
+       types a carriage return, one more line is displayed.  If
+       the  user  hits a space, another screenful is displayed.
+       Other possibilities are enumerated later.</description>
+  </entry-point><entry-point binary-name="bzmore" command="bzmore">
+    <needs-terminal/>
+    <summary xml:lang="en">file perusal filter for crt viewing of
+       bzip2 compressed text</summary>
+    <description xml:lang="en">Bzmore  is  a  filter  which  allows examination of com-
+       pressed or plain text files one screenful at a time on a
+       soft-copy  terminal.   bzmore  works on files compressed
+       with bzip2 and also on uncompressed files.   If  a  file
+       does not exist, bzmore looks for a file of the same name
+       with the addition of a .bz2 suffix.
+
+       Bzmore normally pauses after  each  screenful,  printing
+       --More--  at the bottom of the screen.  If the user then
+       types a carriage return, one more line is displayed.  If
+       the  user  hits a space, another screenful is displayed.
+       Other possibilities are enumerated later.</description>
+  </entry-point></interface><interface uri="http://repo.roscidus.com/devel/cmake"><name>CMake</name><summary>cross platform make</summary><description>CMake is a family of tools designed to build, test and package software. CMake is
 used to control the software compilation process using simple platform and
 compiler independent configuration files. CMake generates native makefiles and
 workspaces that can be used in the compiler environment of your choice.</description><homepage>http://www.cmake.org/</homepage><category>Development</category><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/devel/cmake.ico" type="image/vnd.microsoft.icon"/><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/devel/cmake.png" type="image/png"/><entry-point binary-name="cmake" command="run">
@@ -935,6 +1061,117 @@ because it uses IDEA (which is patented worldwide).</description><homepage>http:
     <needs-terminal/>
     <name xml:lang="en">Fgrep</name>
     <summary xml:lang="en">Fgrep: print lines matching a pattern</summary>
+  </entry-point></interface><interface uri="http://repo.roscidus.com/utils/gzip"><name>Gzip</name><summary xml:lang="en">Gzip: compress files</summary><description xml:lang="en">gzip (GNU zip) is a compression utility designed to be a replacement for compress. Its main advantages over compress are much better compression and freedom from patented algorithms. </description><icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.ico" type="image/vnd.microsoft.icon"/><icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.png" type="image/png"/><category>Utility</category><homepage>http://gnuwin32.sourceforge.net/packages/gzip.htm</homepage><entry-point binary-name="gzip" command="run">
+    <needs-terminal/>
+  </entry-point><entry-point binary-name="gunzip" command="gunzip">
+    <needs-terminal/>
+    <name xml:lang="en">gunzip</name>
+    <summary xml:lang="en">expand files</summary>
+  </entry-point><entry-point binary-name="gzexe" command="gzexe">
+    <name xml:lang="en">gzexe</name>
+    <summary xml:lang="en">Rename each FILE with a compressed version of itself, renaming FILE to FILE~.</summary>
+    <description xml:lang="en">The  gzexe utility allows you to compress executables in
+       place and have them automatically uncompress and execute
+       when  you  run  them (at a penalty in performance).  For
+       example if you execute ``gzexe  /usr/bin/gdb''  it  will
+       create the following two files:
+           -rwxr-xr-x  1 root root 1026675 Jun  7 13:53 /usr/bin/gdb
+           -rwxr-xr-x  1 root root 2304524 May 30 13:02 /usr/bin/gdb~
+       /usr/bin/gdb~  is  the original file and /usr/bin/gdb is
+       the self-uncompressing executable file.  You can  remove
+       /usr/bin/gdb~  once you are sure that /usr/bin/gdb works
+       properly.
+
+       This utility is most useful on systems with  very  small
+       disks.</description>
+  </entry-point><entry-point binary-name="uncompress" command="uncompress">
+    <needs-terminal/>
+    <name xml:lang="en">uncompress</name>
+    <summary xml:lang="en">expand files</summary>
+  </entry-point><entry-point binary-name="zcat" command="zcat">
+    <needs-terminal/>
+    <name xml:lang="en">zcat</name>
+    <summary xml:lang="en">expand files</summary>
+  </entry-point><entry-point binary-name="zcmp" command="zcmp">
+    <needs-terminal/>
+    <name xml:lang="en">zcmp</name>
+    <summary xml:lang="en">Compare FILE1 to FILE2, using their uncompressed contents if they are</summary>
+    <description xml:lang="en">Usage: $0 [OPTION]... FILE1 [FILE2]
+ If FILE2 is omitted, compare FILE1 to the uncompressed
+contents of FILE1.gz.  Do comparisons like cmp does.
+
+OPTIONs are the same as for cmp</description>
+  </entry-point><entry-point binary-name="zdiff" command="zdiff">
+    <needs-terminal/>
+    <name xml:lang="en">zdiff</name>
+    <summary xml:lang="en">Compare FILE1 to FILE2, using their uncompressed contents if they are</summary>
+    <description xml:lang="en">Usage: $0 [OPTION]... FILE1 [FILE2]
+If FILE2 is omitted, compare FILE1 to the uncompressed
+contents of FILE1.gz.  Do comparisons like diff does.
+
+OPTIONs are the same as for diff</description>
+  </entry-point><entry-point binary-name="zegrep" command="zegrep">
+    <needs-terminal/>
+    <name xml:lang="en">zegrep</name>
+    <summary xml:lang="en">Look for instances of PATTERN in the input FILEs, using their</summary>
+    <description xml:lang="en">Usage: $0 [OPTION]... [-e] PATTERN [FILE]...
+
+OPTIONs are the same as for 'grep'.
+</description>
+  </entry-point><entry-point binary-name="zfgrep" command="zfgrep">
+    <needs-terminal/>
+    <name xml:lang="en">zfgrep</name>
+    <summary xml:lang="en">Look for instances of PATTERN in the input FILEs, using their</summary>
+    <description xml:lang="en">Usage: $0 [OPTION]... [-e] PATTERN [FILE]...
+
+OPTIONs are the same as for 'grep'.
+</description>
+  </entry-point><entry-point binary-name="zgrep" command="zgrep">
+    <needs-terminal/>
+    <name xml:lang="en">zgrep</name>
+    <summary xml:lang="en">Look for instances of PATTERN in the input FILEs, using their</summary>
+    <description xml:lang="en">Usage: $0 [OPTION]... [-e] PATTERN [FILE]...
+
+OPTIONs are the same as for 'grep'.
+</description>
+  </entry-point><entry-point binary-name="zforce" command="zforce">
+    <needs-terminal/>
+    <name xml:lang="en">zforce</name>
+    <summary xml:lang="en">Force a .gz extension on all compressed FILEs so that gzip will</summary>
+    <description xml:lang="en">Usage: $0 [FILE]...
+</description>
+  </entry-point><entry-point binary-name="zless" command="zless">
+    <needs-terminal/>
+    <name xml:lang="en">zless</name>
+    <summary xml:lang="en">Like 'less', but operate on the uncompressed contents of any compressed FILEs.</summary>
+    <description xml:lang="en">Usage: $0 [OPTION]... [FILE]...
+
+Options are the same as for 'less'.
+</description>
+  </entry-point><entry-point binary-name="zmore" command="zmore">
+    <needs-terminal/>
+    <name xml:lang="en">zmore</name>
+    <summary xml:lang="en">Like 'more', but operate on the uncompressed contents of any compressed FILEs.</summary>
+    <description xml:lang="en">Usage: $0 [OPTION]... [FILE]...
+
+</description>
+  </entry-point><entry-point binary-name="znew" command="znew">
+    <needs-terminal/>
+    <name xml:lang="en">znew</name>
+    <summary xml:lang="en">Recompress files from .Z (compress) format to .gz (gzip) format.</summary>
+    <description xml:lang="en">Usage: $0 [OPTION]... [FILE]...
+
+Options:
+
+  -f     Force recompression even if a .gz file already exists.
+  -t     Test the new files before deleting originals.
+  -v     Verbose; display name and statistics for each file compressed.
+  -9     Use the slowest compression method (optimal compression).
+  -P     Use pipes for the conversion to reduce disk space usage.
+  -K     Keep a .Z file when it is smaller than the .gz file.
+      --help     display this help and exit
+      --version  output version information and exit
+</description>
   </entry-point></interface><interface uri="http://repo.roscidus.com/kubernetes/helm-autoversion"><name>Helm Autoversion</name><summary>wrapper for Helm that auto-downloads client matching server version</summary><description>A wrapper for Kubernetes Helm that automatically downloads a Helm (client) version that matches the Tiller (server) version.</description></interface><interface uri="http://repo.roscidus.com/java/hsqldb"><name>HyperSQL</name><summary>100% Java Database </summary><description>
 HSQLDB (HyperSQL DataBase) is an SQL relational database engine written in Java.
 It has a JDBC driver and supports nearly full ANSI-92 SQL (BNF tree format) plus
@@ -1009,10 +1246,120 @@ Professional runs on Microsoft .NET 2.0 and Mono 2.6 or newer.</description><hom
   </entry-point><entry-point command="kotlin-dce-js">
     <needs-terminal/>
     <name>Kotlin dead code elimination JavaScript compiler</name>
-  </entry-point></interface><interface uri="http://repo.roscidus.com/kubernetes/helm-2"><name>Kubernetes Helm</name><summary>the Kubernetes package manager</summary><description>Helm is a tool for managing Kubernetes charts. Charts are packages of pre-configured Kubernetes resources.</description><homepage>https://helm.sh/</homepage></interface><interface uri="http://repo.roscidus.com/kubernetes/helm"><name>Kubernetes Helm</name><summary>the Kubernetes package manager</summary><description>Helm is a tool for managing Kubernetes charts. Charts are packages of pre-configured Kubernetes resources.</description><homepage>https://helm.sh/</homepage><entry-point binary-name="helm" command="run"/></interface><interface uri="http://repo.roscidus.com/kubernetes/helm-3"><name>Kubernetes Helm 3.x</name><summary>the Kubernetes package manager</summary><description>Helm is a tool for managing Kubernetes charts. Charts are packages of pre-configured Kubernetes resources.</description><homepage>https://helm.sh/</homepage></interface><interface uri="http://repo.roscidus.com/kubernetes/kops"><name>Kubernetes Operations (kops)</name><summary>production grade Kubernetes installation, upgrades, and management</summary><description>kops helps you create, destroy, upgrade and maintain production-grade, highly available, Kubernetes clusters from the command line.</description><homepage>https://github.com/kubernetes/kops</homepage><entry-point binary-name="kops" command="run"/></interface><interface uri="http://repo.roscidus.com/lib/libiconv"><name>LibIconv</name><summary xml:lang="en">LibIconv: convert between character encodings</summary><description xml:lang="en">LibIconv converts from one character encoding to another through Unicode conversion (see Web page for full list of supported encodings). It has also limited support for transliteration, i.e. when a character cannot be represented in the target character set, it is approximated through one or several similar looking characters. It is useful if your application needs to support multiple character encodings, but that support lacks from your system. 
+  </entry-point></interface><interface uri="http://repo.roscidus.com/kubernetes/helm-2"><name>Kubernetes Helm</name><summary>the Kubernetes package manager</summary><description>Helm is a tool for managing Kubernetes charts. Charts are packages of pre-configured Kubernetes resources.</description><homepage>https://helm.sh/</homepage></interface><interface uri="http://repo.roscidus.com/kubernetes/helm"><name>Kubernetes Helm</name><summary>the Kubernetes package manager</summary><description>Helm is a tool for managing Kubernetes charts. Charts are packages of pre-configured Kubernetes resources.</description><homepage>https://helm.sh/</homepage><entry-point binary-name="helm" command="run"/></interface><interface uri="http://repo.roscidus.com/kubernetes/helm-3"><name>Kubernetes Helm 3.x</name><summary>the Kubernetes package manager</summary><description>Helm is a tool for managing Kubernetes charts. Charts are packages of pre-configured Kubernetes resources.</description><homepage>https://helm.sh/</homepage></interface><interface uri="http://repo.roscidus.com/kubernetes/kops"><name>Kubernetes Operations (kops)</name><summary>production grade Kubernetes installation, upgrades, and management</summary><description>kops helps you create, destroy, upgrade and maintain production-grade, highly available, Kubernetes clusters from the command line.</description><homepage>https://github.com/kubernetes/kops</homepage><entry-point binary-name="kops" command="run"/></interface><interface uri="http://repo.roscidus.com/utils/less"><name>Less</name><summary xml:lang="en">file viewer</summary><description xml:lang="en">Less is a pager. A pager is a program that displays text files. Other pagers commonly in use are more and pg. Less is similar to more, but allows backward movement in the file as well as forward movement. Also, less does not have to read the entire input file before starting, so with large input files it starts up faster than text editors like vi. </description><icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.ico" type="image/vnd.microsoft.icon"/><icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.png" type="image/png"/><category>System</category><homepage>http://gnuwin32.sourceforge.net/packages/less.htm</homepage><entry-point binary-name="less" command="run">
+    <needs-terminal/>
+    <summary xml:lang="en">opposite of more</summary>
+    <description xml:lang="en">Less is a program similar to more (1), but which  allows
+       backward  movement  in the file as well as forward move-
+       ment.  Also, less does not have to read the entire input
+       file  before  starting,  so  with  large  input files it
+       starts up faster than text editors like  vi  (1).   Less
+       uses  termcap  (or  terminfo on some systems), so it can
+       run on a variety of terminals.  There  is  even  limited
+       support  for  hardcopy terminals.  (On a hardcopy termi-
+       nal, lines which should be printed at  the  top  of  the
+       screen are prefixed with a caret.)</description>
+  </entry-point><entry-point binary-name="lessecho" command="lessecho">
+    <needs-terminal/>
+    <name xml:lang="en">Lessecho</name>
+    <summary xml:lang="en">expand metacharacters</summary>
+    <description xml:lang="en">lessecho is a program that simply echos its arguments on
+       standard  output.  But any argument containing spaces is
+       enclosed in quotes.</description>
+  </entry-point><entry-point binary-name="lesskey" command="lesskey">
+    <needs-terminal/>
+    <name xml:lang="en">Lesskey</name>
+    <summary xml:lang="en">specify key bindings for less</summary>
+    <description xml:lang="en"> Lesskey  is  used to specify a set of key bindings to be
+       used by less.  The input  file  is  a  text  file  which
+       describes  the  key  bindings, If the input file is &quot;-&quot;,
+       standard input is read.  If no input file is  specified,
+       a  standard  filename  is  used as the name of the input
+       file, which depends on the system being  used:  On  Unix
+       systems,  $HOME/.lesskey  is  used;  on  MS-DOS systems,
+       $HOME/_lesskey   is   used;   and   on   OS/2    systems
+       $HOME/lesskey.ini is used, or $INIT/lesskey.ini if $HOME
+       is undefined.  The output file is a binary file which is
+       used  by  less.  If no output file is specified, and the
+       environment  variable  LESSKEY  is  set,  the  value  of
+       LESSKEY  is used as the name of the output file.  Other-
+       wise, a standard filename is used as  the  name  of  the
+       output  file, which depends on the system being used: On
+       Unix and OS-9 systems, $HOME/.less is  used;  on  MS-DOS
+       systems,  $HOME/_less  is  used;  and  on  OS/2 systems,
+       $HOME/less.ini is used, or $INIT/less.ini  if  $HOME  is
+       undefined.   If  the output file already exists, lesskey
+       will overwrite it.</description>
+  </entry-point><entry-point binary-name="lessfile" command="lessfile">
+    <needs-terminal/>
+    <name xml:lang="en">Lessfile</name>
+    <summary xml:lang="en">input preprocessor for  less.</summary>
+    <description xml:lang="en">lessfile  will  toss  the  contents/info on a file which
+       less will then read.  After you are done, lessfile  will
+       then  delete  the file.  This means that the process has
+       to finish before you see it, but you get  nice  percent-
+       ages (N%) up front.</description>
+  </entry-point><entry-point binary-name="lesspipe" command="lesspipe">
+    <needs-terminal/>
+    <name xml:lang="en">Lesspipe</name>
+    <summary xml:lang="en">input preprocessor for  less.</summary>
+    <description xml:lang="en">lesspipe  will toss the contents/info on STDOUT and less
+       will read them as they come across.  This means that you
+       do  not  have  to wait for the decoding to finish before
+       less shows you the file.  This also means that you  will
+       get  a  'byte N' instead of an N% as your file position.
+       You can seek to the end and back to get the N% but  that
+       means you have to wait for the pipe to finish.</description>
+  </entry-point></interface><interface uri="http://repo.roscidus.com/utils/libarchive"><name>LibArchive</name><summary xml:lang="en">library for reading and writing streaming archives </summary><description xml:lang="en">Libarchive is a programming library that can create and read several different streaming archive formats, including most popular tar variants, several cpio formats, and both BSD and GNU ar variants. It can also write shar archives and read ISO9660 CDROM images and ZIP archives. The bsdtar program is an implementation of tar(1) that is built on top of libarchive. It started as a test harness, but has grown into a feature-competitive replacement for GNU tar. 
+
+The libarchive library offers a number of features that make it both very flexible and very powerful. 
+•Automatic format detection: libarchive can automatically determine both the compression and the archive format, regardless of the data source. (GNU tar and star only do full format detection when reading from a file, for instance. Gunnar Ritter's heirloom tar also does full automatic format detection.) 
+•Reads popular formats: libarchive can read GNU tar, ustar, pax interchange format, cpio, zip, and ISO9660 formats. The internal architecture is easily extensible. The only requirement for read support is that all metadata for a file must precede the file data itself within the archive. 
+•Writes popular formats: libarchive can write ustar, pax interchange format, cpio, and shar formats. The internal architecture is easily extensible. The only requirement for write support is that all metadata for a file must follow the preceding file's data within the archive. (Yes, there are formats that libarchive can write but not read and vice versa.) 
+•Reads and writes POSIX formats: libarchive reads and writes POSIX-standard formats, including &quot;ustar,&quot; &quot;pax interchange format,&quot; and the POSIX &quot;cpio&quot; format. 
+•Supports pax interchange format: Pax interchange format (which, despite the name, is really an extended tar format) eliminates almost all limitations of historic tar formats and provides a standard method for incorporating vendorspecific extensions. libarchive exploits this extension mechanism to support ACLs and file flags, for example. (Joerg Schilling's star archiver and recent versions of GNU tar also support pax interchange format.) 
+•High-Level API: the libarchive API makes it fairly simple to build an archive from a list of filenames or to extract the entries from an archive. However, the API also provides extreme flexibility with regards to data sources. For example, there are generic hooks that allow you to write an archive to a socket or read data from an archive entry into a memory buffer. 
+•Modular: The library design carefully minimizes link pollution. If you only need read support for a single format, for example, you will only get the required code. This minimizes the size of statically-linked executables. (In particular, zlib or libbz2 are only required if you specifically request gzip or bzip2 support.) 
+•Extensible: The internal design uses generic interfaces for compression, archive format detection and decoding, and archive data I/O. It should be very easy to add new formats, new compression methods, or new ways of reading/writing archives. 
+•Featureful: Libarchive handles ACLs, file flags, extended attributes, international characters, large files, long pathnames, and many other features. Details vary depending on the particular format, of course. 
+•Fast: Libarchive minimizes data copying when handling archive files and contains carefully-tuned code for recreating objects on disk. 
+
+The bsdtar archiving program is built on libarchive, so offers a variety of modern features. One unusual feature it offers is the ability to function as a format-conversion filter, reading entries from one archive and emitting an archive in a different format with the same contents. This feature was simple to implement because libarchive's robust automatic format detection makes it unnecessary to specify the format of the input archive. The bsdtar program has a number of advantages over previous tar implementations: 
+•Library. Since the core functionality is in a library, it can be used by other tools, such as pkg_add. 
+•Automatic format detection. Libarchive automatically detects the compression (none/gzip/bzip2) and format (old tar, ustar, gnutar, pax, cpio, iso9660, zip) when reading archives. It does this for any data source. 
+•Pax Interchange Format Support. This is a POSIX/SUSv3 extension to the old &quot;ustar&quot; tar format that adds arbitrary extended attributes to each entry. Does everything that GNU tar format does, only better. 
+•Handles file flags, ACLs, arbitrary pathnames, etc. Pax interchange format supports key/value attributes using an easily-extensible technique. Arbitrary pathnames, group names, user names, file sizes are part of the POSIX standard; libarchive extends this with support for file flags, ACLs, and arbitrary device numbers. 
+•GNU tar support. Libarchive reads most GNU tar archives. If there is demand, this can be improved further. 
+•BSD license. 
+</description><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/utils/libarchive.ico" type="image/vnd.microsoft.icon"/><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/utils/libarchive.png" type="image/png"/><category>System</category><homepage>http://gnuwin32.sourceforge.net/packages/libarchive.htm</homepage><entry-point binary-name="bsdtar" command="run">
+    <needs-terminal/>
+    <name xml:lang="en">bsdtar</name>
+    <summary xml:lang="en">manipulate tape archives</summary>
+    <description xml:lang="en">tar creates and manipulates streaming archive files.  This
+     implementation can extract from tar, pax, cpio, zip, jar,
+     ar, and ISO 9660 cdrom images and can create tar, pax,
+     cpio, ar, and shar archives.</description>
+  </entry-point><entry-point binary-name="bsdcpio" command="bsdcpio">
+    <needs-terminal/>
+    <name xml:lang="en">bsdcpio</name>
+    <summary xml:lang="en">copy files to and from archives</summary>
+    <description xml:lang="en"> cpio copies files between archives and directories.  This
+     implementation can extract from tar, pax, cpio, zip, jar,
+     ar, and ISO 9660 cdrom images and can create tar, pax,
+     cpio, ar, and shar archives.</description>
+  </entry-point></interface><interface uri="http://repo.roscidus.com/lib/libiconv"><name>LibIconv</name><summary xml:lang="en">LibIconv: convert between character encodings</summary><description xml:lang="en">LibIconv converts from one character encoding to another through Unicode conversion (see Web page for full list of supported encodings). It has also limited support for transliteration, i.e. when a character cannot be represented in the target character set, it is approximated through one or several similar looking characters. It is useful if your application needs to support multiple character encodings, but that support lacks from your system. 
 •Libiconv-1 is in Libiconv-1.7 
 </description><icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.ico" type="image/vnd.microsoft.icon"/><icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.png" type="image/png"/><category>Development</category><homepage>http://gnuwin32.sourceforge.net/packages/libiconv.htm</homepage><entry-point binary-name="iconv" command="run">
     <needs-terminal/>
+  </entry-point></interface><interface uri="http://repo.roscidus.com/lib/xslt"><name>LibXslt</name><summary xml:lang="en">LibXslt: library and tools for applying XSLT to XML-documents</summary><description xml:lang="en">LibXslt is a library and tools for applying XSLT (Extensible Styleheets Transformations) to XML-documents. XML (Extensible Markup Language) is the universal format for data on the Web. XML is a metalanguage to design markup languages, i.e. text language where semantic and structure are added to the content using extra &quot;markup&quot; information enclosed between angle bracket. HTML is the most well-known markup language. </description><icon href="https://gitlab.com/pmiess/0install-feeds/raw/test/public/gnuwin32/libxml.ico" type="image/vnd.microsoft.icon"/><icon href="https://gitlab.com/pmiess/0install-feeds/raw/test/public/gnuwin32/libxml.png" type="image/png"/><category>Development</category><homepage>http://gnuwin32.sourceforge.net/packages/libxslt.htm</homepage><entry-point binary-name="xsltproc" command="run">
+    <needs-terminal/>
+    <name xml:lang="en">xsltproc</name>
+    <summary xml:lang="en">xsltproc: command line xslt processor</summary>
+    <description xml:lang="en">xsltproc  is  a  command  line  tool  for  applying XSLT
+       stylesheets to XML documents. It is part of libxslt, the
+       XSLT C library for GNOME. While it was developed as part
+       of the GNOME project, it can  operate  independently  of
+       the GNOME desktop.</description>
   </entry-point></interface><interface uri="http://repo.roscidus.com/libreoffice/libreoffice"><name>LibreOffice</name><summary xml:lang="en">a free office suite</summary><summary xml:lang="de">eine freie Office-Suite</summary><description xml:lang="en">LibreOffice is a free and open source office suite, developed by The Document Foundation. It was forked from OpenOffice.org in 2010. The LibreOffice suite comprises programs to do word processing, spreadsheets, slideshows, diagrams, maintain databases, and compose math formulae.</description><description xml:lang="de">LibreOffice ist eine freie Zusammenstellung gebräuchlicher Software für Arbeiten im Büro (Office-Paket). Dazu gehören Programme zur Textverarbeitung, Tabellenkalkulation, Präsentation und zum Erstellen von Zeichnungen. Ein Datenbankmanagementsystem und ein Formeleditor sind ebenfalls enthalten.</description><homepage>http://www.libreoffice.org/</homepage><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/libreoffice/libreoffice.png" type="image/png"/><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/libreoffice/libreoffice.ico" type="image/vnd.microsoft.icon"/><category>Office</category><entry-point binary-name="soffice" command="run"/><entry-point binary-name="swriter" command="writer">
     <name xml:lang="en">LibreOffice Writer</name>
     <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/libreoffice/writer.png" type="image/png"/>
@@ -1041,7 +1388,19 @@ Professional runs on Microsoft .NET 2.0 and Mono 2.6 or newer.</description><hom
     <name xml:lang="en">LibreOffice Base</name>
     <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/libreoffice/base.png" type="image/png"/>
     <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/libreoffice/base.ico" type="image/vnd.microsoft.icon"/>
-  </entry-point></interface><interface uri="http://repo.roscidus.com/kubernetes/minikube"><name>Minikube</name><summary>run Kubernetes locally</summary><description>Minikube is a tool that makes it easy to run Kubernetes locally. Minikube runs a single-node Kubernetes cluster inside a VM on your laptop for users looking to try out Kubernetes or develop with it day-to-day.</description><homepage>https://github.com/kubernetes/minikube</homepage><entry-point binary-name="minikube" command="run"/></interface><interface uri="http://repo.roscidus.com/dotnet/mono"><name>Mono</name><summary>open-source cross-platform implementation of the Common Language Infrastructure (.NET Framework compatible)</summary><homepage>http://www.mono-project.com/</homepage><entry-point binary-name="mono" command="run"/></interface><interface uri="http://repo.roscidus.com/cli/mono"><name>Mono (legacy feed)</name><summary>open-source cross-platform implementation of the Common Language Infrastructure (.NET Framework compatible)</summary><homepage>http://www.mono-project.com/</homepage></interface><interface uri="http://repo.roscidus.com/dotnet/nant"><name>NAnt</name><summary>free .NET build tool</summary><description>NAnt is a free .NET build tool. In theory it is kind of like make without make's wrinkles. In practice it's a lot like Ant.</description><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/dotnet/nant.png" type="image/png"/><category>Development</category><category>Utility</category><homepage>http://nant.sourceforge.net/</homepage></interface><interface uri="http://repo.roscidus.com/cli/nant"><name>NAnt (legacy feed)</name><summary>free .NET build tool</summary><description>NAnt is a free .NET build tool. In theory it is kind of like make without make's wrinkles. In practice it's a lot like Ant.</description><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/dotnet/nant.png" type="image/png"/><category>Development</category><category>Utility</category><homepage>http://nant.sourceforge.net/</homepage></interface><interface uri="http://repo.roscidus.com/javascript/nwjs"><name>NW.js</name><summary>write desktop applications with all Web technologies</summary><description>NW.js (previously known as node-webkit) lets you call all Node.js modules directly from DOM and enables a new way of writing applications with all Web technologies.</description><homepage>https://nwjs.io/</homepage><icon href="https://nwjs.io/img/logo.png" type="image/png"/></interface><interface uri="http://repo.roscidus.com/javascript/nwjs-sdk"><name>NW.js SDK</name><summary>NW.js with DevTools for debugging</summary><description>This is the full NW.js plus additional DevTools for debugging.</description><homepage>https://nwjs.io/</homepage><icon href="https://nwjs.io/img/logo.png" type="image/png"/></interface><interface uri="http://repo.roscidus.com/lib/netcdf"><name>Network Common Data Form (NetCDF)</name><summary xml:lang="en">NetCDF is a set of software libraries and self-describing, machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data.</summary><description xml:lang="en">NetCDF (network Common Data Form) is a set of interfaces for array-oriented data access and a freely distributed collection of data access libraries for C, Fortran, C++, Java, and other languages. The netCDF libraries support a machine-independent format for representing scientific data. Together, the interfaces, libraries, and format support the creation, access, and sharing of scientific data.</description><category>Science</category><homepage>https://www.unidata.ucar.edu/software/netcdf/</homepage><entry-point binary-name="ncdump" command="run">
+  </entry-point></interface><interface uri="http://repo.roscidus.com/kubernetes/minikube"><name>Minikube</name><summary>run Kubernetes locally</summary><description>Minikube is a tool that makes it easy to run Kubernetes locally. Minikube runs a single-node Kubernetes cluster inside a VM on your laptop for users looking to try out Kubernetes or develop with it day-to-day.</description><homepage>https://github.com/kubernetes/minikube</homepage><entry-point binary-name="minikube" command="run"/></interface><interface uri="http://repo.roscidus.com/utils/mktemp"><name>MkTemp</name><summary xml:lang="en">Mktemp: return a temporary-file name</summary><description xml:lang="en">The mktemp utility takes a given file name template and overwrites a portion of it to create a unique file name. This allows shell scripts and other programs to safely create and use /tmp files. 
+
+Install the mktemp package if you need to use shell scripts or other programs which will create and use unique /tmp files. 
+</description><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/utils/mktemp.ico" type="image/vnd.microsoft.icon"/><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/utils/mktemp.png" type="image/png"/><homepage>http://gnuwin32.sourceforge.net/packages/mktemp.htm</homepage><entry-point binary-name="mktemp" command="run">
+    <needs-terminal/>
+    <summary xml:lang="en">make temporary filename (unique)</summary>
+    <description xml:lang="en">The mktemp utility takes the given filename template and
+     overwrites a portion of it to create a unique filename.
+     The template may be any filename with some number of `Xs'
+     appended to it, for example /tmp/tfile.XXXXXXXXXX.  If no
+     template is specified a default of tmp.XXXXXXXXXX is used
+     and the -t flag is implied (see below).</description>
+  </entry-point></interface><interface uri="http://repo.roscidus.com/dotnet/mono"><name>Mono</name><summary>open-source cross-platform implementation of the Common Language Infrastructure (.NET Framework compatible)</summary><homepage>http://www.mono-project.com/</homepage><entry-point binary-name="mono" command="run"/></interface><interface uri="http://repo.roscidus.com/cli/mono"><name>Mono (legacy feed)</name><summary>open-source cross-platform implementation of the Common Language Infrastructure (.NET Framework compatible)</summary><homepage>http://www.mono-project.com/</homepage></interface><interface uri="http://repo.roscidus.com/dotnet/nant"><name>NAnt</name><summary>free .NET build tool</summary><description>NAnt is a free .NET build tool. In theory it is kind of like make without make's wrinkles. In practice it's a lot like Ant.</description><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/dotnet/nant.png" type="image/png"/><category>Development</category><category>Utility</category><homepage>http://nant.sourceforge.net/</homepage></interface><interface uri="http://repo.roscidus.com/cli/nant"><name>NAnt (legacy feed)</name><summary>free .NET build tool</summary><description>NAnt is a free .NET build tool. In theory it is kind of like make without make's wrinkles. In practice it's a lot like Ant.</description><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/dotnet/nant.png" type="image/png"/><category>Development</category><category>Utility</category><homepage>http://nant.sourceforge.net/</homepage></interface><interface uri="http://repo.roscidus.com/javascript/nwjs"><name>NW.js</name><summary>write desktop applications with all Web technologies</summary><description>NW.js (previously known as node-webkit) lets you call all Node.js modules directly from DOM and enables a new way of writing applications with all Web technologies.</description><homepage>https://nwjs.io/</homepage><icon href="https://nwjs.io/img/logo.png" type="image/png"/></interface><interface uri="http://repo.roscidus.com/javascript/nwjs-sdk"><name>NW.js SDK</name><summary>NW.js with DevTools for debugging</summary><description>This is the full NW.js plus additional DevTools for debugging.</description><homepage>https://nwjs.io/</homepage><icon href="https://nwjs.io/img/logo.png" type="image/png"/></interface><interface uri="http://repo.roscidus.com/lib/netcdf"><name>Network Common Data Form (NetCDF)</name><summary xml:lang="en">NetCDF is a set of software libraries and self-describing, machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data.</summary><description xml:lang="en">NetCDF (network Common Data Form) is a set of interfaces for array-oriented data access and a freely distributed collection of data access libraries for C, Fortran, C++, Java, and other languages. The netCDF libraries support a machine-independent format for representing scientific data. Together, the interfaces, libraries, and format support the creation, access, and sharing of scientific data.</description><category>Science</category><homepage>https://www.unidata.ucar.edu/software/netcdf/</homepage><entry-point binary-name="ncdump" command="run">
     <needs-terminal/>
   </entry-point><entry-point binary-name="ncgen" command="ncgen">
     <needs-terminal/>
@@ -1459,7 +1818,27 @@ can do this because it's written in SGML, the international standard
 metalanguage for markup languages.
 
 This package provides a library providing an extensive API to handle
-such XML data files.</description></interface><interface uri="http://repo.roscidus.com/devel/make"><name>make</name><summary>The GNU version of the &quot;make&quot; utility.</summary><description>
+such XML data files.</description><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/lib/xml2.ico" type="image/vnd.microsoft.icon"/><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/lib/xml2.png" type="image/png"/><category>Development</category><homepage>http://xmlsoft.org/</homepage><entry-point binary-name="xmllint" command="xmllint">
+    <needs-terminal/>
+    <name xml:lang="en">xmllint</name>
+    <summary xml:lang="en">command line XML tool</summary>
+    <description xml:lang="en">The xmllint program parses one or more XML files, speci-
+       fied  on  the command line as xmlfile. It prints various
+       types of output, depending upon the options selected. It
+       is  useful  for detecting errors both in XML code and in
+       the XML parser itself.</description>
+  </entry-point><entry-point binary-name="xmlcatalog" command="xmlcatalog">
+    <needs-terminal/>
+    <name xml:lang="en">xmlcatalog</name>
+    <summary xml:lang="en">Command line tool to parse and manipulate XML or SGML catalog files.</summary>
+    <description xml:lang="en">xmlcatalog is a command line application allowing  users
+       to  monitor  and manipulate XML and SGML catalogs. It is
+       included in libxml2.
+       Its functions can be invoked from a single command  from
+       the  command  line, or it can perform multiple functions
+       in interactive mode. It can operate on both XML and SGML
+       files.</description>
+  </entry-point></interface><interface uri="http://repo.roscidus.com/devel/make"><name>make</name><summary>The GNU version of the &quot;make&quot; utility.</summary><description>
 GNU Make is a program that determines which pieces of a large program need to be
 recompiled and issues the commands to recompile them, when necessary.
 
@@ -1710,11 +2089,11 @@ More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
 This package is built from the X.org xproto proto module.</description></interface><interface uri="http://repo.roscidus.com/lib/zlib"><name>zlib</name><summary xml:lang="en">Zlib: general purpose data compression / decompression library</summary><description xml:lang="en">zlib is designed to be a free, general-purpose, legally unencumbered -- that is, not covered by any patents -- lossless data-compression library for use on virtually any computer hardware and operating system. The zlib data format is itself portable across platforms. Unlike the LZW compression method used in Unix compress(1) and in the GIF image format, the compression method currently used in zlib essentially never expands the data. (LZW can double or triple the file size in extreme cases.) zlib's memory footprint is also independent of the input data and can be reduced, if necessary, at some cost in compression. </description><icon href="http://www.zlib.net/favicon.ico" type="image/vnd.microsoft.icon"/><icon href="http://www.zlib.net/images/zlib3d-b1.png" type="image/png"/><homepage>http://gnuwin32.sourceforge.net/packages/zlib.htm</homepage></interface><interface uri="http://repo.roscidus.com/lib/zlib1g"><name>zlib1g</name><summary>compression library - runtime</summary><description>zlib is a library implementing the deflate compression method found
 in gzip and PKZIP. This package includes the shared library.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdn4eYAAoJECLqERp+QkKkhloIANgoBS6PtzbSZyhIF4yONhGMco/deoQuNA5C
-wTIgsHxKdGyDjyvVt7De+DQdYDtRM6dPCByWKXDSRg+UB2eJeuQrbiQyeX1NQ8HIC4yP/3+QezoW
-AWmB6pYXjPyoGUaJOjcdHz1BlySrpR1fxW8Uu0zkM5dSQ7d17m7J6MQnLy6C6D6v5jwhw1+qsM75
-elt2OrLSX8yKHzutdLzkuC4AB5ZrxA+gHutnFJ4TMFRz7W9aybWI6mC5blYJFSNIz4QDfGuFZb3u
-5grq5VJ0d/4qjHuL842LZ17Le2PexfRBG4UGtPDkpt8aESwUKJpGnR6SoHMGTO15cV9L8oAlzytL
-/tw=
+iQEcBAABAgAGBQJdoaimAAoJECLqERp+QkKkX6MH/jb7KxF2OP3/GRiPrPdvfhUf5rHtMs4cpLyg
+9WV9RWvvDXFgqVkMjS3mH3sKq/gNj8mBYtn2HORZu2mD6cnZlI9HBymU4m/HJIz57HRuwhqmzwru
+gT9ElvqOpIxElN+i0h7AwhqG0GVwutyCFD21giW++21l7m/Jk6K6I+jXY3NI8WHrZ2xl+iNQPSes
+WyYTmT0u0jRnz8KSjG5F0sszAERq8efMnIxnkMia3UdMJACJ1wuI0KijERIDmGIHfmvgnZvQKhQo
+m1eFP4msORax3vDdgWcADszq/70y8wp65FIB3LmpUuIdAMdoI3xKOCgwkJTGvkM/JaHU0/aMvO0M
+6Sc=
 
 -->
