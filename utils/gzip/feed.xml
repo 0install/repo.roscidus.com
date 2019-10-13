@@ -16,7 +16,7 @@
       <runner interface="http://repo.roscidus.com/utils/bash"/>
     </command>
     <command name="gzexe" path="bin/gzexe">
-      <requires interface="hhttp://repo.roscidus.com/utils/sed">
+      <requires interface="http://repo.roscidus.com/utils/sed">
         <executable-in-path name="sed"/>
       </requires>
       <requires interface="http://repo.roscidus.com/utils/grep">
@@ -72,7 +72,7 @@
     </command>
     <command name="zegrep" path="bin/zgrep">
       <arg>-E</arg>
-      <requires interface="hhttp://repo.roscidus.com/utils/grep">
+      <requires interface="http://repo.roscidus.com/utils/grep">
         <executable-in-var name="GREP"/>
       </requires>
       <requires interface="http://repo.roscidus.com/utils/sed">
@@ -263,11 +263,11 @@ Options:
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdoailAAoJECLqERp+QkKkTOgH/1rPEvMcFfYLnbdA1bgwLZK5aSYUjxrQC2bA
-j9422Jxig3ooWioaCYNlDAAPA8QoVXmXrL3irFIfqxKsZl+5G/Hxt4aExSCbzt448pByv4atuzXc
-DwZ5jutJw8R/hqYHpkTbB5yFhMEdLWFRP0/OvzN8ezLBban5wyv0vvDeMw7VQSrwyWnoYWCtspnx
-igjQBqMxsqkFBTWGPU8Qi5oHHFgTE1626C8OpPOIAB12ZTIDgoUQarOvYm+HH5/5MetrLawlqFCH
-45qeGHYVzA/6imA1Mi67AUim/UplVc+ilcDyHP4uqz/Johjq1/x98TFgGEpPI70xFPT0bJ/YXqRs
-YY4=
+iQEcBAABAgAGBQJdo6pwAAoJECLqERp+QkKkgJEIAMRMoXEn+6d7zYqOWyv7dcKSIv60jDqpPRKX
+mHRHBChHHY/5VD4jynxNFvKVr62YQ0G/B8E/nowrJ02lfMuSxcrcQ3w4+lXLNjBArVbPPDzJ8GRF
+4++OMDL8b9sRKrQUx2XV/U/2vVB9/UWd8BD//G4vg135GuxjOmk/TJXcuyO6GFiSLxj0gntR5czN
+2c1o7TP8aJvnHRs0MhD3j/erbcj2elwLTfV66DjYT4ZBAXerNWEk0/xEWCTY5LBf2T5QqKBfxI8d
+LNRSusnwId7SWisbBDuJSYp4GGd2WAKxyoxq+rOmKVUuOp5KpLveQWXERAuBbNsxhvoFxxOm/1sZ
+VhU=
 
 -->

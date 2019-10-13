@@ -13,6 +13,9 @@
     <requires interface="http://repo.roscidus.com/devel/libintl">
       <environment insert="bin" name="PATH"/>
     </requires>
+    <requires interface="http://repo.roscidus.com/devel/gettext">
+      <environment insert="bin" name="PATH"/>
+    </requires>
     <requires interface="http://repo.roscidus.com/lib/libiconv">
       <environment insert="bin" name="PATH"/>
     </requires>
@@ -44,11 +47,11 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdn4eXAAoJECLqERp+QkKkzq0H/RoMxTbB4nxhf1vMd2Evv/m+hFeSE/NPQB12
-rudFtPsIRWWwcv10YKmIU/CTYVkud8uYAJXOzCnOTfGGwQGB9fI3MQIOtiw2Q33rXyhny4gqieAQ
-YkYeaEPBnlON8X8F2locYFSghO16Hh1WFUcRNLNCJOF4D7LkVjlH6I2BvbYfM8Hy2miWidYiPLn2
-82zWg2Q9OfgGYDA4fvl6gwb4Wt/17JD90jSv6xpcZtIaEw7BcIrdRjW7q6aRIeZoe4xrHsCrVzrs
-6FeVxXLSDzwnpWSSQtUF9XPcK/fxvEk5G59pjDXM66HVNSpIB5i1anbmQjWNniCWy8tragODik0d
-OLM=
+iQEcBAABAgAGBQJdo6pwAAoJECLqERp+QkKk7J4IALVjcOgCvId9h8krCgJ5GEzDWTqV2zQr9IQK
+ozvX2QS/Qi3CMl0bZAjh2dhEwomdTOWgu/WNKvLVAYYIgISBVypH9NKzPsP3GQf+DrVBc9MFtN5m
+bNPs8uAh4ANnD9+9AKjGyQUy/bgPN5IUb1nZGNSVUkv3yHLGbj0IHGSlGbnH7yKpd4wzUFieYB3L
+AbRArfLW2azlPgY6l+3BjjsKUlmIJuB84NQxJ2Hmea1q6p2/Xj1CVBkRH8MOkeWHOSWEXLEdbkXL
+In82fbtTLpDwK2bAEp3QBZsqOcIvsjGalNoi21+TS4w3cJMTCgZElk0gOxyDaLH2OjbJ9UEsv5KV
+Syk=
 
 -->
