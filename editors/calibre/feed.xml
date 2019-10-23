@@ -342,6 +342,14 @@
       <manifest-digest sha256new="55EEQDRHDC36LF3SZ3LQHDX7ORA4PSACCEFPDTXPC47R2ZLQPZEA"/>
       <archive href="https://download.calibre-ebook.com/4.1.0/calibre-4.1.0-i686.txz" size="101694452" type="application/x-xz-compressed-tar"/>
     </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=6e26fddfc4981a699aa96d36de6f6f2a99ac3410" released="2019-10-18" stability="stable" version="4.2.0">
+      <manifest-digest sha256new="Y6UQPJGOSKY2JGOJDCOGDTYWLSO4VFBKF74NJ2OOBYXIBM6KF55Q"/>
+      <archive href="https://download.calibre-ebook.com/4.2.0/calibre-4.2.0-x86_64.txz" size="100218948" type="application/x-xz-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i686" id="sha1new=9db33eff66c646728aed4744a96efbd460a0de35" released="2019-10-18" stability="stable" version="4.2.0">
+      <manifest-digest sha256new="PE7HM5OJPMMXX4FKN6S6E2IP5U7BWZSHOMFGIC4ZRQOMPSDVEN4A"/>
+      <archive href="https://download.calibre-ebook.com/4.2.0/calibre-4.2.0-i686.txz" size="101877444" type="application/x-xz-compressed-tar"/>
+    </implementation>
   </group>
 
   <group license="GPL v3 (GNU General Public License)">
@@ -662,6 +670,14 @@
       <manifest-digest sha256new="PMWPPFYRKSFKHKHDHEDC5B4BXWAEFNTE4QNOAM25ZQ7UIY7GKCIA"/>
       <archive extract="SourceDir/PFiles/Calibre" href="https://download.calibre-ebook.com/4.1.0/calibre-4.1.0.msi" size="107143168" type="application/x-msi"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=285a7b2470e88841ff9d22069bbbf97cbf568df9" released="2019-10-23" stability="stable" version="4.2.0">
+      <manifest-digest sha256new="U7MEBDTMFDVO6NQHJLGM56BVCUZQC4CWHUAFBEP5XMDJDGHSSCBQ"/>
+      <archive extract="SourceDir/PFiles/Calibre2" href="https://download.calibre-ebook.com/4.2.0/calibre-64bit-4.2.0.msi" size="120705024" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=e2149801d798cbac199ec85fb7ee5ba09e392745" released="2019-10-23" stability="stable" version="4.2.0">
+      <manifest-digest sha256new="F2BY2C3EQR554OXOKXX53QXJ7UFXKEE7DQYAPB2R4CV6E2FFC2PA"/>
+      <archive extract="SourceDir/PFiles/Calibre" href="https://download.calibre-ebook.com/4.2.0/calibre-4.2.0.msi" size="107347968" type="application/x-msi"/>
+    </implementation>
   </group>
 
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
@@ -977,11 +993,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdocPMAAoJECLqERp+QkKk/5AIAL9xuKy/LTrSDwYe6zRW530hGMhzgXjznraq
-bBVM6TY8kQTg2jetBJyVTVEk/Zl+ZcDbOZcYGfojAJPEn2DTF+LlISs8/yeCOXcchDgTqnLR9ZUO
-mM/QuHhP3zLm6ZY/waqnncK5GnJ0DdnnKBhiZS8mLJWJFzWi1HDBvF8u6aOBMmd4f5egsXa7sExb
-q6WUyzgXGglzyUHNZ+z1HnwsGrX9uX8at3wWbp9qPmmptRyztNMtNl06pHCfoRVBX2zhOwdA0ZFu
-k7iDNGHFrIsFcomG3IZcWcRI4fcSthL2LzJUQ1ufctr/UcIZxK5M9iU7UIrUU7pY++VU+RnBaX3Q
-lTY=
+iQEcBAABAgAGBQJdsHluAAoJECLqERp+QkKkVncH/0dwoWpHp/SobL9USTyZuQQeCj6L9NAuMP/o
+K/XX/I1DNSuaFRvAZpx8EOG4jRBOxHOsma+dgCjxQMuMF+aZWZeuwaKnZPqfi6r4qx6kknNxHqT8
+aciGJyuF73QksH3p6USajyu12KttKIK9LT2RBhAi1AS2oF8vUpcqwu1Vi7obXmrtojRkYo+E4V0H
+HDZYsFzrnirtUEKFcxE/M1YRneaU+CnFHW6koXwuPsidfIosJHjGPq6t9QTwjiWY3Ns4tSatSzYJ
+2Seu2G8kOheC5yi784MOJbjClRsyWZs96+yrhN/l5+YDRHVxvNsqRiD0w42Lzmd08kDWzWKMQDbj
+roQ=
 
 -->

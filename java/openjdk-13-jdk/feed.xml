@@ -64,6 +64,10 @@ components using the Java programming language.</description>
       <manifest-digest sha256new="4HJIKS65X2BBODLZUKWVFOKCH6ZUW33GSKRQ7ZCWQ7QI36J26I7A"/>
       <archive extract="jdk-13" href="https://download.oracle.com/java/GA/jdk13/5b8a42f3905b406298b72d750b6919f6/33/GPL/openjdk-13_linux-x64_bin.tar.gz" size="196363513" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation id="sha1new=f2fcdb6dcbcebeb81784469f9a802e203dc50ba1" released="2019-10-23" stability="stable" version="13.0.1">
+      <manifest-digest sha256new="NZWHSC7GZPSMQLFYTVPW7W7CR2MUZLUSB6D5UJPCSDSQIUG2F7BQ"/>
+      <archive extract="jdk-13.0.1" href="https://download.oracle.com/java/GA/jdk13.0.1/cec27d702aa74d5a8630c65ae61e4305/9/GPL/openjdk-13.0.1_linux-x64_bin.tar.gz" size="195868060" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 
   <group arch="Windows-x86_64" license="GNU General Public License, version 2, with the Classpath Exception">
@@ -112,14 +116,18 @@ components using the Java programming language.</description>
       <manifest-digest sha256new="XUPV6M564MMW73ST3A6J6XJKUROQKLOJC5YLUW2DR52MVLIL5G7Q"/>
       <archive extract="jdk-13" href="https://download.oracle.com/java/GA/jdk13/5b8a42f3905b406298b72d750b6919f6/33/GPL/openjdk-13_windows-x64_bin.zip" size="195897761" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=ce1672acb815a538b78db79e0c74ae7d9318af6a" released="2019-10-23" stability="stable" version="13.0.1">
+      <manifest-digest sha256new="YX7PCYDA2HBKI7UJ2GYACZ367QMDMS4B3FVJOQ2QHIN4OYUYIJJA"/>
+      <archive extract="jdk-13.0.1" href="https://download.oracle.com/java/GA/jdk13.0.1/cec27d702aa74d5a8630c65ae61e4305/9/GPL/openjdk-13.0.1_windows-x64_bin.zip" size="195961943" type="application/zip"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdg/dUAAoJECLqERp+QkKk83kH/jrT0s0yGwTqXhu+pNWUOVXxR/gM06fCLMX5
-Tp3Cyn0paRwOZyGv5vS+a+uLUZzzhCsAUCLwY1450tHOCd8s+nLIePfRJy55qz/C58xud5cnY2GN
-26MNHKcbUq3WbEovMKreVD9HU6lsSWLHwZWZemi8o8mhacSveit+ipW0BMrAJ6hhb8CvaKcKzHEA
-DSFXu396SltSEHbhFr3fBbO3nCEVtbyofwnNOtr0pk7G4EmxsQ5JVHAz+imql79nAi9EvuIJxOwN
-QlCsgA70VNTs97dafe6N3fNa4YLtki2OeTph4I2pjY7RuvWiEjFsqe6yf822fnP5m2l4ER0+24jl
-noM=
+iQEcBAABAgAGBQJdsHluAAoJECLqERp+QkKkkvEIAI4EHf+j5I365QRthdUTRwp/kxXQhh5+epfY
+V3fxa74iQ08XWQTN9/ynP6otcV1YyEQK8pgP2VPSuV3jRv9BTYZeGEQdrGO50/BvxD7Pm8xpBOhp
++hZtOZAoZ7vOZ8ZAl7V/T0vItkDBMQIxQKQCi6nbhKZsyvIPQePOildKqrGyDtkPQM/PV3IVe37u
+oBk96L7br4p3M166T4LoCh8bC/nBAdTZ3N44OaRP7VCm6lYE23n9qvY7LqjVCJwwcks10Hz/mNoh
+hGqxfUSDp/IMg6sIj5yL/JRmtb0/u0hSs+xdIxSoHi7DsLPWabtXVwYzzt95bg3sVvB5cHLjE/oX
+sYw=
 
 -->
