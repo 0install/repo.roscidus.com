@@ -661,14 +661,30 @@
       <manifest-digest sha256new="ARI3IMOG7TQPWTE4PYQF2ETJLEHQ7TTFIYYBSBMNWWFP2ZDIK7LQ"/>
       <archive extract="go" href="https://dl.google.com/go/go1.13.3.linux-386.tar.gz" size="101300217" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=02a28d0fb0ec3bcf6f92b7c9dd194bec0128fb5d" released="2019-10-31" stability="stable" version="1.12.13">
+      <manifest-digest sha256new="V2C5OB2HK3ENUC5BZXX4J6U3BFVENRQZPQ7X2HDIFJAJRFGRP6BA"/>
+      <archive extract="go" href="https://dl.google.com/go/go1.12.13.linux-amd64.tar.gz" size="127968473" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=fc8ca5a18acbbad8df2ebbafc57fc00f2068778e" released="2019-10-31" stability="stable" version="1.12.13">
+      <manifest-digest sha256new="CT5B2RT5DS65Y52RW67S4MDLOA5T6CJU26QAH33NUNCNPECC7QKA"/>
+      <archive extract="go" href="https://dl.google.com/go/go1.12.13.linux-386.tar.gz" size="109479308" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=ceb325d06247cbf4d314725681444e3436683205" released="2019-10-31" stability="stable" version="1.13.4">
+      <manifest-digest sha256new="IBFRV6HC67WM5J5WJPFDNHGT6G3BN6BSFUEWELMUVGNVO3CZBWKQ"/>
+      <archive extract="go" href="https://dl.google.com/go/go1.13.4.linux-amd64.tar.gz" size="120054682" type="application/x-compressed-tar"/>
+    </implementation>
+    <implementation arch="Linux-i486" id="sha1new=d6a821f79f60cf65a3c670f06843cebce0185ccc" released="2019-10-31" stability="stable" version="1.13.4">
+      <manifest-digest sha256new="ZWLDEQSSTQU3X4PYWFAPPFQ46ZJKQUKYFAI2SN243KRKFENAGG5A"/>
+      <archive extract="go" href="https://dl.google.com/go/go1.13.4.linux-386.tar.gz" size="101299790" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdsGNOAAoJECLqERp+QkKkQtQIAJKZdMUXPsTtjdc/CIy/30OPoW82G6eLwTLP
-otBpdQswSCE3CO0E7/SbuNXrQmW2TUDRnZ8KvepEOM+OtYErmanD5AyUgdeW4nLladBve5nIeUYd
-Vr883IiY9h2hQ8eGhYmSDoWQOvgG3mgD7mZzowytgMnLQ/Kq5Kd8ekMMkknucK8Y/ZifX4kBMJr+
-w0WpVGndzQ78VN6pDCvfAu5GjuVbVJwll7m9GEmVcbTgbA88CTEGenvNslwE3WJfnwFFF6kevc7f
-94Kxo6nSMptCyUVnW1byojxA97syBWPrmbbaKZ6z0J0NaXuuTH1KcvxqVbVP1hCl8gIIPTKfhu23
-Low=
+iQEcBAABAgAGBQJdvLo5AAoJECLqERp+QkKkf8IH/1irRFj8ZvvOKEec5MbdP7yqqbEice0woCun
+0aTsj9Vyt8LQnMr7Tus6PJZqjTVa8zKOy9TbgIhjDGokWSruu/UDPKl6BFBJiV702gpHCQrVpcAL
+iYpr0CEr39HD9HjFyLu5XQxtCcNZ47ak9GQfUie8KqQNtL8Nm8wCT+abi3pw+zO3TnOAl9ujoxy9
+27CZJURUj4ooegyM0fEr2FOThGh1WQtxfzalYasdW15sIY4J4dBRKAlS+rTKwPxLPdDHIo5CmQgF
+JAI0bhSWipC/l5qhz0YWivysXuubkR5tK0IUMjoW8+mGc4oz1EU/NPHCgs9DW/5ljV51l15bG7Pw
+Dck=
 
 -->
