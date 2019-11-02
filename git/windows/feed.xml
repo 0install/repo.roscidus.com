@@ -6,7 +6,6 @@
   <description>Git is a powerful version control system aiming to be the fastest decentralized source code management tool on this planet.</description>
   <category>Development</category>
   <homepage>https://gitforwindows.org/</homepage>
-  <needs-terminal/>
 
   <icon href="https://gitforwindows.org/img/gwindows_logo.png" type="image/png"/>
 
@@ -435,11 +434,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdm5rUAAoJECLqERp+QkKkuGIIAIDd8qr8gWHhtpnFDE5wsKKLqe+3rTOQ2D7M
-iq3gbTKPg7a0dkaKJzylV7PLg9uruw2Ks6eZZD9gBsLWMFjM8mVqcKLQz4RAm0kjkDWUkjYZC2tZ
-RCXt6wBfmeGtqzBYGgrOipyZo3N5mq/OQqM+qymUQiWG1tWSeTqWdfDflgubjYWH2IiXA1FquKDe
-5kQCG0mduG3fLoIClV+MTKjUBuPrSTiupPpgdYW/hnplEoD6KhcqQtYkhQ6FCSlliOOXPZep4oY7
-cbXhXIxEaA8DtaruN7baWScjfTJi30iXRJsNabchrRsNnxP+j2bCokC/paL/4ohumiGcSBIWmYi2
-JRg=
+iQEcBAABAgAGBQJdvWuPAAoJECLqERp+QkKkcFUH/0A83JIE6Ayvmzi98BSdDsl7DkB8PC7w/6Y/
+MGKaOgKXHn24EmR1ALNueVC27NXJttBdbzkG6DF9pVHKrV7w9l9PMVLkE8uAV30ZkLamp+ntkBEu
+S5Xg9qgM8WuMpISDjJNLs/6bIag4Y77XDd3KhhiLneFj03pdVTxMEF+qaWrJFHHBwsG1O8gkohkg
+6k93ApfRG88mPOjFmot+wE3o+Ksl/DGaUikQolVPyTUTj6DvRJUrXBEnyWu+UEGVWUrUN1TJM6MJ
+R67qz89/17GdRczl/iOxkjmTELagnlpeYkDkWpR2zkBU2vSi18yygLXk/4XafE0ednVne140eYuv
+VyM=
 
 -->
