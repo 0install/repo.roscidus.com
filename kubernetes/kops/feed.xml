@@ -488,16 +488,24 @@
       <manifest-digest sha256new="2BFO24QIIZOS2SLFNMAWXKUJGG3PHGJNR5KKFFOQKMNYYJO6KJ6A"/>
       <file dest="kops" executable="true" href="https://github.com/kubernetes/kops/releases/download/1.14.0/kops-darwin-amd64" size="123166040"/>
     </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=0b52fc86af8edbd1ce5b94b9bd390eea300dd5fd" main="kops" released="2019-10-16" stability="testing" version="1.15.0-pre2-1">
+      <manifest-digest sha256new="OQ4YKTJYS7TXNNUA3KFIJWV5SNCFFXPMR5BMQZWMQMX3CY3FX54A"/>
+      <file dest="kops" executable="true" href="https://github.com/kubernetes/kops/releases/download/1.15.0-beta.1/kops-linux-amd64" size="106332320"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=462d0cff7b6951081e678891dd4f4a393085c583" main="kops" released="2019-10-16" stability="testing" version="1.15.0-pre2-1">
+      <manifest-digest sha256new="URJYFQQLI2KPW32FLYIJ7T5FFSEK5Q6CENDLT3ZPY5VDEDYUNZIA"/>
+      <file dest="kops" executable="true" href="https://github.com/kubernetes/kops/releases/download/1.15.0-beta.1/kops-darwin-amd64" size="122302248"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="kops" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdm7RoAAoJECLqERp+QkKkAmcH/jClyOhsbbyAgS87d7K4HABUomXkjEZuzBHN
-+4uLVpMFUKeLC/XsN6H9ZjcfOTRcus9AoEiHQKsWXh5TtTzLOhWO6BeMoUmCQzAjR4MNWc+oTRxb
-mmJekttwYRoLrgOI/MaOoa05+MjT00QmOSkmHRa2gt1cK/BHm7ZEnhU3Aids6FJWUMioa7l5tZC5
-qR7d6mXxnynQ6dbFXYHyrGvp3w67739y3HHDYkzNRa0NV+HbXK+DhocsXH25h3YSWCO0MMFAbdeo
-lXtw3VY0HaJf159LpDh4g1oUGTJiiis33B5nI5h5bhUqbshhXRFXclyMhR0elsIbX9CS6xxKstPN
-yxI=
+iQEcBAABAgAGBQJdwxC+AAoJECLqERp+QkKk7JQIAMMw6k+YqF9dVrI7GzwDp4pj6xpj8Gz+i3cO
+N4QsJlIV6zKrUvZa31tkgswpYqoi31jzeJi7L5ytsW9CZ7g2M88tuTdrnvqqYAw1O0YYIF8eVMTx
+OUOdJT4TQIER2205DlgKQQZOhmSp+n8O8vUS7TQfF52NnhNHLDHkI1YmBWoUt61iYWSNFNfnB82y
+jxPd8+d0YiONCwyV3hP/OouvhK3hAiE3wnbbag7m6W9l1nAoPKH1K53kIh7Q6dKUnxXw4ZaufEjq
+YUYojfc9cGQECKO+sJc9Kype373hJMaWK/Is3gAQtpk9AGqsk8WLm/sQUfip74w+HzRUMDY4KI4w
+qSY=
 
 -->

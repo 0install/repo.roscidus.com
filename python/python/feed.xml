@@ -740,6 +740,34 @@ language for applications that need a programmable interface.</description>
         <remove path="python37._pth"/>
       </recipe>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=c777f7b527c53ed292cfc46f0a78bc36a5fd36ca" license="Python License" released="2019-10-15" stability="stable" version="3.7.5">
+      <manifest-digest sha256new="NWLYVRG7HFLXG5YZJDKXGOQFI5DHRCPODYUGYKIEZ5O2GVDOYZ5Q"/>
+      <recipe>
+        <archive href="https://www.python.org/ftp/python/3.7.5/python-3.7.5-embed-amd64.zip" size="7500597" type="application/zip"/>
+        <remove path="python37._pth"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=392a7f612d4b2b2447165b2583f78a0ab7c6c0d5" license="Python License" released="2019-10-15" stability="stable" version="3.7.5">
+      <manifest-digest sha256new="CS5MXMPU3IZFQ7LEOSWCMCZUR4KAG2EKO627YUDORYOZDIODPKJA"/>
+      <recipe>
+        <archive href="https://www.python.org/ftp/python/3.7.5/python-3.7.5-embed-win32.zip" size="6745126" type="application/zip"/>
+        <remove path="python37._pth"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=99a453500bb767d16e66c20fb46472e5eb329b6d" license="Python License" released="2019-10-14" stability="stable" version="3.8.0">
+      <manifest-digest sha256new="33CLIUHH455AGBAESEDYBSQW62MCT7VRVSW5PIXD3IBAWS3PFIYA"/>
+      <recipe>
+        <archive href="https://www.python.org/ftp/python/3.8.0/python-3.8.0-embed-amd64.zip" size="8084795" type="application/zip"/>
+        <remove path="python38._pth"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=d977b6de00b3ac077caefb88bf383a62b1129b08" license="Python License" released="2019-10-14" stability="stable" version="3.8.0">
+      <manifest-digest sha256new="PNK4Y6KFBNOS2SAH3U2IXC3CFFDJQL63KS6WWMGNSFKGBAPJWYNA"/>
+      <recipe>
+        <archive href="https://www.python.org/ftp/python/3.8.0/python-3.8.0-embed-win32.zip" size="7213298" type="application/zip"/>
+        <remove path="python38._pth"/>
+      </recipe>
+    </implementation>
   </group>
 
   <entry-point binary-name="python" command="run">
@@ -772,11 +800,11 @@ language for applications that need a programmable interface.</description>
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl0pmyMACgkQIuoRGn5CQqR2kAgAhyIB
-iFPJ80yLIXW8tSkmWXP8alC4qJ+cNZha0z9/5rnWVkYTaoy4Zbw1R38ByHLloUySuGoh6uudCuZe
-fWnp41hp6YzjzEErpAVc1V8xuh8dFB2cLmHSxw93Brn1l7SgRWqwsc/tMiPlVZ5YqspSQGST8MpS
-iLCKmAsKfujwXBI/s3ne0EHsNq8L1r5oQqgQ8waxK9v74S1opUtkix0dwSAqTLd1v1HuJzclrfuG
-8672Kaxr58TF8nOOBZBDZ4ypsYHJ+AJ6RvmQsBbgb2oI0mpoQtTTz1IwnQZwym11MlSRa/t7nTZs
-RsJqLCqSnLfXIvVcxPliTgifjZB/qUYwXg==
+iQEcBAABAgAGBQJdwxC+AAoJECLqERp+QkKkxFIIAJNE66CsHiH8c2wNYbIDlOTxhcF0PmdbL4K2
+Qa+bWwpX4jP50S1NsKdSL1r4u/GEH+AJ7sM8hTNrUEU4DUEm0bcISSJrTImFBh5lKr79EyLuRGdx
+EOO87cqHhV8Ve6TAr5xnjPGH76gnGjhpImWuoOJE6RtgScO6d3yJ2OAsphIxaQiZ4yBSQx2exoWX
+tKXDSq3b1ps8VOhwTn2faVCZgZ+hvLKxqLszg6WPK+rHGdV2lJmwDHkLIL4CB2yuqXLwleYWpuki
+VY4/UoplPj1168SHSy1MtqmV94M5Rwrw+qTdxIirxQc8zEoERoOXyGhe8e8vb84mkneOjt6SIbH8
+/nY=
 
 -->

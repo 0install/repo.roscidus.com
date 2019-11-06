@@ -360,6 +360,14 @@
       <manifest-digest sha256new="FO6VHEJO7CZQQMSWNX36NWPX45CJCHUGP4GJXHEDYFXIBDTC3XWA"/>
       <archive href="https://github.com/git-for-windows/git/releases/download/v2.23.0.windows.1/Git-2.23.0-32-bit.tar.bz2" size="114235861" type="application/x-bzip-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=f1b47895d99bc902f9d7b4b879d78bfad56aad01" released="2019-11-04" stability="stable" version="2.24.0">
+      <manifest-digest sha256new="GXEEMHWBOMDDNVIQG7DH2EPWUN6MUHZWSBPPMWAHGDEVCQC7VBIQ"/>
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.24.0.windows.1/Git-2.24.0-64-bit.tar.bz2" size="113661812" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=a3bf958f03d4688efc63d93b66aa112dad8202e6" released="2019-11-04" stability="stable" version="2.24.0">
+      <manifest-digest sha256new="T64KWYFXQKVGXLK4DUHNJHQLA3LFKUGNW6BHDYM6K2C4UAB37EGA"/>
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.24.0.windows.1/Git-2.24.0-32-bit.tar.bz2" size="111500278" type="application/x-bzip-compressed-tar"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="git" command="run">
@@ -434,11 +442,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdvWuPAAoJECLqERp+QkKkcFUH/0A83JIE6Ayvmzi98BSdDsl7DkB8PC7w/6Y/
-MGKaOgKXHn24EmR1ALNueVC27NXJttBdbzkG6DF9pVHKrV7w9l9PMVLkE8uAV30ZkLamp+ntkBEu
-S5Xg9qgM8WuMpISDjJNLs/6bIag4Y77XDd3KhhiLneFj03pdVTxMEF+qaWrJFHHBwsG1O8gkohkg
-6k93ApfRG88mPOjFmot+wE3o+Ksl/DGaUikQolVPyTUTj6DvRJUrXBEnyWu+UEGVWUrUN1TJM6MJ
-R67qz89/17GdRczl/iOxkjmTELagnlpeYkDkWpR2zkBU2vSi18yygLXk/4XafE0ednVne140eYuv
-VyM=
+iQEcBAABAgAGBQJdwxC8AAoJECLqERp+QkKk5fEIAOb2tMIQGBaUjG/iChdEX+k3aAAInq+4oZGI
+VrMWjtIVGBrZF/hYLglg6wpCj6rjQ/TE8DfIpe/2wfy2sSK2BAafjzNV8Q3HYZ22TTGd82CvHgVv
+cpgCBc7OLh07y6TKF7YFV1nCm46uxXoBrlqphgLW/8BPzEo5y14MIbK4VMIv9O4Wxyp45dg6ve4q
+b/rIQ1cGBgyG/FvfnbiI9rKD5TMziN+wmbhadLXUHof6vxyuVB4cFkzDUGeAdMCJhVdz5Oyz+tri
+33EwAce4I4tqXWGX2acetz/P90pGKxUn5zS5lFHWexJT7ZBEh98qeQ5ylxRYEls695SQPm3PcCiW
+tTE=
 
 -->
