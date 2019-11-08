@@ -317,6 +317,10 @@
       <manifest-digest sha256new="O2LBJUYQIZKAM7DS3SGIL7GG4JU2KWDK3SFREIPCBZHIS3WYOMSA"/>
       <archive extract="kotlinc" href="https://github.com/JetBrains/kotlin/releases/download/v1.3.60-eap-76/kotlin-compiler-1.3.60-eap-76.zip" size="53050622" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=99311f0ea948d43bc8db8a88626f5b90f2c30d3d" released="2019-11-06" stability="testing" version="1.3.60-pre-143">
+      <manifest-digest sha256new="K33I4ZXGEH4VI7YNIMNLGGJNVQ3U5DOW4KYYJI7Y4CFXZGDMRESA"/>
+      <archive extract="kotlinc" href="https://github.com/JetBrains/kotlin/releases/download/v1.3.60-eap-143/kotlin-compiler-1.3.60-eap-143.zip" size="53117357" type="application/zip"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="kotlin" command="run">
@@ -349,11 +353,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdsHluAAoJECLqERp+QkKkSawH/2Hx3zE4o0ovR3RK55EOb29vYHSIiMtV0rT0
-6xCpLvI1APm2R9doIWLbB6K9eWW/w/7Urm5mnbXF+WKD74tl/rQICrVBxg44P3LnYg99Xxbo5KdL
-H2LHhB1nVkg0bxhD17398jL1lZKSMR+Y0NuvexX94r+lYEFFJYTVXuYYTYS0ZONIRf7UjfXO9E8j
-EjUnV6g3OyRFxcBbAtTGBItDgtYbkiPTxHV1efSJW4SECZxGFE7KURBaZx/ZxI14Mf1oi0odFoGL
-xn7+Lk0mGTdIagLlhkft/J3z+uHADqHlApAJnJ+6Jfvd9MTJ+3pPGnwpVee0MYtjSTPdI+1xnX8M
-fig=
+iQEcBAABAgAGBQJdxWSVAAoJECLqERp+QkKkNqoIAMK/B+7Wl5SCWFZ2Pkddz9zYfzgmrcNHAGMu
+MnFdRSnKmh0YMpSuxMyEZS72RPzu4Mb6a39r9cPPMQtmGRZ/tqxVYh4g3ENpntoW02/vPPo2pCPS
+OVbMRJBaPrtI7eEPH9u4DxrZS5ynsMmQpm6UR0JjXP/Lqm/0nY6HCWUIlvmmD1jvl/sAI+Y50nlZ
+x3s6nkC9s9toq5J/FEKijWlAaiXIndevxHMxFKvH7IqdkG27wJzc6suLa2U6Kuh0oEAYmcxCeFMx
+4Vd1b7VRN2o9YSvoDbroKIfHvVuqvz7GdKqkaAG2FGEA4w7MUtRrg5VNU5t7pVkGvlcLnQXT6sIG
+Lc4=
 
 -->
