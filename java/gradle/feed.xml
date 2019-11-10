@@ -970,15 +970,19 @@
       <manifest-digest sha256new="3O3PTOLZIMTSSFA3XIJX7PPHMYW4HRPCM5RQKW7WIMN3CWJFFCTQ"/>
       <archive extract="gradle-6.0-rc-3" href="https://services.gradle.org/distributions/gradle-6.0-rc-3-bin.zip" size="95126562" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=6fc0d6cdb8619240a447abb720d5d6c0b8788bf0" released="2019-11-08" stability="stable" version="6.0">
+      <manifest-digest sha256new="AO3PDQOEZIF5CFMWOLS76STMWMGER4ABRZHUC6XLWUX2WPK2TBTQ"/>
+      <archive extract="gradle-6.0" href="https://services.gradle.org/distributions/gradle-6.0-bin.zip" size="95124297" type="application/zip"/>
+    </implementation>
   </group>
   <entry-point binary-name="gradle" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdwxC8AAoJECLqERp+QkKkkj8H/1SRdywFsBmXFzC/p2qesHSAwAvqNbcRQTr4
-2KJM7cIHxPvDk6Let+Zo2nfAEWVzZIPDFN757FAX3+UNp4lY5BUB8T4hRNg+Kx4RJN/ufkxM+CTy
-ojUX89pWf7c6hIu9Y98DpBMMe96qHFCpjosIMCN51RXnkN6oYmT9ZLNy4FKS3DVsDMHgrrfPLVho
-LkUxVXU4vTWWgJFD+VjLmua1dj9oPob6xuH1dAZS6In340gh8qANLz5weCyQfHDKlciOMbjjGs28
-0ZF60ocXvfTfpPZ6YNnHLwN4rOJMqC0rB4vBeY1kxiD/J2NoCJOjxfsKrnS8JkljgueY20QN1K8u
-egI=
+iQEcBAABAgAGBQJdx/rVAAoJECLqERp+QkKkBEgIALCw/J6c5sjU+IY6e9rp+dmoP8tvCKgpO3+3
+0QYNpNrpzFmQ+TMfw8kbA9+VQnjRzehxT1rGWxSWF46s9Y659pdGVQJfqz72zFS6RIsB1kxn98kR
+7w9gDsbwxgCLh576m+Xvi8KSFUl8nzSLbZDqhV5SZqbc5plbv0d/fU+TK6JEbfJeMfrJGNvA7gt6
+7qQtcyRF2bkrN+MG9c/kP8N8ccpg39eWtYaqIuqoQaqq639Cq54XS7M4GIpO2NFWkyiG6ntnjrGc
++gFOPgleBDVjsKGWA3rJcgSwmwym091IajMMqKPY/DeGuNmUEaSTMUDWy38FRzewHAvSYxSIV/SF
+Ba4=
 
 -->
