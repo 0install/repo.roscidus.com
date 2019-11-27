@@ -321,6 +321,14 @@
       <manifest-digest sha256new="K33I4ZXGEH4VI7YNIMNLGGJNVQ3U5DOW4KYYJI7Y4CFXZGDMRESA"/>
       <archive extract="kotlinc" href="https://github.com/JetBrains/kotlin/releases/download/v1.3.60-eap-143/kotlin-compiler-1.3.60-eap-143.zip" size="53117357" type="application/zip"/>
     </implementation>
+    <implementation id="sha1new=da39a3ee5e6b4b0d3255bfef95601890afd80709" released="2019-11-18" stability="stable" version="1.3.60">
+      <manifest-digest sha256new="4OYMIQUY7QOBJGX36TEJS35ZEQT24QPEMSNZGTFESWMRW6CSXBKQ"/>
+      <archive extract="kotlinc" href="https://github.com/JetBrains/kotlin/releases/download/v1.3.60/kotlin-native-windows-1.3.60.zip" size="139987371" type="application/zip"/>
+    </implementation>
+    <implementation id="sha1new=3fcfffda4ca82d59ba5bf5d869d1b70860185822" released="2019-11-26" stability="stable" version="1.3.61">
+      <manifest-digest sha256new="D572MFFTVOF5ORRL7BZRDHUXLV7VHRSWBRYIOOZ453JLGXBLUP5A"/>
+      <archive extract="kotlinc" href="https://github.com/JetBrains/kotlin/releases/download/v1.3.61/kotlin-compiler-1.3.61.zip" size="53125546" type="application/zip"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="kotlin" command="run">
@@ -353,11 +361,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdxWSVAAoJECLqERp+QkKkNqoIAMK/B+7Wl5SCWFZ2Pkddz9zYfzgmrcNHAGMu
-MnFdRSnKmh0YMpSuxMyEZS72RPzu4Mb6a39r9cPPMQtmGRZ/tqxVYh4g3ENpntoW02/vPPo2pCPS
-OVbMRJBaPrtI7eEPH9u4DxrZS5ynsMmQpm6UR0JjXP/Lqm/0nY6HCWUIlvmmD1jvl/sAI+Y50nlZ
-x3s6nkC9s9toq5J/FEKijWlAaiXIndevxHMxFKvH7IqdkG27wJzc6suLa2U6Kuh0oEAYmcxCeFMx
-4Vd1b7VRN2o9YSvoDbroKIfHvVuqvz7GdKqkaAG2FGEA4w7MUtRrg5VNU5t7pVkGvlcLnQXT6sIG
-Lc4=
+iQEcBAABAgAGBQJd3ffQAAoJECLqERp+QkKkOkMIAIwMxp6dPiX6EtpNg3EefFHDh3km6r9bc+Ru
+B40MlRHfuasQJakKFn4qmvleiQYsFmFKKUSrSSPIJwEKJuCIy2V1N/ErnQ6pQiCUcHxF7oNRa+xD
+HfpeyvR59cxJl7o13QYXg5+AOcJ4gBW3LmboYiIO/ng+X1L9jbZEMKXTXnO/to/h+aXKm2mGSVV0
+M1NzPUa0fBqngbYhxyl2jfth+MXOSs29br6440ftNX0LbYSFRv7IbdNVVn9AyWXtS7vUeRhiLAgU
+up4PHi1FKLZmNgBxZLJFROp3WqMiDsLd21oa3X5CrEqz+yA3jTzO/1QYVdOONDDH+pMEUUJoW3Ll
+yKQ=
 
 -->

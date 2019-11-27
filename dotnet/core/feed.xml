@@ -8,6 +8,7 @@
 
   <group license="MIT License">
     <command name="run" path="dotnet.exe"/>
+    <environment insert="." mode="replace" name="DOTNET_ROOT"/>
 
     <implementation arch="Windows-x86_64" id="sha1new=3b6b553323faed5bc5d5ab48f3d06336ec97961e" stability="stable" version="1.0.5">
       <manifest-digest sha256new="APBU2X4R24EOJVK2ZDAC4YT5BDUSMDYOBSCA337MKZWJPE5KCQLQ"/>
@@ -325,6 +326,7 @@
 
   <group arch="Linux-x86_64" license="MIT License">
     <command name="run" path="dotnet"/>
+    <environment insert="." mode="replace" name="DOTNET_ROOT"/>
     <requires interface="http://repo.roscidus.com/lib/curl"/>
     <requires interface="http://repo.roscidus.com/lib/unwind"/>
 
@@ -356,6 +358,7 @@
 
   <group arch="Linux-x86_64" license="MIT License">
     <command name="run" path="dotnet"/>
+    <environment insert="." mode="replace" name="DOTNET_ROOT"/>
     <requires interface="http://repo.roscidus.com/lib/curl"/>
 
     <implementation id="sha1new=e24b80194c902f0f6a05c40f18c06c0c968e7819" released="2018-05-30" stability="stable" version="2.1.0">
@@ -454,6 +457,7 @@
 
   <group arch="MacOSX-x86_64" license="MIT License">
     <command name="run" path="dotnet"/>
+    <environment insert="." mode="replace" name="DOTNET_ROOT"/>
 
     <implementation id="sha1new=198366e0f8aeba19d0301dbd446df1c38df98646" released="2018-05-30" stability="stable" version="2.1.0">
       <manifest-digest sha256new="LME5QVGLLGPYKHK3SECXY2DFXEEZRPN6FLFKVEK3DWLWX2URWUKQ"/>
@@ -552,11 +556,11 @@
   <entry-point binary-name="dotnet" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdinzVAAoJECLqERp+QkKk7ZgIAIWr4p/OzKubqwUZo9eRmZ75VDTwDLHOYsoy
-mRF/8p3wZpRIQ/4TAcHTvYsjqT+z2TdwOMXdxB1YPRerFkaJJqy+mTxWiWIO6BR1IuoSzykuDcCh
-GVab3fQ1oWabrfXNhcEZlyFuQqGXE60qdmo970YwwDBjfiILx9Bros4YN8kJUj40YgI2dxw3nfP7
-gQmlUdrWW4CGTbkUfUd3o9vOirCeHhsF2VCD/8LE6JTHGoBeJHR0vdcPFw9PKZ75KiPSEtl55N0O
-UKw+MkVkt9Gy8TKSNzAwgrEzLb/dRRRYr/w5AM45iUCSQc2ZBknrqMbkggYW5/HqxYMV+PfIJmgJ
-2ks=
+iQEcBAABAgAGBQJd3ffQAAoJECLqERp+QkKkzAgH/RirRH7zmhj1u42avR+jH25fOlykfVt7IMq0
+gDCScYilSuTXgUWBXQ44+3ewWa5XrqiLYBcJDOUFUg+ngTGsY7b6NRkz9iD3Ll0Es13bfCthGPP0
+0eGo4muph5OyKccuOo6BQqvAajj1u3PM5jmrH46NTBKq9e4rNOG8+eLqkDapVTjbNWfgJpbcoNkj
+YqizQjfDmyQEsnRXJ3hVMlpcf3A21E0qGv54T1cSLfD9Oi10Fs/xCn/AOmbwACQWX85360vbymOk
+y0/Hl9hv3ZyMABNmpTSIkAjZ89g/FSUQyWCJOeYRfUepbEGOAAS8YkHc3ti6ZdiO0EcEOxVEjnH1
+a0c=
 
 -->

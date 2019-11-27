@@ -1156,6 +1156,14 @@
       <manifest-digest sha256new="ISDM2TO5X24UYOQKF2FMZUCD3LD3O4DI7WIHMORLP6ESEKP4GE5Q"/>
       <archive extract="SourceDir" href="https://downloadarchive.documentfoundation.org/libreoffice/old/6.3.3.2/win/x86/LibreOffice_6.3.3.2_Win_x86.msi" size="296579072" type="application/x-msi"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=ae9651da153dd3deaeab2b7a593e6bccdddbfd68" released="2019-11-24" stability="stable" version="6.3.4.1">
+      <manifest-digest sha256new="AEN6TK24KETNNAUPG2MR6MI5SX7HVWIEI774QCWVC6M4LNTYNRNA"/>
+      <archive extract="SourceDir" href="https://downloadarchive.documentfoundation.org/libreoffice/old/6.3.4.1/win/x86_64/LibreOffice_6.3.4.1_Win_x64.msi" size="318210048" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=f841e433ea39533a77ea3f6884469fd170f10e76" released="2019-11-24" stability="stable" version="6.3.4.1">
+      <manifest-digest sha256new="4W3PLFQBML2JQLCAZTW6LYLVRXVOAMQ2THEZGJHTLCT5R4GIOMLA"/>
+      <archive extract="SourceDir" href="https://downloadarchive.documentfoundation.org/libreoffice/old/6.3.4.1/win/x86/LibreOffice_6.3.4.1_Win_x86.msi" size="296771584" type="application/x-msi"/>
+    </implementation>
   </group>
 
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
@@ -1516,11 +1524,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdwxC+AAoJECLqERp+QkKkg9AH/1dUZ0lnKu8j09I47mxq2GNyLiC1Ug+JRTmA
-gKN/hhfUhzZOeRYjcpk1k35+9ZwBCZNXAQNKgaeDwhxP+jwBuwczdc7ZBsph6DCPWZ+6zoKxWnCx
-KhbAfwSYQ+ziqpfbP0ZxT0QQ4XHz7xjgmUWVCO62wwxZttN4Ts4iyn20gkXyE6/BWOJlL4+HBk3y
-fjRPHFoVy3oQvyPHM1hLahpt3adGbMJPNcLlXyzdUvjcz6e4hGQ6Hs2pS56hRVvjUvFZJ4ADoCM7
-TIuvOAfAvaC45e+/pScMiz+MNOivI/oZah23jtk/Qhi4yEhoaJbFVgh7fGvWf8S7atFOsMlfcxWv
-uXw=
+iQEcBAABAgAGBQJd3ffSAAoJECLqERp+QkKkiksH/2G8TT5mPCkwix3/QyFF5CH6u/5xi+Irrhlb
+cNE4CME5Z5sdjfNqlheqFoEqM9Ab3TwWtvX6YHykugO/fPwgWfAgkNFZhAUiN/EQRr/3+jVfmo0w
+JLz77QKSfU5OcLZDNu4psxhU5W3TwI4F/GeD8VF7yBpyYDZvop0MXgcrS7ZJPqQpEDZICF8trYzz
+qbwzVlT3ye5ZsXtO4GhO2ByDPtraYraDSChMpKczaJREXrMlSQIbN1MDy4TVVBC6pC+OGkz4h+h2
+44oYOWSpnYeS7sf58hcWwdhfdpqTCA/sSSRYAAtCrSYiY7LoI0Xom3yNbGNS1Uleht6Jlm0LaLne
+94A=
 
 -->

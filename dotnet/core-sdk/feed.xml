@@ -10,6 +10,7 @@
 
   <group license="MIT License">
     <command name="run" path="dotnet.exe"/>
+    <environment insert="." mode="replace" name="DOTNET_ROOT"/>
     <environment mode="replace" name="DOTNET_SKIP_FIRST_TIME_EXPERIENCE" value="true"/><!-- Prevent extraction of NuGet packages into implementation dir (which is read-only) -->
 
     <implementation arch="Windows-x86_64" id="sha1new=c2e0c6e906bc9a148ea70d065e7693e1b0a9fdf9" stability="stable" version="1.0.4">
@@ -496,6 +497,7 @@
 
   <group arch="Linux-x86_64" license="MIT License" main="dotnet">
     <command name="run" path="dotnet"/>
+    <environment insert="." mode="replace" name="DOTNET_ROOT"/>
     <environment mode="replace" name="DOTNET_SKIP_FIRST_TIME_EXPERIENCE" value="true"/><!-- Prevent extraction of NuGet packages into implementation dir (which is read-only) -->
     <requires interface="http://repo.roscidus.com/lib/curl"/>
     <requires interface="http://repo.roscidus.com/lib/unwind"/>
@@ -536,6 +538,7 @@
 
   <group arch="Linux-x86_64" license="MIT License">
     <command name="run" path="dotnet"/>
+    <environment insert="." mode="replace" name="DOTNET_ROOT"/>
     <environment mode="replace" name="DOTNET_SKIP_FIRST_TIME_EXPERIENCE" value="true"/><!-- Prevent extraction of NuGet packages into implementation dir (which is read-only) -->
     <requires interface="http://repo.roscidus.com/lib/curl"/>
 
@@ -727,6 +730,7 @@
 
   <group arch="MacOSX-x86_64" license="MIT License">
     <command name="run" path="dotnet"/>
+    <environment insert="." mode="replace" name="DOTNET_ROOT"/>
 
     <implementation id="sha1new=56bd3430f1d39e17d349961606103f7d69fde44a" released="2018-05-30" stability="stable" version="2.1.300">
       <manifest-digest sha256new="QVWIXJFEFD6AMF34RJAQN45KZT2JJOOP7ESO4CWZDDF7ODWZBE5A"/>
@@ -797,11 +801,11 @@
   <entry-point binary-name="dotnet" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdinzVAAoJECLqERp+QkKkq9UIAMIkwZY1FS3cWpRL3H04N0GZmZMlNXWfT4EB
-jfIao4CWuesOfu/6D1KNFSnf4AGtS8WHtoEMA3dDp3efvzniF2LoA+dGIVM4KI5/dFl2kZtIXbRg
-d9+903DH6Q+zZltdB931/IqkLXR8sWU7TYAF8yEkPFWcxgiFbUd3rKapo+ZlM7033EPzUOklYssK
-2xFncGSJ2M58dfIzH1Mr6fK5Q5gdw0qjCV8L2R64zntsrKDGmWe47WqMRuARGef3LoTLnsjfz0zr
-MXG71oOvYjzFgtvX32xBi1t6xfv+815pYMaH7mobDSqzL2Gl9gyijPm0YRP7AhnHQi1chuldBPK+
-c/o=
+iQEcBAABAgAGBQJd3ffQAAoJECLqERp+QkKk8NEIAN1ccbXbPYjjBsFHoXGLzTFdnVeOTDTo0SlM
+xFMGzRxKGJWmrQxWMmwAPga4hmhAZxZxGl9zYbA2SSUwS+GaPizXerRN5CCe70iEAAt6uoTXkjnG
+4WG92F0PQpq5JVHac6k7SEWCz55DuTnzBtvwQn8lFgYkoAuETxwBs16lhqALR2o3d4Jeg1hT/lFR
+zYTAdyELqrk5QxCUuCe/VkXyT1MxHSnmGn24aWPUJbVDIlfvVvZHkpM5snnsogagh91dBfSufeSB
+KrfBMlocIOg2Z5IMBYpPe1pgZCgoTrOUN4+Mz6+pPzNJICXA1rh1LDeGpZ65Q5dU6Nd6lK8MCXII
+J2Q=
 
 -->
