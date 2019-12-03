@@ -2622,14 +2622,28 @@
         <remove path="ffmpeg.exe"/>
       </recipe>
     </implementation>
+    <implementation arch="Windows-i486" id="sha1new=7996234a776b4c5239fe744abe3c8c4d8f923e09" license="Apache License 2.0" released="2019-11-30" stability="stable" version="7.0.9-7">
+      <manifest-digest sha256new="DS3UGYWFGRARER5TITT42TT5WO7CNWOHEZZ2H4KQ3GTAF3SKPW3A"/>
+      <recipe>
+        <archive href="http://ftp.icm.edu.pl/packages/ImageMagick/binaries/ImageMagick-7.0.9-7-portable-Q16-x86.zip" size="80081471" type="application/zip"/>
+        <remove path="ffmpeg.exe"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=beac45567dcc033859cbb75845ee53e92b98f83e" license="Apache License 2.0" released="2019-11-30" stability="stable" version="7.0.9-7">
+      <manifest-digest sha256new="DCICVKDXSL3VIATGDH34X36OSWYTE66WAIIYJXFVQ3CQDGFCLE6Q"/>
+      <recipe>
+        <archive href="http://ftp.icm.edu.pl/packages/ImageMagick/binaries/ImageMagick-7.0.9-7-portable-Q16-x64.zip" size="90319933" type="application/zip"/>
+        <remove path="ffmpeg.exe"/>
+      </recipe>
+    </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd3ffSAAoJECLqERp+QkKkswkH/iVqf1v8GJsbdNcjiAnudZVQp5ciwq+lsD5o
-dy14DoS4D8VoeiXTB8x/EYakLQMinbzUMInuKYGB4Is+Aqeemy9RKb4+jhZa5hogEq/Z2sesEtt8
-IHiRucQTmbGHLAdfhoPlv7CueAjUuf8Q+PZCUOqlR3RvFj+/HbPdSfCyhzsRNAiEDbttAZVLE8KM
-yAq0Kv3yQTO5cLrsatZ2gg37m7dH9OlER7hroukVeFCwmaOEikJG6SXDUcxSglValC0yAPAyUHrR
-Wf1oVazk2cfSNzol5QcH9KopsCAsolCoR1gFynUOrR38w2wLuZf4REq1ZssPMUWwLiWj5rdLGkTQ
-2W4=
+iQEcBAABAgAGBQJd5nkDAAoJECLqERp+QkKks+MH/RpmcScYBx70MmZeDU8Mh9geHMvao2/3Ca/D
+kKHC+oFPxLXsVt+SgrKaFYT+h0uo/zQnJ2lUQhIW3RNqYN6UWBIi/yrhtTTmxWo0sg5OZ6UMJG+3
+ZooFflBGv0aInhmWn0UrBlNS8dAnzpJCdN4y604Gm0ov7BhdCBkyiQiiTjohx1WSL0h0SSE9Vu0g
+ftXTASK9T8d8QIECuW3Oqyelz8FzlYZBoCqCFzlKIU+q55UhGOOUvcd7Aqp5tfp8ZNFRoDgckMMv
++A8Oqbte0W77nAJFNTkGgeMNayPajXx9WiPR0el5DzyJHbQzkCTXZlVk5rXcl2tet3hZ+AR/l9Zf
+rNc=
 
 -->
