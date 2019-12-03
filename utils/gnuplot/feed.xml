@@ -153,6 +153,10 @@
       <manifest-digest sha256new="MWB5NR3HORAT6W5PZ6WIFVJVVBMIB2ZCYWLQHVCJRALX353SQN3A"/>
       <archive extract="gnuplot" href="http://downloads.sourceforge.net/gnuplot/gp527-win32-mingw.7z" size="26351362" type="application/x-7z-compressed"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=22dedaff75ec03d5bae3b694291bb9026d1340b9" released="2019-12-02" stability="stable" version="5.2.8">
+      <manifest-digest sha256new="B2PYE5REWSAKXO2T27REIPAY6UNSWLYM3G225FVNTCGYF7RNYIOQ"/>
+      <archive extract="gnuplot" href="http://downloads.sourceforge.net/gnuplot/gp528-win64-mingw.7z" size="29000356" type="application/x-7z-compressed"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="gnuplot" command="run">
@@ -165,11 +169,11 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlzyZ8cACgkQIuoRGn5CQqQLMggAumHL
-dbvIM+E9bjgVv3sa5auIKkz5ogBlnBl76est31IdUM7kDfypmPv9+DeMxGHOfwTHdgzOOR6vzODf
-xJq2zKM8+BsvGLYK+66q4Ilnq7oDN6VGIpc7P6/mFywepVS3utDySMxOvQVd2udq07O+rXjmIj7f
-h0qxdUmIabteZ10xvQmX13GiXn9kCl1mYFpJfKzy8DgWSBN/gn8rjSZrZ7tJv9AGyiQMzlX9pP+S
-mFAVK+eBzJKiVQfqWwM3tBeG5nrpsseWdNMFXmTs6dAFdKBtN9HfUT+gEjY4MhZ6VyNtSMVsKf8M
-XBLbMmqG6UQRp9YBKSYqiZ3GBOlROwbeAA==
+iQEcBAABAgAGBQJd5pfnAAoJECLqERp+QkKksJcIAJnW6XsLUyxKqwlmx/Q1xgU01LOl+n2sa22x
+w8PDtZp8+Uf1JUFh9mwGz5DVQxjN9dAEKroVNi9v0dv1b2Ut3FRC9EWi3nIdYNmRiCw1SOU1csG6
+QzvcvblNfQn92Rkv0zc5TeMawFq2D/0Nh1TVwYOqiH9AgG04244xLoQppEs2XTiAKlPafPKXWG0U
+2Z0bPxHopzqQoDn+3DDi4z637H7yfPJCuaxvU0Q92d41pA47kU7GXbJ8gWpwzvuzXTQ2hPhk8nux
+OeRFai5H9smtMlIUlufmzdBbOk+JLz2oEy8SAft+lIYyYU0oWTzmZLJRwnsC4toYaCwYDcuG9jOw
+ANg=
 
 -->
