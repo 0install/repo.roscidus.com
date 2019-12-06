@@ -4,8 +4,8 @@
   <name>LibXslt</name>
   <summary xml:lang="en">LibXslt: library and tools for applying XSLT to XML-documents</summary>
   <description xml:lang="en">LibXslt is a library and tools for applying XSLT (Extensible Styleheets Transformations) to XML-documents. XML (Extensible Markup Language) is the universal format for data on the Web. XML is a metalanguage to design markup languages, i.e. text language where semantic and structure are added to the content using extra &quot;markup&quot; information enclosed between angle bracket. HTML is the most well-known markup language. </description>
-  <icon href="https://gitlab.com/pmiess/0install-feeds/raw/test/public/gnuwin32/libxml.ico" type="image/vnd.microsoft.icon"/>
-  <icon href="https://gitlab.com/pmiess/0install-feeds/raw/test/public/gnuwin32/libxml.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/lib/xml2.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/lib/xml2.png" type="image/png"/>
   <category>Development</category>
   <homepage>http://gnuwin32.sourceforge.net/packages/libxslt.htm</homepage>
   <needs-terminal/>
@@ -31,11 +31,11 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdoailAAoJECLqERp+QkKkraUH/1lPcFKiibjENnAuTB1gpVkoQMXfy3ENiQdL
-z90b0Ga2Ev8M6Onrk0TWc2EORWFbKC740hFwx/fbov7IRPFe1ZCBq9DIaaIysQ7P20oXYxNcN3Hu
-oCnZcJIRMzEQzz51+jIK7bJYY+e2yEnGqwAM3PPre7HoYUTF4oo5kC4M4CXbKQzy5Gp0QyU9buTE
-KAIlpMZ5oLRP60m6T27hmfDyc9dNkKDQ2ju/Q7C43ggZATjJVuai6Jv2EQp3G9L/J6L9L1ZpWXA6
-m2ijWN5IYZiCU4SWe2YAhQJeGlfp8BQThNEXOI38N5G00Zn33rsX1zi8bmf1xd3rTEUGYqU/Dr6j
-VDw=
+iQEcBAABAgAGBQJd6oNRAAoJECLqERp+QkKkHewIAKUDg+FZ3qjzmFX+iYxd+TBogu7gVFoxlSxL
+MHLv+/Eerjh5WdkAIh1jDzE7AQTPZFxvLyqUx6z5FFl3vH8IEqKJz6c8VT7JvOD2aC0uMlEQ4/S1
+CeaLSSFhQvDmBwnF06MOE3lbYGXX1A0F58XiQg2g+YEm7EiS5YTvqyvVXpbELz1qWBjYUyAJPcht
+GMb3E9Ul5mPkIAyjd6joA+30BcCgr52T4VNAEGWuDACgDZhf82xrQI3t8vR/heGiP7YogMbljQgN
+x0JQJCeG4HT9bnbNoqnKXM75mFSF5WQh2OCjjyjHmy96mT8POJzjJ3iWK8w8OtwHFuN8HZvgPX7v
+/ns=
 
 -->

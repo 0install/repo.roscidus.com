@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/devel/patch" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <name>Patch</name>
+  <summary xml:lang="en">Patch: apply a diff file to an original</summary>
+  <description xml:lang="en">`patch' takes a patch file containing a difference listing produced by diff and applies those differences to one or more original files, producing patched versions. </description>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.png" type="image/png"/>
+  <category>Development</category>
+  <homepage>http://gnuwin32.sourceforge.net/packages/patch.htm</homepage>
+  <needs-terminal/>
+  <implementation arch="Windows-*" id="sha1new=e5b5c5dc2ea41790a2e36dbe510be62340fe60d7" license="GPL v2 (GNU General Public License)" released="2007-05-15" version="2.5.9-7">
+    <command name="run" path="bin/patch.exe"/>
+    <manifest-digest sha256new="CFQB26PQ6GT4JJ4QZYUNXU7NLLY6JY4AE5RQOYTLPVUWBFVYKL5Q"/>
+    <recipe>
+      <archive href="https://sourceforge.net/projects/gnuwin32/files/patch/2.5.9-7/patch-2.5.9-7-bin.zip" size="126248" type="application/zip"/>
+      <file dest="bin/patch.exe.manifest" href="https://github.com/MiKTeX/miktex/blob/master/Resources/Manifests/asInvoker.manifest?raw=true" size="380"/>
+    </recipe>
+    <recipe>
+      <archive href="https://github.com/kkeybbs/gnuwin32/blob/master/gnuwin32/patch-bin.zip?raw=true" size="126248" type="application/zip"/>
+      <file dest="bin/patch.exe.manifest" href="https://github.com/MiKTeX/miktex/blob/master/Resources/Manifests/asInvoker.manifest?raw=true" size="380"/>
+    </recipe>
+  </implementation>
+  <package-implementation distributions="Gentoo" package="sys-devel/patch"/>
+  <package-implementation main="/usr/bin/patch" package="patch"/>
+  <entry-point binary-name="patch" command="run">
+    <needs-terminal/>
+  </entry-point>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJd6oNRAAoJECLqERp+QkKkjK8H/3GcNIxBlhGlPHBekN1FLXDEOypE+tRvWpff
+4q8ih/b20eMpftzCvQayPUUXp6KkCjoNGoySsm1jGoou6s6Gs6I/v1p33h9zBTG2vfWoKPzHN74R
+VmP7RKgEJHATqzYwJYxd2m1Zc1AEIhLkrYBFJWz/l+E7vtyDnB2S2o06Xtkr1BphDYp+3bVKw9Q4
+Iwg71u282WEnDnike7RyoNiIR0Y858GUZKXTPuM+B19RNqaAKVu+h9XhQ0EhtItwCYkwU5UHZJXY
+QqSrS+/+EszkfFHTjJVPWu/9Q5h9zc+wrg7qQQ6PUr/tK6PeERm993rBWZh3OZOjjmfor5X4sjY0
+PTI=
+
+-->
