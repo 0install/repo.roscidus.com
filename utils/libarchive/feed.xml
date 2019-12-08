@@ -31,7 +31,7 @@ The bsdtar archiving program is built on libarchive, so offers a variety of mode
   <homepage>http://gnuwin32.sourceforge.net/packages/libarchive.htm</homepage>
   <needs-terminal/>
   <implementation arch="Windows-i486" id="sha1new=efaade1e475a4b90934407118837bd7759007f79" license="BSD License (revised)" released="2008-06-27" version="2.4.12-1-3">
-    <requires interface="http://repo.roscidus.com/utils/bzip2">
+    <requires interface="http://repo.roscidus.com/utils/bzip2" version="1.0.5">
       <environment insert="bin" name="PATH"/>
     </requires>
     <requires interface="http://repo.roscidus.com/lib/zlib">
@@ -65,11 +65,11 @@ The bsdtar archiving program is built on libarchive, so offers a variety of mode
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdoaimAAoJECLqERp+QkKkbw4IAJBP+kf9ELtsZTk5Sla7TS3YDDvwTD7W9T1h
-B4IEYGLLnu7NQ7nckDS8G4/nbVCibIg5p0mPwKaB00qLxZXMX4eDy9LJrxqcvyEGEDk8VuAXRXUo
-8eW6/nlinBIj0xH331Lb8ILHp+jMf0c9KneKQ9+dcWA1Y4TeX/RS10s6Zkr22KnRDzkoVz/xYFVc
-afxPysltH70Pz4UdBthGSbCEKLHvf/iyLsBpj2tsVocPebXIYbDJV3LB18ffxP0vj3Y3p/CM9UzV
-Frtx8mf3LoopnkQfPW2H4yXQS4epe79erBcxCbU6gaDv9Yad3JMzoLEBTJX+LCFvFg0taFbEBmxQ
-tGw=
+iQEcBAABAgAGBQJd7XtkAAoJECLqERp+QkKkV5YH/10g59Fk8lX3fh6FrlXgcukVjICO+MyF+cvE
+UfXtW9D26XoZBMgZrPCGGyThQEMhG08hZTVMRWLhCRXbyrek5+b/XQ7H+vcJ7l3xa4nk6W2WD+RY
+OIy59/zgpcxRBLyMEkR1dsrIOrpHJ2X/dsv43eGwGzKL3y5ujqDO0rKxPRag3pTZNndfQ1iMuZR7
+tkbaYwdeBVfkBQBrr843h0DXOL1aAKUZL3DWojLYXNftCRBzzi4ygmKigKHLYyccGXfqxrTqL9V6
+Kd31MQAcwsLyh/dU7YfA3R+GxRQaGibtKLpsXQ7Y6R1cPr26cXBNqPEdeIYk6Z28rUuXd8KxH9r9
+rog=
 
 -->

@@ -42,7 +42,7 @@ the Debian Free Software Guidelines, and has been removed from this package.</de
       </implementation>
 
     </group>
-    <implementation id="withdeps" license="GPL v2 (GNU General Public License)" rch="Windows-i486" released="2006-11-25" version="3.81-3">
+    <implementation arch="Windows-i486" id="withdeps" license="GPL v2 (GNU General Public License)" released="2006-11-25" version="3.81-3">
       <requires interface="http://repo.roscidus.com/lib/libiconv">
         <environment insert="bin" name="PATH"/>
       </requires>
@@ -58,11 +58,11 @@ the Debian Free Software Guidelines, and has been removed from this package.</de
   <entry-point binary-name="make" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd7SkBAAoJECLqERp+QkKkkPYIAOUPZfsAYLsgbqiYvxAp7wmvixgANEIDHrMG
-zTROm0H5zC1GM41WBEl36nuhDglatej/iWIH+bGSlb/xtt35BBvQXrXRGA8n5kb++zRQE/VdaA0w
-5lTaSeesB446nC/T4QUEhMqFAmXJpbjxGa/RYQ6GgvEhwMFpHr1RNX8YtrBMsJis6ZkjLUPMmvu6
-gOGZH0Vss0IWcFrPGwQF+QuQyT5rqmLQAg1y4FWr+zoce2pPkUhzJzgXODFZwzdQ8u/0FullEbo6
-lNX60U1aR7O9NogaDXPV1XvQkRm4Ltv8foX+JLS7j3FGqWmF+fTCACMnGU6O3lsQumrpnjDis2+6
-dMI=
+iQEcBAABAgAGBQJd7XtkAAoJECLqERp+QkKk5Q4H/0jmArw6R58bMBV6Yfr2TA7hYtN39O992Iw0
+oFTxIxsyX7SvWFWQyP/Du640MkPu3Av98TMNSs2TemK04f0VJ9r/LD0vED3T+5X10Ft04nVhm6uU
+Y8BmW9nOG+ROTnqYcTZ9S70fo14xuEBhcgYaITrTKD/IG+tUqtBB/MpzFQw6D0gwtWQsV/aCwdba
+3dQGM2inwliXjWYsn0KtCc28NP9Z+YuKeyqFDieYV5QOfnJq3NE4VFM2g287LadTPGzXKAqX0ZUt
+rt4173MP7fSVt0G1OwuJRnCbFhLvNKjLg7mCpIgcHx5cn0/RDZ8dEcnVfWxz20RXWrfRrIM/tzkm
+nnY=
 
 -->
