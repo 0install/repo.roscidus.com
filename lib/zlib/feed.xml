@@ -12,15 +12,19 @@
     <archive href="https://sourceforge.net/projects/gnuwin32/files/zlib/1.2.3/zlib-1.2.3-bin.zip" size="99777" type="application/zip"/>
     <archive href="https://github.com/kkeybbs/gnuwin32/blob/master/gnuwin32/zlib-bin.zip?raw=true" size="99777" type="application/zip"/>
   </implementation>
+  <implementation arch="Windows-i386" id="sha1new=ccaa167be666dd956d13009d951ceeda8eaffff7" released="2013-11-23" version="1.2.8-2">
+    <manifest-digest sha256new="RIFH7BBMOWLPA4CVTA52XEXTIL3XEQCFIBNWFD5X4DQ3MALUILNA"/>
+    <archive href="https://sourceforge.net/projects/ezwinports/files/zlib-1.2.8-2-w32-bin.zip" size="144691" type="application/zip"/>
+  </implementation>
   <package-implementation package="zlib"/>
   <package-implementation distributions="Gentoo" package="sys-libs/zlib"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdn4eXAAoJECLqERp+QkKkGKYH/2KoS+fM5Xa+7wg46IubUIH882DKoiDyAug0
-Fg4gUtSATrlBRZKL8Se+FlusRYEfsiiplt9/O94RpWflpGTT1JD1jCop7Kp0E9ItKUmYvg1BXIas
-k9IYy+S0x3drlkg+P7r0yy4yjEIf7SkTrslsiWRUMpDYk/zl+4FDQPnYr4p3lR/DOtk+t5bCYjsQ
-HOOhidFowEN8MmRpe0CKbyRu1f9ei2Rr03cAN/YRi0bkxV/qpgMIGEHlKRZkG6e7spKSg383TIWM
-aBrjR0XCSuOR1RbBpg7PZOKtLreevHRLjP4Ck0fSyz2T+WD8wYlEv6Z8NMpruhQswvjYH+9P2TXQ
-c5g=
+iQEcBAABAgAGBQJd7SkBAAoJECLqERp+QkKkjJYH/0TGs+dJClxT4TxGDC9bP6Kft/Cn7e7SQANs
+iGnFwqAD39Gt+63+REoGeksOhvzZPqgGLunlFWcJSXVMOgeFrKMT9gcFEMv0xBFhPioqXEjgSsWl
+BAMyfSsMEuO4lSIZOj4eybFxdlSsRdXlns2tdwLGW91lo8GlFJvstP8VLzmlg6l7Tn8ogits4nMO
+ED3iWCgQESL6maeQJB/wSv6lZte8WOwGuwYpJpnjW6TZSKLjr9kuKpY0ehwxnJ3B9G/ocrAL23AZ
+Jm/doJkUg1NexhpWcGz/GJus8oQUK6m0NJCNC4vyBeKQLCeMbjIEqFLxdqw0ISgpBtw2dVToYQFw
+Y7M=
 
 -->
