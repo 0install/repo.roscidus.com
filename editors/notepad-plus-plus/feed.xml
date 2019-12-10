@@ -713,6 +713,20 @@
         <remove path="doLocalConf.xml"/>
       </recipe>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=411d529c467589aff51ea4d54a03302ec96e48e4" released="2019-12-05" stability="stable" version="7.8.2">
+      <manifest-digest sha256new="7VLOYBJG3DIJAM2ZFWM4R6N26HXMFBW6VBVB2XVMSLCXKBJHY4MQ"/>
+      <recipe>
+        <archive href="http://download.notepad-plus-plus.org/repository/7.x/7.8.2/npp.7.8.2.bin.x64.zip" size="4599136" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=791350ad9b2b63cf443f83ad5a0296cb8b651b41" released="2019-12-05" stability="stable" version="7.8.2">
+      <manifest-digest sha256new="EHSBXTY3C4REDPYH7J7WONGJOSR5CQXUADY6GH4QMW3R5ICUDAVA"/>
+      <recipe>
+        <archive href="http://download.notepad-plus-plus.org/repository/7.x/7.8.2/npp.7.8.2.bin.zip" size="4128243" type="application/zip"/>
+        <remove path="doLocalConf.xml"/>
+      </recipe>
+    </implementation>
   </group>
 
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
@@ -779,11 +793,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdvLo5AAoJECLqERp+QkKkd/UIAKPlLkQIMYsR/COane9I8MUQ3f3Oa3b/0c72
-0s+WztT7WrVTQnhk9V5Pl2Zy6FvQ0PQb/shZyA84LjyaBWgWQxXeNMOlkp0/N19KyY0FGOH6C30A
-ZTaUagXgn6YlfmZxkBDQM2GArVfmMCcIvQdcPXtkEPBgdR6+81efAPkpjSeeP8q3ZwirOnXIhUH0
-XZtFPjqLNVHo1RHYUS15xTBNCwsv2fijHd4Ova0udkp6BTIH6Vb/3o1vuhy9U4cCwFO+zLqjYNXJ
-QmOwomeZ5IwFsMbb0ETOPjPFzylLrm0LUDuCwcv38cV2Aqzomy5245Tn5QDQHynHLmgcNFazwjyM
-eMI=
+iQEcBAABAgAGBQJd7uBrAAoJECLqERp+QkKkjLsH/3IUKZLu9kjdxhV7vVg0AA0Y5L4w2zQaWcMB
+zkf+Cu78vSC+Z1u6MONb+imF1/ppnLNR10B2GshoV/i1ewCwJ8JlYcyMi0G0q3PWLNPMFTzB44wA
++aDYVwLXjTIzOO5jdhm8WW37v6zMvSiyI4i2CiekiVaaWavgqPCBaTrzOy8UebzS6yxSAq+m4sP/
+UiEW+TQC5NuH7Z/k2bhEqj3GUvifD83lBOeSj31GFC4hhg/Uw8LmKObyjKGZoezLtm2licS+19J4
+TC75RZBffDZdITnKclbY/aUgggMPas7JD5p5GrZ4UwYJE5UNfEkixCGIUpoVt3byMQ4PTj5u3XgE
+Zt8=
 
 -->
