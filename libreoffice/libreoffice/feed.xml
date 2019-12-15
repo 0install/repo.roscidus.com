@@ -1164,6 +1164,14 @@
       <manifest-digest sha256new="4W3PLFQBML2JQLCAZTW6LYLVRXVOAMQ2THEZGJHTLCT5R4GIOMLA"/>
       <archive extract="SourceDir" href="https://downloadarchive.documentfoundation.org/libreoffice/old/6.3.4.1/win/x86/LibreOffice_6.3.4.1_Win_x86.msi" size="296771584" type="application/x-msi"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=6a4b2c8100f1a1a542e9bf6e713a46b582d9ccb8" released="2019-12-10" stability="stable" version="6.3.4.2">
+      <manifest-digest sha256new="DPTAU6KNXR55UFJMG6H7ZFNFPP326ORBNX4GIJOP67CMU2X2N7RQ"/>
+      <archive extract="SourceDir" href="https://downloadarchive.documentfoundation.org/libreoffice/old/6.3.4.2/win/x86_64/LibreOffice_6.3.4.2_Win_x64.msi" size="318238720" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=df0ae559c4d2ef1357a796e42d0c12fcad8a2dbe" released="2019-12-10" stability="stable" version="6.3.4.2">
+      <manifest-digest sha256new="7V36V2AGBVJSXM4WGY6OJ25H2MFIAB54EI3O7T6GTM2H2QMOJRAA"/>
+      <archive extract="SourceDir" href="https://downloadarchive.documentfoundation.org/libreoffice/old/6.3.4.2/win/x86/LibreOffice_6.3.4.2_Win_x86.msi" size="296771584" type="application/x-msi"/>
+    </implementation>
   </group>
 
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
@@ -1524,11 +1532,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd3ffSAAoJECLqERp+QkKkiksH/2G8TT5mPCkwix3/QyFF5CH6u/5xi+Irrhlb
-cNE4CME5Z5sdjfNqlheqFoEqM9Ab3TwWtvX6YHykugO/fPwgWfAgkNFZhAUiN/EQRr/3+jVfmo0w
-JLz77QKSfU5OcLZDNu4psxhU5W3TwI4F/GeD8VF7yBpyYDZvop0MXgcrS7ZJPqQpEDZICF8trYzz
-qbwzVlT3ye5ZsXtO4GhO2ByDPtraYraDSChMpKczaJREXrMlSQIbN1MDy4TVVBC6pC+OGkz4h+h2
-44oYOWSpnYeS7sf58hcWwdhfdpqTCA/sSSRYAAtCrSYiY7LoI0Xom3yNbGNS1Uleht6Jlm0LaLne
-94A=
+iQEcBAABAgAGBQJd9h45AAoJECLqERp+QkKkUzMH/RIGLaaV3yj9a0ER1qVMN8WFSmnumEogeIjv
+TZz6ewrH0kQ58/Q9TOVf8q98miu7r/fBj2AWk8g3p81UZ4p/E2zRC/OoqXqGjqTSAhHYZK65T+eA
+ZBRuou3oagQ0MYC/RVy3bn7hrAyGXhC7WbP+x4Q+OSaqD/Y6gI0i7t4iu2mw/Vl0doNOjpy7yqc3
+Rq6s368PwE0VO8PGWbNkm2RaAnpuGyVQ3czeheygUgbnSoouQAF7Mft6hM1VA01wh7zEQy176qXT
+YaoZY6GfnbPeOzuYIP+RHBRtvXj0gCSykBoI72lE9rVbW2+5id3MVreqXKvxt+ELzik3GzdlzJLz
+a38=
 
 -->

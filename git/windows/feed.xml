@@ -376,6 +376,14 @@
       <manifest-digest sha256new="2Y5VVVHPAIIWLZ3MFED3BMT4OPEKOU6RBYOKXNEEF6VFGLL5UN3A"/>
       <archive href="https://github.com/git-for-windows/git/releases/download/v2.24.0.windows.2/Git-2.24.0.2-32-bit.tar.bz2" size="111503104" type="application/x-bzip-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=c4e57e25b6fd4e432817e3da394e7dfa5a1a7c79" released="2019-12-10" stability="stable" version="2.24.1.2">
+      <manifest-digest sha256new="QRFUR7OLXML63ULIL4AKXE7JGUGWXZOS6TJ3KCS2IZN64DDCTS2A"/>
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.24.1.windows.2/Git-2.24.1.2-64-bit.tar.bz2" size="115896564" type="application/x-bzip-compressed-tar"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=78057d7f91eda3c9bd1f5ad81d4d291e3b65bb92" released="2019-12-10" stability="stable" version="2.24.1.2">
+      <manifest-digest sha256new="DUYU6ZFNDRQOAVTJUSNCAAQHKG3YSFIKZORDJXO2XKTI2TGVEDMQ"/>
+      <archive href="https://github.com/git-for-windows/git/releases/download/v2.24.1.windows.2/Git-2.24.1.2-32-bit.tar.bz2" size="124629859" type="application/x-bzip-compressed-tar"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="git" command="run">
@@ -450,11 +458,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdxWSVAAoJECLqERp+QkKk4k8H/0anhK84ZCcuWmarRPCeyS649ZgSaqHueO9M
-NfkYYJXXrnzhSMqXmHwIPCBoQ6U5a6aK0AbC5b6gGb/FyKEPKf3eNsf+qCeHyb2YAQdoDu7N8S5m
-pu7tJUIYPY6NJdktS4MP0fAKTeN+xKu6ACReoFGJ83qL9FqH8Eh1qb7Xf+RiRIKZiCU6VLw0qebE
-iM2Aa5v4NX7yTUHj0VL70ZthDNFBeioYzb/Qh7811b7sMXgTyd4o/7NE4tqO5FoYxP92KOBF+kx1
-4JyjRNOUYHWtr6NN+BCv4Gz6hCa+uaJgggJ/0EFPOpAjMFzNw/PXqAGqcEz30VVpwZqfaAtNmIJK
-dZk=
+iQEcBAABAgAGBQJd9h43AAoJECLqERp+QkKkPEcH/AiYtcyDTQxnHVcsw+5VjmdlVUHeGi/YOlwv
+QKA5LdYUq48ZdTpIIX4yUyJNsGigubrPTiiYwjB2qEGE5e5sDDLGL0ZqRgbyaQdET7EeksYAyIpH
+i7uac1yIT5uuBJCAp1Vv2eWbAXfLXc7GnAXA5eA+mXlnU6aXC2zGCpcxjRFESfwA3su2OwsBA0d0
+ZReQdINn6vLaEpwcc6ov1+WmVypq1mkF6PXuBeTno8uOm7MXfcjhwSyDAZar/GmfgPLyxUz8tHcF
+kOMW62Sy+gFA5GKnHz20RGl+vo/4q61KxXsa+eFNlg8xIyYuGDLHgHgUVBQxy2HKHmbEy7zoa5Q9
+Vec=
 
 -->

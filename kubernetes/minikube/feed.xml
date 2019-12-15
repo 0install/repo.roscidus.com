@@ -740,16 +740,40 @@
       <manifest-digest sha256new="LTMRAAD5PDFCW4Y7UBIGTLZD42GLXRBX6IAOQDHNGV2KDPIKYF5Q"/>
       <file dest="minikube" executable="true" href="https://storage.googleapis.com/minikube/releases/v1.6.0-beta.1/minikube-darwin-amd64" size="45903888"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=416eebcef74ee456fa1bb34baf228d47fa87881a" main="minikube.exe" released="2019-12-11" stability="stable" version="1.6.0">
+      <manifest-digest sha256new="G2BMUJRHEHQGWVDJWCDYKWNHWSO6ICIBQUA222RESVUZYTFBWQNQ"/>
+      <file dest="minikube.exe" href="https://storage.googleapis.com/minikube/releases/v1.6.0/minikube-windows-amd64.exe" size="46510592"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=8018bae74342716048e19a827d0c7d12787a9f80" main="minikube" released="2019-12-11" stability="stable" version="1.6.0">
+      <manifest-digest sha256new="WBV3OBWWW7ABBGOBGCBQXTIN2AKNS2I4COXZ3DCL2ST26RX6ZG6Q"/>
+      <file dest="minikube" executable="true" href="https://storage.googleapis.com/minikube/releases/v1.6.0/minikube-linux-amd64" size="45566680"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=063244bfcf685ba43c363df02c50902ece3003c0" main="minikube" released="2019-12-11" stability="stable" version="1.6.0">
+      <manifest-digest sha256new="5MU4WQY2JG3P5BF2DUTTW2XKFN44CE27JFLG6FZK5MWN6X72Q26A"/>
+      <file dest="minikube" executable="true" href="https://storage.googleapis.com/minikube/releases/v1.6.0/minikube-darwin-amd64" size="45917984"/>
+    </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=248b2e3574cff4a4674d0a8f686c03ab376f4768" main="minikube.exe" released="2019-12-11" stability="stable" version="1.6.1">
+      <manifest-digest sha256new="GGOMKM6I7R5OK4RZJE6KKB4KFVQ36TDENLII2JZLJ5Q7KEKNDOXQ"/>
+      <file dest="minikube.exe" href="https://storage.googleapis.com/minikube/releases/v1.6.1/minikube-windows-amd64.exe" size="46510080"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=3973e79402e7f77dcc116049a602fbf122e6acd2" main="minikube" released="2019-12-11" stability="stable" version="1.6.1">
+      <manifest-digest sha256new="BYW3WVRBWA2CTY7YQ7X7HJ4KIGKDLRPVVWM46MNGQXOX225TCTLA"/>
+      <file dest="minikube" executable="true" href="https://storage.googleapis.com/minikube/releases/v1.6.1/minikube-linux-amd64" size="45566392"/>
+    </implementation>
+    <implementation arch="Darwin-x86_64" id="sha1new=c9693a54c3ea17afbe80a68704a1759ef5ca6f30" main="minikube" released="2019-12-11" stability="stable" version="1.6.1">
+      <manifest-digest sha256new="VB6NRNL5YMBIQY5W2KHLMWXQNCNFJIKO7OC4QV2COLNCQ3KA4AYQ"/>
+      <file dest="minikube" executable="true" href="https://storage.googleapis.com/minikube/releases/v1.6.1/minikube-darwin-amd64" size="45913664"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="minikube" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd3ffSAAoJECLqERp+QkKkCQ4H/i7h89NPoH89sjPdTYiucp/XvHhqj4MJA3DY
-41CNrRHpbaLFu9ZQQDyBpunPnVGkb8F6szwcWUU4tsSVVgEOjXVkIeini/tQxKo4i27Rgu7ALfRt
-g2r6jyXzwHqNIZmuftJ+E3VP1JqCMMSLzL26sIqoKI1NpHOYPpyxUk3JiRKzPy+n73PmPWWRMHVb
-CHv6ri2aW7T1C4cynnCiAniGb41ZvT/ErngrRKKzuM7OqytiWcXUPg6g4Um+V3oDavc1JAMlVueT
-iQhKkqbGlk4xoAleZ+R7nq8zIKRhNKKsTpHi3ZifsSFgMyXnM8Dv0NtTGO9PGdGZfur4HY/U9ehD
-u6I=
+iQEcBAABAgAGBQJd9h45AAoJECLqERp+QkKknZQIANOfuw/pMYPcUaYLDGHOgwWWlcEBaQJnMeRn
+S0uD9mAlk7VLF9ypu7M0YSmGoc4UxZUsORfHxuayaFx3UWzEQTVHQeNvH62EOijUm5T2usgYnPyS
+MLnvzeBT//FeCGYW3c50RyyTZgweX5ZffuOnCuL0PI+WZaaNkVwDCS2LQJUk54nkZvLoCNXG3FUP
+Ua2kkhTng9dHIuFNkg2SpH+YPzTenuG71gxeLDNWjCxZtT0W1QTAsLngHQQ5XfoinRdefTL3gQq4
+QbeiH6mXbn2Ss213ge7B+miJp40bhqyYmj298FKPvm/uTCc9YYQ1n7kLwPFwCWrflfyePTbPtC/0
+aMc=
 
 -->
