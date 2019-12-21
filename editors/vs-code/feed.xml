@@ -1003,6 +1003,18 @@
       <manifest-digest sha256new="2EZTKRRUPAKRQZFN2QZSBDJ6HOFF6IZMAYPM5XY34PG3RRIT6HZA"/>
       <archive extract="VSCode-linux-x64" href="https://az764295.vo.msecnd.net/stable/9579eda04fdb3a9bba2750f15193e5fafe16b959/code-stable-1576089840.tar.gz" size="81496943" type="application/x-compressed-tar"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=7d4041cc91f6b07ff798d97062faaa7d4ba564fa" main="Code.exe" released="2019-12-21" stability="stable" version="1.41.1">
+      <manifest-digest sha256new="624TJMYLCLPRUIGJMWFDCAXFAKDOQ26TMGRREDWGWFZY4AWGT7TA"/>
+      <archive href="https://az764295.vo.msecnd.net/stable/26076a4de974ead31f97692a0d32f90d735645c0/VSCode-win32-x64-1.41.1.zip" size="86729428" type="application/zip"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=1f522cc4ac1e1adc4b3ff125fe58abc31302f1d5" main="Code.exe" released="2019-12-21" stability="stable" version="1.41.1">
+      <manifest-digest sha256new="QIX7MBBTO75LRVZM7U6TVF2UIWMGCR4OPJJ2QS4U5P43GYX3DK6A"/>
+      <archive href="https://az764295.vo.msecnd.net/stable/26076a4de974ead31f97692a0d32f90d735645c0/VSCode-win32-ia32-1.41.1.zip" size="83173289" type="application/zip"/>
+    </implementation>
+    <implementation arch="Linux-x86_64" id="sha1new=1a34779c06cecdd58360833f6daac8e26a8c81a9" main="bin/code" released="2019-12-21" stability="stable" version="1.41.1">
+      <manifest-digest sha256new="PPDZS7SELBQNDJYHOTCFZ7KJBSPDY2KZTVJU2YIWZ5XLRXC5LHTA"/>
+      <archive extract="VSCode-linux-x64" href="https://az764295.vo.msecnd.net/stable/26076a4de974ead31f97692a0d32f90d735645c0/code-stable-1576682093.tar.gz" size="81500694" type="application/x-compressed-tar"/>
+    </implementation>
   </group>
 
   <entry-point binary-name="code" command="run"/>
@@ -1746,11 +1758,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd9h43AAoJECLqERp+QkKkNw0H/RaQyB53Wi1OWhwVfUvpenPthZ66WqI/E7P0
-+WcesCkiLNmpV7kEsJgL7xD1b3j7f/1Lh/eiJ4VRi4WgzmIq172DCJEffsO9yvcdZcAJixBPo/EK
-VX5pGMCm2HMA0N/ICnJhlfPFIbdWBT7sWDA4QLuil4M+TyBlOQnnB/NeJGQ0DV0RCHykqCq5ECpt
-he89kKcfrZYLXNkyWKDxzOlrM/xM3LEVwnNcAOcA6lKUaqItoEkKO3seDVLjC2aRUmg/OFy8bNWa
-9IflyXRGfu/wrtyYmo3xIPHDUPjn8ARxbfF/eQvYI6v3Z+JuDphbXwX0/tfQlanxiuUuOmDwt82U
-Mi8=
+iQEcBAABAgAGBQJd/WqqAAoJECLqERp+QkKkhX0H/A9K2eV8gXvnTyz0UJPBhyM2xF+wVpT+7Ud9
+ZJAHU8WMwk56QWdrofuWbhQlXOdRTLhG8BDZhpEAXBaoTKDfHBgC3pcaYXAXoeNndqb04fm2469z
+Yp7HxKkNBIpOwwvIZ3oL3WBVtkIemgpkmamLPE1Yj+MzpOW3CiUi2DIZPXSup4QscxHpn8UDYS+T
+nShOCQtpao4Fei2J4uNDd1dTG8tUXROYiVlkvXbGRcxoFyAV4rF31oh4inKCYYSaEUCwQmgFZu24
+Cs5HzJ7d/ANBcuekpEdB+mKCfqfIeyO3uGVBR9FS9GLA0fInTaZ7Vz6ngRTl0KMERMMQlq6C0mkv
+QoY=
 
 -->

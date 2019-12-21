@@ -117,6 +117,14 @@
         <manifest-digest sha256new="UCLDLSMAYAWEJHLWTKPOWNWKBXDCSHJXW75DKT2B2RI4BFQTTCIQ"/>
         <archive extract="darwin-amd64" href="https://get.helm.sh/helm-v3.0.1-darwin-amd64.tar.gz" size="12689379" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=fe9f00ddb65e7cb75c662e922f14745c445bc55f" released="2019-12-17" stability="stable" version="3.0.2">
+        <manifest-digest sha256new="AY3WOQHYLROBRXW4MKG3SKV7IWYT7HS44HV3UDEJ64AWQX2ZSDEA"/>
+        <archive extract="linux-amd64" href="https://get.helm.sh/helm-v3.0.2-linux-amd64.tar.gz" size="12101232" type="application/x-compressed-tar"/>
+      </implementation>
+      <implementation arch="Darwin-x86_64" id="sha1new=0050e7b1116d659f91bc24f4441845d7632ed03d" released="2019-12-17" stability="stable" version="3.0.2">
+        <manifest-digest sha256new="5DJJFFVQ4Y47MPDG7BKAAY6I3CN3HKILLLI2PKBSLAGBNM6D5FNA"/>
+        <archive extract="darwin-amd64" href="https://get.helm.sh/helm-v3.0.2-darwin-amd64.tar.gz" size="12712282" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
     <group>
       <command name="run" path="helm.exe"/>
@@ -172,15 +180,19 @@
         <manifest-digest sha256new="RQHJDIE7HMNDHUWGSAGWIOQZCPWDFIB7DAXUF2JVDCCTLNXUMKMQ"/>
         <archive extract="windows-amd64" href="https://get.helm.sh/helm-v3.0.1-windows-amd64.tar.gz" size="11956262" type="application/x-compressed-tar"/>
       </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=8a3358d4a954b5955063596b03b2a5457232ebd3" released="2019-12-17" stability="stable" version="3.0.2">
+        <manifest-digest sha256new="2ER6RNMIX73B7OKGF5SS2RS4C6ZWQTZA5GD36QRPOAVFITM2GGDQ"/>
+        <archive extract="windows-amd64" href="https://get.helm.sh/helm-v3.0.2-windows-amd64.tar.gz" size="11973300" type="application/x-compressed-tar"/>
+      </implementation>
     </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd7uBsAAoJECLqERp+QkKkWHsIANqJtYemtQptWCxy+9oZYdGHea/Iw8+FOnKr
-4X0dIrczOvDEZCJ0vNqOjNgly/60/troRARVUza73xL2YkPXHjOTGOCSbVfWIIibcioHlGKV2x5H
-hr1TFLv7pqbNG/62YpBjUHeqtD7PdX2F5U9coGL6izpS7yF6FZRF5g/mrhCKBwGyjPJODfURnHd3
-gwu7WQ4k9c2NVkgYSqvL+ruZX6UhgEizdiuSgDt2/PKev4HHU60BFktITud7kwqu3UoFGYqS0+gO
-ubDS0Q+tOOMUA9Z9pFno700tSz19Gz/mQg/4SLqtxxPzOvO48P5e5yGS//8aKr/lxXfKLKRnZl9l
-43c=
+iQEcBAABAgAGBQJd/WqrAAoJECLqERp+QkKkg3MH/2yj7vBSRf/FoimZba9Qaxpsyj96zO3SDtpa
+LwsLybf1fut2SWh+34YQ96w6jdpY1jPguYf9lAUAWN8hBy2YwjlaG1ONXC0fLaJSyle87fn3s+G3
+7N9qGveK6BslQRxkqmpZ8WP+v/aC8tlADGUylESwbqhA2iif5gNodrSt7iWul88cJpD+WZpmSnqd
+r1WTyNT5JlM3j+ZbuKyDKsXvTfOVOoEj8DwL/zG/tQ+IzA2ORHw/tge0jBMbcJN3QMzdH/0vbrgD
+VBWkRqVf5PQPnJgoJeMt/XQa71LYlJcSTDPG5EbSGN8UFZTreiK5uRU3V+eOTJ7EmwHGuc/70Lvg
+npY=
 
 -->

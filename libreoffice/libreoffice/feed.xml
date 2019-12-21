@@ -1172,6 +1172,14 @@
       <manifest-digest sha256new="7V36V2AGBVJSXM4WGY6OJ25H2MFIAB54EI3O7T6GTM2H2QMOJRAA"/>
       <archive extract="SourceDir" href="https://downloadarchive.documentfoundation.org/libreoffice/old/6.3.4.2/win/x86/LibreOffice_6.3.4.2_Win_x86.msi" size="296771584" type="application/x-msi"/>
     </implementation>
+    <implementation arch="Windows-x86_64" id="sha1new=ace009736410fd491d5ea56401a5044dd86d0c43" released="2019-12-20" stability="stable" version="6.4.0.1">
+      <manifest-digest sha256new="7XPYW5S5S73NXWYKBYN5UAR37FBPNXKYNVXAE6MHGVEOHPURQKEQ"/>
+      <archive extract="SourceDir" href="https://downloadarchive.documentfoundation.org/libreoffice/old/6.4.0.1/win/x86_64/LibreOffice_6.4.0.1_Win_x64.msi" size="354226176" type="application/x-msi"/>
+    </implementation>
+    <implementation arch="Windows-i486" id="sha1new=6ec657973c8f1fedd2c0a70be28d16024462fef6" released="2019-12-20" stability="stable" version="6.4.0.1">
+      <manifest-digest sha256new="T5AO3QUJU5IMXAVRFWMGO7S3TXTV5OIIPA6VULF2DCWKCCAPRUDQ"/>
+      <archive extract="SourceDir" href="https://downloadarchive.documentfoundation.org/libreoffice/old/6.4.0.1/win/x86/LibreOffice_6.4.0.1_Win_x86.msi" size="332750848" type="application/x-msi"/>
+    </implementation>
   </group>
 
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
@@ -1532,11 +1540,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd9h45AAoJECLqERp+QkKkUzMH/RIGLaaV3yj9a0ER1qVMN8WFSmnumEogeIjv
-TZz6ewrH0kQ58/Q9TOVf8q98miu7r/fBj2AWk8g3p81UZ4p/E2zRC/OoqXqGjqTSAhHYZK65T+eA
-ZBRuou3oagQ0MYC/RVy3bn7hrAyGXhC7WbP+x4Q+OSaqD/Y6gI0i7t4iu2mw/Vl0doNOjpy7yqc3
-Rq6s368PwE0VO8PGWbNkm2RaAnpuGyVQ3czeheygUgbnSoouQAF7Mft6hM1VA01wh7zEQy176qXT
-YaoZY6GfnbPeOzuYIP+RHBRtvXj0gCSykBoI72lE9rVbW2+5id3MVreqXKvxt+ELzik3GzdlzJLz
-a38=
+iQEcBAABAgAGBQJd/WqrAAoJECLqERp+QkKkOzsH/A27Nh14uOJKe3RRLLJFXG8ER/yfY5z0g8av
+7y62x4mKefQQcAtFdXw96y9rNJpSt2pvnlQt86vq/fgSe0iHRst0tzp7jfTAYHxyq4BZkLQ99Lk4
+OkXVnt1DZF+fdL8NpkuyDTBzt7GOZxiixt1Mu/TN7m+BNmG9SABl3czFUx4T/ELdoDJZa9oZqBKQ
+29ovqw0/e/qRS2TTGACInlFdaEmnu0KExUJXnRYUdTeU7WrW+tESpWePHth+ZYjYroZZf591XIY2
++zrOxPQP4pRRiIg6BbIpf7VoghUyoQHWB3EQaHBNPRAp5cyxD8sEXKD2dhdlscqXYX22IC5BrAcf
+5Ow=
 
 -->

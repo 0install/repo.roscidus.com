@@ -322,6 +322,22 @@
         <manifest-digest sha256new="3QBUIGOETP34CLNUF5SO47WEDQYFTERMCNRZZXPDRXO24UBVCM6A"/>
         <archive href="https://releases.hashicorp.com/packer/1.4.5/packer_1.4.5_darwin_amd64.zip" size="53445529" type="application/zip"/>
       </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=8be3d792a7f8389daab6d4a6b34efeb074af4241" released="2019-12-21" stability="stable" version="1.5.0">
+        <manifest-digest sha256new="CTSBBFFX72QX7PLEYSC6LEMROWB4WRJRLZT6NGI3VSPWZEWDOGXA"/>
+        <archive href="https://releases.hashicorp.com/packer/1.5.0/packer_1.5.0_linux_amd64.zip" size="47185245" type="application/zip"/>
+      </implementation>
+      <implementation arch="Darwin-x86_64" id="sha1new=476ae5c6bb470777a2bd519f5d0c460227fcc3c9" released="2019-12-21" stability="stable" version="1.5.0">
+        <manifest-digest sha256new="EGPETPRVCTUA7TYTIHIY3OLJVYO7P4AMB3CDSKD6YRGSAJD4VMLQ"/>
+        <archive href="https://releases.hashicorp.com/packer/1.5.0/packer_1.5.0_darwin_amd64.zip" size="56657950" type="application/zip"/>
+      </implementation>
+      <implementation arch="Linux-x86_64" id="sha1new=86091d55afee5cd0122b4d1ff315fade1690d003" released="2019-12-21" stability="stable" version="1.5.1">
+        <manifest-digest sha256new="YRTR7T6VVEYRJCHMYHC2KOXKACDQ3I6SAPK3ZEKT7DBLUITVSCFA"/>
+        <archive href="https://releases.hashicorp.com/packer/1.5.1/packer_1.5.1_linux_amd64.zip" size="47183647" type="application/zip"/>
+      </implementation>
+      <implementation arch="Darwin-x86_64" id="sha1new=3949a107cebd84a5e9cbe2d4a9060c5302b56417" released="2019-12-21" stability="stable" version="1.5.1">
+        <manifest-digest sha256new="TQRBK7SORPZHGLMYDADOWKKNLPQD4RPWXEDSON5UHEGJ2HQIR2CQ"/>
+        <archive href="https://releases.hashicorp.com/packer/1.5.1/packer_1.5.1_darwin_amd64.zip" size="56655605" type="application/zip"/>
+      </implementation>
     </group>
     <group>
       <command name="run" path="packer.exe"/>
@@ -481,17 +497,25 @@
         <manifest-digest sha256new="PUSUAWCVGQIMX6HDIVDESLQTP3GYN7VQRKPZQDSPMW5QJY4JMMDA"/>
         <archive href="https://releases.hashicorp.com/packer/1.4.5/packer_1.4.5_windows_amd64.zip" size="45012290" type="application/zip"/>
       </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=0f786f7fa01318de974d3b48365b204e5f073c10" released="2019-12-21" stability="stable" version="1.5.0">
+        <manifest-digest sha256new="2ZYSNJE4JNUESDOSPFATWC3VB45LKJ4SW5CGRVSBIXIOZCO6UQFA"/>
+        <archive href="https://releases.hashicorp.com/packer/1.5.0/packer_1.5.0_windows_amd64.zip" size="46717227" type="application/zip"/>
+      </implementation>
+      <implementation arch="Windows-x86_64" id="sha1new=f03a053811b118d7026dd5050f839c2acc1c299d" released="2019-12-21" stability="stable" version="1.5.1">
+        <manifest-digest sha256new="MYC6UT4CQY2BIH6PRV7UWF3QDHC6YILP6GFNRLUCX2574DRGMY6A"/>
+        <archive href="https://releases.hashicorp.com/packer/1.5.1/packer_1.5.1_windows_amd64.zip" size="46710369" type="application/zip"/>
+      </implementation>
     </group>
   </group>
 
   <entry-point binary-name="packer" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdwxC8AAoJECLqERp+QkKkJ+8H/0NoeemcSgXnbX1Xq/x9k8YMfGBZN2hWJ4nx
-CxbLzUb1rNGhc0lpqxW9MggIc5M3atdOW9TaCMYewQHs+Q8Yb1r27is2UP+bSR5OLZZAvP7GDdau
-hkR6m8kQyWvF27M5Z8uG8Cyyo7UOAOXZ5/409xGUWW4Fa8CU0oSMrSmlsOD8YfVI1o2wOCjVs+Fx
-yda47/AiKg2IawpxQCheAi/K7LUD0SINsYwx87CHL2Me8Wochbrno/ksbtsZCbD7H7AYAiW/CKAv
-P3jle/YltU8Zl97SsHvRIBpudEM11hYdZQlvsMXlBSF1y0gFS+5JSnGsMkr0d2sgApCoRGGQqf6l
-hnk=
+iQEcBAABAgAGBQJd/WqqAAoJECLqERp+QkKkLnwH/jNijGSTCN03WKcQ8DVLwgAgRxtZYKf9Tb2F
+hjNMdmitGX/5rupJaLpqCvaBKKlFgwDc3Km5GeLFtAXJcMbm7u58qmWHEPYWnnagRso1bPKtvwfh
+dpG0BrjYbRuWLb4BThCb9GtA2GxcGrYkAJkinocX4wZ2fWNAW/vSCPAsdNzNngBVXI6UqjTmEVpK
+P5ujLuGjR3AS1cDrgZe5R2F3JHEXvcg9rAjIZKMMwdK4Se1KvWOn2IfJer3oapW35nKXbXs106c6
+/tp8/uGkmp5VXpF6BxY9J3ocfbjszUV0aHM0khBX9q0dAxLNZMSviuav9VYTNUdUYthSxIcFwqVi
+HTA=
 
 -->
