@@ -31,7 +31,54 @@ Arc uses one of several compression methods for each file within the archive, ba
     <name xml:lang="en">rearj</name>
     <summary xml:lang="en">Converts other archive formats to .arj files</summary>
     <description xml:lang="en">The rearj command can repackage other archive formats to arj.</description>
-  </entry-point></interface><interface uri="http://repo.roscidus.com/editors/atom"><name>Atom</name><summary>the hackable text editor</summary><description>Atom is a hackable text editor for the 21st century, built on Electron, and based on everything we love about our favorite editors. We designed it to be deeply customizable, but still approachable using the default configuration.</description><homepage>https://atom.io/</homepage><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/editors/atom.ico" type="image/vnd.microsoft.icon"/><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/editors/atom.png" type="image/png"/><category>Development</category><category>Utility</category><entry-point binary-name="atom" command="run"/></interface><interface uri="http://repo.roscidus.com/utils/bzip2"><name>Bzip2</name><summary xml:lang="en">A program and library for data compression</summary><description xml:lang="en">bzip2 is a freely available, patent free, high-quality data compressor. It typically compresses files to within 10% to 15% of the best available techniques (the PPM family of statistical compressors), whilst being around twice as fast at compression and six times faster at decompression. The code is organised as a library, with a programming interface. The bzip2 program itself is a client of the library. You can use the library in your own programs, to directly read and write .bz2 files, or even just to compress data in memory using the bzip2 algorithms.</description><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/utils/bzip2.ico" type="image/vnd.microsoft.icon"/><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/utils/bzip2.png" type="image/png"/><category>Utility</category><homepage>https://sourceforge.net/projects/ezwinports/</homepage><entry-point binary-name="bzip2" command="run">
+  </entry-point></interface><interface uri="http://repo.roscidus.com/editors/atom"><name>Atom</name><summary>the hackable text editor</summary><description>Atom is a hackable text editor for the 21st century, built on Electron, and based on everything we love about our favorite editors. We designed it to be deeply customizable, but still approachable using the default configuration.</description><homepage>https://atom.io/</homepage><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/editors/atom.ico" type="image/vnd.microsoft.icon"/><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/editors/atom.png" type="image/png"/><category>Development</category><category>Utility</category><entry-point binary-name="atom" command="run"/></interface><interface uri="http://repo.roscidus.com/devel/bc"><name>Bc</name><summary xml:lang="en">Bc: arbitrary precision calculator language</summary><description xml:lang="en">bc is an arbitrary precision numeric processing language. Syntax is similar to C, but differs in many substantial areas. It supports interactive execution of statements. bc is a language that supports arbitrary precision numbers with interactive execution of statements. There are some similarities in the syntax to the C programming language. A standard math library is available by command line option. If requested, the math library is defined before processing any files. bc starts by processing code from all the files listed on the command line in the order listed. After all files have been processed, bc reads from the standard input. All code is executed as it is read. (If a file contains a command to halt the processor, bc will never read from the standard input.) </description><icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.ico" type="image/vnd.microsoft.icon"/><icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.png" type="image/png"/><category>System</category><homepage>http://gnuwin32.sourceforge.net/packages/bc.htm</homepage><entry-point binary-name="bc" command="run">
+    <needs-terminal/>
+    <summary xml:lang="en">An arbitrary precision calculator language</summary>
+    <description xml:lang="en">bc  is a language that supports arbitrary precision num-
+       bers with interactive execution  of  statements.   There
+       are some similarities in the syntax to the C programming
+       language.  A standard math library is available by  com-
+       mand  line  option.   If  requested, the math library is
+       defined before processing any files.  bc starts by  pro-
+       cessing  code  from  all the files listed on the command
+       line in the order listed.  After  all  files  have  been
+       processed,  bc  reads from the standard input.  All code
+       is executed as it is read.  (If a file contains  a  com-
+       mand  to halt the processor, bc will never read from the
+       standard input.)
+
+       This version of bc contains  several  extensions  beyond
+       traditional bc implementations and the POSIX draft stan-
+       dard.  Command line options can cause  these  extensions
+       to  print  a  warning  or to be rejected.  This document
+       describes  the  language  accepted  by  this  processor.
+       Extensions will be identified as such.</description>
+  </entry-point><entry-point binary-name="dc" command="dc">
+    <needs-terminal/>
+    <name xml:lang="en">Dc</name>
+    <summary xml:lang="en">a reverse-polish arbitrary precision calculator</summary>
+    <description xml:lang="en">Dc is a reverse-polish desk  calculator  which  supports
+       unlimited  precision  arithmetic.  It also allows you to
+       define and call macros.   Normally  dc  reads  from  the
+       standard  input;  if  any command arguments are given to
+       it, they are filenames, and dc reads  and  executes  the
+       contents  of  the  files  before  reading  from standard
+       input.  All normal output is  to  standard  output;  all
+       error output is to standard error.
+
+       A  reverse-polish  calculator stores numbers on a stack.
+       Entering a number pushes it on  the  stack.   Arithmetic
+       operations  pop  arguments  off  the  stack and push the
+       results.
+
+       To enter a  number  in  dc,  type  the  digits  with  an
+       optional  decimal  point.   Exponential  notation is not
+       supported.  To enter a negative number, begin the number
+       with  ``_''.   ``-'' cannot be used for this, as it is a
+       binary operator for subtraction instead.  To  enter  two
+       numbers in succession, separate them with spaces or new-
+       lines.  These have no meaning as commands.</description>
+  </entry-point></interface><interface uri="http://repo.roscidus.com/utils/bzip2"><name>Bzip2</name><summary xml:lang="en">A program and library for data compression</summary><description xml:lang="en">bzip2 is a freely available, patent free, high-quality data compressor. It typically compresses files to within 10% to 15% of the best available techniques (the PPM family of statistical compressors), whilst being around twice as fast at compression and six times faster at decompression. The code is organised as a library, with a programming interface. The bzip2 program itself is a client of the library. You can use the library in your own programs, to directly read and write .bz2 files, or even just to compress data in memory using the bzip2 algorithms.</description><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/utils/bzip2.ico" type="image/vnd.microsoft.icon"/><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/utils/bzip2.png" type="image/png"/><category>Utility</category><homepage>https://sourceforge.net/projects/ezwinports/</homepage><entry-point binary-name="bzip2" command="run">
     <needs-terminal/>
     <summary xml:lang="en">a block-sorting file compressor, v1.0.4</summary>
     <description xml:lang="en">bzip2 compresses files using the  Burrows-Wheeler  block
@@ -746,6 +793,147 @@ You can use the sdiff command to merge two files interactively.
     <name xml:lang="en">Sdiff</name>
     <summary xml:lang="en">Sdiff: side-by-side merge of file differences</summary>
     <description xml:lang="en">Side-by-side merge of file differences.</description>
+  </entry-point></interface><interface uri="http://repo.roscidus.com/utils/dmidecode"><name>DmiDecode</name><summary xml:lang="en">Dmidecode: DMI-table decoder</summary><description xml:lang="en">Dmidecode reports information about your system's hardware as described in your system BIOS according to the SMBIOS/DMI standard. This information typically includes system manufacturer, model name, serial number, BIOS version, asset tag as well as a lot of other details of varying level of interest and reliability depending on the manufacturer. This will often include usage status for the CPU sockets, expansion slots (e.g. AGP, PCI, ISA) and memory module slots, and the list of I/O ports (e.g. serial, parallel, USB). 
+Beware that DMI data have proven to be too unreliable to be blindly trusted. Dmidecode does not scan your hardware, it only reports what the BIOS told it to. 
+Three additional tools come with dmidecode: 
+•biosdecode prints all BIOS related information it can find 
+•ownership retrieves the &quot;ownership tag&quot; that can be set on Compaq computers 
+•vpddecode prints the &quot;vital product data&quot; information that can be found in almost all IBM computers 
+This MS-Windows port is based on the patches created by Hugo Weber &lt;http://lists.gnu.org/archive/html/dmidecode-devel/2006-10/msg00001.html&gt;. It works only on MS-Windows NT systems (NT, 2000, XP, 2003, Vista, 2008) and not on MS-Windows 9x systems (95, 98, ME). 
+</description><icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.ico" type="image/vnd.microsoft.icon"/><icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.png" type="image/png"/><category>Utility</category><homepage>http://gnuwin32.sourceforge.net/packages/dmidecode.htm</homepage><entry-point binary-name="dmidecode" command="run">
+    <needs-terminal/>
+    <summary xml:lang="en">dmidecode - DMI table decoder</summary>
+    <description xml:lang="en">dmidecode  is  a tool for dumping a computer's DMI (some
+       say SMBIOS) table contents in a  human-readable  format.
+       This  table contains a description of the system's hard-
+       ware components, as  well  as  other  useful  pieces  of
+       information  such  as  serial numbers and BIOS revision.
+       Thanks to this table, you can retrieve this  information
+       without  having to probe for the actual hardware.  While
+       this is a good point in terms of report speed and  safe-
+       ness, this also makes the presented information possibly
+       unreliable.
+
+       The DMI table doesn't only describe what the  system  is
+       currently  made of, it also can report the possible evo-
+       lutions (such as the fastest supported CPU or the  maxi-
+       mal amount of memory supported).
+
+       SMBIOS  stands  for  System  Management  BIOS, while DMI
+       stands for Desktop Management Interface. Both  standards
+       are  tightly  related and developed by the DMTF (Desktop
+       Management Task Force).
+
+       As you run it, dmidecode will try to locate the DMI  ta-
+       ble.  If  it succeeds, it will then parse this table and
+       display a list of records like this one:
+
+       Handle 0x0002, DMI type 2, 8 bytes.  Base Board Informa-
+       tion
+               Manufacturer: Intel
+               Product Name: C440GX+
+               Version: 727281-001
+               Serial Number: INCY92700942
+
+       Each record has:
+
+       · A  handle.  This  is a unique identifier, which allows
+         records to reference each other. For example,  proces-
+         sor  records  usually  reference  cache memory records
+         using their handles.
+
+       · A type. The  SMBIOS  specification  defines  different
+         types  of  elements a computer can be made of. In this
+         example, the type is 2, which means  that  the  record
+         contains &quot;Base Board Information&quot;.
+
+       · A  size.  Each  record  has a 4-byte header (2 for the
+         handle, 1 for the type, 1 for the size), the  rest  is
+         used  by the record data. This value doesn't take text
+         strings into account (these are placed at the  end  of
+         the record), so the actual length of the record may be
+         (and is often) greater than the displayed value.
+
+       · Decoded values. The information  presented  of  course
+         depends  on  the  type of record. Here, we learn about
+         the board's manufacturer, model,  version  and  serial
+         number.</description>
+  </entry-point><entry-point binary-name="biosdecode" command="biosdecode">
+    <needs-terminal/>
+    <summary xml:lang="en">Biosdecode: BIOS-information decoder</summary>
+    <description xml:lang="en">biosdecode parses the BIOS memory and prints information
+       about all structures (or entry points) it knows of. Cur-
+       rently known entry point types are:
+
+       · SMBIOS (System Management BIOS)
+         Use dmidecode for a more detailed output.
+
+       · DMI (Desktop Management Interface, a legacy version of
+         SMBIOS)
+         Use dmidecode for a more detailed output.
+
+       · SYSID
+
+       · PNP (Plug and Play)
+
+       · ACPI (Advanced Configuration and Power Interface)
+
+       · BIOS32 (BIOS32 Service Directory)
+
+       · PIR (PCI IRQ Routing)
+
+       · 32OS (BIOS32 Extension, Compaq-specific)
+         See ownership for a  Compaq  ownership  tag  retrieval
+         tool.
+
+       · SNY (Sony-specific, not decoded)
+
+       · VPD (Vital Product Data, IBM-specific)
+         Use vpddecode for a more detailed output.
+
+       · FJKEYINF (Application Panel, Fujitsu-specific)
+
+
+       biosdecode  started  its life as a part of dmidecode but
+       as more entry point types were added, if was moved to  a
+       different program.</description>
+  </entry-point><entry-point binary-name="ownership" command="ownership">
+    <needs-terminal/>
+    <summary xml:lang="en">Ownership: Compaq ownership-tag retriever</summary>
+    <description xml:lang="en">ownership  retrieves and prints the &quot;ownership tag&quot; that
+       can be set on Compaq computers. Contrary  to  all  other
+       programs  of  the  dmidecode  package, ownership doesn't
+       print any version information, nor labels, but only  the
+       raw  ownership  tag. This should help its integration in
+       scripts.</description>
+  </entry-point><entry-point binary-name="vpddecode" command="vpddecode">
+    <needs-terminal/>
+    <name xml:lang="en">Vpddecode</name>
+    <summary xml:lang="en">Vpddecode: VPD-structure decoder</summary>
+    <description xml:lang="en">vpddecode  prints  the  &quot;vital product data&quot; information
+       that can be found in almost all IBM and  Lenovo  comput-
+       ers. Available items are:
+
+       · BIOS Build ID
+
+       · Box Serial Number
+
+       · Motherboard Serial Number
+
+       · Machine Type/Model
+
+
+       Some systems have these additional items:
+
+       · BIOS Release Date
+
+       · Default Flash Image File Name
+
+
+       Note  that  these additional items are not documented by
+       IBM, so this is guess work, and as such  should  not  be
+       blindly  trusted.  Feedback  about the accuracy of these
+       labels is welcome.</description>
   </entry-point></interface><interface uri="http://repo.roscidus.com/dotnet/docfx"><name>DocFX</name><summary>documentation generation tool for API reference and Markdown files</summary><description>DocFX generates Documentation directly from source code (.NET, RESTful API, JavaScript, Java, etc...) and Markdown files.</description><homepage>https://dotnet.github.io/docfx/</homepage><category>Development</category><entry-point binary-name="docfx" command="run"/></interface><interface uri="http://repo.roscidus.com/docker/app"><name>Docker Application Packages</name><summary>utility to help make Compose files more reusable and sharable</summary><homepage>https://github.com/docker/app</homepage><entry-point binary-name="docker-app" command="run"/></interface><interface uri="http://repo.roscidus.com/docker/client"><name>Docker Client</name><summary>Docker command-line client</summary><description>Docker is a software technology providing containers. This feed allows you to run Docker's command-line client.</description><homepage>https://www.docker.com/</homepage><entry-point binary-name="docker" command="run"/></interface><interface uri="http://repo.roscidus.com/docker/compose"><name>Docker Compose</name><summary>define and run multi-container applications with Docker</summary><description>Compose is a tool for defining and running multi-container Docker applications.</description><homepage>https://docs.docker.com/compose/</homepage><icon href="https://raw.githubusercontent.com/docker/compose/1.14.0/logo.png" type="image/png"/><entry-point binary-name="docker-compose" command="run"/></interface><interface uri="http://repo.roscidus.com/docker/compose-format"><name>Docker Compose file format</name><summary>empty dependency describing the versioning of the Docker Compose file format</summary><description>Lists all versions of the Docker Compose file format and their compatibility with specific Docker and Docker Compose versions. Useful to ensure Docker Compose files from different feeds to be merged all share the same file format version and are passed to a suitable Docker (Compose) implementation.</description><homepage>https://docs.docker.com/compose/compose-file/compose-versioning/</homepage></interface><interface uri="http://repo.roscidus.com/docker/machine"><name>Docker Machine</name><summary>machine management for a container-centric world</summary><description>Docker Machine is a tool that lets you install Docker Engine on virtual hosts, and manage the hosts with docker-machine commands. You can use Machine to create Docker hosts on your local Mac or Windows box, on your company network, in your data center, or on cloud providers like Azure, AWS, or Digital Ocean.</description><homepage>https://docs.docker.com/machine/</homepage><icon href="https://docs.docker.com/machine/img/logo.png" type="image/png"/><entry-point binary-name="docker-machine" command="run"/></interface><interface uri="http://repo.roscidus.com/devel/doxygen"><name>Doxygen</name><summary>generate documentation from source code</summary><homepage>http://www.doxygen.nl/</homepage><entry-point binary-name="doxygen" command="run"/><entry-point binary-name="doxyindexer" command="doxyindexer">
     <needs-terminal/>
   </entry-point></interface><interface uri="http://repo.roscidus.com/drupal/core"><name>Drupal</name><summary>content management platform</summary><description>
@@ -764,7 +952,11 @@ connect to servers using SSL if supported by PHP.</description><homepage>http://
     <name>FFprobe</name>
     <summary>gathers information from multimedia streams</summary>
     <description>ffprobe gathers information from multimedia streams and prints it in human- and machine-readable fashion.</description>
-  </entry-point></interface><interface uri="http://repo.roscidus.com/utils/filezilla"><name>FileZilla</name><summary xml:lang="en">cross-platform FTP, FTPS and SFTP client</summary><summary xml:lang="de">Plattform-übergreifender FTP, FTPS and SFTP Klient</summary><description xml:lang="en">FileZilla Client is a fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface.</description><description xml:lang="de">FileZilla Client ist ein schneller und zuverlässiger Plattform-übergreifender FTP, FTPS und SFTP Klient mit vielen nützlichen Features und einer intuitiven graphischen Benutzerschnittstelle.</description><homepage>http://filezilla-project.org/</homepage><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/utils/filezilla.png" type="image/png"/><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/utils/filezilla.ico" type="image/vnd.microsoft.icon"/><category>Network</category><category>Utility</category></interface><interface uri="http://repo.roscidus.com/utils/fixparts"><name>FixParts</name><summary>fixes some common problems on MBR disks</summary><description>The FixParts utility fixes some common problems on Master Boot Record (MBR) disks.</description><homepage>http://www.rodsbooks.com/fixparts/</homepage><category>System</category><category>Utility</category><entry-point binary-name="fixparts" command="run"/></interface><interface uri="http://repo.roscidus.com/lib/glut"><name>FreeGLUT</name><summary xml:lang="en">FreeGLUT is a free-software/open-source alternative to the OpenGL Utility Toolkit (GLUT) library.</summary><description xml:lang="en">GLUT was originally written by Mark Kilgard to support the sample programs in the second edition OpenGL 'RedBook'. Since then, GLUT has been used in a wide variety of practical applications because it is simple, widely available and highly portable.
+  </entry-point></interface><interface uri="http://repo.roscidus.com/utils/filezilla"><name>FileZilla</name><summary xml:lang="en">cross-platform FTP, FTPS and SFTP client</summary><summary xml:lang="de">Plattform-übergreifender FTP, FTPS and SFTP Klient</summary><description xml:lang="en">FileZilla Client is a fast and reliable cross-platform FTP, FTPS and SFTP client with lots of useful features and an intuitive graphical user interface.</description><description xml:lang="de">FileZilla Client ist ein schneller und zuverlässiger Plattform-übergreifender FTP, FTPS und SFTP Klient mit vielen nützlichen Features und einer intuitiven graphischen Benutzerschnittstelle.</description><homepage>http://filezilla-project.org/</homepage><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/utils/filezilla.png" type="image/png"/><icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/utils/filezilla.ico" type="image/vnd.microsoft.icon"/><category>Network</category><category>Utility</category></interface><interface uri="http://repo.roscidus.com/utils/fixparts"><name>FixParts</name><summary>fixes some common problems on MBR disks</summary><description>The FixParts utility fixes some common problems on Master Boot Record (MBR) disks.</description><homepage>http://www.rodsbooks.com/fixparts/</homepage><category>System</category><category>Utility</category><entry-point binary-name="fixparts" command="run"/></interface><interface uri="http://repo.roscidus.com/devel/flex"><name>Flex</name><summary xml:lang="en">Flex: fast lexical analyzer generator</summary><description xml:lang="en">Flex is a fast lexical analyser generator. It is a tool for generating programs that perform pattern-matching on text. There are many applications for Flex, including writing compilers in conjunction with GNU Bison. Flex is a free implementation of the well known Lex program. It features a Lex compatibility mode, and also provides several new features such as exclusive start conditions. </description><icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.ico" type="image/vnd.microsoft.icon"/><icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.png" type="image/png"/><category>Development</category><homepage>http://gnuwin32.sourceforge.net/packages/flex.htm</homepage><entry-point binary-name="flex" command="run"/><entry-point binary-name="flex++" command="flex++">
+    <needs-terminal/>
+    <name xml:lang="en">Flex</name>
+    <summary xml:lang="en">Flex: fast lexical analyzer generator</summary>
+  </entry-point></interface><interface uri="http://repo.roscidus.com/lib/glut"><name>FreeGLUT</name><summary xml:lang="en">FreeGLUT is a free-software/open-source alternative to the OpenGL Utility Toolkit (GLUT) library.</summary><description xml:lang="en">GLUT was originally written by Mark Kilgard to support the sample programs in the second edition OpenGL 'RedBook'. Since then, GLUT has been used in a wide variety of practical applications because it is simple, widely available and highly portable.
 
 GLUT (and hence FreeGLUT) takes care of all the system-specific chores required for creating windows, initializing OpenGL contexts, and handling input events, to allow for trully portable OpenGL programs.</description><category>Graphics</category><homepage>http://freeglut.sourceforge.net/</homepage></interface><interface uri="http://repo.roscidus.com/devel/freetype"><name>FreeType</name><summary xml:lang="en">FreeType: font engine and rasterizer </summary><description xml:lang="en">FreeType is a software font engine that is designed to be small, efficient, highly customizable and portable while capable of producing high-quality output (glyph images). It can be used in graphics libraries, display servers, font conversion tools, text image generation tools, and many other products as well. 
 Note that FreeType is a font service and doesn't provide APIs to perform higher-level features, like text layout or graphics processing (e.g. colored text rendering, &quot;hollowing&quot;, etc.). However, it greatly simplifies these tasks by providing a simple, easy to use and uniform interface to access the content of font files. 
@@ -1053,7 +1245,7 @@ because it uses IDEA (which is patented worldwide).</description><homepage>http:
   </entry-point><entry-point binary-name="bq" command="bq">
     <needs-terminal/>
     <description>command-line tool for BigQuery</description>
-  </entry-point></interface><interface uri="http://repo.roscidus.com/java/gradle"><name>Gradle</name><summary>modern open source build tool for continuous delivery</summary><homepage>http://www.gradle.org/</homepage><category>Development</category><entry-point binary-name="gradle" command="run"/></interface><interface uri="http://repo.roscidus.com/utils/grep"><name>Grep</name><summary xml:lang="en">Grep: print lines matching a pattern</summary><description xml:lang="en">Grep searches one or more input files for lines containing a match to a specified pattern. By default, grep prints the matching lines. </description><icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.ico" type="image/vnd.microsoft.icon"/><icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.png" type="image/png"/><category>Utility</category><homepage>http://gnuwin32.sourceforge.net/packages/grep.htm</homepage><entry-point binary-name="grep" command="run"/><entry-point binary-name="egrep" command="egrep">
+  </entry-point></interface><interface uri="http://repo.roscidus.com/java/gradle"><name>Gradle</name><summary>modern open source build tool for continuous delivery</summary><homepage>http://www.gradle.org/</homepage><category>Development</category><entry-point binary-name="gradle" command="run"/></interface><interface uri="http://repo.roscidus.com/utils/grep"><name>Grep</name><summary xml:lang="en">Grep: print lines matching a pattern</summary><description xml:lang="en">Grep searches one or more input files for lines containing a match to a specified pattern. By default, grep prints the matching lines.</description><icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.ico" type="image/vnd.microsoft.icon"/><icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.png" type="image/png"/><category>Utility</category><homepage>https://sourceforge.net/projects/ezwinports/</homepage><entry-point binary-name="grep" command="run"/><entry-point binary-name="egrep" command="egrep">
     <needs-terminal/>
     <name xml:lang="en">Egrep</name>
     <summary xml:lang="en">Egrep: print lines matching a pattern</summary>
@@ -1534,7 +1726,10 @@ warning when loaded.  The CPAN version will not emit such a warning.
   </entry-point></interface><interface uri="http://repo.roscidus.com/python/pyyaml"><name>PyYAML</name><summary>YAML parser and emitter for Python</summary><description>The next generation YAML parser and emitter for Python.</description><homepage>https://github.com/yaml/pyyaml</homepage></interface><interface uri="http://repo.roscidus.com/python/python/upstream.xml"><name>Python</name><summary>The Python Programming Language</summary><description>
 Python is a programming language that lets you work more quickly and integrate
 your systems more effectively. You can learn to use Python and see almost
-immediate gains in productivity and lower maintenance costs.</description><homepage>http://www.python.org/</homepage><category>Development</category></interface><interface uri="http://repo.roscidus.com/python/python-win32"><name>Python for Windows Extensions</name><summary>Python Bindings for the Win32 API</summary><description>The Python for Windows Extensions provide bindings for the Win32 API.</description><homepage>https://sourceforge.net/projects/pywin32/</homepage></interface><interface uri="http://repo.roscidus.com/lib/regex"><name>Regex</name><summary xml:lang="en">Regex: searches for and matches text strings</summary><description xml:lang="en">A regular expression (or regexp, or pattern) is a text string that describes some set of strings. 
+immediate gains in productivity and lower maintenance costs.</description><homepage>http://www.python.org/</homepage><category>Development</category></interface><interface uri="http://repo.roscidus.com/python/python-win32"><name>Python for Windows Extensions</name><summary>Python Bindings for the Win32 API</summary><description>The Python for Windows Extensions provide bindings for the Win32 API.</description><homepage>https://sourceforge.net/projects/pywin32/</homepage></interface><interface uri="http://repo.roscidus.com/lib/readline5"><name>Readline</name><summary xml:lang="en">Readline: edit command lines </summary><description xml:lang="en">The GNU Readline library provides a set of functions for use by applications that allow users to edit command lines as they are typed in. Both Emacs and vi editing modes are available. The Readline library includes additional functions to maintain a list of previously-entered command lines, to recall and perhaps reedit those lines, and perform csh-like history expansion on previous commands. 
+
+The history facilites are also placed into a separate library, the History library, as part of the build process. The History library may be used without Readline in applications which desire its capabilities. 
+</description><icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.png" type="image/png"/><icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.ico" type="image/vnd.microsoft.icon"/><homepage>http://gnuwin32.sourceforge.net/packages/readline.htm</homepage></interface><interface uri="http://repo.roscidus.com/lib/regex"><name>Regex</name><summary xml:lang="en">Regex: searches for and matches text strings</summary><description xml:lang="en">A regular expression (or regexp, or pattern) is a text string that describes some set of strings. 
 
 Using the Regex library, you can: 
 •see if a string matches a specified pattern as a whole, and 
@@ -2217,11 +2412,11 @@ More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
 This package is built from the X.org xproto proto module.</description></interface><interface uri="http://repo.roscidus.com/lib/zlib"><name>zlib</name><summary xml:lang="en">Zlib: general purpose data compression / decompression library</summary><description xml:lang="en">zlib is designed to be a free, general-purpose, legally unencumbered -- that is, not covered by any patents -- lossless data-compression library for use on virtually any computer hardware and operating system. The zlib data format is itself portable across platforms. Unlike the LZW compression method used in Unix compress(1) and in the GIF image format, the compression method currently used in zlib essentially never expands the data. (LZW can double or triple the file size in extreme cases.) zlib's memory footprint is also independent of the input data and can be reduced, if necessary, at some cost in compression. </description><icon href="http://www.zlib.net/favicon.ico" type="image/vnd.microsoft.icon"/><icon href="http://www.zlib.net/images/zlib3d-b1.png" type="image/png"/><homepage>http://gnuwin32.sourceforge.net/packages/zlib.htm</homepage></interface><interface uri="http://repo.roscidus.com/lib/zlib1g"><name>zlib1g</name><summary>compression library - runtime</summary><description>zlib is a library implementing the deflate compression method found
 in gzip and PKZIP. This package includes the shared library.</description></interface></c:catalog>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd7SmNAAoJECLqERp+QkKktG0H/1eRprjQ8IuAcBxUELwQeWM5wKMMow5Wr7mu
-a7lm0Esd+dKdZqFyQZCpWiKr69ry6ZYBU6pHyyr/APGyw19qQFWjqosfXHmdGlLMq46zE71nrBDC
-FhJyeY3zsjly9LJBtSl1p24hKM/wxRFdl9i9bVWBSxZ/qh0dr1s+0CQH/CrQ9e70dGtcWRT4McJk
-gaPqjKdHF4GdbIL/fF5IErCjJeqypa7nYl2l4JEFMBAaYXefQeR6ey0Ilwysma7KAeYTRSfR+zRf
-++FCgeUDnGJNGEEXuAuRjO1jaJSPi/z70BPTIAyWX/3Tp7RKYTh8Ug+JfMIEsyo1+f+FZf4bNLfR
-53M=
+iQEcBAABAgAGBQJd/iCjAAoJECLqERp+QkKkbPAIAO27VBl8NQJWAtX/jGTwYn/Sl4MpyJbJpmnK
+7//UN1eCeo0o+GqqpU09T/j/AAub1pAHpj3sxcUPA33cqLx0aQQeeg/2QcvNdQ33obtbncYcDDqZ
+aOKKQsToeXaAlBDskHCR9i9Wvkzrh6bodU877jpEauSdNXsb9hzWyvQS0UxkMMRzHXxVFldJJFOZ
+64EIMJuTkOWq5maFlueDZM7NMAh+CZaWrzlsDtZe1sxZdVMvtVvZ2YuZJQY12tAplBfH+MVVSxyE
+AnsPVVr1KOnGB9zUNaoCOqj6AJCohyKm8dtlYaOZevc55PYtVsWL8GZeexrwtYGvv7Q/Sb9R+A9N
++Zs=
 
 -->

@@ -43,6 +43,12 @@ such XML data files.</description>
     <manifest-digest sha256new="IOQHINFBGVOZDQTIZMG5VMB64HZBUAVXE4OBWFE4G3CSWDCNWHQQ"/>
     <archive href="https://sourceforge.net/projects/gnuwin32/files/libxml/2.4.12-1/libxml2-2.4.12-bin.zip" size="385904" type="application/zip"/>
   </implementation>
+  <implementation arch="Windows-i486" id="sha1new=6af93a5742bded27d4160d475b2086a6c576cbe9" license="LGPL (GNU Lesser General Public License), GPL v3 (GNU General Public License), zlib/libpng license" released="2012-01-15" version="2.7.8">
+    <command name="xmllint" path="bin/xmllint.exe"/>
+    <command name="xmlcatalog" path="bin/xmlcatalog.exe"/>
+    <manifest-digest sha256new="JPEFD64HLS3IXJUKMXXWUUUQDFEPBCPJUUR2JONWQSELEIEAR3GA"/>
+    <archive href="https://sourceforge.net/projects/ezwinports/files/libxml2-2.7.8-w32-bin.zip" size="3104172" type="application/zip"/>
+  </implementation>
   <entry-point binary-name="xmllint" command="xmllint">
     <needs-terminal/>
     <name xml:lang="en">xmllint</name>
@@ -67,11 +73,11 @@ such XML data files.</description>
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdo6w/AAoJECLqERp+QkKkdnAH/3S8bDWDraTpCjjIYD7BxUSUEZ+gZkUm3RHS
-5MVU11aC0hvoKUSs4krpl4ec6g0VPUFBQHTz/Sesc6yd075wLH28lbv/6E8FLlpYVB4csRdy7Noz
-3pvBVwUnr7oDANh6gz7PkFST8BKsh+kRiD0yobr1uf/DV+KuB2Dg5phwMR8t2XXAeH33oVVHNoyq
-M2Ywwjv+uZ3HJVZPSbivDiQFSYvvip7+vb1DpOWCD+mnZWf01JFdUGfHM+EFut0HPyPZ1oJ9ZQ60
-x5+dJuEmegVpCu0mPgcv5udl/Pgj0NysZLb63xzZsGH5mxnMxsPsE0LgsWURPOuD/zXoAEeVyFsn
-rxY=
+iQEcBAABAgAGBQJd/iCiAAoJECLqERp+QkKk2swH/1DEGNXOlbe+apNEaHxlvNdZHxPIdtJppC7F
+lNM1wxiLNg2NwbpadmoSM+6BsGhfS0tgUoCljBLeXnRNSwNnm4eEJbaKtK8AEZgGXCqY5L+WSiWD
+l9YxqJpVKj6v/qCpten3EdLIoKhA5W0tk0aFgn67Jb3SPxWxaO/oOo1kTTPSxl8PJJnSDVUdENGT
+utitSrvDMgUGFODUlx2qgr+QsDpxefjn2A0vdc28YYOsrTp7241zbj+BerBSmsb3o43he6HNh8CG
+ZkczsKuKIjMFxYxHRQf3VLVkKvUNnQyQEnifIIPBNklZ2w1v2uXTf+Llx/6ZefK3x+KfrSqObZJK
+Cjw=
 
 -->
