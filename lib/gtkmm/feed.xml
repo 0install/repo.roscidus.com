@@ -30,23 +30,23 @@ This package contains shared libraries.</description>
 
     <group arch="Linux-i386">
       <implementation id="sha1new=21531defeb19a58397b52a2c3562b0e170db7f72" released="2012-01-01" version="2.20.3-1">
-	<archive href="https://archives.0install.de/pub/gtkmm/libgtkmm-2.4-1c2a-i386-1_2.20.3-1.tar.bz2" size="1276223"/>
+	<archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libgtkmm-2.4-1c2a-i386-1_2.20.3-1.tar.bz2" size="1276223"/>
       </implementation>
     </group>
     <group arch="Linux-x86_64">
       <implementation id="sha1new=bb479194c2204b6cea6ada917fc46725e9c0afbf" released="2012-01-01" version="2.20.3-1">
-	<archive href="https://archives.0install.de/pub/gtkmm/libgtkmm-2.4-1c2a-amd64-1_2.20.3-1.tar.bz2" size="1206132"/>
+	<archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libgtkmm-2.4-1c2a-amd64-1_2.20.3-1.tar.bz2" size="1206132"/>
       </implementation>
     </group>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lHsACgkQIuoRGn5CQqRXbQf/eNRC
-x+tE6aYu+o0CyaJXnyPgdXS0BAMR2Hq7wp3dY5TE1g9xJ89N/Lkaa35Ho+hM+eLhdwm3QXlWYxE3
-iUczrrcuhGvbzBkPMm6IvJlTnqzFXCCR2awBLhOhilRbj9iTtXzpHvmmVJXPlnna4AYYw732FXoW
-LQDqAdxALQIYr5NBtOJMQqh7ntRFF7QPXuMynB+0LPcGN2rk5WQTUV1rsF3nTnc2a2+kDpP/xKh8
-EPF/BViSzt1wFw7Viq1Hc5UUX0xQsbalmxBjD4TFQfxCjGdA5c7yR6o2x8wETVqe9qBT5W1KZNnq
-R3Dt+4Q9EykKCdBc75GXgtqnmUdt7U2W8A==
+iQEcBAABAgAGBQJd/lUKAAoJECLqERp+QkKkMycIAKoHa27XPiNHl+snPWrJ3pYdVmbTV31jnCJF
+1DScXjrE2rBgjQKiR0jA0LokmifgF3hGEjDD81Q52n4WMButf56dQcuGg/6qaylNkWu6bCTf3x23
+MpxJD4ckBbY5KaFB36/ZeVE7VG04RNzfjUEkhG0SJBEJ9Sc2wnqvPEi8R4y3I1NQd23UvCBO5ayG
+3YNynDF5aj4OyTHu8s5Hq+jM8PpIhgBJJTeak+0JnALhGqZ/tEG8GEiUG2cNjHZJs8iBYaWPFTkf
+2oAI0A9k3A1ZSm3T5hGXd/QFOqgsuig+Yxz6VKZ1jPM09OgSc1E5UipC1dJf2aQ+aZr9DiLboQS1
+oJs=
 
 -->

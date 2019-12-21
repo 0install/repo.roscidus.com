@@ -9,20 +9,20 @@ special needs for some languages.</description>
   <package-implementation package="libgcc1"/>
   <group arch="Linux-i386">
     <implementation id="sha1new=2d07d68dbb76ae78946c397d23b5c7d938167f41" released="2011-10-16" version="4.4.5-8">
-      <archive href="https://archives.0install.de/pub/gcc1/libgcc1-i386-1_4.4.5-8.tar.bz2" size="51674"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libgcc1-i386-1_4.4.5-8.tar.bz2" size="51674"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=72d044a65851ef9fa91d5f2d2f954d2f918277a8" released="2011-10-16" version="4.4.5-8">
-      <archive href="https://archives.0install.de/pub/gcc1/libgcc1-amd64-1_4.4.5-8.tar.bz2" size="42678"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libgcc1-amd64-1_4.4.5-8.tar.bz2" size="42678"/>
     </implementation>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lH0ACgkQIuoRGn5CQqSC+Af9EOtS
-QqRWbfcEN7kqSA3W1M8UadN7QGRH5WEUBkiQ1+S6+NEi3HoP228RjM0CXG7jl/d2RufeJsdE+GD9
-9GcuR6DXko4akNxGGlijUq3h5gClEGpwSCrOH0IKU3qN2Fi8g90lvQV0Yy/nNFSNBA+bFH5T8H7C
-8bWa2IfzZn/i25BD0ku7l/Yv+sQNj3qADuAE98SHIpUKlYK2HpTlYVNa1ZBin/6/59TrHlc9xYS1
-9EUEnFngDueXbtvGjHmL7bpzy0nluNvSgNflTvVlVFqoma49XDCnxovEzk1hiBYZTj2IFZcDlBHI
-klE8eNG97XDYxV4+Y7NEbvWGpHN3VBuIZQ==
+iQEcBAABAgAGBQJd/lUJAAoJECLqERp+QkKkK38H/1TdEruvPUi/zeRcd8y4KkpHjeb/P47vX5UH
+glDAak+LNVM/ESRWPG4yM2qQtoD/UE4nXyog+MCOpMKP9ojYF62zCaWTnwKAvgbb6FDwmyCdaqMG
+tqBlQMB+GfL5K8c8+bpQsx/BcH+v8qvNsmlOO5B4hbs9xB5E/vD4M/sn9jo2ucjuVciggF58bhta
+F+RiaPYnMNm4dq/iUMRgjWh76gmiQvzRbTj6cJGJ2urg+bOL5upU/N8hIXD8xB7KDKoDf0KQMo6t
+NxZmeKP/JddGrTXdfV5tlnzrOaSN3+nxLN8shbTL287bYYJuH9LB5wRprBfvqfcbvvTID8vkmmTy
+WQw=
 
 -->

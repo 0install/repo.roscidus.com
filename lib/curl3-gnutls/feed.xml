@@ -21,10 +21,10 @@ This is the shared version of libcurl.</description>
       <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
     </requires>
     <implementation id="sha1new=b78d7c3d298b307165e9f5b839ba78d6f893ee31" released="2010-06-26" version="7.18.2-8">
-      <archive href="https://archives.0install.de/pub/curl3-gnutls/libcurl3-gnutls-i386-7.18.2-8lenny4.tar.bz2" size="212159"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libcurl3-gnutls-i386-7.18.2-8lenny4.tar.bz2" size="212159"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=7e517b40db4abf858d82af82dc59b939130b89b5" released="2010-06-26" version="7.18.2-8">
-      <archive href="https://archives.0install.de/pub/curl3-gnutls/libcurl3-gnutls-amd64-7.18.2-8lenny4.tar.bz2" size="217034"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libcurl3-gnutls-amd64-7.18.2-8lenny4.tar.bz2" size="217034"/>
     </implementation>
   </group>
   <group>
@@ -38,10 +38,10 @@ This is the shared version of libcurl.</description>
       <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
     </requires>
     <implementation arch="Linux-i386" id="sha1new=3906d86ed089797c83783f5b50a71c18f3ef7d78" released="2011-05-29" version="7.21.0-1">
-      <archive href="https://archives.0install.de/pub/curl3-gnutls/libcurl3-gnutls-i386-7.21.0-1.tar.bz2" size="261280"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libcurl3-gnutls-i386-7.21.0-1.tar.bz2" size="261280"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=b688a3dc88fe3b50d3840e9dce2587bd9b59f646" released="2011-05-29" version="7.21.0-1">
-      <archive href="https://archives.0install.de/pub/curl3-gnutls/libcurl3-gnutls-amd64-7.21.0-1.tar.bz2" size="268045"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libcurl3-gnutls-amd64-7.21.0-1.tar.bz2" size="268045"/>
     </implementation>
   </group>
   <group>
@@ -55,10 +55,10 @@ This is the shared version of libcurl.</description>
       <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
     </requires>
     <implementation arch="Linux-i386" id="sha1new=c28b01d4fb0fdb1dcc9c5f90b9ea58ed59d1d213" released="2011-09-17" version="7.21.0-2">
-      <archive href="https://archives.0install.de/pub/curl3-gnutls/libcurl3-gnutls-i386-7.21.0-2.tar.bz2" size="261535"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libcurl3-gnutls-i386-7.21.0-2.tar.bz2" size="261535"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=ab130cb126c5f38b3971e36aae02fd5c55c5e090" released="2011-09-17" version="7.21.0-2">
-      <archive href="https://archives.0install.de/pub/curl3-gnutls/libcurl3-gnutls-amd64-7.21.0-2.tar.bz2" size="268171"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libcurl3-gnutls-amd64-7.21.0-2.tar.bz2" size="268171"/>
     </implementation>
   </group>
   <group>
@@ -75,20 +75,20 @@ This is the shared version of libcurl.</description>
       <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
     </requires>
     <implementation arch="Linux-i386" id="sha1new=b46795b486a7d4c886da888b98f2d54109afd3be" released="2012-03-27" version="7.21.0-2.1">
-      <archive href="https://archives.0install.de/pub/curl3-gnutls/libcurl3-gnutls-i386-7.21.0-2.1+squeeze1.tar.bz2" size="261845"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libcurl3-gnutls-i386-7.21.0-2.1+squeeze1.tar.bz2" size="261845"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=7e6cecf16eee7c1ed049bf72c0c3a2dd5fac5f28" released="2012-03-27" version="7.21.0-2.1">
-      <archive href="https://archives.0install.de/pub/curl3-gnutls/libcurl3-gnutls-amd64-7.21.0-2.1+squeeze1.tar.bz2" size="268482"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libcurl3-gnutls-amd64-7.21.0-2.1+squeeze1.tar.bz2" size="268482"/>
     </implementation>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lHwACgkQIuoRGn5CQqTuuggAjdDE
-ie+11DQ36uRrRMJlbj4f2+a5tDPetwf6YnmWoVUXh+uMycvxveQqgbfj/IoSJLuR9eIg289KUSXa
-TnV5wI8PR+cq84DAi+KCfU9r+dYOkgeEEAO9i7MCckT2eV5CGDY55LpB3YZcUF08t17CvWiWXqdd
-o2AXhUrYZICwDCsjxWrr0swwo94iixkw5r9uI2RgnyZlSJk3nVEWjKziuCM9H1p6pVPM2nTCfXHq
-MJAMHju+JorPqBDxJhtf5Vtj70mM7a2ffeyMoRDkIE6l5PriN5ICCnXsRq710xxOU1rrRIkEqSB+
-DdJgytKMmbiD/HdUf4VPlM8IZkMD4J459Q==
+iQEcBAABAgAGBQJd/lUJAAoJECLqERp+QkKkTwIIAPRxT7w/fa5JWPkVyhxYOag1bVczWpI6CKvj
+hMqF8l3oPM+mB4Pwuiek+eDStEhXHqVAtxwXFZ3EvMdxc7pXPV2ha5GE+bTpH3VUCYAmNLV7uwer
+S/jW13bkFvKWVGH5l+em8V/3uJab20TX3iwxbu/Y4H9yzKLeYfzOZYRN5Rc4vpn2RMOxUodSF08e
+eSxM2KNvE8c7NJ9jMWewuCsDgYctQqWRNaW5bHSW2owTXCM43A5j31cnCQhO0lTuCrZq0xXNzNyK
+bEQFZJsPDL/5JuNUXwYsMl/Aya0SQ0jayreYxPeIYT+zV+dHWt8Km90TDOVILr1k8uB4aoqHl2kb
+iwg=
 
 -->

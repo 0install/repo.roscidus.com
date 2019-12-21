@@ -20,41 +20,41 @@ On OS X, an extra argument needs to be passed to Java. To support OS X, please u
   <category>Development</category>
   <group license="Eclipse Public License and LGPL">
     <implementation arch="Linux-x86_64" id="sha1new=ef03ea4907d195beeb4e20d9427e565f3879b8ff" released="2009-12-31" version="3.5.1">
-      <archive extract="swt" href="https://archives.0install.de/pub/swt/swt-3.5.1-gtk-linux-x86_64.tar.bz2" size="1439711" type="application/x-bzip-compressed-tar"/>
+      <archive extract="swt" href="https://github.com/0install/apps.0install.net/releases/download/archives/swt-3.5.1-gtk-linux-x86_64.tar.bz2" size="1439711" type="application/x-bzip-compressed-tar"/>
     </implementation>
     <implementation arch="Linux-i386" id="sha1new=d1ac00014927f17d81b0e21e655fc15202d10dd0" released="2009-12-31" version="3.5.1">
-      <archive extract="swt" href="https://archives.0install.de/pub/swt/swt-3.5.1-gtk-linux-x86.tar.bz2" size="1341127" type="application/x-bzip-compressed-tar"/>
+      <archive extract="swt" href="https://github.com/0install/apps.0install.net/releases/download/archives/swt-3.5.1-gtk-linux-x86.tar.bz2" size="1341127" type="application/x-bzip-compressed-tar"/>
     </implementation>
     <implementation arch="Windows-x86_64" id="sha1new=c4a637dbcdb826bc9db8c36b3c97793f2047fb88" released="2011-01-07" version="3.6.1">
-      <archive extract="swt" href="https://archives.0install.de/pub/swt/swt-3.6.1-win32-win32-x86_64.tar.bz2" size="1651871" type="application/x-bzip-compressed-tar"/>
+      <archive extract="swt" href="https://github.com/0install/apps.0install.net/releases/download/archives/swt-3.6.1-win32-win32-x86_64.tar.bz2" size="1651871" type="application/x-bzip-compressed-tar"/>
     </implementation>
     <implementation arch="Windows-i386" id="sha1new=5b4d300050a2b972affad3398039114631786e79" released="2011-01-07" version="3.6.1">
-      <archive extract="swt" href="https://archives.0install.de/pub/swt/swt-3.6.1-win32-win32-x86.tar.bz2" size="1631349" type="application/x-bzip-compressed-tar"/>
+      <archive extract="swt" href="https://github.com/0install/apps.0install.net/releases/download/archives/swt-3.6.1-win32-win32-x86.tar.bz2" size="1631349" type="application/x-bzip-compressed-tar"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=bb9479c20f7684b9423be7d76194929e9b6fb690" released="2011-01-07" version="3.6.1">
-      <archive extract="swt" href="https://archives.0install.de/pub/swt/swt-3.6.1-gtk-linux-x86_64.tar.bz2" size="1582413" type="application/x-bzip-compressed-tar"/>
+      <archive extract="swt" href="https://github.com/0install/apps.0install.net/releases/download/archives/swt-3.6.1-gtk-linux-x86_64.tar.bz2" size="1582413" type="application/x-bzip-compressed-tar"/>
     </implementation>
     <implementation arch="Linux-i386" id="sha1new=859ce16046774440401016064a59c2f2280df486" released="2011-01-07" version="3.6.1">
-      <archive extract="swt" href="https://archives.0install.de/pub/swt/swt-3.6.1-gtk-linux-x86.tar.bz2" size="1425786" type="application/x-bzip-compressed-tar"/>
+      <archive extract="swt" href="https://github.com/0install/apps.0install.net/releases/download/archives/swt-3.6.1-gtk-linux-x86.tar.bz2" size="1425786" type="application/x-bzip-compressed-tar"/>
     </implementation>
 
     <group>
       <environment name="ZEROINSTALL_EXTRA_JAVA_OPTIONS" separator=" " value="-XstartOnFirstThread"/>
       <implementation arch="MacOSX-x86_64" id="sha1new=0304451926f7865550effb10b6e0c11dfd3c5043" released="2011-01-11" version="3.6.1">
-	<archive extract="swt" href="https://archives.0install.de/pub/swt/swt-3.6.1-cocoa-macosx-x86_64.tar.bz2" size="1434191" type="application/x-bzip-compressed-tar"/>
+	<archive extract="swt" href="https://github.com/0install/apps.0install.net/releases/download/archives/swt-3.6.1-cocoa-macosx-x86_64.tar.bz2" size="1434191" type="application/x-bzip-compressed-tar"/>
       </implementation>
       <implementation arch="MacOSX-i386" id="sha1new=07b352855c107ed97186794f7eb04aa61f2dd9ca" released="2011-01-11" version="3.6.1">
-	<archive extract="swt" href="https://archives.0install.de/pub/swt/swt-3.6.1-cocoa-macosx.tar.bz2" size="1523076" type="application/x-bzip-compressed-tar"/>
+	<archive extract="swt" href="https://github.com/0install/apps.0install.net/releases/download/archives/swt-3.6.1-cocoa-macosx.tar.bz2" size="1523076" type="application/x-bzip-compressed-tar"/>
       </implementation>
     </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lHoACgkQIuoRGn5CQqTPtQf9HwvR
-uusTClitouXlEdKF8A89E8Fzl7EmP8fqsjAz6qDlrqE1HjNsI8H5umAfm3y/YQOxOa16rMossm7Q
-HDe0mdtYGMXcEYuhpRvUkjYm6ccSNvQpHE+3vt8TDLMs+0DLc0dnusW7bcze6BRDHdzH2aXIK5TP
-wfMe9o4zwWTdnR8NEC/KoqgPhJLvOabVQJBcmbr831/CvfJ2CewtMaI2y8OiFPvGV9d7LJ0gh8iK
-1GSxfBRXNu1+G+lq5P2f1RjfNOGBOnV4st5IiG6A82KVF/Yh/64fhWKA8iWBEqurYJXoXJ8uVqL9
-DvVpVxGhx/1pbB2KfjvnY+eYpvzEOpJ6fA==
+iQEcBAABAgAGBQJd/lUIAAoJECLqERp+QkKknH4H/jTf5I66ZZtP4BKZmrepPyLgUsMRE3e292Nw
+lgWtCkZjtoPoE1w6k1GMaNAHRZ+Ts8F0MtorFAQJl+ZX2tT3swLdR/TL74EYtUj80UmMMsbrzEEI
+WoSBU6VJlXEIfDSJM6mhS9BC3gnoTkzKVaJ1Ajn9xoVYE+4A+HyZG+d8QcWAlFw9UxuJpSLImFWD
+A30yktJYzw+7lVz2lbr5zMgKbFRi/6/Mwf4gZwVho1kcxDRJrUcsbwRjl6vMk5UycUE/Pb6UPdFw
+D0qMcQOejt4KF2wdt/bGkn5IHmti4fXW3u2Y8xGjeN0Ko1Ww0BuOTqKoMbQSwk0jIcETLBX94mz/
++5E=
 
 -->

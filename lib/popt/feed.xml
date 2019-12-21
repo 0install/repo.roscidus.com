@@ -15,10 +15,10 @@ This package contains the runtime library and locale data.</description>
   <package-implementation distributions="Gentoo" package="dev-libs/popt"/>
   <package-implementation package="popt"/>
   <implementation arch="Linux-i386" id="sha1new=362577ba8014c27fa70d458512af35b56cdf5ea6" released="2012-05-26" version="1.16-1">
-      <archive href="https://archives.0install.de/pub/popt/libpopt0-i386-1.16-1.tar.bz2" size="51588"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libpopt0-i386-1.16-1.tar.bz2" size="51588"/>
   </implementation>
   <implementation arch="Linux-x86_64" id="sha1new=856e07e63b6130b96ab39bf8dfc3ac5e3d18db96" released="2012-05-26" version="1.16-1">
-      <archive href="https://archives.0install.de/pub/popt/libpopt0-amd64-1.16-1.tar.bz2" size="53008"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libpopt0-amd64-1.16-1.tar.bz2" size="53008"/>
   </implementation>
   <implementation arch="Windows-i486" id="sha1new=d5bbadb4937a12bc359ec5a7b8b31386fddda0e3" license="MIT/X Consortium License" released="2003-10-04" version="1.8-1">
     <manifest-digest sha256new="JRTMSSV7YTHKUEVJRAYQ2JMEGEDB2MVMQTRSGRLWNDAT32EOTFOA"/>
@@ -26,11 +26,11 @@ This package contains the runtime library and locale data.</description>
   </implementation>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd7SkBAAoJECLqERp+QkKkoz4H/iA4Qs+rBozdn7y/zJNKd1a5AhSpfKQCXziF
-Jbz4R8RUM9A2VnrBI+bIXhntBGdDY1W+g+rckGqTJHQTJc8CNJaouWepxlElafQVKOvi8238VZJK
-LC7PTp43DdhsiucR7MAloQh/Ixfk9EzaSowJVZkTFXMN5CTh+/iL3LFpEOeVit2LWy6tfon83Ji8
-LOgRae4YtEBZilGOCbbHKA42eT4A0CQNSx/hI+zon4rS3CrNh3tieh1LWoWhpBYHlhgdqsXJwgdZ
-bP5OUTvoAX92O+bQ0s1rBQxMlv3qONLk18+dU63sze9P7NKtjzeK8WDAh7xrp+IertXYcf835bPf
-Wtc=
+iQEcBAABAgAGBQJd/lUKAAoJECLqERp+QkKkRJEH/Aur4secjsYVctFOnVa3SO3P4zVguP+UXOcP
+fim8+VkxaqTtz8k+H+eSv0OKM36rl1DpBgBBL1wVihUgZGKp+cpY+SjbQ0isVAqi2GoijoWOOovf
+UW7vAw2SFvqXxzwFcuESUge7M9WSFrOF2UOPwDKpifMe7SK/bUL+qCjycvY2RfIeogXpaYvoHcx/
+H2HZTt0AA8B0m2IdmuK6P5A7J5yi08X/uuxwo0WBoRoWFZlSC1CPLkbibChIJ3zEYYS+Suh/1lDL
+pYvTrrQ5ShSOpAYD984q4bak0EkjevjZ9Z3YfqLIzb9d90BZfqgx7y1PeSs6HFHbDNGjQQ5/1B4i
+x8Q=
 
 -->

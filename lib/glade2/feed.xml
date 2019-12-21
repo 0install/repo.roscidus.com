@@ -14,20 +14,20 @@ The interfaces can also be edited with GLADE.</description>
       <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
     </requires>
     <implementation id="sha1new=15272eeed2f2399dabe965698e2f0071e8d7de24" released="2011-09-11" version="2.6.4-1">
-      <archive href="https://archives.0install.de/pub/glade2/libglade2-0-i386-1_2.6.4-1.tar.bz2" size="88025"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libglade2-0-i386-1_2.6.4-1.tar.bz2" size="88025"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=16cdc92f54b0e322a4931883870f60f2e4f319a1" released="2011-09-11" version="2.6.4-1">
-      <archive href="https://archives.0install.de/pub/glade2/libglade2-0-amd64-1_2.6.4-1.tar.bz2" size="90219"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libglade2-0-amd64-1_2.6.4-1.tar.bz2" size="90219"/>
     </implementation>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lHsACgkQIuoRGn5CQqRLbwgAv6sQ
-ATv6b/9564dv2q+s0FfVaKbD6+lfSNVy78HEcdkjVaawa5CmxiqKAEko18nzSxrnPEY0rrIdMEnd
-dlkbLVJAvyUbwptOwc4fPFj3PSiTKhek4VPzZhaWSQqkh21imK5iOIXLLDDbUX0j075FTFzlBvl1
-wKP5IDsMR31go4BM+bEUmN2XqKNcFTm/C0p/QacG/F/eP2iwVXcnc933yYvRzrW1J2HWTGkpD4lr
-6Psxb1txWEgXn2UgZVw9j1JQhgZKW9IfmHC3GgqCF7gMUcalHx2YcowVWpddu/xI0+uC8Ckxzcds
-LG27zHLg0tEMVnW+VmSWEler7KOM9hcASg==
+iQEcBAABAgAGBQJd/lUJAAoJECLqERp+QkKkhE8H/A/F5q91NM3smrNiHlRkwiRQh0jNkYd3k4k3
+nE9K/gYPmSem1ou+C5NcNkx9RHIEhTT4TGAnSXE/PvgC1CyqIbl96IvPl6bhbbUUyLnD0lNUeh+l
+kBbxjxyn6QkR7meNNLaHnGsTZh0kE9S0p7wvH8l7py8awnRKb6CTkDQ+SB7zMZ+P/1rQiHYxdgse
+edg3oDZ2+yUl2M8yrGO7iAS0+4TcTEyA+XUHrVRL1gM8QFUje8eUAVbqg7c9go1GuVdHuyN25vc8
+Z4SQbeCatb/vATYa/u5x+S90sbR3KgeT8vyXPYS4pwIeajfTvewiZ0TDRa+oCpeiK5hV0QqiX9rN
+vaM=
 
 -->

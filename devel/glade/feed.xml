@@ -26,7 +26,7 @@ languages including C, C++, C#, Vala, Java, Perl, Python,and others.</descriptio
 	</compile:implementation>
       </command>
       <implementation id="sha1new=004cb5d03e788ef8e893e6c53ea3a4b56f432322" released="2012-07-08" version="3.8.2">
-	<archive extract="glade3-3.8.2" href="https://archives.0install.de/pub/glade/glade3-3.8.2-tal.tar.bz2" size="2739051" type="application/x-bzip-compressed-tar"/>
+	<archive extract="glade3-3.8.2" href="https://github.com/0install/apps.0install.net/releases/download/archives/glade3-3.8.2-tal.tar.bz2" size="2739051" type="application/x-bzip-compressed-tar"/>
       </implementation>
     </group>
 
@@ -34,17 +34,17 @@ languages including C, C++, C#, Vala, Java, Perl, Python,and others.</descriptio
       <implementation id="sha1new=4d4909806e707060c207c9b5983bffc8b0179a4c" main="bin/glade-3" released="2012-07-08" version="3.8.2">
 	<environment insert="lib" name="LD_LIBRARY_PATH"/><environment insert="." mode="replace" name="GLADE_HOME"/>
 	<manifest-digest sha256="f80ae33b9ae3f551ef85871864d8b114381a9abda0aa5848068835783893cf24"/>
-	<archive extract="glade-linux-x86_64-3.8.2" href="https://archives.0install.de/pub/glade/glade-linux-x86_64-3.8.2.tar.bz2" size="3080690"/>
+	<archive extract="glade-linux-x86_64-3.8.2" href="https://github.com/0install/apps.0install.net/releases/download/archives/glade-linux-x86_64-3.8.2.tar.bz2" size="3080690"/>
       </implementation>
     </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lHgACgkQIuoRGn5CQqSGjQf/Xr85
-4V14SMPzNo97BVcsw50HjEi3HgGbOxEjqDmLJxvbWJzJOD3ZgU6QDysuQQ5TsgFuc4wU32rn965S
-RINeFOJQ10yWEslyIV3PXnJi4ep1gxTsx+mkBpTfg3QNbBuPR+0ctI55j5NWRG6O8NKubDvfU54I
-UgATWqnOOHksyUliwIf7yd/g6X9WVliKxaiCzz1HRvNqTByenR+QloA2KGIy1uqL50ekal/zuVrb
-NAzcJnhrlM/4RUODvYZmWonEKJOBeMypGTJdA9Aw/bIQiIlzmtGUkIcC+FtytvN5uuv2bK36DPX+
-yittYMAAayUH94im6J8N1wyeMFELn0G6bQ==
+iQEcBAABAgAGBQJd/lUHAAoJECLqERp+QkKkAc8H/jlyk9Lb2CofzHa3SGDeZt8YsU+QEXZOkVfe
+OSrGGULhUAMpYmNa0yuiaJEA3UmBdvMV04KQ3XclSKQKatXRGWMdSOmtYwhuGqDrFVAsfLnwxZSp
+rXyEUtWr6TCgoof7UmoJZkOLdRSnrSUI7gFfwGGnCNmcrFgIrsgFyKKMZEOPTsOEj9nf+DcgX6Pq
+BSI3uQ47/UQSBxZ8auLBA7hIRsqV+7BGPoqDJC/BQmJMDlsFg3GXADnGyYKNXG1VmdM5oeECUpae
+xq+0CKoiCWwieosFU8TbzY8btjRzt+k/338SDzmDJK21gCY0VnNep25esz9kB2Ow8y9fkHV0Jz8A
+ras=
 
 -->

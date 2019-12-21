@@ -24,16 +24,16 @@ Workaround for java -classpath ... -jar ... which does not work.</description>
     </command>
     <implementation id="1.0" stability="stable" version="1.0">
       <manifest-digest sha1new="3706305d50a745c5a362b02aaf417d2d0765c9c1" sha256="60d4d71585f66a36ac1e3116f234ff93d0319b6d0dccb17e027e162cc9da0481" sha256new="MDKNOFMF6ZVDNLA6GELPENH7SPIDDG3NBXGLC7QCPYLCZSO2ASAQ"/>
-      <file dest="jar-launcher.jar" href="https://archives.0install.de/pub/JAR-Launcher/jar-launcher-1.0.jar" size="3201"/>
+      <file dest="jar-launcher.jar" href="https://github.com/0install/apps.0install.net/releases/download/archives/jar-launcher-1.0.jar" size="3201"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1tJJAACgkQIuoRGn5CQqSmmgf/SbY3
-LP1PFan204DisZLZCEIKGIR8BpWUAAUKn+OtsuTme1xX/PzsLp14TEl+pa1dWM2mhnaNNku+KDed
-Yse6PXXWS8HQIWxWjQjNV4nen5RVguLZpaA3MQtO5DGNftrWtiyZfQ7kFqR0y0Tq75T5EkNDTcE1
-b+mNYuDMKJQ+NZBXXhg/rZ/0AqaWBpmfKlOdDmxAdOWqcJq1J/bbj2973zAfnIr/n2KpHdIipQJd
-6mLnAAA8oXZcsAI2GMgIbO58kA0BDczohFgW3+BN/NKLuvjaSOLWsD2kQLDGqK4P+NWN633R9e7K
-jn193oxa/72n/D9XajbPYnKgMfe0xVLIfA==
+iQEcBAABAgAGBQJd/lUIAAoJECLqERp+QkKkD5UH/2Th78j34+O+JITICX80c60yLYGRMfyvTsgo
+0o4XsUjAKaRmnw5yTfDe9QdlZYFT7w9I5AAlnBpNmR3vkZX73A1GD5nALYQ8lZXCiGlzVqSOe/oy
+2l1v+Y2o7IOH+OItFY7idBNzfSUZJYe9Q2hNXDx6Oa36z5GxSeNdQE45ftnfbqce0mdqStQLS/Sc
+6f1EDvbqDiCe+q2KTX6xJnD2FEOogtLrJdjzPeCSiWJHO/AO/dZNApXTbaPGG/8N5n0Sp53hwD7g
+BWCv+2B6P9EwBca41/5Pygj3nwyvSaCEAnaghS+GLM4/MdlpeHVv3cTpieSuda5nmQOcJ0/Sn90M
+I4s=
 
 -->

@@ -15,23 +15,23 @@ intended to be used as a plug-in replacement for C's malloc.</description>
     </requires>
     <group arch="Linux-i386">
       <implementation id="sha1new=a4037bc11ac0ece34b24adea70e7255689f52b19" released="2012-01-02" version="6.8-1.2">
-	<archive href="https://archives.0install.de/pub/gc/libgc1c2-i386-1_6.8-1.2.tar.bz2" size="125683"/>
+	<archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libgc1c2-i386-1_6.8-1.2.tar.bz2" size="125683"/>
       </implementation>
     </group>
     <group arch="Linux-x86_64">
       <implementation id="sha1new=4803988e733f5c99bbbb6d2b6ddcb95a149d3f52" released="2012-01-02" version="6.8-1.2">
-	<archive href="https://archives.0install.de/pub/gc/libgc1c2-amd64-1_6.8-1.2.tar.bz2" size="128933"/>
+	<archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libgc1c2-amd64-1_6.8-1.2.tar.bz2" size="128933"/>
       </implementation>
     </group>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lHwACgkQIuoRGn5CQqRIKggAniCO
-D0KzvGgQBm8NIJOus23AxZd/hCFteTELp6mtQvHYPhm0Ml/OjM6kMIATfNmreVdmGU0wAwtPVX/9
-cS7xTb0pT19rsg3CkgWpZICUripPtwtIgbwk+DFb2RLUEctQrkAe9imY8BjeZfoOKq9sq2nxRj9k
-sfi9/SUgDAigWzcOPrM425cpv49L6PqGGIkQ3c5w1RYwYNa21r302XLi6bvzg1Ia00Hmh4MG9v5u
-aJoxxcl+eXExH2BHibDbowg+ssdIRtpggO37GDkjpS1qes5j24h4O/X74K47F4ZfZjkP/0sl985Q
-1H1AwV+TK+eRkF22GhJeHUmyvchBPqjZjg==
+iQEcBAABAgAGBQJd/lUJAAoJECLqERp+QkKkm44H/RLZSN3tEeAKRExg28hlO4g1dMC6ddmhiGUb
+aVsOP8I3iv2fGMu4wBW2rWq8gWtbrcAbT14IOWRklTucHOHM4EgTj1noODHOuvs+ACty7F6qWFdz
+FOPWjPLLRORVvN5zE/rDroRSWykFRskzLpUdlkRdzuaEYCp4suCFGJihz6YuIUgIjr9SO4Qzisnm
+dFOwSmOucCBbwVdYgn6bYrqmJQZA51IJa7I3tjx56jVmwTNaGossmqX6HIruymILQZXWlsqexSeB
+g5G2Rs6+a8nkX23WGfmClad8vr9J6g5nG5l1ub7WhiRik29GBDLC96hLLvQLGce2S1ILpJSfhFyr
+rB8=
 
 -->

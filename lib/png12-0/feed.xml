@@ -39,31 +39,31 @@ using libpng.</description>
   </group>
   <group arch="Linux-i386">
     <implementation id="sha1new=c33007f8f0185af570fe3c37f391b5832c8cb2de" released="2011-10-01" version="1.2.44-1">
-      <archive href="https://archives.0install.de/pub/png12-0/libpng12-0-i386-1.2.44-1+squeeze1.tar.bz2" size="106531"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libpng12-0-i386-1.2.44-1+squeeze1.tar.bz2" size="106531"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=24a3bed36ab3898dab469b4faa8a7216f2813cce" released="2011-10-01" version="1.2.44-1">
-      <archive href="https://archives.0install.de/pub/png12-0/libpng12-0-amd64-1.2.44-1+squeeze1.tar.bz2" size="106552"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libpng12-0-amd64-1.2.44-1+squeeze1.tar.bz2" size="106552"/>
     </implementation>
     <group>
       <requires interface="http://repo.roscidus.com/lib/zlib1g">
       <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
     </requires>
       <implementation id="sha1new=8390965d5ff42850c411b6902a72b5f7683ae1ae" released="2012-03-27" version="1.2.44-1">
-      <archive href="https://archives.0install.de/pub/png12-0/libpng12-0-i386-1.2.44-1+squeeze3.tar.bz2" size="106547"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libpng12-0-i386-1.2.44-1+squeeze3.tar.bz2" size="106547"/>
     </implementation>
       <implementation arch="Linux-x86_64" id="sha1new=99450d9b55c1ffc3d05432f6424d804a055f331d" released="2012-03-27" version="1.2.44-1">
-      <archive href="https://archives.0install.de/pub/png12-0/libpng12-0-amd64-1.2.44-1+squeeze3.tar.bz2" size="106559"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libpng12-0-amd64-1.2.44-1+squeeze3.tar.bz2" size="106559"/>
     </implementation>
     </group>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdn4eXAAoJECLqERp+QkKk008H/jaY7tiRy3SjxBiwTVO76CWrs4On1RJLbVgM
-khg5XyRu7S9oGt1yM900nIt5gqOyhtQCH5P5llNRy4sRTZNsw2e1vVG+BmcCf/3swDpvK1LDG68R
-uCzSPJM9px7aMndIKtuAkijjnLhg0qba6z/plb/tf80bENUYVqy2+yoVm+1DK2J+mV2NgxDCWajW
-f0HLMJeZocTVAXa4enmSdImjmSe0E5hZSs0+Lym35vfOv9+t/k8AgvvnpzgjWQz2d+Kw/EqihYNI
-1fzOTjHHxtCQT+Rst2JuMopSp0t6vnPNdC81w+xjR/q48tkEwtIpoyeAJgJd9BU1iapYetE7F+P5
-euU=
+iQEcBAABAgAGBQJd/lUKAAoJECLqERp+QkKkT0sH/jqQ+vKt1HNyUtmqDAU4v5viYLAQ5XS/MpJz
+hhDlxmD1wviQz9yG9R3dPHh+Dh3H0RtVtPWRCOTb2qi6yEjf9FRxz5xopV0VB5WeqSdl/+Rnv+f7
+sptC6/qJIRV0KvPko2IOocCOUOCwBQ+gjDU6Thr5xTrzZQWEYRVKU8qQqS/XTwdQf5K1qcwtwa+v
+wTNcRPXABC/Q6nwbpwGZl3M42VVdXdHikvqvRnTwvojsAd3xFwTfmoFDiEO2bxiv1u9jZtPuPZHa
+pSShiDb+6mhnCWC+XbJPH0Se7Xlwu+njh67cuGHjWqIe/FXsPX5vai1+qh/PV9jTWl87oOw3+y5I
+duI=
 
 -->

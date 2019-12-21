@@ -26,33 +26,33 @@ the original game as closely as possible while extending it with new features.</
       </requires>
       
       <implementation arch="Linux-i686" id="sha1new=19bf56c253e576baebc52f58e1df4bd74ef8c8d4" released="2010-06-12" stability="stable" version="1.0.1">
-	<archive extract="openttd-1.0.1-linux-i686" href="https://archives.0install.de/pub/openttd/openttd-1.0.1-linux-i686.tar.bz2" size="17248708" type="application/x-bzip-compressed-tar"/>
+	<archive extract="openttd-1.0.1-linux-i686" href="https://github.com/0install/apps.0install.net/releases/download/archives/openttd-1.0.1-linux-i686.tar.bz2" size="17248708" type="application/x-bzip-compressed-tar"/>
       </implementation>
       <implementation arch="Linux-x86_64" id="sha1new=4611e563d76a7277784fd814a80fee0993803cac" released="2010-06-12" stability="stable" version="1.0.1">
-	<archive extract="openttd-1.0.1-linux-amd64" href="https://archives.0install.de/pub/openttd/openttd-1.0.1-linux-amd64.tar.bz2" size="17443765" type="application/x-bzip-compressed-tar"/>
+	<archive extract="openttd-1.0.1-linux-amd64" href="https://github.com/0install/apps.0install.net/releases/download/archives/openttd-1.0.1-linux-amd64.tar.bz2" size="17443765" type="application/x-bzip-compressed-tar"/>
       </implementation>
 
       <implementation arch="Linux-i686" id="sha1new=fc4f4ca517d9c743a9c48f103f9d9c3d0ae93479" released="2013-02-23" stability="stable" version="1.2.3">
-	<archive extract="openttd-1.2.3-linux-generic-i686" href="https://archives.0install.de/pub/openttd/openttd-1.2.3-linux-generic-i686.tar.bz2" size="23705300" type="application/x-bzip-compressed-tar"/>
+	<archive extract="openttd-1.2.3-linux-generic-i686" href="https://github.com/0install/apps.0install.net/releases/download/archives/openttd-1.2.3-linux-generic-i686.tar.bz2" size="23705300" type="application/x-bzip-compressed-tar"/>
       </implementation>
       <implementation arch="Linux-x86_64" id="sha1new=060e25f6b624ed6d6ec20288638d6e7489850f2a" released="2013-02-23" stability="stable" version="1.2.3">
-	<archive extract="openttd-1.2.3-linux-generic-amd64" href="https://archives.0install.de/pub/openttd/openttd-1.2.3-linux-generic-amd64.tar.bz2" size="23946059" type="application/x-bzip-compressed-tar"/>
+	<archive extract="openttd-1.2.3-linux-generic-amd64" href="https://github.com/0install/apps.0install.net/releases/download/archives/openttd-1.2.3-linux-generic-amd64.tar.bz2" size="23946059" type="application/x-bzip-compressed-tar"/>
       </implementation>
     </group>
 
     <group arch="MacOSX-*" main="OpenTTD.app/Contents/MacOS/openttd">
       <implementation id="sha1new=3feff4b90b3ad5eac399937625bed34a83677f58" released="2013-02-23" stability="stable" version="1.2.3">
-	<archive extract="openttd-1.2.3-macosx-universal" href="https://archives.0install.de/pub/openttd/openttd-1.2.3-macosx-universal.tar.bz2" size="23014669" type="application/x-bzip-compressed-tar"/>
+	<archive extract="openttd-1.2.3-macosx-universal" href="https://github.com/0install/apps.0install.net/releases/download/archives/openttd-1.2.3-macosx-universal.tar.bz2" size="23014669" type="application/x-bzip-compressed-tar"/>
       </implementation>
     </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lEEACgkQIuoRGn5CQqRDlwgAunmd
-BPEv+MZiUPyJbV+yz7f2cC7LgCFd20TkzDbPRdojy8lT/v+I4CQrcWakaveYx8LHqX6Ov8kXczDw
-f/HPgpRRUU/s9SsBpz7yVUZxcRmzb52W7Rcu6UPMLGgVowOJuTsG1JycE5NYP+zLe8kucHF26COU
-D8yDRNLTLZm8uyNT16qgqXQFZ1yY/4rjTVXKhjliFIzV3XiHug4tH8ig6ybSKCayYHlwgGCK+84n
-1+oNR6Hwdn6tv90NrFkPBjyu+y0TNV1aF9sByVbRge5SMOiIUm7IN2BJJlXAZ/PD0rNZx4V7qgKM
-hlCqwg2XevmWOOf8xZEvdgOy3i9UVXwyeA==
+iQEcBAABAgAGBQJd/lUIAAoJECLqERp+QkKkG0QH+wZzU9vRSd3gEHyKub3NIXI1t9USr7BlbEd6
+BrEwPbn338PygR+MjSZb0XdJ4fmtrgyGVDCNTjObgndFdiMFkscv3tXJCPArq9PdO8UoLyW8Ch5n
+uhE5WqoVvctOt73Yra75eysJt7i8ikqBVlH+fS84O0pxNzShs1A4yEin/EWnEgDWUNrwKONlpFy3
+xWCCfCw+Kd/yRGWJ/Ymmo6mRqEiABw3HvLKSAS3Td8Fyq+RB0nUPs0O/GOr48Ee0F2HiwPeUTBiv
+Uvo2lwJ+zgGyL00xGTEhUhJ9lZXWlo+Rlblwpy311yx+jdE3YXqwVNNm0YIMpwnDwQUGC/APwxec
+/40=
 
 -->

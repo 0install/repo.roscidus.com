@@ -21,16 +21,16 @@ the Debian Free Software Guidelines, and has been removed from this package.</de
   <package-implementation distributions="Gentoo" package="sys-devel/make"/>
   <group arch="Linux-i386" license="GPL v2 (GNU General Public License)" main="bin/make">
     <implementation id="sha1new=78fd81f1743ffe1c29f1025d1898b48634a391be" released="2010-04-25" version="3.81-5">
-      <archive href="https://archives.0install.de/pub/make/make-i386-3.81-5.tar.bz2" size="317167"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/make-i386-3.81-5.tar.bz2" size="317167"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=fdc117f803c22a910e10b03caf43bd08efedc475" released="2010-04-25" version="3.81-5">
-      <archive href="https://archives.0install.de/pub/make/make-amd64-3.81-5.tar.bz2" size="327457"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/make-amd64-3.81-5.tar.bz2" size="327457"/>
     </implementation>
     <implementation id="sha1new=62aea41d2b6ecfbb1569f739d607a7f664e73b81" released="2011-05-29" version="3.81-8">
-      <archive href="https://archives.0install.de/pub/make/make-i386-3.81-8.tar.bz2" size="320143"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/make-i386-3.81-8.tar.bz2" size="320143"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=cfdba304764c3265a3e35db5abc0e3bf170048e2" released="2011-05-29" version="3.81-8">
-      <archive href="https://archives.0install.de/pub/make/make-amd64-3.81-8.tar.bz2" size="330847"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/make-amd64-3.81-8.tar.bz2" size="330847"/>
     </implementation>
     <group arch="Windows-i486" license="GPL v2 (GNU General Public License)" main="bin/make.exe">
       <requires interface="http://repo.roscidus.com/devel/make-dep">
@@ -58,11 +58,11 @@ the Debian Free Software Guidelines, and has been removed from this package.</de
   <entry-point binary-name="make" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd7XtkAAoJECLqERp+QkKk5Q4H/0jmArw6R58bMBV6Yfr2TA7hYtN39O992Iw0
-oFTxIxsyX7SvWFWQyP/Du640MkPu3Av98TMNSs2TemK04f0VJ9r/LD0vED3T+5X10Ft04nVhm6uU
-Y8BmW9nOG+ROTnqYcTZ9S70fo14xuEBhcgYaITrTKD/IG+tUqtBB/MpzFQw6D0gwtWQsV/aCwdba
-3dQGM2inwliXjWYsn0KtCc28NP9Z+YuKeyqFDieYV5QOfnJq3NE4VFM2g287LadTPGzXKAqX0ZUt
-rt4173MP7fSVt0G1OwuJRnCbFhLvNKjLg7mCpIgcHx5cn0/RDZ8dEcnVfWxz20RXWrfRrIM/tzkm
-nnY=
+iQEcBAABAgAGBQJd/lUHAAoJECLqERp+QkKkpeUIAO9vguL4hR3iA1nNJCEc5FfEVvqMmhZq8QQV
++zXj637HqRgCUbu+gVeLoTHmNNUv642+PC0GHEKUJU3WvIss7biqk8rqhiJv2zOFjnbYOcfcwTWc
+dncQsm409NsjOIDpbyJIIzKnxXnjmQMIevDEfZH7WttuCcxe4euHJ/ZlQmngEQ3n4hsK5eKlqDjf
+oO4lN/5QmXlAjWLHwmaiCBHXA9weGvBQiriJUtUAlAbxBlbw02o8ahOgBJ14PtC1fj28hU7PW19l
+uJrEarpk+TPAZbx1FNI2Aqv2T02BONTbaVEESzsjoeWqrW1yDMD3B4lAFnqkZ+tpQmOAiELcJ7pF
+tCw=
 
 -->

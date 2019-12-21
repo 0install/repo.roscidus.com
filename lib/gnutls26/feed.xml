@@ -26,10 +26,10 @@ This package contains the runtime libraries.</description>
       <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
     </requires>
     <implementation id="sha1new=32004067246ee21fc05c2e2946da7d26a1b2bdc9" released="2010-06-26" version="2.4.2-6">
-      <archive href="https://archives.0install.de/pub/gnutls26/libgnutls26-i386-2.4.2-6+lenny2.tar.bz2" size="459931"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libgnutls26-i386-2.4.2-6+lenny2.tar.bz2" size="459931"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=e955d6178824f75fbd8178777f6903831d06fc90" released="2010-06-26" version="2.4.2-6">
-      <archive href="https://archives.0install.de/pub/gnutls26/libgnutls26-amd64-2.4.2-6+lenny2.tar.bz2" size="508374"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libgnutls26-amd64-2.4.2-6+lenny2.tar.bz2" size="508374"/>
     </implementation>
   </group>
   <group>
@@ -40,31 +40,31 @@ This package contains the runtime libraries.</description>
       <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
     </requires>
     <implementation arch="Linux-i386" id="sha1new=df49a5548f26afab506f75718504467bf55ef213" released="2011-05-29" version="2.8.6-1">
-      <archive href="https://archives.0install.de/pub/gnutls26/libgnutls26-i386-2.8.6-1.tar.bz2" size="522728"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libgnutls26-i386-2.8.6-1.tar.bz2" size="522728"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=956f537b29f9d72de320ad86e468686df1e1a0ee" released="2011-05-29" version="2.8.6-1">
-      <archive href="https://archives.0install.de/pub/gnutls26/libgnutls26-amd64-2.8.6-1.tar.bz2" size="569966"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libgnutls26-amd64-2.8.6-1.tar.bz2" size="569966"/>
     </implementation>
     <group>
       <requires interface="http://repo.roscidus.com/lib/zlib1g">
       <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
     </requires>
       <implementation arch="Linux-i386" id="sha1new=1a2e7e981c336d9b1e5eebc23c24d66d9da157e6" released="2012-03-27" version="2.8.6-1">
-      <archive href="https://archives.0install.de/pub/gnutls26/libgnutls26-i386-2.8.6-1+squeeze2.tar.bz2" size="522997"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libgnutls26-i386-2.8.6-1+squeeze2.tar.bz2" size="522997"/>
     </implementation>
       <implementation arch="Linux-x86_64" id="sha1new=14733b1cffcf5393f178b8fd13fe0d17aa468630" released="2012-03-27" version="2.8.6-1">
-      <archive href="https://archives.0install.de/pub/gnutls26/libgnutls26-amd64-2.8.6-1+squeeze2.tar.bz2" size="569973"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libgnutls26-amd64-2.8.6-1+squeeze2.tar.bz2" size="569973"/>
     </implementation>
     </group>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lH0ACgkQIuoRGn5CQqRoHgf/cSnq
-yrJO9s1PJh4Q1PA3SYoYwJtkDS01UcbtyIiHDQ00913LHLYnLgOGwheiZPwsGdjTRhjXBCGfllJI
-QRhfLTtBEwda2o0IhsKJ+ag+lqmD5LEobcnOa1TmE/nDrWxIlW3/qBJ6XaQPvXKFASb3AW+7tN56
-X7e9snRUjGxnwtXjGxost/wkxslIACSf6S+qtzeWsFh274bN0NldlxpPf5xcClBwkKJsxe2rhhy6
-65waXSzXtZPWTO/TZ2ZKKQCKTLINXA2JW7I6bhJ1UINpgeeDRiwYqpgE42G4n/7W/lvYf0j2tNLV
-Y8bAi5s79lq/h5Z1KVKZ8h+zaj3Gtxi4jw==
+iQEcBAABAgAGBQJd/lUJAAoJECLqERp+QkKkdSkH/iPxYh6CPy1K+e7uiPhdVC67FhugX7DmjoFN
+tAJZ0Qd3Mn6DLrSLQeTcdPMWPQyzXIwmPaQDRmOOC4s55HpS8QhW5pgn/ahNp5CFwh813brz48YS
+jY4mAMjaOfXOWuK/QXeRAUSWyUSc03DbC4zJ3AowCnlFT7zHhz0wg1odMJZ1rSrHY9PE+LZ1CO4R
+J4da5/BBbzzjCPfn+MT6bDU7GZDUfhuZZGoDfkZsOBBnb6BU0t4J6YTAiTjfbmbVCb/WLyscZCVC
+qpuVk37hNsFgfPWS8gkIMRuGYXMrrNbLUut9o8ST+UIw9XQ9K+qSwZ9ucGhsT9p1P+9UJqVM5N+W
+2fI=
 
 -->

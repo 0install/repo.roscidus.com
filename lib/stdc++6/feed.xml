@@ -17,20 +17,20 @@ in g++-3.0.</description>
     </requires>
 
     <implementation id="sha1new=3ea473cbd976fac4360478603fd301fc387ec21b" released="2011-10-01" version="4.4.5-8">
-      <archive href="https://archives.0install.de/pub/stdc++6/libstdc++6-i386-4.4.5-8.tar.bz2" size="329917"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libstdc++6-i386-4.4.5-8.tar.bz2" size="329917"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=addf2265c9a59a45aa95db15d7458d00a65bfe96" released="2011-10-01" version="4.4.5-8">
-      <archive href="https://archives.0install.de/pub/stdc++6/libstdc++6-amd64-4.4.5-8.tar.bz2" size="324558"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libstdc++6-amd64-4.4.5-8.tar.bz2" size="324558"/>
     </implementation>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lH0ACgkQIuoRGn5CQqQXkggAve4f
-6d4pGb+zT9M4Xc4sO2IAbJfmAYxVZGMOnLJ23woFnl7KTDp2PBlylSbCsrxye0VnP/tVp83dwExS
-lSI+/NNCLVS/wZoTLlnWONSLGAn4iRia2310pBJ2BvJiqalCHnaT9DeY0o+TnU2WGrHf+4ZG7mO8
-aQW7nYqxziu1bVibZIebmjRSdo3m/FiStPL+MlOQmLuWHJL+lePbmlxAqCZfOdd0CCVROYlfMBtV
-JM4HtBSbyxUxNHsx/7zq+BIJKgiF5bqUD+AGW6hSiHv9CLTN/MRA6Rz770xHJXKE6VrXaZZdOmab
-LEVtC2bnu3RNU+y7dpT1ZRdQrW1kMwxUhA==
+iQEcBAABAgAGBQJd/lUKAAoJECLqERp+QkKk9WkIAOnXp5WghErj5UkR3wb3qCEqTGjpv0x1dd5f
+pRtydcW6OZDL748FAXKgUxnxFbPgYz/eUZBUgomRN/irYWYnexdaC9stq1STo1svPO3HDol0p0RT
+/rV/RqDDGTUhQr1lo/bg+7bHTYpvFKsMts0MuP5Up+9jh5fVn7c3ynodSdITlGDVNkk/VJWp0KEZ
+Tlcj7lp/TUN1BVDDo8AGmlD1lKdC6df4s3qSODjkcvRZbyvsyFglm7KYltmEQTpzxlr6e9UTwyte
+x++ZePhFH7WLCFVV0Znwu4KUFCz0V/6QUCrKirJCi+oyiFkRQuyddLZ0NphbT412W56ONhrvNerI
+05Y=
 
 -->

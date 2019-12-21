@@ -46,7 +46,7 @@
     <command name="sfdp" path="bin/sfdp.exe"/>
 
     <implementation id="sha1new=b9ad8643984d120799c43f3d85d58f2653f87955" released="2011-04-21" stability="stable" version="2.27.20110421.0445">
-      <archive extract="release" href="https://archives.0install.de/pub/graphviz/graphviz-bin-2.27.20110421.0445.zip" size="49035660" type="application/zip"/>
+      <archive extract="release" href="https://github.com/0install/apps.0install.net/releases/download/archives/graphviz-bin-2.27.20110421.0445.zip" size="49035660" type="application/zip"/>
     </implementation>
     <implementation id="sha1new=23991c6e6cf53d7b401c61aff71575ff326e3bca" released="2014-04-13" stability="stable" version="2.38">
       <manifest-digest sha256new="BFQPX4FKOIBNJRC34KOWGMANFIT3WNZ5N6DXUVDOUEJZMRFYLVYQ"/>
@@ -81,11 +81,11 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lHkACgkQIuoRGn5CQqSHiAgA3u4z
-XQw2FUPb07mwy1nQ7JUiOaGC7wnzAbnHDUgsw4IYtW4EIwu557QV34H4i3tww48W4kZ1hYukSJT6
-wyRR1F+z3c1Gig3iQakdQFHmdTb4vB50vbQzMkQatwXSMHU2GoFA9voVLIaOQKt1LvxZN9SXqQYY
-/cPJUHKu0BgbuStSHbe4Op2XJDwLQggFH0UY9KTQ85frsjwQ5dcGrJxGSkaouLvk9TQDVd0hd7dC
-0hC3PQyhGRniEgg1AEtf/mctFyVlpeJ7Aae3EPe4KdG8u28qL1DevuRbzLnCTqzyTF+fReB2erxr
-viZ+0xjRQV08O8+Nb/BZMqwdMRDbWpSwkQ==
+iQEcBAABAgAGBQJd/lUNAAoJECLqERp+QkKkEGoH+wTd457alPOpnsI37Ah9r9l0i9WYkUYJpZo3
+BFW007gsygwMAawjdqfOPsHS+Q0h7p3ConlhoAM9lSruYaxjaMNB5uraoLH1HOEOouI1M+9+TpTl
+4gvqFBvOm2HPKp2CV47GPmcjAKWhgeOhMjk3r4rO+IVgPzWFNBf7kOsQKcjuTidxrGiDh8OZcsZF
+v8kpkFh09Y9sNOLSB3KTpi/zKJVtlz2u+BmYL8jWFwpJQDse0KYqV8oncbCJ1C/7ivciJ5gY9B8z
+vw7HaTiOKa7QmkEClGygVYONjPjKcXc02iCLrd7bmKFwQUMd3+1VEpQMktOkAlTBHXknpfLOGA9S
+ybk=
 
 -->

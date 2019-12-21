@@ -11,16 +11,16 @@ parsing XML.</description>
   <package-implementation ditributions="Gentoo" package="dev-libs/expat"/>
   <group arch="Linux-i386">
     <implementation id="sha1new=9b893d18c4fa1fcea73f35cd97d9c82c9d8fe2a6" released="2010-04-04" version="2.0.1-4">
-      <archive href="https://archives.0install.de/pub/expat1/libexpat1-i386-2.0.1-4+lenny3.tar.bz2" size="102310"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libexpat1-i386-2.0.1-4+lenny3.tar.bz2" size="102310"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=9ee48a6cd154cb051f15043501a3f60f74e906c8" released="2010-04-04" version="2.0.1-4">
-      <archive href="https://archives.0install.de/pub/expat1/libexpat1-amd64-2.0.1-4+lenny3.tar.bz2" size="105890"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libexpat1-amd64-2.0.1-4+lenny3.tar.bz2" size="105890"/>
     </implementation>
     <implementation id="sha1new=89d2ce4f09a43eeb3fd6d5de69dfac227adbd7be" released="2011-05-29" version="2.0.1-7">
-      <archive href="https://archives.0install.de/pub/expat1/libexpat1-i386-2.0.1-7.tar.bz2" size="107371"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libexpat1-i386-2.0.1-7.tar.bz2" size="107371"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=11b1e69a5e345ebe5e83cb08680a0686172cab9e" released="2011-05-29" version="2.0.1-7">
-      <archive href="https://archives.0install.de/pub/expat1/libexpat1-amd64-2.0.1-7.tar.bz2" size="106257"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libexpat1-amd64-2.0.1-7.tar.bz2" size="106257"/>
     </implementation>
   </group>
   <implementation arch="Windows-i486" id="1.95.1withdllrenamed" license="MIT/X Consortium License" released="2000-10-22" version="1.95.0">
@@ -37,11 +37,11 @@ parsing XML.</description>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdn4eWAAoJECLqERp+QkKkoQkH/R3OS6aKpNLQZIj/cGjQ6CHhS0Z4QfiDK7dv
-t3Ag3eqq//Ejn8QNUxONYTVFq9fe+tqPxs3WweF92vOg1dzFPu3bwaVx6a7NIn+iZMJRKEnlrKps
-4hOyG2o84P35NWp52dUrOnjXFhYulI8Wrrd0vHL/MKK05SdOMLiZebrH8qtwBwLunoZEk3D10RZI
-WbbwWr8zc8iZJlIuoqppK0/1JNnN5bazdb5fPhyqkutlOQitZqdDwK5YIhzYdX81deC3GLv7B4Sq
-+H1JRtF9WZsQ08ENF/g4gIHsgrQFkNMzD+ZgGun1Oedy7j91waRNL7RG9BdhX4KGA3laKvDZgdxT
-tBc=
+iQEcBAABAgAGBQJd/lUJAAoJECLqERp+QkKkRgIIANhK+HhNADf9KKCfqxKElZLKcRXouTpVSoeY
+yhRInO82REQfpIluXCSiULdJZc/OhsmaXQLcTQMius4Fn0NTM5tOTsgRILNHuM9r0V/LDMSk1Kl5
+R1FdYYliySMPRMLQlV7/VCG7mCDkvqre4QzgsTukyAnfkLlxZ3vWM/8OdS9amZ2Jqf4KGfm3Z9Rx
+33e1IXHmY6lYJHstbL0MLYNMvGJ2V8NUPAxgomIGKLAHz6GTEOP/J/hZVj0xfJgx0XXWTDbQQpPs
+qKJ32l1M2S2Ea8G5LofKdhIz7k26YdNmyuTtt95NALgHw5d3qkReTTJNX6aB83GNQ4HNEosfYk5+
+dFE=
 
 -->

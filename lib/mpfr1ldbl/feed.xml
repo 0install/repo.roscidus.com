@@ -15,20 +15,20 @@ precision floating-point arithmetic (53-bit mantissa).</description>
       <environment insert="lib" name="LD_LIBRARY_PATH"/>
     </requires>
     <implementation id="sha1new=564b2940f6df9993292e80bb40588b6aacdc2d66" released="2010-06-24" version="2.3.1">
-      <archive href="https://archives.0install.de/pub/mpfr1ldbl/libmpfr1ldbl-i386-2.3.1.dfsg.1-2.tar.bz2" size="342210"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libmpfr1ldbl-i386-2.3.1.dfsg.1-2.tar.bz2" size="342210"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=d54e8b7a69491bfa8ea1c750bc2db9fbd75f5f54" released="2010-06-24" version="2.3.1">
-      <archive href="https://archives.0install.de/pub/mpfr1ldbl/libmpfr1ldbl-amd64-2.3.1.dfsg.1-2.tar.bz2" size="354414"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libmpfr1ldbl-amd64-2.3.1.dfsg.1-2.tar.bz2" size="354414"/>
     </implementation>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lHsACgkQIuoRGn5CQqQr5wf/XdCh
-akNTUGrchQ6/RR1ygIJOoM48sMrF7OHvMHYvDNCFhpWO1kgWHLpb6B6HuHI+V9d8vpcaIwj9Nm2G
-Z33srBO0Us1wzV3ApOc7De/PZEWmCWgB3LprRH8etDIH+4vzeaVzK7MuMHayKAKLFu65m53oNzMK
-ySOQnqPrtwkJnQPZEk9oc1jBIsH7dgXnmKXUeD9074jflHbvADklrLfoxsUnwYshWXGSv17fEMVS
-KPCb2YqtRqw78poDGHc6G3m2aCGmbKALzsDkuF4ciFt74nrfFqNfeq604Jgkqi4kOrKsoU36Gq+f
-BjwgT0vy8QCZpe0tCyMAqi/reSFyy4wi+Q==
+iQEcBAABAgAGBQJd/lUKAAoJECLqERp+QkKkMFoH/RsUkjzypSpm5E58UhSd6GJSgSmFlxznrPIv
+fM3lTDRnpKbNP2cLQV8acDF4WG5fCpK6fltPwjO8wxiq0sDlAk5u2+b+xdMYwtBChtyFMTR9QG4o
+eJSjUoWADR0g+/61mKCaLpBSPtboDC6umqsdBzbMa3EM3Ob7KU8yOYDrpj8/mWpBVrOBg+ABVhNK
+QHib7jzcRAboTLhmg/a0yrXL2nJmIF2ffPUpZlWEUKT1hw/uwNghbF7XxcWoytAAoNy6U3Vqhzt6
++OLjsctoNpiaQ7gH63oWsf1OGifwWcN5sc9+mSooo8WU6QgaKR1tUtYc0xMiy7c03FoSzCzVKq3w
+AKc=
 
 -->

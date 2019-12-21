@@ -16,30 +16,30 @@
   <group main="bin/java">
     <group arch="Linux-i386">
       <implementation id="sha1new=6b7c9f98bd1d8bec5bbb5ddb41271c862c8e8529" released="2011-05-29" version="6.18-1.8.7-2">
-	<archive extract="jre" href="https://archives.0install.de/pub/openjdk-6-jre/openjdk-6-jre-6b18-1.8.7-2~squeeze1_6b18-1.8.7-2~squeeze1_1.7R2-4_6b18-1.8.7-2~squeeze1_1.26.2-5_2011c-0squeeze1_1.26.2-5-i386.tar.bz2" size="29764021" type="application/x-bzip-compressed-tar"/>
+	<archive extract="jre" href="https://github.com/0install/apps.0install.net/releases/download/archives/openjdk-6-jre-6b18-1.8.7-2~squeeze1_6b18-1.8.7-2~squeeze1_1.7R2-4_6b18-1.8.7-2~squeeze1_1.26.2-5_2011c-0squeeze1_1.26.2-5-i386.tar.bz2" size="29764021" type="application/x-bzip-compressed-tar"/>
       </implementation>
       <implementation id="sha1new=6cc9f66b968d983904bce5050b2e328c3740462b" released="2009-12-08" version="6.11" version-modifier="-9.1-2">
-	<archive extract="jre" href="https://archives.0install.de/pub/openjdk-6-jre/openjdk-6-jre-6b11-9.1+lenny2_6b11-9.1+lenny2_1.7R1-2_6b11-9.1+lenny2_1.23.0-3-i386.tar.bz2" size="26538063" type="application/x-bzip-compressed-tar"/>
+	<archive extract="jre" href="https://github.com/0install/apps.0install.net/releases/download/archives/openjdk-6-jre-6b11-9.1+lenny2_6b11-9.1+lenny2_1.7R1-2_6b11-9.1+lenny2_1.23.0-3-i386.tar.bz2" size="26538063" type="application/x-bzip-compressed-tar"/>
       </implementation>
     </group>
     <group arch="Linux-x86_64">
       <implementation id="sha1new=3ede8dc4b83dd3d7705ee3a427b637a2cb98d789" released="2011-05-29" version="6.18-1.8.7-2">
-	<archive extract="jre" href="https://archives.0install.de/pub/openjdk-6-jre/openjdk-6-jre-6b18-1.8.7-2~squeeze1_6b18-1.8.7-2~squeeze1_1.7R2-4_6b18-1.8.7-2~squeeze1_1.26.2-5_2011c-0squeeze1_1.26.2-5-amd64.tar.bz2" size="28281120" type="application/x-bzip-compressed-tar"/>
+	<archive extract="jre" href="https://github.com/0install/apps.0install.net/releases/download/archives/openjdk-6-jre-6b18-1.8.7-2~squeeze1_6b18-1.8.7-2~squeeze1_1.7R2-4_6b18-1.8.7-2~squeeze1_1.26.2-5_2011c-0squeeze1_1.26.2-5-amd64.tar.bz2" size="28281120" type="application/x-bzip-compressed-tar"/>
       </implementation>
 
       <implementation id="sha1new=042663897b1fce617d5bc8c98945adc64e4ef2a9" released="2009-12-08" version="6.11-9.1-2">
-	<archive extract="jre" href="https://archives.0install.de/pub/openjdk-6-jre/openjdk-6-jre-6b11-9.1+lenny2_6b11-9.1+lenny2_1.7R1-2_6b11-9.1+lenny2_1.23.0-3-amd64.tar.bz2" size="25536477" type="application/x-bzip-compressed-tar"/>
+	<archive extract="jre" href="https://github.com/0install/apps.0install.net/releases/download/archives/openjdk-6-jre-6b11-9.1+lenny2_6b11-9.1+lenny2_1.7R1-2_6b11-9.1+lenny2_1.23.0-3-amd64.tar.bz2" size="25536477" type="application/x-bzip-compressed-tar"/>
       </implementation>
     </group>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lHoACgkQIuoRGn5CQqThvwgAvjjC
-4m6TPR2+xZRFvB4BupvVmdZ2gsapCcpVmR0L/iLTrNwtwOrfa3jcuFW/7BgEE9q9WvVMinIIhHBQ
-E2B4uKvTRafm9l9xWnm6bPcvfQh7AvsVUfI9ziQ4lbzgEKxoIGDdAv8ropFlHiQyCJYqkennpM8J
-FD++oYMa638iHZ51ZKmmdDO1hup9R/O/H3ctKZtPOqBLYDRrB1taj7hXB1+VLwVtgaSu7YX7M1xm
-cu+w+l/NI+zkvMkGsnpFKm3wPL7HPVNSSG/rhxbv1l41kJt97/A2rVnKBSuw5k29Qlum1Hn1Gqo4
-TNCFfcgzKc+i3FAetfvG8HQ0uyQb8MACRg==
+iQEcBAABAgAGBQJd/lUIAAoJECLqERp+QkKk/FsIANbJYQwFiR4ynwimK594ZrF9vQlSXRlueK9b
+5b+I5LfiktcHE0oeegbPsmfeT/lDiyVBzEVHSXyRFxBfkYM/7s03jYBwkfw2N4xnW81YIhpGu8x4
+pElpIEM5QpsWHp2TNbvxoWyvf7cCT3AiMPj7fBIUqd7YANp6gr2J/3DfoB6aLsvJC1h772AC4mjb
+6qMHKS0bXaqWL7Pjae+jiPSTdXXh5T6OKW+00sT//1BVsD7e26u8W65VuXmTO/yFSCZ5X/wOuq/x
+n8E0Q4k2eyIce/wmu8V1oLl1KPhT8A/jMiEDLzdvix4ZpO3NtF64lAjnMLv2FY3sKBKGPe9eCeQZ
+VEo=
 
 -->

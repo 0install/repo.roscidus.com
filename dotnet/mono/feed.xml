@@ -23,18 +23,18 @@
     <command name="run-gui" path="bin/monow.exe"/>
     <implementation id="sha1new=5786d36753bb1f76e4d4f25b2980749ce3671aab" version="2.10.9">
       <manifest-digest sha1new="5786d36753bb1f76e4d4f25b2980749ce3671aab" sha256="c5766eb07b242dc548e4af84671f07ad5e114f73b07317a0e96237ee553f761d" sha256new="YV3G5MD3EQW4KSHEV6CGOHYHVVPBCT3TWBZRPIHJMI364VJ7OYOQ"/>
-      <archive href="https://archives.0install.de/pub/Mono/mono-2.10.9-win32.tar.lzma" size="83591462" type="application/x-lzma-compressed-tar"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/mono-2.10.9-win32.tar.lzma" size="83591462" type="application/x-lzma-compressed-tar"/>
     </implementation>
   </group>
 
   <entry-point binary-name="mono" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdn4eWAAoJECLqERp+QkKkj6wIAMLcFaFjqdHickuAJJvxVFGsryrqD+cFUrjf
-nRoSItSM3ieUsOCkP7IzRXQByrZe/7zFoOayRoC/s8sfxd6jCq9wwFF5mHJ0ZpNO+AN5IS/JyCdq
-qR4lgF97BB7m9kpUtrCw/llGspa1ePdRUeGj2LiM/86ZkaKY7Onfy1aQRj604wZJvPKCf5k7Ok5r
-YavWjteK7Ng2BBfiaVH/3u5bUAdQ8MmlUPCqGFvSLf0MlXgPKyRd5oMGM24cO58xy0D4TAJYclpl
-XOUFJCUeabj9XdcBFYlVq94yV5jlbOrbhkc1naBE1F0Q6c2oO+YoEGgZThieaSwjSzyeOw+SQWIc
-jeU=
+iQEcBAABAgAGBQJd/lUHAAoJECLqERp+QkKk5C0IALTXph++v1BCaSu4/IgSnNK0BvVuPdSM+UK2
+TctAsbU2CL02ffoUKzqiOQ14Jr6NFB8aBqr03vEE72IlUDHX7ojPWfK+qbwv+orq+vGjrTBm8HzC
+LmuaNA7FWsyj3uar9RP04FDAPm59xIu7+JFPbAivrDMhLKOPb2od25OX50iDjXdTduUKIQADmsti
++JH2Vz88/QgwVFDNKLpe5Tg6DymA+k1DIa8vwXg87312Y3KFzaTUCQgNLzLeT25rmIGTciAUnSYh
+Lf46147AnL9e4nyTB0gLJDleMU+vq/gug8aWkZHNWjQlf1w64ASjhm4ij1PqvnWUFwtmZd5PJDqK
+rAU=
 
 -->

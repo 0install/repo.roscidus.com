@@ -51,20 +51,20 @@
 
     <implementation arch="Windows-x86_64" id="sha1new=d7336dffb401b6eac10a871dc978790fecf72e97" stability="stable" version="3.18.9">
       <manifest-digest sha256new="LABYAMAZ56OMB2QCI7IAPQGS6PV3DUGYV4DBXNMGJO5VQD7XDJKQ"/>
-      <archive href="https://archives.0install.de/pub/gtk/libgtk-3.18.9-vc10-win64.zip" size="2378757" type="application/zip"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libgtk-3.18.9-vc10-win64.zip" size="2378757" type="application/zip"/>
     </implementation>
     <implementation arch="Windows-i486" id="sha1new=1c8ae1a5a777c3dcb0d93ace634b9e6419cf36ca" stability="stable" version="3.18.9">
       <manifest-digest sha256new="7IZKAKKANLK4MUML4QENTPSDKC3T64RPDN7C6E36NZ5DAMLN2SOA"/>
-      <archive href="https://archives.0install.de/pub/gtk/libgtk-3.18.9-vc10-win32.zip" size="2278497" type="application/zip"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libgtk-3.18.9-vc10-win32.zip" size="2278497" type="application/zip"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1tJJIACgkQIuoRGn5CQqSjDwgA4p2J
-1pFQSUCICCVAEnF0bfD7zUtpSFtXQtdP2fWtFtyqU2hjr6b88ce3QuLf82hDouZimwY0mNr2IrNg
-vQknZvDY8159zQ1WS54+FsGHM/6uc6E1CYmMdxjGcmEEqKg7gNrE2d6dQZ+ytgEhwG/vIAJzS9LT
-rMejMuzJPV42ajWMTkZmYJ6Hj+E36w8OnVoLfNYa0rMZCB7gWN4ZslniDExqBlib+GP87dPQikPC
-po3q5uOjt5+LAu17EqXt4EVePd1aDrhZN7CUWtJT1UQTkpssVZYR1XDfEj71rlRGhLpeQMJJqmUs
-35+SMjlzkzW2VeBZ3bPJiq3UXbk2UzB7ew==
+iQEcBAABAgAGBQJd/lUJAAoJECLqERp+QkKkmWoH/0s9WiWcc0gRi3DbhQxAK+yW7QM0HBmB4Bno
+CQYmZw4OYgu9sHgBncjGiNHKKfS36dm2KhpKVota2PUgGOIIwcnwbLvykpLjR3ZY7IHoX5aymHbp
+2S39eRJw6vYH3p1IQ76PDcTF2T6XDxbkQtHeWLopxFO1CQUAUaEgX0LEWx62AsJzZS9Ipk8Q7jwz
+CGqH6KwE7Ao8Wt/+5JoUjCNG4LQvr3JH86MuD/y2IO5BI3rysXMlltbF13CWIgLIFzYhOkAx7C5L
+LDDyZMUJ9KcRNvWaWUtQrUhl9U7D0yUFZqJ0pnPEpNYJB2STUTcr1wbDnWr2Cu4swcWBpROBqERZ
+72c=
 
 -->

@@ -282,22 +282,22 @@
     </implementation>
     <implementation arch="Windows-x86_64" id="sha1new=d5d6f8d3b66cea378d306913ef8ef54901801bac" main="docker.exe" released="2018-03-21" stability="stable" version="18.3.0">
       <manifest-digest sha256new="KAEBFKSJL7NC23CXSTC26JJDW36AM672Y33TLIH2HRDW4DMHJLCA"/>
-      <archive extract="docker" href="https://archives.0install.de/pub/client/docker-18.03.0-ce-win-x86_64.zip" size="10289892" type="application/zip"/>
+      <archive extract="docker" href="https://github.com/0install/apps.0install.net/releases/download/archives/docker-18.03.0-ce-win-x86_64.zip" size="10289892" type="application/zip"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=c07b4a2071c96e854179c6732235f28dcdf5999d" main="docker" released="2018-03-21" stability="stable" version="18.3.0">
       <manifest-digest sha256new="33M2WQX5NIYAD3XLLWVPPWZZ2QSLNWU4KHJXGGMCEXRYAQN7Z5UQ"/>
-      <archive extract="docker" href="https://archives.0install.de/pub/client/docker-18.03.0-ce-linux-x86_64.tar.gz" size="10402216" type="application/x-compressed-tar"/>
+      <archive extract="docker" href="https://github.com/0install/apps.0install.net/releases/download/archives/docker-18.03.0-ce-linux-x86_64.tar.gz" size="10402216" type="application/x-compressed-tar"/>
     </implementation>
   </group>
 
   <entry-point binary-name="docker" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1tJJIACgkQIuoRGn5CQqSruAf/b4i+
-vKrdeSBUfiLTQWlLAdhRzcSbethE6ueu2C9MZqwZe/QpGpwRrCiKJB0mGqoaoGBS87QV7rkXYR80
-ahuCysuMKAwBkIn7zGsH78mfItp7KX15c5SJzRVEJ38BW5rpvorpGITek92LJCOFFib0DXvYCUh0
-ZUU3cADiHK99wTDPcCRtcCpceFJpfL+IzyGyRvkqL4FYgztojD39eot/8GoClGQ2KyVBhonO9sSf
-3iXFM5OEmT+l+2Wdu5B9d9bSxEWWGv9K9oeDZlXRo7YmwI2sTFFiYB3yNZOxVAYvb/XnxGsBi8yq
-39tdKcdh/nRcJIAC4BI1xW0UnAd5/cVhWg==
+iQEcBAABAgAGBQJd/lUHAAoJECLqERp+QkKk22gH+gMumTAvwDmFFiyG9wMM4kB7iQP1ihIaZGcz
+MzY+58PddQvRnGP+fe9ZB/IZkBWV4NlQQXpj5VuB1JR09GkNONYld7Qrlb6ZcVxEi9TmOwctdyfQ
+R/b5w53iwm80s1mTFz4yD0E0q1mYvwasspTtnFVKcFTMVckuPHY/aizyZZILLBRTInDsvUihy31w
+szFZkgQir+psauKrtXC72ll948EnfJb79aO82STSb1erkRo2Rzi0S6GBqkHjSBBU/4NhL/tWnSj8
+THLerLG6Byl2MvnNW9YcuMxZw6aEP1CSaA+PS6+oc+WvwcDesUCd0v+BkHe2hg3YZLHyu1cGeyuZ
+M7M=
 
 -->

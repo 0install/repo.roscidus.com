@@ -27,16 +27,16 @@
 
     <implementation id="sha1new=2f1f3db589d95b457d7c7f1793fe62ba8d067b8a" released="2018-03-20" stability="stable" version="7.70">
       <manifest-digest sha256new="BJ4ZS7YAT7322U3FDZALNVREO2HXN6EBDGBIXFJZ3A2P6VW4PBIA"/>
-      <archive href="https://archives.0install.de/pub/zenmap/zenmap-7.70.zip" size="1249103" type="application/zip"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/zenmap-7.70.zip" size="1249103" type="application/zip"/>
     </implementation>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1tJJAACgkQIuoRGn5CQqQPGAf/eslq
-ApqIUmgVrK3Sqe5gFSbq6VKgPVf3NdooInv398vdK1s6PI1ugxWct1swSjrIBUiEZ+L3wgFGFNJF
-RJ9GPc3DyJceOsf2S81VRUid9bZ5RSk5QGJi8AwRjsaRkqNzXlcWMxzpwHKiSFhQQqsk1qOV9OGV
-jvC0/XqGv9sHUAn6PbcLA2wPbXJUb2xs0mlGGjjWUY4Hn4xfX02fMP7sh/wHhS1XQVR7aBygac91
-v2wFY4kIZeOgOooKmtnmMlt3voosnyW1QSk3vYiSb5p31UMCDlh5u/N5ZReBDNRXe0JjqLx9N15V
-pyLTobjWP1EHYmCMDgnDgpZs5W/N/QM5dA==
+iQEcBAABAgAGBQJd/lUMAAoJECLqERp+QkKkGfIIAKzgyEql8R36fNVzogV4bmgrnYZKl5+lvTsb
+IZub1ZoyIhqMU0eRoqG14yIUV4nd5voxyMqF0fljO6C6lShtDENDatDPQ92UosGpD5mdCWDFFKvG
+3ZHoZzYLTZBHAOhAM4Ii1NwpdtW+eRZMIIwFPygj9ApYSfCi2GID3NczsROjlNxfMg/R2YTjnFqL
+BWtc7QBzZAT/d5V34HyoDeLZ+0NttSSqqZQj8Mt+6Vf1ajXHiAQgxBLuGOW9LyCMWdOdo8u7twjf
+KLh13/OAYLn7tq3Y7VmXtB7YwJN/6eiSkaBWGXK5GR6DkKl3qgBm8zycXS1Epb4edLRJWQesefhZ
+4LA=
 
 -->

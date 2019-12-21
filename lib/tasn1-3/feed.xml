@@ -16,32 +16,32 @@ This package contains runtime libraries.</description>
   <package-implementation package="libtasn1-3"/>
   <group arch="Linux-i386">
     <implementation id="sha1new=cf5f598f8cb5697cf3c163b056b7ab48878e8b5c" released="2010-06-26" version="1.4-1">
-      <archive href="https://archives.0install.de/pub/tasn1-3/libtasn1-3-i386-1.4-1.tar.bz2" size="58156"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libtasn1-3-i386-1.4-1.tar.bz2" size="58156"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=420f1e2373c433312e795a1f3dbd304f8143e4f4" released="2010-06-26" version="1.4-1">
-      <archive href="https://archives.0install.de/pub/tasn1-3/libtasn1-3-amd64-1.4-1.tar.bz2" size="60431"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libtasn1-3-amd64-1.4-1.tar.bz2" size="60431"/>
     </implementation>
     <implementation id="sha1new=7e12b9c035a728598a23a418c5e6931b9182c56f" released="2011-05-29" version="2.7-1">
-      <archive href="https://archives.0install.de/pub/tasn1-3/libtasn1-3-i386-2.7-1.tar.bz2" size="62504"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libtasn1-3-i386-2.7-1.tar.bz2" size="62504"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=4602c038987469545054d4eabaab0e0944839062" released="2011-05-29" version="2.7-1">
-      <archive href="https://archives.0install.de/pub/tasn1-3/libtasn1-3-amd64-2.7-1.tar.bz2" size="64247"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libtasn1-3-amd64-2.7-1.tar.bz2" size="64247"/>
     </implementation>
     <implementation id="sha1new=7b30905ae8c403b65c7b78adcbca7dd82dc0eb1b" released="2012-03-27" version="2.7-1">
-      <archive href="https://archives.0install.de/pub/tasn1-3/libtasn1-3-i386-2.7-1+squeeze+1.tar.bz2" size="62669"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libtasn1-3-i386-2.7-1+squeeze+1.tar.bz2" size="62669"/>
     </implementation>
     <implementation arch="Linux-x86_64" id="sha1new=a616f0d39c1025ffa95137a33342af80f16886cc" released="2012-03-27" version="2.7-1">
-      <archive href="https://archives.0install.de/pub/tasn1-3/libtasn1-3-amd64-2.7-1+squeeze+1.tar.bz2" size="64325"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libtasn1-3-amd64-2.7-1+squeeze+1.tar.bz2" size="64325"/>
     </implementation>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lH0ACgkQIuoRGn5CQqS1tQgAuT6Y
-9HVPKtUC7Lbp6a/FU9faRESaQue6nSGdAZi/ovddWUofmDplUgX6W8pLO+nRX7tTygr5r8ZQlfKl
-4mxux2GlYeQuoEzgMpoKgvPTVRgruiDpXafYLUydWW6U3VUHHAGto4AJIzc9nLgJyDsE8WNzwxqv
-QrS2YCuD75LX4bRYiHdtjetbML4L4iqOLv6QBgMYLBQOQL+eeJzeuC9s2LGK0iitlWGq8mV1aABO
-JDqrrvFuX4o1ZuYf94BDPOawXMvr/Ma2HtGq3060lbTq250pNZXtFdmECC7zK/DZl9gE+AfmA0OM
-fxfOjADW8w3AOdv8f5CfRv2eu0gxbmREnQ==
+iQEcBAABAgAGBQJd/lUKAAoJECLqERp+QkKk1DgIAIgyA+k/P36bEoGQsyMlwi8TYPghwf4p5kgF
+arz+YgFOWlCqskCr+A+NroAstJj49MKYddtL58LLGN4TyqHumfjqcyg0n/Lpgg866TxlPQXFw/iw
+bq7YKPPA6j2OPTj0Y7e0NxuU8BghfJRn6NqQallrS+YkvcG33q5PqeArSKkhsEzeSWGAU76LroJB
+bocEJTD39m0mdFOxDKL+QSaouE3ekZrIJNeuyO/ZMK/xhh4mmkPBuRvR7IkY3X+xN5VKsvtoUycs
+rHcfcAzMfn7pz+NrWc7yX34WFhCvu2jncH7AM9oYh1k/PttgGtYOJBI6t5CuSqZR9+qqAiKrAGW5
+ri8=
 
 -->

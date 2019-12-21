@@ -21,11 +21,11 @@
 
     <implementation arch="Windows-x86_64" id="sha1new=2f5fef4f9becc3b50c76fe497f95d4f3a6bb3ca6" stability="stable" version="2.22.0">
       <manifest-digest sha256new="XHJCZH3BXCJ4T75HQ63JXU6URTXAE5WIAMWSD2UXUYF4LATFVIIQ"/>
-      <archive href="https://archives.0install.de/pub/python-gtk/pygtk-2.22.0-cp27-none-win_amd64.whl" size="963000" type="application/zip"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/pygtk-2.22.0-cp27-none-win_amd64.whl" size="963000" type="application/zip"/>
     </implementation>
     <implementation arch="Windows-i486" id="sha1new=870fd5d1c2968e3da44232f492064a69ec70c0b8" stability="developer" version="2.22.0">
       <manifest-digest sha256new="674477UGD7YPVU4RYTGPVJ5EIXVQJJFIVB5YZ6C7Q66JZJREZJQA"/>
-      <archive href="https://archives.0install.de/pub/python-gtk/pygtk-2.22.0-cp27-none-win32.whl" size="757169" type="application/zip"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/pygtk-2.22.0-cp27-none-win32.whl" size="757169" type="application/zip"/>
     </implementation>
     <implementation arch="Windows-i486" id="sha1new=f29642fc00bdfa2a64b443c0a5f94dfb3ed72c99" released="2011-04-10" stability="developer" version="2.24.0">
       <manifest-digest sha256new="5NQCQXEZAJRXGOM6H4Z4AXIBG4R7Z5RSBCRB5RFZHXNN2NMNIPTQ"/>
@@ -35,11 +35,11 @@
 
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1tJJEACgkQIuoRGn5CQqTQ6Qf9GUO2
-gcm3aX42rQFuA7r4U17N+NfhaYat8BK+581xrMWw8Eq7V3WACxqU/NF0+MZEJv0H1a09svcsGsKz
-8gcmkbDi5g75mG9nR61dRNQ+TiWQxM7I5LgufHV674CEYhP1Rly0wgQhlVUIFiJ8JMJrjNSEEQRH
-TEq2uBmffHU5JgU1vTaDTsnssraDDJ0kmQiJCHJSxj7E+iZPRr1/4PzIRXglXiGEJqgo+IOjP9vw
-69j4lJHp3Z6jQHnDwSUxqpeQ1IEQ81NKZWbZDltg+xYhgNYZRL6bNh5upMUq0qIHunAPl4pI17hE
-s+5UIKpJp++N8eGS/mW3dA4wQOdjn9emSg==
+iQEcBAABAgAGBQJd/lUMAAoJECLqERp+QkKkSagIAPDkQb2BFmC+Gjik8hjTblwKdmYCClWj5Xmx
+klDhV8QeSwITqOMjRVEbn9ahO//GMpFZZm3a6OT90U9a/F5v5tbrF4ATg3UkOl7SuuOqhi1T9EEa
+O2p8wNsYPSxfFowoIWgjM1I6gDUV97sL0kxBhtChNMzeFNw+G4QOCSpU2M23kgayD/irPGYs7vTK
+mbc1HwyqHYcQxn5D4NG37dD418P4IDLeDimgZOMTyzgGYXB2WpD+TEPQ9GFxkdJzngEMI4lnhDSM
+07gBHOjZtO5csebdK2LZlvhyyC/h+Gj7KHblKLTbpxEzr5+A0Bzg/5k04dzlSolEdahhI0+Fs1FG
+uSY=
 
 -->

@@ -19,23 +19,23 @@ This package is built from the X.org xproto proto module.</description>
   <package-implementation package="x11proto-core-dev"/>
   <group arch="Linux-*">
     <implementation id="sha1new=6e426da8203b60a1f32e458cc86efc58abb2ea78" released="2010-08-12" version="7.0.12-1">
-      <archive href="https://archives.0install.de/pub/x11proto-core-dev/x11proto-core-dev-i386-7.0.12-1.tar.bz2" size="79688"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/x11proto-core-dev-i386-7.0.12-1.tar.bz2" size="79688"/>
     </implementation>
     <implementation id="sha1new=40638953ec0bab851731f83c506152ddc16d7370" released="2011-05-29" version="7.0.16-1">
-      <archive href="https://archives.0install.de/pub/x11proto-core-dev/x11proto-core-dev-i386-7.0.16-1.tar.bz2" size="83503"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/x11proto-core-dev-i386-7.0.16-1.tar.bz2" size="83503"/>
     </implementation>
     <implementation id="sha1new=e6ad2e80bb943ba7bbf81a66313b22a524295b46" released="2011-05-29" version="7.0.16-1">
-      <archive href="https://archives.0install.de/pub/x11proto-core-dev/x11proto-core-dev-7.0.16-1.tar.bz2" size="83545"/>
+      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/x11proto-core-dev-7.0.16-1.tar.bz2" size="83545"/>
     </implementation>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl13lHwACgkQIuoRGn5CQqTJWQf9EbzR
-5+n+i4cYN8pPSroAo2JUwqdqsENkYEpqHQQTNCk6RrOcvgYjJNbkO3M05GePMr+ngaL/6WRsq+w3
-HWhYY06I2Ruth0hXgNHDi0OO6ZGMedYmbMo/2lSHmZKwxDFM6sqfVwVYsF77xQeF/NhJLJTlvZeG
-bU3URMwm46qYMkdOAdtc3Gev4n9g4E7GiFD2QaIdhYMCmQhNkRQ7kkWDfiVsTbUwLONBOnIEL1xH
-dUpaB3l1Th3I/hXdwxwCX065x3kUkf7wqlTnXTfwQUcBFCCad8nLWTc5zE3T/qU0pBl5ck5eyKNe
-J2f12zLy9x8npiZvjAeeiJ4Z0SlROb5MMg==
+iQEcBAABAgAGBQJd/lULAAoJECLqERp+QkKkEJAIAK4TL6zQ5rGKp5StEn8heCIvCIuS47ntUo8U
+Av00Xne+j0lbfmBkMQ6+5cQJDGASFo7/aCGGBY1kSUMNQyj3x6dxTtb3BP6/mIkyf17VWBjS8CrG
+TY72MGIJ4TRamyZvCFpSSy5svUQoXx21wUlMfxZOZFH556vun1lBdH5ap9Nn63ubj7XtfqzL9m+S
+QrZI/Ef9JN0spzFAS0mp+jEhFJjR0u0KK+oDnjjcG0qsFLnijfWr5nJo3qTBuCvDXMiePbZQgbh3
+2zY45pQqB1EFOX+lZ8yPpsTY90sVGoHYD2NCWe3p54I/AVS1B6DX//479XKKH84AGcSGgY+lBwl7
+7AA=
 
 -->
