@@ -16,12 +16,12 @@ http://creativecommons.org/licenses/by-sa/2.5/
 				<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 				<meta http-equiv="Content-Language" content="en"/>
 				<title><xsl:value-of select="zi:name"/></title>
-				<link rel="stylesheet" type="text/css" href='http://repo.roscidus.com//resources/feed.css'/>
+				<link rel="stylesheet" type="text/css" href='http://repo.roscidus.com/resources/feed.css'/>
 			</head>
 			<body>
 				<div class="site">
 					<div class="title">
-						<a href="http://repo.roscidus.com/">http://repo.roscidus.com/</a>
+						<a href="http://repo.roscidus.com">http://repo.roscidus.com</a>
 					</div>
 					<div class="main">
 						<div class="content">
@@ -29,7 +29,7 @@ http://creativecommons.org/licenses/by-sa/2.5/
 
 								<xsl:variable name="icon-href" select="(zi:icon[@type='image/png'][1])/@href"/>
 								<xsl:if test="$icon-href != ''">
-									<img src="{$icon-href}" class="alpha icon" />
+									<img src="{$icon-href}" class="alpha icon"/>
 								</xsl:if>
 
 								<h1><xsl:value-of select="zi:name"/></h1>
@@ -41,7 +41,7 @@ http://creativecommons.org/licenses/by-sa/2.5/
 								</xsl:if>
 
 								<div class="what-is-this">
-									<xsl:if test="//zi:implementation[@main] | //zi:group[@main] | //zi:command[@name='run'] | //zi:package-implementation[@main]">								
+									<xsl:if test="//zi:implementation[@main] | //zi:group[@main] | //zi:command[@name='run'] | //zi:package-implementation[@main]">
 										<form action="https://0install.de/bootstrap/" method="get" style="float: left; margin-right: 4px;">
 											<input type="hidden" name="name" value="{zi:name}"/>
 											<input type="hidden" name="uri" value="{/zi:interface/@uri}"/>
@@ -255,7 +255,7 @@ http://creativecommons.org/licenses/by-sa/2.5/
 								<xsl:choose>
 									<xsl:when test="//zi:implementation[@main] | //zi:group[@main] | //zi:command[@name='run'] | //zi:package-implementation[@main]">
 										<p>
-											This is a Zero Install feed. If you have <a href="http://0install.net/">Zero Install</a> on your system you
+											This is a Zero Install feed. If you have <a href="https://0install.net/">Zero Install</a> on your system you
 											can use it to run <xsl:value-of select="zi:name"/> from the command-line:
 										</p>
 										<pre>0install run <xsl:value-of select="/zi:interface/@uri"/></pre>
@@ -270,7 +270,7 @@ http://creativecommons.org/licenses/by-sa/2.5/
 											<xsl:value-of select="zi:name"/> is a library and cannot be run as an application directly.
 										</p>
 										<p>
-											For more information about using Zero Install packages, see the <a href="http://0install.net/dev.html">Zero Install developer's guide</a>.
+											For more information about using Zero Install packages, see the <a href="https://docs.0install.net/packaging/">Zero Install packaging guide</a>.
 										</p>
 									</xsl:otherwise>
 								</xsl:choose>
