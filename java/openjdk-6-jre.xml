@@ -1,5 +1,5 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='feed.xsl'?>
 <interface uri="http://repo.roscidus.com/java/openjdk-6-jre" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <name>openjdk-6-jre</name>
   <summary>OpenJDK Java runtime</summary>
@@ -11,7 +11,7 @@
   <package-implementation distributions="RPM" main="/usr/bin/java" package="java-1_6_0-openjdk"/>
   <package-implementation distributions="RPM" main="/usr/bin/java" package="java-1.6.0-openjdk"/>
 
-  <replaced-by interface="http://repo.roscidus.com/java/openjdk-jre"/>
+  <replaced-by interface="https://apps.0install.net/java/jre.xml"/>
 
   <group main="bin/java">
     <group arch="Linux-i386">

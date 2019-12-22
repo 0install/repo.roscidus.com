@@ -1,6 +1,8 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='feed.xsl'?>
 <interface uri="http://repo.roscidus.com/devel/glade" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
+  <replaced-by interface="https://apps.0install.net/devel/glade.xml"/>
+  <feed src="https://apps.0install.net/devel/glade.xml"/>
   <name>Glade</name>
   <summary>a User Interface Designer</summary>
   <description>
@@ -16,26 +18,4 @@ languages including C, C++, C#, Vala, Java, Perl, Python,and others.</descriptio
   <homepage>https://glade.gnome.org/</homepage>
   <category>Development</category>
   <icon href="https://glade.gnome.org/images/glade.png" type="image/png"/>
-
-  <group license="OSI Approved :: GNU General Public License v2">
-    <group arch="*-src">
-      <command name="compile" shell-command="&quot;$SRCDIR/configure&quot; --prefix=&quot;$DISTDIR&quot; &amp;&amp; make install">
-	<compile:implementation main="bin/glade-3">
-	  <environment insert="lib" name="LD_LIBRARY_PATH"/>
-	  <environment insert="." mode="replace" name="GLADE_HOME"/>
-	</compile:implementation>
-      </command>
-      <implementation id="sha1new=004cb5d03e788ef8e893e6c53ea3a4b56f432322" released="2012-07-08" version="3.8.2">
-	<archive extract="glade3-3.8.2" href="glade3-3.8.2-tal.tar.bz2" size="2739051" type="application/x-bzip-compressed-tar"/>
-      </implementation>
-    </group>
-
-    <group arch="Linux-x86_64">
-      <implementation id="sha1new=4d4909806e707060c207c9b5983bffc8b0179a4c" main="bin/glade-3" released="2012-07-08" version="3.8.2">
-	<environment insert="lib" name="LD_LIBRARY_PATH"/><environment insert="." mode="replace" name="GLADE_HOME"/>
-	<manifest-digest sha256="f80ae33b9ae3f551ef85871864d8b114381a9abda0aa5848068835783893cf24"/>
-	<archive extract="glade-linux-x86_64-3.8.2" href="glade-linux-x86_64-3.8.2.tar.bz2" size="3080690"/>
-      </implementation>
-    </group>
-  </group>
 </interface>

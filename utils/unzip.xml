@@ -1,30 +1,19 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='feed.xsl'?>
 <interface uri="http://repo.roscidus.com/utils/unzip" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <replaced-by interface="https://apps.0install.net/utils/unzip.xml"/>
+  <feed src="https://apps.0install.net/utils/unzip.xml"/>
   <name>UnZip</name>
   <summary xml:lang="en">UnZip SPECS UnZip: list, test and extract compressed files in a ZIP archive</summary>
   <description xml:lang="en">UnZip is an extraction utility for archives compressed in .zip format (also called &quot;zipfiles&quot;). Although highly compatible both with PKWARE's PKZIP and PKUNZIP utilities for MS-DOS and with Info-ZIP's own Zip program, our primary objectives have been portability and non-MSDOS functionality. 
 
 UnZip will list, test, or extract files from a .zip archive, commonly found on MS-DOS systems. The default behavior (with no options) is to extract into the current directory (and subdirectories below it) all files from the specified zipfile. A companion program, Zip, creates .zip archives; both programs are compatible with archives created by PKZIP and PKUNZIP for MS-DOS, but in many cases the program options or default behaviors differ. (For example, UnZip recreates the stored directory structure by default; PKUNZIP unpacks all files in the current directory by default.)
 </description>
-  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/utils/unzip.ico" type="image/vnd.microsoft.icon"/>
-  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/utils/unzip.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/utils/unzip.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/utils/unzip.png" type="image/png"/>
   <category>Utility</category>
   <homepage>http://gnuwin32.sourceforge.net/packages/unzip.htm</homepage>
   <needs-terminal/>
-  <implementation arch="Windows-*" id="sha1new=91d2946052e8c5dec556217561aba42463913ed1" license="Info-ZIP" released="2005-02-14" version="5.51-1">
-    <command name="run" path="bin/unzip.exe"/>
-    <command name="funzip" path="bin/funzip.exe"/>
-    <command name="SFXWiz32" path="bin/SFXWiz32.exe"/>
-    <command name="unzipsfx" path="bin/unzipsfx.exe"/>
-    <command name="uzexampl" path="bin/uzexampl.exe"/>
-    <command name="zipinfo" path="bin/zipinfo.exe"/>
-    <manifest-digest sha256new="3K5ISOG3HSCE4SDCCCA2GTBRVFZJJTINRGIZ7FQBMTUAKRYZFXEA"/>
-    <archive href="https://sourceforge.net/projects/gnuwin32/files/unzip/5.51-1/unzip-5.51-1-bin.zip" size="457440" type="application/zip"/>
-    <archive href="https://github.com/kkeybbs/gnuwin32/blob/master/gnuwin32/unzip-bin.zip?raw=true" size="457440" type="application/zip"/>
-  </implementation>
-  <package-implementation distributions="Gentoo" package="app-arch/unzip"/>
-  <package-implementation package="unzip" main="/usr/bin/unzip"/>
   <entry-point binary-name="unzip" command="run">
     <needs-terminal/>
     <name xml:lang="en">unzip</name>

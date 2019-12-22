@@ -1,41 +1,14 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='feed.xsl'?>
 <interface uri="http://repo.roscidus.com/java/openjdk-jre" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/java/jre.xml"/>
+  <feed src="https://apps.0install.net/java/jre.xml"/>
   <name>openjdk-jre</name>
   <summary>OpenJDK Java runtime</summary>
   <description>The Java runtime allows you to run applications built for Java.</description>
 
-  <feed src="http://repo.roscidus.com/java/openjdk-6-jre"/>
 
-  <feed arch="Windows-*" src="http://0install.de/feeds/Oracle_JRE.xml"/>
 
-  <group>
-    <!-- There is a seperate GUI version of the Java executable on Windows. On POSIX systems we simply map it back to regular Java. -->
-    <command name="run-gui">
-      <runner interface="http://repo.roscidus.com/java/openjdk-jre"/>
-    </command>
-
-    <!-- Note: 0install >= 1.11 will fill in the correct main value automatically. -->
-    <package-implementation distributions="Debian" main="/usr/bin/java" package="openjdk-7-jre"/>
-    <package-implementation distributions="Debian" main="/usr/bin/java" package="openjdk-8-jre"/>
-    <package-implementation distributions="Debian" main="/usr/bin/java" package="openjdk-9-jre"/>
-    <package-implementation distributions="RPM" main="/usr/bin/java" package="java-1_7_0-openjdk"/>
-    <package-implementation distributions="RPM" main="/usr/bin/java" package="java-1.7.0-openjdk"/>
-    <package-implementation distributions="RPM" main="/usr/bin/java" package="java-1.8.0-openjdk"/>
-    <package-implementation distributions="RPM" main="/usr/bin/java" package="java-1.9.0-openjdk"/>
-    <package-implementation distributions="Arch" main="/usr/bin/java" package="jre7-openjdk"/>
-    <package-implementation distributions="Arch" main="/usr/bin/java" package="jre8-openjdk"/>
-    <package-implementation distributions="Arch" main="/usr/bin/java" package="jre9-openjdk"/>
-
-    <package-implementation distributions="Darwin" package="openjdk-7-jre"/>
-    <package-implementation distributions="Darwin" package="openjdk-8-jre"/>
-    <package-implementation distributions="Darwin" package="openjdk-9-jre"/>
-  </group>
-
-  <package-implementation distributions="Windows" package="openjdk-7-jre"/>
-  <package-implementation distributions="Windows" package="openjdk-8-jre"/>
-  <package-implementation distributions="Windows" package="openjdk-9-jre"/>
-  <package-implementation distributions="Windows" package="openjdk-10-jre"/>
 
   <entry-point binary-name="java" command="run">
     <needs-terminal/>

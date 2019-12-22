@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <interface uri="http://repo.roscidus.com/powershell/windows" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/powershell/windows.xml"/>
+  <feed src="https://apps.0install.net/powershell/windows.xml"/>
   <name>Windows PowerShell</name>
   <summary>PowerShell bundled with Windows</summary>
   <homepage>https://microsoft.com/powershell</homepage>
-  <feed-for interface="http://repo.roscidus.com/powershell/powershell"/>
-
-  <package-implementation package="powershell" distributions="Windows"/>
 </interface>

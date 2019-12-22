@@ -1,6 +1,8 @@
 <?xml version="1.0" ?>
-<?xml-stylesheet type='text/xsl' href='interface.xsl'?>
+<?xml-stylesheet type='text/xsl' href='feed.xsl'?>
 <interface uri="http://repo.roscidus.com/java/sablecc" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/java/sablecc.xml"/>
+  <feed src="https://apps.0install.net/java/sablecc.xml"/>
   <name>SableCC</name>
   <summary>Java parser generator</summary>
   <description>
@@ -12,7 +14,4 @@ machine-generated code and user-written code which leads to a shorter
 development cycle.</description>
   <homepage>http://sablecc.org/</homepage>
   <category>Development</category>
-  <implementation doc-dir="doc" id="sha1new=7842ee47b251f4820a47505e1aaef093d56dad98" license="OSI Approved :: GNU Lesser General Public License (LGPL)" released="2011-08-18" version="3.2">
-    <archive extract="sablecc-3.2" href="https://downloads.sourceforge.net/project/sablecc/SableCC/3.2/sablecc-3.2.zip" size="539075" type="application/zip"/>
-  </implementation>
 </interface>
