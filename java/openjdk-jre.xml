@@ -3,6 +3,7 @@
 <interface uri="http://repo.roscidus.com/java/openjdk-jre" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <replaced-by interface="https://apps.0install.net/java/jre.xml"/>
   <feed src="https://apps.0install.net/java/jre.xml"/>
+  <feed arch="Windows-*" src="http://0install.de/feeds/Oracle_JRE.xml"/>
   <name>openjdk-jre</name>
   <summary>OpenJDK Java runtime</summary>
   <description>The Java runtime allows you to run applications built for Java.</description>
