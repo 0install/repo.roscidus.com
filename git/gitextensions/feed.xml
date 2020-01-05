@@ -1,16 +1,16 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/git/gitextensions" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/gui/gitextensions.xml"/>
+  <feed src="https://apps.0install.net/gui/gitextensions.xml"/>
   <name>GitExtensions</name>
   <summary xml:lang="en">GitExtensions is a graphical interface for Git</summary>
   <summary xml:lang="de">GitExtensions ist eine grafische Oberfläche für Git</summary>
   <homepage>https://github.com/gitextensions/gitextensions</homepage>
-  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/git/gitextensions.ico" type="image/vnd.microsoft.icon"/>
-  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/git/gitextensions.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/gui/gitextensions.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/gui/gitextensions.png" type="image/png"/>
   <category>Development</category>
 
-  <feed src="http://repo.roscidus.com/git/gitextensions-2"/>
-  <feed arch="Windows-*" src="http://repo.roscidus.com/git/gitextensions-3"/>
 
   <entry-point binary-name="GitExtensions" command="run">
     <name>GitExtensions</name>
@@ -42,11 +42,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvwQ6UACgkQIuoRGn5CQqR3cAf/eEkG
-LruEQiric146PcJYvA/B3U/yDiMRaZHmhkxMRT1+4+mgb8FjuflWHqNQg0I0xsMiHrGvMbPoiicf
-vHZhkhdIbBhhXWun/SUywlEhFuFrh3qYS97Fpp679S5WksYr43m3wZo+JoBnTrzWOsdErOI0dvOc
-955gDAkEzfzUrU/7qKgvTlOrA8u5kWuVQqBgmMdSFd0ELUsazndYGyscfU47nkbvARTbPUX1UDBp
-+9V3xmqBjnZeoO6TMFuVGRtBnjMopzsC7GnjaeqcuHdIFDSzlncCJb91bJbnCPDcJmb77PYwcFGp
-PSrEbjJn8z7smL5Pk6JOfCUOtC+Ep/NQ9Q==
+iQEcBAABAgAGBQJeETd/AAoJECLqERp+QkKk2zYIAIyPizAgl4S+A4oLSObiBf9Gmvi0CT6/0XTZ
+0HSViqHOvgPJ9tQnJQcB1P4iBZ0eFNguMLMYEVXcWDEsQZsvNsGxg1isSK+bx25TY1LUykSCjBYA
+q8EE5vk5MV9XlL3BkTmyqwg9U6TMnl8Yb9pez1+BZzb7JxNBJxf+2R4P3xFn2O0QdpoX9+bcPzH7
+FH3RxvUvqZyZhpAJMEG013JurElwBWWbN0YYClFR0Vo46unI9fuSXQ6j2/w9FWkWgMk6Ox/Um5r/
+MnqnHoDbWst5X7Sr0XsaazYo84HqAvMD2ezuKElHTO+lLqGTFQhJR8GzEzuhGU/V1iOwsRRIA3H1
+Y2o=
 
 -->

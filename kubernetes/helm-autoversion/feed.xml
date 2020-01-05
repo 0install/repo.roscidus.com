@@ -1,6 +1,8 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/kubernetes/helm-autoversion" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/kubernetes/helm-autoversion.xml"/>
+  <feed src="https://apps.0install.net/kubernetes/helm-autoversion.xml"/>
   <name>Helm Autoversion</name>
   <summary>wrapper for Helm that auto-downloads client matching server version</summary>
   <description>A wrapper for Kubernetes Helm that automatically downloads a Helm (client) version that matches the Tiller (server) version.</description>
@@ -12,24 +14,15 @@
     -or-
     0install add helm http://repo.roscidus.com/kubernetes/helm-autoversion
   -->
-  <feed-for interface="http://repo.roscidus.com/kubernetes/helm-2"/>
 
   <!-- Marked as version 3-pre to be considered "better" than all Helm 2.x releases but not as a candidate for Helm >= 3.0. -->
-  <implementation id="sha1new=a551fc5839686a79ee5fe9b7412f0bcb82b43605" license="MIT License" released="2019-07-16" stability="stable" version="3-pre">
-    <manifest-digest sha256new="YK4PPBMOGQYPFR227KIBN3NCXBE3FM2FGY2NMOAAOX3R7N66RPUA"/>
-    <command name="run" path="helm-autoversion.py">
-      <runner interface="http://repo.roscidus.com/python/python"/>
-    </command>
-    <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/helm-autoversion.zip" size="1035" type="application/zip"/>
-  </implementation>
-
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd/lUJAAoJECLqERp+QkKk0rgH/jT5+DoMEu83xtqkHpA5YwTy8hPE0nYJa/BD
-1h10whowf9K5+EqoeY60Q6uASoiAlpMgKXl9OWUiTdbgb6o6I0qZDQLWMHj6eolHOZQ0AUWORjU+
-nCMxonQDnrvZ7RPfucGlqltkecvwUQRS2Qk2LwnFGBU4gbTjHFJbSBzDAiv61iivqk/MQd6xty8Q
-ena6aH2prECO8oMXKRDaTf1Bur2e0S3pveiJXsLy6zY/t7iQ+34swm5/KymdLpdze5u8Y5Pfu2m1
-9U9zPKtG6cSHCYc+Sg9SofYBhNXGM/y0thRR2mzcH3/t1Bw01cm9JK7HU/b8og6RNb076rAR7dxT
-5j0=
+iQEcBAABAgAGBQJeETeCAAoJECLqERp+QkKk/QkIAJ0UBgaICex5SLs1xKJbFugKr+xjWGIsqfQF
+D6Z3wRxzT6ddgvJqz/K+pKjWrUmXV4JxpPiDLJnxOFxUiYp4akOiy4BcptvN3MxpoNwTjJoo9e5b
+yL/nHYVtzKQP/C9ZXq0ouljwoLXMBXMvQgyCDoZn7d304T7ohOR2YK5eWz2fWgrdLzOg4XtHaEZn
+/mMB3rVyiVgPmyvLZ7Xz6TWekWwOtThVeBFObII/A3eqeIZvV1NU6gHY6Jft8KYJdBQPTtKHCPP2
+n61kwVia0WMF4Jzl92uGf1GTWhm9qEsWZMKVVFUsyUa0jkHY8vUtQZ4h8Nv9kzGcVqU3juAfAdD9
+ViI=
 
 -->

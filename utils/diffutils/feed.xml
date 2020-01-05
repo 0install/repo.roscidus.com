@@ -1,6 +1,8 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/utils/diffutils" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <replaced-by interface="https://apps.0install.net/utils/diffutils.xml"/>
+  <feed src="https://apps.0install.net/utils/diffutils.xml"/>
   <name>DiffUtils</name>
   <summary xml:lang="en">show differences between files</summary>
   <description xml:lang="en">You can use the diff command to show differences between two files, or each corresponding file in two directories. diff outputs differences between files line by line in any of several formats, selectable by command line options. This set of differences is often called a `diff' or `patch'. For files that are identical, diff normally produces no output; for binary (non-text) files, diff normally reports only that they are different. 
@@ -16,26 +18,6 @@ You can use the sdiff command to merge two files interactively.
   <category>System</category>
   <homepage>http://gnuwin32.sourceforge.net/packages/diffutils.htm</homepage>
   <needs-terminal/>
-  <implementation arch="Windows-i486" id="sha1new=b7ac58b6aac3d2e3e032305e667c5854818430be" langs="ca cs da de el es fi fr gl he hu id ja ms nl pl pt_BR ro ru sr sv tr zh_TW" license="GPL v2 (GNU General Public License)" released="2004-05-24" version="2.8.7-19-3">
-    <requires interface="http://repo.roscidus.com/devel/gettext">
-      <environment insert="bin" name="PATH"/>
-    </requires>
-    <requires interface="http://repo.roscidus.com/lib/libiconv">
-      <environment insert="bin" name="PATH"/>
-    </requires>
-    <requires interface="http://repo.roscidus.com/lib/regex">
-      <environment insert="bin" name="PATH"/>
-    </requires>
-    <command name="run" path="bin/diff.exe"/>
-    <command name="cmp" path="bin/cmp.exe"/>
-    <command name="diff3" path="bin/diff3.exe"/>
-    <command name="sdiff" path="bin/sdiff.exe"/>
-    <manifest-digest sha256new="WTRKK7HJ6J5VU5MZZ3O5JRJ3MCHDTG6WVBJ36Z4JRAAKMQJDW5TQ"/>
-    <archive href="https://sourceforge.net/projects/gnuwin32/files/diffutils/2.8.7-1/diffutils-2.8.7-1-bin.zip" size="456027" type="application/zip"/>
-    <archive href="https://github.com/kkeybbs/gnuwin32/blob/master/gnuwin32/diffutils-bin.zip?raw=true" size="456027" type="application/zip"/>
-  </implementation>
-  <package-implementation distributions="Gentoo" package="sys-apps/diffutils"/>
-  <package-implementation package="diffutils"/>
   <entry-point binary-name="diff" command="run">
     <needs-terminal/>
     <name xml:lang="en">Diff</name>
@@ -66,11 +48,11 @@ You can use the sdiff command to merge two files interactively.
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdn4eXAAoJECLqERp+QkKkjVsH/RfZFEcIeXiKpExLssAwihf+ZrcNZSQshH1N
-hdzVqf73T/pdChDetkQlcaVkmbvWHxf/vJHvAyzszD7uhNoo8WlwGPMIk7+M7M9i5Jc8xOkQsLmO
-7gQyZQ6YNuXij4mrlzH+Bh7z2BcHN77V13Mc/uthiwhuRDAoCmTKSgW03W+dDyO9H5moss+PAlXP
-0tMJUr9/8ECSKTZ3I1Z4Bt3yK33ntYJ0IJlZfJCFpvjm6p+xNjRmwXH5cCNkM6+C2cTOVTN4EHhh
-8Rb6moCXtXjRHz7CDYFvNuvYk821jiGdPn2bnoJE0Um+LrBN2F4Gte9U/53glymgsMk0J3J+7Dny
-g5k=
+iQEcBAABAgAGBQJeETeLAAoJECLqERp+QkKkh6UIAMozM4/P4VtsiTxsB5X2HZjfLrVgaK64ipeA
+FgRsJxZLjEj4/Tou44+4o+wRHeMXQEOohKs51Jhs3ulwCYh6eeVjT57dc5LiIR+USlEyVXQiVDAj
+zSA1lnpjvtx1YTCe4Vrmjchot4dAXRRFzqaZCSneUZQv0bUR3M9Oz5q4q55D6Y2/7wpCGLKVfenK
+ALPa4chEpS+dKFcl71MgQIV/HF+G0aBGWrNQRoDai4mWeZxiKw+NBBqdHOGY3x1tmVQLF3GLPNva
+jHyNf5R65ugminzDYXvrvPqP3QBlHVPEzrVYF8sjZPZd1M+GpmTy7hrISJO4+wb5DsBbnQd6PZUr
+oGY=
 
 -->

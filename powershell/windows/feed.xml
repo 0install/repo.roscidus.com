@@ -1,19 +1,18 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/powershell/windows" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/powershell/windows.xml"/>
+  <feed src="https://apps.0install.net/powershell/windows.xml"/>
   <name>Windows PowerShell</name>
   <summary>PowerShell bundled with Windows</summary>
   <homepage>https://microsoft.com/powershell</homepage>
-  <feed-for interface="http://repo.roscidus.com/powershell/powershell"/>
-
-  <package-implementation distributions="Windows" package="powershell"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJaRVC6AAoJECLqERp+QkKk0XQH/jt1oSmZwiuQraS4YZEfXZAL8P1iDwALgaxe
-tDNOsZh217s2DEMgAVIAdNSdae/+HcR7IF4JobrNKzJe7Oj/gzL02oK+SAlaLTToF6cw9aKEOl4X
-7y2AZJCYnjNXPzgvXEUwLuOOOa/DinG8tR1Obfb9HLpIBqhecS+waeWo7veG5/EdashZyCjZIi6A
-FrSFaf9F9r0KB6iQZpgBqC3uhBfBRs603HIJoCjld6oedRO/n30hMHiS2rvK3PIx/Wq8sgAxP3Cr
-W/fZUfdh6IVYZrzsl5qGP+XOCzlEUXHcb8HCUxKWY7H6mBLKDo2TpcSkzxkMHAqauWGsKpydvEo0
-e6E=
+iQEcBAABAgAGBQJeETeIAAoJECLqERp+QkKkPRIH/R/NqmxoOmdsehcAfvWXjOfwWCjEuwXPSnmE
+oPZuEHkJ40jRY7lrZV+hWeHo6agP3yLeTMoChREhuE3ft4IqRfOgBw8tOaHUHiA2LaJxRx+NzXYb
+uMIoejGcUtsxeJuYabvzwwFeesSZL0s8KuOY5lJibPGRRlnWZmAxFTRKoBZE52wheYJfazkJ68aq
+RClXUDwGLQRIOwBj190jm9PkxCHSuct6/rKPUHFaCfmiVMTmKUNvzJVYl0FwvvLe+rWuh+iy0lFn
+pIsUyMgq0C17Xk/t3/5qCcxZsND4kALSQDpwWHmGSRNeXIv9FUZEXN+JSTVB0/iZ8BoSZvhk/bJN
+LXk=
 
 -->

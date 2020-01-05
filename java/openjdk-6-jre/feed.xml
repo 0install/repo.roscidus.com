@@ -11,7 +11,7 @@
   <package-implementation distributions="RPM" main="/usr/bin/java" package="java-1_6_0-openjdk"/>
   <package-implementation distributions="RPM" main="/usr/bin/java" package="java-1.6.0-openjdk"/>
 
-  <replaced-by interface="http://repo.roscidus.com/java/openjdk-jre"/>
+  <replaced-by interface="https://apps.0install.net/java/jre.xml"/>
 
   <group main="bin/java">
     <group arch="Linux-i386">
@@ -35,11 +35,11 @@
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd/lUIAAoJECLqERp+QkKk/FsIANbJYQwFiR4ynwimK594ZrF9vQlSXRlueK9b
-5b+I5LfiktcHE0oeegbPsmfeT/lDiyVBzEVHSXyRFxBfkYM/7s03jYBwkfw2N4xnW81YIhpGu8x4
-pElpIEM5QpsWHp2TNbvxoWyvf7cCT3AiMPj7fBIUqd7YANp6gr2J/3DfoB6aLsvJC1h772AC4mjb
-6qMHKS0bXaqWL7Pjae+jiPSTdXXh5T6OKW+00sT//1BVsD7e26u8W65VuXmTO/yFSCZ5X/wOuq/x
-n8E0Q4k2eyIce/wmu8V1oLl1KPhT8A/jMiEDLzdvix4ZpO3NtF64lAjnMLv2FY3sKBKGPe9eCeQZ
-VEo=
+iQEcBAABAgAGBQJeETeBAAoJECLqERp+QkKkSy8IAMqNnxSSvs8zlEQBGVK7NwMnJQ06fk2uoI21
+uJQgIDxSARPPEb3ZFAitMiyi0LGHOpa5DKIZyxa5pFIdzS64B4nHMzMzJsvikR+YlKfbRhshP4YY
+y1x6hMPy1nwwwqzwH+BGezeSdigQJz9ZPe1BwS5lI1WX0PkQrq6NQAFOqwpCA7z9KKwsepdxmLic
+QgLxrKqf2bJAbSWKmX63KjB6bHb8MOkNAmLEz1bbEbgdB33qqcNHoyXefPJ+k+n8wN0EotGBZxAl
+ZezgQFwlQ6YRk2w+yudkBw+099VFh0MCzEfuRUUckNxIeRVaMOevu2f77FSi76H3zKx1z4M2F1aw
+yVc=
 
 -->

@@ -1,6 +1,8 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/lib/krb53" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/krb53.xml"/>
+  <feed src="https://apps.0install.net/lib/krb53.xml"/>
   <name>libkrb53</name>
   <summary>MIT Kerberos runtime libraries</summary>
   <description>Kerberos is a system for authenticating users and services on a network.
@@ -12,35 +14,13 @@ This is the MIT reference implementation of Kerberos V5.
 
 This package contains the runtime libraries used by applications and
 Kerberos clients.</description>
-  <package-implementation package="libkrb53"/>
-  <group arch="Linux-i386">
-    <requires interface="http://0install.net/2007/3rd-party/libcomerr2.xml">
-      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
-    </requires>
-    <requires interface="http://0install.net/2007/3rd-party/libkeyutils1.xml">
-      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
-    </requires>
-    <implementation id="sha1new=2a8dbfd1181e06f6c1903ffe209da7dedc92cfb9" released="2010-06-26" version="1.6">
-      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libkrb53-i386-1.6.dfsg.4~beta1-5lenny4.tar.bz2" size="464267"/>
-    </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=35b78e682f6f51e05ccdd9155698a0667ff9aea6" released="2010-06-26" version="1.6">
-      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libkrb53-amd64-1.6.dfsg.4~beta1-5lenny4.tar.bz2" size="508704"/>
-    </implementation>
-  </group>
-  <implementation arch="Linux-*" id="sha1new=8510fa7b47a00d8f45a17a02e2736ff4361c144e" released="2011-05-29" version="1.8.3">
-      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libkrb53-i386-1.8.3+dfsg-4.tar.bz2" size="1380447"/>
-    </implementation>
-  <implementation arch="Linux-*" id="sha1new=ab541b8fecb59f40b1eea7e9e1b5cbfe660b9cc9" released="2011-09-17" version="1.8.3">
-      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libkrb53-1.8.3+dfsg-4squeeze1.tar.bz2" size="1380605"/>
-    </implementation>
-
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd/lUKAAoJECLqERp+QkKkC3kH/jNLHjkgFBiOmwf9oIE5UhENyxuSD6FDpK+I
-0EfVcuTyL6qO/eeiNwSiD8LmYd3HclAN/j0IQvJKJ6MWntttrBEdCvRxu8J08Lbka/HMvvGUW45L
-a5ehvJSBF/Z8rZsfslWOewieYKg39fEaym3IRKXc1peBkhRA33EIRKstpZGwGCa4P0MDr+oslNr/
-dECOrPovyxyu11kRDi/Y8ESFQpu1CFS61TbQ9WK46+8j07Ut2ioVJbOZDQAfoX05oyqOhQq+KU/b
-scLlwtj0AmuJtR2fdwn0D1z51MVUrOmhO/25+uOmO6MnMFk1Hz/rCvgpbmy31ELAZlDM+nWU2XT7
-7Mo=
+iQEcBAABAgAGBQJeETeFAAoJECLqERp+QkKk/g4H/028mLk48nX3qllM0Rxq5kOhp+ZXM0nPz4GS
+7SJhcrQRl+QbQFfZ2dUXQWWIGH26mfld4MIYt1f83CgL08Klv0KHy/wKnP87XuL+UlpXN9ch34oy
+mY/7jlGW3z6JgrajhNo3/NZBXl225vXVsHOXkta13ROTgx8C2sFfkZbaWHVj8sEdRUaOwug2PZFr
+ryZdx6nIhkqLxe/3ELmefyHHQc8xasxtIFLoOZRXs6qSJSebz52WIyPjEnv+Q90pfeENZcsbe43w
+qgZ1Bs9R+yTAyqvFFlM2XIs36WFsL2joUN/gRAovYHlqzYcDIMXtNskfqH//Ckyy6tsi9MhrZTpS
+iU0=
 
 -->

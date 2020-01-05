@@ -1,37 +1,19 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/lib/gc" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/gc.xml"/>
+  <feed src="https://apps.0install.net/lib/gc.xml"/>
   <name>libgc1c2</name>
   <summary>conservative garbage collector for C and C++</summary>
   <description>Boehm's GC is a garbage collecting storage allocator that is
 intended to be used as a plug-in replacement for C's malloc.</description>
-  <package-implementation package="libgc1c2"/>
-  <group>
-    <requires interface="http://repo.roscidus.com/lib/gcc1">
-      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
-    </requires>
-    <requires interface="http://repo.roscidus.com/lib/stdc++6">
-      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
-    </requires>
-    <group arch="Linux-i386">
-      <implementation id="sha1new=a4037bc11ac0ece34b24adea70e7255689f52b19" released="2012-01-02" version="6.8-1.2">
-	<archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libgc1c2-i386-1_6.8-1.2.tar.bz2" size="125683"/>
-      </implementation>
-    </group>
-    <group arch="Linux-x86_64">
-      <implementation id="sha1new=4803988e733f5c99bbbb6d2b6ddcb95a149d3f52" released="2012-01-02" version="6.8-1.2">
-	<archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libgc1c2-amd64-1_6.8-1.2.tar.bz2" size="128933"/>
-      </implementation>
-    </group>
-  </group>
-
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd/lUJAAoJECLqERp+QkKkm44H/RLZSN3tEeAKRExg28hlO4g1dMC6ddmhiGUb
-aVsOP8I3iv2fGMu4wBW2rWq8gWtbrcAbT14IOWRklTucHOHM4EgTj1noODHOuvs+ACty7F6qWFdz
-FOPWjPLLRORVvN5zE/rDroRSWykFRskzLpUdlkRdzuaEYCp4suCFGJihz6YuIUgIjr9SO4Qzisnm
-dFOwSmOucCBbwVdYgn6bYrqmJQZA51IJa7I3tjx56jVmwTNaGossmqX6HIruymILQZXWlsqexSeB
-g5G2Rs6+a8nkX23WGfmClad8vr9J6g5nG5l1ub7WhiRik29GBDLC96hLLvQLGce2S1ILpJSfhFyr
-rB8=
+iQEcBAABAgAGBQJeETeEAAoJECLqERp+QkKkh7EIAN8zOT8Sr5PRJJQErogUR93fXrb9QwbcDaFE
+kFPvr+XwCqz/qi5qyPUGcHW+wySJrKT0xabDObjR+R68ph6rj1j3xSPJFAlitjB3fq70gRZMfir0
+cmAcrFyz4iFV5EZU5cufGVm+rE0DA6O/6LINuWytA3RKZmltqRKl9K/RAVYJt4ngmaBwImCq5gGc
+suKOc4+J7jEyjOqwehalpF/rstmBWpiAWhYNY3qAOh3QBRm+GCa30WSPOBPhWmbnZMPvpfeeYFiS
+Yk1/9nAsiEgWP9kkyLqHqtI1OPQRGyLHJpfzEP0K4NSV/tXo4o0ec9xXeaJOqxFtCk2E7IEg14xQ
+D5U=
 
 -->

@@ -1,30 +1,23 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/dotnet/nant" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/dotnet/nant.xml"/>
+  <feed src="https://apps.0install.net/dotnet/nant.xml"/>
   <name>NAnt</name>
   <summary>free .NET build tool</summary>
   <description>NAnt is a free .NET build tool. In theory it is kind of like make without make's wrinkles. In practice it's a lot like Ant.</description>
-  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/dotnet/nant.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/dotnet/nant.png" type="image/png"/>
   <category>Development</category>
   <category>Utility</category>
   <homepage>http://nant.sourceforge.net/</homepage>
   <needs-terminal/>
-  <group license="GPL v2 (GNU General Public License)">
-    <command name="run" path="bin/NAnt.exe">
-      <runner command="run" interface="http://repo.roscidus.com/dotnet/clr"/>
-    </command>
-    <implementation id="sha1new=fb883ed9664dab9e062de01d0925fc28090379fe" released="2012-06-09" stability="stable" version="0.92">
-      <manifest-digest sha1new="fb883ed9664dab9e062de01d0925fc28090379fe" sha256="6827eb007efa76f0b7e954034869b2d2b2025e85632b5b7dd64568f48658f35f" sha256new="NAT6WAD67J3PBN7JKQBUQ2NS2KZAEXUFMMVVW7OWIVUPJBSY6NPQ"/>
-      <archive extract="nant-0.92" href="http://downloads.sourceforge.net/nant/nant-0.92-bin.zip" size="4422620" type="application/zip"/>
-    </implementation>
-  </group>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAluxIZ0ACgkQIuoRGn5CQqQvCAgAiPxN
-FemyMBsKywtskJcyL9+UKwmP6ztUrV0NpHTUYAN2ZS0NQguEMIW8j2XTxppycEOHrPYEZUOvFsVN
-YQJaG7yJvYgQVNBQSzhm1Ei+Dpw7V09x6g7Jd3rkgr0olVnVGkbBm03FA5A71nIJWFkpc4OTEORZ
-DgJQjzub9PrxHyJhqt240gaQyT5DHY1ufwvnlspqUv/BH+7gpSGauLviYveZEorrsMfWiArZPXl4
-1vxnZK4LU1jcp8tza2s37T4efxJhBICluZGSIABTCsUTOJbu/bq9R8Shr/SHw4GMlSrbHr9zNogv
-3grwFTW9ST20h/jlJiC44Pu7ToD0/LfsOw==
+iQEcBAABAgAGBQJeETd9AAoJECLqERp+QkKkP/sIALl88Algg515c+TyV1BncMMoGyVSN4JVtYjv
+nsff7ecSBNIr8foYhs5FO0rcKjVahctiz26dlSd28SXQaq7KBXhYqCrWPt28L/sUbPDQkwq7CK9w
+5I3rk6dyYzUiKPsL05cXvJ6aPbLOChtT+lDLjoUyiAMVT5wzrrm+eOpTgsojv60Em9l5Khk+er+s
+QMyiyvrYV6wLMPo9Le9Os7Epc3Z7pAD/VTp4I6f5yqtrQrGTTMNvqLvZYUvR4tXARYgoCGMr4Wz9
+FX5ztiQ/QhQ5G98SGIGJeJDECTjUhHXymHnl4vHECdy+4O5+56rRQA4MDFfukQ8efG4mvpg1SM6p
+iFE=
 
 -->

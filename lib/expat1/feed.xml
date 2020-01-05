@@ -1,47 +1,20 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/lib/expat1" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/expat1.xml"/>
+  <feed src="https://apps.0install.net/lib/expat1.xml"/>
   <name>libexpat1</name>
   <summary>XML parsing C library - runtime library</summary>
   <description>
 This package contains the runtime, shared library of expat, the C library for
 parsing XML.</description>
-  <package-implementation package="libexpat1"/>
-  <package-implementation package="expat"/>
-  <package-implementation ditributions="Gentoo" package="dev-libs/expat"/>
-  <group arch="Linux-i386">
-    <implementation id="sha1new=9b893d18c4fa1fcea73f35cd97d9c82c9d8fe2a6" released="2010-04-04" version="2.0.1-4">
-      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libexpat1-i386-2.0.1-4+lenny3.tar.bz2" size="102310"/>
-    </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=9ee48a6cd154cb051f15043501a3f60f74e906c8" released="2010-04-04" version="2.0.1-4">
-      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libexpat1-amd64-2.0.1-4+lenny3.tar.bz2" size="105890"/>
-    </implementation>
-    <implementation id="sha1new=89d2ce4f09a43eeb3fd6d5de69dfac227adbd7be" released="2011-05-29" version="2.0.1-7">
-      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libexpat1-i386-2.0.1-7.tar.bz2" size="107371"/>
-    </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=11b1e69a5e345ebe5e83cb08680a0686172cab9e" released="2011-05-29" version="2.0.1-7">
-      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libexpat1-amd64-2.0.1-7.tar.bz2" size="106257"/>
-    </implementation>
-  </group>
-  <implementation arch="Windows-i486" id="1.95.1withdllrenamed" license="MIT/X Consortium License" released="2000-10-22" version="1.95.0">
-    <manifest-digest sha256new="NIFBMKJZ277BARKR4SOXWRHPTW45IL3NBJM76PZZD4GVCYV6RHQQ"/>
-    <recipe>
-      <archive extract="expat_win32bin_1_95_1" href="https://sourceforge.net/projects/expat/files/expat_win32/1.95.1/expat_win32bin_1_95_1.zip" size="119596" type="application/zip"/>
-      <rename dest="libexpat.dll" source="expat_1_95_1.dll"/>
-    </recipe>
-    <recipe>
-      <archive extract="expat_win32bin_1_95_1" href="https://github.com/libexpat/libexpat/releases/download/R_1_95_1/expat_win32bin_1_95_1.zip?raw=true" size="119596" type="application/zip"/>
-      <rename dest="libexpat.dll" source="expat_1_95_1.dll"/>
-    </recipe>
-  </implementation>
-
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd/lUJAAoJECLqERp+QkKkRgIIANhK+HhNADf9KKCfqxKElZLKcRXouTpVSoeY
-yhRInO82REQfpIluXCSiULdJZc/OhsmaXQLcTQMius4Fn0NTM5tOTsgRILNHuM9r0V/LDMSk1Kl5
-R1FdYYliySMPRMLQlV7/VCG7mCDkvqre4QzgsTukyAnfkLlxZ3vWM/8OdS9amZ2Jqf4KGfm3Z9Rx
-33e1IXHmY6lYJHstbL0MLYNMvGJ2V8NUPAxgomIGKLAHz6GTEOP/J/hZVj0xfJgx0XXWTDbQQpPs
-qKJ32l1M2S2Ea8G5LofKdhIz7k26YdNmyuTtt95NALgHw5d3qkReTTJNX6aB83GNQ4HNEosfYk5+
-dFE=
+iQEcBAABAgAGBQJeETeEAAoJECLqERp+QkKk0fQIAOVpPmjr4QzHRHks8YXhxB01S2DmqTxvKTxu
+WWLJ98j97o64SeX23KH0MKvxZPUwj9F/pFBPizmdiKOwQrutdGBQFwSXnpImNwohNkQT1jaNt7qI
+OYXSUYTrzd0Fp5U2EdU/NfMJVeDE0YqO6aiANeLchMVb0CyU3tIAnZ7JGUgy4yha6dYUP9P27ozL
+ZbaApr/RCI/NDurTTZviNJazGwi68L6u8gawhoV+cy5PYgW9X2+I4QTjNR6VvcxAPpe/EaqZF9BG
++p7dr8eA5mMZ9mbKNJprVOA1LQ7FIkGsZjuD8HVy3nqF6nFII+DmDOZ94J2wsuZZSQXRDkB5wbR1
+DL0=
 
 -->

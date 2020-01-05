@@ -1,21 +1,18 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/python/dbus-python" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/python/dbus-python.xml"/>
+  <feed src="https://apps.0install.net/python/dbus-python.xml"/>
   <name>dbus-python</name>
   <summary>dbus-python</summary>
   <description/>
-  <package-implementation distributions="Gentoo" package="dev-python/dbus-python"/>
-  <package-implementation distributions="RPM" package="python-dbus"/>
-  <package-implementation distributions="RPM" package="dbus-1-python"/>
-  <package-implementation distributions="RPM" package="dbus-python"/>
-  <package-implementation distributions="Debian" package="python-dbus"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYelPxAAoJECLqERp+QkKkzGoH/R4i1VySp2bvj+GgSsQ+NiRUSsESWsJbmHA6
-tPAAfLpfCgQh6u5hvMjjolDnKLnFnwpI2c3WzyPkWlTj/cbUKvSkoxEzpIX7WXW0CRmLa4RJ+1ND
-PUzj1I46BZF5JXquHwbfQPyE6AL2uuMGUngsPvvHqKPyxurYIcjbZ+nzmcA6o/ulH5xJQs/zTfin
-szhA5oNFDfiLru953YKcNvW1z2aGlZu7m0FyWaQqOPtqyJfNLnguqiCyxhL4Er+WOS/XGpzWehdk
-Yr1y/3ieU2ZGap1fVvCxBY4hXJ89TsiH6KqJ/DebQ7Wc5eSUHiPuI/PNX/Oetbwe9XHRqmIrGZ60
-91I=
+iQEcBAABAgAGBQJeETeIAAoJECLqERp+QkKkqfcH/j+oUVYFRgrcs0T2getcFgquJRfnEKDnjXIz
+P6WJJDz8+AH7lq/k/WVP0P4mqqA0Ykjn66M/jJ2HdTarODKBUpcOlO1wj87Eno7B8bgmwsALC+fV
+rkFWPQXvpEALrbVYg0bEvlEp0C1jfkven9pN5qGpeLyla6vm4iwI4PBElKQn+d4ZNcCj9gZ+fplW
+R9U1G5xteKPxGyzUU3USF5rx829FC1woyNe/wCIsrl3qolZyQiMXVs4RcLKBDPHOG9E419NCvZIq
+6Rq6dY9FSihFPUsW2VV+wpx12t9E9tkkzn4m4s2Zdy9TSoz1ZzqfQf6mONZ3qbOlWwUvxVA8tRyu
+tRM=
 
 -->

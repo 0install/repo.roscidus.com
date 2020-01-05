@@ -1,18 +1,17 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/lib/icu" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/icu.xml"/>
+  <feed src="https://apps.0install.net/lib/icu.xml"/>
   <name>libicu</name>
   <summary>library that provides robust and full-featured Unicode and locale support</summary>
-  <package-implementation distributions="RPM Arch" package="libicu"/>
-  <package-implementation distributions="Debian" package="libicu57"/>
-  <package-implementation distributions="Debian" package="libicu60"/>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlvgixQACgkQIuoRGn5CQqSMEgf/Y4b3
-gfMYyloSkOLXUjjASvy3Z8/f4jeVXcfxxsoRQ0uhox3+FRbRz/240AlDZ832Rp62F4dys+tj3TSi
-+5y97RwzXX/XcVxnc4ZBG1PF3ypvRkp4wQgdnd8SyHLElkBbPOnICwRwgSMA1tVk5OZw1MwgfEUu
-CqvOimbp6rDVhYYrLGblkWEv7S1nNIt5M10iWPqwz25ElJOkNbjexJXaabL1UQUhg2KgpgcxDMa+
-p5AIRvhL0LEPIxXvKEJwpmkW8zp5+/JlLjrR7au18rmLyN6uGxpckpv0+WLCCdADEjT9eAHIR4By
-qecumPTXRZI2/zy+BrJ0b1ho61FelmuIBg==
+iQEcBAABAgAGBQJeETeFAAoJECLqERp+QkKk0jMH/jRFEczhvIYIM26eY0Dj/FO7Fz/NyXsI2pWB
+rRAA76iwq2iF95iPkdqlJ3yzlFoJOLlOwWRanufc5fHUfo546cuuhpntp3LmcQTGHpbJHV8Dp/Aq
+TNJvUOvYrFUbNOZtZfx8nGp6bIhEh+s+CuHEEMaoIyE9eDebjRpBBJDyjLvOlY/WpVtm7AffTZ3a
+tH8JD9DveFqUek/P9AqFAOUA9xaBpNXpViybx9mmJMTcSvvi8Xva671tlTfJT1TuhhI71iRQWIv0
+iZpsTJl1xMn9cZWYQIuupHTlEY9sBaPkYTboO34Qnr3JC4/MgTfpvZxGpeilcvMqpD30n/rnPDV2
+W6k=
 
 -->

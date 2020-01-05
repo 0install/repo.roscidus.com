@@ -1,6 +1,8 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/utils/bash" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/utils/bash.xml"/>
+  <feed src="https://apps.0install.net/utils/bash.xml"/>
   <name>bash</name>
   <summary>the GNU Bourne Again shell</summary>
   <description>
@@ -23,36 +25,19 @@ bash.sourceforge.net/).</description>
   <needs-terminal/>
 
   <!-- Not /usr/bin/bash : http://thread.gmane.org/gmane.comp.file-systems.zero-install.devel/7135 -->
-  <package-implementation main="/bin/bash" package="bash"/>
 
   <!--
      Note: We don't want to specify the word size because bash doesn't link to anything and
      we don't want to force everything else to be 32-bit. Once 0install supports scoped
      dependencies we can add this.
   -->
-  <group license="OSI Approved :: GNU General Public License v2" main="win-bash.exe">
-    <!-- Warning: we don't give any arch here, even though it's a Windows-x86 binary.
-	 That's because 0compile depends on it and old versions of 0install don't understand
-	 Windows-only dependencies and might therefore insist on downloading a version (if
-	 the <package-implementation> above doesn't find anything). It's better to download it
-	 and ignore it than to fail to run 0compile.
-      -->
-    <implementation id="sha1new=624fe11b4b9f88c1087ed915e2c66b07edaf62dd" if-0install-version="..!1.12" released="2013-03-02" version="0.6">
-      <archive href="https://downloads.sourceforge.net/project/win-bash/win-bash/0.6/win-bash_0_6.zip" size="969894" type="application/zip"/>
-    </implementation>
-
-    <implementation arch="Windows-*" id="bash-for-windows" if-0install-version="1.12.." released="2013-03-02" version="0.6">
-      <manifest-digest sha1new="624fe11b4b9f88c1087ed915e2c66b07edaf62dd"/>
-      <archive href="https://downloads.sourceforge.net/project/win-bash/win-bash/0.6/win-bash_0_6.zip" size="969894" type="application/zip"/>
-    </implementation>
-  </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJV8HPkAAoJECLqERp+QkKk1YsIAL/tVaDLYs4iHsqBlUhq6qApO8PCWB1Fepde
-8v32GUoKnKi451XPg7p6TFQo9vf9jmtvjlnlR2Zh83Cd0His13XLUCWc5JmkL+ybHhuAt8EXahP9
-3qrY5y5m+vuU2XCMPX7F4WSkgAVsiYR9ipldglD96/+GXnUzUjz4uTpXo4RegNqMFiyOhSJPLFbV
-ufdnhgRiR3Uc/GOkrWbOC0VulFTfpBeCbEGdJQ8M7p07RmqTjZrRcBu75ejGJVLvKbBdAu4UqypW
-z3VejolkWzSKISEfQ0oOJ9AjzjcgoyVcaMIIzg1yJOc7q6DSdFMznDdKAb/oQtNn8x3/y+haFZ9l
-qn4=
+iQEcBAABAgAGBQJeETeKAAoJECLqERp+QkKk1NYH/0LR6UhWFAi1Hugdpukzz4byldcRyIUW66qG
+dORnWj1qwdZqeAomkJhKoqeM8PE6q5X99o4/JWz4FudIo22CtnPtknWU134YPtWj4vsG/8SVt8mr
+g2hQ35mSHwowk9Bc1ke5pAZ0eia8ulfgnChUi6/9DYXYrjHqBzNBAR1l+0pAUmgl8Sr2UaiLTN/q
+OVVkrZsd/PHHexfSlW2UNddspmmvmgWTHCmqyMMLhIPJTyWNJ5K/PBjcJiRI2g+hbBSplUVyuhPh
+IDtDsFQpMxRC6+SozZa9hJ8tPXltOsbLMTGJOVL4uQxel2+sb6Q4wKGXg4AoQk+78b1pQJoMVXtp
+Oyo=
 
 -->

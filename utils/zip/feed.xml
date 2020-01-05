@@ -1,6 +1,8 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/utils/zip" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <replaced-by interface="https://apps.0install.net/utils/zip.xml"/>
+  <feed src="https://apps.0install.net/utils/zip.xml"/>
   <name>Zip</name>
   <summary xml:lang="en">Zip: package and compress zip-archive files</summary>
   <description xml:lang="en">Zip is a compression and file packaging/archive utility. Although \highly compatible both with PKWARE's PKZIP and PKUNZIP utilities for MS-DOS and with Info-ZIP's own UnZip, our primary objectives have been portability and other-than-MSDOS functionality. Features not found in the PKWARE version include: 
@@ -13,28 +15,11 @@ Zip is useful for packaging a set of files for distribution, for archiving files
 
 Zip has one compression method (deflation) and can also store files without compression. Zip automatically chooses the better of the two for each file. Compression ratios of 2:1 to 3:1 are common for text files. 
 </description>
-  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/utils/unzip.ico" type="image/vnd.microsoft.icon"/>
-  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/utils/unzip.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/utils/unzip.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/utils/unzip.png" type="image/png"/>
   <category>Utility</category>
   <homepage>http://gnuwin32.sourceforge.net/packages/zip.htm</homepage>
   <needs-terminal/>
-  <implementation arch="Windows-i486" id="sha1new=8649b604ca541f624ab44604763459e70c535739" license="Info-Zip" released="2008-07-13" version="3.0-3">
-    <requires interface="http://repo.roscidus.com/utils/bzip2" version="1.0.5">
-      <environment insert="bin" name="PATH"/>
-    </requires>
-    <requires interface="http://repo.roscidus.com/utils/unzip">
-      <executable-in-path name="unzip"/>
-    </requires>
-    <command name="run" path="bin/zip.exe"/>
-    <command name="zipcloak" path="bin/zipcloak.exe"/>
-    <command name="zipnote" path="bin/zipnote.exe"/>
-    <command name="zipsplit" path="bin/zipsplit.exe"/>
-    <manifest-digest sha256new="HOZXANJC46APEKKOSTYASJVNXXENE3YBATJM7B4Y7U4NAESER6MQ"/>
-    <archive href="https://sourceforge.net/projects/gnuwin32/files/zip/3.0/zip-3.0-bin.zip" size="576934" type="application/zip"/>
-    <archive href="https://github.com/kkeybbs/gnuwin32/blob/master/gnuwin32/zip-3.0-bin.zip?raw=true" size="576934" type="application/zip"/>
-  </implementation>
-  <package-implementation distributions="Gentoo" package="app-arch/zip"/>
-  <package-implementation main="/usr/bin/zip" package="zip"/>
   <entry-point binary-name="zip" command="run">
     <needs-terminal/>
     <name xml:lang="en">zip</name>
@@ -70,11 +55,11 @@ Zip has one compression method (deflation) and can also store files without comp
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd7XtkAAoJECLqERp+QkKkW7QH/RDZePjLTLOBGtnsD14ggCPAh2AxqAr/qfIT
-vnUaKuTb6DIC0qN3HfM7n/+hfYo4nnqYBAcN+I12MbI8mBg54yjyHYxFQBy49XPMmJ/oG38Czcuk
-+Q/v3JI81M7CE8+z+WCRorHkKA9spVhKOL99tIFrWHXHzjs13Qz6nSELgEdRXp0Ifv0U/AT5LFty
-V3LclZLSzPQ9hv/uYQzQ36G6cprNUZJz6PTdW/B2+HFlxC5x6h4L9BITDpD0FcDyOI2lOnQ6KD/b
-zNQZaFn1LgFTg+ubOS2jdA/eD61ByQ2BuGJ5uaX/boATXD6ZAEu8Z12XK4W9h0Ot25MKI8CviUwx
-sLw=
+iQEcBAABAgAGBQJeETeNAAoJECLqERp+QkKk7wIH/0fbOm8uQzhseRzbGmsd/lut8Nv6ryRtz1K1
+fKH2pl+sq5F1D3BswjZH1JnANy5lVVobCtOHYHf8WWrnWz+26RQNJWsE1W5eeYGCghgtqbipbHZm
+3BG6xR4EpXk9oscA5wCYADTOezppUqy7X3jW9e5XP/WWgv9msFriun3cU2Z49/gSV4nOnNBvRSFk
+cjnx7K8I1KDeP9UGdqA7sov9eQ+brEIHbN9VyQIyIG/xsOitVrhylqy/AG75IHF8+CQBAn7mI//D
+GZHSH67Tv9pJkDs3VOOwKl1wh8mEu48OdApt2RYd+ys/VQWgbvnhB9NufzzuDvfPTy/LetS2tMRz
+qCM=
 
 -->

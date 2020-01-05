@@ -1,22 +1,18 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/utils/mktemp" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <replaced-by interface="https://apps.0install.net/utils/mktemp.xml"/>
+  <feed src="https://apps.0install.net/utils/mktemp.xml"/>
   <name>MkTemp</name>
   <summary xml:lang="en">Mktemp: return a temporary-file name</summary>
   <description xml:lang="en">The mktemp utility takes a given file name template and overwrites a portion of it to create a unique file name. This allows shell scripts and other programs to safely create and use /tmp files. 
 
 Install the mktemp package if you need to use shell scripts or other programs which will create and use unique /tmp files. 
 </description>
-  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/utils/mktemp.ico" type="image/vnd.microsoft.icon"/>
-  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/utils/mktemp.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/utils/mktemp.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/utils/mktemp.png" type="image/png"/>
   <homepage>http://gnuwin32.sourceforge.net/packages/mktemp.htm</homepage>
   <needs-terminal/>
-  <implementation arch="Windows-*" id="sha1new=0e80ed49afbc108b26020e9e6d248b40395e67d6" license="OSI approved" released="2009-01-11" version="1.6">
-    <command name="run" path="bin/mktemp.exe"/>
-    <manifest-digest sha256new="OXAACI4QVJVNFJRTTHCKRWWG32IOW5M6D6BA22TWNU6646FSVEEQ"/>
-    <archive href="https://sourceforge.net/projects/gnuwin32/files/mktemp/1.6/mktemp-1.6-bin.zip" size="23375" type="application/zip"/>
-    <archive href="https://github.com/kkeybbs/gnuwin32/blob/master/gnuwin32/mktemp-1.6-bin.zip?raw=true" size="23375" type="application/zip"/>
-  </implementation>
   <entry-point binary-name="mktemp" command="run">
     <needs-terminal/>
     <summary xml:lang="en">make temporary filename (unique)</summary>
@@ -29,11 +25,11 @@ Install the mktemp package if you need to use shell scripts or other programs wh
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJdoaimAAoJECLqERp+QkKkviEH/Atr11d8P053teOMIop6FPOzt/+8ThcKbUcy
-Ja/7//c8kX7w4+dt1ZEhe+kqd/NwCV55qWMGpoZHlcNtO9OVWWXMN8T7kHaq8MYQA86g0LGm+stC
-M9VpY0p4+ioBOdrvcg+ftYqgAjCbpZVg42NWUxTo4iJXwn3z27kQd6jMqKN5hnpYILy+5cjngoft
-LqXGQfIuv1kiVr20jWDzFbcJD4rw07G6y1kKMqCbEw9bho1tH7UycBG1bzEVIOWroFM4gtw8mhpZ
-fSOhQd025HDg5H55H5qi8TxG0NIXrLHcqLRIiHFO0AB6yZDgVJprAtpXZfVa+dueFXMRm+X4vopp
-syY=
+iQEcBAABAgAGBQJeETeMAAoJECLqERp+QkKkCO8H/RZ4iGDzOZW20lX2bv0aGU96y7aQy1Q7S5nB
+WQxc4uxYXtrO7787LU3t/7MnDNpmhMuByKka4RwKBgv2Vs1PrOG7h5VGwJA6k6DfDXRP8+M2I5Wq
++Gi2VIDzl/YVwU8UXOnEx7XQ7FuCWQda5BdGA8wp2b058doXkPZm3CcmzlnItjzhFXpbo9fNXsk5
+6rOPrtP9+4JmvqErEU0fX+aIi3ZYgtu+6dxEL40b0K5DCu05Z7y8kT6k8lPmim2wZarPnv5py1F5
+6CCFMssOwRWTIxcIq1dFvkf2UlwabklMdrCtteIIGz2FWA4IcYrTmObwinNZ1w/y6D73Ui6gANkF
+Cxo=
 
 -->

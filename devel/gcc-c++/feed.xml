@@ -1,20 +1,19 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/devel/gcc-c++" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/devel/gcc-c++.xml"/>
+  <feed src="https://apps.0install.net/devel/gcc-c++.xml"/>
   <name>gcc-c++</name>
   <summary>gcc C++ compiler</summary>
   <description/>
   <homepage>https://gcc.gnu.org/</homepage>
-  <package-implementation distributions="RPM" package="gcc-c++"/>
-  <package-implementation distributions="Debian" package="g++"/>
-  <package-implementation distributions="Gentoo" package="sys-devel/gcc"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYelPxAAoJECLqERp+QkKkz/QH/3BYtv8xvjfQBjDjTE+m81eKEjezeKs7DviV
-YbauD04+9N0izkCCsGjeGnVooyAqenQYxoGptFaXHuAJGUT68HQWmNJIYtd4juhsdpNlXMri0ynd
-/dnYJ8fOrrxnM08LdH9ymUBQKlE/e72vMOTnlMiXTkvfZPU4lNy33wNSJUFryBjixFTIS2fS6lEV
-OZ78adDbpaaX47PDtCrqN+UuiMWI8A+RH1BlAHeLvwvkS2nxg50VkcqjnxhQNWb/lL2SriE/Kdwv
-ESg2hI99hia6e034CGmApAyN3IHUqhuudyIFqHuGWNk0hMItnRNuFTs1SvO/45RoMhuzoUCYssch
-4W0=
+iQEcBAABAgAGBQJeETd7AAoJECLqERp+QkKkBzcIAO3CTYz+2lyyLaEayg9lsgBGYd6UqYXr/ThK
+OaS/HeuZhfXD0i0bCSEet560D/j1fKigrVZB/j0zStmWuMS00chppkY39cCMKzv2kMN9O61GIGoc
+BlvgZBgDocHf2UvAHS+h1ysL/FJLgKTeegkFMf07VQRcEcIwkFh0z/sGjOnzWuN4hOnx2p46l704
+tbhUS+UjsfJsHpRPsxwMfsddTaHoWDQRzs03UcTGyQXh4tcSrak/g/pSBQubLZPWECAz0Q8zyexp
+aIPd9s/EP+sbvyY8zpZjkjZcEYU6BwEphUSSyTKZwsbTDIlSs+zxx6D1gFj5/NGEena+cRBVMlhm
+Epk=
 
 -->

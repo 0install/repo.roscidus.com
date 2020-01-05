@@ -1,58 +1,13 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/utils/graphviz" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/utils/graphviz.xml"/>
+  <feed src="https://apps.0install.net/utils/graphviz.xml"/>
   <name>graphviz</name>
   <summary>Open Source Graph Visualization Software</summary>
   <description>Open Source Graph Visualization Software</description>
   <homepage>http://www.graphviz.org/</homepage>
   <needs-terminal/>
-
-  <group>
-    <command name="run" path="/usr/bin/dot"/>
-    <command name="neato" path="/usr/bin/neato"/>
-    <command name="twopi" path="/usr/bin/twopi"/>
-    <command name="circo" path="/usr/bin/circo"/>
-    <command name="fdp" path="/usr/bin/fdp"/>
-    <command name="sfdp" path="/usr/bin/sfdp"/>
-
-    <package-implementation distributions="RPM Debian Arch" package="graphviz"/>
-    <package-implementation distributions="Gentoo" package="media-gfx/graphviz"/>
-  </group>
-
-  <package-implementation distributions="MacPorts" package="graphviz">
-    <command name="run" path="/opt/local/bin/dot"/>
-    <command name="neato" path="/opt/local/bin/neato"/>
-    <command name="twopi" path="/opt/local/bin/twopi"/>
-    <command name="circo" path="/opt/local/bin/circo"/>
-    <command name="fdp" path="/opt/local/bin/fdp"/>
-    <command name="sfdp" path="/opt/local/bin/sfdp"/>
-  </package-implementation>
-
-  <package-implementation distributions="Ports" package="graphviz">
-    <command name="run" path="/usr/local/bin/dot"/>
-    <command name="neato" path="/usr/local/bin/neato"/>
-    <command name="twopi" path="/usr/local/bin/twopi"/>
-    <command name="circo" path="/usr/local/bin/circo"/>
-    <command name="fdp" path="/usr/local/bin/fdp"/>
-    <command name="sfdp" path="/usr/local/bin/sfdp"/>
-  </package-implementation>
-
-  <group arch="Windows-i486" doc-dir="doc" license="Eclipse Public License">
-    <command name="run" path="bin/dot.exe"/>
-    <command name="neato" path="bin/neato.exe"/>
-    <command name="twopi" path="bin/twopi.exe"/>
-    <command name="circo" path="bin/circo.exe"/>
-    <command name="fdp" path="bin/fdp.exe"/>
-    <command name="sfdp" path="bin/sfdp.exe"/>
-
-    <implementation id="sha1new=b9ad8643984d120799c43f3d85d58f2653f87955" released="2011-04-21" stability="stable" version="2.27.20110421.0445">
-      <archive extract="release" href="https://github.com/0install/apps.0install.net/releases/download/archives/graphviz-bin-2.27.20110421.0445.zip" size="49035660" type="application/zip"/>
-    </implementation>
-    <implementation id="sha1new=23991c6e6cf53d7b401c61aff71575ff326e3bca" released="2014-04-13" stability="stable" version="2.38">
-      <manifest-digest sha256new="BFQPX4FKOIBNJRC34KOWGMANFIT3WNZ5N6DXUVDOUEJZMRFYLVYQ"/>
-      <archive extract="release" href="https://graphviz.gitlab.io/_pages/Download/windows/graphviz-2.38.zip" size="51904518" type="application/zip"/>
-    </implementation>
-  </group>
 
   <entry-point binary-name="dot" command="run">
     <name>dot</name>
@@ -81,11 +36,11 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd/lUNAAoJECLqERp+QkKkEGoH+wTd457alPOpnsI37Ah9r9l0i9WYkUYJpZo3
-BFW007gsygwMAawjdqfOPsHS+Q0h7p3ConlhoAM9lSruYaxjaMNB5uraoLH1HOEOouI1M+9+TpTl
-4gvqFBvOm2HPKp2CV47GPmcjAKWhgeOhMjk3r4rO+IVgPzWFNBf7kOsQKcjuTidxrGiDh8OZcsZF
-v8kpkFh09Y9sNOLSB3KTpi/zKJVtlz2u+BmYL8jWFwpJQDse0KYqV8oncbCJ1C/7ivciJ5gY9B8z
-vw7HaTiOKa7QmkEClGygVYONjPjKcXc02iCLrd7bmKFwQUMd3+1VEpQMktOkAlTBHXknpfLOGA9S
-ybk=
+iQEcBAABAgAGBQJeETeMAAoJECLqERp+QkKki0sH/1tpvitPRtYVVAphuoKhpzAaFbbCE2veSTnz
+b5gQtajXLRTOouELRrSfmPN2CNduawqJZ2zbQtF9v1dk77eE2OyvxRjz/7A+1bYZm5PsKAzhSkLQ
+Ag5UkgKVTz4skehpx5KIl0Su2qCLt7PT68qO0tN7L7M0+1xqNqVU/1ycbIo44ioa6UIbmu/9tjtZ
+ezCMo0F1tJVsVdhopCLSG5SqXhtjIPH2lIIYmxKpJi7AlWNWUqfVxaOvUKopzLC7KyDaUZH+iy2e
+zz0wAvp5HP947aDG/fbtjaIMY8M/WZ2FkiZsVkdqe+5JF8Y0yMLCZbOXre1lfZk/9jbMOo5oEFJ9
+ESw=
 
 -->

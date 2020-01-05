@@ -1,6 +1,8 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/lib/stdc++6" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/stdc++6.xml"/>
+  <feed src="https://apps.0install.net/lib/stdc++6.xml"/>
   <name>libstdc++6</name>
   <summary>The GNU Standard C++ Library v3</summary>
   <description>This package contains an additional runtime library for C++ programs
@@ -9,28 +11,13 @@ built with the GNU compiler.
 libstdc++-v3 is a complete rewrite from the previous libstdc++-v2, which
 was included up to g++-2.95. The first version of libstdc++-v3 appeared
 in g++-3.0.</description>
-  <package-implementation package="libstdc++6"/>
-  <package-implementation distributions="Arch" package="gcc-libs"/>
-  <group arch="Linux-i386">
-    <requires interface="http://repo.roscidus.com/lib/gcc1">
-      <environment insert="lib" mode="prepend" name="LD_LIBRARY_PATH"/>
-    </requires>
-
-    <implementation id="sha1new=3ea473cbd976fac4360478603fd301fc387ec21b" released="2011-10-01" version="4.4.5-8">
-      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libstdc++6-i386-4.4.5-8.tar.bz2" size="329917"/>
-    </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=addf2265c9a59a45aa95db15d7458d00a65bfe96" released="2011-10-01" version="4.4.5-8">
-      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libstdc++6-amd64-4.4.5-8.tar.bz2" size="324558"/>
-    </implementation>
-  </group>
-
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd/lUKAAoJECLqERp+QkKk9WkIAOnXp5WghErj5UkR3wb3qCEqTGjpv0x1dd5f
-pRtydcW6OZDL748FAXKgUxnxFbPgYz/eUZBUgomRN/irYWYnexdaC9stq1STo1svPO3HDol0p0RT
-/rV/RqDDGTUhQr1lo/bg+7bHTYpvFKsMts0MuP5Up+9jh5fVn7c3ynodSdITlGDVNkk/VJWp0KEZ
-Tlcj7lp/TUN1BVDDo8AGmlD1lKdC6df4s3qSODjkcvRZbyvsyFglm7KYltmEQTpzxlr6e9UTwyte
-x++ZePhFH7WLCFVV0Znwu4KUFCz0V/6QUCrKirJCi+oyiFkRQuyddLZ0NphbT412W56ONhrvNerI
-05Y=
+iQEcBAABAgAGBQJeETeGAAoJECLqERp+QkKk4zUH/Rjil5qv5aCDtwV4Y9rS5BZV2UjQFci6ObYR
+tC/9UiPiar9xgOjxR5x5Y1V9md1dqX2YrMM5nIsXT/jbaBf3lCZu2MUifEiSgPaz6zHtmQFZZyCZ
+D3Cpo9lTtnf+DX8LMjKD1OrfSfefDv74DlBULx9/F2i5Op0B4QMD2BkRjqoiPQpYCSFr/klnsrYd
+NcGcS8bMCkOLIuPtGVmcIYrzHr9L8AYPMoC/l8gUaLQtxzkvD+E37Y276TriMUVlostpXSlMbgC3
+ySHVoUSVagJ2RSkEOvrZ9viODpmnxK5rYix3Krn4BG4aPUfZmmAh1za9SHlJg5ZswsD1NGeOuCD2
+06s=
 
 -->

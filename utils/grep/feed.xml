@@ -1,6 +1,8 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/utils/grep" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <replaced-by interface="https://apps.0install.net/utils/grep.xml"/>
+  <feed src="https://apps.0install.net/utils/grep.xml"/>
   <name>Grep</name>
   <summary xml:lang="en">Grep: print lines matching a pattern</summary>
   <description xml:lang="en">Grep searches one or more input files for lines containing a match to a specified pattern. By default, grep prints the matching lines.</description>
@@ -9,37 +11,6 @@
   <category>Utility</category>
   <homepage>https://sourceforge.net/projects/ezwinports/</homepage>
   <needs-terminal/>
-  <group>
-    <command name="run" path="bin/grep.exe"/>
-    <command name="egrep" path="bin/egrep.exe"/>
-    <command name="fgrep" path="bin/fgrep.exe"/>
-    <implementation arch="Windows-i486" id="sha1new=b09cab2cbcce8dc65848c0f0215adc1708bb60b4" langs="af be bg ca cs da de el es et eu fi fr ga gl he hr hu id it ja ko ky lt nb nl pl pt pt_BR ro ru rw sk sl sr sv tr uk vi zh_TW" license="GPL v3 (GNU General Public License)" released="2009-02-13" version="2.5.4-3">
-      <requires interface="http://repo.roscidus.com/devel/libintl">
-        <environment insert="bin" name="PATH"/>
-      </requires>
-      <requires interface="http://repo.roscidus.com/devel/gettext">
-        <environment insert="bin" name="PATH"/>
-      </requires>
-      <requires interface="http://repo.roscidus.com/lib/libiconv">
-        <environment insert="bin" name="PATH"/>
-      </requires>
-      <requires interface="http://repo.roscidus.com/lib/regex">
-        <environment insert="bin" name="PATH"/>
-      </requires>
-      <requires interface="http://repo.roscidus.com/lib/pcre">
-        <environment insert="bin" name="PATH"/>
-      </requires>
-      <manifest-digest sha256new="2Y4YI2IHSPIICI7QRFKKXWEABHXHI3XP6RD75UKJVOLAFY5Z5ABA"/>
-      <archive href="https://sourceforge.net/projects/gnuwin32/files/grep/2.5.4/grep-2.5.4-bin.zip" size="451824" type="application/zip"/>
-      <archive href="https://github.com/kkeybbs/gnuwin32/blob/master/gnuwin32/grep-2.5.4-bin.zip?raw=true" size="451824" type="application/zip"/>
-    </implementation>
-    <implementation arch="Windows-*" id="sha1new=f8ddd3fdcc0fb492e7195570841f5b2d2068ac25" langs="af be bg ca cs da de el es et eu fi fr ga gl he hr hu id it ja ko ky lt nb nl pl pt pt_BR ro ru sk sl sr sv th tr uk vi zh_CN zh_TW" license="BSD License (revised), LGPL (GNU Lesser General Public License), GPL v3 (GNU General Public License)" released="2011-12-24" version="2.10">
-      <manifest-digest sha256new="HYMVQDYV4KSCAKQDPKO2NSYO2QSBZVEHRE66ATHD2IYFZ6ALCXTQ"/>
-      <archive href="https://sourceforge.net/projects/ezwinports/files/grep-2.10-w32-bin.zip" size="1476889" type="application/zip"/>
-    </implementation>
-  </group>
-  <package-implementation main="/bin/grep" package="grep"/>
-  <package-implementation distributions="Gentoo" package="sys-apps/grep"/>
   <entry-point binary-name="grep" command="run"/>
   <entry-point binary-name="egrep" command="egrep">
     <needs-terminal/>
@@ -53,11 +24,11 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd/iCiAAoJECLqERp+QkKk3FIIAMhzODQuqPHdxT8Mupwac8uP+njHrknHYvOD
-sEzgGfXy5mk7KnmW9sV7y71MDS1YbERl4g3yHMVy/vY1UWv797ZVIgblDNmofMfkVjIYAzQG3dAS
-RdLe4x+jQsh/nYD7OKoeHDp7ODw1ExTOx6as0eKc/of8rFQeswP9O1aK4XHxxYAoYi4Pki2D6RbX
-GMGV5ntyxowo2gR7Mr2zeoemsSLGAOIgQeSe9ILi/BhZge9//hos0s/4eOZ6L59IszA6k5LNp+q+
-xw+D38+OxhxuhoTB26+S614oOlv5L6l/kN9LOfbKGMkl2416K8ynkgujZs9aqKh2UmVZDyLZrXha
-fQo=
+iQEcBAABAgAGBQJeETeMAAoJECLqERp+QkKkNbQH+wfIPf1hYsh2CVx4SH104/wOe1qyFM4o981l
+VZ5FzBWVI95qY5PC29wSep4oqLYbKsq/lN8MMxkWzTb6YJx53lbrs9pwl8xK02I/aN9C0UWlSDc5
+Nzi7jvZE7caxnY39gz3/PnkQbc4+lnhvHznYoLQdg5cL285q7MAfwO/O8PWIYKVNg5hG/VF1t1Pn
+mMTF6uaLP5xbzUWQ6dqR5JMP0SfFpmHmS8cvbPCb86Hr3dos1OQDkdKUypimr92m1iMjKd+RrUFe
+27W5GYruUcwzFCIVhABVK3bb9yTQzd96A5ZrISEzoJn7mtDwgZpNFJxFQa7SZSauYze9CKytlYQk
+568=
 
 -->

@@ -1,6 +1,8 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/perl/perl4-corelibs" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <replaced-by interface="https://apps.0install.net/perl/perl4-corelibs.xml"/>
+  <feed src="https://apps.0install.net/perl/perl4-corelibs.xml"/>
   <name>Perl4-CoreLibs</name>
   <summary xml:lang="en">libraries historically supplied with Perl 4</summary>
   <description xml:lang="en">This is a collection of &quot;.pl&quot; files that have historically been bundled
@@ -11,22 +13,17 @@ distribution instead.  From core version 5.13, until their removal,
 it is planned that the core versions of these libraries will emit a
 warning when loaded.  The CPAN version will not emit such a warning.
 </description>
-  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/perl/perl.ico" type="image/vnd.microsoft.icon"/>
-  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/perl/perl.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/perl/perl.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/perl/perl.png" type="image/png"/>
   <category>Development</category>
   <homepage>https://metacpan.org/pod/Perl4::CoreLibs</homepage>
-  <implementation id="sha1new=b36e6483c2da3e2d1cc6913120ed9c2afa5dbaca" license="Perl License" released="2017-07-29" version="0.004">
-    <archive extract="Perl4-CoreLibs-0.004" href="https://cpan.metacpan.org/authors/id/Z/ZE/ZEFRAM/Perl4-CoreLibs-0.004.tar.gz" size="53219" type="application/x-compressed-tar"/>
-    <archive extract="Perl4-CoreLibs-0.004" href="ftp://ftp.cpan.org/pub/CPAN/modules/by-authors/id/Z/ZE/ZEFRAM/Perl4-CoreLibs-0.004.tar.gz" size="53219" type="application/x-compressed-tar"/>
-    <archive extract="Perl4-CoreLibs-0.004" href="http://search.cpan.org/CPAN/authors/id/Z/ZE/ZEFRAM/Perl4-CoreLibs-0.004.tar.gz" size="53219" type="application/x-compressed-tar"/>
-  </implementation>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1Qb58ACgkQIuoRGn5CQqShxwf/Rhvb
-Z95GK6gMcUV0kZaP1LubIuH4hcThU7mhc66pDm0v2hAiP3P/YpS3uLYsZQmw6gB3H/PANmfNfBgr
-g6W+i+7E/cQnfTBn1dlAhxXgeFke4aKoHb14jCU4LoFtFkedU+ENaBKo3ylUEDUFbL9L3EX2OW8O
-yB5fFJX45rUg2ZaVdwSvIgqw3KB5IYEc1+Qb0lUUniJ5R3mqTZr25/JISc/nFei+8HyGv6tGU/jR
-4Rg4f0uebLAyB1egFS16qLigQb1/4yZduUTM51CCZKA3IlkRQz6fgojQfGvQ3LYF5ctZEoUQfVoJ
-52MqAMOVxFsia7SOb6GHfXKqZVBAIAAxfw==
+iQEcBAABAgAGBQJeETeIAAoJECLqERp+QkKk0FUH/3CRFYtmVZLLHmt+YfP3OkgD0DEsIbP+G/hm
+YgsRCHsY9Inw2zASKL7oMWm7sWZzAchyTDsd51VTI52a+R1EcV0pOkJ8LyZCc53sFJZ6jDaPULpU
+70B6NPtq4lpe2n2SHCpP7CrxUjOCOBy2j6MF2P1hgMn9Q/6X7Ys4Sa+I9JjndlNtjwsI2oaJKeFl
+OpKH1HCAPcJ3X7ArLkqWftNjeMIvEbPfs2eoDaQKF0/vX0HxJ2S0VLC9gb7XFgwtnvnlgwlWrd0x
+T14KHr/SMO+U9ELCxyZFgbS4Jy+YHmASs7cMQNbYR5ZsT119vpvJBtfSmOxli2fITVUJXcdXA+Zm
+zPA=
 
 -->

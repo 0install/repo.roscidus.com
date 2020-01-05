@@ -1,6 +1,8 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/lib/x11proto-core-dev" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/x11proto-core-dev.xml"/>
+  <feed src="https://apps.0install.net/lib/x11proto-core-dev.xml"/>
   <name>x11proto-core-dev</name>
   <summary>X11 core wire protocol and auxiliary headers</summary>
   <description>
@@ -16,26 +18,13 @@ More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
 &lt;URL:http://lists.freedesktop.org/mailman/listinfo/xorg&gt;
 
 This package is built from the X.org xproto proto module.</description>
-  <package-implementation package="x11proto-core-dev"/>
-  <group arch="Linux-*">
-    <implementation id="sha1new=6e426da8203b60a1f32e458cc86efc58abb2ea78" released="2010-08-12" version="7.0.12-1">
-      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/x11proto-core-dev-i386-7.0.12-1.tar.bz2" size="79688"/>
-    </implementation>
-    <implementation id="sha1new=40638953ec0bab851731f83c506152ddc16d7370" released="2011-05-29" version="7.0.16-1">
-      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/x11proto-core-dev-i386-7.0.16-1.tar.bz2" size="83503"/>
-    </implementation>
-    <implementation id="sha1new=e6ad2e80bb943ba7bbf81a66313b22a524295b46" released="2011-05-29" version="7.0.16-1">
-      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/x11proto-core-dev-7.0.16-1.tar.bz2" size="83545"/>
-    </implementation>
-  </group>
-
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd/lULAAoJECLqERp+QkKkEJAIAK4TL6zQ5rGKp5StEn8heCIvCIuS47ntUo8U
-Av00Xne+j0lbfmBkMQ6+5cQJDGASFo7/aCGGBY1kSUMNQyj3x6dxTtb3BP6/mIkyf17VWBjS8CrG
-TY72MGIJ4TRamyZvCFpSSy5svUQoXx21wUlMfxZOZFH556vun1lBdH5ap9Nn63ubj7XtfqzL9m+S
-QrZI/Ef9JN0spzFAS0mp+jEhFJjR0u0KK+oDnjjcG0qsFLnijfWr5nJo3qTBuCvDXMiePbZQgbh3
-2zY45pQqB1EFOX+lZ8yPpsTY90sVGoHYD2NCWe3p54I/AVS1B6DX//479XKKH84AGcSGgY+lBwl7
-7AA=
+iQEcBAABAgAGBQJeETeHAAoJECLqERp+QkKkqmsIAIw8lYygfH+XyANXtytheXyiyTVhG49kkNfS
+KOpi+LBQwXjgi66Mk+3eNXlxfNoAh9GI/9nz2Y9fFIGUR5w4wHteOLkd5rrPAbaksRfjZXpOl6uf
+yy5Pn3s7mZHJoyr1xsoQdGe1xvLv/JG98DMnELw3CHrMqfkGOadSNaYvQKxMm/Y03fwZUzk4OJ2q
+VYfMtRbde7ydpP6Jv7OGPzsufv27dEUG9rzVP32b3fiwTQ6X1UTG6BBRnRpj6c8iojQs8xuv+I8d
+eNqEJbXN+aQXvH+ymriGMcAkzgP8I5iY7J3QKiIAZ/FsLn9DSgsWvK3IwZiaCDJFn6s+tVAnuNFr
+sdY=
 
 -->

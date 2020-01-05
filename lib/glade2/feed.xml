@@ -1,6 +1,8 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/lib/glade2" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/glade2.xml"/>
+  <feed src="https://apps.0install.net/lib/glade2.xml"/>
   <name>libglade2</name>
   <summary>library to load .glade files at runtime</summary>
   <description>This library allows to load externally stored user interfaces into
@@ -8,26 +10,13 @@ programs. This allows alteration of the interface without recompilation
 of the program.
 
 The interfaces can also be edited with GLADE.</description>
-  <package-implementation package="libglade2-0"/>
-  <group arch="Linux-i386">
-    <requires interface="http://repo.roscidus.com/lib/xml2">
-      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
-    </requires>
-    <implementation id="sha1new=15272eeed2f2399dabe965698e2f0071e8d7de24" released="2011-09-11" version="2.6.4-1">
-      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libglade2-0-i386-1_2.6.4-1.tar.bz2" size="88025"/>
-    </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=16cdc92f54b0e322a4931883870f60f2e4f319a1" released="2011-09-11" version="2.6.4-1">
-      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libglade2-0-amd64-1_2.6.4-1.tar.bz2" size="90219"/>
-    </implementation>
-  </group>
-
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd/lUJAAoJECLqERp+QkKkhE8H/A/F5q91NM3smrNiHlRkwiRQh0jNkYd3k4k3
-nE9K/gYPmSem1ou+C5NcNkx9RHIEhTT4TGAnSXE/PvgC1CyqIbl96IvPl6bhbbUUyLnD0lNUeh+l
-kBbxjxyn6QkR7meNNLaHnGsTZh0kE9S0p7wvH8l7py8awnRKb6CTkDQ+SB7zMZ+P/1rQiHYxdgse
-edg3oDZ2+yUl2M8yrGO7iAS0+4TcTEyA+XUHrVRL1gM8QFUje8eUAVbqg7c9go1GuVdHuyN25vc8
-Z4SQbeCatb/vATYa/u5x+S90sbR3KgeT8vyXPYS4pwIeajfTvewiZ0TDRa+oCpeiK5hV0QqiX9rN
-vaM=
+iQEcBAABAgAGBQJeETeEAAoJECLqERp+QkKkUz4IAM48cNGaC56CsG2LKidzBgR9ut1fBvu97C+X
+vgqf7kqXUfsSACOvhu1+qlM20WNKFjfKX+BOaCKm1+k5ZXakN6jq3O6nthXRWxfBsIXCA2H6WjVv
+kIi3DhU2mK9H//5JNVyphi3Gv0du3z1IbY6CC3JuDepxmOKe9GW25+Q1GA33hKLfGUC2jrJKEg3G
+g77xVrQZa1ADZP+9Fw9A0YQErX5xpggruKIRrZ2e2eaFqv/Ok+gfFjmSoQ4CVOZN4RHlBN7+XCsW
+i7qX2Sc3/HjXl517hPB1VTIL/fwOTb/vIIEUnIRPVzVv1U84iDtvGXkTwEINHYOB4xPKPv3pvzCA
+Q0M=
 
 -->

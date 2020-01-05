@@ -1,6 +1,8 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/python/sphinx" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/python/sphinx.xml"/>
+  <feed src="https://apps.0install.net/python/sphinx.xml"/>
   <name>python-sphinx</name>
   <summary>tool for producing documentation for Python projects</summary>
   <description>
@@ -10,31 +12,13 @@ it has excellent facilities for the documentation of Python projects, but C/C++
 is already supported as well, and it is planned to add special support for other
 languages as well.</description>
   <needs-terminal/>
-
-  <package-implementation distributions="Debian" main="/usr/bin/sphinx-build" package="python-sphinx"/>
-  <package-implementation distributions="RPM" main="/usr/bin/sphinx-build" package="python-sphinx"/>
-  <package-implementation distributions="RPM" main="/usr/bin/sphinx-build" package="python-Sphinx"/>
-
-  <group main="sphinx-build.py">
-    <command name="run" path="sphinx-build.py">
-      <runner interface="http://repo.roscidus.com/python/python">
-	<version before="3"/>
-      </runner>
-    </command>
-    <requires interface="http://repo.roscidus.com/python/docutils"/>
-    <requires interface="http://gfxmonk.net/dist/0install/jinja2.xml"/>
-
-    <implementation doc-dir="doc" id="sha1new=7dd5e02109d6906134d10ea06f8d892269a1e83f" license="OSI Approved :: BSD License (revised)" released="2013-01-18" version="1.1.3">
-      <archive extract="Sphinx-1.1.3" href="https://github.com/0install/apps.0install.net/releases/download/archives/Sphinx-1.1.3.tar.gz" size="2632059" type="application/x-compressed-tar"/>
-    </implementation>
-  </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd/lUMAAoJECLqERp+QkKk9PsH/2YWUyJsdRxMClLBK2byB3MIiojMk1NMXH5F
-9ztOl7KURVrrjkkR5NGeQ8624GmE/pSwnZ1V9yZwwtzAQZUu+R4B+lWoJEPX6NvDe8HO52JTuXzr
-UyHywxNBkf3AajS/vkqi2QXA/UHAbNUn1dPXZGX1YxaYxSpJAeZbeIJy/uS4rVffKM6RVmUDpynp
-hdsgptUwpvEydci8FwGZ4mka4k+ms8lWrbpf4pJslSOE88APWxaUGQewLBow8ulK5tgjAhz3GRrm
-fMuDLZUcOmAvdbUThPs1AHK1jPCt43ZHIoE5tYgWXkbZT6+F2kshJD3fXQVzug5zjqEJky/KWyCh
-vVY=
+iQEcBAABAgAGBQJeETeJAAoJECLqERp+QkKk5G8IAIpfkE38Ls/UkoBwY8K9GrBee+ns978dwmwZ
+36F/Kviz6M9yoNgZFLPG+LDkzLEKaj3P6lyKCm9dN5bLexGw3tEJjw2+MqPX7RPBivaQQD0NkRHa
+5EEhDn+gXm0xfOkGfafn/Fkmx5rXdPc6HR2nD2Ccu4YggMgpZsdfkBizd8CwnoEKPsPQRdsbvi5z
+CMK83ias4GL8xzc9D1aURWOtv9fueH9r1eXNIBuQ/pn90ex4AR3fypr4Clbv8/n+FinUKGllvMyj
+AiXbeoDvFSWTMMq6CWI+v+1sttZAd6nuYrfe3++q85nsbUjVsJK4CpQcgfVfFoGJRzVM52n0g+GX
+VKo=
 
 -->

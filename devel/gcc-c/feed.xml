@@ -1,20 +1,19 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/devel/gcc-c" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/devel/gcc-c.xml"/>
+  <feed src="https://apps.0install.net/devel/gcc-c.xml"/>
   <name>gcc-c</name>
   <summary>gcc C compiler</summary>
   <description/>
   <homepage>https://gcc.gnu.org/</homepage>
-  <package-implementation distributions="RPM" package="gcc"/>
-  <package-implementation distributions="Debian" package="gcc"/>
-  <package-implementation distributions="Gentoo" package="sys-devel/gcc"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJYelPlAAoJECLqERp+QkKkLRYH/jiQPAhiSGi8uANpVorfRekhJs5iJTwl9gkv
-siadlenJWVBh1akM5p0g0FbxpNT84arlwXPR76n0GSVAacpA42e9QrnvADVjtQp09isgNtS82lzl
-nwBUySX2JvKxvythsM1StVIPm2/e1L1HfoCqQTx5ZfTCRc7aUv/dNemoa8ZhfNS2De/sly/VRdMR
-lwcerdgaD+cOk9Eu4x3xq4E4p9dmRFTtKIE2bE50KWFTVqYx5Vi0oG9UfGAnIntP2DDzUeZjIkmJ
-IiMyNKdbJslcLBAbGVsqmeJxqiRhtnYf9g5gPzJv0MVs8zRLbplPPoZYBC1I+r4a0vb5pZ+qTVVx
-Opg=
+iQEcBAABAgAGBQJeETd7AAoJECLqERp+QkKkawkIALMe2tPzC0a6Bnvdm1yq0WDSie5EdmFv6OoI
+ZoRvMT8ZCog0TeNZCNPTe+oWj23Cfj7zCsLlmyapk+1b9nXc4eBtKUpOAydDrHe3+/BpYuq/HTM0
+C6nP0KVT+4eCtrPqnnB+BejQxkSz4RnRg5pteZD+AZ5rlpTLrzIbLS75FLxbgyct0Vob171d4DLr
+11Dhwgk/M20HNjgNrMzWnqJ5T/tWNuBjWmetyyUtB+prrOdE8T+ZgEvN1fd6tXQSE+zD0sdhEPSA
+dm4e/dCnW7oOYuD6bxWJQVrbmaO2P7TUt2m3G2ClqjxtqK78EZ8j47DLuGmhVvwpHtYefGa81gz/
+js0=
 
 -->

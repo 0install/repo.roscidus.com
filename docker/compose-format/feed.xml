@@ -1,77 +1,19 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/docker/compose-format" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/docker/compose-format.xml"/>
+  <feed src="https://apps.0install.net/docker/compose-format.xml"/>
   <name>Docker Compose file format</name>
   <summary>empty dependency describing the versioning of the Docker Compose file format</summary>
   <description>Lists all versions of the Docker Compose file format and their compatibility with specific Docker and Docker Compose versions. Useful to ensure Docker Compose files from different feeds to be merged all share the same file format version and are passed to a suitable Docker (Compose) implementation.</description>
   <homepage>https://docs.docker.com/compose/compose-file/compose-versioning/</homepage>
-
-  <implementation id="1.0" released="2013-12-20" stability="stable" version="1.0">
-    <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
-    <recipe/>
-	<restricts interface="http://repo.roscidus.com/docker/client" version="1.9.1.."/>
-  </implementation>
-  <implementation id="2.0" released="2016-01-18" stability="stable" version="2.0">
-    <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
-    <recipe/>
-	<restricts interface="http://repo.roscidus.com/docker/client" version="1.10.0.."/>
-	<restricts interface="http://repo.roscidus.com/docker/compose" version="1.6.0-rc1.."/>
-  </implementation>
-  <implementation id="2.1" released="2016-10-20" stability="stable" version="2.1">
-    <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
-    <recipe/>
-	<restricts interface="http://repo.roscidus.com/docker/client" version="1.12.0.."/>
-	<restricts interface="http://repo.roscidus.com/docker/compose" version="1.9.0-rc1.."/>
-  </implementation>
-  <implementation id="2.2" released="2017-05-02" stability="stable" version="2.2">
-    <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
-    <recipe/>
-	<restricts interface="http://repo.roscidus.com/docker/client" version="1.13.0.."/>
-	<restricts interface="http://repo.roscidus.com/docker/compose" version="1.13.0.."/>
-  </implementation>
-  <implementation id="2.3" released="2017-08-21" stability="stable" version="2.3">
-    <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
-    <recipe/>
-	<restricts interface="http://repo.roscidus.com/docker/client" version="17.6.0.."/>
-	<restricts interface="http://repo.roscidus.com/docker/compose" version="1.16.0-rc1.."/>
-  </implementation>
-  <implementation id="3.0" released="2017-01-18" stability="stable" version="3.0">
-    <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
-    <recipe/>
-	<restricts interface="http://repo.roscidus.com/docker/client" version="1.13.0.."/>
-	<restricts interface="http://repo.roscidus.com/docker/compose" version="1.10.0.."/>
-  </implementation>
-  <implementation id="3.1" released="2017-02-07" stability="stable" version="3.1">
-    <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
-    <recipe/>
-	<restricts interface="http://repo.roscidus.com/docker/client" version="1.13.1.."/>
-	<restricts interface="http://repo.roscidus.com/docker/compose" version="1.11.0-rc1.."/>
-  </implementation>
-  <implementation id="3.2" released="2017-03-20" stability="stable" version="3.2">
-    <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
-    <recipe/>
-	<restricts interface="http://repo.roscidus.com/docker/client" version="17.4.0.."/>
-	<restricts interface="http://repo.roscidus.com/docker/compose" version="1.12.0-rc1.."/>
-  </implementation>
-  <implementation id="3.3" released="2017-05-31" stability="stable" version="3.3">
-    <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
-    <recipe/>
-	<restricts interface="http://repo.roscidus.com/docker/client" version="17.6.0.."/>
-	<restricts interface="http://repo.roscidus.com/docker/compose" version="1.14.0-rc1.."/>
-  </implementation>
-  <implementation id="3.4" released="2017-08-21" stability="stable" version="3.4">
-    <manifest-digest sha1new="da39a3ee5e6b4b0d3255bfef95601890afd80709"/>
-    <recipe/>
-	<restricts interface="http://repo.roscidus.com/docker/client" version="17.6.0.."/>
-	<restricts interface="http://repo.roscidus.com/docker/compose" version="1.16.0-rc1.."/>
-  </implementation>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJZylFMAAoJECLqERp+QkKkCAAH/1bhyeDo0PjBVvsER8s4nL9gyZUT9ECocZ7H
-MR8N7gHgmNcN6YBvlU3LLDJhPDH/ZDJLG6iHsxXlgX7vdTSDqMtkx4APoTTansPs2gM2+As8b+75
-KNC6mYFb/oXycyK6bvUOgjwuMEc0/aJPJG7NeOg+LkQM3Lx1c7gO2i46jnZMjlh6R0UXbKAyYFjh
-OWVdLrytDFTloWC/Bo/j1nusQFh1esObYDAMCq0e62uxHrO815IFQoCSEnBf+pOzauVq2L26JQ5w
-I6WPSR6dG0XXO63r73TEEYdV/aXkLFyJL3DusmBtKEKYq2KOPsdxcnBf4ty5q8qX9eM9EFrbMy8j
-Xu8=
+iQEcBAABAgAGBQJeETd8AAoJECLqERp+QkKkKTUIALgK6RU4fuZkmzFKVxBvauzeYlTNjGV/pGIA
+em0galCJS7nU/i0RmcAFboupmHFXUn8BUtYhX82W7U8IzZl7dDirgjHpeZJfFKVpluM1ajUgtTYM
+V7bK9nT0Juach2WYc640Q+0mbg+5Y0kNopTSddQdq1VktaREGTmZJ9Z0j4MpSLHS8DAivtbNUXnX
+3ed+RdZ+DESw7PDQoWmEv9xg1VUL6Jy1Xzb/POp37nun+mlzCqsKlY12CnRZUJB6DpZmjMgm9VAr
+RIfP1aLwAFi+nJ/ewEgOzfBbwqBawvxkinauLrgzw/Hw6yYEy32q/AUHH1kVf2P8htZUALptvIfG
+1QA=
 
 -->

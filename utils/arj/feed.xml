@@ -1,25 +1,16 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/utils/arj" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <replaced-by interface="https://apps.0install.net/utils/arj.xml"/>
+  <feed src="https://apps.0install.net/utils/arj.xml"/>
   <name>Arj</name>
   <summary xml:lang="en">Arj: archiver for .arj files</summary>
   <description xml:lang="en">ARJ is a file archiver that compresses files into a disk space saving archive. It is fast, reliable, and has a rich set of features which include Windows 9x, Millenium long filename support, file version management, data damage protection, ANSI escape sequence display handler, configurable command options, multiple volume archives (archives that span diskettes) and much more. </description>
-  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/utils/arj.ico" type="image/vnd.microsoft.icon"/>
-  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/utils/arj.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/utils/arj.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/utils/arj.png" type="image/png"/>
   <category>Utility</category>
   <homepage>http://gnuwin32.sourceforge.net/packages/arj.htm</homepage>
   <needs-terminal/>
-  <implementation arch="Windows-*" id="sha1new=66da5a83c98f27f39b6548ff12d0030b40719b8e" langs="en ru" license="GPL v2 (GNU General Public License)" released="2005-10-28" version="3.10.22">
-    <command name="run" path="bin/arj.exe"/>
-    <command name="arj-register" path="bin/arj-register.exe"/>
-    <command name="arjdisp" path="bin/arjdisp.exe"/>
-    <command name="rearj" path="bin/rearj.exe"/>
-    <manifest-digest sha256new="NQSWYKM6F5MTPK25JLQUAM46VEZ63J3E6U7ZFQ2KLZ3UH6YHFGQA"/>
-    <archive href="https://sourceforge.net/projects/gnuwin32/files/arj/3.10.22/arj-3.10.22-bin.zip" size="283706" type="application/zip"/>
-    <archive href="https://github.com/kkeybbs/gnuwin32/blob/master/gnuwin32/arj-bin.zip?raw=true" size="283706" type="application/zip"/>
-  </implementation>
-  <package-implementation distributions="Gentoo" package="app-arch/arj"/>
-  <package-implementation package="arj"/>
   <entry-point binary-name="arj" command="run">
     <needs-terminal/>
     <summary xml:lang="en">Archiver for .arj files</summary>
@@ -46,11 +37,11 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl1Qb58ACgkQIuoRGn5CQqQ4qgf/fnhp
-F7aiAsVxajQU9G6xeemZUP7SBlbV4XmRir3Ppu4t0NNAzSD4lEhMYemVO6EgrYUKktwGM272ZN7i
-n8Z9MNbAukXtZYZwjEgHgNAHRZFb2HEcBvP82sST10MisXWZHi2pLALhQM/SiZ6v2kkXWH5aIJ0z
-ljxnUvWrkH+D288NjXQeDg3JMEL8946mT9+nBEi0YgXuLjP9RAkRc1FLDYbEXEDrPga6hzAPWFpF
-5YmjRUq5/UqsXO0TsiV5F8PChWtsym5KHb6Tfq+RBYRcxX6c5mMh7FB8VS0RH0vtxLgvwdxCWU/I
-SQCGR5HQuTXFSXykgnI8qpGKHV1b49gS9g==
+iQEcBAABAgAGBQJeETeKAAoJECLqERp+QkKk1t4H/j51ZTNYnLEvWrl0X0vendAcRsABIAwFvkg0
+Hh9FSykFUXxyjUIercddyOCnOHH83a3fdXRrZW8AG/8yQVsY48puVbG4BkiSXT3TGu+ZKslDurKu
+tB0H25wNp9tgl6gA22bk4AQs92ohyoE590E209UAiAfLgtn2FuE1nUPLqQMdniUkaR+PzJ1CxSac
+OlBfqmIcBcd26Ml4yxQRA3wAh8vLeYn67f2GSiTZDAuGTXzdhx9NqGHH7QhSHbGCoOSCpEBNFnlo
+A87Nv2F/nZTlfVXuwseKUHhCyD4BvutiQnuZClQcWuwwE+hBg1vuwo5Rr92ibIsGXf6KINungy8j
+IQk=
 
 -->

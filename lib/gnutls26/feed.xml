@@ -1,6 +1,8 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/lib/gnutls26" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/gnutls26.xml"/>
+  <feed src="https://apps.0install.net/lib/gnutls26.xml"/>
   <name>libgnutls26</name>
   <summary>the GNU TLS library - runtime library</summary>
   <description>gnutls is a portable library which implements the Transport Layer
@@ -14,57 +16,13 @@ Currently gnutls implements:
  - TLS Extension mechanism
 
 This package contains the runtime libraries.</description>
-  <package-implementation package="libgnutls26"/>
-  <group arch="Linux-i386">
-    <requires interface="http://0install.net/2007/3rd-party/libgcrypt11.xml">
-      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
-    </requires>
-    <requires interface="http://0install.net/2007/3rd-party/libgpg-error0.xml">
-      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
-    </requires>
-    <requires interface="http://repo.roscidus.com/lib/tasn1-3">
-      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
-    </requires>
-    <implementation id="sha1new=32004067246ee21fc05c2e2946da7d26a1b2bdc9" released="2010-06-26" version="2.4.2-6">
-      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libgnutls26-i386-2.4.2-6+lenny2.tar.bz2" size="459931"/>
-    </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=e955d6178824f75fbd8178777f6903831d06fc90" released="2010-06-26" version="2.4.2-6">
-      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libgnutls26-amd64-2.4.2-6+lenny2.tar.bz2" size="508374"/>
-    </implementation>
-  </group>
-  <group>
-    <requires interface="http://0install.net/2007/3rd-party/libgcrypt11.xml">
-      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
-    </requires>
-    <requires interface="http://repo.roscidus.com/lib/tasn1-3">
-      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
-    </requires>
-    <implementation arch="Linux-i386" id="sha1new=df49a5548f26afab506f75718504467bf55ef213" released="2011-05-29" version="2.8.6-1">
-      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libgnutls26-i386-2.8.6-1.tar.bz2" size="522728"/>
-    </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=956f537b29f9d72de320ad86e468686df1e1a0ee" released="2011-05-29" version="2.8.6-1">
-      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libgnutls26-amd64-2.8.6-1.tar.bz2" size="569966"/>
-    </implementation>
-    <group>
-      <requires interface="http://repo.roscidus.com/lib/zlib1g">
-      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
-    </requires>
-      <implementation arch="Linux-i386" id="sha1new=1a2e7e981c336d9b1e5eebc23c24d66d9da157e6" released="2012-03-27" version="2.8.6-1">
-      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libgnutls26-i386-2.8.6-1+squeeze2.tar.bz2" size="522997"/>
-    </implementation>
-      <implementation arch="Linux-x86_64" id="sha1new=14733b1cffcf5393f178b8fd13fe0d17aa468630" released="2012-03-27" version="2.8.6-1">
-      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libgnutls26-amd64-2.8.6-1+squeeze2.tar.bz2" size="569973"/>
-    </implementation>
-    </group>
-  </group>
-
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd/lUJAAoJECLqERp+QkKkdSkH/iPxYh6CPy1K+e7uiPhdVC67FhugX7DmjoFN
-tAJZ0Qd3Mn6DLrSLQeTcdPMWPQyzXIwmPaQDRmOOC4s55HpS8QhW5pgn/ahNp5CFwh813brz48YS
-jY4mAMjaOfXOWuK/QXeRAUSWyUSc03DbC4zJ3AowCnlFT7zHhz0wg1odMJZ1rSrHY9PE+LZ1CO4R
-J4da5/BBbzzjCPfn+MT6bDU7GZDUfhuZZGoDfkZsOBBnb6BU0t4J6YTAiTjfbmbVCb/WLyscZCVC
-qpuVk37hNsFgfPWS8gkIMRuGYXMrrNbLUut9o8ST+UIw9XQ9K+qSwZ9ucGhsT9p1P+9UJqVM5N+W
-2fI=
+iQEcBAABAgAGBQJeETeEAAoJECLqERp+QkKkE+YH/jPMIzselOxAnwwcrwaK+hsqOtNQdXHmL3hH
+QimsIPNf3LQnnIZf0Orf8UKHxGtJUcSlT8hZCGkYelqVKF947P8QnhX7vlIS9AIuVOhmZuVCWNOg
+xN38TG/R96gKB9lVG5rI73VK1fltL/4MkQrxVp98/YD6vVfCqkQKBBIt9dlsTKVb/NKsiu1hi9FL
+A7IUNAPgFCTW3qV498vX/116YC7j+LL3Zmrzd/Wlam/zmv8ED92uT/4t2AkHqnFsBWsb7M3CaZIG
+Y4UGw+52IQQVnPuZpeuFhpAglbXS3PisIUIy4Go8mc9sih+EXcRdz/V+67V8OOPPFsYPq1VZjvSm
+cVY=
 
 -->

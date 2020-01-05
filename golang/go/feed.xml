@@ -1,15 +1,14 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/golang/go" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/golang/go.xml"/>
+  <feed src="https://apps.0install.net/golang/go.xml"/>
   <name>Go</name>
   <summary>tool for managing Go source code</summary>
   <description>This is a tool for managing Go source code. Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.</description>
   <homepage>https://golang.org/</homepage>
   <needs-terminal/>
 
-  <feed arch="Linux-*" src="http://repo.roscidus.com/golang/go-linux"/>
-  <feed arch="Darwin-*" src="http://repo.roscidus.com/golang/go-darwin"/>
-  <feed arch="Windows-*" src="http://repo.roscidus.com/golang/go-windows"/>
 
   <entry-point binary-name="go" command="run"/>
   <entry-point binary-name="godoc" command="godoc">
@@ -24,11 +23,11 @@
   </entry-point>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAlrcYuEACgkQIuoRGn5CQqSjKQf8Dg2X
-LWBjQKmtgYQgPH15eWaqu+HGxkhgcyl/mx3/MI2W8NdIkmnBmaVwAu2TXR8NsauY2ATG72UkvMKc
-rmH8PAlGTwoEaoJNCjNdH3bmy+FWCTfp0WhaDmS8p5+yMbru6nxWYVZTMIkEFdgss1hQz775BDMe
-v5EMpCa0cv1TUqvmqQViWmpoMGcvwzoZbiVFl223AlkF6dCq04tyiIrCTIumrGJwpEGjKKE2/luY
-u7SElq4TL+2ybPXUjinaH/GP8GjJfo8XEVDlw9aqj527Gg4vUxNkkcfraZT6nzlZqt7DdZzwgxnH
-UufUScY+7xNeyTE5rba2twlqgntgCM6HDg==
+iQEcBAABAgAGBQJeETd/AAoJECLqERp+QkKkS7gH/jjELuBN0GUsko/1kh3QX5wTJPSusgt6Yj70
+eCXoUZSWkTlXJM+rttRZ0AA58Q+rruywZEy7F/X2Rok+rseFkJxwpi5ulAWkrXMQNTdQJpR6lNjN
+8JAoLFqadX1WMU9fa8kUur3vsvqdxeH9wcW7Z/w2j4IbQnC4S3eTVvjKrQunwwU3wmF0eRq3ZQ4n
+1I4E3+QGOx631TjWqImBssqeF91WFmmz4o7JvUkLHPzasm8QRIk+iP3RNOOiCFjQskEYD50gK923
+uf7VVWb252o1KnNiHqaHrPTbgWRyB2xH2/lZa1POjcQpgotRohJEnG4a7eGjCSsYpland5e1kwRG
+xZk=
 
 -->

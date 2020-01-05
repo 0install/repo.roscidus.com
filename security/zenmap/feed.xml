@@ -1,42 +1,22 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/security/zenmap" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <replaced-by interface="https://apps.0install.net/gui/zenmap.xml"/>
+  <feed src="https://apps.0install.net/gui/zenmap.xml"/>
   <name>Zenmap</name>
   <summary>Nmap frontend and results viewer</summary>
   <homepage>https://nmap.org/zenmap/</homepage>
-  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/security/nmap.ico" type="image/vnd.microsoft.icon"/>
-  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/security/nmap.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/utils/nmap.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/utils/nmap.png" type="image/png"/>
   <category>Network</category>
   <category>Utility</category>
-
-  <package-implementation main="/usr/bin/zenmap" package="zenmap"/>
-
-  <group doc-dir="usr/share/zenmap/doc" license="modfied GPL">
-    <command name="run" path="zenmap.py">
-      <runner interface="http://repo.roscidus.com/python/python" version="2..!3"/>
-    </command>
-    <requires interface="http://repo.roscidus.com/python/python-gtk"/>
-    <requires interface="http://repo.roscidus.com/security/nmap">
-      <executable-in-path name="nmap"/>
-      <executable-in-path command="ncat" name="ncat"/>
-      <executable-in-path command="nping" name="nping"/>
-      <executable-in-path command="ndiff" name="ndiff"/>
-    </requires>
-    <environment insert="." name="ZENMAP_PREFIX"/>
-    <environment insert="usr/lib/python2.6/site-packages" name="PYTHONPATH"/>
-
-    <implementation id="sha1new=2f1f3db589d95b457d7c7f1793fe62ba8d067b8a" released="2018-03-20" stability="stable" version="7.70">
-      <manifest-digest sha256new="BJ4ZS7YAT7322U3FDZALNVREO2HXN6EBDGBIXFJZ3A2P6VW4PBIA"/>
-      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/zenmap-7.70.zip" size="1249103" type="application/zip"/>
-    </implementation>
-  </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd/lUMAAoJECLqERp+QkKkGfIIAKzgyEql8R36fNVzogV4bmgrnYZKl5+lvTsb
-IZub1ZoyIhqMU0eRoqG14yIUV4nd5voxyMqF0fljO6C6lShtDENDatDPQ92UosGpD5mdCWDFFKvG
-3ZHoZzYLTZBHAOhAM4Ii1NwpdtW+eRZMIIwFPygj9ApYSfCi2GID3NczsROjlNxfMg/R2YTjnFqL
-BWtc7QBzZAT/d5V34HyoDeLZ+0NttSSqqZQj8Mt+6Vf1ajXHiAQgxBLuGOW9LyCMWdOdo8u7twjf
-KLh13/OAYLn7tq3Y7VmXtB7YwJN/6eiSkaBWGXK5GR6DkKl3qgBm8zycXS1Epb4edLRJWQesefhZ
-4LA=
+iQEcBAABAgAGBQJeETeKAAoJECLqERp+QkKk8zwH/A1uxUZGaWHxmjTC39rDrw3RhF51IIeJEcqz
+eBLvLzsPj6E0hlSjrkD3A27E7cwCknMOAC/UmDjWNzThZrxM6YtFTD0/xhRZ0ZuWOzov7SMtkoKK
+zdx6dkQzbKYQ3TkIsnZ5ZU8PsxkNd9btD5h44IaeBAK2XJ0tr4+dxxq/aXiXhq0bB/vZ0ibz5Mmw
+fwmbvSdyV5j5tafPdwZ0zwY5zPaa7lkbIVOOLg3oLCW7AMq1pcvqR9+EOg/NcgpAWmOThoHP96vq
+bSDLgTaX6HNdi48cPFNjCG/yhPb/6/gdZla1MBIc+F68fm2bcHWiEyn2I8UrevHsKHksKm5Ws5cE
++k4=
 
 -->

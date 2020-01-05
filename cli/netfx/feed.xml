@@ -1,17 +1,17 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/cli/netfx" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/dotnet/framework.xml"/>
+  <feed src="https://apps.0install.net/dotnet/framework.xml"/>
   <name>.NET Framework (legacy feed)</name>
   <summary>the .NET Framework from Microsoft</summary>
-
-  <feed src="http://repo.roscidus.com/dotnet/framework"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJZ2J/JAAoJECLqERp+QkKkej4H/2srsfDIQvDxMlY+A1SQWfeNYZJth0p6SjHA
-6gTt/AsyUiMzayXsHLFCJvs3r6C59nNBTijjtG4qhc/5gIZq+iQeazCMpKbVuufdHBXHYQMY1aFV
-dpB/L2jYfF1Q6MND9D6gtNrzsua2jdQoko81AH9j7zZm/GepYiXbvM49IZNTalIMfHz9ZGWK1N0b
-H2Pijze60zBanCT8Q8Yi3PocDGmxgHaFdge0NrQuW2NTym6g8C6GQ/DvfM1ovDbpZMQ+a4K9x/ww
-i48HIJzZEBL+8VWJzEhlC4G7PO5CmaRGqEecNUOroUlvOexapPne0tzZKHJLDpaAyVk5MBz4Z0MX
-ZMY=
+iQEcBAABAgAGBQJeETd6AAoJECLqERp+QkKkBLUIAIgHfO2NFT+WfzacVuBsbzHIfuoO9fqRVsVS
+HwpA8+XuwZrPscfnEdU0biUhpbidcZTxsh1kYOtDYDcb0eZU72qcAZ6Tk35u0iBZOG3OlXw++QU6
+srlyKPRriXdd/14SAX5cqOLHKqjkUkG7tZkPR5vB4dY7b8ZP/+fLe0PBb/rm5iIrtwhoX40eA6a+
+QHe9wOOdjBfrTZaXTbdBvAAsSfYbAoez9O4DYDFiSjmPCziuDgSKj8+mhLuWrLnz0FRKTdCp8bRt
+OkqMmZ5yEcWMyGZNaSGYcDuGWSKr4Y7teuy1IeTAru72YUflUGTc80CjyLq/B2YPAjGwJ7vDUr2s
+YMs=
 
 -->

@@ -1,39 +1,20 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/java/jar-launcher" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/java/jar-launcher.xml"/>
+  <feed src="https://apps.0install.net/java/jar-launcher.xml"/>
   <name>JAR Launcher</name>
   <summary>launcher that starts the main class while preserving the CLASSPATH</summary>
   <description>A launcher that starts the main class specified in a JAR while preserving the CLASSPATH.
 Workaround for java -classpath ... -jar ... which does not work.</description>
   <homepage>https://github.com/0install/jar-launcher</homepage>
-
-  <group license="MIT License">
-    <command name="run">
-      <environment insert="jar-launcher.jar" name="CLASSPATH"/>
-      <runner command="run" interface="http://repo.roscidus.com/java/openjdk-jre">
-        <version not-before="1.3"/>
-        <arg>net.zeroinstall.jar.launcher.JarLauncher</arg>
-      </runner>
-    </command>
-    <command name="run-gui">
-      <environment insert="jar-launcher.jar" name="CLASSPATH"/>
-      <runner command="run-gui" interface="http://repo.roscidus.com/java/openjdk-jre">
-        <version not-before="1.3"/>
-        <arg>net.zeroinstall.jar.launcher.JarLauncher</arg>
-      </runner>
-    </command>
-    <implementation id="1.0" stability="stable" version="1.0">
-      <manifest-digest sha1new="3706305d50a745c5a362b02aaf417d2d0765c9c1" sha256="60d4d71585f66a36ac1e3116f234ff93d0319b6d0dccb17e027e162cc9da0481" sha256new="MDKNOFMF6ZVDNLA6GELPENH7SPIDDG3NBXGLC7QCPYLCZSO2ASAQ"/>
-      <file dest="jar-launcher.jar" href="https://github.com/0install/apps.0install.net/releases/download/archives/jar-launcher-1.0.jar" size="3201"/>
-    </implementation>
-  </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd/lUIAAoJECLqERp+QkKkD5UH/2Th78j34+O+JITICX80c60yLYGRMfyvTsgo
-0o4XsUjAKaRmnw5yTfDe9QdlZYFT7w9I5AAlnBpNmR3vkZX73A1GD5nALYQ8lZXCiGlzVqSOe/oy
-2l1v+Y2o7IOH+OItFY7idBNzfSUZJYe9Q2hNXDx6Oa36z5GxSeNdQE45ftnfbqce0mdqStQLS/Sc
-6f1EDvbqDiCe+q2KTX6xJnD2FEOogtLrJdjzPeCSiWJHO/AO/dZNApXTbaPGG/8N5n0Sp53hwD7g
-BWCv+2B6P9EwBca41/5Pygj3nwyvSaCEAnaghS+GLM4/MdlpeHVv3cTpieSuda5nmQOcJ0/Sn90M
-I4s=
+iQEcBAABAgAGBQJeETeAAAoJECLqERp+QkKk8A8IANxpZsk+fTHcd0KkhlCvGJXc0MKdbqnsNZuq
+FtbWRR3321whIpCr+eHAYQuSjmokT171HmAEGnO/7ufX5qP2FIK9fjHtwEzUsMhj0GAznrYPLIv2
+J8tjWOgxU/blLMY/n3ov4+kOiGUxmMjfqZNbn12Djs8Y9u0Z392FV1n/rmYfalLGC5roXDTgbdK9
+qAUazVyHdlTHpHSEGMA11aRc+ZIm7T+hUE9iwmBbPjXU6942OxpQmpZ5jPUeln2se6ms3hv2S0Nc
+feS+VdRulAU1Ax+lwYqeLWhSEybU4zWRe+uoU4ZNOUeksqCkQLnzWydilNk3JywqUPxCn901/3dP
+fSw=
 
 -->

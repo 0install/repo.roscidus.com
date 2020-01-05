@@ -1,19 +1,18 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/powershell/powershell" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/powershell/powershell.xml"/>
+  <feed src="https://apps.0install.net/powershell/powershell.xml"/>
   <name>PowerShell</name>
   <summary>virtual feed combining Windows PowerShell and PowerShell Core</summary>
   <homepage>https://microsoft.com/powershell</homepage>
-
-  <feed src="http://repo.roscidus.com/powershell/core"/>
-  <feed arch="Windows-*" src="http://repo.roscidus.com/powershell/windows"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCAAGBQJaRVC1AAoJECLqERp+QkKkWysH/3EYXRX5N9XxkwSc7C2oGEd3Iu0OHeS3p3Yo
-ct8MMkPBq1U+UZdVLD+0mKjZsC3Hv1xXEy4936m5BIFz+sn5ddxaRA5GniRnVj4lOst/wbqY6uXM
-CkLrJ+j5ptv8IF0nNzqZQ65oqnPV/z+bzshm9o5D0tHgS1e9Ss5GIZyk3gWXpPI6rm89e9C16HKz
-1uDRbx4E2w3Sz6BMhA91vw30eoqs7HkoIFf9YM5/qomI61AjAZc5G7z/GWEXaJB5fzHkloV3xI3J
-mraOpKrFfGdJfwKTkCblxRHfWGHgq/3VVOhLGz0GgeQQMIlXtyOTQ539S9tC6XvxC3GKTuxubzsO
-CfY=
+iQEcBAABAgAGBQJeETeIAAoJECLqERp+QkKkXUgH/iRr7z2wj8lP6KmCtLDxXQi6Eg2qZnE1fjBm
+WAaxCXQclnveqf+rW+T/yh+jRLBkxhhzIS1ocnzRj9+K5y8F5Km0E77Lgxd0XJXCSD5UNO5uj59M
+1b0tjTcOx3CtS12KDRBgASYkQb8Opg2cghtfCbkrKVZRHR3OmX155Ra10TZlmaeNhrzaTlD1P47n
+cDAC3VolOToiYI7BTkop3+Af/UsI9S4AYIadMmxCwVLQzzZy4sge3R2uotjIFMeQO9EvtB+sZWWt
+IDzDjOuUo3dot0lxnK02PGP2jbxq2lvaudVc+ERwJyCQ2E9bXSHfMcbi7SGEoO5Fc5Ihdg+z77ej
+EaY=
 
 -->

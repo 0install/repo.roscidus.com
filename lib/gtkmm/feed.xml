@@ -1,6 +1,8 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/lib/gtkmm" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/gtkmm.xml"/>
+  <feed src="https://apps.0install.net/lib/gtkmm.xml"/>
   <name>libgtkmm</name>
   <summary>C++ wrappers for GTK+ (shared libraries)</summary>
   <description>Gtkmm is a C++ interface for the popular GUI library GTK+.
@@ -11,42 +13,13 @@ over 180 classes that can be freely combined to quickly create complex
 user interfaces.
 
 This package contains shared libraries.</description>
-  <package-implementation package="libgtkmm-2.4-1c2a"/>
-  <group>
-    <requires interface="http://repo.roscidus.com/lib/gcc1">
-      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
-    </requires>
-    <requires interface="http://repo.roscidus.com/lib/png12-0">
-      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
-    </requires>
-    <requires interface="http://repo.roscidus.com/lib/stdc++6">
-      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
-    </requires>
-    <!--
-    <requires interface="http://repo.roscidus.com/lib/zlib1g">
-      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
-    </requires>
-    -->
-
-    <group arch="Linux-i386">
-      <implementation id="sha1new=21531defeb19a58397b52a2c3562b0e170db7f72" released="2012-01-01" version="2.20.3-1">
-	<archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libgtkmm-2.4-1c2a-i386-1_2.20.3-1.tar.bz2" size="1276223"/>
-      </implementation>
-    </group>
-    <group arch="Linux-x86_64">
-      <implementation id="sha1new=bb479194c2204b6cea6ada917fc46725e9c0afbf" released="2012-01-01" version="2.20.3-1">
-	<archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libgtkmm-2.4-1c2a-amd64-1_2.20.3-1.tar.bz2" size="1206132"/>
-      </implementation>
-    </group>
-  </group>
-
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd/lUKAAoJECLqERp+QkKkMycIAKoHa27XPiNHl+snPWrJ3pYdVmbTV31jnCJF
-1DScXjrE2rBgjQKiR0jA0LokmifgF3hGEjDD81Q52n4WMButf56dQcuGg/6qaylNkWu6bCTf3x23
-MpxJD4ckBbY5KaFB36/ZeVE7VG04RNzfjUEkhG0SJBEJ9Sc2wnqvPEi8R4y3I1NQd23UvCBO5ayG
-3YNynDF5aj4OyTHu8s5Hq+jM8PpIhgBJJTeak+0JnALhGqZ/tEG8GEiUG2cNjHZJs8iBYaWPFTkf
-2oAI0A9k3A1ZSm3T5hGXd/QFOqgsuig+Yxz6VKZ1jPM09OgSc1E5UipC1dJf2aQ+aZr9DiLboQS1
-oJs=
+iQEcBAABAgAGBQJeETeFAAoJECLqERp+QkKkCsEIAOktkgO1VFjiMYc1WEpjxpxbiwYVGy/TR6XV
+D3lIOGv+e730hGWazYM5AImPI8XRBAVUSj5BYq3PfcBT7/faGtE+ywfXuDeZhjeUoJrpXGcMgv1A
+VUj8HvxF3l2cI21yvH+X6aGQVmLrDAKOyZBLfDlbFYSdQHBnscqEMIi6GIvHxkZbUa72pP2KawOG
+IfSlcM2UA8hKc6FyUVVWqHGIRElChVHIviSdHmzMP00imP7vfPfkpN+Hjnper3QvxZxlAqsCkE86
+f9Sys9pyWlLRz4faQJF+SB+Z8opVz0IAez0C8HrL3PxbxC1s6biiRjpQDMTgvi8KWuQjK48+zzjo
+jXE=
 
 -->

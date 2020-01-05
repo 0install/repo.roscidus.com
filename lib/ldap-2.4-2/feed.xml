@@ -1,39 +1,19 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/lib/ldap-2.4-2" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/ldap-2.4-2.xml"/>
+  <feed src="https://apps.0install.net/lib/ldap-2.4-2.xml"/>
   <name>libldap-2.4-2</name>
   <summary>OpenLDAP libraries</summary>
   <description>These are the run-time libraries for the OpenLDAP (Lightweight Directory
 Access Protocol) servers and clients.</description>
-  <package-implementation package="libldap-2.4-2"/>
-  <group arch="Linux-i386">
-    <requires interface="http://repo.roscidus.com/lib/gnutls26">
-      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
-    </requires>
-    <requires interface="http://0install.net/2007/3rd-party/libsasl2-2.xml">
-      <environment insert="usr/lib" name="LD_LIBRARY_PATH"/>
-    </requires>
-    <implementation id="sha1new=730a3697669531a75017f775ff5a6ebb88b8cd5e" released="2011-05-29" version="2.4.23-7">
-      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libldap-2.4-2-i386-2.4.23-7.tar.bz2" size="192173"/>
-    </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=f26bb500bcf557a2c636ac934212baceeec3c6bd" released="2011-05-29" version="2.4.23-7">
-      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libldap-2.4-2-amd64-2.4.23-7.tar.bz2" size="208883"/>
-    </implementation>
-    <implementation id="sha1new=013a46023b8fab8930567f146772aa24954845c9" released="2011-09-17" version="2.4.23-7.2">
-      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libldap-2.4-2-i386-2.4.23-7.2.tar.bz2" size="192637"/>
-    </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=54e46c67506f2b4be843f6103587e966a66cf4ec" released="2011-09-17" version="2.4.23-7.2">
-      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libldap-2.4-2-amd64-2.4.23-7.2.tar.bz2" size="209216"/>
-    </implementation>
-  </group>
-
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd/lUKAAoJECLqERp+QkKkaS4IAMrB4DzMB0wDFu649ejXfwn33kbOdf7LiR1X
-vkdGTHHP1eVtv6uuzoq2Bxb6nYgZ1pF9nbw4nNBTStnyz9y7eJ0crqr+2TFeg44tOciIhpl6mh8p
-piRxaB0tlaqjFJNjvemVCkdk5PztgIoxF7bttbEJUpqPgS7lxaxwwY0e80TlynN0wRhiBEs4FC8Y
-9w6Z9Lf3XGAQkQEbEUJ61Up8xll2CPD2ygRYbELMovlqDUDak6SIXK29f44ecj/8q4tfp0vm5wk/
-YorjTn56TaPeRlQrAWp1nmYIYPJhmxyz+hisePHCg4pwg3FkMDT4vXK9TMhTtnw4QBPSDHyx6WQv
-Ku8=
+iQEcBAABAgAGBQJeETeFAAoJECLqERp+QkKkXKYH/2s1jBcJB76Y3NbrJwWiu5KF8pPxDOHMpDsf
+pQLIyV2E9ZeeYhEE4/H7gqTvltJYbSblcxUYNfmG4IoiZhosYlCt91f9HVgMXow8ICN15II9dW1g
+KO8HsAeCqnFle08NKz0QzZ8WaeOt9JLB08S0hczODcWWPCATrJsT7ARj81COjlbMsehxBM/nZiIk
+37j5BtqavM22cn97jVHMLWb52I4CrFbl7GQOF7d3zsLlHxwrJkyX+4whO1XWqWks944niES5j0MA
+AWxODvOmjI/FG+DCQgMkG/XaJD5H79MK6MuusPDKowrCkA4ObPHi1MeJCWos9GBiP5G/lSIh8rgw
+eEw=
 
 -->

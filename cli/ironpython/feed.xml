@@ -1,6 +1,8 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/cli/ironpython" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/dotnet/ironpython.xml"/>
+  <feed src="https://apps.0install.net/dotnet/ironpython.xml"/>
   <name>IronPython (legacy feed)</name>
   <summary>implementation of Python running under .NET/Mono</summary>
   <description>IronPython is an implementation of the Python programming language running under .NET/Mono and Silverlight/Moonlight. It supports an interactive console with fully dynamic compilation. It's well integrated with the rest of the .NET Framework and makes all .NET libraries easily available to Python programmers, while maintaining compatibility with the Python language. There also is Visual Studio tooling integration.</description>
@@ -8,26 +10,24 @@
   <category>Development</category>
   <needs-terminal/>
 
-  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/dotnet/ironpython.png" type="image/png"/>
-  <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/dotnet/ironpython.ico" type="image/vnd.microsoft.icon"/>
-
-  <feed src="http://repo.roscidus.com/dotnet/ironpython"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/dotnet/ironpython.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/dotnet/ironpython.ico" type="image/vnd.microsoft.icon"/>
 
   <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
     <file-type id="IronPython.File">
       <description>Python source code file</description>
-      <icon href="https://raw.githubusercontent.com/0install/repo.roscidus.com/master/dotnet/ironpython.doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/dotnet/ironpython.doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
       <verb args="&quot;%1&quot;" name="open"/>
       <extension value=".py"/>
     </file-type>
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEzBAABCAAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAluxIZwACgkQIuoRGn5CQqQovwgAi77R
-cdcF6sen7uG+pQzi8sg+ym4qFjn0Ma/AMJwFpR2paonrqblSo99d7n7acUrPunauVjKvBot3Zv98
-+KnGoX1nYvR7OUZbVHLVeWXcu/AJ3Wv6HAzvqjKuEYYvOdDKvUgAvYu8QqvoZleIYTI7sjqdfeel
-xOfw1RqzP417jG+Veq0YliYz1Kxf6dRqDHAZIFUu6RxKewgu/IXTWv+A3LN/2hcm9b/hY+7Yesh7
-tWwoDySqSVAFVrbQNNlqUNGS8y1VjLODjse5ulWgSMkr5cmUsyIXirjdtopvlqsut5fZxjY7RGvn
-2ocqwyGEUPnOHmtYl6gdKwdzl5acILYF+w==
+iQEcBAABAgAGBQJeETd6AAoJECLqERp+QkKkhpYH/As1AnT8lXr3oGnFWVF+c17oMGjXDUcC7nvW
+bvi2ASSvN2uULqURhsTAK0YfEXuXRHjEwJOidRpBKNvZJkX0QDpLgD6/5QibA2jb2ALgVU+aCvTb
+7C0hK2bhon8dGGlX5lELIe21+CKzcyj7ulQv50ZJiIXnI1D5MGP9qOpqSv/f9KYc0l02tqH0UKuy
+qpU5m4yHM9ITQ3hGOZieuSq2geN3LVxhFinBlEgFb/Z+2/Ye6XChnoWuefV4f8R0npuFLUk/NMh+
+oOCnf2RHHOkQ/rDr4+WJQxkTJIm3D49QYn/t1JB0dM24nYurTI3He79jUC+uCh6CU8iWwiTYJ0b9
+Ig0=
 
 -->

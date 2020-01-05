@@ -1,6 +1,8 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/utils/aspcud" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/utils/aspcud.xml"/>
+  <feed src="https://apps.0install.net/utils/aspcud.xml"/>
   <name>aspcud</name>
   <summary>a solver for CUDF instances based on ASP tools</summary>
   <description>
@@ -11,32 +13,13 @@ facts together with an ASP program are then passed to grounder gringo and are
 finally solved by solver clasp.</description>
   <homepage>http://www.cs.uni-potsdam.de/wv/aspcud/</homepage>
   <category>Utility</category>
-
-  <package-implementation distributions="RPM Debian Arch" main="/usr/bin/aspcud" package="aspcud"/>
-
-  <group license="OSI Approved :: GNU General Public License v3">
-    <command name="run" path="aspcud">
-      <environment insert="" mode="replace" name="ASPCUD_HOME"/>
-      <arg>-s</arg><arg>${ASPCUD_HOME}/clasp</arg>
-      <arg>-g</arg><arg>${ASPCUD_HOME}/gringo</arg>
-    </command>
-    <implementation arch="MacOSX-*" id="sha1new=26d7c0006817c8717ba63f2be2850a42519d1c77" released="2014-08-27" version="1.9.0">
-      <archive extract="aspcud-1.9.0-macos-10.9" href="http://downloads.sourceforge.net/project/potassco/aspcud/1.9.0/aspcud-1.9.0-macos-10.9.tar.gz" size="2351404" type="application/x-compressed-tar"/>
-    </implementation>
-    <implementation arch="Linux-i686" id="sha1new=1fadafaa0c5be52d0169e03b79dbaad1938017ff" released="2014-08-27" version="1.9.0">
-      <archive extract="aspcud-1.9.0-x86-linux" href="http://downloads.sourceforge.net/project/potassco/aspcud/1.9.0/aspcud-1.9.0-x86-linux.tar.gz" size="3097241" type="application/x-compressed-tar"/>
-    </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=5f838f78e489dabc2e2965ba100f14ae8350cbce" released="2014-08-27" version="1.9.0">
-      <archive extract="aspcud-1.9.0-x86_64-linux" href="http://downloads.sourceforge.net/project/potassco/aspcud/1.9.0/aspcud-1.9.0-x86_64-linux.tar.gz" size="3754443" type="application/x-compressed-tar"/>
-    </implementation>
-  </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABCgAGBQJT/dPpAAoJECLqERp+QkKk2DUIANkX/Xu8AOxRwljD5bAmtdbjGoZlZw+Ah9s+
-0JTP8vmDdmbYvdV7vZW2qp9bgUdQ07xMYYSyMNvkPbTbGPz/nE3lZurERAvMtexeiv9f0Y7TKHTE
-347tC6tVMRrKItZx7KyXb+3nAn58nLpkJfBaVMb3JzyDjNmYbXK/c3jNRKMRDCoySnnIFtKdG3UU
-yAuyJo06NFlK8Pz091JTbSNC5bdzONL4XHMzwBYJvcoVnm934PNl4HvfEBF5aKZkW/J6oESUOoM+
-+gDuCYOfjQBuwAnhMyMqkxLMfJXzHEERCHbeei6IyGxPizC5p83v0QnNr2+FqI1uyxo9F1Nn3LuG
-3OE=
+iQEcBAABAgAGBQJeETeKAAoJECLqERp+QkKkNg0IALbYjZTsje04eGDTHLIuIyl9jxWHOw2m3yf6
+Sgc+E2OiTXqeRig8zioP3NvrAuuMEIq88sLotpLL3X8KyxL1LtHRvrVdSvEssI0qcywQ7AtG5A1l
++Fhz4ys93HpltGmJCA87ps2v2IWFOH0Pnd9sPBA7QzC5qR+hHBTAkr0UlxSQEFYEVb2iJNhIdPzc
+hgXBd7bJ0b8CbnNmXLmkyF1uzCo3VgPX6iftYsGhfLzxvXGPGSFh0l/w5AwgjLw8z3zxtxGBEXxG
+Knv5UdFhDQ3Wqk3Rc1Iemu+JB7olqtXee/3PODQnpbqnPz1FJG7vfRaN2jA7qye7GHhHQzvRZb2A
+Nfs=
 
 -->

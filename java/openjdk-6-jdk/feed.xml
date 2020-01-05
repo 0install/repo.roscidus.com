@@ -15,7 +15,7 @@ IcedTea project.</description>
   <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1_6_0-openjdk-devel"/>
   <package-implementation distributions="RPM" main="/usr/bin/javac" package="java-1.6.0-openjdk-devel"/>
 
-  <replaced-by interface="http://repo.roscidus.com/java/openjdk-jdk"/>
+  <replaced-by interface="https://apps.0install.net/java/jdk.xml"/>
 
   <group main="bin/javac">
     <command name="run">
@@ -30,7 +30,7 @@ IcedTea project.</description>
     <environment insert="lib/dt.jar" name="JDK_CLASSPATH"/>
 
     <group>
-      <requires interface="http://repo.roscidus.com/java/openjdk-jre">
+      <requires interface="http://repo.roscidus.com/java/openjdk-6-jre">
 	<environment insert="bin/" mode="replace" name="OPENJDK_JRE_BIN"/>
       </requires>
       <environment insert="lib" mode="replace" name="OPENJDK_LIBS"/>
@@ -43,7 +43,7 @@ IcedTea project.</description>
     </group>
 
     <group>
-      <requires interface="http://repo.roscidus.com/java/openjdk-jre">
+      <requires interface="http://repo.roscidus.com/java/openjdk-6-jre">
 	<environment insert="bin/java" mode="replace" name="OPENJDK_JRE_JAVA"/>
       </requires>
       <implementation id="sha1new=f2da5d5538d0e3b9d9c0843cb9362e900fd33566" released="2009-12-27" version="6.11-9.1">
@@ -54,11 +54,11 @@ IcedTea project.</description>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd/lUIAAoJECLqERp+QkKky/IIANIvkR5eJw8L4b5ieB+WfXzT7SbL5CrI1J/p
-9pV6lTt+EVmELO4QQljrB+fQZ2u/4zxfP9VaqT1RG72x2SWu6aymNZJZnVuMXSF+Fune0GrndoQr
-LACOgbgPZgGsRuTvUoWwnytDOjLFoOfuxrmk4qFc5mHcwuY1xe3a+0pi+VAphi+wKUZMx4Wqehy9
-8jg9C6IFg00mmYS5quhuQbadIvNuRrL/S9iMnnhsfOhgdMupsBmXQfl6Ezzx27ZEVN+nWiY/qST2
-w2QvbYyrPMM6iSgw86Oeal/hGb39LX0DnHKsxy0PmDrk5kX+2Xvwo4q3EBkUfX5QXKBQWazv+Q0L
-XUg=
+iQEcBAABAgAGBQJeETeBAAoJECLqERp+QkKkHFsH/R5jamZs2vWN0KXzAdZjJ0N7bK0A9fLsXjDG
+TClOcd5t7AmZI3vFSH15RcUXFfJabl/sSiOTyjvnumi0Dy0FuhMmjEd/UfMwev7M8fY1ziQybqaw
+QEtLiF1VN9aYkwOVTsZAwt8OBO0pYgm+HyDjysRM8rQrS5T5B+6I5lGCnwPMUSIEwhrwnY9hsvFu
+KqsED5crDe0EPn9wrKp8qPJdiPMdGnBb8dLevXhAooX2W4GisqtpWudvb/OCju/kkvSSlwOucZ2c
+X+UUIzdsl5BBVVtcQXS/bcBkrkgOrM9TUzerYAJO5mE3h/zmviIz5h66RmgjsRNaJFVdJNp2avkB
+MEk=
 
 -->

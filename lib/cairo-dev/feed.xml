@@ -1,6 +1,8 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/lib/cairo-dev" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/cairo-dev.xml"/>
+  <feed src="https://apps.0install.net/lib/cairo-dev.xml"/>
   <name>libcairo2-dev</name>
   <summary>Development files for the Cairo 2D graphics library</summary>
   <description>Cairo is a multi-platform library providing anti-aliased
@@ -8,27 +10,13 @@ vector-based rendering for multiple target backends.
 
 This package contains the development libraries, header files needed by
 programs that want to compile with Cairo.</description>
-  <package-implementation package="libcairo2-dev"/>
-  <group arch="Linux-i386">
-    <requires interface="http://repo.roscidus.com/lib/x-sm-dev">
-      <environment insert="lib/pkgconfig" name="PKG_CONFIG_PATH"/>
-    </requires>
-
-    <implementation id="sha1new=10c834493ae8034aef70e6f889cc7c82a72fd0a0" released="2012-05-26" version="1.8.10-6">
-      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libcairo2-dev-i386-1.8.10-6.tar.bz2" size="559054"/>
-    </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=025c935dcb64ada0cb2f733cc1d8ec129742a55e" released="2012-05-26" version="1.8.10-6">
-      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libcairo2-dev-amd64-1.8.10-6.tar.bz2" size="577221"/>
-    </implementation>
-  </group>
-
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd/lUJAAoJECLqERp+QkKkfyIH+wWZwgcjAx+yOVwg6/ftjn6OT7FPh0AveYti
-FBL1Ml/Vgz6U3IsywyHlz/ZZeYdu7YmUrTpUjyRW+Y+xs1yfCRpbO/QcC7WFHThs4kJa1Jponmc/
-3ZIoTxWTc7pjTiieMW3sSvs+57PRVcWM3vUFiJZglsf0UJYBwgsZR0eIt1q6o9o4aW7e+rUkrheK
-MoO059EQzJSqb9bF7fnxy+QklI53NGTKPXRjIxDWMs+RTt2sGNFKXBHwNtJ63Hww54Ogjx5qrn5z
-uk+FFHkSZkFjG0vC8Vgt/Gw0ICaiIIo4GWFCpo7cAxLhgb6SMxbUmYq9439sQgqA4z9iZvxPLRbE
-go8=
+iQEcBAABAgAGBQJeETeDAAoJECLqERp+QkKkZ3wH/23Tto4hD0fhNXBje5WDEULHAOWAR0KWugXt
+lkHnfuFNGx5Wkp5zhMyyr9t06MUHoJU0S6ooqYW9uCeAptUaz2J9qtPeI8kdvtMxGJgeqdHPrNeu
+qm1i7vEc9s3RENQtEX2f1s66ojQuN85FGn4RTQYwHsKXVwQACgyKdnkoJajWz+Nr9RnusKNKkH+j
+1U55Cgnt+aukUO9eaLegmBvGv9OjP2TGEfqyjJAe7epvxjPcbHgJghrbXOUI5Fue5hKY9BD7HJf0
+hFQe0k04o3akK15Vp1vt4GA0xgCLgr4jlQkeEgtxrWBImlyJEWwzJuHGVtgBt564NsR8Fr66FG6O
+iAg=
 
 -->

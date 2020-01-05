@@ -1,6 +1,8 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/java/hsqldb" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/java/hsqldb.xml"/>
+  <feed src="https://apps.0install.net/java/hsqldb.xml"/>
   <name>HyperSQL</name>
   <summary>100% Java Database </summary>
   <description>
@@ -11,17 +13,13 @@ in-memory and disk-based tables and supports embedded and server modes.
 Additionally, it includes tools such as a command line SQL tool and GUI query
 tools.</description>
   <homepage>http://hsqldb.org/</homepage>
-  <implementation id="sha1new=4ddf5a731e08856bb81b94a19f82448e493b315b" released="2010-02-07" version="2.0.0-rc8">
-    <manifest-digest sha256="0434f6bc5e24bca516805d0b68cd202d0c20d570820684c1f87c5010803871a6"/>
-    <archive extract="hsqldb" href="https://github.com/0install/apps.0install.net/releases/download/archives/hsqldb-bin-2.0.0-rc8.tar.bz2" size="1626331"/>
-  </implementation>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd/lUIAAoJECLqERp+QkKktxwIAOUcGDrGrYg78XVtfcRX9aK9A6zlC7puiT82
-RDFIppL7I70Vd0C33phRA6YRTWJpdj/Zlfb/i5RJ01RBkjERV4NhziRUrXPa0U01S3MpSf1Blj9N
-JdTm8EtxYDrbxECV48zFA1TV83tKCLyxf/UEAAxAD/q5fKcg3IXCUQGyFF3CNUa15MfW9uRlUhmM
-anv93IUO9hEx8KX4ZH5/urwMrGoX2trdIOiuAHVr4JOeWmmPct5MOBHgOrfHqR2qghyc0oiQvMhN
-vn22m5hF5UNLBGH6jdY+b7NK4A/fAK4IXGcXonVBibiaHdjRP1sSaP4rBdKhhLQ6DgfZnMwPfev9
-hgM=
+iQEcBAABAgAGBQJeETeAAAoJECLqERp+QkKkraEH/2Y/22mde+7kr6x9vJrZetEKpoAnMJPfluVg
+SfvbbiH3ikEjq0q1qu/wvgAXKVpvA/aGAP+1bTnvqNMQn99WKAL8vxz+3CZScKweWTW19cEMA2Ku
+5JAF0sUAzA7TL+wdTgtRjSF+61DmghghZyhvdAblWGMRKxYWI8Zf/bTjqvE/cuLfdB7AzjN6CRfB
+/FFaAjcuADhTfq14TgF/Ikxshf97zYtyW6kVqf+CDuhMj7LsJMmytCVTyj9lwGLA60CJXRygYpfG
+cHOAiPgSPxv8olCXcDsqqo+oo00LGfKn1I5oE/OmW0qOfFNmI5tWHtZ5Ovi/FYiZV1QppmlL0dfN
+1MQ=
 
 -->

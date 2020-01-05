@@ -1,6 +1,8 @@
 <?xml version="1.0" ?>
 <?xml-stylesheet type='text/xsl' href='../../resources/feed.xsl'?>
 <interface uri="http://repo.roscidus.com/lib/readline6" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/readline6.xml"/>
+  <feed src="https://apps.0install.net/lib/readline6.xml"/>
   <name>libreadline6</name>
   <summary>GNU readline and history libraries, run-time libraries</summary>
   <description>The GNU readline library aids in the consistency of user interface
@@ -9,23 +11,13 @@ interface.
 
 The GNU history library provides a consistent user interface for
 recalling lines of previously typed input.</description>
-  <package-implementation package="libreadline6"/>
-  <group arch="Linux-i386">
-    <implementation id="sha1new=284c4bac4d43f41fad32250614a9eab5202a55b3" released="2011-06-25" version="6.1-3">
-      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libreadline6-i386-6.1-3.tar.bz2" size="134310"/>
-    </implementation>
-    <implementation arch="Linux-x86_64" id="sha1new=b3329db54dddfcf5febd40f55b28227d3f7fa4a8" released="2011-06-25" version="6.1-3">
-      <archive href="https://github.com/0install/apps.0install.net/releases/download/archives/libreadline6-amd64-6.1-3.tar.bz2" size="148959"/>
-    </implementation>
-  </group>
-
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd/lUKAAoJECLqERp+QkKk78oIAOidSfWxuJe9Uqp4Cv++ugYJaCtaBR62RlPH
-9Zy3ZCmPJf6xkUopGGWvPUXXbPCq8epZHj4VOU0+sqIeKn57m748mSsHCJYBbhXrndunDUR4rr4M
-Ebvg9di+/+Hf9X+DwcENA4D/tTLnnvsw+RzW8YTY4ExSgWkPjcacpylthAuuoU/qKv+cFFB6km8W
-wNPqPze9UoC3bJzdIDHPxOmfDwrOwjeYIu03+QpKdkhDsTS44CrQrSQHotbQK1aIIjhCB94yeF8u
-lQSbmJh23t+dbhTog0sjFgZavmLd7JyBBZdJ0DyJffLiECjqqwWrfvTUmQHT/KRhbYRU0ZZzfLHa
-YkU=
+iQEcBAABAgAGBQJeETeGAAoJECLqERp+QkKkuScH/2m28B2Rp+h9Wm7IHYiC+fWyHw3Arf9VzbvD
+rJxg+yaQTPeYDsXvES/sN1f7N6848hlSajRs4Zg3GpigyqFxpP6IB+iTD4gbGFhINUJ0p6RJXw3x
+wm9BjOLYr2pFXqoqp1aK13Kj4anI5jnqFZuXHDoRR2eq6S7lhT30M0yr+tlRq2SKpugo374lBPHP
+1/t84IGNCfMq9h5GUFDUrqBdDU0+PG4wGu6GabR6NKrPb17OxL8IDjrYgrsU5K5KSNPnUhdUBn03
+YHKT7dY7un70rrIoP2DW/J5i4x3pu3kEmTGKonPu1scSrdHcbCXdQ63WNUA/8hvdvV+z/KkHajx7
+YEg=
 
 -->
