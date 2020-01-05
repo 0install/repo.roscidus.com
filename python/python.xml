@@ -2,6 +2,8 @@
 <interface uri="http://repo.roscidus.com/python/python" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <replaced-by interface="https://apps.0install.net/python/python.xml"/>
   <feed src="https://apps.0install.net/python/python.xml"/>
+  <feed arch="POSIX-*" src="https://apps.0install.net/python/posix.xml"/>
+  <feed arch="Windows-*" src="https://apps.0install.net/python/windows.xml"/>
   <name>python</name>
   <summary>interactive high-level object-oriented language</summary>
   <description>
