@@ -3,6 +3,8 @@
 <interface uri="http://repo.roscidus.com/python/python" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <replaced-by interface="https://apps.0install.net/python/python.xml"/>
   <feed src="https://apps.0install.net/python/python.xml"/>
+  <feed arch="POSIX-*" src="https://apps.0install.net/python/posix.xml"/>
+  <feed arch="Windows-*" src="https://apps.0install.net/python/windows.xml"/>
   <name>python</name>
   <summary>interactive high-level object-oriented language</summary>
   <description>
@@ -49,11 +51,11 @@ language for applications that need a programmable interface.</description>
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJeETeJAAoJECLqERp+QkKkiBgH/3l87it4Jqu+PZq6sYAew7sndpufnGYAeArY
-Ws1sPlUFHjq0bIVUSHc28qa1EiaqpinTaevQZ/nZBAJwc/HX/pbv5PnoGIJr3UXmBZ0/RniZ9qmF
-Ke0f/ujZqJGeuWFRi68/vnPk+Dzk7EYKcs+1Pf/I3xygfEcxbiW/ZpkOsXTboCJGSc3gn/MwfjjM
-3FTPMAITnop/8xBGfmZXhZZ4SCHQmp5OPcjJ7aqX6DjQNYF8uxhBVobGueDt5VUnaU1i28FGT8M+
-CT0Gy/MlYpy/fe3/OUQM5QUTXRufQ3z4DEhbEf5zlegi+27phUJjmppNohIXd1tLYYKFEAbMs/SZ
-93w=
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl4R5MwACgkQIuoRGn5CQqSDiQgApyh4
+BnPGjrPAG3vIXNnuTTp2Wk7fVacW0Fk078vwvwgYcoSImkSoW4EhXQSOX4k8oGFAhfOPVwnZxnGH
+7MHo43usHVbx/0qCe5tDOY0JEytmkWuIzOlIqxotrFWI0AKpEYIcgZWg4XXOGZRZdTGRE/RuCUJ2
+IPaSxnsk18kFA+C/HbIQFNGg5Rx0eCZdeiPBPdAwxIUwnOr3Luu7tX1Du00i1dbCcM7pr9TXDp6F
+9lZI2o9fRspucj16EAR5irgo1QpeE8nWQheHwX0YKlPo1uE9tUzfMLdO0f+V3t7gKAX36r6frbyR
+xBj7RCKmbfHXX+OYxHQG5jC2Y9G6c/8uNw==
 
 -->

@@ -3,6 +3,8 @@
 <interface uri="http://repo.roscidus.com/kubernetes/helm" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <replaced-by interface="https://apps.0install.net/kubernetes/helm.xml"/>
   <feed src="https://apps.0install.net/kubernetes/helm.xml"/>
+  <feed src="https://apps.0install.net/kubernetes/helm-2.xml"/>
+  <feed src="https://apps.0install.net/kubernetes/helm-3.xml"/>
   <name>Kubernetes Helm</name>
   <summary>the Kubernetes package manager</summary>
   <description>Helm is a tool for managing Kubernetes charts. Charts are packages of pre-configured Kubernetes resources.</description>
@@ -13,11 +15,11 @@
   <entry-point binary-name="helm" command="run"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJeETeCAAoJECLqERp+QkKkg0EIAJspyUjN6mkbvhfL2/tqZX7fo/Sl+DxlO42h
-RgTutBEm1A0DzhRArhPDuIg43FhpHux55SqnzKFK1eG50xBAk4sNW/zoGCyGHxSNOTB6I4RcOgv4
-mhPC/XObhh3TEnBnXb9TfcKrwj/r30777QO2X18j6Ay4hTnO/b/kmrZT2qrx5uv51Q4P7kZaNd/b
-Ts4ir6GLoyKVlEvvLllczuLOffNyKSVsM5fQVKCn8VUKtZXZMhKPvfxq2tFshd9ui5kfXFcujpIR
-tEbAMxSKklPKgvUs2bPemcOkhaLETX90ACriv4+HvvciZEoykOGR8vLKeI1GS7bM4dnkROhIbuNp
-CLE=
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl4R52EACgkQIuoRGn5CQqTN7Af/W90V
+6GD7RqgmKMWzueyDcqYqwKg6+Xu6fCgCjHvQ/okHzPdPQbUIpp0J+NiOiArrz81m4a152wN+Hd+w
+NitrpLcfqSMenajqWz6ztBBFt7eM8d/I6fWIIu/z3QJvrLW7Br92QFfEPgxQodSdaAn8BLBToGDH
+/4oSjm06BpGDUh0Gwe0T8f1dFr0SrFyhcaDYsCe2026c5vMwi3RDbRK/zGjsd7Opam1PthS5JkS2
+5/vDDA1U6gSC+jYm8WuZBFuoiE5f5addmS2ZqDdxmXTpERGLdmFw1/T4aDJc4gJnZIGJl8qVlzOI
+DMsbkPif6Dao6nynTAUvCEZ4VOVkwE9Qvw==
 
 -->

@@ -3,6 +3,12 @@
 <interface uri="http://repo.roscidus.com/java/openjdk-jdk" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <replaced-by interface="https://apps.0install.net/java/jdk.xml"/>
   <feed src="https://apps.0install.net/java/jdk.xml"/>
+  <feed arch="Windows-*" src="http://0install.de/feeds/Oracle_JDK.xml"/>
+  <feed src="https://apps.0install.net/java/openjdk-9.xml"/>
+  <feed src="https://apps.0install.net/java/openjdk-10.xml"/>
+  <feed src="https://apps.0install.net/java/openjdk-11.xml"/>
+  <feed src="https://apps.0install.net/java/openjdk-12.xml"/>
+  <feed src="https://apps.0install.net/java/openjdk-13.xml"/>
   <name>openjdk-jdk</name>
   <summary>OpenJDK Development Kit (JDK)</summary>
   <description>OpenJDK is a development environment for building applications, applets, and
@@ -143,11 +149,11 @@ components using the Java programming language.</description>
   <entry-point binary-name="jaccesswalker" command="jaccesswalker"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJeETeBAAoJECLqERp+QkKkg60IAMAHOzUHLi/pXovZZJFgN9eLjYrlmabxBP3d
-4sySuNVt4uXaQsxQnix+mq7vW4BkRiv1MSMWqjngIy38BEoGk+Hh7zih/4Z8+eJTJYGhd3+VkDTr
-mwNVY3TzHAaQxXranzDcfeqa+DMCxEKz2bmdjDwqoCWAFiFuNAvcpbRt+spljyjsK8QWbJctkqgD
-CkTcG+IuQvV5d3CVSItKETjUsFFKPEV7pbpZMt4qeMXVPKGey5OmLGBmc2nyfu1MlkN6BeIu26A9
-SibGtHEeskEE5t1dqSfuQpPx0wB2DEjLNbo4X8yL6wQ5usmDLCBx1+TaGnP0OZ5nkueEJpjATTpU
-AlI=
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl4R52EACgkQIuoRGn5CQqRXlAgApgD2
+EqEmmwAMlSRaaq7P3t+IzKKqsYPYPlyBcmRjY3fKW4aIfZLZvJaJ/0nXC0i2Mydh7IxslIcu3l3q
+X1ufn7g+b+Il0XlRafF9KH4Fen2o+/y/QOrGnsomQasMhIFdo44FtZNEn01GjcQn8hnQQ24LQ+Z0
+9zZJEVRaijI8PFMfb5sHVts88cYT8z2AlUoAoMSkWyHSnzqTPgVemR75aE9Hq/K5Bf4EKlDbkuyi
+4mN/Kte2DH2GPoopZoS09j/LUFRLlxtjXq/m5ZxXoYpqFtgb4Fx+kl+zandy3RPXtUf61wkShNqT
++pwGBRpi7o3WL9+9vsVcxNi3T8YDzmWGUw==
 
 -->

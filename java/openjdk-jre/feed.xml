@@ -3,6 +3,7 @@
 <interface uri="http://repo.roscidus.com/java/openjdk-jre" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <replaced-by interface="https://apps.0install.net/java/jre.xml"/>
   <feed src="https://apps.0install.net/java/jre.xml"/>
+  <feed arch="Windows-*" src="http://0install.de/feeds/Oracle_JRE.xml"/>
   <name>openjdk-jre</name>
   <summary>OpenJDK Java runtime</summary>
   <description>The Java runtime allows you to run applications built for Java.</description>
@@ -97,11 +98,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJeETeBAAoJECLqERp+QkKkbFcIAJ9Ph1ecgvseXAr56y+8i/9BdLHgXLSbI9ax
-XoWWGA2syOm7IR3n2jzmaFOKgAXfZL6cvfsDpn4jUTiCzA/6V/8xPLTvPSmRh9Z2KPFYKvF36GmG
-5k6/qSju2zWe4j8mmmuXbR+cmIKqhbRKGG1UdRjJhv1K3/vSUzY6mPgFaAXPft82YLs5+TOzTm5A
-MmcAwG0oRnbSygLyYzuEZnfGgyH85Z25YrXtN7qgd44ODVbrn0SbKyKDtt9pMNgM93OefsHYt3/G
-ml7xuWvAVm2uBOFukxWR/Dr0dWLNBAMQkNs5roOfdUOFm8IpgDkaykeCa1u7tozLc7gWcO8QGxbt
-Ehk=
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl4R52EACgkQIuoRGn5CQqRJDgf/fgi5
+yLJSX+k6+kLvUdE+lQ+eZ7Ah0PBKP+CVOQ+SiEAbieKoGxWPv7aIrLhV9cniF9QkPprr8YeHMAf0
+QwsreGgfpQOalGn1PgREdz7/DZrXFG5Rid/D05zlLgVwbhHksm6yZYE7YqfzsC9+geI0+XmEMcyn
+jnyzztFKg0ZHM+i3+5UgSvH5GZ00qmiuXpoGhF9zEY7Nva8a9PJ9u2lUsXM+HurC269sI23d4iqH
+MoSAH8SJR5KeLhhP8fzLN+pEPm8LACvF8q6ODy5mjYLDwCk2qT0UUxEi1VewjO/oynKBy0/lGTmN
+isiUNJ9Zw65xDkLbJnpesMe13pQ+eIv9TA==
 
 -->

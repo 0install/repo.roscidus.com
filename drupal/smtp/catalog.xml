@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='../../resources/catalog.xsl'?>
+<c:catalog xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:c="http://0install.de/schema/injector/catalog"><interface uri="http://repo.roscidus.com/drupal/smtp"><name>Drupal-SMTP</name><summary>SMTP Authentication Support</summary><description>
+This module allows Drupal to bypass the PHP mail() function and send email
+directly to an SMTP server. The module supports SMTP authentication and can even
+connect to servers using SSL if supported by PHP.</description><homepage>http://drupal.org/project/smtp</homepage><category>Network</category></interface></c:catalog>
+<!-- Base64 Signature
+iQEzBAABCgAdFiEErJuXNUnYGa4ivNCNIuoRGn5CQqQFAl4R5NIACgkQIuoRGn5CQqR9oQf7BT+d
+oKmNSJ/MRXQyePJw7ELhJ2z1qTz02Nv7RukMIoG7r1otv1FQn+sa8HrKzD3FTMC11Tv2//vV23+z
+imUh/cQfpSzO4BY3sm35c2MwhvxAnIhBRHrFx/VdcsSphNU2YAzF+ArBe2HsKSkJMhP5Xm01ex2e
+TEC5B3Oi2osGWwQWKpXQ1s02AjJsBpdwSM7WVdeOZppfCrcs0PkUFggTeLWxpD1dkVqV0VWb+jRr
+l8rwKsFnigEUrSJvEedEUZQEfd1f9/zR4aWV3JWCLMWhXis6NH6oZcD/tno6UzN1+8vrMJguK8Wm
+Dz0grpWB8c+/hf07efUBbMpPPorwKoMlag==
+
+-->
