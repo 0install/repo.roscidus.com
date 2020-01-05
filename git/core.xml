@@ -3,6 +3,7 @@
 <interface uri="http://repo.roscidus.com/git/core" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <replaced-by interface="https://apps.0install.net/devel/git.xml"/>
   <feed src="https://apps.0install.net/devel/git.xml"/>
+  <feed arch="Windows-*" src="https://apps.0install.net/devel/git-for-windows.xml"/>
   <name>git-core</name>
   <summary>fast, scalable, distributed revision control system</summary>
   <description>

@@ -2,6 +2,9 @@
 <interface uri="http://repo.roscidus.com/golang/go" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <replaced-by interface="https://apps.0install.net/golang/go.xml"/>
   <feed src="https://apps.0install.net/golang/go.xml"/>
+  <feed arch="Linux-*" src="https://apps.0install.net/golang/go-linux.xml"/>
+  <feed arch="Darwin-*" src="https://apps.0install.net/golang/go-darwin.xml"/>
+  <feed arch="Windows-*" src="https://apps.0install.net/golang/go-windows.xml"/>
   <name>Go</name>
   <summary>tool for managing Go source code</summary>
   <description>This is a tool for managing Go source code. Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.</description>

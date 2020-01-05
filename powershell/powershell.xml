@@ -2,6 +2,8 @@
 <interface uri="http://repo.roscidus.com/powershell/powershell" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <replaced-by interface="https://apps.0install.net/powershell/powershell.xml"/>
   <feed src="https://apps.0install.net/powershell/powershell.xml"/>
+  <feed src="https://apps.0install.net/powershell/core.xml"/>
+  <feed arch="Windows-*" src="https://apps.0install.net/powershell/windows.xml"/>
   <name>PowerShell</name>
   <summary>virtual feed combining Windows PowerShell and PowerShell Core</summary>
   <homepage>https://microsoft.com/powershell</homepage>

@@ -2,6 +2,8 @@
 <interface uri="http://repo.roscidus.com/kubernetes/helm" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <replaced-by interface="https://apps.0install.net/kubernetes/helm.xml"/>
   <feed src="https://apps.0install.net/kubernetes/helm.xml"/>
+  <feed src="https://apps.0install.net/kubernetes/helm-2.xml"/>
+  <feed src="https://apps.0install.net/kubernetes/helm-3.xml"/>
   <name>Kubernetes Helm</name>
   <summary>the Kubernetes package manager</summary>
   <description>Helm is a tool for managing Kubernetes charts. Charts are packages of pre-configured Kubernetes resources.</description>
