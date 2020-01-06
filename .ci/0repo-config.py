@@ -101,7 +101,7 @@ def upload_archives(archives):
 		for archive in archives:
 			with open(archive.source_path, 'br') as file:
 				urlopen(Request(
-					'https://uploads.github.com/repos/0install/apps.0install.net/releases/22408464/assets?name=' + archive.rel_url,
+					'https://uploads.github.com/repos/0install/repo.roscidus.com/releases/22625859/assets?name=' + archive.rel_url,
 					file.read(),
 					headers={
 						'Content-Type': guess_mime_type(archive.rel_url),
