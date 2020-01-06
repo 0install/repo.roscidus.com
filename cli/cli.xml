@@ -5,4 +5,7 @@
   <feed src="https://apps.0install.net/dotnet/clr.xml"/>
   <name>Common Language Runtime (legacy feed)</name>
   <summary>an implementation of the Common Language Runtime (.NET Framework on Windows, Mono on POSIX) using .NET profiles as version numbers</summary>
+
+  <!-- The .NET Framework is an implementation of the Common Language Runtime. -->
+  <feed arch="Windows-*" src="https://apps.0install.net/dotnet/framework.xml"/>
 </interface>

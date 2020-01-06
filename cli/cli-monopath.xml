@@ -5,4 +5,7 @@
   <feed src="https://apps.0install.net/dotnet/clr-monopath.xml"/>
   <name>Common Language Runtime with MONO_PATH support (legacy feed)</name>
   <summary>an implementation of the Common Language Runtime (.NET Framework on Windows, Mono on POSIX) using .NET profiles as version numbers</summary>
+
+  <!-- Empty implementations used to map .NET Framework version numbers to roughly equivalent Mono version numbers. -->
+  <feed arch="POSIX-*" src="https://apps.0install.net/dotnet/clr.xml"/>
 </interface>

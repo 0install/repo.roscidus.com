@@ -5,4 +5,7 @@
   <feed src="https://apps.0install.net/dotnet/framework-client-profile.xml"/>
   <name>.NET Framework Client Profile (legacy feed)</name>
   <summary>a limited version of the .NET Framework from Microsoft</summary>
+
+  <!-- The regular .NET Framework is a superset of the Client Profile -->
+  <feed src="https://apps.0install.net/dotnet/framework.xml"/>
 </interface>
