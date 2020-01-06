@@ -16,30 +16,30 @@
   <group main="bin/java">
     <group arch="Linux-i386">
       <implementation id="sha1new=6b7c9f98bd1d8bec5bbb5ddb41271c862c8e8529" released="2011-05-29" version="6.18-1.8.7-2">
-	<archive extract="jre" href="https://github.com/0install/apps.0install.net/releases/download/archives/openjdk-6-jre-6b18-1.8.7-2~squeeze1_6b18-1.8.7-2~squeeze1_1.7R2-4_6b18-1.8.7-2~squeeze1_1.26.2-5_2011c-0squeeze1_1.26.2-5-i386.tar.bz2" size="29764021" type="application/x-bzip-compressed-tar"/>
+	<archive extract="jre" href="https://github.com/0install/repo.roscidus.com/releases/download/archives/openjdk-6-jre-6b18-1.8.7-2~squeeze1_6b18-1.8.7-2~squeeze1_1.7R2-4_6b18-1.8.7-2~squeeze1_1.26.2-5_2011c-0squeeze1_1.26.2-5-i386.tar.bz2" size="29764021" type="application/x-bzip-compressed-tar"/>
       </implementation>
       <implementation id="sha1new=6cc9f66b968d983904bce5050b2e328c3740462b" released="2009-12-08" version="6.11" version-modifier="-9.1-2">
-	<archive extract="jre" href="https://github.com/0install/apps.0install.net/releases/download/archives/openjdk-6-jre-6b11-9.1+lenny2_6b11-9.1+lenny2_1.7R1-2_6b11-9.1+lenny2_1.23.0-3-i386.tar.bz2" size="26538063" type="application/x-bzip-compressed-tar"/>
+	<archive extract="jre" href="https://github.com/0install/repo.roscidus.com/releases/download/archives/openjdk-6-jre-6b11-9.1+lenny2_6b11-9.1+lenny2_1.7R1-2_6b11-9.1+lenny2_1.23.0-3-i386.tar.bz2" size="26538063" type="application/x-bzip-compressed-tar"/>
       </implementation>
     </group>
     <group arch="Linux-x86_64">
       <implementation id="sha1new=3ede8dc4b83dd3d7705ee3a427b637a2cb98d789" released="2011-05-29" version="6.18-1.8.7-2">
-	<archive extract="jre" href="https://github.com/0install/apps.0install.net/releases/download/archives/openjdk-6-jre-6b18-1.8.7-2~squeeze1_6b18-1.8.7-2~squeeze1_1.7R2-4_6b18-1.8.7-2~squeeze1_1.26.2-5_2011c-0squeeze1_1.26.2-5-amd64.tar.bz2" size="28281120" type="application/x-bzip-compressed-tar"/>
+	<archive extract="jre" href="https://github.com/0install/repo.roscidus.com/releases/download/archives/openjdk-6-jre-6b18-1.8.7-2~squeeze1_6b18-1.8.7-2~squeeze1_1.7R2-4_6b18-1.8.7-2~squeeze1_1.26.2-5_2011c-0squeeze1_1.26.2-5-amd64.tar.bz2" size="28281120" type="application/x-bzip-compressed-tar"/>
       </implementation>
 
       <implementation id="sha1new=042663897b1fce617d5bc8c98945adc64e4ef2a9" released="2009-12-08" version="6.11-9.1-2">
-	<archive extract="jre" href="https://github.com/0install/apps.0install.net/releases/download/archives/openjdk-6-jre-6b11-9.1+lenny2_6b11-9.1+lenny2_1.7R1-2_6b11-9.1+lenny2_1.23.0-3-amd64.tar.bz2" size="25536477" type="application/x-bzip-compressed-tar"/>
+	<archive extract="jre" href="https://github.com/0install/repo.roscidus.com/releases/download/archives/openjdk-6-jre-6b11-9.1+lenny2_6b11-9.1+lenny2_1.7R1-2_6b11-9.1+lenny2_1.23.0-3-amd64.tar.bz2" size="25536477" type="application/x-bzip-compressed-tar"/>
       </implementation>
     </group>
   </group>
 
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJeETeBAAoJECLqERp+QkKkSy8IAMqNnxSSvs8zlEQBGVK7NwMnJQ06fk2uoI21
-uJQgIDxSARPPEb3ZFAitMiyi0LGHOpa5DKIZyxa5pFIdzS64B4nHMzMzJsvikR+YlKfbRhshP4YY
-y1x6hMPy1nwwwqzwH+BGezeSdigQJz9ZPe1BwS5lI1WX0PkQrq6NQAFOqwpCA7z9KKwsepdxmLic
-QgLxrKqf2bJAbSWKmX63KjB6bHb8MOkNAmLEz1bbEbgdB33qqcNHoyXefPJ+k+n8wN0EotGBZxAl
-ZezgQFwlQ6YRk2w+yudkBw+099VFh0MCzEfuRUUckNxIeRVaMOevu2f77FSi76H3zKx1z4M2F1aw
-yVc=
+iQEcBAABAgAGBQJeE3sHAAoJECLqERp+QkKk//0IAMd+CvSKqo5xc1iLZQc+aZdtkGftH8TQm0RC
+RnsWtGe+Z/kbl8qcd8rAfcYzS1kWF00dl2w8x+ccvvChZOL8vO+MAfGpK5V8Dtq2he75DBSgSxJe
+kZFF5JwTmmKR4JQcIkwyF4z8seOUyncXXvAxB3GUa6+6bP+rGGoVoMBnyVWSy6MltBWBy0VQddJY
+o4AfFnbcN+CUGhXS2O3PNwLYbZiVx8NStg0B6PvzDYUWGT+cTKKxPq7wK72+BH4Tbxueg5Eun5SM
+Hjjo7jKXho4RnW5/VJ8o3uIoZNQN5t/ZXqzwRGLw/kNX4UATPmsSJnyjMc1Dlro1HvwSxSletumm
+osc=
 
 -->

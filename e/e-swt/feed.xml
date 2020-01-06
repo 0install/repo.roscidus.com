@@ -9,7 +9,7 @@ package adds support for using it with the SWT widget set.</description>
   <homepage>http://erights.org</homepage>
   <category>Development</category>
   <implementation id="sha1new=58ee48b5da1c86990c0392795916f8ac7dd4cf4f" license="Public Domain" main="rune" released="2009-12-31" version="1.0">
-    <archive extract="e-swt" href="https://github.com/0install/apps.0install.net/releases/download/archives/e-swt.tar.bz2" size="222" type="application/x-bzip-compressed-tar"/>
+    <archive extract="e-swt" href="https://github.com/0install/repo.roscidus.com/releases/download/archives/e-swt.tar.bz2" size="222" type="application/x-bzip-compressed-tar"/>
     <requires interface="http://repo.roscidus.com/e/e-core">
       <environment insert="rune" mode="replace" name="RUNE_BINARY"/>
     </requires>
@@ -19,11 +19,11 @@ package adds support for using it with the SWT widget set.</description>
   </implementation>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJd/lUIAAoJECLqERp+QkKkcJEH/3YCIiGx1y8tAKXmB2+IkitzgL/KowlJbQ8S
-9/0VwdS3EEjz8woatgDI6/T1I5dJiOI2/9UCAAdzY8fMhihwFrIKwj+VXlso2vt0ipeC+yU7M9uZ
-5ndzmfEHrk3YZaMBooK7N7uTYPBZhihJYsO0TTMfnTctowd93Au0QIRvpHlABIX/PImJ8zIpmon7
-h0OdSkGQZ0Wez5xB+DL5Lrm9Cvie7ygO6skjUwKiJ66dpgPaxq/SVEX2t5L/MEtwkcbuoejqMBOE
-JdiBPRebQrbawXLMbgsG1nvCtLVmVJ8I6hPYlrPkDhlDc1XSJSx59i30gWNu51rA2yowEuZts8wS
-fw4=
+iQEcBAABAgAGBQJeE3sHAAoJECLqERp+QkKkwLUIAMY92RAkQEnKIPOKhbZwl4U4900r622KPAwF
+s9M8cNK3082bD6P4Lz2+KearKQKy3RdYCdiSRMvnQnMpN8c6rhixlDB8HuepeBa68rBcim5jht+D
+ZMqclcCiAsOonLohk2RqP5oHeLS1ei3wBJ1jmxOByLSJudB8HN+TpgyPNPYODld44P6KK3mLKtuy
+xHvGWFGHrwuXKuR+Nw3GRcBX2IiCVcH006hXsm7V5L23iR9K0guyM6EG4wV419mzMTBtqNTBTpX2
++L74YwQOhGpLLKDAlIVRTfDElxf/MNpzbjnOryjuFrC1vGhpfP7JogfoFrsY0pdkTYYxmF/bHRXK
+V8Q=
 
 -->

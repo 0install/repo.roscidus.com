@@ -35,10 +35,10 @@ IcedTea project.</description>
       </requires>
       <environment insert="lib" mode="replace" name="OPENJDK_LIBS"/>
       <implementation id="sha1new=6b2afc4b5841dfa24b996b321d08b48109b0c5c3" released="2011-05-29" version="6.18-1.8.7-2">
-	<archive extract="java-6-openjdk" href="https://github.com/0install/apps.0install.net/releases/download/archives/openjdk-6-jdk-6b18-1.8.7-2~squeeze1-1.tar.bz2" size="8887727" type="application/x-bzip-compressed-tar"/>
+	<archive extract="java-6-openjdk" href="https://github.com/0install/repo.roscidus.com/releases/download/archives/openjdk-6-jdk-6b18-1.8.7-2~squeeze1-1.tar.bz2" size="8887727" type="application/x-bzip-compressed-tar"/>
       </implementation>
       <implementation id="sha1new=9af7ae7fa806798b1df663c19cddf97f2aa411ca" released="2009-12-28" version="6.11" version-modifier="-9.1-1">
-	<archive extract="java-6-openjdk" href="https://github.com/0install/apps.0install.net/releases/download/archives/openjdk-6-jdk-6b11-9.1+lenny2-1.tar.bz2" size="7610012" type="application/x-bzip-compressed-tar"/>
+	<archive extract="java-6-openjdk" href="https://github.com/0install/repo.roscidus.com/releases/download/archives/openjdk-6-jdk-6b11-9.1+lenny2-1.tar.bz2" size="7610012" type="application/x-bzip-compressed-tar"/>
       </implementation>
     </group>
 
@@ -47,18 +47,18 @@ IcedTea project.</description>
 	<environment insert="bin/java" mode="replace" name="OPENJDK_JRE_JAVA"/>
       </requires>
       <implementation id="sha1new=f2da5d5538d0e3b9d9c0843cb9362e900fd33566" released="2009-12-27" version="6.11-9.1">
-	<archive extract="java-6-openjdk" href="https://github.com/0install/apps.0install.net/releases/download/archives/openjdk-6-jdk-6b11-9.1+lenny2.tar.bz2" size="7602552" type="application/x-bzip-compressed-tar"/>
+	<archive extract="java-6-openjdk" href="https://github.com/0install/repo.roscidus.com/releases/download/archives/openjdk-6-jdk-6b11-9.1+lenny2.tar.bz2" size="7602552" type="application/x-bzip-compressed-tar"/>
 	<environment insert="lib" mode="replace" name="OPENJDK_LIBS"/>
       </implementation>
     </group>
   </group>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJeETeBAAoJECLqERp+QkKkHFsH/R5jamZs2vWN0KXzAdZjJ0N7bK0A9fLsXjDG
-TClOcd5t7AmZI3vFSH15RcUXFfJabl/sSiOTyjvnumi0Dy0FuhMmjEd/UfMwev7M8fY1ziQybqaw
-QEtLiF1VN9aYkwOVTsZAwt8OBO0pYgm+HyDjysRM8rQrS5T5B+6I5lGCnwPMUSIEwhrwnY9hsvFu
-KqsED5crDe0EPn9wrKp8qPJdiPMdGnBb8dLevXhAooX2W4GisqtpWudvb/OCju/kkvSSlwOucZ2c
-X+UUIzdsl5BBVVtcQXS/bcBkrkgOrM9TUzerYAJO5mE3h/zmviIz5h66RmgjsRNaJFVdJNp2avkB
-MEk=
+iQEcBAABAgAGBQJeE3sHAAoJECLqERp+QkKkOuUH/0FMc0bUxiDoUfFTKS+QRejIdFCzbPfO/KXY
+Bhw3FPxMYND2idqyhs3Sf9MCUXMTijDxkuYYUSTSkwmPb7umtp9qlwNZ09okbspvEaVSOEizK7y8
+EpUMeERxvwVcqUA5NhQzlGuDnpeIjPcgkY+Yeb7w1Md3Nr0ue3NW8xGfUXf710wBNkNQWzRCfLf8
+tWLxQkADY8zz7cbvP+rV53b/rJS+hsk/qcWLOTFxjr64+ei1zMEeZBS4VRu5ahWOJtpNz4X0C2a4
+t1dRCEH7RPyDETiIEbIfc9X05hsAkuWaq53S+cc7ogicfk+79bzkzq6Q6CqPKYVwk7hvRWqlmanX
+ea0=
 
 -->
