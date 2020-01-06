@@ -5,13 +5,16 @@
   <feed src="https://apps.0install.net/dotnet/clr.xml"/>
   <name>Common Language Infrastructure</name>
   <summary>an implementation of the Common Language Infrastucture (.NET Framework on Windows, Mono on POSIX) using .NET profiles as version numbers</summary>
+
+  <!-- The .NET Framework is an implementation of the Common Language Runtime. -->
+  <feed arch="Windows-*" src="https://apps.0install.net/dotnet/framework.xml"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJeETd9AAoJECLqERp+QkKkznsH/jzAsN4J7BU8ysHB32PYgV3DjW11g7Riyktu
-9fMBkeJyAJYA63nmGmUfOEmAmC1HLY1/nEaDyqFNXTFufczRn7bZzAQ/XEIj03UYD1EpBvwfd7Au
-c5VNXVHsTDui5b6sLo7Ferq4m+F/asku/AX6X0R6i7vOHE0hxSpqCWzlEcfr8gmRRTJpzOdZSg9L
-9k3GPTwzuMd6Vc0PUICbCyyI0oEzL5gYvLgXyWYNx+mmcXLUtnUn2EPN71qCH0h7BbMEw+dBXHX/
-9NGUEx5Ht8c2QbhH2qELKTvtECqtOPBE7QdJczyfAodjYiaLxeaDkHW7wpS1SESBENv323Fw/VZ3
-kWo=
+iQEcBAABAgAGBQJeE3ukAAoJECLqERp+QkKk4lgH/2pfqrRgAp55JocTmaxqypfQq5uBK9BzYaAF
++jBkgcY5th3PZvGcY/5uC8I2PyQYlwFCgaXHlqsOlPkPWDgeUXBzbd/zytRj5kwqjdMdj9il2LPy
+53s1i6W4TNC4gtFz57rIPiiipc58EK3FELTqTE19JK1ghyODRArfiycSpxRG2QgSdd4rNoOOuTWH
+AT2xz59IOdgkulCWZbW8DlzXA12Cnwv4g92Sxckh0k/td5nWairom3uQ+V5IEti+fV+T9oJFnII7
+rTB6B2X/nzkCdp8qqOI1SufQAQlBC5ItnyGuSfkMP+8fpxvxO6RrbGLZDKKbYb6hDI4t9msTXQys
+ZrY=
 
 -->

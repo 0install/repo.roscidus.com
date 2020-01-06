@@ -4,14 +4,17 @@
   <replaced-by interface="https://apps.0install.net/dotnet/framework-client-profile.xml"/>
   <feed src="https://apps.0install.net/dotnet/framework-client-profile.xml"/>
   <name>.NET Framework Client Profile</name>
-  <summary>a limited version of the .NET Framework from Microsoft</summary>
+  <summary>a limited version of the .NET Framework from Microsoft</summary> 
+
+  <!-- The regular .NET Framework is a superset of the Client Profile -->
+  <feed src="https://apps.0install.net/dotnet/framework.xml"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJeETd9AAoJECLqERp+QkKkcwAIAMES7tSb+vrTLC4god11Uum1n3Tyy3x+SXpQ
-oyaGTlNegeAFiYC74ztfJRWFNY8cRUHbhRh2kJPy/+KrQdd9lERR5LTCuZIN0ePFZ5OuMKNij0tE
-+0G3RIL7+EecaeCQR60nxlCCo3xLiKJggtc1TcCuQUCJEezO74/vGloAOxQ1LmosAwJX4+euVAMN
-dwIcBit7U73B5fTVopwiGz12NiAe43nCfnv0fyfYCyA22JndXU832yXv9GmqOJvyImCgrghRGMYX
-o0Dv7eRNvfQ/jTwB7dpwZqPH4znkuYGaX+UQYW/px5/qT8ttBPBXvZzTBDR+Ah1edQccztDgtKwK
-gBY=
+iQEcBAABAgAGBQJeE3ulAAoJECLqERp+QkKk5YEH/jP0p6rLWD/ld8+jgQaaUrzbVcFmvb+4Y8bw
+DfhOBlm/3ASEoBvP3ntksegsmO6Wziblq/OgkL7iPniHpYHgmNYCTgZYnNckYG7PtKcJ6R/dfZqr
+/VLiKQ2c6t+92MrOh1UdMo8tY/0JO+mDuGuSEo8PqsZihh52FaVc96YjttiSSNZ9tQOMfW6tBNnJ
+gPowew/zVpzdl7/yPR3ITPWM0ND83m1+DvyhzxQxB0oq73W7TZFgbGHv7a2EBgXxYCw/h2NHGvcw
+VCNRtBI7sROf9xlNC9GwtA432zg+1R1tQ60q1zuWqcXJj13LaBXpI6sAmcxSsZlwrSLI7RDToRyb
+zOo=
 
 -->

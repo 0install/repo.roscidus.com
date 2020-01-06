@@ -5,13 +5,16 @@
   <feed src="https://apps.0install.net/dotnet/clr-monopath.xml"/>
   <name>Common Language Runtime with MONO_PATH support (legacy feed)</name>
   <summary>an implementation of the Common Language Runtime (.NET Framework on Windows, Mono on POSIX) using .NET profiles as version numbers</summary>
+
+  <!-- Empty implementations used to map .NET Framework version numbers to roughly equivalent Mono version numbers. -->
+  <feed arch="POSIX-*" src="https://apps.0install.net/dotnet/clr.xml"/>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJeETd6AAoJECLqERp+QkKkXjoIAL4CUYFOI0fqoX9cntrcUHBHL8WEyW4OmmbO
-/UTvUZKVGbhr8yVGfg/29AJErzEm5EaptNV5tFSZM1PXrW3phas/Hcuf5TOOcmWi5AHHk3AYLbeM
-/keUvvUbMjipUeaOsyOz+hYIFLa4ycyBWh/JCxrHXljobhWbH6fvAD6Ewig7RtZ2rNDxmR+REQDz
-1Mrq1gBxETvFUR9g0FWsDxuKKlvDh+fWig1ODOFALUFCPUwfzTGDXVHgCS8f71KsXP6Cj0n463dI
-PiE4QozntEJghXKSCTLeGfdItmKhAbQYNDI0JYAfmegMzEEn44VQgoAd9xSamBfMuanoOPeGLX2T
-V/c=
+iQEcBAABAgAGBQJeE3pQAAoJECLqERp+QkKkm38IAKZZthnSBncvZDZn/me02eCIjrvD3RItWy2S
+2SjPXe6OrPq54Sf10Vvfq4kH8VvbBePGmxPT/O4kB6qzrSCHl8hhNAE0P3ey7Xq7imJl4GskjTJB
+nPzP3iqsbj3Wv2uH3bdhBxtt+QbCMN1T6T5yXCd75oXvPglMLkHovLItzyCwpfpzzesQwx2BxmG5
+oxRDHN/8liMWiyz/FdsMNUlXYQkU9g/1iTj3qpG7Y5KcgYkP1tVKEhcgpjMLLM2cyHAMGEK1toCG
+LgnXb5q2kBgILXa69U943H7GdX+MsKv8awyPzxdJKlHp8gMRnjrZVn7S+8YD+/qkBuxr/ZAb7K7U
+FKE=
 
 -->
