@@ -2,6 +2,8 @@
 <interface uri="http://repo.roscidus.com/git/gitextensions" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <replaced-by interface="https://apps.0install.net/gui/gitextensions.xml"/>
   <feed src="https://apps.0install.net/gui/gitextensions.xml"/>
+  <feed src="https://apps.0install.net/gui/gitextensions-2.xml"/>
+  <feed src="https://apps.0install.net/gui/gitextensions-3.xml" arch="Windows-*"/>
   <name>GitExtensions</name>
   <summary xml:lang="en">GitExtensions is a graphical interface for Git</summary>
   <summary xml:lang="de">GitExtensions ist eine grafische Oberfläche für Git</summary>
