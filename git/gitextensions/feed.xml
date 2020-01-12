@@ -3,6 +3,8 @@
 <interface uri="http://repo.roscidus.com/git/gitextensions" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
   <replaced-by interface="https://apps.0install.net/gui/gitextensions.xml"/>
   <feed src="https://apps.0install.net/gui/gitextensions.xml"/>
+  <feed src="https://apps.0install.net/gui/gitextensions-2.xml"/>
+  <feed arch="Windows-*" src="https://apps.0install.net/gui/gitextensions-3.xml"/>
   <name>GitExtensions</name>
   <summary xml:lang="en">GitExtensions is a graphical interface for Git</summary>
   <summary xml:lang="de">GitExtensions ist eine grafische Oberfläche für Git</summary>
@@ -42,11 +44,11 @@
   </capabilities>
 </interface>
 <!-- Base64 Signature
-iQEcBAABAgAGBQJeETd/AAoJECLqERp+QkKk2zYIAIyPizAgl4S+A4oLSObiBf9Gmvi0CT6/0XTZ
-0HSViqHOvgPJ9tQnJQcB1P4iBZ0eFNguMLMYEVXcWDEsQZsvNsGxg1isSK+bx25TY1LUykSCjBYA
-q8EE5vk5MV9XlL3BkTmyqwg9U6TMnl8Yb9pez1+BZzb7JxNBJxf+2R4P3xFn2O0QdpoX9+bcPzH7
-FH3RxvUvqZyZhpAJMEG013JurElwBWWbN0YYClFR0Vo46unI9fuSXQ6j2/w9FWkWgMk6Ox/Um5r/
-MnqnHoDbWst5X7Sr0XsaazYo84HqAvMD2ezuKElHTO+lLqGTFQhJR8GzEzuhGU/V1iOwsRRIA3H1
-Y2o=
+iQEcBAABAgAGBQJeG4t2AAoJECLqERp+QkKkWJQIAI0hu6ZBnsTuBSz4v3EneQGRdTZXAhUprezc
+KDCbV9ls0wjU5mQvJU0KpulGFYl2fw+YwZDWxPjZgYUPSyhB2ocp3p+drX8dBA0RqBGqEdXbz2kr
+ldfd/kVlTHchj0uCM6iGcSKXZWs8tcey3rc0f+nsDAZhOHXi/pQjO/Tmn8PFil+8B1KHSp89ys5C
+wt8TLtA4fZSlPeeXQsxCcpw4W7scK/S0fmlvn+AhJLDrIRcamtPGrFOKBzusxnCBr8Mr9gJ1pwe/
+dTgMuv/6WrdHvmA4qAFj0hjhKKtv8xz93bvM37Y9CbSmgkpJD2taLKEGAdLttanl/MNJ5w23vcA+
+Tko=
 
 -->
