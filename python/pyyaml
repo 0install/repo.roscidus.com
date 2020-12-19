@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/python/pyyaml" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/python/pyyaml.xml"/>
+  <feed src="https://apps.0install.net/python/pyyaml.xml"/>
+  <name>PyYAML</name>
+  <summary>YAML parser and emitter for Python</summary>
+  <description>The next generation YAML parser and emitter for Python.</description>
+  <homepage>https://github.com/yaml/pyyaml</homepage>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g68AAoJECLqERp+QkKkIfsIAMyhhaTsPtLx9FfACiPTjFq4bpvKA2ToV2Yn
++K3H+PkK9oiVrmfBi9vuVbDh3mo4g6eJYslPEk5cVrfO+gLiQrdO0lQd6PZViGS54mLgFieq8AAx
+9AiJZ/JRpTKi/5OFEZN2VVBunKCMFtMeee/WUtDhQeobBTCRLHVGQLTdpjaUYK+vtpuyKZOvQ3gz
+bAXquccuaIrEZbfcfpAUQ1YpaAcYY3g8a7mSAVSQpDaWSGD+DC1fyU6Nk7cen6WuqwU+cHdUldiQ
+w9eTzBg+ipEw4DDH5ukLk9rvfWIL5vYjGwfxQX0OhvrNTGzdDIdgpUwDt5zQ6n5AW4JhrwrjQGs9
+Pr0=
+
+-->

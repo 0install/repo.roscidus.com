@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/devel/doxygen" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/devel/doxygen.xml"/>
+  <feed src="https://apps.0install.net/devel/doxygen.xml"/>
+  <name>Doxygen</name>
+  <summary>generate documentation from source code</summary>
+  <homepage>http://www.doxygen.nl/</homepage>
+  <needs-terminal/>
+
+  <entry-point binary-name="doxygen" command="run"/>
+  <entry-point binary-name="doxyindexer" command="doxyindexer">
+    <needs-terminal/>
+  </entry-point>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g6zAAoJECLqERp+QkKk0iEH/R72UX3+vZOaNNjhJfuYV0naplPlGvXmYJY6
+sUeGKSZAkihAwEDImKkmv4hfSAGYm5Jj1QARkIs5RkKOY7MVOSQjArVc5xV9MhgLJb5LWaG8UXVH
+JlkSrXUSRm/I5ox62aNLGPMJThPEiGFcrvEyr/1MdaMA5W51ya1mBGUeJlBeBvckck5UoWFL6sVh
+NLhy184d8s1msnol1njj2MpM7mSU5MooTBA/VCVbfgUQygG5+i6t86JtSP7h5Qt7yvhV4TIYK/aL
+s6xdh1gzxOXom2/cp+hpscZkOx08cJOu8RaOk0KYltdRb7IrvOfkXm7L1hi4uwl6FxQKE91aPrRj
+fkc=
+
+-->

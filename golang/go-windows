@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/golang/go-windows" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/golang/go-windows.xml"/>
+  <feed src="https://apps.0install.net/golang/go-windows.xml"/>
+  <name>Go - Windows builds</name>
+  <summary>tool for managing Go source code</summary>
+  <description>This is a tool for managing Go source code. Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.</description>
+  <homepage>https://golang.org/</homepage>
+  <needs-terminal/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g62AAoJECLqERp+QkKkOrkIAPH90/mkIwtd+Qs9r/OzyssrnHbDw+WDl/YN
+f+Cm+JoE4t0ebHkfripHNzZdh3/FFl/Q+aolcARYcGY0GYGzohAHeVPxb0zN6o5YGCCbZ8db7B1R
+m02JG2jaj+LPEACA6jX6d+5mdb2wBoTszV4FD1j7c5eqW3opCYJirWOk3FP8YyWq9PDvP/F3aNyy
+AS51vjFN/YnR6anPXA0cqB5jCbZ59wtAcdwKB8hUWYp2u+3Qc98Jb1Au3bv1Wk91CkoNskjLMLo6
+UCeZBKBeh0W+B79drRSyBTCo2S4v2wPMiHUUspI0jWpxItfKIWw2/ZzttHI98oTWN2/pD5OiF6zx
+vNE=
+
+-->

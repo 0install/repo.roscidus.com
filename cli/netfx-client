@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/cli/netfx-client" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/dotnet/framework-client-profile.xml"/>
+  <feed src="https://apps.0install.net/dotnet/framework-client-profile.xml"/>
+  <name>.NET Framework Client Profile (legacy feed)</name>
+  <summary>a limited version of the .NET Framework from Microsoft</summary>
+
+  <!-- The regular .NET Framework is a superset of the Client Profile -->
+  <feed src="https://apps.0install.net/dotnet/framework.xml"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g6zAAoJECLqERp+QkKkEUEIAMBTbU2x8A/5/QdYKTi7Z/hD1IG+9kkzY3nz
+SYts22OhyIIRd2ALW43dYeb8IPPy8I2kBcLsvf8F1ndcmy0EuRYcAoRTpVIFos2Ja3pH1R3tmuqX
+GCUq8WOXWVNYT4JM7tWtivzD7sQJRCsmAiK8X2dvBHkKlh5x7e6jIAFqApJOaumLqeJgmMKoWYEP
+fUvynHIatJo/pAmisYFU+udmPQLJ8uH+7kK9jg6bVL8wrUrbrRTMz9K30ANSVSKmzGRMRln2N4u0
+W6TKXNJhoE5z2lRpAdqnx+rbW28EtageQAYef6d71Vh1sZ0NlXaYdJ5EnlbrGlhU14+VkUZlhEBb
+zk8=
+
+-->

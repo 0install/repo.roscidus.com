@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/utils/winscp" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <replaced-by interface="https://apps.0install.net/gui/winscp.xml"/>
+  <feed src="https://apps.0install.net/gui/winscp.xml"/>
+  <name>WinSCP</name>
+  <summary xml:lang="en">SFTP and FTP client for Windows</summary>
+  <summary xml:lang="de">SFTP und FTP Klient für Windows</summary>
+  <description xml:lang="en">WinSCP is a SFTP and FTP client for Windows. Its main function is the secure file transfer between a local and a remote computer. It uses Secure Shell (SSH) and also supports, in addition to Secure FTP, the legacy SCP protocol.</description>
+  <description xml:lang="de">WinSCP ist ein SFTP und FTP Klient für Windows. Seine Hauptfunktion ist der sichere Dateitransfer zwischen einem lokalen und einem entfernten Rechner. Es verwendet Secure Shell (SSH) und unterstützt auch, zusätzlich zu Secure FTP, das veraltete SCP Protokoll.</description>
+  <homepage>https://winscp.net/</homepage>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/gui/winscp.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/gui/winscp.ico" type="image/vnd.microsoft.icon"/>
+  <category>Network</category>
+  <category>Utility</category>
+
+  <entry-point binary-name="WinSCP" command="run">
+    <name>WinSCP</name>
+  </entry-point>
+  <entry-point binary-name="WinSCP" command="run-cli">
+    <needs-terminal/>
+    <name>WinSCP command-line</name>
+  </entry-point>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g6+AAoJECLqERp+QkKkWN0IAKxIeiyKPeiIhWG23M6O0efgCtRFd41Ltvgm
+kc+5pwvofzKcy8JfFtKQotlWy5gNuHgQMaSzatPsfPsZrK6ZWcBu0DxKQtpYiEmOtA+U1LjPFTRj
+O/+N68+Fyg+kI4JqfOUi+s8ooU4unzdww9nBR09zxTYG5D4LohA0b9RukOjFJT5QTiqd19kXiw/m
+wtpXR0Lj8uG0qyRxbRei0fHwdhb/WmLYzOYa0WBrceUFVVmOfYK0vHEHSvZjthMBq5h8/AD3C+31
+PL3WZ/SY3fn4M1gusc8SxiQOjKKJA6u07OMjl4903ZiqPi+l8rgU16YIbmqftdli+E6VwYTRBhlz
+oqM=
+
+-->

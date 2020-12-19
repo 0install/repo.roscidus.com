@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/gnutls26" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/gnutls26.xml"/>
+  <feed src="https://apps.0install.net/lib/gnutls26.xml"/>
+  <name>libgnutls26</name>
+  <summary>the GNU TLS library - runtime library</summary>
+  <description>gnutls is a portable library which implements the Transport Layer
+Security (TLS) 1.0 and Secure Sockets Layer (SSL) 3.0 protocols.
+
+Currently gnutls implements:
+ - the TLS 1.0 and SSL 3.0 protocols, without any US-export
+   controlled algorithms
+ - X509 Public Key Infrastructure (with several limitations).
+ - SRP for TLS authentication.
+ - TLS Extension mechanism
+
+This package contains the runtime libraries.</description>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g65AAoJECLqERp+QkKkwmAIALJCXDp8mDbb63dgoHAOl1tIG0HTenpSeOdc
+NNmzZOILovgNaJAiV0wTwcXaHYRPkVHsg2cQCcwF41w5C3dGechQpC/XnioXJVzLZo2cwvF9HQ7w
+AyhP2FS/QfgXED49zMSu7mbiBWzPFPm2+iHMijU/n3nPFVkhxBdGeiLUiU3VfOev/zJWU6CJa9uI
+obt+FJXwxBCJPdV3LdD7JjIKZG1z7CCTshtEBeRUb+b2YGpjPrAnCMlciLyy5M2BBXRZux+eYnZN
+4K79NAKr8o9RH4yOOGq6DPDiLxEdpeQDmD46qhBcYtvYW+d98mfQndd0o4xklW2XaOu8TfrMRH9O
+CNU=
+
+-->

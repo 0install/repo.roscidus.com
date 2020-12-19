@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/e/e-swt" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
+  <name>e-swt</name>
+  <summary>graphical interface support for E</summary>
+  <description>
+E is a scripting language designed for writing secure distributed programs. This
+package adds support for using it with the SWT widget set.</description>
+  <homepage>http://erights.org</homepage>
+  <category>Development</category>
+  <implementation id="sha1new=58ee48b5da1c86990c0392795916f8ac7dd4cf4f" license="Public Domain" main="rune" released="2009-12-31" version="1.0">
+    <archive extract="e-swt" href="https://github.com/0install/repo.roscidus.com/releases/download/archives/e-swt.tar.bz2" size="222" type="application/x-bzip-compressed-tar"/>
+    <requires interface="http://repo.roscidus.com/e/e-core">
+      <environment insert="rune" mode="replace" name="RUNE_BINARY"/>
+    </requires>
+    <requires interface="http://repo.roscidus.com/java/swt">
+      <environment insert="swt.jar" mode="replace" name="RUNE_SWT_JAR"/>
+    </requires>
+  </implementation>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g61AAoJECLqERp+QkKkw4AH/3Ik0z2RLNgB7B7cWuEzoWtMAhEj+xcUV2Pm
+ocH2CxyGXRekTQXCej+jW8jlqTr2k+K3YeQrxvtYHrm0PurI8KIJu9AXRUoKuf73RGMLNKyiSlH2
+/FCADe+rg7O8r+XX2+mD63qQz7VGqxxM+jUrNPCnKK8A41oAk8+7nB08+n7iiz+VIlmoRLFCkzzp
+ejL/77fFm+zd4R6fmXoNYqrf5Z4SAga9nz6zMRn0W25b3SSvxMiCcal3h01gxaBUGAdHtBxe3Lss
+euwnmtc5qlujzyvMTjUhLS3RuEE6CXgAXQ6b+xNsszrC8CHaGYZIUSUCRG9tEszbd1AW73ua/DG/
+GUs=
+
+-->

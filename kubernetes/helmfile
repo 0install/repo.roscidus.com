@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/kubernetes/helmfile" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/kubernetes/helmfile.xml"/>
+  <feed src="https://apps.0install.net/kubernetes/helmfile.xml"/>
+  <name>helmfile</name>
+  <summary>deploy Kubernetes Helm Charts</summary>
+  <description>helmfile is a declarative spec for deploying Kubernetes Helm Charts.</description>
+  <homepage>https://github.com/roboll/helmfile</homepage>
+  <needs-terminal/>
+
+  <entry-point binary-name="helmfile" command="run"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g64AAoJECLqERp+QkKkCBEIAJBX94YKi/bv3hhsfJXIXljqPN7ygIewQyeI
+BFKrs/33dei3nx+zUV+uaW1bGBADg4N/4Q7IIGRFEgOi8nrWCmSZ6g0K9F3PXFm26qini+FogA6J
+Agm23CPVy83wVNXEUYN4OjpZ6b9L6dZ/Ke1uCxVSajCnDXGj62Q6Z2pYO8KM15DzNTnPfZhIQfRp
+uCFi8lAe9UBRWRjTAAKW1+UMdTQdEGMsJZa1/m673vD2nf3g8bvRKwCctexRYviQnfyi4HvAcbcO
+4FiIb6+J8egD0L2ZEqKWNfv3w/2RwfCmZNS8JIQz5uFRNxgcQxqhArA5Uu+aW7EMZbceBN/flxuz
+/MQ=
+
+-->

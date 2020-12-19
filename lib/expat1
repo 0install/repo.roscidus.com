@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/expat1" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/expat1.xml"/>
+  <feed src="https://apps.0install.net/lib/expat1.xml"/>
+  <name>libexpat1</name>
+  <summary>XML parsing C library - runtime library</summary>
+  <description>
+This package contains the runtime, shared library of expat, the C library for
+parsing XML.</description>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g64AAoJECLqERp+QkKkAcAH/0iUMLCDUhTRC+rg+PGe9UO8HNlgsrAa4OT7
+3aR9B/h9lnt6yxLEPhn4M7nZO0KVF0QxcQDuWCc+3nfgE3N52t1K2Bh/qWr2O1srdFYEjJpbdJT8
+CcH/7SgawIn1QppXxoh7aqrMn4f/FrSw8WxGygL9GoB63DxAVe6Rcu3I/oR4wedUUi0nXYgrIlrK
+Z5fm/S/hFtCDXF8+DcuLKSB+FTdIbeKBHMlUuVq6Qxec67+UzfeT3F043OSJJIsxO886hNYy/iSh
+dpFuj2idHsObbMlzG/DXRA1VEOm4C3BdlmqJ/zYHhWi8s2lwIpbRRW+XmacaTVpUDtgj3pIm1+cf
+43k=
+
+-->

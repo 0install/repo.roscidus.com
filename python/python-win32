@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/python/python-win32" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/python/pywin32.xml"/>
+  <feed src="https://apps.0install.net/python/pywin32.xml"/>
+  <name>Python for Windows Extensions</name>
+  <summary>Python Bindings for the Win32 API</summary>
+  <description>The Python for Windows Extensions provide bindings for the Win32 API.</description>
+  <homepage>https://sourceforge.net/projects/pywin32/</homepage>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g67AAoJECLqERp+QkKk1hgH/3GZNNk4yrXNoKD8PRU2w+GMQRMMKhEIsYj3
+EaHQGzQtCz6wIOVQP3h1+Fr7HcSDnravou+dYoYIW2hnlixADlsQJN1P5fTap4fdHyiE1+3DYyhF
+KkVyVnbaI61AydJaG/AbJujIJ1Dzs/NuWD1+FLwn4QhJoIhiqZ56Jb6VpGOl2l5JEFBv5EUHF/h2
+W4d4eiLlwD0b/kuOyRZL/xm43sCiIxlIT5Xz2faT3yydi++83CI1ivkYZeEeC+PDXNi6cZ4jLE6h
+Z/VX6jHMN6FYpKPMmuShP+RLNOcU6WMEzEE5NsuyIYnumttTNKA3D8bVsKlN3RLqiRVTssCNBu+c
+3wg=
+
+-->

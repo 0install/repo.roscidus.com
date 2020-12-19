@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/java/iris" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/java/iris.xml"/>
+  <feed src="https://apps.0install.net/java/iris.xml"/>
+  <name>IRIS Reasoner</name>
+  <summary>an extensible reasoning engine for expressive rule-based languages</summary>
+  <description>
+IRIS is an open-source Datalog reasoner that can evaluate safe or unsafe datalog
+extended with function symbols, XML schema data types, built-in predicates and
+(locally) stratified or well-founded negation as failure.</description>
+  <homepage>http://www.iris-reasoner.org/</homepage>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g62AAoJECLqERp+QkKk1xwH/1+zdVUIowRb41xEYHgI2Km0ae67MSA4kDNi
+6aHNjHDu18tMR8+HdfUKY+U4NnIYRF9BV+m0FhnKYNoPgsw3kuFnHlXMWomuA2d+FPtE+Z2GbQE6
+GwONFUL/gz+gI5beMG59dIUdhk9ID74X3C8pOT4ja1rzd0ZBLxClEcyeNWmhipOj8IpAJ8vDAdfy
+mQ78/DioP6R/GPgnn/fsAqtm5DFbM3HK7e3VLa0t8EXBPjXX67cz7YN6lB0IK5d9E3TSWF3tw6CE
+fH876cWVrGCiEnsPM/jYBxdqRLYSkOjgfpGcoqX3dVnDKC9cy8t+LLU0yqCCqVoHRZO+DJpMKlI9
+pHo=
+
+-->

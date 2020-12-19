@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/java/maven" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/java/maven.xml"/>
+  <feed src="https://apps.0install.net/java/maven.xml"/>
+  <name>Apache Maven</name>
+  <summary>build manager for Java projects</summary>
+  <homepage>http://maven.apache.org/</homepage>
+  <category>Development</category>
+  <needs-terminal/>
+  <entry-point binary-name="mvn" command="run"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g62AAoJECLqERp+QkKkaTcIAOG549nELEW2EcTDB7Gj6xbLxO3rTSYebj4Y
+wd2AawughLTLqwlZE7t3ZohZbb7kd9yhBPT0IiCwakaXn9MVSg4MA846kqZ11+CoFILzWJn3jMhK
+IAEm7GmSW/UKc+EmJMnfEd0BWG0wA9RqvwcwsCVBvC0oQmqVSeMR8/TKShETEqQYGyOpgMkWxF1t
+XNFFAvInAzf3m47021AMDQOqf99bljNB/H260eWknriQAb4enqX2i1hJYC8Fq0Mko9FaJLCNYHzF
+QpUEOn/gIFG+16LDwVxazaFaFXLCbiGfD02z+jUbpqRn8aKPtMVzGOvY+YzPRaRwiWGmfkNFAWhD
+MW0=
+
+-->

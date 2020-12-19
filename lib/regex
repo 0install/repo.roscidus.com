@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/regex" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <replaced-by interface="https://apps.0install.net/lib/regex.xml"/>
+  <feed src="https://apps.0install.net/lib/regex.xml"/>
+  <name>Regex</name>
+  <summary xml:lang="en">Regex: searches for and matches text strings</summary>
+  <description xml:lang="en">A regular expression (or regexp, or pattern) is a text string that describes some set of strings. 
+
+Using the Regex library, you can: 
+•see if a string matches a specified pattern as a whole, and 
+•search within a string for a substring matching a specified pattern. 
+
+Regex provides three groups of functions with which you can operate on regular expressions. One group--the GNU group--is more powerful but not completely compatible with the other two, namely the POSIX and Berkeley UNIX groups; its interface was designed specifically for GNU. The other groups have the same interfaces as do the regular expression functions in POSIX and Berkeley UNIX. 
+</description>
+  <homepage>http://www.gnu.org/directory/regex.html</homepage>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g66AAoJECLqERp+QkKkM14IAN21SLjHJStcWqc9MiWP5UOD/HwEvqSpbTfg
+XJmox8txAdBhAm2mntb0WLYFQlllJWF4NpODybPa+rZAFM9cLp2uu1LLRwRZ2hXMu5DmbZLdZBh8
+qq52L/miT5PSpVWAOXAHH/gEM3OmK9wx3eIuVjTwNMJ4PNl/tVKyYVOmw8+a10a9/wylhnn6ypIt
+Fh+sJ9wggURwOmotpF7R4b2/LqrRCxloRJMzU0UniWsIbGwBa2VI1zlECe0We7YDbvlff7DKqZRR
+R8VHjvpjiMFsqYpBx+d6BuSPHvw62jSahKardNYn54OzMzUfMY2U8Tv7b+Mkq5d6iyM+ePWOtG8D
+x7I=
+
+-->

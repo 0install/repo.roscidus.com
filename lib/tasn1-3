@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/tasn1-3" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/tasn1-3.xml"/>
+  <feed src="https://apps.0install.net/lib/tasn1-3.xml"/>
+  <name>libtasn1-3</name>
+  <summary>Manage ASN.1 structures (runtime)</summary>
+  <description>Manage ASN1 (Abstract Syntax Notation One) structures.
+The main features of this library are:
+  * on-line ASN1 structure management that doesn't require any C code
+    file generation.
+  * off-line ASN1 structure management with C code file generation
+    containing an array.
+  * DER (Distinguish Encoding Rules) encoding
+  * no limits for INTEGER and ENUMERATED values
+
+This package contains runtime libraries.</description>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g66AAoJECLqERp+QkKkXmkH/3lm5JwtmeZl443BaXBeTZYvRQ7KX+qo6jNa
+XCosSda4+oPxsmXciJ8BfgpIwlCacYOeUgQfcahH5lukk+PbXaOa35ZMMw0k9YanRKkdi2NFIvt1
+2jY2npMmGm28ELtfP+GJvvRVZz4FQmPSejX3oSl2yTR6evQZI7GalNkub15e5hIzzYD4+upd4GLw
+Pt4ShZn26FHkwBMBvU+ZfT0KzHI8ZUH6JmrnolcTHhj6Al2/YE/g9d2SW0dVgOScT6ybRJnxwbct
+5mlZuScwqrV4r0lBUMJUyHCwdZ8Uoe+pIBAiWXJ7GuhfJ2LhHgwyKMSU1TQv0XPaq3ErPnj6/SN9
+hZI=
+
+-->

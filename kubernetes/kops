@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/kubernetes/kops" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/kubernetes/kops.xml"/>
+  <feed src="https://apps.0install.net/kubernetes/kops.xml"/>
+  <name>Kubernetes Operations (kops)</name>
+  <summary>production grade Kubernetes installation, upgrades, and management</summary>
+  <description>kops helps you create, destroy, upgrade and maintain production-grade, highly available, Kubernetes clusters from the command line.</description>
+  <homepage>https://github.com/kubernetes/kops</homepage>
+  <needs-terminal/>
+
+  <entry-point binary-name="kops" command="run"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g64AAoJECLqERp+QkKkQioIAJL2Qko+mPQhh/O/hG+EtF5zR604msXEY9yF
+romX4OmDEL+aHNkT1qIAqBUTP82NeZD/waCvLf811EI7x7JYLfDeOvwZxdf+LWbnuyfUOuLTZRCq
+XXcSyd4axTLfFGYdN1otoz0Vw4wSwFiO9iFrYjj8Aw7wdU92E5zf5/CjtZCHa8y/qQy9Zq95cRYt
+fFEUhiI+tZ4XDhI7iBnJNDtIU81mgMJi5E+CHQdOQHoUIh6XcIN+unsSP4NrECPVy6clFhtJjleS
+nS/hlLku6l+RbKarAFaKfyxcVPxcsPwqC33CEFSSU+jX+NvaYmgsLKmZe9Kqi5GwOJij5RPl/UuL
+2so=
+
+-->

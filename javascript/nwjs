@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/javascript/nwjs" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/javascript/nwjs.xml"/>
+  <feed src="https://apps.0install.net/javascript/nwjs.xml"/>
+  <name>NW.js</name>
+  <summary>write desktop applications with all Web technologies</summary>
+  <description>NW.js (previously known as node-webkit) lets you call all Node.js modules directly from DOM and enables a new way of writing applications with all Web technologies.</description>
+  <homepage>https://nwjs.io/</homepage>
+  <icon href="https://nwjs.io/img/logo.png" type="image/png"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g63AAoJECLqERp+QkKkBRsH/ib2Xp818u7nDjnlF5C55roHmJInVq5WMyoA
+TT1jVxH+RA+zJSQ0QM6eCWszWmfx6thDKC13n8HBGCcbHNZoNSb/suTR+U6jUz0+26/WhTlE3XYG
+vml3bZb5JQS0NDrCIvbocB/DyWOmFC/hC9wsj95NTs8rmMqckV5Jivy34FBCbQwG3RpZeNAA9qts
+xjDMic2UBDcXsUUA1BMbDqmhV183gbl7LYGvVapIJZbYmValzuXM20kt/IcDAfQ3nwGVO8MyCyN1
+2F7Wb58WXZJptN2Wb6wiO6nmpaViTm40RwXJt96urj42J5usnUVayNjBu8m65dKvs76BaxAXEaBe
+qUM=
+
+-->

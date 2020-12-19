@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/security/openssl" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/utils/openssl.xml"/>
+  <feed src="https://apps.0install.net/utils/openssl.xml"/>
+  <name>OpenSSL</name>
+  <summary>command-line toolkit for TLS and SSL protocols</summary>
+  <description>OpenSSL is a robust, commercial-grade, and full-featured toolkit for the Transport Layer Security (TLS) and Secure Sockets Layer (SSL) protocols.</description>
+  <homepage>https://www.openssl.org/</homepage>
+  <category>Utility</category>
+  <needs-terminal/>
+
+  <entry-point binary-name="openssl" command="run"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g68AAoJECLqERp+QkKkN3EH/1NjqHzReiN1zR1JVAqNLDuu/u1sPKojew9d
+8ZtZrM63gcLPFhlakNC2ofmhMJsb5GCDnvCIh+uWq3XtTA9C8aP9yikiFnblR0rnckx/BTpcFkqa
+f7H/v5/XL+pqX5zAxXIb6ZaOq8nKzFu6lmj7xp/yooNRKFOcECQPMu/0KmMga/DWcBipEQYY+5PW
+x/l3Fvo9Hg0/qO8+AIc/RnG4erGuRsQ95yga7OLkoRIsvhWFaLR5pYaNSvQmcPHjOFmh/pdjSJGg
+XNtgFIRMbYwR9cxGXnQcVbpm5E9ioyLU24puw7Er1NBO8CsBu+kbcQlXFR9HgSQcodTFqk445rRX
+CH0=
+
+-->

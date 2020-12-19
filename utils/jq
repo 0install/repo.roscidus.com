@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/utils/jq" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/utils/jq.xml"/>
+  <feed src="https://apps.0install.net/utils/jq.xml"/>
+  <name>jq</name>
+  <summary>command-line JSON processor</summary>
+  <description>jq is a lightweight and flexible command-line JSON processor.</description>
+  <homepage>https://stedolan.github.io/jq/</homepage>
+  <category>Utility</category>
+  <needs-terminal/>
+
+  <entry-point binary-name="jq" command="run"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g69AAoJECLqERp+QkKkHvoH/AyXcQMGcZzFWg86KofVo72plviwJ+kCU1pP
+gK1wXDV2fM9CHuM1I4gahR+CEKSDWJ95IXsUe8NZJpVkNcWKsoq73d90yjfM1Ev153a36yXtApu6
+hZxEDxEo/2ZvLv3r2Fkpk1JYxUoX8fQD8Swuh44oDSI1NIOF3GGlM9n8XcPhShIZSNFgFNyHaRf+
+DLGbXRmmbI4Ey+EcmcV94usnTXibkQT1f8cCz7R/b4v52oPVxdvA6/mXT71GasgyjKD7vwaW1MmB
+T9bBTHKsvSnFDASX81eOQkooV4JEToCFBeHnVeHasQDTvHLnwcspgPraljFlx8f3VTumSDtki/we
+jPw=
+
+-->

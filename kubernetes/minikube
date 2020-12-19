@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/kubernetes/minikube" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/kubernetes/minikube.xml"/>
+  <feed src="https://apps.0install.net/kubernetes/minikube.xml"/>
+  <name>Minikube</name>
+  <summary>run Kubernetes locally</summary>
+  <description>Minikube is a tool that makes it easy to run Kubernetes locally. Minikube runs a single-node Kubernetes cluster inside a VM on your laptop for users looking to try out Kubernetes or develop with it day-to-day.</description>
+  <homepage>https://github.com/kubernetes/minikube</homepage>
+  <needs-terminal/>
+
+  <entry-point binary-name="minikube" command="run"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g64AAoJECLqERp+QkKkve4IAJffvD1NQW4PcHAwjmhgnP6iCXw0WjmPF+H0
+iN8SA3Zcx7kRre0QoXc1xCwe9ZMiU4vYriWZNuqGEHbSRj1+gmbZCtsJ8lrJtLJhTnwnvhiVfxsN
+fl/CZ4gIXWcoWdSeOuIX3qGYazka34hrZEFwC6fy+TPFTC3dQTx387ZwEg0YZong8SOEoQg5ujiQ
+CkTbeBHYaTr5pKdsChKBFSHEi6Tzhis8RoI8Ana12+3VSUoyRkPFteSCYaF6Est+G0iuJOJ40H0X
+am2CaNA840pphWyu4IS0IbVuvmjigvkPlx7HODF112EJy8HYFKJl8XlE1BknKr33Vtcr4kifwaql
+Na0=
+
+-->

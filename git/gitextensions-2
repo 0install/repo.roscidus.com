@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/git/gitextensions-2" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/gui/gitextensions-2.xml"/>
+  <feed src="https://apps.0install.net/gui/gitextensions-2.xml"/>
+  <name>GitExtensions 2.x</name>
+  <summary xml:lang="en">GitExtensions is a graphical interface for Git</summary>
+  <summary xml:lang="de">GitExtensions ist eine grafische Oberfläche für Git</summary>
+  <homepage>https://github.com/gitextensions/gitextensions</homepage>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/gui/gitextensions.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/gui/gitextensions.png" type="image/png"/>
+  <category>Development</category>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g61AAoJECLqERp+QkKkTuIIAPWDwjQDHqHxNmDcTLvwpiAE8xlWS+cEjKu0
+FuEtLygHsW7w0KEzlSt2skIiVum4lJnqtrplAZz3ROiVIRifDQEHWWOEJ4zykYpTnbJwsTxBGzKR
+/et+sQ42Gg5Vy6J+5rUwzA5mhEIsfCGr6xqjocidGdreEB89d2faU2aZbQzj7fIxZ8gN0GZqigTN
+w0Ng2ygR4KRWiDa/QBP74HXYddBBeI0ztwBd5AjBsUqCyspu+7qI13xLWaWyzsla8drdV3r6gyHx
+fOCIQugWU+J4uYV+3133R2Ep2+5HUP787pUkvYm8QVfVfw7ShrThV+/ufvdnS6PyLDodXV/fs7qO
+HR4=
+
+-->

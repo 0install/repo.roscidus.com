@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='../resources/catalog.xsl'?>
+<c:catalog xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:c="http://0install.de/schema/injector/catalog"><interface uri="http://repo.roscidus.com/google/cloudsql-proxy"><name>Cloud SQL Proxy</name><summary>allows user to connect to Cloud SQL without IP whitelisting or SSL certificates</summary><description>The Cloud SQL Proxy allows a user with the appropriate permissions to connect to a Second Generation Cloud SQL database without having to deal with IP whitelisting or SSL certificates manually.</description><homepage>https://cloud.google.com/sql/docs/mysql/sql-proxy</homepage><entry-point binary-name="cloud_sql_proxy" command="run"/></interface></c:catalog>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g6/AAoJECLqERp+QkKkUgMIAMvowy8VM6CKi4/pyLxjp2lsA9bHSk8J/BO8
+n+FDR/IhN7G7TkQGgjjCoX/WIeaiK07cUSHsH0WeyAb1USeYAv3HMevM8oOTR0I8juWbuTIT6BHL
+G/zgNlJJJZzLQunt1Ud7VPtnyUBgx00FDg68QkQRdcv+HAmrq974MZAxEx+KjH1hEsJCNCiSe4w0
+PIYR8WpvDsAG7ZET3xWZzVuGKjNEV2Pz4/EE8UGlw3G4mNBO4kSIJFIPoue4HddyfwaI6Hwwwt/8
+IjzgRFyprphuMxLQJaDxsF2CHzLMlwVEdfZ6tloe533c2/TvMyJjqNleAiO12035ODgKUPhEqZxc
+oYM=
+
+-->

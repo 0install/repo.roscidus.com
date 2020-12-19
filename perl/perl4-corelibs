@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/perl/perl4-corelibs" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <replaced-by interface="https://apps.0install.net/perl/perl4-corelibs.xml"/>
+  <feed src="https://apps.0install.net/perl/perl4-corelibs.xml"/>
+  <name>Perl4-CoreLibs</name>
+  <summary xml:lang="en">libraries historically supplied with Perl 4</summary>
+  <description xml:lang="en">This is a collection of &quot;.pl&quot; files that have historically been bundled
+with the Perl core but are planned not to be so distributed with
+core version 5.15 or later.  Relying on their presence in the core
+distribution is deprecated; they should be acquired from this CPAN
+distribution instead.  From core version 5.13, until their removal,
+it is planned that the core versions of these libraries will emit a
+warning when loaded.  The CPAN version will not emit such a warning.
+</description>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/perl/perl.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/perl/perl.png" type="image/png"/>
+  <category>Development</category>
+  <homepage>https://metacpan.org/pod/Perl4::CoreLibs</homepage>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g67AAoJECLqERp+QkKkbTUH/1dPwaQPJV2XUJ5w+Ubc9YPL2A40UmuXl1JC
+rjxVFBVnREFl02PDn+zUVEt/9M5HEd9I3wVJdtzsyT69fQDotyDI6N/Ni2hxdJ2alePRpWmEw189
+1uHIX93QqbMaiZ49AR9XFThxFSpnLnq4pyO+ABey0rWdlpLVoa9u3t5CkF7KB9izLRdHfudZSIOO
+mtQ7jXmgSKNsaJX2P1tZC9G+qCn85UcWR/1DM/7L10OHsC53huGBHA+e7Q6oLplj1cbEUEhVUj6t
+tEPRiS3Nuc1sYSWLKsYQEKpNphgUNl97zgDh3ij/B+IJ/erlnNjZLplJp0cBaBsxxiG2tMvEpxIF
+Krc=
+
+-->

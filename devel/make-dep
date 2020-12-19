@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/devel/make-dep" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/devel/make-dep.xml"/>
+  <feed src="https://apps.0install.net/devel/make-dep.xml"/>
+  <name>make dependencies</name>
+  <summary>libraries for make</summary>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g6zAAoJECLqERp+QkKkJwMH/3VK91gFIYrUCmeW1csKVnUjwhZaRwVjv/ME
+9PWBZXL/gzD9hG6EojVR8SL7EIOTDsuYKp4YY2DlaHSMcnDUesKj0l0FNyIQxhA9LfOUa6W7k+QV
+9GVTbdZFRLIlWniEI6E8jpeGVWl7QJoWaHVFaczV8pw7RAZ8H7AiSVxm2fo56e7cf0zCarBItUXg
+7sHbaQWl+bIBfWzWnyzDH3IAAI3dlhTY86lPP9yOSvPTIO2EdO5RkYeLP2LuXUnHC4OwX0IxrzXS
+pgqvGYVNvoS0RGuHAHtJB4ntFxHjTMDPPQlhdqCfweuKkr9CNACw0GxscPLlC5DH08ZDCqTkbLoE
+DiM=
+
+-->

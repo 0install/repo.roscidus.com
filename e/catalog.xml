@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='../resources/catalog.xsl'?>
+<c:catalog xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:c="http://0install.de/schema/injector/catalog"><interface uri="http://repo.roscidus.com/e/e-core"><name>e-core</name><summary>secure distributed pure-object language</summary><description>
+E is a scripting language designed for writing secure distributed programs.</description><homepage>http://erights.org</homepage><category>Development</category></interface><interface uri="http://repo.roscidus.com/e/e-swt"><name>e-swt</name><summary>graphical interface support for E</summary><description>
+E is a scripting language designed for writing secure distributed programs. This
+package adds support for using it with the SWT widget set.</description><homepage>http://erights.org</homepage><category>Development</category></interface></c:catalog>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g6/AAoJECLqERp+QkKkYkIH/1Me8EUdgpOFGSOLUx/urb0p4qwWyYqlb4Ns
+i3k7zqYge8MenXxLiuG4tJKJ8kxbcSpJ31f2vSqmIFTUBBocU2RMCYKT/N4bQlMuSC1VbAZF04M1
+Ppu3unMYB731u0jKYexutu6syvCY/+2Q6Rn0ZcBmeG1SqZNjGEaXkLhM3UIzgJno3TQSZlVfHZ69
+gjDY8Hfi2jQcm2n7W6FzTbn/YBPbPHWbWmpPsDAG0370KxSF/oGCLzFsS48MU4CmyZZYnbFnNPJD
+ilQK94+RQKuJUSfrgxNzzMgd6N0n8XIxqPl1ie648rIKYPz55kEbn/7u1XpeEJL7Y00NBjdcnr82
+T+I=
+
+-->

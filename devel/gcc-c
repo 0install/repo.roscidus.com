@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/devel/gcc-c" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/devel/gcc-c.xml"/>
+  <feed src="https://apps.0install.net/devel/gcc-c.xml"/>
+  <name>gcc-c</name>
+  <summary>gcc C compiler</summary>
+  <description/>
+  <homepage>https://gcc.gnu.org/</homepage>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g6zAAoJECLqERp+QkKkdCUH/AoWwRgD2yW0oGaUevMqk6GgM9lf5DBRsgvM
+cnkS5rWFlBWSw1fI/usb/eOQqrijrsf2nsvauArswXuCA3tcZsNXiuhXSu/lZ/j1Mv8HEFkFoJoJ
+h4kARIMZyBH82TnpIC7PpgImkpOxhkWQCC4+wFWH/zMrDbGDY1WQtkeQi0VHKIMrvglhWhWz8hPI
+qGClMrFyLNsXL/17TxeGXuPdUnUHkIta4aEr7FTtHtxAV/I6XHbqQM2DssrvE1lokhh+XGWDT6n6
+7+gWHvxZFaGjPf6fQXDY39GP8dPDWmClViKuAK8JYhSJ2h7FCfsV0MnMshb1locw48wDupO4QXhL
+fKg=
+
+-->

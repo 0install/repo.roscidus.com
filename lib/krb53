@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/krb53" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/krb53.xml"/>
+  <feed src="https://apps.0install.net/lib/krb53.xml"/>
+  <name>libkrb53</name>
+  <summary>MIT Kerberos runtime libraries</summary>
+  <description>Kerberos is a system for authenticating users and services on a network.
+Kerberos is a trusted third-party service. That means that there is a
+third party (the Kerberos server) that is trusted by all the entities on
+the network (users and services, usually called &quot;principals&quot;).
+
+This is the MIT reference implementation of Kerberos V5.
+
+This package contains the runtime libraries used by applications and
+Kerberos clients.</description>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g65AAoJECLqERp+QkKkXCEIAMXqBdYl/krdHqAVXE3RIBreQJE/egpHHkp3
+D4GJn1FSOFMdN5j/DPSp9Y32sG94r20TgVxV2viXxr+E9vHed4rG+DvDcX38gQXOe8NeOpA3pvgT
++lAU8fapXhik8vOQZDUvvX3GJU8dy46nS59FKblDzooDNTQV+yofniiwXGmoEiCk+AUBheE4JTse
+LEcbH89KMsLyfWKXqUEGaVxf9Iy2/8GPgg4O4N6AlWIN0ZojKnHL6meF35MS8XUucmD5nFRE6Z7N
+BUUCYJkxCe+0PIZQkSXZrYoLtXW/Ym8KBGvBAeiycMN0QqpITcN//opFRu058P95WgmtPs62Rxmi
+Ba8=
+
+-->

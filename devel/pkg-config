@@ -1,0 +1,26 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/devel/pkg-config" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/devel/pkg-config.xml"/>
+  <feed src="https://apps.0install.net/devel/pkg-config.xml"/>
+  <name>pkg-config</name>
+  <summary>manage compile and link flags for libraries</summary>
+  <description>
+pkg-config is a system for managing library compile and link flags that works
+with automake and autoconf.
+
+Increasingly libraries ship with &quot;.pc&quot; files that allow querying of the compiler
+and linker flags needed to use them through the pkg-config(1) program.</description>
+  <category>Development</category>
+
+  <homepage>http://pkg-config.freedesktop.org/</homepage>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g60AAoJECLqERp+QkKk5pMH/2WUU6u43IoxaXK82fGeTEoSXRdc4Ef0IKNN
+rgWuBBQ2d8Gc6mQOTb6MZV2VjDCjVofqwbGAknpC4BLVhLw9SyDDrsvwENnQGyeKyDyfMoZBeMb7
+uIc5VL52a0NfnUD/Vn6Hs+toWkt0bTnBnopLOlJl1P6r6dvQG4WgCt65vm+7zzkFW+lIzo22T2om
+xn3pzD+IUcIAla3oDHGyeLSxtAliIjsGKGoSl70QMWWSFn+GSsVG8NfaECt1M2UbucvEgurWBFFF
+t4uFw9U5oXn44SekiMbxFk80lp6rubBUWa6Wvy9qEo7VKt/q8uzDi5ZJ38GsBBmjkSmIuu8AP+nH
+5XI=
+
+-->

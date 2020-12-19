@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/cairo-dev" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/cairo-dev.xml"/>
+  <feed src="https://apps.0install.net/lib/cairo-dev.xml"/>
+  <name>libcairo2-dev</name>
+  <summary>Development files for the Cairo 2D graphics library</summary>
+  <description>Cairo is a multi-platform library providing anti-aliased
+vector-based rendering for multiple target backends.
+
+This package contains the development libraries, header files needed by
+programs that want to compile with Cairo.</description>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g64AAoJECLqERp+QkKkLG8H/3ppynCpQqUuK7EPqam4bzW4FF6KVf7r1XyO
+hGqvUBETEH9uzd2AyK+b3gd5/1kmMNfPtFoSa4pxq5g8MG1P9I8sPvFKzEAXypRymGyKhaJ015bS
+kXXx4E/5Xz2eiiHPAjbaP96dHCXn66Q1NNuy2Mm4YHDT39zHtEN6B9MB3m7EEWa4becJdtsqvZiq
+MqGhuDuafpL7dOnDrZpG6xewuEhv6V/74DjkXtWbn4j56/0GVnnZnnaGyin0KNY9BFejUYXGdrIw
+ASWvAzX4pIFUNfavBtB/vC6e36XDG5IOnb4QVy9tDcSSDIbJzPUIFQ8y7tOhtiTQnFiCMQ9GKQfX
+fg0=
+
+-->

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/x11proto-core-dev" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/x11proto-core-dev.xml"/>
+  <feed src="https://apps.0install.net/lib/x11proto-core-dev.xml"/>
+  <name>x11proto-core-dev</name>
+  <summary>X11 core wire protocol and auxiliary headers</summary>
+  <description>
+This package provides development headers describing the wire protocol for the
+core X11 protocol, and also provides a number of utility headers, used to
+abstract OS-specific functions.
+
+This package deprecates 'x-dev', a package from the monolithic builds of XFree86
+and X.Org.
+
+More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
+&lt;URL:http://xorg.freedesktop.org&gt;
+&lt;URL:http://lists.freedesktop.org/mailman/listinfo/xorg&gt;
+
+This package is built from the X.org xproto proto module.</description>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g66AAoJECLqERp+QkKkfisIAMBLNVk1iBDIjvn+ZmcLyA1glNKUeNTCzV+m
+j0AeOdWjwWglFWuiNtIgcQiACDNKB3l3IXGaG0HqzUntdmNngQxjvwGH7FNQCcHw4SPiEFBY0lqg
+1c5EVksjqznzZOHqd+nLFKn3Odc++/BOpwxZ8bTeH9H57mlF3iMXjaHyoIpwzoOncRs+60sI4d2+
+jyCY6LX0PcHfR8xrOwZ/7nLSbpOT3DVJpLoAZ8CNo/NxHaGONO8USCYgB+iNnW0o42bCqF5wLanq
+BD0K6tdiookjQp2rjwixJpT9N5Im9eGXqtCFXfglfPpBYLudj9FeDv1Qh8cE6vC2Z5p03FpO2Rmm
+EHQ=
+
+-->

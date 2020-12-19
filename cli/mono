@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/cli/mono" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/dotnet/mono.xml"/>
+  <feed src="https://apps.0install.net/dotnet/mono.xml"/>
+  <name>Mono (legacy feed)</name>
+  <summary>open-source cross-platform implementation of the Common Language Infrastructure (.NET Framework compatible)</summary>
+  <homepage>http://www.mono-project.com/</homepage>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g6yAAoJECLqERp+QkKkDHsH/RQQgh2jf4wW0claQOq3ZLKrEKs6cUWjR70O
++A6dKmQ6taGnNIs63DQAqUH5o8kxAsWhZVkV/zFESXH18LbUYlOknu8APKtNS4WOF8Vk1vFbS1e0
+dAYuQerrWF2kxxjarp39sPUDsj7gtPNS0ewvzThSumu10x44TFWP3GCgX02dzp1sLHvO9eZseGE4
+rL9tckKgF3pfBiigIVU2Y4Hheki2cZwlazyPpHfmF5T149O+XX2rAdRlBlto4nFNjI1QD7e68gwh
+f1p2TV+YhwYzoGGHOhQXKS83N9XhX6lYz+PhDEacb+aL83d7f0FeFkbcbDyoX68oWacOmEb1UR7A
+DhA=
+
+-->

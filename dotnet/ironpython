@@ -1,0 +1,41 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/dotnet/ironpython" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/dotnet/ironpython.xml"/>
+  <feed src="https://apps.0install.net/dotnet/ironpython.xml"/>
+  <name>IronPython</name>
+  <summary>implementation of Python running under .NET/Mono</summary>
+  <description>IronPython is an implementation of the Python programming language running under .NET/Mono and Silverlight/Moonlight. It supports an interactive console with fully dynamic compilation. It's well integrated with the rest of the .NET Framework and makes all .NET libraries easily available to Python programmers, while maintaining compatibility with the Python language. There also is Visual Studio tooling integration.</description>
+  <homepage>http://ironpython.net/</homepage>
+  <category>Development</category>
+  <needs-terminal/>
+
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/dotnet/ironpython.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/dotnet/ironpython.ico" type="image/vnd.microsoft.icon"/>
+
+  <entry-point binary-name="ipy" command="run">
+    <needs-terminal/>
+    <name>IronPython command-line interpreter</name>
+  </entry-point>
+  <entry-point binary-name="ipyw" command="run-gui">
+    <name>IronPython grafical interpreter</name>
+  </entry-point>
+
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="IronPython.File">
+      <description>Python source code file</description>
+      <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/dotnet/ironpython.doc.ico" type="image/vnd.microsoft.icon" xmlns="http://zero-install.sourceforge.net/2004/injector/interface"/>
+      <verb args="&quot;%1&quot;" name="open"/>
+      <extension value=".py"/>
+    </file-type>
+  </capabilities>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g60AAoJECLqERp+QkKk4RsH/1LJEQMewL+zggx8hVTajpA+6RjK7pk5TSLd
+5eFxPEQwQ36LCmq6KrymVctt3BoSwxijUTZ4qLLB/mgfGiGQikptP+7r+Htom4Vo8a33BlX5DfKh
+LS2QIVhX8AduiSMEA0aW5fpNcoL6GwydmiaVJGrUgeEhsS9Ka4rA/I7VYiv6wq7tWvv/R3Ms7joA
+VKMhSx2u6XrnJYTMkAOikLQDDDcGFShtDvXRtJ/43Gx9D48GlaYmEpmqTuVz6XG5b0suBZTMh4/J
+JGw+nwfmm+sxh7AO+J4q1ykHcd9zTCstU1a2U48mqHguiUiiY0k93Ud21cIHPF4+gG6JRaLkkiVW
+gZ0=
+
+-->

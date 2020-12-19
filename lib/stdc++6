@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/stdc++6" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/stdc++6.xml"/>
+  <feed src="https://apps.0install.net/lib/stdc++6.xml"/>
+  <name>libstdc++6</name>
+  <summary>The GNU Standard C++ Library v3</summary>
+  <description>This package contains an additional runtime library for C++ programs
+built with the GNU compiler.
+
+libstdc++-v3 is a complete rewrite from the previous libstdc++-v2, which
+was included up to g++-2.95. The first version of libstdc++-v3 appeared
+in g++-3.0.</description>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g66AAoJECLqERp+QkKkzE0IANXDtTSHJAI+X6FK68fu6fLEQgQOPDaegXg2
+YFwxm7uoMjGxisI6Gzm9plPFEwHOvp4RG01CpUQavDMo/Jjc4mEecmzwZT7MtosimylKJZgwrdhh
+xMqWl5OVopp1SIQtBFQevFtHfUpf5/N/9SnB2vGRSio7BQk2TNfy72UEkMKpuAY6M2EIyAAF9C76
+Z4DxNwm1jigOGTdCeVmr8EdiBlHXPC0Tf3THEIt47wnAZMoWsRoiLv20WNrpVr1X5x3DsSFp3vQ3
+T6+XSz1tWP8ccfjqjQknH2PGJGhbNOp1ylslzeHi5K5E2Exoq4X7X7MzN20SzyctXIoz5+0765rR
+9Tk=
+
+-->

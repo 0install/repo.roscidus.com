@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/powershell/core" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/powershell/core.xml"/>
+  <feed src="https://apps.0install.net/powershell/core.xml"/>
+  <name>PowerShell Core</name>
+  <summary>cross-platform version of PowerShell</summary>
+  <homepage>https://github.com/PowerShell/PowerShell</homepage>
+
+  <entry-point binary-name="pwsh" command="run"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g67AAoJECLqERp+QkKk3dQIAIjRgX/nMqHLc1BpmgoVHXpEpKYn+XeFMDvu
+qhzu+i5BtF7o+PdyWJo4wgxcFrKOhLT2eTllLyuYn1OI3YSaV3HFfPUzWv1YEt/NSj257q9TQ4gS
+ptVAw4r9axf2YSE1wc8cwr9EwxDDLBgGXVCR+l0YryTH4Kpzm3F0jOLxHOEPWqg235f7gW1zmLKD
+homyoSQbBy84CO0mMmYET/5w/n1/3Ka6bqJESAVM3K7dgzdOS4iVdP3w9YMujmZZzASm2rgc4mf+
+b7l3F85VFoYvpxY5KoUzi8llNMsl/fiTDJfJ3ipBHdr5vhmEgyyplllFmcImAPX5z7A+UQlM1OVm
+xP4=
+
+-->

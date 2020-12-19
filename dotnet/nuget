@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/dotnet/nuget" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/dotnet/nuget.xml"/>
+  <feed src="https://apps.0install.net/dotnet/nuget.xml"/>
+  <name>NuGet</name>
+  <summary>the package manager for .NET</summary>
+  <icon href="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/NuGet_project_logo.svg/1024px-NuGet_project_logo.svg.png" type="image/png"/>
+  <category>Development</category>
+  <needs-terminal/>
+
+  <entry-point binary-name="nuget" command="run"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g61AAoJECLqERp+QkKk6XcH/ibLVED6C+m+qhvsnkMWTxrxbp1pLbmogBLT
+0N3glu+wKBI4piy0iz/04dXizOkjLarKZ6hZ8oA3C4KsT8sW8S6EDMYYXo0qOAqiwDzk5zEKJjib
+SYqrhoX9KXkWWVk/1/bUI304ZpY1cpK2rpfU0RNc6XW4DPSSgKk0U9ELGiam5zBHCOgw/fnBb4mZ
+e55M2j0wgxUZ6yXef8UUzBmT1n+MYltSh84oUeC/z/6XrSWaxDRGpeKHQo1EeZi2jK3nvYTk4hLh
+asOVLyByV8X1lx5GnirsT7px5otTSrklyo0bw6aAhTtYKyvMbZlzvtjVI7qsV96EtNSsbXem3B2t
+2DU=
+
+-->

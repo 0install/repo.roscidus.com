@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/python/python-gobject" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/python/pygobject.xml"/>
+  <feed src="https://apps.0install.net/python/pygobject.xml"/>
+  <name>python-gobject</name>
+  <summary>Python bindings for the GObject library</summary>
+  <description>
+GObject is an abstraction layer that allows programming with an object
+paradigm that is compatible with many languages. It is a part of Glib,
+the core library used to build GTK+ and GNOME.
+  </description>
+  <homepage>https://wiki.gnome.org/action/show/Projects/PyGObject</homepage>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g67AAoJECLqERp+QkKkz3wH/3epLtuZB5qRUzwHyFCaiJbzL83TthxqzvrA
+GloEK8yKcv+TWXWNYuqWZkc2NudTlUQHOODObjmvABZgKXFbiGU42AyqDw5vB3FJFajYclAiaped
+SG/7qXka+cW1e+ljHPXxsL9mdaBE/E0iu+VpM3Z9L5Aru8MxAEAKxMxNT1p6o8ezprE9dDb7S9vp
+plGG067dc7A4e3biZ0kgT8ArCh54OvgxeebiQEtmnhfM2vjWX5CuvT1YHiCovt/0TY4AQ9xDYJIx
+/RqzJhQkiAhMkk0ITLAe60bohauOIRpyWy5W1zSRib3xCJQ08vC8yCbZvY42xx23pvjd/IZDjEFY
+q3E=
+
+-->

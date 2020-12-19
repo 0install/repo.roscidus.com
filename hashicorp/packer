@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/hashicorp/packer" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/devel/packer.xml"/>
+  <feed src="https://apps.0install.net/devel/packer.xml"/>
+  <name>Packer</name>
+  <summary>build automated machine images</summary>
+  <description>Packer is a tool for creating identical machine images for multiple platforms from a single source configuration.</description>
+  <homepage>https://www.packer.io/</homepage>
+  <needs-terminal/>
+
+  <entry-point binary-name="packer" command="run"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g62AAoJECLqERp+QkKkHuwH/3FYFxzFXa5vnDJnFJSLq6S2FtXysJaIedKw
+NO6bw8eh4MgXyHQX4n/e43jLKriHdqA5tn7nRe2AjR2mIlp+n65vYRjQFoeZZBWnWcBompcTLPer
+jKcb6JHkZOp4HdduTewdZmdyj5Z34aM7u1I84aqMFYT195AQieDbDhadNNOahA7dNqO8YOaklO0K
+o/00sI29jgzEoZTqE6+x/gI8Zr0h6bBSHUqKrPKvAzlD2z7YMMYVRx6pkBLa2Bq+mbTkhNJVR1rR
+q7GqfjgcUGas8W7T+JwFwEZZ7SbRNRDGGh3BtAe6HWAIF0a+yOEbF7ZxI+a4X+3xYpAvsqxxQOap
+YVw=
+
+-->

@@ -1,0 +1,49 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/java/scala" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/java/scala.xml"/>
+  <feed src="https://apps.0install.net/java/scala.xml"/>
+  <name>Scala</name>
+  <summary>functional and object-oriented programming language</summary>
+  <description>Scala is a functional and object-oriented programming language based on the Java Virtual Machine.</description>
+  <homepage>http://www.scala-lang.org/</homepage>
+  <category>Development</category>
+  <needs-terminal/>
+
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/java/scala.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/java/scala.ico" type="image/vnd.microsoft.icon"/>
+
+  <entry-point binary-name="scala" command="run">
+    <needs-terminal/>
+    <name>Scala interpreter</name>
+  </entry-point>
+  <entry-point command="scalac">
+    <needs-terminal/>
+    <name>Scala compiler</name>
+  </entry-point>
+  <entry-point command="scaladoc">
+    <needs-terminal/>
+    <name>Scala documentation builder</name>
+  </entry-point>
+  <entry-point command="scalap">
+    <needs-terminal/>
+    <name>Scala class file decoder</name>
+  </entry-point>
+
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="Scala.Code">
+      <description>Scala Code File</description>
+      <verb args="&quot;%1&quot;" name="open"/>
+      <extension value=".scala"/>
+    </file-type>
+  </capabilities>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g63AAoJECLqERp+QkKk0JsH/2/LPwOFpIDKdN1XD77cza+YXcWIOz5prH9Z
+0U6ochm5gfultDOvoCGz3XgIH6mscn+z+WzLk7Zt/8NdjmbzYC2u0O24cbS9R2tpsCJ1+V/1o65n
+44RENSJcTvNI89kc5hgRChnWPgmKRGeaXklQVKUOLTuRHk76W11slWWZS2ptLWIYtLlBcUvc8H5y
+Gh66t+Jz6H/xNk7eYt2mwrHsgwe5+ziljXVjr7+3rUTPm4axrSEi7PehkN9PvsWs0XKUZOcIytIJ
+QGS44iT+ylHyd2bwkhdqyS1HVQYhH/Rxh4Bz/P0T4nnvGkyS8AbWfepOCc0XifZ4+s8qaEXDypf+
+Sh4=
+
+-->

@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/cli/netfx" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/dotnet/framework.xml"/>
+  <feed src="https://apps.0install.net/dotnet/framework.xml"/>
+  <name>.NET Framework (legacy feed)</name>
+  <summary>the .NET Framework from Microsoft</summary>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g6zAAoJECLqERp+QkKk80sH/2ZxqRDtJZUeWeO5dfPd+J5V11+BdX2YaJq/
+4wUUCSU7Aj4L6alQ4bpS7azC6KK3jtSHTg0y13NWU1w07C1tP831nAKRBJsvaATnM0hz2W97huvW
+FpXAqB9akc8Q0k0Vo1iZEBqscRnKDToW85uEV/YUDmNDL66fk9328640H/Q3qECG0pNLKOgR/wXN
+qcpS/szTV/IzCg5rpH52cE60WJMssJ6VwvITzxdpgyPhKi5PX7MbHXq8ql+0XRrSaLua3RXqENMw
+Yc87kp+e5UX5fIgvfQskzhaDjpyETjVNzsn88b9j0iKEJrCHnBsFbo0nG1KogDbs9RD3XZ26YiH1
+cLw=
+
+-->

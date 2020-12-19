@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/utils/graphviz" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/utils/graphviz.xml"/>
+  <feed src="https://apps.0install.net/utils/graphviz.xml"/>
+  <name>graphviz</name>
+  <summary>Open Source Graph Visualization Software</summary>
+  <description>Open Source Graph Visualization Software</description>
+  <homepage>http://www.graphviz.org/</homepage>
+  <needs-terminal/>
+
+  <entry-point binary-name="dot" command="run">
+    <name>dot</name>
+    <needs-terminal/>
+    <summary>draws directed graphs</summary>
+  </entry-point>
+  <entry-point binary-name="neato" command="neato">
+    <needs-terminal/>
+    <summary>draws undirected graphs using 'spring' models</summary>
+  </entry-point>
+  <entry-point binary-name="twopi" command="twopi">
+    <needs-terminal/>
+    <summary>draws graphs using a radial layout</summary>
+  </entry-point>
+  <entry-point binary-name="circo" command="circo">
+    <needs-terminal/>
+    <summary>draws graphs using a circular layout</summary>
+  </entry-point>
+  <entry-point binary-name="fdp" command="fdp">
+    <needs-terminal/>
+    <summary>draws undirected graphs using a 'spring' model</summary>
+  </entry-point>
+  <entry-point binary-name="sfdp" command="sfdp">
+    <needs-terminal/>
+    <summary>draws undirected graphs using a 'spring' model and a multi-scale approach</summary>
+  </entry-point>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g69AAoJECLqERp+QkKkh2QH/2J59haiC4eOctH/LB9P1evLhVXmk7fKZL7P
+SZMSDbpm1ciWXcdaEPtA7QTYsHESrJJGvWkyeD4/1r+HLaEjmFioc3eiFgLa06FDMT6dNnBm9FTb
+/OXH+nW74rfDph08iz5QKCscUcRip0TT15hHPA44ZdeNSk70vg/JtmKsbtMTWWZdazh907LXo5B5
+0g8sjYbigt9Q2dzP+kVKHyVgr9WivkGMIV/Nlg2o3DHZblH+r2lCTuFh7cVP/dY+Pv8pe79xAVnC
+m3UuyuRD/g4Yt1kqQz7uujGnZID4sweiSL/ovrA27zRSKaAXie/NYnltXs99W4O+ie46wnkzF25i
+P+0=
+
+-->

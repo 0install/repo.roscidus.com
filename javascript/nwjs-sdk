@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/javascript/nwjs-sdk" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/javascript/nwjs-sdk.xml"/>
+  <feed src="https://apps.0install.net/javascript/nwjs-sdk.xml"/>
+  <name>NW.js SDK</name>
+  <summary>NW.js with DevTools for debugging</summary>
+  <description>This is the full NW.js plus additional DevTools for debugging.</description>
+  <homepage>https://nwjs.io/</homepage>
+  <icon href="https://nwjs.io/img/logo.png" type="image/png"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g63AAoJECLqERp+QkKk75QIAK2rg4QnwMzxf5KGTEoizqm/nf4h8nbnprYc
+lYOjDOgw2JlhrX3KqmUumWn0EHizTBiTkOtpBLCVNY1u9aOtNUogcV1RRafjcXZocGObs4K4hldl
+acdJ9rLT3x3UUiJX086CZLAXSQmx0y4rxO52CMsSdnLGAJomBLGTZy0KTnsraKZHwu5vH+SuLt4a
+zEyN2OhEBebudIbTN2WAZEo8j3U4yrlMdWX/kZgUA7ivsolsEa51V+seJYekeblXtm/8hnZuBbii
+fLUt4Q4AJeiAnmauxCJUleWVNxVlUZYxZ8t41qV9P7LtGwUjxemSYgtMJjT0V6YRdTXZKroUQTM/
+ax8=
+
+-->

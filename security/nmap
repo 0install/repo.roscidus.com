@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/security/nmap" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/utils/nmap.xml"/>
+  <feed src="https://apps.0install.net/utils/nmap.xml"/>
+  <name>Nmap</name>
+  <summary>utility for network discovery and security auditing</summary>
+  <description>Nmap (Network Mapper) is a free and open source utility for network discovery and security auditing. Many systems and network administrators also find it useful for tasks such as network inventory, managing service upgrade schedules, and monitoring host or service uptime. Nmap uses raw IP packets in novel ways to determine what hosts are available on the network, what services (application name and version) those hosts are offering, what operating systems (and OS versions) they are running, what type of packet filters/firewalls are in use, and dozens of other characteristics. It was designed to rapidly scan large networks, but works fine against single hosts.</description>
+  <homepage>https://nmap.org/</homepage>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/utils/nmap.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/utils/nmap.png" type="image/png"/>
+  <category>Network</category>
+  <category>Utility</category>
+  <needs-terminal/>
+
+  <entry-point binary-name="nmap" command="run">
+    <needs-terminal/>
+  </entry-point>
+  <entry-point binary-name="ncat" command="ncat">
+    <needs-terminal/>
+    <name>Ncat</name>
+    <summary>reads and writes data across networks from the command line</summary>
+    <description>Ncat is a feature-packed networking utility which reads and writes data across networks from the command line. Ncat was written for the Nmap Project as a much-improved reimplementation of the venerable Netcat. It uses both TCP and UDP for communication and is designed to be a reliable back-end tool to instantly provide network connectivity to other applications and users. Ncat will not only work with IPv4 and IPv6 but provides the user with a virtually limitless number of potential uses.</description>
+  </entry-point>
+  <entry-point binary-name="nping" command="nping">
+    <needs-terminal/>
+    <name>Nping</name>
+    <summary>network packet generation tool / ping utiliy</summary>
+    <description>Nping is an open source tool for network packet generation, response analysis and response time measurement. Nping can generate network packets for a wide range of protocols, allowing users full control over protocol headers. While Nping can be used as a simple ping utility to detect active hosts, it can also be used as a raw packet generator for network stack stress testing, ARP poisoning, Denial of Service attacks, route tracing, etc. Nping's novel echo mode lets users see how packets change in transit between the source and destination hosts. That's a great way to understand firewall rules, detect packet corruption, and more.</description>
+  </entry-point>
+  <entry-point binary-name="ndiff" command="ndiff">
+    <needs-terminal/>
+    <name>Ndiff</name>
+    <summary>a utility for comparing Nmap scan results</summary>
+    <description>Ndiff is a tool to aid in the comparison of Nmap scans. Specifically, it takes two Nmap XML output files and prints the differences between them: hosts coming up and down, ports becoming open or closed, and things like that. Ndiff can produce output in human-readable text or machine-readable XML formats. Many people like to scan their networks regularly (daily, weekly, etc.) and then use ndiff to easily detect any changes.</description>
+  </entry-point>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g68AAoJECLqERp+QkKkMe8IAI5dVFiizqvM/zZeAhlwQYTWnO1YNVps3znw
+kO/uU+ZHGpLmCByHCQiGEdmv0szY+GulXUYp4zeoZpKFL4rJJIl0bGIvspjqXmqKN8YtsoMoCBDi
+jAaV7Ky8PkRj7YvCavTvh6tI/RF5uszhpDLDamo9pqE/M818kaULkGeFjW3MOXo/WXbh0l3Rl3UT
+7SQ+UEWVUf/4LCIOLPn+/f+roLyd6K9z7n1+qmIRMfi/Xa9R9Hf8iXowLJwu7FxUKfn/CdP2LmFb
+c01pDyZE6D7P7rRbH7NK1/fncJ8w/97TDa/4ArN5OyQ3qw3XdA4X+/XyuReUznM8W9MSkOVwrvur
+yuQ=
+
+-->

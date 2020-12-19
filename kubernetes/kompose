@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/kubernetes/kompose" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/kubernetes/kompose.xml"/>
+  <feed src="https://apps.0install.net/kubernetes/kompose.xml"/>
+  <name>Kompose</name>
+  <summary>go from Docker Compose to Kubernetes</summary>
+  <description>Kompose is a tool to help users who are familiar with docker-compose move to Kubernetes. kompose takes a Docker Compose file and translates it into Kubernetes resources.</description>
+  <homepage>http://kompose.io/</homepage>
+  <needs-terminal/>
+
+  <entry-point binary-name="kompose" command="run"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g64AAoJECLqERp+QkKk8ukIAMpfNX1/KeJOnoskboGklqNTMzjdIsldOoPr
+SfUx4Gga5oQOYkhmRTl9BraS6/Z4uYi1tj/qxzFsJBfIvni2us6noszdXY/Aby5kyhv7AwuEvyFe
+U3enwIa/hFEYGAxthy6rpxBS8/a+8gYmhO6ERvvH1i+xqqrLCq0sZXq+guRWSkho8yy9nQyCAeGy
+9qr5vjJxTVct06v4J4jamNy6F75J4LDE9Jbpa2aUCszQp84B1HLazvN+Uu5CNThbYBR0R/bUR0nl
+F7GAbZSaHVQJM3GFVu1/kLMqU5ZoyPRngXhbQ3Ei4rdhN8dFpZJEwV0Gi+0Gu7P1iiKMVArRwVvy
+zJw=
+
+-->

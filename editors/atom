@@ -1,0 +1,42 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/editors/atom" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/gui/atom.xml"/>
+  <feed src="https://apps.0install.net/gui/atom.xml"/>
+  <name>Atom</name>
+  <summary>the hackable text editor</summary>
+  <description>Atom is a hackable text editor for the 21st century, built on Electron, and based on everything we love about our favorite editors. We designed it to be deeply customizable, but still approachable using the default configuration.</description>
+  <homepage>https://atom.io/</homepage>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/gui/atom.ico" type="image/vnd.microsoft.icon"/><!-- TODO: Export icon -->
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/gui/atom.png" type="image/png"/>
+  <category>Development</category>
+  <category>Utility</category>
+
+  <entry-point binary-name="atom" command="run"/>
+
+  <capabilities os="Windows" xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <url-protocol id="atom">
+      <description>Atom URL</description>
+      <verb args="--uri-handler -- &quot;%1&quot;" command="atom" name="open"/>
+    </url-protocol>
+    <context-menu id="files-Atom">
+      <verb args="&quot;%1&quot;" command="atom" name="Atom">
+        <description>Open with Atom</description>
+      </verb>
+    </context-menu>
+    <context-menu id="directories-Atom" target="directories">
+      <verb args="&quot;%1&quot;" command="atom" name="Atom">
+        <description>Open with Atom</description>
+      </verb>
+    </context-menu>
+  </capabilities>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g61AAoJECLqERp+QkKkSpYH/0RkA2ajxrBFRYWYsZ6D3lmRJdOD7rO7VM1J
+cOyaXLU5nJ+QXJLtvpy8F6ptjZvP/Ok9BzQhZLRoZvX0Ukvyn/x0sWfBFLkd8u7RhYv1kOfRvwmK
+I/ZPKHa0i2I2evtHlVA9TXbKurPC6CO393RWV9upDuTMT4+jluUD2d9Bqijr0uJ5ccfxMPBjsv5W
+jkPsXmXwOY1fJWkFaN6dk6ks4GSE6exJqbug+/PIueTxnyPlNms8oL3gR3RT/3DDija7FXt7dRno
+OXk+I/pTI9nJMfG8zrvTAWQP6MkUYxs6pLCH9WT24wUJtkEUSsiQEeZNlPXdgucCRPFwFEz5xYFx
+huY=
+
+-->

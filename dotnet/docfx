@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/dotnet/docfx" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/dotnet/docfx.xml"/>
+  <feed src="https://apps.0install.net/dotnet/docfx.xml"/>
+  <name>DocFX</name>
+  <summary>documentation generation tool for API reference and Markdown files</summary>
+  <description>DocFX generates Documentation directly from source code (.NET, RESTful API, JavaScript, Java, etc...) and Markdown files.</description>
+  <homepage>https://dotnet.github.io/docfx/</homepage>
+  <category>Development</category>
+  <needs-terminal/>
+
+
+  <entry-point binary-name="docfx" command="run"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g60AAoJECLqERp+QkKkXdIH/2kpSEE4rQuiIBq6D/oVF+B3F8wHUzv0jS1w
+qJX4F6WGIAAtD5V62DldkRB1ShmUUI+4oP2WV374bCL5auKmaOcstzooqF7kQZ5dUgxRCPMCYLIw
+sd58S0yf78Lc1OjWXyQkFh45pTES18QyinakJTEf/BIlBQhGaA9UtofahdB6U/IX81ninc3powS1
++p/WYURcSUtN6wl9PPfz3AArk0M4wqsgq3hkUIEYBg905K08p3JKmjdbOjAN7fTunOOz3vhqWgro
+5gd88x0m7ZETOGn6kjjD1IiQaS7kMjtzP7ErtsCGwr7gjTfsN0Sq/6i3lDNtl32Ewpd8qMHI20RG
+4Vw=
+
+-->

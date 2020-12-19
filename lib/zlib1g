@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/zlib1g" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/zlib1g.xml"/>
+  <feed src="https://apps.0install.net/lib/zlib1g.xml"/>
+  <name>zlib1g</name>
+  <summary>compression library - runtime</summary>
+  <description>zlib is a library implementing the deflate compression method found
+in gzip and PKZIP. This package includes the shared library.</description>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g67AAoJECLqERp+QkKkJFAIAJ7w/OM9UWHU1U/BFI6WIe1GMu0tQ2a5em8R
+Q9Mp9TdPztu/5zg90XARTYAvzcsW3RR3UQrL9WI2Yn7iFmMgzR5UjzsPZwfS36o6JUDlWXBYwzYn
+oRW2ihCx50MtGc0d2h7WsIAHzCQKe1nw0rORKSzjmeOJJmHC5rgnt193JtKFpue3hasAWlVSX19e
+AHmfjJQJSoeZvM7tumMwVU4/GuDZHQbnpTbhU3dpZb3CFIIdSj9rY/vG50C8P1aZfN37vcWAwIM0
+1wgrUsmd3CibehfOdMsE/57dji/q+0Hg6u/iR9t3jQbfNuKGe7XYcjvFE17YKwAK4nk8Vrjh7k3I
+tRE=
+
+-->

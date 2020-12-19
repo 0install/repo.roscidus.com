@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/java/openjdk-10-jdk" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/java/openjdk-10.xml"/>
+  <feed src="https://apps.0install.net/java/openjdk-10.xml"/>
+  <name>openjdk-10-jdk</name>
+  <summary>OpenJDK Development Kit (JDK)</summary>
+  <description>OpenJDK is a development environment for building applications, applets, and
+components using the Java programming language.</description>
+  <homepage>http://jdk.java.net/10/</homepage>
+  <category>Development</category>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g62AAoJECLqERp+QkKkN3oH/0Yx8t1IuCZUgj/ePpEhAmcg/5hIM4NbabDw
+lvwehympOKWAGB72HUQnTjv8X74GIQtadAy7ZXxqfWpsivt0A4D5/v+NsNTNNwdTPwU7iGJsHnCn
+68YwdTyYxdtlg0kz5Fi1HHn7vc7Z2R3nZ0mh+qVI1JnmmSppcK++xxdTDXgWTjES3LCSL0MJdJRQ
+EVm4kHX03GICi4v7pmwli0gpHmqsnhCAiHqEwUwfufi+RZL9BjAU+r7Zm7Kg2qKxIyZS92jg20Xq
+roT1BCdgZh8VGZstZp+VyVPLzKdBbQw+NEDFw484bF3tb5mOWtzBma/bi4tXGbUK2Of4nXxYlujH
+WfE=
+
+-->

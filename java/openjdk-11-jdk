@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/java/openjdk-11-jdk" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/java/openjdk-11.xml"/>
+  <feed src="https://apps.0install.net/java/openjdk-11.xml"/>
+  <name>openjdk-11-jdk</name>
+  <summary>OpenJDK Development Kit (JDK)</summary>
+  <description>OpenJDK is a development environment for building applications, applets, and
+components using the Java programming language.</description>
+  <homepage>http://jdk.java.net/11/</homepage>
+  <category>Development</category>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g63AAoJECLqERp+QkKk8vsH/3zz+lo/Qv/kdmDdil6CB03CYstmgZP5XxxY
+KfXNFQsTA1LDZgX6oqlPkmDSPCkMZglR7OimaXWPE9jddejrc0nZEfMCvCU0qVXN4vgOrCTTOfh/
+qmvbHpL4f1WQuyoLKAWjFoXwH9LwKATE9OtmV5vfaNwpAuI4oztLmHZ3cZW/2F+l9fEeTFvbbFS6
+M0AJtBfam2RXfrWHfVrIxrQGJmYH4zpzUoAwYdB5qW9yWqb+nSL0xP5UBePelKJYXsHGLyrGqdhU
+GdrfEJcCWscUokdPnTaT0b+H79Rnsb/Rc58OtHIXWPQjRXvPwUmm0+//46+/Ha13Ti1QKMSJ4TPN
+q28=
+
+-->

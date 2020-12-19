@@ -1,0 +1,33 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/git/core" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/devel/git.xml"/>
+  <feed src="https://apps.0install.net/devel/git.xml"/>
+  <feed arch="Windows-*" src="https://apps.0install.net/devel/git-for-windows.xml"/>
+  <name>git-core</name>
+  <summary>fast, scalable, distributed revision control system</summary>
+  <description>
+Git is popular version control system designed to handle very large projects
+with speed and efficiency; it is used mainly for various open source projects,
+most notably the Linux kernel.
+
+Git falls in the category of distributed source code management tools. Every Git
+working directory is a full-fledged repository with full revision tracking
+capabilities, not dependent on network access or a central server.
+
+This package provides the git main components with minimal dependencies.
+Additional functionality, e.g. a graphical user interface and revision tree
+visualizer, tools for interoperating with other VCS's, or a web interface, is
+provided as separate git* packages.</description>
+  <category>Development</category>
+  <needs-terminal/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g61AAoJECLqERp+QkKkzMQH/jcZry6tPbru0tbg4GGU1bpqEWzuvGE7HKmv
+cuhaw8tUTmE9ZFilRF4YPgrUUAp5Ph4mH8qGKik32uix1U5xg3AStSmOn29sIbMHiNprFCzo5R4k
+Upau3YLci/70trgnqSXIHXuPoqTRt1cT3cC3GEybq4v7FwA+aUQG8NoDFVcHe3fDf4q6/Y7yePyE
+komORda+2ELVMV6ETyPja37e9ysj0INElhq+KjtjqbP8S7RXZmWGytf4XYnAyEonhQswT+FKizJK
+JTgamBaM/RcAUR0QCpO/xRtQ3YxObW3Fdo2b36xL2S8bKNI31h2B5dTrAZMYGOM+MlmbCONRXbnN
+D6g=
+
+-->

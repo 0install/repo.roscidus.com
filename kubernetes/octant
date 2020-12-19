@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/kubernetes/octant" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/kubernetes/octant.xml"/>
+  <feed src="https://apps.0install.net/kubernetes/octant.xml"/>
+  <name>Octant</name>
+  <summary>web-based tool for visualizing Kubernetes clusters</summary>
+  <description>A web-based, highly extensible platform for developers to better understand the complexity of Kubernetes clusters.</description>
+  <homepage>https://github.com/vmware/octant</homepage>
+  <needs-terminal/>
+
+  <entry-point binary-name="octant" command="run"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g64AAoJECLqERp+QkKkdlYH/ijz4gAhWQEorLlszEO8ycyeAPDTiSyXr5Ny
+xXU1PTU2S/9yII/UDN/OFHzBjY+9QmbtBIfO51pSMePMjWKq6QDaXbG+JQFEg07L8OMIw9Y/VflG
+QVKabypnS/emKnqFmWYm2dAbAbQj+55cQrGGiI4h+iLYtr1Sfmff/2fFU2t3HpvbOuYXZgAaBuiY
+XnX62bS823Zf/K4MKX3A/H0dBjj/dRvXyfjYv0aEElBfK5V4KZu6r7iNND5NBbna14OTE4udbmQi
+UxqcpIx/iPXV+uQddJeevwrw6XSxfCImn2lcj1AePxzohSb8v6EZt4I7zOyTdhqJjWob1Vhjle99
+Pvc=
+
+-->

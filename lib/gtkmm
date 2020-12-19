@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/gtkmm" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/gtkmm.xml"/>
+  <feed src="https://apps.0install.net/lib/gtkmm.xml"/>
+  <name>libgtkmm</name>
+  <summary>C++ wrappers for GTK+ (shared libraries)</summary>
+  <description>Gtkmm is a C++ interface for the popular GUI library GTK+.
+Gtkmm provides a convenient interface for C++ programmers to create
+graphical user interfaces with GTK+'s flexible OO framework. Highlights
+include type safe callbacks, widgets extensible using inheritance and
+over 180 classes that can be freely combined to quickly create complex
+user interfaces.
+
+This package contains shared libraries.</description>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g65AAoJECLqERp+QkKkHaMH+QGztHpIbpDoEQJqpgwhGVXQv5YcYB+YfPnp
+D9sDBC1AWCXiKhDEqkjaozxrn+6q7uAQDn+Wi87xefM2VlSMvLyD/RX2BcywPzPcuXy1ptF02UjW
+9uRl/K1PheQnROUBYwwau8RQaYogo4tsKmQ+KAO3z4asdX+zy/B+yCRbieob6uN1qKi7xJtX4Jm6
+YSLIEGafGYdWbcKLMPzOfC77qr22r1fGwtozmOwOeB526nRERQvuvW1tYlx/tjejyaNuxeNIe3pm
+TLUGeUwJJZo3tJXxLmA1HNJREh7ogrDyhhvRsw2F8lv9a+l0lH/O8Ho+Y5OulRxxCzRPpuEvtcV6
+oi0=
+
+-->

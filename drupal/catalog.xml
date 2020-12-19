@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='../resources/catalog.xsl'?>
+<c:catalog xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:c="http://0install.de/schema/injector/catalog"><interface uri="http://repo.roscidus.com/drupal/core"><name>Drupal</name><summary>content management platform</summary><description>
+Drupal is an open source content management platform powering millions of
+websites and applications. It’s built, used, and supported by an active and
+diverse community of people around the world.</description><homepage>http://drupal.org</homepage><category>Network</category></interface><interface uri="http://repo.roscidus.com/drupal/smtp"><name>Drupal-SMTP</name><summary>SMTP Authentication Support</summary><description>
+This module allows Drupal to bypass the PHP mail() function and send email
+directly to an SMTP server. The module supports SMTP authentication and can even
+connect to servers using SSL if supported by PHP.</description><homepage>http://drupal.org/project/smtp</homepage><category>Network</category></interface></c:catalog>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g6/AAoJECLqERp+QkKkT5YH/1bh4mGu1jxPkMJZBBPIUBRZl4uJZ5+SOQZZ
+c4YeOqdwCledxPdOmVOtHOTLYz+eXmphf0LbiICE9KIjQaBZmyxTISvdkiqjIZNwnhAYC+Lw8/1X
+Xh16kS3cw6sAc+kP5HYd0dJN/wVIXeQwpAnbrWGx9UKROzr8lrlKdYskjTFQgyO2yuVAYdQMtxTV
+bbFZIK+MVGRqfrPSMR1hnd9NM/tOo2IGSPUKZtI1kFidMtZRpi3PGzQv8VeF+IKldqtcuIyRFPaH
+KV6TrrrvVhZ0fR3RAMjHytYajbDDAI2/BYWC98/A+cakYwUcR/d7vT8W02iXwiv4Jtc1huPG/WN2
+d8g=
+
+-->

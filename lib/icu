@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/icu" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/icu.xml"/>
+  <feed src="https://apps.0install.net/lib/icu.xml"/>
+  <name>libicu</name>
+  <summary>library that provides robust and full-featured Unicode and locale support</summary>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g65AAoJECLqERp+QkKknzYH/ApsEWRnhos3mf6LdC1a2F/4iMko0DPX9UH0
+r5JcBQ2j8EG+BAb4WGWh8TOaIJVuO0j1ZwfP4sDzIN6rvxrkC+xAImbBoK8fXrIBkhGlAHzVS7Z1
+W3N1x0F1dpV9EwJFAnH//LdOlaK6MbsySHXOZMXiMGOksnTIpJAB2wCmRVYZPmV/hUzSAUjaHx9U
+biakQs1bnL8Dstjuzt6kiYPnzbuHFvpA5OZ9Trl1rzSVUC5vsAYFvtqDrR5BZJ4OzzLNqgPetyIj
+RRZf3Qzq97VHqD1X2Q8KW506b/MgId6UOowsBI2QqG/zDqquPQgpCxqWfE+FYDwNedMEdPAjvRiE
+Sn4=
+
+-->

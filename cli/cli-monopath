@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/cli/cli-monopath" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/dotnet/clr-monopath.xml"/>
+  <feed src="https://apps.0install.net/dotnet/clr-monopath.xml"/>
+  <name>Common Language Runtime with MONO_PATH support (legacy feed)</name>
+  <summary>an implementation of the Common Language Runtime (.NET Framework on Windows, Mono on POSIX) using .NET profiles as version numbers</summary>
+
+  <!-- Empty implementations used to map .NET Framework version numbers to roughly equivalent Mono version numbers. -->
+  <feed arch="POSIX-*" src="https://apps.0install.net/dotnet/clr.xml"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g6yAAoJECLqERp+QkKkn8EH/26ammUxnfCoBveGeKxxvR/aFRqtnDCGpWZq
+BkAD+CwM+KH8ODOOsm0WZZjt/tvcHPTexit12V8sGahIiZTc7CHjf9+GdBLU9RvlqkOGxEc9NFY1
+7HIJE+QDVsc3cqdcG4jxDxGp4miB/Id38AaZjpvHM/gVqjWuPRGK8EXFqqvxHyo5zm92UHP7srZO
+UmCMdz0hSIaXUyb3YiqvWH+avk9BVvVUSTVq8t2+yJgq4TadtMeAQDpPz3dVzxixqc/QoT5kd2M/
++iZM9RtrGWpffKFh5L+UlSNldbrsgTg0HoWEZax7ps9KHUtJ7F49unOYEKRV7Js+ZJo/TB8jHYsg
+rbs=
+
+-->

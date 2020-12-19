@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/gmp3c2" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/gmp3c2.xml"/>
+  <feed src="https://apps.0install.net/lib/gmp3c2.xml"/>
+  <name>libgmp3c2</name>
+  <summary>multiprecision arithmetic library</summary>
+  <description>
+GNU MP is a programmer's library for arbitrary precision arithmetic (ie, a
+bignum package). It can operate on signed integer, rational, and floating point
+numeric types.
+
+It has a rich set of functions, and the functions have a regular interface.</description>
+  <homepage>http://gmplib.org/</homepage>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g65AAoJECLqERp+QkKk0dMH/iVZzamTOllmAqSPe1AJw+E+LdIfXEtMpqVq
+6Btz/FZ1xL2UxLISVYQuXlQlO7M0iRRMfeDI1TPzqpwK2nGDaBW1F3/937R8isW+uw4aOFSozFUT
+r6MWIxyWS2Rr6DXz/x9QFX3MJqMuOesDOfdGAdXuHR/ukEXZHUrWeH1dQp69YVlGDjOIw7SFuva7
+qcQpFEnJg+z9FsBNb7FzhVNkJ7y90d/ruz6gBqSCOyqZZV9DVXTUL99DE0OAWt9ZTotdSDHZ2S8M
+nj2FKVgh/Z3mTK7mlk685QNoRdAihdqDOcay1Iexf6K3sNV5+k0krhBG3r5uV6Wu80iGnapK7UCx
+ork=
+
+-->

@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/readline4" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <replaced-by interface="https://apps.0install.net/lib/readline4.xml"/>
+  <feed src="https://apps.0install.net/lib/readline4.xml"/>
+  <name>GNU Readline Library</name>
+  <summary xml:lang="en">Get a line from a user with editing.</summary>
+  <description xml:lang="en">Readline offers editing capabilities while the user is entering the line. By default, the line editing commands are similar to those of emacs.</description>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.png" type="image/png"/>
+  <category>System</category>
+  <homepage>http://mingwrep.sourceforge.net/</homepage>
+  <needs-terminal/>
+  <entry-point binary-name="rl" command="run"/>
+  <entry-point binary-name="rlversion" command="rlversion">
+    <needs-terminal/>
+  </entry-point>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g66AAoJECLqERp+QkKk8OUH/i2ODQ8G/b02VredBtHpblp09wYB1TmmD5QI
+2xaRPxTCNbP5WImAB/tFLJW96FE5i7iKkT8M7I7y9RWBCrwtrZQG2Wu1jjRbrN1/2p5+lgVSLBb/
+trpwJSDvDSxx8/p+IiyeTkYX+DSqb+Sn05ZhZ5H7sVoXCQyU5yyo7tsgF/QqCgeGyckdNpnDOei/
+ImcHBBC559U6c7LgJk3LB7kZUsTU0ScxlUJDeAVCKffXhvd+jw63UcTi3/EilD5VZof3A/X5Ym+t
+LplbHiIfRBsjUrH4D3cguzaqPvWTLlxwu3ca6/Jdz8kncaHr9BAaJE4gUS6DnJkGjADcweIrXNJM
+wcU=
+
+-->

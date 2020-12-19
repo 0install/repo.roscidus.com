@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/dotnet/framework" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/dotnet/framework.xml"/>
+  <feed src="https://apps.0install.net/dotnet/framework.xml"/>
+  <name>.NET Framework</name>
+  <summary>the .NET Framework from Microsoft</summary>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g60AAoJECLqERp+QkKkC10H/0Whhep2KB3gXX/tTVEhFKSqdNa9SwY6dWqL
+mnPenhdGR+3el2xO/0Q4U/V6e00cTvEYgupM7bKJWoMfc/g/4TQIPasCPwYRVdcdtfwi8hW153e7
+x7Z7ukUMg1hXHS/0P8bmEud6Ft3T1f8iz9zozOOgvxg53liZKOylsDyeXGQm2s2uGu9NBt8VKo5T
+iXpjjD+p8lKrVGaXhQf8uIGtxM+u9a9ura9wsrBy/GMmLLvqezeVcrc4OuL+s7/wsgM5WrxjSugi
+v/G2p3yqc+WkKEHXaa2r5qZnqsjc6oYsPaTi44F5JXdE1jkG5NrQMQZfVsE6f4aR7cfCy4GjTOwY
+U0w=
+
+-->

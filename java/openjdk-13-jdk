@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/java/openjdk-13-jdk" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/java/openjdk-13.xml"/>
+  <feed src="https://apps.0install.net/java/openjdk-13.xml"/>
+  <name>openjdk-13-jdk</name>
+  <summary>OpenJDK Development Kit (JDK)</summary>
+  <description>OpenJDK is a development environment for building applications, applets, and
+components using the Java programming language.</description>
+  <homepage>http://jdk.java.net/13/</homepage>
+  <category>Development</category>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g63AAoJECLqERp+QkKkWOQH/RKXbF0j2EMrLERl/k1WehtxNVEMQEYiCtTz
+PB/pmj8Ngoys5qSNtBZzZ+qtwrRlgZMniO9+Z/NAY/LPKCmFhcEXOOVMgPFnmzJl2B3d87mZQ3JI
+4u2zB8S2gEaNnSKLjGL3p5TBxlAx14AZxxJqBXc8j0NTCoGZmYkR+i77qbRd/nImPp/ICDnkeSD7
+sUp1UgqAGZmxd15S4cLWRTB3e5HolwDZKO6VrepVVFg3B0wXXH8HnSxLwszjUdQyYesuEmFgkCAC
+HsR+JAgVclk1eJgwzeWSnnB8ZiaEuzL7HErIvtdguc5/85jZwgM0lHoFf40TaJ96yyb9hLYlPh/Q
+tRw=
+
+-->

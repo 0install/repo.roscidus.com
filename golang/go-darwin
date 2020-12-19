@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/golang/go-darwin" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/golang/go-darwin.xml"/>
+  <feed src="https://apps.0install.net/golang/go-darwin.xml"/>
+  <name>Go - Darwin builds</name>
+  <summary>tool for managing Go source code</summary>
+  <description>This is a tool for managing Go source code. Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.</description>
+  <homepage>https://golang.org/</homepage>
+  <needs-terminal/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g61AAoJECLqERp+QkKkRbgH/2r76MYkkOBtYcMOIr0uJtebWI+DyYXf8KHO
+BjHyOVnwvmEOmzZGNKjGzo6MTTeT1lOV8h/6MTX0w1vH6Sxv4263essnsF7MAjoNfuEmEWwk6zRw
+L9ipneHdQjsy5PB7B/C37hKEvq2ECI+3EzJO6KNFEleytykwOGrNrp6UaBR0jaFcG5urKMtryLHl
+QTpz5NnNRZAV/76Gfx/eDQVCf0m0nnoL57t3ydOza8XeoxWAXwROJKXr3BAg/KlkOkzfX7KhCe4Y
+1L4TuQX0qgA9FG63Ap4wj5e8I25jxs6+/hFdlb/ClyihdQM1gxwCGO907wjSew4vyccFEFw1U6kI
+iwM=
+
+-->

@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/javascript/node" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/javascript/node.xml"/>
+  <feed src="https://apps.0install.net/javascript/node.xml"/>
+  <name>Node.js</name>
+  <summary>open-source, cross-platform JavaScript runtime environment</summary>
+  <description>Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine. Node.js uses an event-driven, non-blocking I/O model that makes it lightweight and efficient.</description>
+  <homepage>http://nodejs.org/</homepage>
+  <needs-terminal/>
+
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/javascript/node.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/javascript/node.ico" type="image/vnd.microsoft.icon"/>
+
+  <entry-point binary-name="node" command="run"/>
+  <entry-point binary-name="npm" command="npm">
+    <needs-terminal/>
+    <name>Node Package Manager</name>
+    <summary>package manager for JavaScript</summary>
+  </entry-point>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g63AAoJECLqERp+QkKko2YIAJZI/vINRws06fgizAIDlkzbtviJqjEoGTlU
+/mLkLmDo/qQcZaC9AfpGeTGxxTHjIR7YrQDC6bCMqg+kQwRuUTV3Blr0wAVIX59l/YRItDLNojLA
+sOA4DeSCvMHxkWi+8mmsNQoX8GbLnyxmvWFJMYfcFW//NydExtZF4VoNvtTAh10FWpddlJPc4SYe
+8ce9lPGHLB9/kRLM1APm97Z2pluDpMRZf2vOLzBeysXhARLorEgjaEq0lgw/Ar7SRzYb4xXl29G+
+zw5L4jeXhmbmsIXE8pEDwEgsrHmimVox0EZ/ci/B8TRSzbh4ar3Xjo9GHCICCdeYr7dZw7hsH1uA
+H/o=
+
+-->

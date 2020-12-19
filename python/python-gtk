@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/python/python-gtk" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/python/pygtk.xml"/>
+  <feed src="https://apps.0install.net/python/pygtk.xml"/>
+  <name>python-gtk</name>
+  <summary>Python Bindings for GTK+</summary>
+  <description>PyGTK lets you to easily create programs with a graphical user interface using the Python programming language. The underlying GTK+ library provides all kind of visual elements and utilities for it and, if needed, you can develop full featured applications for the GNOME Desktop.</description>
+  <homepage>http://www.pygtk.org/</homepage>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g67AAoJECLqERp+QkKkBlQH/is2HJQOv7v/Gj8ftL97YDB+XsqNgqvxxwO/
+Pntfzj6AIksD4mn8UXJbjKD/bxOcMeP8rPa3W+SzYBfx+4fib1gi41uCvvUpyq8GAfy90Nxwj1Bg
+2XIDn1aLtCfhRM6q4n2+GKcRXFNwo0c5dadmhNejJJP6g5o/pQNOQyO60Nntv4Ygsycta+o1Arrx
+JmSA/uQ5uT3/S7xLvjgln8ofHfCRbSoxLIcVXykB2sNVo3C8fHVM03H7L3phOzgMCDOyY1RiFP68
+kiQZTwnIFBDp4wuNCWTikpBxGlCQhM8a7EADVc1LyNo/1dDeosTUlDxFLWME+kgiRRVvOahShs5l
+xCE=
+
+-->

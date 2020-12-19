@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/dotnet/framework-client-profile" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/dotnet/framework-client-profile.xml"/>
+  <feed src="https://apps.0install.net/dotnet/framework-client-profile.xml"/>
+  <name>.NET Framework Client Profile</name>
+  <summary>a limited version of the .NET Framework from Microsoft</summary> 
+
+  <!-- The regular .NET Framework is a superset of the Client Profile -->
+  <feed src="https://apps.0install.net/dotnet/framework.xml"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g60AAoJECLqERp+QkKkJH4IAIYEBotUENgR2/cgWH3U0mSwJX7G++Nsj6+t
+q8e438xwwktv85fvRy33JQboJyC8HG2aWBYjROVw8obkVAhfaH2z63VhInQmXufPjI+gGZogkSXv
+d8FC+wGrZPDzXpFrGe+XZJa/WVxGXnP/Tw43V4+wx9FnnwfFDHxqSlNzgpe8d2ykAfccjAq1hzVl
+E+N0uJ6D2KSPPvEQi+h4MqZSKKNZ2Lu4J9lFN8Nxf3/yZq4JPD8ta22hcXWQZak5cPQqjRBeYwhM
+tvnjCCpN+HaYNXbhfcjvxP4NYycicL3H4p4TCEK7pNqv3divEA98Y89ZtkpaHWKFjf/LcwsHsL6v
+wKo=
+
+-->

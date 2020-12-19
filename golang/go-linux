@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/golang/go-linux" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/golang/go-linux.xml"/>
+  <feed src="https://apps.0install.net/golang/go-linux.xml"/>
+  <name>Go - Linux builds</name>
+  <summary>tool for managing Go source code</summary>
+  <description>This is a tool for managing Go source code. Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.</description>
+  <homepage>https://golang.org/</homepage>
+  <needs-terminal/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g62AAoJECLqERp+QkKkg3QH/2LTsne7NLoXgzl/tEoCiLLtGT3ShXAU3ok8
+f0WxZH1y3z8PvAlhvfOC/EGDYeEuDHPZigfJOcuCAfd5wKdP8cv0sc9X1hl3ni2nqhAN5BIy2cRP
+y78x5YeM0AdOzF3MZqhEmMwQN9t3HyzlxyyALZkY8OcETur3aBnm5c8wmTyDvIHQo5pUdrvGJu+6
+SVRx/jISFhWTJXj39qsto5EM/IqyES8jp9nF5eBmhPdO5qiJnb5FQ+tCxdQiW30TORXSRQJWs8DA
+8XkS7/tZsmLm8GC2yUo+ykiy9/jBzshDkaUn5GlR+rdiI0XH4RZtpk0/6csEN3UpUx54ORtnKsbz
+A+I=
+
+-->

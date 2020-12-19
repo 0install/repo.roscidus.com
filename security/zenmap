@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/security/zenmap" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <replaced-by interface="https://apps.0install.net/gui/zenmap.xml"/>
+  <feed src="https://apps.0install.net/gui/zenmap.xml"/>
+  <name>Zenmap</name>
+  <summary>Nmap frontend and results viewer</summary>
+  <homepage>https://nmap.org/zenmap/</homepage>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/utils/nmap.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/utils/nmap.png" type="image/png"/>
+  <category>Network</category>
+  <category>Utility</category>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g68AAoJECLqERp+QkKkQY4H+gI8jHpVMLhchE7t13Dr5ssRL41TYTJXVjdp
+pFDOwHK+UG8jtwMjiNHx+qRKFAiDirhl6JR5AMYm+gcxrcKZrxhDhc6lCgG2bMBhiGJIVOwvLKcp
+E0f5Sldt6bEVtEwC6WkDgEdLyl0q8y6jmhOb90G7waaXeTxTSXj0xE7qWIbn7pJfANtfvNNKpsFE
+QGKvXlb3z7vhRP7FaSuwMIv4xNUDVs7y2LVlLBREifTGaf9VIdA2m23BuMhNaq2cYW5UwhrP6V71
+8TljnK7xeFrn8f2YMFrOe3Kdt1S5i5fsW/1tS0lpJtOiJqSzLvnuZQqYSbT+SNM+lkv4tumECaLk
+NZ8=
+
+-->

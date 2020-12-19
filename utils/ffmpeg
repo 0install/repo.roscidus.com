@@ -1,0 +1,35 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/utils/ffmpeg" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/utils/ffmpeg.xml"/>
+  <feed src="https://apps.0install.net/utils/ffmpeg.xml"/>
+  <name>FFmpeg</name>
+  <summary>record, convert and stream audio and video</summary>
+  <description>A complete, cross-platform solution to record, convert and stream audio and video.</description>
+  <category>Utility</category>
+  <homepage>http://ffmpeg.org/</homepage>
+  <needs-terminal/>
+
+  <entry-point binary-name="ffmpeg" command="run"/>
+  <entry-point binary-name="ffplay" command="ffplay">
+    <needs-terminal/>
+    <name>FFplay</name>
+    <summary>very simple and portable media player</summary>
+    <description>FFplay is a very simple and portable media player using the FFmpeg libraries and the SDL library. It is mostly used as a testbed for the various FFmpeg APIs.</description>
+  </entry-point>
+  <entry-point binary-name="ffprobe" command="ffprobe">
+    <needs-terminal/>
+    <name>FFprobe</name>
+    <summary>gathers information from multimedia streams</summary>
+    <description>ffprobe gathers information from multimedia streams and prints it in human- and machine-readable fashion.</description>
+  </entry-point>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g69AAoJECLqERp+QkKk9wgH/0D7BrwOLyA4933xjWnl8baguQFAut2CcRMj
+jbxXumJUlutrNyZdiZmClGopm4CdfI0Ez1DZojX7uD4YgvaDHdux7D8oGZPdxoayWvuFF6Jh0IbA
+hk3DOkigxw+Y/+ypwjogNNlVtUB9rgQrqx37LHg16oXSNViz99haRqJFg+hlDOsOb4kOQqUhZlyW
+j+r7jJt+HD9TQ8BDfH0aUxvyRzC0jlTukypK8qh9Y1XlyssAk+/49JJR+FC5ZUhdsFejG+Wv7Kim
+mEWflxciMGhH4ZWjX0hv2ZDrCmgF42RW6ksoUD+h4AqY9QtmI5LdyLkpzzxBUdO3S9Uct5dnzlY9
+5xo=
+
+-->

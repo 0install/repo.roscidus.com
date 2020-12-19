@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/kubernetes/kubectl" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/kubernetes/kubectl.xml"/>
+  <feed src="https://apps.0install.net/kubernetes/kubectl.xml"/>
+  <name>kubectl</name>
+  <summary>controls the Kubernetes cluster manager</summary>
+  <description>Command-line client that controls the Kubernetes cluster manager.</description>
+  <homepage>https://kubernetes.io/</homepage>
+  <needs-terminal/>
+
+  <entry-point binary-name="kubectl" command="run"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g64AAoJECLqERp+QkKklZwIAPHcR/6O2G7ChOV+40gXPjUteQ8XFh7PoAsB
+IgkO5Z4nDdXas6jfjHzuMXznB4CGd5bPxKOJkpo7h+I1YkvMOBqK/k8sRf7TvEt6vP1c5VB3cVXH
+Lf8sFHR8zXgF7PMjeXsqQS75UylfUu30kSItf1q8UasIcHwM6ooVAmtMng+hR3BUUCJZoxQfLL9s
+y5nuJiaG7dd4b+BRzEj7woJZWKYtngVKFT0WnpxOpN6MJslCBK8WMDXCD1DBZoMmqXIv7+z+UeYc
+2n922rRkJQxT/9bApE2VoQ0+sqAyDkEWFhTgd/a+Q9rXHI2hA8t7GD3tp21NwGDUPE7gNWFbFxQ2
+78Y=
+
+-->

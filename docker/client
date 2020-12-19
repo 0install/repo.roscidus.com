@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/docker/client" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/docker/client.xml"/>
+  <feed src="https://apps.0install.net/docker/client.xml"/>
+  <name>Docker Client</name>
+  <summary>Docker command-line client</summary>
+  <description>Docker is a software technology providing containers. This feed allows you to run Docker's command-line client.</description>
+  <homepage>https://www.docker.com/</homepage>
+  <needs-terminal/>
+
+  <entry-point binary-name="docker" command="run"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g60AAoJECLqERp+QkKkhQMIAJHiJtQRvDh3HoZ3+h/kGncR+yOZ0Tb356oe
+5sZ48M9OVjf7wCYO6e4UAjFV3gZzqHARx6Jg/8z+huJD/UOWkWmUkoREUJj0u7osIeQy60TDm3Rv
+4JKL+J2nS5wYMn13op+QkD/kYiPhk7eIni5cxEmWpvXTl7828ds5PcbNe56ussmPA8GHlMWPmBSQ
+6/oYFE75S55KukTI0lbV7pb19zOPmXOYtwSO0xCVX2KIkUuTjJ8W5WoLMz0nJwHHURDK4DdrQAGU
+irlnFHDTrcwYLwfztVbSd0hSzPgWsw+IGC0oXYGeJlygG52IMvuEr/EzPMYmYR5OeIcYHqsVSr5O
+8Eo=
+
+-->

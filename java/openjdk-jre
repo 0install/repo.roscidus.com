@@ -1,0 +1,108 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/java/openjdk-jre" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/java/jre.xml"/>
+  <feed src="https://apps.0install.net/java/jre.xml"/>
+  <feed arch="Windows-*" src="http://0install.de/feeds/Oracle_JRE.xml"/>
+  <name>openjdk-jre</name>
+  <summary>OpenJDK Java runtime</summary>
+  <description>The Java runtime allows you to run applications built for Java.</description>
+
+
+
+
+  <entry-point binary-name="java" command="run">
+    <needs-terminal/>
+    <name>Java command-line runner</name>
+  </entry-point>
+  <entry-point binary-name="javaw" command="run-gui">
+    <name>Java GUI runner</name>
+  </entry-point>
+  <entry-point command="javaws">
+    <name>Java Web Start</name>
+  </entry-point>
+  <entry-point command="javacpl">
+    <name>Java Control Panel</name>
+  </entry-point>
+  <entry-point binary-name="keytool" command="keytool">
+    <needs-terminal/>
+    <name>Key and Certificate Management Tool</name>
+  </entry-point>
+  <entry-point binary-name="servertool" command="servertool">
+    <needs-terminal/>
+    <name>Java IDL Server Tool</name>
+  </entry-point>
+  <entry-point binary-name="pack200" command="pack200">
+    <needs-terminal/>
+    <name>JAR Packing tool</name>
+  </entry-point>
+  <entry-point binary-name="unpack200" command="unpack200">
+    <needs-terminal/>
+    <name>JAR Unpacking tool</name>
+  </entry-point>
+  <entry-point binary-name="appletviewer" command="appletviewer">
+    <name>Run applet outside of browser</name>
+  </entry-point>
+  <entry-point binary-name="rmid" command="rmid">
+    <needs-terminal/>
+    <name>Remote activation system daemon</name>
+  </entry-point>
+  <entry-point binary-name="rmiregistry" command="rmiregistry">
+    <needs-terminal/>
+    <name>Remote object registry</name>
+  </entry-point>
+  <entry-point binary-name="idlj" command="idlj">
+    <needs-terminal/>
+    <name>IDL-to-Java Compiler</name>
+  </entry-point>
+  <entry-point binary-name="jjs" command="jjs">
+    <needs-terminal/>
+    <name>Nashorn engine</name>
+  </entry-point>
+  <entry-point binary-name="jrunscript" command="jrunscript">
+    <needs-terminal/>
+    <name>Java command line script shell</name>
+  </entry-point>
+  <entry-point binary-name="kinit" command="kinit">
+    <needs-terminal/>
+    <name>Obtain and cache Kerberos ticket-granting ticket</name>
+  </entry-point>
+  <entry-point binary-name="klist" command="klist">
+    <needs-terminal/>
+    <name>Kerberos display entries in credentials cache and keytab</name>
+  </entry-point>
+  <entry-point binary-name="ktab" command="ktab">
+    <needs-terminal/>
+    <name>Kerberos key table manager</name>
+  </entry-point>
+  <entry-point binary-name="jabswitch" command="jabswitch">
+    <needs-terminal/>
+    <name>Java Access Bridge Switch</name>
+  </entry-point>
+  <entry-point binary-name="jaccessinspector" command="jaccessinspector"/>
+  <entry-point binary-name="jaccesswalker" command="jaccesswalker"/>
+
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="jarfile">
+      <description>Executable Jar File</description>
+      <verb args="-jar &quot;%1&quot; %*" command="run-gui" name="open"/>
+      <extension value=".jar"/>
+    </file-type>
+    <file-type id="JNLPFile">
+      <description>JNLP File</description>
+      <verb args="&quot;%1&quot;" command="javaws" name="Open">
+        <description>&amp;Launch</description>
+      </verb>
+      <extension mime-type="application/x-java-jnlp-file" value=".jnlp"/>
+    </file-type>
+  </capabilities>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g63AAoJECLqERp+QkKkOTcIAN4VrbdjWYdmPw5VIZNn6jCGirPcAIIfduCB
+Q4DIAzLk3AyQ+zvDTlllWrh2AgYYuWNKfgCuYDUVN2lccfaXf1fUK9/+I4W5Ch85cxfayuxyY6y0
+dV47VNGIp8ZMT4ksgR1cSKfGzjI/EjPYGoQ9djGrw0xMZezQcRBMgiZFJc1pOyacaT4FEOVvqbjO
+FFIplEzGbXPp6mFYA36ZajuM6QmRy6uE2yAiW/6f1Qanli49n2W6P7C/Eupccn848GkmCRD18omo
+8kBQmI9boIUPgG2tfcY7kmkom+2vfcT34OchykC2M3KQMwXKRhU9kaL5wba3x6sp81Tp1C+5sbGe
+L1M=
+
+-->

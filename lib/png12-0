@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/png12-0" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/png12-0.xml"/>
+  <feed src="https://apps.0install.net/lib/png12-0.xml"/>
+  <name>libpng12-0</name>
+  <summary>PNG library - runtime</summary>
+  <description>libpng is a library implementing an interface for reading and writing
+PNG (Portable Network Graphics) format files.
+
+This package contains the runtime library files needed to run software
+using libpng.</description>
+  <homepage>http://libpng.org/pub/png/libpng.html</homepage>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g65AAoJECLqERp+QkKk4N4IAOpMyx5KH+DzHDEgZx63Zwia1dDQUdo5Ayot
+/KBoCkdS0O2Y8dCu4NUNPq0jbto8njeuF9aQfiMrGBMxVRl+FR/uh5tKBD6hS5k70gUvshYDdDWO
+3oPuL3Io/VgFV6SRtjZd3ZVvYJz1ds4+VYtLTz6Ao1Aq5lKbXtDxyZ/+hXn9d2V8QWUlP3MUAZNB
+4wY3fnPz9gRS5oKIr8txGaC5aKHFT2CCI2mzLDKjm41PpssjQ+trcA+8phIIbUc83d6g5j+JK9wk
+PUNgFBeVIl3MfVqL0LC3XL5zFzoA1RlWhnav/JXE7+Onq8u9X+AxjWcUQYEMe8m91EG9cFV7NU3C
+gk0=
+
+-->

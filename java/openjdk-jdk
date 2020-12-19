@@ -1,0 +1,159 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/java/openjdk-jdk" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/java/jdk.xml"/>
+  <feed src="https://apps.0install.net/java/jdk.xml"/>
+  <feed arch="Windows-*" src="http://0install.de/feeds/Oracle_JDK.xml"/>
+  <feed src="https://apps.0install.net/java/openjdk-9.xml"/>
+  <feed src="https://apps.0install.net/java/openjdk-10.xml"/>
+  <feed src="https://apps.0install.net/java/openjdk-11.xml"/>
+  <feed src="https://apps.0install.net/java/openjdk-12.xml"/>
+  <feed src="https://apps.0install.net/java/openjdk-13.xml"/>
+  <name>openjdk-jdk</name>
+  <summary>OpenJDK Development Kit (JDK)</summary>
+  <description>OpenJDK is a development environment for building applications, applets, and
+components using the Java programming language.</description>
+  <category>Development</category>
+
+
+
+  <entry-point binary-name="javac" command="run">
+    <name>Java compiler</name>
+  </entry-point>
+  <entry-point binary-name="java" command="java">
+    <needs-terminal/>
+    <name>Java command-line runner</name>
+  </entry-point>
+  <entry-point binary-name="javaw" command="run-gui">
+    <name>Java GUI runner</name>
+  </entry-point>
+  <entry-point binary-name="javadoc" command="javadoc">
+    <needs-terminal/>
+    <name>Java API Documentation Generator</name>
+  </entry-point>
+  <entry-point binary-name="javap" command="javap">
+    <needs-terminal/>
+    <name>Java Class File Disassembler</name>
+  </entry-point>
+  <entry-point binary-name="jar" command="jar">
+    <needs-terminal/>
+    <name>Java Archive Tool</name>
+  </entry-point>
+  <entry-point binary-name="jarsigner" command="jarsigner">
+    <needs-terminal/>
+    <name>Java Archive Signer</name>
+  </entry-point>
+  <entry-point binary-name="keytool" command="keytool">
+    <needs-terminal/>
+    <name>Key and Certificate Management Tool</name>
+  </entry-point>
+  <entry-point binary-name="pack200" command="pack200">
+    <needs-terminal/>
+    <name>JAR Packing tool</name>
+  </entry-point>
+  <entry-point binary-name="unpack200" command="unpack200">
+    <needs-terminal/>
+    <name>JAR Unpacking tool</name>
+  </entry-point>
+  <entry-point binary-name="rmid" command="rmid">
+    <needs-terminal/>
+    <name>Remote activation system daemon</name>
+  </entry-point>
+  <entry-point binary-name="rmiregistry" command="rmiregistry">
+    <needs-terminal/>
+    <name>Remote object registry</name>
+  </entry-point>
+  <entry-point binary-name="jjs" command="jjs">
+    <needs-terminal/>
+    <name>Nashorn engine</name>
+  </entry-point>
+  <entry-point binary-name="jrunscript" command="jrunscript">
+    <needs-terminal/>
+    <name>Java command line script shell</name>
+  </entry-point>
+  <entry-point binary-name="jaotc" command="jaotc">
+    <needs-terminal/>
+    <name>Java Ahead-of-Time Compilation</name>
+  </entry-point>
+  <entry-point binary-name="jcmd" command="jcmd">
+    <needs-terminal/>
+  </entry-point>
+
+  <entry-point binary-name="jconsole" command="jconsole"/>
+  <entry-point binary-name="jdb" command="jdb">
+    <needs-terminal/>
+  </entry-point>
+  <entry-point binary-name="jdeprscan" command="jdeprscan">
+    <needs-terminal/>
+  </entry-point>
+  <entry-point binary-name="jdeps" command="jdeps">
+    <needs-terminal/>
+  </entry-point>
+  <entry-point binary-name="jfr" command="jfr">
+    <needs-terminal/>
+    <name>Tool for working with Flight Recorder files (.jfr)</name>
+  </entry-point>
+  <entry-point binary-name="jhsdb" command="jhsdb">
+    <needs-terminal/>
+  </entry-point>
+  <entry-point binary-name="jimage" command="jimage">
+    <needs-terminal/>
+  </entry-point>
+  <entry-point binary-name="jinfo" command="jinfo">
+    <needs-terminal/>
+  </entry-point>
+  <entry-point binary-name="jlink" command="jlink">
+    <needs-terminal/>
+  </entry-point>
+  <entry-point binary-name="jmap" command="jmap">
+    <needs-terminal/>
+  </entry-point>
+  <entry-point binary-name="jmod" command="jmod">
+    <needs-terminal/>
+  </entry-point>
+  <entry-point binary-name="jps" command="jps">
+    <needs-terminal/>
+  </entry-point>
+  <entry-point binary-name="jshell" command="jshell">
+    <needs-terminal/>
+  </entry-point>
+  <entry-point binary-name="jstack" command="jstack">
+    <needs-terminal/>
+  </entry-point>
+  <entry-point binary-name="jstat" command="jstat">
+    <needs-terminal/>
+  </entry-point>
+  <entry-point binary-name="jstatd" command="jstatd">
+    <needs-terminal/>
+  </entry-point>
+  <entry-point binary-name="serialver" command="serialver">
+    <needs-terminal/>
+  </entry-point>
+  <entry-point binary-name="kinit" command="kinit">
+    <needs-terminal/>
+    <name>Obtain and cache Kerberos ticket-granting ticket</name>
+  </entry-point>
+  <entry-point binary-name="klist" command="klist">
+    <needs-terminal/>
+    <name>Kerberos display entries in credentials cache and keytab</name>
+  </entry-point>
+  <entry-point binary-name="ktab" command="ktab">
+    <needs-terminal/>
+    <name>Kerberos key table manager</name>
+  </entry-point>
+  <entry-point binary-name="jabswitch" command="jabswitch">
+    <needs-terminal/>
+    <name>Java Access Bridge Switch</name>
+  </entry-point>
+  <entry-point binary-name="jaccessinspector" command="jaccessinspector"/>
+  <entry-point binary-name="jaccesswalker" command="jaccesswalker"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g63AAoJECLqERp+QkKkGjEH/0vkIr7ZolqDuTzjWdOYl7RyAGvaLHBzz+Ve
+dg2p7E/dYxn6DC9ZtYOv9HOJg69zPRWY9h2RzlMjbVxNT0rGw+a7HUtee1ZqOZRA++TnZd8EUEv2
+wRQNEzU2mxX90lnzKfZyCWZXjR+7hftwdR1eRZkyp2wHbHEQJlF3NDw9v57dZ4gi/Cjg9765tk8w
+l1Nw+H+hKicfeuv/3LxW8DhbFsYMmCzCzid/VHL8ZCX9uOP2CsPNFNdPLLT+mwSZ6zV6WMNKI3uE
+pCTXsgA5G4Ml5RX/JNY0n9SZYTG0yszJA6XUhlG1XEd9y86Un6F5XGda8pZ4sgcyfpf2KfJW78Po
+1Nc=
+
+-->

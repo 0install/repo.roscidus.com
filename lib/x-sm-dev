@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/x-sm-dev" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/x-sm-dev.xml"/>
+  <feed src="https://apps.0install.net/lib/x-sm-dev.xml"/>
+  <name>libsm-dev</name>
+  <summary>X11 Session Management library (development headers)</summary>
+  <description>
+This package provides the main interface to the X11 Session Management library,
+which allows for applications to both manage sessions, and make use of session
+managers to save and restore their state for later use.
+
+This package contains the development headers for the library found in libsm6.
+Non-developers likely have little use for this package.
+
+More information about X.Org can be found at: &lt;URL:http://www.X.org&gt;
+&lt;URL:http://xorg.freedesktop.org&gt;
+&lt;URL:http://lists.freedesktop.org/mailman/listinfo/xorg&gt;
+
+This module can be found at git://anongit.freedesktop.org/git/xorg/lib/libSM</description>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g66AAoJECLqERp+QkKkQFQH+gOJh7IApWpJYeoo271ypvxyxOCQaoAPJvk+
+nz3t6NvSqtOswErFjvEFONIm8U1nsquy0YOauE0HiVRF6ORvD5mOhw/ql7gZSNtCbXmQCxukdm7r
+AoQsn/J3HjVmQZdZ3uiyTT8aLsME1JY82yK3G8+blhwzRemSXxuzrcICGHzv8R+xbdQJ6Yv0gWD0
+37KMKeyaSFf53fqbqkSKqjtK+bxcY+SwCUAhsaoElSMR0F7ZrNDCv5JwESPrrv/UqG15E3W9NYFI
+4ScdQs8AkVljXHrhOrfaNiOg0JUd4HemE/eyLSf04AScOPRH6gucS4L/tv/EklpvYUephTmO1bw2
+ONQ=
+
+-->

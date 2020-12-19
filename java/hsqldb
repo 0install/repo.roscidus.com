@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/java/hsqldb" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/java/hsqldb.xml"/>
+  <feed src="https://apps.0install.net/java/hsqldb.xml"/>
+  <name>HyperSQL</name>
+  <summary>100% Java Database </summary>
+  <description>
+HSQLDB (HyperSQL DataBase) is an SQL relational database engine written in Java.
+It has a JDBC driver and supports nearly full ANSI-92 SQL (BNF tree format) plus
+many SQL:2008 enhancements. It offers a small, fast database engine which offers
+in-memory and disk-based tables and supports embedded and server modes.
+Additionally, it includes tools such as a command line SQL tool and GUI query
+tools.</description>
+  <homepage>http://hsqldb.org/</homepage>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g62AAoJECLqERp+QkKkj0EIAODxzRAUS7bg9Cers1pZRKfwujLiFzm/UELO
+gbnIoRQ7BndLH0FUS83ue3JeZRQ11wWVPHesH7LRAYv/WFm9tXBokZLKMmkFhc+oZRuGtgYOV6a/
+HayeOwDhGWSzifowWi9EdJzAFMDCtvYXJJrvU02jUFCCrYvgtm492ix4J8Ree5kYpYlmArgpbQmk
+2LcSCD5E5crmcPY0ABz9X12IcXkZIjRRJo25ivdijsyiw9KxBKa0YKNqcIqa6mFgXYQ9zkcfeR6A
+DqoDLsJ9yldvjnWZdCqvOOHm12LRefK5UDppU8RJXzJ+rtJhBJIlDfqRA/iogcnqp4AEHdt5qDOQ
+aJ8=
+
+-->

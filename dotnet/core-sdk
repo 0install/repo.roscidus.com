@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/dotnet/core-sdk" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/dotnet/core-sdk.xml"/>
+  <feed src="https://apps.0install.net/dotnet/core-sdk.xml"/>
+  <name>.NET Core SDK</name>
+  <summary>tools for building .NET Core applications</summary>
+  <homepage>https://www.microsoft.com/net/core</homepage>
+  <needs-terminal/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g60AAoJECLqERp+QkKkulMH/R5iMAE+ZuOGaijFtLTwATB6SKYbRHRJI6dI
+dFz33/xgrpjd9ejXU5B/9+rz7L9hGCjbEONwtNz7sSXwrv6eADYeiuCzZaR6KM07afJX/VIYTqkU
+OKU1eC/UgqeodZxSuQlBXNdPLIJGUHI/EpX1C4m/TetztWPGRFW1GUFotIt38hE7/HakRH+KNtVh
+CQQAbt8kBOwG19qo3YAPZvG+pPvzmslniHr+9vlX3W34yGBh0HJGRp5nSpv07ProiieZzR3ZDKtH
+tAwZmCCRvWEufsVH2a8EoAvxw3tsAiXn9sIwj6AJPsXrTifJkV9ipooCbAmYCBnAAtvnEjmNvpPB
+2g0=
+
+-->

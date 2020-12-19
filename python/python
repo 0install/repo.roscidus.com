@@ -1,0 +1,61 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/python/python" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/python/python.xml"/>
+  <feed src="https://apps.0install.net/python/python.xml"/>
+  <feed arch="POSIX-*" src="https://apps.0install.net/python/posix.xml"/>
+  <feed arch="Windows-*" src="https://apps.0install.net/python/windows.xml"/>
+  <name>python</name>
+  <summary>interactive high-level object-oriented language</summary>
+  <description>
+Python is an interpreted, interactive, object-oriented programming language. It
+combines remarkable power with very clear syntax, and isn't difficult to learn.
+It has modules, classes, exceptions, very high level data types, and dynamic
+typing. There are interfaces to many system calls and libraries, as well as to
+various windowing systems (Tk, Mac, MFC, GTK+, Qt, wxWindows). New built-in
+modules are easily written in C or C++. Python is also usable as an extension
+language for applications that need a programmable interface.</description>
+  <needs-terminal/>
+
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/python/python.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/python/python.ico" type="image/vnd.microsoft.icon"/>
+
+
+  <entry-point binary-name="python" command="run">
+    <needs-terminal/>
+    <name xml:lang="en">Python command-line interpreter</name>
+    <name xml:lang="de">Python Befehlszeileninterpreter</name>
+  </entry-point>
+  <entry-point binary-name="pythonw" command="run-gui">
+    <name xml:lang="en">Python GUI interpreter</name>
+    <name xml:lang="de">Python Grafischer Interpreter</name>
+  </entry-point>
+
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="Python.File">
+      <description>Python File</description>
+      <verb args="&quot;%1&quot; %*" name="open"/>
+      <extension mime-type="text/plain" value=".py"/>
+    </file-type>
+    <file-type id="Python.NoConFile">
+      <description>Python File (no console)</description>
+      <verb args="&quot;%1&quot; %*" command="run-gui" name="open"/>
+      <extension mime-type="text/plain" value=".pyw"/>
+    </file-type>
+    <file-type id="Python.CompiledFile">
+      <description>Compiled Python File</description>
+      <verb args="&quot;%1&quot; %*" name="open"/>
+      <extension value=".pyc"/>
+      <extension value=".pyo"/>
+    </file-type>
+  </capabilities>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g67AAoJECLqERp+QkKkstoIALRhTFuZmGs1aVBhmDrevK7gD32zufdIDs23
+cA8KPWFjifNhG7UZA2Rn3u0nHDFnD5YQMX4Ve/bAWvn97S9wKTUwNLYrRnoLM/6eOp1zT3jqYMkP
+1iLAj5ImOXGCK4S1Fe7D5kRUJ5HyPl6SkOPVwRNSbpQsdQR2fNLzzt8CGA9GsaIX+Nuo3CKtyCGY
+4nSCS5RMOy1obSUT0TbM5guh3f0g7QOD09HdgytxoDSiWk1rEtA74YPbaNWBrYzHaaJBU4XSVmi5
+oodr+B7wZo9A+Qj+yuVGcelczCfAxOTOTyTaiEdl68p9QoupBs+Afm1+fbgm5HDkJTQNfEAs/1lU
+7eY=
+
+-->

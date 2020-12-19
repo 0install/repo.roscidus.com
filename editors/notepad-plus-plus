@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/editors/notepad-plus-plus" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/gui/notepad-plus-plus.xml"/>
+  <feed src="https://apps.0install.net/gui/notepad-plus-plus.xml"/>
+  <name>Notepad++</name>
+  <summary xml:lang="en">free source code editor and Notepad replacement that supports several languages</summary>
+  <summary xml:lang="de">freier Quellcode-Editor und Notepad-Ersatz mit Unterstützung für mehrere Sprachen</summary>
+  <description xml:lang="en">Notepad++ is a free source code editor and Notepad replacement that supports several languages. Based on the powerful editing component Scintilla, Notepad++ is written in C++ and uses pure Win32 API and STL which ensures a higher execution speed and smaller program size. By optimizing as many routines as possible without losing user friendliness, Notepad++ is trying to reduce the world carbon dioxide emissions.</description>
+  <description xml:lang="de">Notepad++ ist ein freier Quellcode-Editor und Notepad-Ersatz mit Unterstützung für mehrere Sprachen. Auf der mächtigen Editor-Komponente Scintilla aufbauen ist Notepad++ C++ geschrieben und verwendet die reine Win32 API und STL was zu einer höheren Ausführungsgeschwindigkeit und einer kleineren Programmgröße führt. Durch die Optimierung so vieler Routinen wie möglich ohne Benutzerfreundlichkeit zu verlieren, versucht Notepad++ die weltweiten CO2 Emissionen zu senken.</description>
+  <homepage>http://notepad-plus-plus.org/</homepage>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/gui/notepad-plus-plus.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/gui/notepad-plus-plus.ico" type="image/vnd.microsoft.icon"/>
+  <category>Development</category>
+  <category>Utility</category>
+
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="Notepad++_textfile">
+      <description>Notepad++ Text file</description>
+      <verb args="&quot;%1&quot;" name="open"/>
+      <extension mime-type="text/plain" perceived-type="text" value=".txt"/>
+    </file-type>
+    <file-type explicit-only="true" id="Notepad++_file">
+      <description>Notepad++ Document</description>
+      <verb args="&quot;%1&quot;" name="open"/>
+      <extension value=".as"/>
+      <extension value=".asp"/>
+      <extension value=".bsh"/>
+      <extension perceived-type="text" value=".c"/>
+      <extension value=".cc"/>
+      <extension perceived-type="text" value=".cpp"/>
+      <extension value=".cs"/>
+      <extension mime-type="text/css" perceived-type="text" value=".css"/>
+      <extension perceived-type="text" value=".cxx"/>
+      <extension value=".f"/>
+      <extension value=".f2k"/>
+      <extension value=".f90"/>
+      <extension value=".f95"/>
+      <extension value=".for"/>
+      <extension perceived-type="text" value=".h"/>
+      <extension perceived-type="text" value=".hpp"/>
+      <extension mime-type="text/html" perceived-type="text" value=".htm"/>
+      <extension mime-type="text/html" perceived-type="text" value=".html"/>
+      <extension perceived-type="text" value=".hxx"/>
+      <extension perceived-type="text" value=".inc"/>
+      <extension value=".ini"/>
+      <extension perceived-type="text" value=".java"/>
+      <extension value=".js"/>
+      <extension value=".jsp"/>
+      <extension value=".log"/>
+      <extension value=".lua"/>
+      <extension value=".m"/>
+      <extension value=".mak"/>
+      <extension value=".mx"/>
+      <extension value=".nfo"/>
+      <extension value=".nsh"/>
+      <extension value=".nsi"/>
+      <extension value=".pas"/>
+      <extension value=".php"/>
+      <extension value=".phtml"/>
+      <extension perceived-type="text" value=".pl"/>
+      <extension value=".pm"/>
+      <extension value=".py"/>
+      <extension value=".rc"/>
+      <extension value=".sh"/>
+      <extension perceived-type="text" value=".sql"/>
+      <extension value=".tex"/>
+      <extension value=".vb"/>
+      <extension value=".vbs"/>
+      <extension mime-type="text/xml" value=".xml"/>
+    </file-type>
+    <context-menu id="open-with">
+      <verb args="&quot;%1&quot;" name="notepad_plus_plus">
+        <description xml:lang="en">Open with Notepad++</description>
+        <description xml:lang="de">Öffnen mit Notepad++</description>
+      </verb>
+    </context-menu>
+  </capabilities>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g61AAoJECLqERp+QkKkzY8H/i3gigpc56h+H84Sg4zE7/t+GDzTnPdil+LJ
+IlbBtCCwuRme/um+KqvWZtRNKcXVPTHXoiW5RxiwT8QfiOHZdP55bucGz++Sl986qQM7aVvD6QbO
+7d87KhwncdoocP06AT9qyCWmGjvgPrEbAisFiNqyJGZLmvtuvZZCF/vJSN1Suhqsu7nTeI4vW8JS
+ABkeIYjR7ScPtaPAYwyEIbESmRGlz2G8Fhezx1Cgix3/SD6Rd4sLBUKqvt394vg8aC0S/fy6NEDD
+LUXTXvFTNidapIubb+gDrZ92JCPB1550N6WxJaoDLGPACVXi/fKF9hE+cfyBOlb3LqK+ccPuCdoy
+qfY=
+
+-->

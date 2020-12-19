@@ -1,0 +1,25 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/popt" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <replaced-by interface="https://apps.0install.net/lib/popt.xml"/>
+  <feed src="https://apps.0install.net/lib/popt.xml"/>
+  <name>libpopt0</name>
+  <summary>lib for parsing cmdline parameters</summary>
+  <description>Popt was heavily influenced by the getopt() and getopt_long() functions,
+but it allows more powerful argument expansion. It can parse arbitrary
+argv[] style arrays and automatically set variables based on command
+line arguments. It also allows command line arguments to be aliased via
+configuration files and includes utility functions for parsing arbitrary
+strings into argv[] arrays using shell-like rules.
+
+This package contains the runtime library and locale data.</description>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g66AAoJECLqERp+QkKkJLIIAMcIG2576pmdMwsNHcV9lPNKPQIJ3pUKyW/B
+2nBLRFHOci6NQPhz2h9RUxdQ4WWEkq4s5LK3ALd4IuEXDY1l/RinpU42ZZ71sJaxGcQGl/kqxY5N
+vSfQqHFxXeYSp7pfco7OYo7Yh24Na/XLrgAonrEab2sbaOoJ0SCO7J2MBjoglfvZAxrTe51rEgIj
+TJi9/VEuvDiK1c+GV9AZuIOaxSsyprULRgHf3dhGo604uCdhIVXgR3iNFhR2/fH5h95XAHfN/TV1
+nPe7feCjdgcLnVOb8V6uYo1SWWzH6kSBubxtz0iGexGzRq3SoArlkXo/eR6SnucoLZ4Ro9PhO2U/
+xSY=
+
+-->

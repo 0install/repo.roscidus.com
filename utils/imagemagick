@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/utils/imagemagick" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/utils/imagemagick.xml"/>
+  <feed src="https://apps.0install.net/utils/imagemagick.xml"/>
+  <name>ImageMagick</name>
+  <summary>create, edit, compose, or convert bitmap images</summary>
+  <description>ImageMagick can read and write images in a variety of formats (over 200) including PNG, JPEG, GIF, HEIC, TIFF, DPX, EXR, WebP, Postscript, PDF, and SVG. Use ImageMagick to resize, flip, mirror, rotate, distort, shear and transform images, adjust image colors, apply various special effects, or draw text, lines, polygons, ellipses and Bézier curves.</description>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/utils/imagemagick.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/utils/imagemagick.ico" type="image/vnd.microsoft.icon"/>
+  <category>Graphics</category>
+  <homepage>https://imagemagick.org/</homepage>
+  <needs-terminal/>
+
+  <entry-point binary-name="magick" command="run">
+    <needs-terminal/>
+    <name>magick</name>
+    <summary>convert between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more.</summary>
+  </entry-point>
+  <entry-point binary-name="IMDisplay" command="run-gui">
+    <name>IMDisplay Application</name>
+  </entry-point>
+  <entry-point binary-name="magick-script" command="script">
+    <needs-terminal/>
+    <name>magick-script</name>
+    <summary>use this scripting language interpreter to convert between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more.</summary>
+  </entry-point>
+  <entry-point binary-name="compare" command="compare">
+    <needs-terminal/>
+    <name>compare</name>
+    <summary>mathematically and visually annotate the difference between an image and its reconstruction.</summary>
+  </entry-point>
+  <entry-point binary-name="composite" command="composite">
+    <needs-terminal/>
+    <name>composite</name>
+    <summary>overlap one image over another.</summary>
+  </entry-point>
+  <entry-point binary-name="conjure" command="conjure">
+    <needs-terminal/>
+    <name>conjure</name>
+    <summary>interpret and execute scripts written in the Magick Scripting Language (MSL).</summary>
+  </entry-point>
+  <entry-point binary-name="convert" command="convert">
+    <needs-terminal/>
+    <name>convert</name>
+    <summary>convert between image formats as well as resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more.</summary>
+  </entry-point>
+  <entry-point binary-name="identify" command="identify">
+    <needs-terminal/>
+    <name>identify</name>
+    <summary>describe the format and characteristics of one or more image files.</summary>
+  </entry-point>
+  <entry-point binary-name="mogrify" command="mogrify">
+    <needs-terminal/>
+    <name>mogrify</name>
+    <summary>resize an image, blur, crop, despeckle, dither, draw on, flip, join, re-sample, and much more. Mogrify overwrites the original image file, whereas, convert writes to a different image file.</summary>
+  </entry-point>
+  <entry-point binary-name="montage" command="montage">
+    <needs-terminal/>
+    <name>montage</name>
+    <summary>create a composite image by combining several separate images. The images are tiled on the composite image optionally adorned with a border, frame, image name, and more.</summary>
+  </entry-point>
+  <entry-point binary-name="stream" command="stream">
+    <needs-terminal/>
+    <name>stream</name>
+    <summary>a lightweight tool to stream one or more pixel components of the image or portion of the image to your choice of storage formats. It writes the pixel components as they are read from the input image a row at a time making stream desirable when working with large images or when you require raw pixel components.</summary>
+  </entry-point>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g69AAoJECLqERp+QkKk/r0H/icgj6aRpGfSeR2xI6c0zXsnmodlnyEGnzce
+FzblCTMMdXSH9sWe+KcU0e6o/OlkuPWxgWi8SZ4CVQW+66/Lh19RZqVt70FfBMw1/BH7TXYthhKN
+1W5rj5JbkClfySKVcLGROnZhfkT2M+BrVN0TQLgLrL91ZTf5YXi0gzfs3H9UgLYUapy8jMgxw9+Z
++Rae/PkE6N0T/hpBhTrDsd7GeE+QS+pK/vGM9UupXmZ4qoT8IK4+MI4qoLCQFGCI5vb5+Twtc5e3
+6/tF0SlxpO72BF9y9TPUtXtNOvtsP1B8pwHDYBSooZ0YIM3zhyc43XZFhxd/pJJo1jvEQxCd6jNT
+TUs=
+
+-->

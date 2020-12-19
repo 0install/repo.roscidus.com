@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/gtk" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/gtk.xml"/>
+  <feed src="https://apps.0install.net/lib/gtk.xml"/>
+  <name>GTK+ Runtime</name>
+  <summary>runtime components of GTK+</summary>
+  <description>This package contains the runtime components for GTK+.</description>
+  <homepage>http://www.gtk.org/</homepage>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g65AAoJECLqERp+QkKky/oH/3AtlowJT3sfQkV59oOtVt/+D0ULKrIz3xu+
+JMa690YwzHoodya0BOvS+Z+neqpSDti+0xtoLZ26NmgiVBViKKvXNlL4RCx+Dx16drzXYWXmENYI
+1BxLt3jZv8sWbRkruh/uJRjlDUGXz58ptlAayUYZEOsrf9Tlr+R2XKyABdys9GcDtPTQhe77lAMA
+6MmSgBLaoeaeRvzY4X/bSym6e4Zw7BIx05YwmYvzJfH4fL6fnyVcldFszIEUNyyF0u9ejF5GuQeY
+vRFKpnzoBuLtLPWUXvLgjWcwLg+c72nUKv41LbUomrTizmtEACZDqX73b4KBooUym0enaDzefiZv
+PMw=
+
+-->

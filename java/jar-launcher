@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/java/jar-launcher" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/java/jar-launcher.xml"/>
+  <feed src="https://apps.0install.net/java/jar-launcher.xml"/>
+  <name>JAR Launcher</name>
+  <summary>launcher that starts the main class while preserving the CLASSPATH</summary>
+  <description>A launcher that starts the main class specified in a JAR while preserving the CLASSPATH.
+Workaround for java -classpath ... -jar ... which does not work.</description>
+  <homepage>https://github.com/0install/jar-launcher</homepage>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g62AAoJECLqERp+QkKkPqAH/1PZFUpmjKhLgwzL9oke3QbITImANKQIyVNl
+EwSeMocigabbeZyw4mWKdF0tj9yG8Cd+44yWSNXGPh5quVFE8oH81mgMlzRTxPOepYxa3q23PhGV
+XWqnmtuqqadXLfktSxVRBzOG5iBAFFVVa09Qd27aUnv48r5+JApb9QkklhJw6K64dvP3kzE6+kKV
+pRgd1IjsKJdL3Ry21zSyo5vRUMI50T6hewlv41wHTtG0rJMyRE8pZdqqPamS6IE9m+A0wHB5kqMd
+FohyOhuVgJ1Ley2FHLxc5HHdsKkaSR/MaKm/koHT+MKC3BFEY5NN7IIumFPV0RhObBOPaUMlFetO
+kVU=
+
+-->

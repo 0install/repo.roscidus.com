@@ -1,0 +1,47 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/devel/cmake" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
+  <replaced-by interface="https://apps.0install.net/devel/cmake.xml"/>
+  <feed src="https://apps.0install.net/devel/cmake.xml"/>
+  <name>CMake</name>
+  <summary>cross platform make</summary>
+  <description>CMake is a family of tools designed to build, test and package software. CMake is
+used to control the software compilation process using simple platform and
+compiler independent configuration files. CMake generates native makefiles and
+workspaces that can be used in the compiler environment of your choice.</description>
+  <homepage>http://www.cmake.org/</homepage>
+  <category>Development</category>
+  <needs-terminal/>
+
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/devel/cmake.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/devel/cmake.png" type="image/png"/>
+
+  <entry-point binary-name="cmake" command="run">
+    <needs-terminal/>
+    <name>CMake command-line</name>
+  </entry-point>
+  <entry-point binary-name="cmake-gui" command="run-gui">
+    <name>CMake GUI</name>
+  </entry-point>
+  <entry-point binary-name="ccmake" command="run-curses">
+    <needs-terminal/>
+    <name>CMake Curses Interface</name>
+  </entry-point>
+  <entry-point binary-name="cpack" command="cpack">
+    <needs-terminal/>
+    <name>CMake Packaging driver</name>
+  </entry-point>
+  <entry-point binary-name="ctest" command="ctest">
+    <needs-terminal/>
+    <name>CMake Testing driver</name>
+  </entry-point>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g6zAAoJECLqERp+QkKk/W0H/RvJube0BT3XpD9sZYmD85l2xcEQLpmu/dYD
+uGBA4/IlwInFA2hFIS1jLwaugcUt0F1Vi1qouImo5imu1zvov3hl1nXrmZW6grbWBwe6soe+w+17
+aEpqttNU/+ZRFQF4j/Tt8IJy4egMHeftPFTdvNxFqOaTR0VbsRVonETXSkeIZ5Q9u/S/NzyqnF10
+sZcIsDZNwvYoryztASH81CB+tS1p6dlvvCTUYyY+UiVf9HesLc6D3Jr9oVBVS7wnA63dhyFAz4xE
+9hSy1D0Lp6jiEc+Bu25MTWSFwtjSf6dvoc6sf/ndKeQ6wTiEI+D3zgn2EBenU7oYGpqSmqPc8f6u
+5Os=
+
+-->

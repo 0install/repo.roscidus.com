@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/unwind" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/unwind.xml"/>
+  <feed src="https://apps.0install.net/lib/unwind.xml"/>
+  <name>libunwind</name>
+  <summary>library to determine the call-chain of a program</summary>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g66AAoJECLqERp+QkKkoXQIANczNxreTO1U8R5Ghb5jmKouplJMZFkwnWxq
+4MCsTfxPuv8okmCBDYNFlJx1HGTMhFqHuzg6tI3lhJ/dO4WMgksIA7mdDXm/dWZgbSw9PO8UlwtU
+qnclw0OuX+IYsnDo+G7sIS30ZVTCm8ey2C/Ix5XjWLqYEtOiSK8+lVi6rHCHlfKDwko9SvA9Y8fY
+bpDKD4wfgyM04HnzmNcbjFyvrB3fqAEC/RG2kNqwT2siPgYP7eNWzD9SwgTvURhq+n4DtDStLhTj
+bTFjbSZC7K/hYqTHj9e8UzBn1y1EXokGDdstbWOU90YAletDI9SeMEYFsT5OI2ZjpuMBHUqeokCq
+Peg=
+
+-->

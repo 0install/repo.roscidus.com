@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/hashicorp/terraform" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/devel/terraform.xml"/>
+  <feed src="https://apps.0install.net/devel/terraform.xml"/>
+  <name>Terraform</name>
+  <summary>write, plan, and create infrastructure as code</summary>
+  <description>Terraform is a tool for building, changing, and versioning infrastructure safely and efficiently. Terraform can manage existing and popular service providers as well as custom in-house solutions.</description>
+  <homepage>https://www.terraform.io/</homepage>
+  <needs-terminal/>
+
+  <entry-point binary-name="terraform" command="run"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g62AAoJECLqERp+QkKktjEIAOwQxs5qYHtOlMpydotCR4yB2SSCvbilzeNt
+6PNX8QSgI3aO5syy94HaDPID9qXBQUeJB+F0c9EEko5LmkrQC6DmTX94ctgwUlItps4oekyzLNKw
+pub4vg2w455xoPPXSTW36omyHZfivgE7NcrufXnzAe2ohm+gFfKoRg4EhGqfIcT+YRlACPEzEaBz
+Mu/PCA7e8XP5IGvGLgqQZJUEclmwA8zgRzPkgYKLvK5s+tD1bsjCzCCnoA+OTHEczmfMnrvbm5zM
+EeBu6hQdoFOnT14fpLvaoFuiBjGZ0wYKi2CW8JFFaA4xfxHcTDi8BTZMq3abgiSessbKMqO8WiDL
+SSQ=
+
+-->

@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/javascript/electron" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/javascript/electron.xml"/>
+  <feed src="https://apps.0install.net/javascript/electron.xml"/>
+  <name>Electron</name>
+  <summary>framework for creating native applications with web technologies</summary>
+  <description>Electron is a framework for creating native applications with web technologies like JavaScript, HTML, and CSS.</description>
+  <homepage>https://electronjs.org/</homepage>
+
+  <entry-point binary-name="electron" command="run"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g63AAoJECLqERp+QkKk+UIIAJlFJJdMaHzS0r2RvXFmNmZJyQrmQgdWCzeJ
+NmOvpMRscGGTEjASEb/2g6v//VT1Qkl3dmVLloYT0ECAfmStBKfgOwiKSbEzlhMM4tyOI94/r5HI
+n7k4Db3L3W0iSoEMZJ655rfrWf0VqIqyv2b90jKrngR+C7JKJnr5Cxlke1sTqmHYTHv8Fthzk6Kx
+OzoAY0efMbCMcY5U8uFpbtEuBfDBkJs6j6kDhEXj8oe08TvZzdmlH8jMH49ke6uyD6yNmmvvzB02
+eLeX3LDgbK7uHvHZ5g7LzLE60zphu2S0tew3d6RuHebpfqr+DWZ8ND/+2dLMN916NdzOqC2JtZPy
+VVw=
+
+-->

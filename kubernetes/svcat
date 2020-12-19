@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/kubernetes/svcat" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/kubernetes/svcat.xml"/>
+  <feed src="https://apps.0install.net/kubernetes/svcat.xml"/>
+  <name>svcat</name>
+  <summary>CLI for interacting with Kubernetes Service Catalog</summary>
+  <description>This is a command-line interface (CLI) for interacting with Service Catalog resources. svcat is a domain-specific tool to make interacting with the Service Catalog easier. While many of its commands have analogs to kubectl, our goal is to streamline and optimize the operator experience.</description>
+  <homepage>https://svc-cat.io/docs/cli/</homepage>
+  <needs-terminal/>
+
+  <entry-point binary-name="svcat" command="run"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g64AAoJECLqERp+QkKk5j0H/i5nRU4osWjN5pgI0e9trXYcri80Sfrvzxdv
+wQMikuHfkl4jVhcE1yYblFmfFqN9ntG9UX2+SFCrI+VQqDdz3VtMnRQ0P6d8xyTJNMOv/kC9fLr1
+bVvG5OOisWkI71Vto1UL7lWonSV/DLSAIGfDt7s5Mj6SjjTo0QS0b6uRsU9G0JgPy6hNRr8CwEdS
+0laGUtklToGFvO/tU7UqKQIUFFzcL5UWW7Op8K8XrLv4yoCtRn3Q0O0flEGKlF3sOfBVW6Qg0U6l
+y2JqLQCDtcy42EuBeA/Ckc06ZkByOyh5CX6OYWgvn3N5lGCF/3tqjZkbbCSvXkK8CCEy7HjEgndE
+RvU=
+
+-->

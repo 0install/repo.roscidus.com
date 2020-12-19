@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/google/gcloud" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/devel/gcloud.xml"/>
+  <feed src="https://apps.0install.net/devel/gcloud.xml"/>
+  <name>Google Cloud SDK</name>
+  <summary>set of tools for Google Cloud Platform</summary>
+  <description>The Google Cloud SDK is a set of tools for the Google Cloud Platform. It contains gcloud, gsutil, and bq, which you can use to access Google Compute Engine, Google Cloud Storage, Google BigQuery, and other products and services from the command-line.</description>
+  <homepage>https://cloud.google.com/sdk/</homepage>
+  <needs-terminal/>
+
+  <entry-point binary-name="gcloud" command="run">
+    <description>command-line tool for Google Cloud</description>
+  </entry-point>
+  <entry-point binary-name="gsutil" command="gsutil">
+    <needs-terminal/>
+    <description>command-line tool for Google Cloud Storage</description>
+  </entry-point>
+  <entry-point binary-name="bq" command="bq">
+    <needs-terminal/>
+    <description>command-line tool for BigQuery</description>
+  </entry-point>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g62AAoJECLqERp+QkKkTdYH/0nIcYR499tKFz3MNDoPjLaMhAwbSxN6B5Rr
+iNZisxciwyzZXvvOE6ERTwzF66ReNUXN9UArS8zFezmljUze6+MR082WoxdNEUJJ7P9Y3mXEQPLY
+O7/D9XF0ETDGJn1LwTpExmt5ov703nt3+uD61mwC+Rx63KL4WwkpEdz5Q66njFAimIpP2DBqLZa4
+V0waOyg1Sv1R4KwY+kjAwieTziRTCa5JT2m04Vets8PqE5+4a2njSBW1Wn17nGqxznDvN8rLSsv5
+UdcrI5GoSQLBR1UTq40E6IVLUjrVSOVOapaldsZWeB+JDxVbPqgPJsEDqrbYtQlZxArmGFDN3wZF
+7CI=
+
+-->

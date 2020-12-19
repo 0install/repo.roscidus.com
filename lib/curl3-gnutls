@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/curl3-gnutls" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/curl3-gnutls.xml"/>
+  <feed src="https://apps.0install.net/lib/curl3-gnutls.xml"/>
+  <name>curl3-gnutls</name>
+  <summary>Multi-protocol file transfer library (GnuTLS)</summary>
+  <description>libcurl is designed to be a solid, usable, reliable and portable
+multi-protocol file transfer library.
+
+SSL support is provided by GnuTLS.
+
+This is the shared version of libcurl.</description>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g64AAoJECLqERp+QkKkk0IH/j4acCQBYz1h7Mh62Ehm/RChbXbRgdj3Brxx
+4C0H9BP5nwj56YZa+YNGkKaBbGP+RhDzE+IqSlT1FXRavYEgR0G5p+S+/5PXsSa8QLDl0QZt5Bsm
+XI3SASwJYjqRhPKWO19LQQZb3rdpE4S7H+BJMG9qOw9GNal3vivZp+L4p5d1lZCNWQUHf8Jqcfzo
+oq27JiKzyjbEK97ipS4Uhnwd7YEurD7sb6Hsg9xTXeoPNGS3CgkibVJPSJ7GIQw0Mg+7QgMkk8+F
+XyKJ7gNyMposrQIRizq9PQJq4p8a0Qb+CtFmTBBg5cyVp3/QvW7UkNyrjbv67adjkCqhxIz9AtP+
+ENg=
+
+-->

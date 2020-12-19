@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/kubernetes/k9s" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/kubernetes/k9s.xml"/>
+  <feed src="https://apps.0install.net/kubernetes/k9s.xml"/>
+  <name>k9s</name>
+  <summary>curses based terminal UI to interact with Kubernetes</summary>
+  <description>K9s provides a curses based terminal UI to interact with your Kubernetes clusters. The aim of this project is to make it easier to navigate, observe and manage your applications. This command line app continually watches Kubernetes for changes and offers subsequent commands to interact with observed resources.</description>
+  <homepage>https://k9ss.io/</homepage>
+  <needs-terminal/>
+
+  <entry-point binary-name="k9s" command="run"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g64AAoJECLqERp+QkKkhGIH/1lErVVlNxOOCWWZGPW251HcGPR2iuNrJyBH
+CLZMgQYbp6aTXgSJ+PlN9sDWk2HDeeBhy9NEqKq6f7LKL+g59uCqkYg6Phk49HtHY56PtYNLqHON
+NU0eK6imqC7EklYZNssUC7hNwPLF7VKkJBo+4zDdaZZubUd+5NxC5RJcwjBZrFVUTmxVrDgBcE4T
+hh4nl5HksLCeHZ0ChV3OUrtSsQ4XKMSFHJF5RSPLBg/v+KobaXrfFtboP9V/hESWMIOO1Og+8C/T
+GSbAu7RXflteloXqP22UWiyuxW8ww/FxzExlYZQ0+R3iVI56qXmPwHSm3zrh9eC7GtDJ4uFdtoOU
+DhY=
+
+-->

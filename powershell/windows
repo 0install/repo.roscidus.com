@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/powershell/windows" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/powershell/windows.xml"/>
+  <feed src="https://apps.0install.net/powershell/windows.xml"/>
+  <name>Windows PowerShell</name>
+  <summary>PowerShell bundled with Windows</summary>
+  <homepage>https://microsoft.com/powershell</homepage>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g67AAoJECLqERp+QkKk8eMH/0cQtoNY/YIy+S2w0NfX60x4bSQNTAlaSwmR
+XC8k+gWG8aO+ef/pUAuMuPKrKsKQDNoI6rSIai25xogVN7srWAmwXQG7jltwx57G++JQHh6ttfMp
+EhdRZcKj3ABXMlM7cGHxm+qbAYVxwkTYtOvu9PJU7CikLQwzxvYfspk1HK63Fqho8sviHGEyiAXb
+WKdAJdL8b+Tu7Ulv9uNn25WsGxscqOZ/gNQCiS9b72xLQMooTXPpVWc1ZCjrHgNBVV3z+4zODcdB
+0gMXIn58WQvnbzsGJfclfkVC0ujgCnAXeRHuZVNW8a4a1nqLuPA6sjcNRBiqectfJqmWHI2Zm8xg
+ios=
+
+-->

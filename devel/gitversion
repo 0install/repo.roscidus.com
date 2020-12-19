@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/devel/gitversion" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/devel/gitversion.xml"/>
+  <feed src="https://apps.0install.net/devel/gitversion.xml"/>
+  <name>GitVersion</name>
+  <summary>versioning when using git, solved</summary>
+  <description>Versioning when using git, solved. GitVersion looks at your git history and works out the semantic version of the commit being built.</description>
+  <category>Development</category>
+  <homepage>https://github.com/GitTools/GitVersion</homepage>
+  <needs-terminal/>
+
+  <entry-point binary-name="GitVersion" command="run"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g6zAAoJECLqERp+QkKkocwIAK0xe6kqcYREuVmNrJHdc+Zi/4guQg4SSsrU
+LTrex2rEu9z/WW1J0fEfY0ZJDdNhKfhrGM5Uw9rhWUS7He9OdJzi+wQisOZ7Gn/AMJeV8p2W9OKM
+6eLnEiscZFylaaqt8ftvIXS3XLG/LpQ/VrLFPtJ+jlcD0LbPnVVLGQmppdwpfwix6YaB4K4E3QI1
+ARmwKirDCYc4F2Bfloj0gSXFqLu4BMHNarJTFN8Kl7ZlDS3xq8PJcxUHpCltf/Od1HI3nJ6TWJly
+H/UvXs8EVCGyGGyuqpBJfk6oTG+vBLawhq3oaclP1E0DDY57kDPh+YAjZe7/QWn5LNznvaw4F26j
+hGs=
+
+-->

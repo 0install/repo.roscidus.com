@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/docker/compose" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/docker/compose.xml"/>
+  <feed src="https://apps.0install.net/docker/compose.xml"/>
+  <name>Docker Compose</name>
+  <summary>define and run multi-container applications with Docker</summary>
+  <description>Compose is a tool for defining and running multi-container Docker applications.</description>
+  <homepage>https://docs.docker.com/compose/</homepage>
+  <needs-terminal/>
+
+  <icon href="https://raw.githubusercontent.com/docker/compose/1.14.0/logo.png" type="image/png"/>
+
+  <entry-point binary-name="docker-compose" command="run"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g60AAoJECLqERp+QkKk5rsH/ix5AaNMV5gqCAcp2pr6OWWNNKxvvithRGdb
+5SDmeb+KApZXObQ1eyTuPwvZGGx1hwG1+YLWWxGoOqkFqVGAYWCw1ncBvVjy/fo0+EJL3YV3cWgw
+UqOVJyApu6olsZ3fSIM6tfO+Uvn/S+c7izx0El7aqlRaOPOadJsw+DQcJ9dxp8Rcp4YsOaGE3CHc
+2+dNznKoslJvPmPwNrCYmuwiscQx0NbgW6lCqDjTyLFQB1hCK49ym5CmHYHAqBBJ1lg/n+fGVHut
+vIKBpsHdEm7bflRVt/Z21NEKhmFuCB7l+CK2UeXk8AFOngwTuIu/Fz+C91yIc+ZMma+0Z6Vg9/sw
+imY=
+
+-->

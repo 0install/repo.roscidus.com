@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/cli/cli" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/dotnet/clr.xml"/>
+  <feed src="https://apps.0install.net/dotnet/clr.xml"/>
+  <name>Common Language Runtime (legacy feed)</name>
+  <summary>an implementation of the Common Language Runtime (.NET Framework on Windows, Mono on POSIX) using .NET profiles as version numbers</summary>
+
+  <!-- The .NET Framework is an implementation of the Common Language Runtime. -->
+  <feed arch="Windows-*" src="https://apps.0install.net/dotnet/framework.xml"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g6yAAoJECLqERp+QkKkGKoIAMumvG0svFf5GwOuL4Z4ssR9q+hFiEXblsUF
+P+Yyl0vSDfqPL76dDSFMsucH64FdWAGO+NB6RGepdGSVFvaDVsbjpGJ0CQ36djnyqgboMz9tWBIO
+3YzKZWft0iYn+Z22KvhPcaA5rdGVW3jTaFTZlQqautmwde34FDlqUX9AeuaOlCtMaIu3sF1vqicB
+4Yt5erOriEc1LOGpR8ANsH8slNthM434/WzIBwHC8WkCs2hSXy90FEU2QRTM+aVSW2BNjDDos4GN
+LPrg6xd+T5sHsv6wr+YapYs5VpbMTv9XtKj51Xbr756RfhsAHepm76GdKc4SM8n/wOA5NaNd+yn6
+t9I=
+
+-->

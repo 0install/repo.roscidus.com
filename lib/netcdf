@@ -1,0 +1,31 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/netcdf" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <replaced-by interface="https://apps.0install.net/lib/netcdf.xml"/>
+  <feed src="https://apps.0install.net/lib/netcdf.xml"/>
+  <name>Network Common Data Form (NetCDF)</name>
+  <summary xml:lang="en">NetCDF is a set of software libraries and self-describing, machine-independent data formats that support the creation, access, and sharing of array-oriented scientific data.</summary>
+  <description xml:lang="en">NetCDF (network Common Data Form) is a set of interfaces for array-oriented data access and a freely distributed collection of data access libraries for C, Fortran, C++, Java, and other languages. The netCDF libraries support a machine-independent format for representing scientific data. Together, the interfaces, libraries, and format support the creation, access, and sharing of scientific data.</description>
+  <category>Science</category>
+  <homepage>https://www.unidata.ucar.edu/software/netcdf/</homepage>
+  <needs-terminal/>
+  <entry-point binary-name="ncdump" command="run">
+    <needs-terminal/>
+  </entry-point>
+  <entry-point binary-name="ncgen" command="ncgen">
+    <needs-terminal/>
+  </entry-point>
+  <entry-point binary-name="run_tests" command="test">
+    <needs-terminal/>
+    <name xml:lang="en">run_tests</name>
+  </entry-point>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g65AAoJECLqERp+QkKkO2wH/Angb7gws90ZyCOVSvT7+yRyLqhf4QE/mWYa
+PEduzzndjs0UaRRdaB41r0Kg5gvDPatRT1xelpr+kvdFMnm8pfo/YdujLfWSZGv7KhbzkxNIRJ2q
+m4rEkddixSm/dd6U+SA9eNv7o1uDcM9ivAHgaXEAF+cz0reNeXJkQWui/mZb7mJXJIpbKyQJJQXe
+nB8FmRZorcfXfLocZzDhVjuy6L6EQfR9L3rSHv7qfTroB6k2sDZboQBKEsqfpya7cPG62GxElu3r
+oBUzcoEyLJ7E0XXi0JwbsSBCRiqOOlr6xqt9aei7K1gwGOizSALj4mOl0RtG9vVSscvLMB+jpQUZ
+vzI=
+
+-->

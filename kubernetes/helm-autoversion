@@ -1,0 +1,28 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/kubernetes/helm-autoversion" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/kubernetes/helm-autoversion.xml"/>
+  <feed src="https://apps.0install.net/kubernetes/helm-autoversion.xml"/>
+  <name>Helm Autoversion</name>
+  <summary>wrapper for Helm that auto-downloads client matching server version</summary>
+  <description>A wrapper for Kubernetes Helm that automatically downloads a Helm (client) version that matches the Tiller (server) version.</description>
+  <needs-terminal/>
+
+  <!--
+    Intended to be registered by users via:
+    0install add-feed http://repo.roscidus.com/kubernetes/helm-2 http://repo.roscidus.com/kubernetes/helm-autoversion
+    -or-
+    0install add helm http://repo.roscidus.com/kubernetes/helm-autoversion
+  -->
+
+  <!-- Marked as version 3-pre to be considered "better" than all Helm 2.x releases but not as a candidate for Helm >= 3.0. -->
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g64AAoJECLqERp+QkKkD3MH/1j7AOE5roBWz3SLKvY138nx2i7o6QDOA7Rc
+SfBgoM/w16MPfqZFD0Kglmjg20DBrDISuTvKlr4AYqDIKJt1oR1IqY9IXaXxQkH4FjXqUGHj7RFT
+wTNieNWCGnTC1zH/3I6IdfZyPWk01zXKYJP7j6/ou7WQQ02fZNctR5+RNdBm9QWYp93oRiQHvCM+
+LgnigNUlxAt4qDsU/sq9rVCQoFBYAL595W0HBNAebMFFn3AnedKhurQT1h9s6hHvPxfOzTNOkcY5
+XjfR+huMjKsIOyn0q3sxKq+dDQYk/FFZDWX4UK097HAAEeY5G/Kbuh5fSzZ8HVJ+NLyOmS839NKI
+Csc=
+
+-->

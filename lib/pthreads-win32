@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/pthreads-win32" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <replaced-by interface="https://apps.0install.net/lib/pthreads-win32.xml"/>
+  <feed src="https://apps.0install.net/lib/pthreads-win32.xml"/>
+  <name>pthreads-win32</name>
+  <summary xml:lang="en">Open Source POSIX Threads for Win32</summary>
+  <description xml:lang="en">GNUC/not dependent on exceptions version
+The POSIX 1003.1-2001 standard defines an application programming interface (API) for writing multithreaded applications. This interface is known more commonly as pthreads. A good number of modern operating systems include a threading library of some kind: Solaris (UI) threads, Win32 threads, DCE threads, DECthreads, or any of the draft revisions of the pthreads standard. The trend is that most of these systems are slowly adopting the pthreads standard API, with application developers following suit to reduce porting woes.  
+Win32 does not, and is unlikely to ever, support pthreads natively. This project seeks to provide a freely available and high-quality solution to this problem. 
+</description>
+  <category>Development</category>
+  <homepage>http://www.sourceware.org/pthreads-win32</homepage>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g66AAoJECLqERp+QkKkaroIAKyXcrfKJqPUmI8gen8JaDUnpCHusYLTsqvI
+fFR6hlu2RQC0qMlTD8vHQsplA4Lw44Pd8xK04q2R68JVdiYs9Z2/SrnmvvGymkCv1RSqFE5/Jdh8
+p42aGn9d8mJtGOCnqySfvusTAxkk6hqKvT+Uhy5614aq14Lx4KuAiDt/LbNyGTRp+kqtTZW2wwR1
+o0XopGLdmpAt3gHzAUgU7x64QHopBvbxIZScS59yUt/iDurdq+Qgxplnp1PJmJQ8GB3MkwEDiB77
+bi4OYcbNLbbXV28qsexiELQcLERbzpBAaUJwxnkXGCCd9/j+3xAnm8l/CKqOUdPJxWN4GakNwdXZ
+gCE=
+
+-->

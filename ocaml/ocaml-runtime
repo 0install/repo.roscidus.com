@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/ocaml/ocaml-runtime" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
+  <replaced-by interface="https://apps.0install.net/ocaml/ocaml-runtime.xml"/>
+  <feed src="https://apps.0install.net/ocaml/ocaml-runtime.xml"/>
+  <name>OCaml runtime</name>
+  <summary>ML language implementation with a class-based object system</summary>
+  <description>OCaml is a general purpose industrial-strength programming language with an emphasis on expressiveness and safety. Developed for more than 20 years at Inria it benefits from one of the most advanced type systems and supports functional, imperative and object-oriented styles of programming.
+
+    This is the runtime package. It contains the bytecode interpreter (ocamlrun) and the toplevel (ocaml), which allows dynamic linking. It also includes the standard library, plus the Dynlink, Bigarray, Str and Unix extra libraries. Note: only changes to the last version component are binary compatible (e.g. 4.00.1 and 4.00.2 are compatible with each other, but not with 4.01.0).</description>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g67AAoJECLqERp+QkKkC9wH/RurLrZhitpWRbNTCajfwZrGca6SmLeUdXt9
+i1vKtc1AoZclQvoEqMz+WPpJb43mHWbuV18g3SZKu61+PjXt8FUltbx1n5dgIBYgY8IjwuiXWaf2
+nprcsHj/MrBwZXDYoRdQbxdxV9QNWD02QJQLtaREFFa94y6UKen3/0jv617iXHaYjcb7j1akeDZr
+ahwrvI0Ly5qjsLale/wGhVly/gIAzcfOgIiRgy9tRf2Wpx7UVWVwXrugjWHQvMZZLITjhwMcQyUt
+lcMIz1bDCsLfM+1aCmSAvYMnidOVIEig9X6/bgHw1Vy8/Bd1cJ3aR+izkluTwTxUODYukQoNqXwN
+rFU=
+
+-->

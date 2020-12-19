@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/xsl' href='../resources/catalog.xsl'?>
+<c:catalog xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:c="http://0install.de/schema/injector/catalog"><interface uri="http://repo.roscidus.com/games/openttd"><name>OpenTTD</name><summary>Open Source clone of Transport Tycoon Deluxe</summary><description>
+OpenTTD is an open source clone of the Microprose game &quot;Transport Tycoon
+Deluxe&quot;, a popular game originally written by Chris Sawyer. It attempts to mimic
+the original game as closely as possible while extending it with new features.</description><homepage>http://www.openttd.org</homepage><category>Game</category><icon href="http://0install.net/feed_icons/openttd.png" type="image/png"/></interface></c:catalog>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g6/AAoJECLqERp+QkKkNXUH/24Mytw+aByD3vWh3cxsmSvE+Nd9Sa+3QeZH
+xaXFShw7S8i0uD8QCM2LOF+lluconRG+CgrjruPz+3TvwB3SGhEMPeTAaAcS1vnFIRRDS6X558MV
+Z5V6hjM5hBv9kMgtt/Iht/rppweEKkuF8axL4TrHMwBMSeyqkA8N/ZV9IIn7P0IdtnNB5B2d6Dpg
+ZvbrNgxJB3k1GTGX6fv9Xpr4LbRC+D+sx2qGy98sll24k5ihb5YZvCVl7r2IHqtlB1emMKUk1gcZ
+eUA4BAnOHXfVi5pnjRE4yloHhhlQeRKl9IAWAR5eW+XuhWtaorIumWTAy6HxTInmjrJbzEo6FOuJ
+pD8=
+
+-->

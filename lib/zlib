@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/zlib" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <replaced-by interface="https://apps.0install.net/lib/zlib.xml"/>
+  <feed src="https://apps.0install.net/lib/zlib.xml"/>
+  <name>zlib</name>
+  <summary xml:lang="en">Zlib: general purpose data compression / decompression library</summary>
+  <description xml:lang="en">zlib is designed to be a free, general-purpose, legally unencumbered -- that is, not covered by any patents -- lossless data-compression library for use on virtually any computer hardware and operating system. The zlib data format is itself portable across platforms. Unlike the LZW compression method used in Unix compress(1) and in the GIF image format, the compression method currently used in zlib essentially never expands the data. (LZW can double or triple the file size in extreme cases.) zlib's memory footprint is also independent of the input data and can be reduced, if necessary, at some cost in compression. </description>
+  <icon href="http://www.zlib.net/favicon.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="http://www.zlib.net/images/zlib3d-b1.png" type="image/png"/>
+  <homepage>http://gnuwin32.sourceforge.net/packages/zlib.htm</homepage>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g66AAoJECLqERp+QkKk0HoH/1uHxm2usFMUoQu85Dz7qzgkCcnf5EeM2JOu
+wzl+XKxrN28qoW74yws8IXNC0x5PbQulzGsDpPhZFlLu/EBB9fu5WWhdWFG6pq0iD4raDtyNhYuw
+vZlYscVriLq4wEHI1tb3dDgan2xxNS+Nk4KmHBAAlx+pmdudZCK4yEXlmajVi+5A5w+AQRh2Aps4
+mH1uiktWUUfWeE1mZ98HbK5fnFt+09m6rO3mPEOOcFFCBXYGi+/A0/yS+dYeJ/fAyAwuRL/SFKPW
+0ibPz6Lr3fKrOyNTWBbDEUTyWO4g2OOOBy9PrU+SDupv4dBKRnL/ozW86fLx72gJQ8eumLDWxGGg
+ZUM=
+
+-->

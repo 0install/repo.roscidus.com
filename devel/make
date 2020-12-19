@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/devel/make" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/devel/make.xml"/>
+  <feed src="https://apps.0install.net/devel/make.xml"/>
+  <name>make</name>
+  <summary>The GNU version of the &quot;make&quot; utility.</summary>
+  <description>
+GNU Make is a program that determines which pieces of a large program need to be
+recompiled and issues the commands to recompile them, when necessary.
+
+The upstream sources for this package are available at the location
+ftp://ftp.gnu.org/gnu/make/. The documentation for this package does not meet
+the Debian Free Software Guidelines, and has been removed from this package.</description>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.png" type="image/png"/>
+  <category>Development</category>
+  <needs-terminal/>
+  <homepage>http://www.gnu.org/software/make/</homepage>
+  <entry-point binary-name="make" command="run"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g6zAAoJECLqERp+QkKkYWQIAJqwrcuPWobjlkGaDLDrKGGsImM7SqCZbZ4P
+ML8K9MCVhVhQ3WpfcAqWuJ+5N6W42fMKSGCol0QoswY97yX+mg40k9DA3BxBgAW9FG/eucMN5FVV
+pF+1rgg1X4LudGeNSSUGSBYe5phgJPUvui+hmUzdRNLRCs0fPAk1v7ATzsiIirIPDrB2A56/gFTv
+KCnxZkR2Sib6cAWYVUM9CDTuLYfIjPMoEcbaXABGCg9eyntzctz0UcgblFhERtz+lcJBI1Hw0mWW
+IgYxWgFAOGgeh+z4mTfqW0HRLhrAGPYRk48mOGn5tdxwkPuoWb8xQUfICbumjVIY+ildAq4D6kNF
+ROM=
+
+-->

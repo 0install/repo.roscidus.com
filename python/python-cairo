@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/python/python-cairo" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/python/pycairo.xml"/>
+  <feed src="https://apps.0install.net/python/pycairo.xml"/>
+  <name>python-cairo</name>
+  <summary>Python bindings for the cairo graphics library</summary>
+  <description>Pycairo is a set of Python bindings for the cairo graphics library.</description>
+  <homepage>http://cairographics.org/pycairo/</homepage>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g67AAoJECLqERp+QkKk7rQIALHqYH+JGD4OosspIXSOpkTzzNfx750AQS5L
+uls8wDc5FcEBNNQFtol+9yU0LHCU73f2JhMCgVS7mEQPkpxjcxnF9o5pkkoEKypDJRE/u0UxfC1m
+DZbDgKALiVBZJe9E03XB76pFSfjUyZndM7J1oBAs02aF27bWAcaWfspfrj34rPsztPBcpLGMupJE
+4OptOLI2ykWRg7V+NwPsDAbK159/mnfhkPXn4Evq9STB4EANrUmDYHKyRI/tT4qBvLb9L6Z1urIH
+fmKIEFGEw+qZRaX//DGxo8BDiH3mpEztB7s43FxRuHt/f1MjlClFPttuwDDXLLdG93QCMupMnbe7
+0R0=
+
+-->

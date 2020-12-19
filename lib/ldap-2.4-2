@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/ldap-2.4-2" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/ldap-2.4-2.xml"/>
+  <feed src="https://apps.0install.net/lib/ldap-2.4-2.xml"/>
+  <name>libldap-2.4-2</name>
+  <summary>OpenLDAP libraries</summary>
+  <description>These are the run-time libraries for the OpenLDAP (Lightweight Directory
+Access Protocol) servers and clients.</description>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g65AAoJECLqERp+QkKk2iUH/27lHgPVS8/MZhccEml4/a5R6uFfbtRAjZD3
+7D39NRvug/VQU4Y/RpBm1SbDib6zJhx0mg52+luVngxtKMEoHF9ktwF7X911SEC39GxsBja2zwzj
+L4B/MkONEVUiOmb+axBNRfQ1Yt315MC8TKiYud3b6JaL67t++PUWt74QxYyIUBA8ypsjf4i7SqUk
+reP3PrP+sf+FuB9+mQ+YIM52ChyY+ZhMYJQM34yOLASyCmuUqbwbwAoTmJblgK7jXgQouTF+3cLv
+JCpNwjkkS5t8v9zUsBC4oQLDgaBslAsX9Z4xvjd1vhSJxSy/8+k5sSzqrtypSnVTMfzO1G7EzGtM
+b4c=
+
+-->

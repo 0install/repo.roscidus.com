@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/readline6" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/readline6.xml"/>
+  <feed src="https://apps.0install.net/lib/readline6.xml"/>
+  <name>libreadline6</name>
+  <summary>GNU readline and history libraries, run-time libraries</summary>
+  <description>The GNU readline library aids in the consistency of user interface
+across discrete programs that need to provide a command line
+interface.
+
+The GNU history library provides a consistent user interface for
+recalling lines of previously typed input.</description>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g66AAoJECLqERp+QkKkHHkH/i27xMobBDBW3NBZ1YvGLLjPWwIfXPJr2tpi
+l8f1exphLrYtNHMfz5BNodpkgXkWa5XSTzflCgySa7+WYpjtOFsuQ3o7fM++r7oGPtYH6X6Ce/QJ
+23O9EQJ29YlkQcWmzv0MrPx484lkF0FaSoxk6nRrYYE30QhEUWNMOs2vvCsdx3kaTcGOMDPwhb1r
+GtovxukjArnQwL05MAHLdAr7D0qHDHhAYGirxBqWO1kGxRHw5riVw9grDkLMjZ2O9WBcnJx0y7/I
+Vmuk07qs+vi5a00rKAlHanVX9BYwZc5lCiMOSqTFCOBFSFoEp0YlbEIc3olEk0UIVFe1Pw1Inzui
+rNA=
+
+-->

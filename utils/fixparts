@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/utils/fixparts" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/utils/fixparts.xml"/>
+  <feed src="https://apps.0install.net/utils/fixparts.xml"/>
+  <name>FixParts</name>
+  <summary>fixes some common problems on MBR disks</summary>
+  <description>The FixParts utility fixes some common problems on Master Boot Record (MBR) disks.</description>
+  <homepage>http://www.rodsbooks.com/fixparts/</homepage>
+  <category>System</category>
+  <category>Utility</category>
+  <needs-terminal/>
+
+  <entry-point binary-name="fixparts" command="run"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g69AAoJECLqERp+QkKko3UH/0xwuVCu0qHdd6D665EnEPYDQCFfbEvj7m2y
+gSo+/LP6urd9kfzibpMwc8KBsbplwTqD9U7dwyNl0XJ5mks/N+0AQ5+qF6c0itkWJo/nFOQCnlrs
+Qr1EASAMDIalvvcwxucKpU6G85OeaPAdfKWMcEIaG7K/cYjzgb8oCEUUCmgK6WnSRYL8yGM6Bw/Z
+LYfQH8knty2pJLJVFK+1TPG2NK9Xp4gXlYNXpXY0qg0coPC9IeCkICMqSt/2vXSIOdsiXreLh+DE
+nOQL2iztpmN8Jt/5zHt58+W4Hzuj11K6aXjF3AFf63eY1YVROaCOudLhbpmy1UhoxjFBXC+bljQ8
+uZA=
+
+-->

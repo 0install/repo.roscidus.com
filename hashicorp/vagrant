@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/hashicorp/vagrant" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/devel/vagrant.xml"/>
+  <feed src="https://apps.0install.net/devel/vagrant.xml"/>
+  <name>Vagrant</name>
+  <summary>tool for building and distributing development environments</summary>
+  <description>Development environments managed by Vagrant can run on local virtualized platforms such as VirtualBox or VMware, in the cloud via AWS or OpenStack, or in containers such as with Docker or raw LXC.</description>
+  <homepage>https://www.vagrantup.com/</homepage>
+  <needs-terminal/>
+
+  <entry-point binary-name="vagrant" command="run"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g62AAoJECLqERp+QkKkeFEH/jXjVloxlbOA1RRm96qLieKloq2oaXPhqyFl
+kRIjYTISxAA9E/oNBgKegn73vkut40uno6qgLbUA1DXmPqT6FEffNk61JybfJi05JUZ8nmwEN3tZ
+Um3xUUNu9ESsJlbW8D2o/A+ASYr4jeoVfuQCxDSA3bRbAlmjVknMvQv2dZ4yx4Go5S5RQ8DaJlbc
+/7hB1g3bTIQ1uJwjYb3h28n+sZr1oHRegLZOmUDeC7F9ztPdh2BL8j956VXLT5vshg4coOiPIWna
+p2PULAIP4WJA5r4cQ7fIlZBxnwlh8q5eOxJxhhVccWzvjphUM6TRbZAj2Wvhj9FDN0AeePA4V9RU
+ZG0=
+
+-->

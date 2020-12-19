@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/glade2" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/glade2.xml"/>
+  <feed src="https://apps.0install.net/lib/glade2.xml"/>
+  <name>libglade2</name>
+  <summary>library to load .glade files at runtime</summary>
+  <description>This library allows to load externally stored user interfaces into
+programs. This allows alteration of the interface without recompilation
+of the program.
+
+The interfaces can also be edited with GLADE.</description>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g65AAoJECLqERp+QkKkwhEIAJ/tJJ2nDWwSwH1Hs7t4WQF0zQU590BaG/MA
+sncin1peMkmoXzXcoP9K1uSMh6VIeLoAFVgn9d+UQQqjGp+DtCB1mLr3KAD60gtKw6Swhw4lt1Gr
+pClWI4lJ94SwJB8irLPVKEbqhBP3YoTpOGPH9EET7SlPZNwnHt18uWCVEWKgMzMUpyBehTGQZ1L0
+KasFQaC84N2LHN41Rj6JmOxLFK21mz2Nyo+jMIp9XFKbRBOJwYhbhReEmRu9463kLkywTtnLYPHa
+SDtd8JmA+EtT7Xgq0ctSHJyfMoKgb+rHdQBEvsJafe48nErhTvo2sLPZlF+RMynBzA543srUv3T3
+1YQ=
+
+-->

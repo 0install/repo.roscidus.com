@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/devel/glade" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:compile="http://zero-install.sourceforge.net/2006/namespaces/0compile">
+  <replaced-by interface="https://apps.0install.net/devel/glade.xml"/>
+  <feed src="https://apps.0install.net/devel/glade.xml"/>
+  <name>Glade</name>
+  <summary>a User Interface Designer</summary>
+  <description>
+Glade is a RAD tool to enable quick &amp; easy development of user interfaces for
+the GTK+ toolkit and the GNOME desktop environment.
+
+The user interfaces designed in Glade are saved as XML, and by using the
+GtkBuilder GTK+ object these can be loaded by applications dynamically as
+needed.
+
+By using GtkBuilder, Glade XML files can be used in numerous programming
+languages including C, C++, C#, Vala, Java, Perl, Python,and others.</description>
+  <homepage>https://glade.gnome.org/</homepage>
+  <category>Development</category>
+  <icon href="https://glade.gnome.org/images/glade.png" type="image/png"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g6zAAoJECLqERp+QkKkRKwIAPXMYqrEuPA4/ML5wWMQ4DqJZwLyANm+Cm6B
+vbzbcJNBAr2+aM9uUyYTlG4bwpwdW2+1YBt/vjIvFtoptT5eovz8KWNtqeG6dzUv5+IfPFk6NtxC
+e+LEVuGKUlsDTyW5OSXKPiFW/xzCp9/ucClG1Kh0wmeje1QIl1x51lRgHBvt2n/XTpGgNjkzc6jC
+EnwChMnup2UWfB8DPgXJB3STmS761tYXzlHRpSzUm6QAn91ptOTWS8BeEpj/EizNbVgonv2q5CLa
+vzLVDKSmGswBsCqLDZYQdiUfnhHT1ORap2Hhk6p2qG0oDtQsGxVlaWE/dsRzNJBEI8QnPNsxDIRo
+TH0=
+
+-->

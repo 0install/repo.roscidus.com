@@ -1,0 +1,39 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/security/gnupg" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/utils/gnupg.xml"/>
+  <feed src="https://apps.0install.net/utils/gnupg.xml"/>
+  <name>GnuPG</name>
+  <summary>GNU privacy guard - a free PGP replacement</summary>
+  <description>
+GnuPG is GNU's tool for secure communication and data storage. It can be used to
+encrypt data and to create digital signatures. It includes an advanced key
+management facility and is compliant with the proposed OpenPGP Internet standard
+as described in RFC2440.
+
+GnuPG does not use any patented algorithms so it cannot be compatible with PGP2
+because it uses IDEA (which is patented worldwide).</description>
+  <homepage>http://www.gnupg.org/</homepage>
+  <needs-terminal/>
+
+  <entry-point binary-name="gpg" command="run"/>
+  <entry-point command="gpgv">
+    <needs-terminal/>
+    <name>OpenPGP signature checking tool</name>
+    <summary>stripped down version of gpg which is only able to check signatures</summary>
+  </entry-point>
+  <entry-point command="gpgsplit">
+    <needs-terminal/>
+    <name>OpenPGP Split</name>
+    <summary>splits an OpenPGP message into packets</summary>
+  </entry-point>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g68AAoJECLqERp+QkKkEZQH/RfSDAVQc2MePM/W5gE0y21pLwHVUmWrsdhV
+3kyUFI9qwddvJPXFR9s5WHWBKD4nIMA/oIrwjU2VhsjQ9coDXx45eb/tcvAwmsGqPwlbrFSWvwc2
+S3P4YzjlEexTVWQ3Xw7UeOqLEAxDt18EJOdZmek60SBwWKYFTTzrcf8Zvntk7pLGjB8ArdgD5huM
+/yrAa9roMj/hjddS0NCjk/k/EsV8m8ZPWB8WNDEb27wIKd02TB2zYXpg34s40hIIBEeI8SffNjEM
+tNxcBsRVTO81lmwMoD+7NTHiBXBbyhSaS4LmellgSXWVy1jbimnT5IoUlSzZZpP+0mCnVh80AnZ8
+D4Y=
+
+-->

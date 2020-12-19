@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/gcc1" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/gcc1.xml"/>
+  <feed src="https://apps.0install.net/lib/gcc1.xml"/>
+  <name>libgcc1</name>
+  <summary>GCC support library</summary>
+  <description>Shared version of the support library, a library of internal subroutines
+that GCC uses to overcome shortcomings of particular machines, or
+special needs for some languages.</description>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g65AAoJECLqERp+QkKk7Y8H/2ij330GeVS5LlpkB1ETnPIZsIMvMq+SlVPt
+HB9BZISu+Qw1b5qFKelx63xPd6tf3GjJumQLpIOxejpjpcTXSdfNo6Kqdgx72SouLzCop8Sq3I73
+wRo0Ayxcpz2cHIA/0xbdp3gcvCRfQLManZIrAkw8CNEF/zbL3i62GkR3Kug2fcbPtluFkKJXhece
+gCzaVzHz3Lg1a+0k9mi0n1Ss9CzCxTk7eM+NXGLo/iZ9yaqduEsF5qgW7XfzkoRdRDuiz9FBPGbO
+GJDgzP4dBJLTV0y+jMyp9b/anW0K00gPFUygFtEEBvysXGL4cbysODNzGdGsBfVdN2rPYnJ90v3T
+SAQ=
+
+-->

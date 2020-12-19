@@ -1,0 +1,27 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/utils/sed" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <replaced-by interface="https://apps.0install.net/utils/sed.xml"/>
+  <feed src="https://apps.0install.net/utils/sed.xml"/>
+  <name>sed</name>
+  <summary xml:lang="en">Sed: stream editor</summary>
+  <description xml:lang="en">Sed (streams editor) isn't really a true text editor or text processor. Instead, it is used to filter text, i.e., it takes text input and performs some operation (or set of operations) on it and outputs the modified text. Sed is typically used for extracting part of a file using pattern matching or substituting multiple occurances of a string within a file. 
+
+Version 1.4 is the fast, small sed originally distributed in the GNU toolkit and still distributed with Minix -- but it's still better for some uses (in particular, faster and less memory-intensive). 
+</description>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.png" type="image/png"/>
+  <category>Utility</category>
+  <homepage>http://gnuwin32.sourceforge.net/packages/sed.htm</homepage>
+  <needs-terminal/>
+  <entry-point binary-name="sed" command="run"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g6+AAoJECLqERp+QkKkJMkH/05Vh2X7Luq3iVg86ygzBQakxbcRS37ExFL9
+DJsMg6xbj503lXtzEXZYANUwP86SxSDad1ZrwXPsN2bfPI5/jncb9De5p69ocTNB02NAyKjpJhFA
+4poxCvGzBzmcRLHxW0lTt8E6GK+aidN3/HYqe7Yr1MgEvppCLDgJA17vkDOVXpmNd/I+T8wmrXGg
+t/0iqtqkJUcJ9Dz/b5dukJY5WlqM0bu8BdPVYiSG74tNCFuyYORpWiK6DtwITW0AfL4P10uV119a
+UDyKGaAbWbgOwoFVeaNKqO+nv/kr1uwCbVOJ4FQIeHJDnVHVKGlCzFUzy6CMhYSz+HXLVWDNCYeH
+9pY=
+
+-->

@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/python/dbus-python" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/python/dbus-python.xml"/>
+  <feed src="https://apps.0install.net/python/dbus-python.xml"/>
+  <name>dbus-python</name>
+  <summary>dbus-python</summary>
+  <description/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g67AAoJECLqERp+QkKkdPYH/j4sbNOnQguPh4gZ/WG5vpRYpKl8+WuZ5CQy
+EVHTWuM3QvJSGktFLwd24k+JK14ZDgRhbihoVZd6Q5/2JEUmeFwwjwLC32lN1ZM8MQNonhwSWilZ
+jz6nHfAo1oZ6IICLDGAmPc7AV1IC6G8Okaq0KPRpzJX9ZPKP3t9uoLqgIizIc9QJn876kuRNotHM
+wEJxUAumPb4WEBUwAC1ww3Tfz1BTvuVMVfOSHhYKZcbPhB7LZsMQsmAXErU1lesC5VR01J9Us6Hj
+HaL3MIwQf4KVNCU2+TAc8Q/RDi/vl+ZSaSj5bs8nX0UPcStXIS6Dvbh4lwouPlM+EtRjEtT/FHNs
+XcM=
+
+-->

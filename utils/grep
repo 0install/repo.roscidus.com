@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/utils/grep" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <replaced-by interface="https://apps.0install.net/utils/grep.xml"/>
+  <feed src="https://apps.0install.net/utils/grep.xml"/>
+  <name>Grep</name>
+  <summary xml:lang="en">Grep: print lines matching a pattern</summary>
+  <description xml:lang="en">Grep searches one or more input files for lines containing a match to a specified pattern. By default, grep prints the matching lines.</description>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.png" type="image/png"/>
+  <category>Utility</category>
+  <homepage>https://sourceforge.net/projects/ezwinports/</homepage>
+  <needs-terminal/>
+  <entry-point binary-name="grep" command="run"/>
+  <entry-point binary-name="egrep" command="egrep">
+    <needs-terminal/>
+    <name xml:lang="en">Egrep</name>
+    <summary xml:lang="en">Egrep: print lines matching a pattern</summary>
+  </entry-point>
+  <entry-point binary-name="fgrep" command="fgrep">
+    <needs-terminal/>
+    <name xml:lang="en">Fgrep</name>
+    <summary xml:lang="en">Fgrep: print lines matching a pattern</summary>
+  </entry-point>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g69AAoJECLqERp+QkKkg7EIAKIFppTkymABj/cM246OgDKMs+OyPb2b+SNZ
+uOXd+wfv+d0NFfCM9/TE0zIOGrxOiFtJZ0GWm2obZFFXsuksjDL2nS+1Kh8YWA1PsiNHGjQIwS4D
+fZrkpU8NyxriYwB8GR8cvCIi532a1Ors6lYyz2v2S9oyOEHa+NwNEuNG89l4F7t2IAQa6MB4A8DM
+62AcMDxy7IOfPP9+5zF7G5VoKMlcWRBA9ZoOpgXz54fS3dZ9F2eM7z0y0RyfvKqzr/g6G3KhHed7
+qLMh918mxNRpYtA7X2WoW6r32zMIsaz5//cPf3PpFT+xpRIQUwKKus9VXy5xXmEVZGjhSBfzqwXY
+pY8=
+
+-->

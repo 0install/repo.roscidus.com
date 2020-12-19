@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/java/gradle" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/java/gradle.xml"/>
+  <feed src="https://apps.0install.net/java/gradle.xml"/>
+  <name>Gradle</name>
+  <summary>modern open source build tool for continuous delivery</summary>
+  <homepage>http://www.gradle.org/</homepage>
+  <category>Development</category>
+  <needs-terminal/>
+  <entry-point binary-name="gradle" command="run"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g62AAoJECLqERp+QkKkQD4IAISxPCsDTILvkl/trND8MuYefKMxib7if/Pi
+c6WIckLNdjhZYv8ZIjq06j3/5vh4Jx/ZqnxTxPaGsK6F78ttAvFC6exwjY6unGbiqPZOgd1Bx0lz
+z606itXdkh3u/MhkNevK+YQYB2Q1ESDGSvkfKhLFHpWiySJO/jvPw3trEGCd55jGQ1sz43uCtDDM
+5XZy0jlOaMPThhbAbWdVG4Sd17XLw/uQlynbCQo0hkoiYg9UaY1O/odwgxVg3Eml3CMDE1YwisHs
+qcifAFRU5q2+ltxXHlOnP41d/M89aqOX7QieaXqkN3oP2URJDKEfv/RaYhFw3LIKfwd9rBe+fTfb
+AMU=
+
+-->

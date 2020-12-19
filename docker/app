@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/docker/app" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/docker/app.xml"/>
+  <feed src="https://apps.0install.net/docker/app.xml"/>
+  <name>Docker Application Packages</name>
+  <summary>utility to help make Compose files more reusable and sharable</summary>
+  <homepage>https://github.com/docker/app</homepage>
+  <needs-terminal/>
+
+  <entry-point binary-name="docker-app" command="run"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g60AAoJECLqERp+QkKkcxsIAMjO+A/esbMpZZ6xCmYrJFp4w8kxEh42FNl6
+uaEqniLZo4yzv7oQPzu4fmfY/swJBxgZ9opJQcx6ovtQKsyNzjfpZqxI2ljokWE2GeTtedFja3iL
+Bh51dB41Zg79fxwzW+8u6YMJtgcsxf3TekTktzhVIr0D9rSL9j6IhCemLRlZescUjIRmswGU8YTt
+eaR+T05N33dnbCR4u9VBZfn8fSiqbBXZVsKHo8XafunMo+cgX2NVpT4vCErFGvLc4uN/VpVJaov5
+GCFJgY3Y2sJe7vZQ67AojXW5J7wE786z1A0PyANHAR5OaChvw+N+pKcOr7XrbhW5Q6CI8SOyKms/
+H5g=
+
+-->

@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/curl" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/lib/curl.xml"/>
+  <feed src="https://apps.0install.net/lib/curl.xml"/>
+  <name>libcurl</name>
+  <summary>libcurl is designed to be a solid, usable, reliable and portable multi-protocol file transfer library.</summary>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g64AAoJECLqERp+QkKkt0QH/iA4u1diY/CCfSKseAOYBdjzqYsV2cNTt8RA
+8jGg6oFjTcWw8/ySbrf7XJMCX/BrtunQHcx6a7YY7h4GyAg5J0GCItIuR8yQQMuzeXWborig1c3x
+lMyhC54TzyZZG7e/z5CHo3XCOX6qm24oeiWEDU+i5nV+LlQm3BFa5iJ99icIbEIUITVpU7qYYVkt
+6fT/BiCzVMvDgetcnGLs0JdcZNduWqBSyxwgfcYAZGCpMRfedn/iw0z+wogZtTysTW0Nzc82yExW
+nvI78zX81SpeggukBnrJkhMu8h4GS/oLKrlSpvv/H5u2zH58dKnuTA+sH/DY9qVd1uZtUy25v3J0
+1to=
+
+-->

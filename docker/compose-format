@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/docker/compose-format" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/docker/compose-format.xml"/>
+  <feed src="https://apps.0install.net/docker/compose-format.xml"/>
+  <name>Docker Compose file format</name>
+  <summary>empty dependency describing the versioning of the Docker Compose file format</summary>
+  <description>Lists all versions of the Docker Compose file format and their compatibility with specific Docker and Docker Compose versions. Useful to ensure Docker Compose files from different feeds to be merged all share the same file format version and are passed to a suitable Docker (Compose) implementation.</description>
+  <homepage>https://docs.docker.com/compose/compose-file/compose-versioning/</homepage>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g60AAoJECLqERp+QkKkL3sH/32852MY5Xleq7Jtn2FBURyVhOVgSJqwub7g
+IK6VbqMgItMPZ9nK97LfgMTCkwx2e1E3tBhDZ7Bqlo8iawj0k5H6vETE+BXjskEFmKqoEGOi+HQB
+WBzT7ZJwJ1IAmFH8oJkXuTlMcD0ajMG+2ycEyZx+k6zfQF0z3zIq5GAugtHcjhoMyKT1q+Ys6S8Q
+9oIP1VJqMjiLcY9ED1xPnBpvE3zU9bjMS8IYtkE1Tnx33fE67WXLXS2KkL8KxO8wGn7QRU6Weu2g
+7+eRCx7qqnt+8INRkDscOwztbCY/9SGG1LKL985Dnhp4vh0j8wCtpOgeKqG6BV6dQsYrEhFmMZ6n
+iOM=
+
+-->

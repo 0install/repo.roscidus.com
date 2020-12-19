@@ -1,0 +1,148 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/utils/gzip" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <replaced-by interface="https://apps.0install.net/utils/gzip.xml"/>
+  <feed src="https://apps.0install.net/utils/gzip.xml"/>
+  <name>Gzip</name>
+  <summary xml:lang="en">Gzip: compress files</summary>
+  <description xml:lang="en">gzip (GNU zip) is a compression utility designed to be a replacement for compress. Its main advantages over compress are much better compression and freedom from patented algorithms. </description>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.png" type="image/png"/>
+  <category>Utility</category>
+  <homepage>http://gnuwin32.sourceforge.net/packages/gzip.htm</homepage>
+  <needs-terminal/>
+  <entry-point binary-name="gzip" command="run">
+    <needs-terminal/>
+  </entry-point>
+  <entry-point binary-name="gunzip" command="gunzip">
+    <needs-terminal/>
+    <name xml:lang="en">gunzip</name>
+    <summary xml:lang="en">expand files</summary>
+  </entry-point>
+  <entry-point binary-name="gzexe" command="gzexe">
+    <name xml:lang="en">gzexe</name>
+    <summary xml:lang="en">Rename each FILE with a compressed version of itself, renaming FILE to FILE~.</summary>
+    <description xml:lang="en">The  gzexe utility allows you to compress executables in
+       place and have them automatically uncompress and execute
+       when  you  run  them (at a penalty in performance).  For
+       example if you execute ``gzexe  /usr/bin/gdb''  it  will
+       create the following two files:
+           -rwxr-xr-x  1 root root 1026675 Jun  7 13:53 /usr/bin/gdb
+           -rwxr-xr-x  1 root root 2304524 May 30 13:02 /usr/bin/gdb~
+       /usr/bin/gdb~  is  the original file and /usr/bin/gdb is
+       the self-uncompressing executable file.  You can  remove
+       /usr/bin/gdb~  once you are sure that /usr/bin/gdb works
+       properly.
+
+       This utility is most useful on systems with  very  small
+       disks.</description>
+  </entry-point>
+  <entry-point binary-name="uncompress" command="uncompress">
+    <needs-terminal/>
+    <name xml:lang="en">uncompress</name>
+    <summary xml:lang="en">expand files</summary>
+  </entry-point>
+  <entry-point binary-name="zcat" command="zcat">
+    <needs-terminal/>
+    <name xml:lang="en">zcat</name>
+    <summary xml:lang="en">expand files</summary>
+  </entry-point>
+  <entry-point binary-name="zcmp" command="zcmp">
+    <needs-terminal/>
+    <name xml:lang="en">zcmp</name>
+    <summary xml:lang="en">Compare FILE1 to FILE2, using their uncompressed contents if they are</summary>
+    <description xml:lang="en">Usage: $0 [OPTION]... FILE1 [FILE2]
+ If FILE2 is omitted, compare FILE1 to the uncompressed
+contents of FILE1.gz.  Do comparisons like cmp does.
+
+OPTIONs are the same as for cmp</description>
+  </entry-point>
+  <entry-point binary-name="zdiff" command="zdiff">
+    <needs-terminal/>
+    <name xml:lang="en">zdiff</name>
+    <summary xml:lang="en">Compare FILE1 to FILE2, using their uncompressed contents if they are</summary>
+    <description xml:lang="en">Usage: $0 [OPTION]... FILE1 [FILE2]
+If FILE2 is omitted, compare FILE1 to the uncompressed
+contents of FILE1.gz.  Do comparisons like diff does.
+
+OPTIONs are the same as for diff</description>
+  </entry-point>
+  <entry-point binary-name="zegrep" command="zegrep">
+    <needs-terminal/>
+    <name xml:lang="en">zegrep</name>
+    <summary xml:lang="en">Look for instances of PATTERN in the input FILEs, using their</summary>
+    <description xml:lang="en">Usage: $0 [OPTION]... [-e] PATTERN [FILE]...
+
+OPTIONs are the same as for 'grep'.
+</description>
+  </entry-point>
+  <entry-point binary-name="zfgrep" command="zfgrep">
+    <needs-terminal/>
+    <name xml:lang="en">zfgrep</name>
+    <summary xml:lang="en">Look for instances of PATTERN in the input FILEs, using their</summary>
+    <description xml:lang="en">Usage: $0 [OPTION]... [-e] PATTERN [FILE]...
+
+OPTIONs are the same as for 'grep'.
+</description>
+  </entry-point>
+  <entry-point binary-name="zgrep" command="zgrep">
+    <needs-terminal/>
+    <name xml:lang="en">zgrep</name>
+    <summary xml:lang="en">Look for instances of PATTERN in the input FILEs, using their</summary>
+    <description xml:lang="en">Usage: $0 [OPTION]... [-e] PATTERN [FILE]...
+
+OPTIONs are the same as for 'grep'.
+</description>
+  </entry-point>
+  <entry-point binary-name="zforce" command="zforce">
+    <needs-terminal/>
+    <name xml:lang="en">zforce</name>
+    <summary xml:lang="en">Force a .gz extension on all compressed FILEs so that gzip will</summary>
+    <description xml:lang="en">Usage: $0 [FILE]...
+</description>
+  </entry-point>
+  <entry-point binary-name="zless" command="zless">
+    <needs-terminal/>
+    <name xml:lang="en">zless</name>
+    <summary xml:lang="en">Like 'less', but operate on the uncompressed contents of any compressed FILEs.</summary>
+    <description xml:lang="en">Usage: $0 [OPTION]... [FILE]...
+
+Options are the same as for 'less'.
+</description>
+  </entry-point>
+  <entry-point binary-name="zmore" command="zmore">
+    <needs-terminal/>
+    <name xml:lang="en">zmore</name>
+    <summary xml:lang="en">Like 'more', but operate on the uncompressed contents of any compressed FILEs.</summary>
+    <description xml:lang="en">Usage: $0 [OPTION]... [FILE]...
+
+</description>
+  </entry-point>
+  <entry-point binary-name="znew" command="znew">
+    <needs-terminal/>
+    <name xml:lang="en">znew</name>
+    <summary xml:lang="en">Recompress files from .Z (compress) format to .gz (gzip) format.</summary>
+    <description xml:lang="en">Usage: $0 [OPTION]... [FILE]...
+
+Options:
+
+  -f     Force recompression even if a .gz file already exists.
+  -t     Test the new files before deleting originals.
+  -v     Verbose; display name and statistics for each file compressed.
+  -9     Use the slowest compression method (optimal compression).
+  -P     Use pipes for the conversion to reduce disk space usage.
+  -K     Keep a .Z file when it is smaller than the .gz file.
+      --help     display this help and exit
+      --version  output version information and exit
+</description>
+  </entry-point>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g69AAoJECLqERp+QkKkWd8IAKko0cMXkkShBZIQiHgbbparvc5c4Y8ZOtdJ
+Bch1Pyx56c25WlN2cpV2J66fB3SiiE1mZIPjY24OkVcSUjqlJ+yXMBisKPAxPS7DPB/p6thXdk0L
+89upkduHlPe3b6KToGXQznub/wqFlxyIfDekcKNYgkrE/3c8b0H+JzjM1ntgsguX1hYJwG8y8CA/
+hp4xt/ldx8WPRbeJMp+b5f/A59SmS7381Ar3sfTC+PNWx1iu8fImhOE3XjAlJ2FnRvAaq0GwpBQY
+2s0BOJguAaOUV2ng9amBo+La9lFkAj2EABwS27R5n2OYyhF/kGkpSTEmBF/iZPwNJJnUREzXefDw
+gzs=
+
+-->

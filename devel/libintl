@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/devel/libintl" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <replaced-by interface="https://apps.0install.net/devel/libintl.xml"/>
+  <feed src="https://apps.0install.net/devel/libintl.xml"/>
+  <name>libintl</name>
+  <summary xml:lang="en">library for native language support</summary>
+  <description xml:lang="en">Libintl is a library that provides native language support to programs. It is part of Gettext. </description>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.ico" type="image/vnd.microsoft.icon"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.png" type="image/png"/>
+  <category>Development</category>
+  <homepage>http://gnuwin32.sourceforge.net/packages/libintl.htm</homepage>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g6zAAoJECLqERp+QkKknTIIAJWecjjhJD3Agqgtnyj3nrx1z2G/omZ6OdJC
+SILzA16IHR8zT3TuD+Pqdp8vVzNopPkwrgErQ1zIstFz0CKXIU+oil/7ZCCRFzgWq0Ltp+wS1rHW
+ae6aCzyw4ZxcqYLqK8ulc7YM8b6vzd7LuhtwUNztYO4lV9iJ1pIQXzMV8kbLrO7FPzB2UuVG97Ws
+QWZ4Pck+rdptgs+kFLFrgAB+cuEquKWONqNTppmYlua37gQ6sQ4gIodwstJXzJlVxKniLmgb2vNz
+iYxopZx7PvCUjo36nu/2ePPISfklixQdKFW7dg6xP7451EP/rxbByzAmE22tl17gqg0R0eL/rBsd
+IzM=
+
+-->

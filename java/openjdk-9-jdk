@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/java/openjdk-9-jdk" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/java/openjdk-9.xml"/>
+  <feed src="https://apps.0install.net/java/openjdk-9.xml"/>
+  <name>openjdk-9-jdk</name>
+  <summary>OpenJDK Development Kit (JDK)</summary>
+  <description>OpenJDK is a development environment for building applications, applets, and
+components using the Java programming language.</description>
+  <homepage>http://jdk.java.net/9/</homepage>
+  <category>Development</category>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g63AAoJECLqERp+QkKkOxkH/1/ZaT3eA0jEo89dCDHbFn5LD6NwPqfD5y37
+vmhviFwEOb4X/JL8HROeKyGl/xbnoUAQQcjoZYDSBreUlbwa3jPoEsMvJpBnouSELnd5oPOqaeM+
+Mv7YvOmQGXRyQa/amuOe6d2IRAXYR5aLoJ6FmI6ru5l5JgUeg1uszfezJem67o2bTEY0+axow3Ma
+MFSgz9jKVWa109wUkE/HPyJDtOqXpsjPPc7kYiGrS/R0RmVkESYfG/uyTPiCE4YmATC5ubMfQLbf
+EwAhBnG27vbfx4+tC802ZhiiI00N6EjxvcIbIQ/duxAyk2uak+jn1gwTgbG2yMU5fIN0796t5uDd
+lkU=
+
+-->

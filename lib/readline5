@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/lib/readline5" xmlns="http://zero-install.sourceforge.net/2004/injector/interface" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://zero-install.sourceforge.net/2004/injector/interface http://0install.de/schema/injector/interface/interface.xsd http://0install.de/schema/desktop-integration/capabilities http://0install.de/schema/desktop-integration/capabilities/capabilities.xsd">
+  <replaced-by interface="https://apps.0install.net/lib/readline5.xml"/>
+  <feed src="https://apps.0install.net/lib/readline5.xml"/>
+  <name>Readline</name>
+  <summary xml:lang="en">Readline: edit command lines </summary>
+  <description xml:lang="en">The GNU Readline library provides a set of functions for use by applications that allow users to edit command lines as they are typed in. Both Emacs and vi editing modes are available. The Readline library includes additional functions to maintain a list of previously-entered command lines, to recall and perhaps reedit those lines, and perform csh-like history expansion on previous commands. 
+
+The history facilites are also placed into a separate library, the History library, as part of the build process. The History library may be used without Readline in applications which desire its capabilities. 
+</description>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/0install.de-feeds/master/Gow.ico" type="image/vnd.microsoft.icon"/>
+  <homepage>http://gnuwin32.sourceforge.net/packages/readline.htm</homepage>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g66AAoJECLqERp+QkKkxBYH+wbGWl3w6X5hkIGIhBPBf1O/v5I+PJy/QtQx
+zjcH6vrp4TYFGQXPk6xFon0G7dd6GlL7vqIwk86lCA72hjvFszrutnDpZSYfxlcTYhP3qe9A8K5W
+M3Gde0SybXxGBKCk8ifWU4vlce6GoLmiQOYcYi8/+V2umvMEhIdA+6QvB9dp/lLUq0r3k/nG07nB
+BLladPfAw5kIXA5BDkgzMnRzmghBOBHqwYVMsPq3ZIomMNtTP61frt8bQdhKdqOqvbWC68R73u2T
+CDQ4JXxxBlHawBr/33MYcFr29hzM/9FfFGhUNsPQxQH+v/gcRo/nctoifQ7r7SRO6O9wrFBGe60S
+b24=
+
+-->

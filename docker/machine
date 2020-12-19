@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/docker/machine" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/docker/machine.xml"/>
+  <feed src="https://apps.0install.net/docker/machine.xml"/>
+  <name>Docker Machine</name>
+  <summary>machine management for a container-centric world</summary>
+  <description>Docker Machine is a tool that lets you install Docker Engine on virtual hosts, and manage the hosts with docker-machine commands. You can use Machine to create Docker hosts on your local Mac or Windows box, on your company network, in your data center, or on cloud providers like Azure, AWS, or Digital Ocean.</description>
+  <homepage>https://docs.docker.com/machine/</homepage>
+  <needs-terminal/>
+
+  <icon href="https://docs.docker.com/machine/img/logo.png" type="image/png"/>
+
+  <entry-point binary-name="docker-machine" command="run"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g60AAoJECLqERp+QkKkRR4IAKWVS4SAA+sJAC6TzePNSki66+JPRGVzFQug
+W22BpKc021v86N52m42gminSMN+TvoVDjtTWbjUrAG+nXTGuC7ozlgnbPdC/VJhdXrSVq1r76ia4
+b8nlJsiIveFp75Rwj+5v1l3XQDzlQrCtxbqly3DfATcoRDz5bjReBjxw4H2waAnou12v0YH+rMde
+dGwnPNu8bn4VDo8CaVgs1EMKcpi/TQDpSPg8fBIbb4Kwf7UNR2TUNbv1qKnixTF5Z1HfoNXZ7+J7
+APhnPl8Li5BBBmccvg9XZ/fA5xEYd+87SwG0eW1gNWQU03vH65eBarndtgosPHY5Rt8vPUzAKe8r
+9jo=
+
+-->

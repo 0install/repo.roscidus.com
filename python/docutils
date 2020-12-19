@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/python/docutils" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/python/docutils.xml"/>
+  <feed src="https://apps.0install.net/python/docutils.xml"/>
+  <name>python-docutils</name>
+  <summary>processes plaintext into HTML, XML, LaTeX, etc</summary>
+  <description>
+Docutils is an open-source text processing system for processing plaintext
+documentation into useful formats, such as HTML, LaTeX, man-pages, open-document
+or XML. It includes reStructuredText, the easy to read, easy to use, what-you-
+see-is-what-you-get plaintext markup language.</description>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g67AAoJECLqERp+QkKkMz0H/ArqQOZLzBf1lzF45R/BxHoXnaczPiAnPCd0
+jfRpvzSpRJS+dZJTNwZKOL2aCxn4ubGZPmaQSe21Rwh8rI1o1Zyp5JLeYHNyoFSsNrFpsJZuMOuO
+q+EJmxw7FlihmBcpJK83Nju+9AlFPD+hxCyt19o9MtAjkOCMNBgmdEizWV+02fAfg7nSdffKLB/P
+hhz/DRerTTf4ZxP3Ifz+hp61BBokFl0r1SFKlRlrRytPpPmMV67UFJLqnsrlP/ccnxkBiHVegDes
+1afMpmYCtgVlcHZcSJrE8atxYhWo+p9+67gu0d5QVilLfUVI0dEZn48eCQkD5ynoSk2hmBhcWY1C
+TD4=
+
+-->

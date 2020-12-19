@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/java/ant" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/java/ant.xml"/>
+  <feed src="https://apps.0install.net/java/ant.xml"/>
+  <name>Apache Ant</name>
+  <summary>pure Java build tool</summary>
+  <homepage>http://ant.apache.org/</homepage>
+  <category>Development</category>
+  <needs-terminal/>
+  <entry-point binary-name="ant" command="run"/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g62AAoJECLqERp+QkKkWvoH/0hNZ7Ef1wwO1inOVCxLC0h5us2UBagomqQA
+DoZRIiXUy6Hy4qWbi6QsF5MVxODETNPczddTcg1P/25pN7DN1FNhcEAIjc4OIFBWHnavOy5fqh5j
+edZtXyNE7/VBd5b9aycLg+K6E2ih7sYwYu+Q91SpgNLrYMXdnQcPg/JCKCuzYHHml3nCTwAiDnUU
+sRfm/0eANzJVQljVlaTFFl8NLk2Oih6zE9oKY0ZMCDovKoskccz2VhhO4ermuA0ZlTRbXfMpRzN2
+EDV+tuWD3ocnIg6R1fiX7j3cHLStAwhPKLbGpubjeO+pF6neI+JLPKuEcRyn+c/THvVLOtiYqth8
+Hig=
+
+-->

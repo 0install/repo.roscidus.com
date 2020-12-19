@@ -1,0 +1,53 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/java/kotlin" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/java/kotlin.xml"/>
+  <feed src="https://apps.0install.net/java/kotlin.xml"/>
+  <name>Kotlin</name>
+  <summary>statically typed programming language for modern multiplatform applications</summary>
+  <description>Kotlin is a statically typed programming language for modern multiplatform applications. 100% interoperable with Java and Android.</description>
+  <homepage>http://kotlinlang.org/</homepage>
+  <category>Development</category>
+  <needs-terminal/>
+
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/java/kotlin.png" type="image/png"/>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/java/kotlin.ico" type="image/vnd.microsoft.icon"/>
+
+  <entry-point binary-name="kotlin" command="run">
+    <needs-terminal/>
+    <name>Kotlin interpreter</name>
+  </entry-point>
+  <entry-point command="kotlinc">
+    <needs-terminal/>
+    <name>Kotlin compiler</name>
+  </entry-point>
+  <entry-point command="kotlinc-jvm">
+    <needs-terminal/>
+    <name>Kotlin JVM compiler</name>
+  </entry-point>
+  <entry-point command="kotlinc-js">
+    <needs-terminal/>
+    <name>Kotlin JavaScript compiler</name>
+  </entry-point>
+  <entry-point command="kotlin-dce-js">
+    <needs-terminal/>
+    <name>Kotlin dead code elimination JavaScript compiler</name>
+  </entry-point>
+
+  <capabilities xmlns="http://0install.de/schema/desktop-integration/capabilities">
+    <file-type id="Kotlin.Code">
+      <description>Kotlin Code File</description>
+      <verb args="&quot;%1&quot;" name="open"/>
+      <extension value=".kt"/>
+    </file-type>
+  </capabilities>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g62AAoJECLqERp+QkKk2CQH/3S5pyFNgatOjL0i8XHftYAAicHn73sCxio5
+ay59vLDTCT73rQIBnnbeY5dyDQCwuSGRSPxTEFCLfZgdBWerDud0m4a21HzB6i/MOJ5iHxtn+Kzs
+A2PaynakVsmKrNnqDkBzwm3IhFtDSZGkr3XlPGpTNUj/AHtqijsr+hSd1YGhz4Bx7PCi0Sm8vomR
+MLCsl2aNUEe9xMfCUcx7Ag4sogcVVhXC/UiELSB7WWFovFrYN+aattyMnP9HWo+pWUE0FcU/uNvW
+uUw5dZ6YjMx0WRfOkKLBzequsBLdfXm86TrdOvXAb8M7s6J0SQisa4ve7QolQw3KpIIWPZQkgsGH
+8p0=
+
+-->

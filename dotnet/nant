@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type='text/xsl' href='../resources/feed.xsl'?>
+<interface uri="http://repo.roscidus.com/dotnet/nant" xmlns="http://zero-install.sourceforge.net/2004/injector/interface">
+  <replaced-by interface="https://apps.0install.net/dotnet/nant.xml"/>
+  <feed src="https://apps.0install.net/dotnet/nant.xml"/>
+  <name>NAnt</name>
+  <summary>free .NET build tool</summary>
+  <description>NAnt is a free .NET build tool. In theory it is kind of like make without make's wrinkles. In practice it's a lot like Ant.</description>
+  <icon href="https://raw.githubusercontent.com/0install/apps.0install.net/master/dotnet/nant.png" type="image/png"/>
+  <category>Development</category>
+  <category>Utility</category>
+  <homepage>http://nant.sourceforge.net/</homepage>
+  <needs-terminal/>
+</interface>
+<!-- Base64 Signature
+iQEcBAABAgAGBQJf3g60AAoJECLqERp+QkKkFL4IAKe4/uZtHUsmEtVdymsIez1ukND65MciFCpw
+bKDryE7V2B/kQKvOwECxA1tvwkM7Mo7cCwzFRUKgLDF9aOWhoBQCcD+itmoVUdH/S6NzrkIOOBbk
+e/iEVqlCo0IHzrH92Tt5yae9JWALZgcpY8Dc+IWo78mZEJocw2cE7nMuZTfYVGz7GUpd3M+Rozeq
+E2lk3gFd9bLsJenkcMIqF4QTsKXba9y5i6H34Hc5p51E+uOKcjG8rq7cCITg5+Bf+fyZ4+cY+S+H
+qRMoVqYsx8xDcnH82jxoDzkiTgoSzVT7oCceSrD2gaBpHnfQKIsRLu4AMlCEzfRT6bZi7wxothLj
+eYs=
+
+-->
