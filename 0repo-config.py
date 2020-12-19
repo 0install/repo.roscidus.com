@@ -12,7 +12,7 @@ REPOSITORY_BASE_URL = "http://repo.roscidus.com/"
 # Git commits it makes. The fingerprint preceeded by "0x" is the most precise
 # way to identity a key (see "HOW TO SPECIFY A USER ID" in the gpg(1) man-page
 # for other options).
-GPG_SIGNING_KEY = None if os.getenv('CI') else "0xAC9B973549D819AE22BCD08D22EA111A7E4242A4"
+GPG_SIGNING_KEY = None if os.getenv('NO_SIGN') else "0xAC9B973549D819AE22BCD08D22EA111A7E4242A4"
 
 # If set, XML feeds in the "incoming" directory and any Git pull requests must be signed by one of
 # these keys, otherwise they will be rejected. For local use, this can be set to None so that the
@@ -33,22 +33,15 @@ TRACK_TESTING_IMPLS = False
 # also the current directory.
 # 'message' can be used if you want to log the reason for the update.
 def upload_public_dir(files, message):
-	if os.getenv('CI'):
-		print "Just a CI run; not uploading public"
+	subprocess.check_call(['git', 'config', 'user.name', 'apps.0install.net'])
+	subprocess.check_call(['git', 'config', 'user.email', 'webmaster@0install.net'])
+	subprocess.check_call(['git', 'add', '--', 'archives.db'] + files)
+	changed = subprocess.call(['git', 'diff', '--exit-code', '--stat', 'HEAD'])
+	if changed:
+		subprocess.check_call(['git', 'commit', '-m', message])
+		print("Changes to public committed. Remember to push!")
 	else:
-		shutil.copyfile('../archives.db', 'archives.db')
-		# Make sure Git is tracking any new files
-		subprocess.check_call(['git', 'add', '--', 'archives.db'] + files)
-		# Display full diffs for modified files (excludes new files)
-		subprocess.check_call(['git', 'diff', '--diff-filter=M', 'HEAD', '--'] + files)
-		# Display a summary of all changes (including new files)
-		changed = subprocess.call(['git', 'diff', '--exit-code', '--stat', 'HEAD', '--'] + files)
-		if changed:
-			raw_input("Press Return to commit and push the above changes. CTRL-C to abort.")
-			subprocess.check_call(['git', 'commit', '-m', message, '--', 'archives.db'] + files)
-			subprocess.check_call(['git', 'push'])
-		else:
-			print("No changes to public, so not pushing.")
+		print("No changes to public.")
 
 #### Archive hosting ####
 
@@ -94,14 +87,15 @@ def guess_mime_type(name):
 # If any target files already exist, overwrite them (we will retry if uploading
 # fails part way through).
 def upload_archives(archives):
-	if os.getenv('CI'):
-		print "Just a CI run; not uploading archives"
+	if os.getenv('NO_SIGN'):
+		print("Feeds not signed; not uploading archives")
 	else:
-		from urllib.request import Request, urlopen
+		from urllib import request
 		for archive in archives:
+			print("Uploading " + archive.rel_url)
 			with open(archive.source_path, 'br') as file:
-				urlopen(Request(
-					'https://uploads.github.com/repos/0install/repo.roscidus.com/releases/22625859/assets?name=' + archive.rel_url,
+				request.urlopen(request.Request(
+					'https://uploads.github.com/repos/0install/apps/releases/22408464/assets?name=' + archive.rel_url,
 					file.read(),
 					headers={
 						'Content-Type': guess_mime_type(archive.rel_url),
@@ -152,8 +146,6 @@ def check_new_impl(impl):
 # You might want to change this if you have a strange naming scheme (e.g. feed
 # URLs ending in "/" or without an extension). The result must end in '.xml'.
 def get_feeds_rel_path(uri_rel_path):
-	if uri_rel_path == 'python/python/upstream.xml':
-		return 'python/python-upstream.xml'.replace('/', os.sep)
 	assert not uri_rel_path.endswith('/'), uri_rel_path
 	assert not uri_rel_path.endswith('.xml'), uri_rel_path
 	return uri_rel_path.replace('/', os.sep) + '.xml'
@@ -168,10 +160,8 @@ def get_feeds_rel_path(uri_rel_path):
 # as "public/games/my-game/feed.xml" and configure Apache to make it appear as
 # "http://example.com/games/my-game".
 def get_public_rel_path(feeds_rel_path):
-	if feeds_rel_path == 'python/python-upstream.xml'.replace('/', os.sep):
-		return 'python/python/upstream.xml'
 	assert feeds_rel_path.endswith('.xml')
-	return feeds_rel_path[:-4] + '/feed.xml'
+	return feeds_rel_path[:-4]
 
 # When 0install fetches a feed http://.../prog.xml, it looks for the GPG key
 # at http://.../KEY.gpg.
@@ -186,7 +176,7 @@ def get_public_rel_path(feeds_rel_path):
 # Finally, if you use mod_rewrite so that all key requests are routed to the
 # right place automatically by Apache, you can set this to None and avoid
 # generating any symlinks.
-GPG_PUBLIC_KEY_DIRECTORY = None
+GPG_PUBLIC_KEY_DIRECTORY = "."
 
 # This for archives uploaded and managed by 0repo itself.
 def check_uploaded_archive(archive, url): pass
